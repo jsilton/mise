@@ -35,16 +35,20 @@ equipment:
   - blender
   - sheet-pan
 prepTime: 15 min
-cookTime: 20–25 min
-totalTime: '35–45 min, plus any remaining preheating'
+cookTime: 25 min
+totalTime: 40 min
 servings: 4 portions
 pairsWith:
-  - chicken-souvlaki
+  - baked-chicken-parmesan
   - chicken-piccata-unfried
-  - san-marzano-tomato-sauce
+  - chicken-souvlaki
+pairingNotes:
+  baked-chicken-parmesan: 'A sharp, garlicky salad beside cheesy chicken.'
+  chicken-piccata-unfried: 'Lemon on lemon, with crunch from the chickpeas.'
+  chicken-souvlaki: Hearty greens next to grilled lemony chicken.
 ingredients:
-  - '--- Kale and massage ---'
-  - '1 large bunch lacinato kale, washed, dried, tough stems removed and shredded'
+  - '--- Kale ---'
+  - '1 large bunch lacinato kale, stems removed, leaves thinly sliced'
   - 1 tsp olive oil
   - 'kosher salt, a pinch'
   - '--- Roasted chickpeas ---'
@@ -59,11 +63,10 @@ ingredients:
   - '2 garlic cloves, grated'
   - 2 tbsp fresh lemon juice
   - 1 tsp Dijon mustard
-  - '1 tsp anchovy paste, or 2 oil-packed anchovy fillets, minced'
+  - '2 oil-packed anchovy fillets, minced'
   - 1/4 cup water
   - 1/4 tsp kosher salt
   - 1/4 tsp black pepper
-  - 'additional water, as needed for thinning, optional'
   - '--- Toppings ---'
   - '1/2 cup Parmesan, shaved or grated'
   - 'lemon zest, to taste'
@@ -74,7 +77,7 @@ formula:
     unit: portion
   components:
     - id: kale
-      name: Kale and massage
+      name: Kale
       ingredients:
         - id: leaves
           key: leaves
@@ -86,7 +89,7 @@ formula:
             - step: massage
               share: 1
           plural: large bunches lacinato kale
-          preparation: 'washed, dried, tough stems removed and shredded'
+          preparation: 'stems removed, leaves thinly sliced'
         - id: massage-oil
           key: massage-oil
           name: olive oil
@@ -132,7 +135,7 @@ formula:
           key: salt
           name: kosher salt
           quantity:
-            amount: 0.5
+            amount: 1/2
             unit: tsp
           uses:
             - step: roast
@@ -141,7 +144,7 @@ formula:
           key: paprika
           name: paprika
           quantity:
-            amount: 0.25
+            amount: 1/4
             unit: tsp
           uses:
             - step: roast
@@ -150,7 +153,7 @@ formula:
           key: garlic
           name: garlic powder
           quantity:
-            amount: 0.25
+            amount: 1/4
             unit: tsp
           uses:
             - step: roast
@@ -169,7 +172,7 @@ formula:
           key: oil
           name: extra-virgin olive oil
           quantity:
-            amount: 0.25
+            amount: 1/4
             unit: cup
           uses:
             - step: blend
@@ -205,19 +208,20 @@ formula:
               share: 1
         - id: anchovy
           key: anchovy
-          name: anchovy paste
+          name: oil-packed anchovy fillet
+          plural: oil-packed anchovy fillets
           quantity:
-            amount: 1
-            unit: tsp
+            amount: 2
+            unit: count
           uses:
             - step: blend
               share: 1
-          preparation: 'or 2 oil-packed anchovy fillets, minced'
+          preparation: minced
         - id: water
           key: water
           name: water
           quantity:
-            amount: 0.25
+            amount: 1/4
             unit: cup
           uses:
             - step: blend
@@ -235,19 +239,11 @@ formula:
           key: pepper
           name: black pepper
           quantity:
-            amount: 0.25
+            amount: 1/4
             unit: tsp
           uses:
             - step: blend
               share: 1
-        - id: extra-water
-          key: extra-water
-          name: additional water
-          allowance: as needed for thinning
-          uses:
-            - step: blend
-              share: 1
-          optional: true
     - id: top
       name: Toppings
       ingredients:
@@ -259,9 +255,9 @@ formula:
             unit: cup
           uses:
             - step: blend
-              share: 0.25
+              share: 1/4
             - step: finish
-              share: 0.75
+              share: 3/4
           preparation: shaved or grated
         - id: zest
           key: zest
@@ -272,98 +268,61 @@ formula:
               share: 1
   steps:
     - id: roast
-      title: Roast chickpeas
+      title: Roast the chickpeas
       text: >-
-        Preheat to 425°F. Toss {{ingredients}} together on a sheet; spread in one layer. Roast about
-        20–25 minutes, shaking halfway, until golden. Cool on the sheet and assess texture after
-        cooling.
-    - id: massage
-      title: Massage kale
-      text: >-
-        Use {{ingredients}}: massage the washed shredded leaves with the separate oil and salt for
-        about 2 minutes until softened.
+        Heat the oven to 425°F. Toss {{ingredients}} on a sheet pan and spread them in one layer.
+        Roast, shaking the pan halfway, until golden and crisp, 20 to 25 minutes. Let them cool on
+        the pan.
     - id: blend
-      title: Blend dressing
+      title: Blend the dressing
       text: >-
-        Blend {{ingredients}} until smooth, using the additional water only as needed for a pourable
-        dressing. The anchovy and Parmesan bring salt of their own, so taste before adding more
-        salt.
+        While the chickpeas roast, blend {{ingredients}} until smooth and pourable. Add a splash
+        more water if it's too thick. Taste before adding any salt, since the anchovy and cheese are
+        salty.
+    - id: massage
+      title: Massage the kale
+      text: >-
+        Put {{ingredients}} in a large bowl. Squeeze and rub the kale with your hands until it turns
+        darker and softens, about 2 minutes.
     - id: toss
-      title: Toss
-      text: Toss all the prepared dressing through the softened kale.
-    - id: finish
-      title: Finish
-      text: 'Add {{ingredients}} and all the cooled roasted chickpeas.'
-    - id: rest
-      title: Rest and serve
+      title: Dress the kale
       text: >-
-        Rest about 5 minutes, then serve. Refrigerate components promptly when holding; keep
-        chickpeas separate for storage.
+        Pour the dressing over the kale and toss until every leaf is coated. Let it sit for 5
+        minutes to soften a little more.
+    - id: finish
+      title: Top and serve
+      text: 'Scatter {{ingredients}} over the salad, top with the cooled chickpeas and serve.'
 learning:
-  focus: Separate crisp and dressed components
-  outcome: Softened kale with evenly distributed dressing and a chickpea topping added near service.
   techniques:
     - seasoning
     - browning
     - cold-preparation
-  before:
-    - >-
-      The extra teaspoon of massage oil in the original-batch method is separate from the full
-      tablespoon for chickpeas and quarter cup for dressing; all three supplies remain.
-    - >-
-      Drain each 15 oz chickpea can; the package size stays fixed while the number of cans scales.
-      Prepare enough sheets for one layer. In the original batch, 2 tbsp of the Parmesan goes into
-      the dressing and the rest tops the salad.
-  checkpoints:
-    - step: 1
-      cue: Chickpeas are golden outside; assess their texture after cooling.
-      why: Wet or crowded chickpeas need longer and do not all become crisp on an identical clock.
-    - step: 3
-      cue: Smooth pourable dressing without chunks of garlic.
-      why: The cold dressing should coat the leaves evenly.
-  troubleshooting:
-    - problem: Chickpeas soften after tossing.
-      cause: Moisture from the dressing reaches the roasted surface.
-      fix: >-
-        Keep remaining chickpeas separate and add at service; do not promise that an already dressed
-        topping will remain crisp.
   substitutions:
-    - ingredient: Anchovy paste
-      alternative: '1 tsp white miso or soy sauce, for a vegetarian dressing'
-      effect: >-
-        Keeps a savory depth, but loses the briny, fishy backbone that makes a Caesar taste like a
-        Caesar.
-  timing: >-
-    About 15 minutes hands-on preparation overlaps the 20–25-minute roast. Cooling plus the 5-minute
-    final rest makes roughly 35–45 minutes elapsed for one load; scaled loads can take longer. The
-    oven must reach 425°F before loading; any preheating beyond preparation extends elapsed time.
+    - ingredient: Lacinato kale
+      alternative: Curly kale
+      effect: Chewier and a little more bitter. Massage it a minute longer.
+    - ingredient: Oil-packed anchovy fillets
+      alternative: 1 tsp anchovy paste
+      effect: 'Same savory, briny flavor with nothing to mince.'
+    - ingredient: 'Anchovy, for a vegetarian dressing'
+      alternative: 1 tsp white miso
+      effect: Keeps a savory depth but loses the briny backbone of a true Caesar.
   storage: >-
-    Refrigerate the freshly blended garlic dressing and washed kale promptly at 40°F / 4°C or below;
-    use dressing within the original 3-day plan. Refrigerate cooked chickpeas in a separate shallow
-    container and use within 3–4 days; their original 2-day make-ahead plan is a quality choice, not
-    permission for room-temperature storage. Do not assume lemon juice makes the garlic-oil mixture
-    shelf stable. Add chickpeas near service.
-  sources:
-    - title: FDA produce preparation
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
-    - title: FoodSafety.gov cold handling and leftovers
-      url: 'https://www.foodsafety.gov/blog/game-day-food-safety-tips'
-    - title: CDC garlic and herb oils
-      url: 'https://www.cdc.gov/botulism/prevention/index.html'
+    Dressed kale keeps 1 day in the fridge and the dressing alone keeps 3 days. Store the chickpeas
+    separately, loosely covered at room temperature, for up to 2 days so they stay crisp.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Dry chickpeas roast more readily than wet ones. Anchovy and Parmesan blended into the dressing give it a true Caesar flavor rather than a plain lemon vinaigrette. Massage the kale until it softens, then toss with the dressing; add chickpeas near serving so they keep more of their crunch.
+This Caesar swaps romaine for lacinato kale, which stands up to a garlicky anchovy and Parmesan dressing and even holds a day after dressing. Roasted chickpeas take the place of croutons. Pat them very dry before roasting so they turn crisp instead of chewy.
 
 ## Directions
 
-1. **Roast chickpeas:** Preheat to 425°F. Toss chickpeas, olive oil, kosher salt, paprika, garlic powder, and black pepper together on a sheet; spread in one layer. Roast about 20–25 minutes, shaking halfway, until golden. Cool on the sheet and assess texture after cooling.
-2. **Massage kale:** Use large bunch lacinato kale, olive oil, and kosher salt: massage the washed shredded leaves with the separate oil and salt for about 2 minutes until softened.
-3. **Blend dressing:** Blend extra-virgin olive oil, garlic cloves, fresh lemon juice, Dijon mustard, anchovy paste, water, kosher salt, black pepper, additional water (if using), and 1/4 of the Parmesan until smooth, using the additional water only as needed for a pourable dressing. The anchovy and Parmesan bring salt of their own, so taste before adding more salt.
-4. **Toss:** Toss all the prepared dressing through the softened kale.
-5. **Finish:** Add 3/4 of the Parmesan and lemon zest and all the cooled roasted chickpeas.
-6. **Rest and serve:** Rest about 5 minutes, then serve. Refrigerate components promptly when holding; keep chickpeas separate for storage.
+1. **Roast the chickpeas:** Heat the oven to 425°F. Toss chickpeas, olive oil, kosher salt, paprika, garlic powder, and black pepper on a sheet pan and spread them in one layer. Roast, shaking the pan halfway, until golden and crisp, 20 to 25 minutes. Let them cool on the pan.
+2. **Blend the dressing:** While the chickpeas roast, blend extra-virgin olive oil, garlic cloves, fresh lemon juice, Dijon mustard, oil-packed anchovy fillets, water, kosher salt, black pepper, and 1/4 of the Parmesan until smooth and pourable. Add a splash more water if it's too thick. Taste before adding any salt, since the anchovy and cheese are salty.
+3. **Massage the kale:** Put large bunch lacinato kale, olive oil, and kosher salt in a large bowl. Squeeze and rub the kale with your hands until it turns darker and softens, about 2 minutes.
+4. **Dress the kale:** Pour the dressing over the kale and toss until every leaf is coated. Let it sit for 5 minutes to soften a little more.
+5. **Top and serve:** Scatter 3/4 of the Parmesan and lemon zest over the salad, top with the cooled chickpeas and serve.

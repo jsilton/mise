@@ -21,29 +21,33 @@ cuisines:
 role: main
 vibe: quick
 prepTime: 10 min
-cookTime: 'About 20–30 min, depending on browning and simmering'
-totalTime: 'About 30–40 min, plus separately prepared rice or naan'
+cookTime: 25 min
+totalTime: 35 min
 servings: 4 portions
 pairsWith:
-  - basmati-rice
-  - cucumber-raita
   - naan
+  - kachumber-salad
+  - cucumber-raita
+pairingNotes:
+  naan: Warm bread to scoop up the keema.
+  kachumber-salad: 'A cool, lemony chopped salad against the spiced lamb.'
+  cucumber-raita: Cool yogurt to tame the chili.
 ingredients:
-  - '1 lb ground lamb, raw, fresh or fully thawed'
-  - 1 cup frozen peas
-  - '1 large yellow onion, peeled and finely diced'
+  - 1 lb ground lamb
+  - 1 tsp cumin seeds
+  - '1 large yellow onion, finely diced'
   - 1 tsp kosher salt
   - '1 tbsp fresh ginger, grated'
-  - '1 tbsp fresh garlic, minced'
-  - 1 tsp cumin seeds
-  - 1 tsp turmeric
-  - 1 tsp garam masala
+  - '1 tbsp garlic, minced'
+  - 1 tsp ground turmeric
   - 1 tsp Kashmiri chili powder
   - 1 tbsp tomato paste
-  - '1/4 cup water, approximately, to keep the mixture saucy'
-  - '1/2 lemon, washed and juiced'
-  - 'fresh cilantro, as wanted for finishing, washed and chopped'
-  - 'kosher salt, more to taste at the finish'
+  - 1 cup frozen peas
+  - 1/4 cup water
+  - 1 tsp garam masala
+  - '1/2 lemon, juiced'
+  - 'fresh cilantro, chopped, for finishing'
+  - 'kosher salt, to taste'
 seasons:
   - year-round
 nutritionalDensity: moderate
@@ -66,9 +70,84 @@ formula:
           quantity:
             amount: 1
             unit: lb
-          preparation: 'raw, fresh or fully thawed'
           uses:
             - step: brown
+              share: 1
+        - id: cumin
+          key: cumin
+          name: cumin seeds
+          quantity:
+            amount: 1
+            unit: tsp
+          uses:
+            - step: cumin
+              share: 1
+        - id: onion
+          key: onion
+          name: large yellow onion
+          plural: large yellow onions
+          quantity:
+            amount: 1
+            unit: count
+          preparation: finely diced
+          uses:
+            - step: onion
+              share: 1
+        - id: salt
+          key: salt
+          name: kosher salt
+          quantity:
+            amount: 1
+            unit: tsp
+          uses:
+            - step: onion
+              share: 1
+        - id: ginger
+          key: ginger
+          name: fresh ginger
+          quantity:
+            amount: 1
+            unit: tbsp
+          preparation: grated
+          uses:
+            - step: spices
+              share: 1
+        - id: garlic
+          key: garlic
+          name: garlic
+          quantity:
+            amount: 1
+            unit: tbsp
+          preparation: minced
+          uses:
+            - step: spices
+              share: 1
+        - id: turmeric
+          key: turmeric
+          name: ground turmeric
+          quantity:
+            amount: 1
+            unit: tsp
+          uses:
+            - step: spices
+              share: 1
+        - id: chili
+          key: chili
+          name: Kashmiri chili powder
+          quantity:
+            amount: 1
+            unit: tsp
+          uses:
+            - step: spices
+              share: 1
+        - id: paste
+          key: paste
+          name: tomato paste
+          quantity:
+            amount: 1
+            unit: tbsp
+          uses:
+            - step: spices
               share: 1
         - id: peas
           key: peas
@@ -79,63 +158,15 @@ formula:
           uses:
             - step: simmer
               share: 1
-        - id: onion
-          key: onion
-          name: large yellow onion
-          plural: large yellow onions
+        - id: water
+          key: water
+          name: water
           quantity:
-            amount: 1
-            unit: count
-          preparation: peeled and finely diced
+            amount: 1/4
+            unit: cup
+          role: cooking-water
           uses:
-            - step: aromatics
-              share: 1
-        - id: salt
-          key: salt
-          name: kosher salt
-          quantity:
-            amount: 1
-            unit: tsp
-          uses:
-            - step: aromatics
-              share: 1
-        - id: ginger
-          key: ginger
-          name: fresh ginger
-          quantity:
-            amount: 1
-            unit: tbsp
-          preparation: grated
-          uses:
-            - step: aromatics
-              share: 1
-        - id: garlic
-          key: garlic
-          name: fresh garlic
-          quantity:
-            amount: 1
-            unit: tbsp
-          preparation: minced
-          uses:
-            - step: aromatics
-              share: 1
-        - id: cumin
-          key: cumin
-          name: cumin seeds
-          quantity:
-            amount: 1
-            unit: tsp
-          uses:
-            - step: aromatics
-              share: 1
-        - id: turmeric
-          key: turmeric
-          name: turmeric
-          quantity:
-            amount: 1
-            unit: tsp
-          uses:
-            - step: bloom
+            - step: simmer
               share: 1
         - id: garam
           key: garam
@@ -146,35 +177,6 @@ formula:
           uses:
             - step: finish
               share: 1
-        - id: chili
-          key: chili
-          name: Kashmiri chili powder
-          quantity:
-            amount: 1
-            unit: tsp
-          uses:
-            - step: bloom
-              share: 1
-        - id: paste
-          key: paste
-          name: tomato paste
-          quantity:
-            amount: 1
-            unit: tbsp
-          uses:
-            - step: bloom
-              share: 1
-        - id: water
-          key: water
-          name: water
-          quantity:
-            amount: 1/4
-            unit: cup
-          preparation: 'approximately, to keep the mixture saucy'
-          role: cooking-water
-          uses:
-            - step: simmer
-              share: 1
         - id: lemon
           key: lemon
           name: lemon
@@ -182,15 +184,14 @@ formula:
           quantity:
             amount: 1/2
             unit: count
-          preparation: washed and juiced
+          preparation: juiced
           uses:
             - step: finish
               share: 1
         - id: cilantro
           key: cilantro
           name: fresh cilantro
-          allowance: as wanted for finishing
-          preparation: washed and chopped
+          allowance: 'chopped, for finishing'
           role: garnish
           uses:
             - step: finish
@@ -198,7 +199,7 @@ formula:
         - id: finish-salt
           key: finish-salt
           name: kosher salt
-          allowance: more to taste at the finish
+          allowance: to taste
           uses:
             - step: finish
               share: 1
@@ -206,120 +207,60 @@ formula:
     - id: brown
       title: Brown the lamb
       text: >-
-        Heat a large skillet and use {{ingredients}}, breaking it into small pieces as its fat
-        renders. Cook until browned, adjusting heat to avoid blackened patches. Keep the full
-        rendered fat in the pan. Use a vessel with room to stir the listed batch; for more meat use
-        extra pans or loads and divide every ingredient proportionally.
-    - id: aromatics
+        Heat a large skillet over medium-high heat. Add {{ingredients}} and cook, breaking it into
+        small pieces, until browned and the fat has rendered, 6 to 8 minutes. Keep the fat in the
+        pan.
+    - id: cumin
+      title: Bloom the cumin
+      text: >-
+        Push the lamb to one side. Add {{ingredients}} to the pooled fat and let them sizzle until
+        fragrant and a shade darker, 20 to 30 seconds.
+    - id: onion
       title: Soften the onion
       text: >-
-        Have {{ingredients}} ready. Push the lamb to one side, add the cumin seeds to the pooled
-        rendered fat and let them sizzle 20–30 seconds until fragrant and a shade darker. Add the
-        diced onion and the measured salt and cook about 5 minutes as a first check until the onion
-        softens, stirring and lowering heat if it catches. Stir in all the ginger and garlic and
-        sauté 30–45 seconds until fragrant without scorching.
-    - id: bloom
-      title: Add spices and tomato paste
+        Add {{ingredients}} and stir everything together. Lower the heat to medium and cook,
+        stirring often, until the onion is soft, about 5 minutes.
+    - id: spices
+      title: Cook the spices
       text: >-
-        Stir in {{ingredients}} and cook about 1 minute, stirring constantly, until fragrant without
-        burning. The garam masala remains for the finish.
+        Add {{ingredients}}. Cook, stirring constantly, until fragrant and the tomato paste darkens,
+        about 1 minute.
     - id: simmer
-      title: Cook the peas and finish the lamb
+      title: Simmer the peas
       text: >-
-        Add {{ingredients}}, cover and simmer gently, beginning checks around 5 minutes. Stir to
-        distribute heat and continue until peas are hot and tender, following any package cooking
-        directions, and the ground-lamb mixture reaches 160°F in several places with a food
-        thermometer. A brown exterior and the covered clock do not establish the meat endpoint.
+        Add {{ingredients}}, cover and simmer gently until the peas are tender and the sauce clings
+        to the lamb, about 5 minutes. Add a splash more water if the pan looks dry.
     - id: finish
-      title: Finish the seasoning
+      title: Finish and serve
       text: >-
-        Once the lamb is fully cooked, stir in {{ingredients}}, using all the juice from the
-        measured lemon. Taste and add salt only as needed.
-    - id: serve
-      title: Serve
-      text: >-
-        Serve with separately prepared warm [Naan](/mise/recipes/naan) or [Basmati
-        Rice](/mise/recipes/basmati-rice). Those components have their own amounts and preparation
-        clocks; four portions is the original planning yield.
+        Take the pan off the heat and stir in {{ingredients}}. Taste for salt and lemon and serve
+        hot.
 learning:
-  focus: Render lamb fat and finish ground meat by temperature
-  outcome: 'Saucy browned lamb with tender peas, fragrant spices and a lemon-cilantro finish.'
   techniques:
     - temperature
     - seasoning
-  before:
-    - >-
-      Have all spices measured and vegetables prepared before browning. Cumin seeds bloom in the
-      rendered lamb fat before the onion. Turmeric and chili cook with the tomato paste. Garam
-      masala and lemon belong to the finished cooked mixture.
-    - >-
-      Use enough skillet room for the full listed batch and stir the covered mixture before checking
-      its temperature. Have the turmeric, chili and tomato paste ready for their short fragrant
-      cooking stage.
-  checkpoints:
-    - step: 2
-      cue: Onion softens in the retained lamb fat without blackened garlic.
-      why: >-
-        The onion stage needs its own time; the short garlic-ginger stage comes after onion
-        softening.
-    - step: 4
-      cue: Peas are hot and tender and the stirred ground-lamb mixture reaches 160°F.
-      why: >-
-        Ground meat needs a different endpoint from whole lamb cuts; browned pieces alone are not
-        the temperature check.
-  troubleshooting:
-    - problem: The mixture catches before the peas are tender.
-      cause: Heat is too fierce or a wide pan has evaporated the small water supply rapidly.
-      fix: >-
-        Lower the heat, stir through the bottom and keep covered while continuing to the stated
-        endpoints. A burnt base will make the whole mixture bitter.
   substitutions:
     - ingredient: Kashmiri chili powder
       alternative: 3/4 tsp sweet paprika plus 1/4 tsp cayenne
-      effect: >-
-        A supermarket stand-in that gives similar red color and mild heat, with a little less of
-        Kashmiri chili's fruity depth.
-    - ingredient: 'Kashmiri chili powder, milder option'
-      alternative: Reduce or omit the chili for a milder serving
-      effect: >-
-        Keep all remaining spices, lamb fat, peas and the lemon-cilantro finish; the dish loses some
-        chili color and warmth. No equal-spoon replacement with a different hot chili blend is
-        assumed.
-  timing: >-
-    Allow about 30–40 minutes for the original batch: about 10 minutes preparation and roughly 20–30
-    minutes browning, onion softening, the short aromatic/spice stages, water heat-up and covered
-    pea cooking. Most cooking is attended; extra pans, loads or evaporation corrections extend time.
-    Rice or naan preparation is separate.
-  storage: >-
-    Refrigerate cooked leftovers promptly in shallow containers within 2 hours, or 1 hour above
-    90°F, at 40°F or below. Use within 3–4 days and reheat to 165°F throughout. Stir when reheating
-    the saucy mixture. FDA recommends a boil for reheated sauces and USDA additionally recommends a
-    rolling boil; keep that stage brief rather than reducing the small water supply through
-    prolonged boiling.
-  sources:
-    - title: Mise — Lamb Keema Matar
-      url: >-
-        https://github.com/jsilton/mise/blob/e70d098f3313e29087470fda5e9f65e7336b4bc4/src/content/recipes/lamb-keema-matar.md
-    - title: FDA — Safe food handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: USDA — Cooked leftovers
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+      effect: 'Similar red color and mild heat, with a little less fruity depth.'
+    - ingredient: Ground lamb
+      alternative: Ground beef
+      effect: Milder and less gamy. Choose 85 percent lean so there's enough fat for the spices.
+  storage: Keeps 4 days in the fridge and freezes for 3 months. Reheat in a skillet with a splash of water.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Keema matar pairs spiced ground lamb with sweet peas. Brown the lamb in its own rendered fat, soften the onion in that same pan and add the garam masala near the finish. The small water supply keeps the mixture saucy; lemon and cilantro finish it without discarding the lamb’s richness.
-For kids, serve the heat on the side or reduce or omit the spicy elements.
+Keema matar is a North Indian home favorite of spiced ground lamb and sweet peas, quick enough for a weeknight. Brown the lamb hard, then bloom the cumin seeds in its rendered fat before the onion goes in. Garam masala, lemon and cilantro at the end keep it bright. For kids, cut the chili and serve it on the side.
 
 ## Directions
 
-1. **Brown the lamb:** Heat a large skillet and use ground lamb, breaking it into small pieces as its fat renders. Cook until browned, adjusting heat to avoid blackened patches. Keep the full rendered fat in the pan. Use a vessel with room to stir the listed batch; for more meat use extra pans or loads and divide every ingredient proportionally.
-2. **Soften the onion:** Have large yellow onion, kosher salt, fresh ginger, fresh garlic, and cumin seeds ready. Push the lamb to one side, add the cumin seeds to the pooled rendered fat and let them sizzle 20–30 seconds until fragrant and a shade darker. Add the diced onion and the measured salt and cook about 5 minutes as a first check until the onion softens, stirring and lowering heat if it catches. Stir in all the ginger and garlic and sauté 30–45 seconds until fragrant without scorching.
-3. **Add spices and tomato paste:** Stir in turmeric, Kashmiri chili powder, and tomato paste and cook about 1 minute, stirring constantly, until fragrant without burning. The garam masala remains for the finish.
-4. **Cook the peas and finish the lamb:** Add frozen peas and water, cover and simmer gently, beginning checks around 5 minutes. Stir to distribute heat and continue until peas are hot and tender, following any package cooking directions, and the ground-lamb mixture reaches 160°F in several places with a food thermometer. A brown exterior and the covered clock do not establish the meat endpoint.
-5. **Finish the seasoning:** Once the lamb is fully cooked, stir in garam masala, lemon, fresh cilantro, and kosher salt, using all the juice from the measured lemon. Taste and add salt only as needed.
-6. **Serve:** Serve with separately prepared warm [Naan](/mise/recipes/naan) or [Basmati Rice](/mise/recipes/basmati-rice). Those components have their own amounts and preparation clocks; four portions is the original planning yield.
+1. **Brown the lamb:** Heat a large skillet over medium-high heat. Add ground lamb and cook, breaking it into small pieces, until browned and the fat has rendered, 6 to 8 minutes. Keep the fat in the pan.
+2. **Bloom the cumin:** Push the lamb to one side. Add cumin seeds to the pooled fat and let them sizzle until fragrant and a shade darker, 20 to 30 seconds.
+3. **Soften the onion:** Add large yellow onion and kosher salt and stir everything together. Lower the heat to medium and cook, stirring often, until the onion is soft, about 5 minutes.
+4. **Cook the spices:** Add fresh ginger, garlic, ground turmeric, Kashmiri chili powder, and tomato paste. Cook, stirring constantly, until fragrant and the tomato paste darkens, about 1 minute.
+5. **Simmer the peas:** Add frozen peas and water, cover and simmer gently until the peas are tender and the sauce clings to the lamb, about 5 minutes. Add a splash more water if the pan looks dry.
+6. **Finish and serve:** Take the pan off the heat and stir in garam masala, lemon, fresh cilantro, and kosher salt. Taste for salt and lemon and serve hot.
