@@ -21,7 +21,7 @@ role: condiment
 vibe: quick
 prepTime: 10 min
 cookTime: 7 min
-totalTime: 'About 17 min, plus any remaining broiler preparation and vegetable cooling'
+totalTime: 20 min
 servings: '8'
 seasons:
   - year-round
@@ -30,90 +30,51 @@ leftovers: poor
 equipment:
   - sheet-pan
 pairsWith:
-  - honey-lime-chicken-thighs
   - crispy-black-bean-tacos
   - queso-fundido-with-chorizo
+pairingNotes:
+  crispy-black-bean-tacos: Spoon it over the tacos.
+  queso-fundido-with-chorizo: A cool dip beside the hot, cheesy one.
 ingredients:
-  - 4 ripe Hass Avocados
-  - '2 Jalapeños, halved and seeded'
-  - '3 Roma Tomatoes, halved'
-  - 3 tbsp Fresh Lime Juice (about 2 limes)
-  - 1 tsp Lime Zest
-  - '1/2 medium Red Onion, finely diced'
-  - '2 cloves Garlic, minced'
-  - '1/2 cup Fresh Cilantro, chopped'
-  - >-
-    1 tsp cumin seeds, for toasting and grinding (or 1 tsp ground cumin, for
-    toasting)
-  - 1 tsp Kosher Salt
-  - 2 tbsp Extra-Virgin Olive Oil
-  - 1/2 cup Pomegranate Seeds
-  - Flaky Sea Salt for finishing
-  - High-quality tortilla chips
-  - 'Additional olive oil, optional, for finishing'
-  - 'Additional lime juice and kosher salt, to taste after mixing'
+  - '2 jalapeños, halved and seeded'
+  - '3 Roma tomatoes, halved'
+  - 1 tsp cumin seeds
+  - 4 ripe Hass avocados
+  - 3 tbsp fresh lime juice
+  - 1 tsp lime zest
+  - 2 tbsp extra-virgin olive oil
+  - '1/2 medium red onion, finely diced'
+  - '2 cloves garlic, minced'
+  - '1/2 cup fresh cilantro, chopped'
+  - 1 tsp kosher salt
+  - 1/2 cup pomegranate seeds
+  - 'flaky sea salt, for finishing'
+  - 'tortilla chips, for serving'
 learning:
-  focus: Keep the cumin choice and oil destinations distinct.
-  outcome: Chunky avocado with cooled charred vegetables and fresh pomegranate arils.
   techniques:
     - temperature
     - seasoning
-  before:
-    - >-
-      Wash the produce under running water before cutting; cool the broiled
-      vegetables enough to handle before peeling.
-    - >-
-      The listed lime-juice volume governs; the original about-two-lime estimate
-      varies with fruit size. Scale the measured ingredients, while keeping the
-      same broiler distance and sensory checks.
-  checkpoints:
-    - step: 1
-      cue: The chosen cumin is fragrant without smoke or blackened powder.
-      why: >-
-        Ground spice can scorch sooner than seeds; neither clock alone
-        establishes the endpoint.
-  troubleshooting:
-    - problem: The mash softens while folding in the vegetables.
-      cause: The broiled tomatoes and jalapeños are still hot.
-      fix: >-
-        Cool the chopped vegetables before folding them into the avocado; serve
-        promptly after mixing.
-  timing: >-
-    The original 17-minute plan excludes any extra preheating or longer
-    vegetable cooling. Preparation overlaps broiling; a larger batch may need
-    multiple uncrowded trays.
+  substitutions:
+    - ingredient: Cumin seeds
+      alternative: Ground cumin
+      effect: Toast it in the dry pan for about 20 seconds. The flavor is a little flatter.
   storage: >-
-    Refrigerate promptly at 40°F or below, in shallow covered containers. Count
-    preparation and serving time together; discard perishable food left out over
-    2 hours, or 1 hour above 90°F. For make-ahead color and texture, refrigerate
-    for up to two hours, with wrap touching the surface; it is not a
-    preservation treatment.
-  sources:
-    - title: FDA — Produce preparation
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely
-    - title: FDA — Cold handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-  substitutions: []
+    Best eaten right away. To make it up to 2 hours ahead, press plastic wrap onto the surface and
+    refrigerate.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Broil the tomatoes and jalapeños until their skins blister, then let them cool enough to peel and chop. Toast either the cumin seeds or the ground cumin briefly, watching for fragrance rather than relying on a fixed second count. The full measured olive oil goes into the avocado mash; any finishing drizzle is separate. Scatter the pomegranate arils over the top at serving so their juicy texture stays distinct.
+Broiled jalapeños and tomatoes give this guacamole a smoky sweetness that raw ones can't. Toasted cumin and a little olive oil in the mash carry that smoke through every bite. Pomegranate seeds go on top for color and bright, tart crunch.
 
 ## Directions
 
-1. **The Toast:** If using whole cumin seeds, toast in a dry skillet over medium heat, beginning to check around 30 seconds and stirring until fragrant; remove before they smoke or scorch. Grind in a mortar or spice grinder. If choosing ground cumin instead, stir it in the dry pan and begin checking around 20 seconds; remove as soon as fragrant. Do not toast the same cumin twice.
-
-2. **The Char:** Prepare and heat the broiler according to your oven’s instructions before loading the vegetables. Use a broiler-safe sheet pan and the rack position permitted by your oven, with the vegetables about 6 inches from the element if the oven permits that distance. Place jalapeño and tomato halves cut-side down on a foil-lined sheet pan. Broil for **5-7 minutes** until skins are blistered and blackened in spots. Let cool slightly. Peel off and discard the blackened tomato skins (they can be bitter). Chop the flesh and jalapeños finely.
-
-3. **The Mash:** Scoop avocado flesh into a large bowl. Add lime juice and zest immediately and toss to coat. Add all the measured olive oil. Mash with a fork to desired consistency - slightly chunky is ideal for texture.
-
-4. **The Fold:** Add the chopped charred vegetables, red onion, garlic, cilantro, toasted cumin, and salt. Fold gently until just combined. Taste and use the separate additional salt or lime juice allowances if wanted.
-
-5. **The Finish:** Transfer to serving bowl. Use the separate optional finishing oil for a small drizzle if wanted. Scatter pomegranate seeds over top. Finish with a pinch of flaky salt.
-
-6. **Serve:** Serve immediately with quality tortilla chips. If making ahead, press plastic wrap directly onto the surface and refrigerate up to 2 hours.
+1. **Char the vegetables:** Set an oven rack 6 inches from the broiler and heat it on high. Lay the jalapeños and tomatoes cut side down on a foil-lined sheet pan. Broil until the skins are blistered and blackened in spots, 5 to 7 minutes.
+2. **Toast the cumin:** While the vegetables broil, toast the cumin seeds in a dry skillet over medium heat, stirring, until fragrant, about 30 seconds. Grind them in a mortar or spice grinder.
+3. **Chop the vegetables:** Let the vegetables cool until you can handle them. Peel off the blackened tomato skins, then finely chop the tomatoes and jalapeños.
+4. **Mash the avocado:** Scoop the avocados into a large bowl and toss right away with the lime juice and zest. Add the olive oil and mash with a fork, leaving it a little chunky.
+5. **Fold and season:** Add the chopped vegetables, onion, garlic, cilantro, cumin and kosher salt. Fold gently until just combined. Taste and add more salt or lime.
+6. **Finish and serve:** Spoon into a serving bowl. Scatter the pomegranate seeds over the top, finish with flaky salt and serve with tortilla chips.

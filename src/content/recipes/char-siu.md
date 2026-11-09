@@ -20,7 +20,7 @@ role: main
 vibe: technical
 prepTime: 20 min
 cookTime: 1 hr
-totalTime: 9 hr 30 min
+totalTime: 1 hr 20 min, plus 8 hr marinating
 servings: '8'
 seasons:
   - year-round
@@ -34,10 +34,15 @@ equipment:
   - instant-read-thermometer
   - pastry-brush
 pairsWith:
-  - basmati-rice
+  - steamed-white-rice
   - steamed-bok-choy-with-oyster-sauce
+  - smashed-cucumber-salad
+pairingNotes:
+  steamed-white-rice: Plain rice for the sweet, sticky pork.
+  steamed-bok-choy-with-oyster-sauce: The classic Cantonese green alongside.
+  smashed-cucumber-salad: Cool, garlicky crunch against the rich glaze.
 ingredients:
-  - '3 lbs (1.36 kg) boneless pork shoulder, cut into strips about 2 inches thick'
+  - '3 lb boneless pork shoulder, cut into 2-inch-thick strips'
   - 1/4 cup hoisin sauce
   - 1/4 cup honey
   - 2 tbsp soy sauce
@@ -46,94 +51,52 @@ ingredients:
   - '2 cubes red fermented bean curd (nam yu), mashed, plus 1 tbsp of its liquid'
   - 1 tbsp brown sugar
   - 1 tsp five-spice powder
-  - '3 garlic cloves, finely minced'
+  - '3 cloves garlic, minced'
   - 1/2 tsp white pepper
-  - '1 tsp beet juice, optional for color'
-  - '2 tbsp maltose, warmed with 1 tbsp hot water, for the glaze'
-  - '1 cup water, for the roasting pan, plus more as needed'
+  - 1 tsp beet juice (optional)
+  - '2 tbsp maltose, warmed with 1 tbsp hot water'
+  - '1 cup water, for the pan'
 description: >-
-  Cantonese-style roast pork with a glossy sweet-savory glaze. Learn to manage sugar, meat
-  temperature, and clean basting.
+  Cantonese roast pork with a glossy, sweet and savory red glaze and charred edges.
 learning:
-  focus: Build a glaze without burning it
-  outcome: >-
-    Sliced pork with a lacquered red-brown surface, lightly charred edges, and a measured safe
-    center temperature.
   techniques:
     - browning
     - temperature
-  before:
-    - Cut the pork shoulder into uniform strips and marinate at least 8 hours in the refrigerator.
-    - >-
-      Reserve clean glaze before any marinade touches raw meat. Use separate clean utensils for
-      finishing and serving.
-  checkpoints:
-    - step: 1
-      cue: A separate covered container holds marinade that has never touched raw pork.
-      why: Reserving after coating raw meat would contaminate the finishing glaze.
-    - step: 4
-      cue: The center reaches at least 145°F / 63°C before removal; the surface is deep red-brown.
-      why: 'Glaze color reflects sugar browning, not the temperature inside the pork.'
-    - step: 5
-      cue: 'Glaze bubbles and deepens in color, without widespread blackening.'
-      why: Sugar-rich coatings can progress from caramelized to burnt quickly under a broiler.
-  troubleshooting:
-    - problem: Glaze darkens too early
-      cause: Sugar is exposed to too much direct heat.
-      fix: >-
-        Move the pan lower, reduce oven heat, and loosely shield dark areas with foil while the pork
-        finishes.
-    - problem: Pork is chewy
-      cause: Shoulder contains connective tissue and strip size or cooking time varied.
-      fix: >-
-        Slice thinly across the grain. For future batches use consistent 2-inch strips; this sliced
-        roast should not be judged by pulled-pork tenderness.
   substitutions:
     - ingredient: Red fermented bean curd (nam yu)
       alternative: 1 tbsp white miso
       effect: >-
-        Adds a similar fermented, savory depth but not the red tint. Use the optional beet juice
-        for color.
+        Gives a similar savory, fermented depth but not the red color. Add the beet juice for
+        color.
     - ingredient: Maltose
-      alternative: 2 tbsp honey, thinned with 1 tbsp hot water
-      effect: >-
-        Easier to find and to brush. The glaze is a little less glassy and browns faster, so watch
-        it closely.
+      alternative: Honey, thinned with hot water
+      effect: The glaze is a little less glassy and browns faster, so watch it closely.
+    - ingredient: Shaoxing wine
+      alternative: Dry sherry
+      effect: Close in flavor and easy to find.
     - ingredient: Pork shoulder
       alternative: Pork tenderloin
       effect: >-
-        A leaner, faster-cooking variation requiring a separate temperature-led cook time. Do not
-        use the shoulder schedule unchanged.
-  timing: >-
-    9 hours 30 minutes includes an 8-hour minimum marinade, 20 minutes preparation, about 1 hour
-    cooking, and a 10-minute rest. Overnight marinating extends elapsed time.
+        Leaner and less juicy. It cooks 10 to 15 minutes faster, so pull it when it reaches 145°F.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days and reheat leftovers to 165°F / 74°C. Slice only what you need;
-    reheat covered with a splash of water to limit drying.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: American Chemical Society — Chemistry of grilling
-      url: 'https://www.acs.org/pressroom/reactions/library/grilling.html'
+    Keeps 4 days in the fridge and freezes for 3 months. Reheat slices covered with a splash of
+    water so they stay moist.
   review:
     status: editorial-review
-    date: '2026-09-06'
-source: Adapted from thewoksoflife.com
+    date: '2026-11-09'
+source: Adapted from The Woks of Life
 sourceUrl: 'https://thewoksoflife.com/chinese-bbq-pork-cha-siu/'
 ---
 
 ## Chef's Note
 
-Char siu is a Cantonese roast pork preparation known for its sweet-savory lacquer and charred edges. This home-oven version suspends strips above a little water to keep drippings from scorching; the water does not guarantee juicy meat. Uniform strips, careful glazing, and temperature checks are the useful controls. Red fermented bean curd gives the marinade its savory depth and red tint, and maltose gives the glaze its lacquer.
+Char siu is Cantonese barbecue pork, the glossy red strips that hang in the windows of Chinatown roast shops. Red fermented bean curd gives the marinade its savory depth and color, and a maltose glaze gives the lacquered shine. Roasting the pork on a rack over water keeps the drippings from smoking while the edges char.
 
 ## Directions
 
-1. **Mix and reserve:** Whisk hoisin, honey, soy sauces, wine, mashed red fermented bean curd and its liquid, sugar, five-spice, garlic, pepper, and optional beet juice. Before touching raw pork, place 3 tbsp in a separate covered container and refrigerate for glazing. Coat pork strips with the remaining marinade and refrigerate, covered, at least 8 hours or overnight.
-2. **Prepare the oven:** Heat to 425°F / 220°C. Line a rimmed roasting pan with foil and set a rack inside. Add 1 cup water beneath the rack, without touching the meat. Set pork strips on the rack with space between them. Discard raw-contact marinade.
-3. **Start roasting:** Roast 15 minutes, then turn the strips and reduce oven to 375°F / 190°C. Continue 20 minutes. Check the pan occasionally and carefully add hot water if the bottom is drying out.
-4. **Glaze and measure:** Warm the maltose with its hot water until fluid, stir in the reserved clean glaze and brush it over the pork. Roast another 10–20 minutes, turning and glazing once more, until the thickest part of each strip reaches at least 145°F / 63°C. Times vary with thickness. Do not use raw marinade or pan drippings as an uncooked finishing sauce.
-5. **Char briefly:** If the glaze needs more color, broil briefly, checking every 30 seconds and turning as needed, usually 1–3 minutes total. Skip this if the glaze is already dark. Avoid blackening the entire surface.
-6. **Rest and slice:** Rest for 10 minutes before slicing; whole pork cuts require at least a 3-minute rest after reaching 145°F / 63°C. Slice thinly across the grain and serve with rice and greens.
+1. **Marinate the pork:** Whisk the hoisin, honey, both soy sauces, Shaoxing wine, bean curd and its liquid, brown sugar, five-spice, garlic, white pepper and beet juice. Spoon a little into a small bowl, cover and refrigerate it for the glaze. Coat the pork with the rest, cover and refrigerate at least 8 hours or overnight.
+2. **Set up the pan:** Heat the oven to 425°F. Line a rimmed roasting pan with foil, set a wire rack inside and pour the water into the pan. Lay the pork on the rack with space between the strips and discard the marinade left in the bowl.
+3. **Roast the pork:** Roast for 15 minutes. Turn the strips, lower the oven to 375°F and roast 20 minutes more. Add a little hot water to the pan if it starts to dry out.
+4. **Glaze the pork:** Stir the warm maltose into the reserved marinade and brush it over the pork. Roast, turning and glazing once more, until the glaze is sticky and dark red and the thickest strip reads at least 145°F, 10 to 20 minutes.
+5. **Char the edges:** Turn on the broiler. Broil, turning once and watching closely, until the edges char in spots, 1 to 3 minutes.
+6. **Rest and slice:** Rest the pork for 10 minutes. Slice thinly across the grain.

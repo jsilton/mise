@@ -23,21 +23,25 @@ totalTime: 35 min
 servings: '4'
 pairsWith:
   - seasoned-bean-sprouts
+  - garlic-sesame-spinach
+pairingNotes:
+  seasoned-bean-sprouts: A crunchy Korean banchan beside the noodles.
+  garlic-sesame-spinach: Garlicky greens to round out the bowl.
 ingredients:
-  - 10 oz (280 g) dangmyeon (Korean sweet-potato glass noodles)
-  - 1 lb (450 g) ground chicken
-  - '4 tbsp soy sauce, divided'
+  - 4 tbsp soy sauce, divided
   - 2 tbsp unseasoned rice vinegar
-  - '2 tbsp brown sugar, divided'
+  - 2 tbsp brown sugar, divided
   - 1 tbsp toasted sesame oil
+  - 2 tbsp water
+  - 10 oz dangmyeon (Korean sweet potato glass noodles)
   - 1 tbsp neutral oil
-  - 1 tbsp minced garlic
-  - 1 tbsp grated ginger
-  - '2 tbsp water, plus more for loosening noodles'
-  - '1 bell pepper, seeded and thinly sliced'
+  - 1 lb ground chicken
+  - 1 tbsp garlic, minced
+  - 1 tbsp fresh ginger, grated
+  - '1 bell pepper, thinly sliced'
+  - '1/2 cup fresh cilantro leaves, roughly chopped'
   - 1 tbsp toasted sesame seeds
-  - '1/2 cup loosely packed cilantro leaves, roughly chopped'
-  - '1/2 cup prepared [Oi Muchim](/mise/recipes/korean-pickled-cucumbers), optional topping'
+  - 1/2 cup oi muchim (Korean cucumber salad), for topping (optional)
 origin: Korean-inspired
 seasons:
   - year-round
@@ -57,82 +61,34 @@ dietary:
   - dairy-free
   - egg-free
 learning:
-  focus: Separate the cooking sauce from the noodle dressing
-  outcome: >-
-    Springy noodles coated with a light dressing, moist chicken, and vegetables that keep their
-    crunch.
   techniques:
     - seasoning
     - temperature
-  before:
-    - >-
-      Mix the clean dressing before handling raw chicken. Set out a separate serving bowl and
-      utensils.
-    - >-
-      If using oi muchim, prepare it first or use an already prepared portion; its 30-minute
-      preparation is additional.
-  checkpoints:
-    - step: 2
-      cue: Noodles are flexible and chewy with no hard center.
-      why: >-
-        Dangmyeon brands differ in thickness; the package and a tasted noodle are more useful than
-        one universal boiling time.
-    - step: 4
-      cue: 'Chicken reaches 165°F / 74°C and is lightly glazed, without a pool of sauce.'
-      why: >-
-        The thermometer verifies poultry safety; modest evaporation keeps the filling moist without
-        diluting the salad.
-    - step: 5
-      cue: Dressing coats the noodles and the strands separate when lifted.
-      why: >-
-        Starch-rich noodles firm and stick as they cool. A little water loosens the coating without
-        adding more salt.
-  troubleshooting:
-    - problem: Noodles clump
-      cause: They cooled in a drained heap or absorbed the dressing.
-      fix: >-
-        Separate gently with tongs and add water a tablespoon at a time. Do not keep adding soy
-        sauce.
-    - problem: Chicken is dry
-      cause: The glaze was cooked until the meat became crisp throughout.
-      fix: >-
-        Loosen with a tablespoon of water and stop cooking as soon as the temperature and
-        light-glaze cues are met.
   substitutions:
+    - ingredient: Dangmyeon
+      alternative: Rice vermicelli
+      effect: Softer and less springy. Cook it by the package and rinse it well.
     - ingredient: Ground chicken
-      alternative: '450 g boneless skinless chicken thighs, sliced 1/4 inch thick'
-      effect: >-
-        Cook in two batches if necessary, then glaze. Check the thickest slices reach 165°F / 74°C;
-        allow extra cooking time.
-  timing: >-
-    35 minutes for the noodle salad alone. Prepare optional oi muchim separately; only 1/2 cup is
-    used here, not its full four-portion batch.
+      alternative: Boneless chicken thighs, thinly sliced
+      effect: Meatier bites. Cook in two batches so the slices brown instead of steam.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Store the chicken and noodles
-    separately from fresh herbs, pepper, and cucumber when preparing ahead. Reheated noodles have a
-    softer texture.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    Keeps 3 days in the fridge. Store the herbs and pepper separately, and loosen the noodles with a
+    splash of water before serving.
   review:
     status: editorial-review
-    date: '2026-09-06'
-source: Adapted from cooking.nytimes.com
-sourceUrl: >-
-  https://cooking.nytimes.com/recipes/1024250-chicken-galbi-noodle-salad?smid=ck-recipe-iOS-share
+    date: '2026-11-09'
+source: Adapted from NYT Cooking
+sourceUrl: 'https://cooking.nytimes.com/recipes/1024250-chicken-galbi-noodle-salad'
 ---
 
 ## Chef's Note
 
-This is a Korean-inspired noodle salad with soy, sesame, ginger, and garlic. The old name, “galbi,” suggested a rib dish that this ground-chicken recipe does not make. A cooked glaze seasons the chicken; a separate clean dressing seasons the noodles. Keeping those jobs separate lets you control moisture and salt without using raw-meat marinade as a finishing sauce.
+This NYT Cooking noodle salad borrows the sweet, garlicky soy flavors of Korean galbi and puts them on ground chicken. Chewy sweet potato noodles get their own sesame and vinegar dressing while the chicken cooks down in a quick soy glaze. Crisp pepper, cilantro and cucumber keep it fresh.
 
 ## Directions
 
-1. **Mix two sauces:** In a large serving bowl, dissolve 1 tbsp brown sugar in the vinegar and 2 tbsp soy sauce, then whisk in the sesame oil. In a small bowl, mix the remaining 2 tbsp soy sauce, remaining 1 tbsp sugar, and 2 tbsp water for the chicken.
-2. **Cook the noodles:** Boil dangmyeon according to its package, tasting for a chewy texture without a hard center. Drain, rinse briefly under cool running water, and drain thoroughly. Cut long strands with clean kitchen shears. Toss promptly with the dressing in the serving bowl.
-3. **Cook the chicken:** Heat the neutral oil in a wide skillet over medium-high heat. Add chicken and break it into small pieces. Cook about 5–7 minutes, stirring occasionally, until most visible moisture has evaporated and some edges are golden.
-4. **Glaze:** Lower heat to medium. Add garlic and ginger and stir for 30 seconds. Add the small bowl of cooking sauce and simmer 2–3 minutes, stirring. Check several thick clusters of chicken reach 165°F / 74°C, keeping the thermometer tip off the pan. Continue cooking if needed. Leave a thin glaze rather than cooking the meat dry.
-5. **Toss and finish:** Add the cooked chicken to the noodles. Fold in pepper, cilantro, and sesame seeds. If the noodles stick, loosen with water a tablespoon at a time. Divide among four bowls and top each with 2 tbsp prepared oi muchim if using. Serve promptly, warm or cool.
+1. **Make the dressing:** In a large serving bowl, whisk half the soy sauce and half the brown sugar with the vinegar until the sugar dissolves, then whisk in the sesame oil. In a small bowl, mix the rest of the soy sauce and sugar with the water for the chicken.
+2. **Cook the noodles:** Boil the noodles until chewy with no hard center, following the package, usually 6 to 8 minutes. Drain, rinse under cool water and drain well. Snip them into shorter lengths with kitchen shears and toss right away with the dressing.
+3. **Brown the chicken:** Heat the neutral oil in a wide skillet over medium-high heat. Add the chicken and break it into small pieces. Cook, stirring now and then, until the liquid cooks off and some edges are golden, 5 to 7 minutes.
+4. **Glaze the chicken:** Lower the heat to medium. Stir in the garlic and ginger for 30 seconds. Add the soy and water mixture and simmer, stirring, until the chicken is lightly glazed and reaches 165°F, 2 to 3 minutes.
+5. **Toss and serve:** Add the chicken to the noodles and fold in the pepper, cilantro and sesame seeds. Loosen with a splash of water if the noodles stick. Serve warm or at room temperature, topped with the oi muchim.
