@@ -6,93 +6,56 @@ vibe: quick
 difficulty: easy
 prepTime: 15 min
 cookTime: 12 min
-totalTime: '35 min, including cooling'
+totalTime: 35 min
 servings: 6 portions
 cookingMethods:
   - grill
   - toss
 categories: []
-source: Skinnytaste.com
+source: Adapted from Skinnytaste
 ingredients:
-  - '--- Choose one corn-size option ---'
-  - '6 large ears of corn, optional'
-  - '7 medium ears of corn, optional'
-  - '--- Salad ---'
+  - '6 large ears of corn, shucked'
   - '1/4 cup red onion, chopped'
   - 2 tbsp extra-virgin olive oil
   - 2 tbsp fresh lime juice
   - '1/2 cup feta, crumbled'
-  - 'fresh mint, cilantro or parsley, as desired, washed, dried and chopped'
+  - 'fresh mint, cilantro or parsley, a small handful, chopped'
   - 1/4 tsp kosher salt
   - 'black pepper, to taste'
 sourceUrl: 'https://www.skinnytaste.com/grilled-corn-salad-with-feta/'
 cuisines:
   - American
+pairsWith:
+  - grilled-pork-and-peaches
+  - turkey-burgers
+  - bbq-chicken-sliders
+pairingNotes:
+  grilled-pork-and-peaches: A summer grill plate with peaches and corn.
+  turkey-burgers: A fresh cookout side for burgers.
+  bbq-chicken-sliders: Sweet corn and feta with smoky barbecue chicken.
 learning:
-  focus: Choose one corn count and cool before cutting
-  outcome: 'Whole sweet kernels with feta, onion, herbs and the full olive-oil dressing.'
   techniques:
     - temperature
-  before:
-    - >-
-      Use enough pans or batches to keep the stated single layer. Divide the full listed ingredients
-      among vessels; temperatures and piece thickness stay the same when scaling, while extra loads
-      add time.
-    - >-
-      Choose only one corn-size option in the ingredient list and shopping list. Source counts
-      describe alternate ear sizes, not weights to combine.
-    - Wash and dry the fresh herbs before chopping; keep the feta refrigerated until tossing.
-  checkpoints:
-    - step: 1
-      cue: 'The kernels are tender with charred spots, and the ears are cool enough to grip safely.'
-      why: Char and handling temperature are separate checks.
-    - step: 2
-      cue: 'All kernels, onion, feta and oil are evenly lifted through the bowl.'
-      why: A cramped bowl can leave the oil and cheese concentrated at the bottom.
-  troubleshooting:
-    - problem: Corn browns before the kernels are tender
-      cause: The heat source colors the surface before the kernels cook through.
-      fix: >-
-        Turn the ears and move them away from the strongest heat, or lower the heat. Continue until
-        a kernel is tender, checking frequently.
-  timing: >-
-    The current 35-minute plan includes roughly 15 minutes preparation, 10–12 minutes or longer
-    grilling and brief cooling before cutting. Grill preheating, hot ears and additional batches can
-    add time. The one-day grilled-corn option adds refrigerator storage, not counter holding.
   substitutions:
-    - ingredient: Corn size
-      alternative: >-
-        Use the listed large-ear count OR the listed medium-ear count, not both; both choices scale
-        in the ingredient list.
-      effect: The corn-size choices use different ear counts; actual kernel yield varies.
     - ingredient: Fresh lime juice
-      alternative: 1 tbsp red wine vinegar
-      effect: 'Still brightens the sweet corn, with a sharper, less floral tang than lime.'
+      alternative: Red wine vinegar
+      effect: 'Use 1 tbsp. It still brightens the sweet corn, with a sharper tang than lime.'
   storage: >-
-    Serve warm or cold. Refrigerate the corn and feta mixture promptly within 2 hours, or 1 hour
-    above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days. For warm leftover service,
-    reheat the portion to 165°F / 74°C; cold service does not require warming.
-  sources:
-    - title: Skinnytaste — Grilled Corn Salad with Feta
-      url: 'https://www.skinnytaste.com/grilled-corn-salad-with-feta/'
-    - title: FDA — Safe Food Handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: USDA FSIS — Leftovers and Food Safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Keeps 3 days in the fridge. Serve it cold or at room temperature. You can also grill the corn a
+    day ahead and toss the salad on the day.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 formula:
   version: 1
   yield:
     amount: 6
     unit: portion
   components:
-    - id: corn
-      name: Choose one corn-size option
+    - id: salad
+      name: Grilled corn salad
       ingredients:
-        - id: large-corn
+        - id: corn
           key: large-corn
           name: large ear of corn
           quantity:
@@ -102,21 +65,7 @@ formula:
             - step: grill
               share: 1
           plural: large ears of corn
-          optional: true
-        - id: medium-corn
-          key: medium-corn
-          name: medium ear of corn
-          quantity:
-            amount: 7
-            unit: count
-          uses:
-            - step: grill
-              share: 1
-          plural: medium ears of corn
-          optional: true
-    - id: salad
-      name: Salad
-      ingredients:
+          preparation: shucked
         - id: onion
           key: onion
           name: red onion
@@ -158,11 +107,11 @@ formula:
         - id: herbs
           key: herbs
           name: 'fresh mint, cilantro or parsley'
-          allowance: as desired
+          allowance: a small handful
           uses:
             - step: season
               share: 1
-          preparation: 'washed, dried and chopped'
+          preparation: chopped
         - id: salt
           key: salt
           name: kosher salt
@@ -181,34 +130,28 @@ formula:
               share: 1
   steps:
     - id: grill
-      title: Choose and grill corn
+      title: Grill the corn
       text: >-
-        Choose ONE of {{ingredients}}: the large-ear count OR the medium-ear count, not both. Husk
-        and remove silk. Heat the grill to medium-high following its instructions. Grill the chosen
-        ears in one layer, turning often, starting checks around 10–12 minutes until tender with
-        charred spots. Use batches if needed. Transfer to a clean board and cool until safe to
-        handle.
+        Heat a grill to medium-high. Grill the {{ingredients}}, turning often, until the kernels are
+        tender and charred in spots, 10 to 12 minutes. Let the ears cool until you can handle them.
+    - id: cut
+      title: Cut the kernels
+      text: Stand each ear upright in a wide bowl and cut the kernels off the cob.
     - id: toss
-      title: Cut and toss
-      text: >-
-        With the cooled ears held securely on a board or in a wide bowl, cut off all the kernels.
-        Toss all the kernels with {{ingredients}} in a bowl large enough to lift and turn the full
-        mixture.
+      title: Dress the corn
+      text: 'Add {{ingredients}} to the kernels and toss well.'
     - id: season
       title: Season and serve
-      text: >-
-        Toss {{ingredients}} through all the corn mixture. Serve warm or cold; keep refrigerated if
-        waiting for a cold service. For the source make-ahead route, grill corn one day before
-        assembly, cool promptly in shallow portions and refrigerate covered; cut kernels and
-        assemble on serving day.
+      text: 'Toss in {{ingredients}}. Taste for salt and serve warm or cold.'
 ---
 
 ## Chef's Note
 
-Grill until the kernels are tender and charred in spots, then cool enough to handle before cutting them off. Choose either the large-ear or medium-ear count. Toss in all the olive oil, lime juice, onion and feta before the herbs and seasoning.
+Grilled sweet corn, salty feta and a little red onion, tossed with olive oil and lime, make a simple summer side from Skinnytaste. Let the corn char in spots on the grill for a smoky edge, and add the herbs last so they stay fresh and green.
 
 ## Directions
 
-1. **Choose and grill corn:** Choose ONE of large ears of corn (if using) and medium ears of corn (if using): the large-ear count OR the medium-ear count, not both. Husk and remove silk. Heat the grill to medium-high following its instructions. Grill the chosen ears in one layer, turning often, starting checks around 10–12 minutes until tender with charred spots. Use batches if needed. Transfer to a clean board and cool until safe to handle.
-2. **Cut and toss:** With the cooled ears held securely on a board or in a wide bowl, cut off all the kernels. Toss all the kernels with red onion, extra-virgin olive oil, fresh lime juice, and feta in a bowl large enough to lift and turn the full mixture.
-3. **Season and serve:** Toss fresh mint, cilantro or parsley, kosher salt, and black pepper through all the corn mixture. Serve warm or cold; keep refrigerated if waiting for a cold service. For the source make-ahead route, grill corn one day before assembly, cool promptly in shallow portions and refrigerate covered; cut kernels and assemble on serving day.
+1. **Grill the corn:** Heat a grill to medium-high. Grill the large ears of corn, turning often, until the kernels are tender and charred in spots, 10 to 12 minutes. Let the ears cool until you can handle them.
+2. **Cut the kernels:** Stand each ear upright in a wide bowl and cut the kernels off the cob.
+3. **Dress the corn:** Add red onion, extra-virgin olive oil, fresh lime juice, and feta to the kernels and toss well.
+4. **Season and serve:** Toss in fresh mint, cilantro or parsley, kosher salt, and black pepper. Taste for salt and serve warm or cold.

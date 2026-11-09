@@ -24,72 +24,44 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
-prepTime: 5–10 min
+prepTime: 5 min
 cookTime: 0 min
-totalTime: 5–10 min
+totalTime: 5 min
 servings: '1'
 pairsWith:
-  - granola
-  - easy-breakfast-yogurt-popsicles
-  - easy-chia-pudding
+  - green-smoothie-for-kids-with-2-hidden-veggies
+pairingNotes:
+  green-smoothie-for-kids-with-2-hidden-veggies: A fruit-and-greens smoothie for a fuller breakfast.
 ingredients:
-  - 1 cup Plain Full-Fat Greek Yogurt
-  - 1/3 cup Granola
-  - '1/2 cup Mixed Fresh Berries (blueberries, raspberries, strawberries)'
-  - 1 tbsp Honey or Maple Syrup
-  - 1 tbsp Chia Seeds or Hemp Hearts
-  - 1 tbsp Sliced Almonds or Chopped Walnuts
-  - '1/2 Banana, sliced (optional)'
+  - 1 cup plain full-fat Greek yogurt
+  - '1/2 cup mixed fresh berries, such as blueberries, raspberries and sliced strawberries'
+  - '1/2 banana, sliced (optional)'
+  - '1/3 cup [granola](/mise/recipes/granola)'
+  - 1 tbsp sliced almonds or chopped walnuts
+  - 1 tbsp chia seeds
+  - 1 tbsp honey
 learning:
-  focus: Keep crunchy toppings separate until yogurt-bowl assembly
-  outcome: A full-fat yogurt base with evenly distributed fruit and distinct crunchy toppings.
   techniques:
     - seasoning
-  before:
-    - >-
-      Use gluten-free granola if that is required; unspecified granola does not make the whole bowl
-      gluten-free.
-    - Keep dairy refrigerated and wash/drain berries before assembly.
-  checkpoints:
-    - step: 3
-      cue: Granola is still crisp at serving and the nuts and chosen seeds are distributed.
-      why: Wet fruit and yogurt soften granola during a long assembled hold.
-  troubleshooting:
-    - problem: Granola is soft
-      cause: The bowl was assembled too far ahead.
-      fix: Eat it as a softer bowl now; store granola separately for future portions.
-  timing: >-
-    Allow about 5–10 minutes with ready granola, including washing and draining berries. Preparing
-    homemade granola is a separate task and adds its cooking/cooling time.
-  storage: >-
-    Keep yogurt and prepared fruit refrigerated at 40°F / 4°C or below; follow their remaining
-    storage limits. For make-ahead portions keep granola, nuts and seeds separate until serving. Do
-    not extend a yogurt product’s storage clock by assembling the bowl.
-  sources:
-    - title: Mise — Greek Yogurt Bowl
-      url: >-
-        https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/greek-yogurt-bowl.md
-    - title: FDA — washing produce
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
-    - title: FDA — cold holding and perishable food handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
+  substitutions:
+    - ingredient: Chia seeds
+      alternative: Hemp hearts
+      effect: Nuttier and softer. They stay the same as the bowl sits instead of turning gel-like.
+    - ingredient: Honey
+      alternative: Maple syrup
+      effect: A deeper caramel sweetness in place of the floral honey.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Use the full-fat Greek yogurt as the thick base. Add washed fruit, then keep granola, nuts and the chosen seeds near the surface for texture. Chia seeds soften as they stand in yogurt; hemp hearts are a distinct listed alternative rather than an instruction to add both.
+A good yogurt bowl starts with thick, tangy full-fat Greek yogurt, which holds its toppings without turning soupy. Layer the fruit first and the granola last so the crunch stays on top, and finish with a drizzle of honey.
 
 ## Directions
 
-1. **Base:** Spoon all the measured Greek yogurt into bowls for the listed portions.
-
-2. **Fruit:** Wash and drain the berries; cut large strawberries into bite-sized pieces. Divide all the berries and optional sliced banana over the yogurt.
-
-3. **Crunch:** Divide all the measured granola, chosen almonds or walnuts, and chosen chia seeds or hemp hearts over the fruit. Keep granola toward the surface.
-
-4. **Sweeten:** Divide all the measured honey or maple syrup over the bowls.
-
-5. **Serve:** Serve promptly for the contrast of creamy yogurt, fruit and crunchy toppings. Granola and chia change texture while standing.
+1. **Spoon in the yogurt:** Spoon the yogurt into a bowl and smooth it into an even layer.
+2. **Add the fruit:** Scatter the berries and banana over the yogurt.
+3. **Add the crunch:** Sprinkle the granola, nuts and chia seeds over the fruit.
+4. **Drizzle and serve:** Drizzle the honey over the top and eat right away, while the granola is crisp.

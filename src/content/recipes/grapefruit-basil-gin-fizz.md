@@ -29,26 +29,22 @@ role: drink
 vibe: quick
 prepTime: 5 min
 cookTime: 0 min
-totalTime: About 5 min
+totalTime: 5 min
 servings: 1 portion
 ingredients:
-  - '--- Basil ---'
-  - '5–6 fresh basil leaves, whole'
-  - '--- Gin and grapefruit ---'
+  - 5–6 fresh basil leaves
   - 2 oz London dry gin
   - 3/4 cup fresh pink grapefruit juice
-  - 'large ice cubes, as needed for serving, leaving liquid headroom'
-  - '--- Sparkling finish ---'
-  - 1/4 cup tonic water or seltzer
-  - 3 dashes of aromatic bitters
+  - 'large ice cubes, for serving'
+  - 1/4 cup tonic water
+  - 'Angostura bitters, 3 dashes'
   - 1 fresh basil sprig
 origin: United States
 pairsWith:
-  - herb-marinated-pork-tenderloins
-  - roasted-fall-harvest-salad
-  - roasted-root-vegetables
-  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
-source: Adapted from rachaelraymag.com
+  - grilled-chicken-with-herbed-corn-salsa
+pairingNotes:
+  grilled-chicken-with-herbed-corn-salsa: Basil and citrus for a summer cookout.
+source: Adapted from Rachael Ray Magazine
 sourceUrl: 'https://www.rachaelraymag.com/recipe/grapefruit-basil-gin-fiz'
 formula:
   version: 1
@@ -56,8 +52,8 @@ formula:
     amount: 1
     unit: portion
   components:
-    - id: basil
-      name: Basil
+    - id: drink
+      name: Grapefruit-basil gin fizz
       ingredients:
         - id: basil
           key: basil
@@ -67,13 +63,9 @@ formula:
             amount: 5
             max: 6
             unit: count
-          preparation: whole
           uses:
             - step: muddle
               share: 1
-    - id: base
-      name: Gin and grapefruit
-      ingredients:
         - id: gin
           key: gin
           name: London dry gin
@@ -95,16 +87,14 @@ formula:
         - id: ice
           key: ice
           name: large ice cubes
-          allowance: 'as needed for serving, leaving liquid headroom'
+          allowance: for serving
+          role: cooking-water
           uses:
-            - step: base
+            - step: ice
               share: 1
-    - id: finish
-      name: Sparkling finish
-      ingredients:
         - id: sparkle
           key: sparkle
-          name: tonic water or seltzer
+          name: tonic water
           quantity:
             amount: 1/4
             unit: cup
@@ -113,13 +103,10 @@ formula:
               share: 1
         - id: bitters
           key: bitters
-          name: dash of aromatic bitters
-          plural: dashes of aromatic bitters
-          quantity:
-            amount: 3
-            unit: count
+          name: Angostura bitters
+          allowance: 3 dashes
           uses:
-            - step: finish
+            - step: bitters
               share: 1
         - id: sprig
           key: sprig
@@ -128,90 +115,54 @@ formula:
           quantity:
             amount: 1
             unit: count
+          role: garnish
           uses:
-            - step: finish
+            - step: garnish
               share: 1
   steps:
-    - id: prep
-      title: Choose the glass
-      text: >-
-        Wash the basil and use a tall glass large enough for the full drink and ice. The original
-        liquid amounts total 10 fluid ounces before melted ice; do not fill a small glass to the
-        brim with ice first. Use a larger glass rather than omit juice or tonic.
     - id: muddle
       title: Press the basil
       text: >-
-        Put {{ingredients}} in the glass. Press gently with a muddler or the back of a spoon just
-        until fragrant, without grinding the leaves to a paste.
+        Put {{ingredients}} in a tall 16-ounce glass. Press them gently with a muddler or the back
+        of a spoon until fragrant, about 10 seconds, without grinding them to a paste.
+    - id: ice
+      title: Add the ice
+      text: 'Fill the glass about two-thirds full with {{ingredients}}.'
     - id: base
-      title: Add the base and ice
-      text: >-
-        Add {{ingredients}}. Leave room for the measured sparkling finish and stir the gin and
-        grapefruit together.
+      title: Add the gin and juice
+      text: 'Pour in {{ingredients}} and stir twice.'
     - id: finish
-      title: Finish gently
+      title: Top with tonic
+      text: "Top with {{ingredients}} and don't stir again, so the drink keeps its fizz."
+    - id: bitters
+      title: Add the bitters
+      text: 'Shake {{ingredients}} onto the surface.'
+    - id: garnish
+      title: Garnish
       text: >-
-        Add {{ingredients}}: pour in the tonic or seltzer, then give one gentle lift with the spoon
-        if the layers remain separate. Add the measured bitters on the surface. Lightly clap the
-        basil sprig between your hands and tuck it into the glass. Serve promptly.
+        Clap the {{ingredients}} between your palms to release its scent and tuck it into the ice.
+        Serve right away.
 learning:
-  focus: Leave room for a generous juice portion and a sparkling finish
-  outcome: A gently mixed grapefruit drink with fragrant basil and lively bubbles.
   techniques:
     - temperature
-  before:
-    - >-
-      Each full original portion needs room for nominally 10 fluid ounces of liquid, plus bitters,
-      ice and headroom. Choose the glass before adding ice.
-    - 'Choose tonic or seltzer deliberately: they do not have identical sweetness or bitterness.'
-    - >-
-      Build each full portion in its own glass, with room for the listed gin, grapefruit juice,
-      sparkling finish and ice. Keep the per-glass proportions when preparing more portions; add
-      tonic or seltzer gently at service.
-  checkpoints:
-    - step: 2
-      cue: Basil smells fragrant rather than being ground to paste.
-      why: Gentle pressing releases aroma without making the drink full of leaf pulp.
-    - step: 4
-      cue: All measured sparkling liquid fits and the base is integrated.
-      why: >-
-        An overfilled glass would force a formula change; one gentle movement can mix layers without
-        vigorous stirring.
-  troubleshooting:
-    - problem: Drink will not fit
-      cause: Too much ice was packed into a small glass.
-      fix: >-
-        Transfer the whole drink to a larger glass and add the remaining measured liquid; keep every
-        original amount.
   substitutions:
     - ingredient: Tonic water
-      alternative: The listed seltzer option
-      effect: >-
-        Removes tonic sweetness and bitterness; it is a different flavor, not a claim of identical
-        balance.
-  timing: >-
-    About five minutes with cold ingredients ready. Larger quantities need separate glasses and more
-    assembly time.
-  storage: >-
-    Build near serving. Keep the juice and prepared basil refrigerated; add ice and sparkling liquid
-    at service.
-  sources:
-    - title: Dave Arnold — instrumented ice and dilution experiments
-      url: 'https://www.cookingissues.com/index.html%3Fp=4585.html'
-    - title: Adapted from rachaelraymag.com
-      url: 'https://www.rachaelraymag.com/recipe/grapefruit-basil-gin-fiz'
+      alternative: Seltzer
+      effect: 'Drier and less bitter, so the grapefruit tastes sharper.'
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Grapefruit, gin and fresh basil make a tall drink with a generous juice portion. Gently press the whole basil leaves until fragrant, stir the still ingredients together, then add tonic or seltzer gently. Tonic contributes its own sweetness and bitterness; seltzer makes a different, drier finish.
+This tall, pink drink is mostly fresh grapefruit juice, with gin and a little tonic to lift it. Pressing whole basil leaves in the glass gives the drink a fresh, peppery smell without green flecks, and a few dashes of Angostura on top tie the bitter tonic to the sweet citrus.
 
 ## Directions
 
-1. **Choose the glass:** Wash the basil and use a tall glass large enough for the full drink and ice. The original liquid amounts total 10 fluid ounces before melted ice; do not fill a small glass to the brim with ice first. Use a larger glass rather than omit juice or tonic.
-2. **Press the basil:** Put fresh basil leaves in the glass. Press gently with a muddler or the back of a spoon just until fragrant, without grinding the leaves to a paste.
-3. **Add the base and ice:** Add London dry gin, fresh pink grapefruit juice, and large ice cubes. Leave room for the measured sparkling finish and stir the gin and grapefruit together.
-4. **Finish gently:** Add tonic water or seltzer, dashes of aromatic bitters, and fresh basil sprig: pour in the tonic or seltzer, then give one gentle lift with the spoon if the layers remain separate. Add the measured bitters on the surface. Lightly clap the basil sprig between your hands and tuck it into the glass. Serve promptly.
+1. **Press the basil:** Put fresh basil leaves in a tall 16-ounce glass. Press them gently with a muddler or the back of a spoon until fragrant, about 10 seconds, without grinding them to a paste.
+2. **Add the ice:** Fill the glass about two-thirds full with large ice cubes.
+3. **Add the gin and juice:** Pour in London dry gin and fresh pink grapefruit juice and stir twice.
+4. **Top with tonic:** Top with tonic water and don't stir again, so the drink keeps its fizz.
+5. **Add the bitters:** Shake Angostura bitters onto the surface.
+6. **Garnish:** Clap the fresh basil sprig between your palms to release its scent and tuck it into the ice. Serve right away.
