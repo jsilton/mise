@@ -28,113 +28,52 @@ cuisines:
 role: side
 vibe: nutritious
 prepTime: 15 min
-cookTime: 20–25 min
-totalTime: 'About 45 min, plus any remaining preheating'
-servings: 6 side portions
+cookTime: 25 min
+totalTime: 40 min
+servings: '6'
 pairsWith:
+  - rosemary-pork-tenderloin
+  - spatchcocked-roast-chicken
   - honey-lime-chicken-thighs
-  - sweet-chili-chicken-sliders
-  - instant-pot-butternut-squash-soup
+pairingNotes:
+  rosemary-pork-tenderloin: Maple and Dijon flatter the pork.
+  spatchcocked-roast-chicken: A hearty fall side for roast chicken.
+  honey-lime-chicken-thighs: Sweet roasted vegetables beside the tangy chicken.
 ingredients:
   - '1 medium sweet potato, cut into 1/2-inch cubes'
   - '6 oz Brussels sprouts, trimmed and halved'
   - '1 medium red onion, sliced'
   - '2 tbsp extra-virgin olive oil, for roasting'
-  - '1/3 cup extra-virgin olive oil, for dressing'
+  - 'kosher salt and black pepper, to taste'
+  - '1/3 cup extra-virgin olive oil, for the dressing'
   - 2 tbsp apple cider vinegar
   - 2 tbsp pure maple syrup
   - 1 tbsp Dijon mustard
-  - '2 cloves garlic, mashed, for dressing'
-  - 'Salt and black pepper, to taste'
-  - '3 cups curly kale leaves, stems removed, chopped and loosely packed'
+  - '2 garlic cloves, mashed'
+  - '3 cups curly kale, stems removed, chopped'
   - '1/2 cup Parmesan, grated'
   - 1/2 cup dried cranberries
 source: 'Adapted from Nicole Modic, Kalejunkie'
 sourceUrl: 'https://kalejunkie.com/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette/'
 learning:
-  focus: 'Separate roasting oil, dressing oil and cold holding.'
-  outcome: >-
-    Fork-tender vegetables with pliable kale and the full maple-Dijon dressing
-    available for serving.
   techniques:
     - temperature
     - seasoning
-  before:
-    - >-
-      Keep half-inch sweet-potato dice at every scale. Add uncrowded trays as
-      the load increases and divide all roasting ingredients proportionally.
-    - >-
-      The original six-side plan depends on actual potato and onion size. Scale
-      full ingredients and portion count without treating the source approximate
-      vegetable cup estimates as measured yields.
-  checkpoints:
-    - step: 2
-      cue: >-
-        Sweet potato centers are fork-tender and sprouts are browned, without
-        chasing black edges.
-      why: A clock or surface color alone does not establish tender centers.
-  troubleshooting:
-    - problem: The vinaigrette separates while the vegetables roast.
-      cause: Oil and vinegar can separate after standing.
-      fix: >-
-        Whisk it again before adding part to the salad; keep the remainder cold
-        for later serving.
-  timing: >-
-    Allow roughly 45 minutes for preparation and roasting, plus any preheating still needed after
-    preparation. The oven must reach 425°F before loading. Mix the dressing and massage kale while
-    roasting; larger pieces or additional tray loads can extend elapsed time.
   storage: >-
-    Refrigerate promptly at 40°F or below, in shallow covered containers. Count
-    preparation and serving time together; discard perishable food left out over
-    2 hours, or 1 hour above 90°F. Use within three refrigerated days. The
-    garlic-containing dressing stays refrigerated separately; its vinegar is not
-    a measured preservation process.
-  sources:
-    - title: Nicole Modic — Warm roasted vegetable salad
-      url: >-
-        https://kalejunkie.com/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette/
-    - title: FDA — Cold handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-  substitutions:
-    - ingredient: Seasoning variation
-      alternative: >-
-        For the original batch, keep every listed vegetable, kale, cheese,
-        cranberry and oil/vinegar/maple/Dijon amount. Add 2 additional mashed
-        garlic cloves to the roasting vegetables with 1 tsp kosher salt and 1/2
-        tsp ground black pepper, replacing the roasting salt-and-pepper-to-taste
-        choice. Add 1/2 tsp dried thyme to the dressing, keeping its listed 2
-        mashed garlic cloves and seasoning it to taste. Keep the kale pinch of
-        salt. Scale these separate source seasoning additions with the
-        ingredients; follow the same tenderness, dressing allocation and
-        cold-handling steps.
-      effect: >-
-        The extra roasting garlic and dried thyme change the vegetables and dressing’s flavor. Use
-        kosher salt for the measured roasting amount; dressing and kale seasoning remain to taste.
+    Keeps 3 days in the fridge with the dressing stored separately. The kale softens more as it
+    sits.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Warm sweet potato and Brussels sprouts soften the kale slightly, while cranberries and Parmesan provide sweet and salty accents. Keep the roasting oil separate from the vinaigrette, and add the dressing in stages so the vegetables stay lightly coated rather than swimming in it.
+This fall salad eats like a side dish: hot roasted sweet potato and Brussels sprouts tossed with massaged kale, Parmesan and dried cranberries. A very hot oven browns the vegetables before they turn soft. The maple-Dijon vinaigrette brings sweet and sharp together.
 
 ## Directions
 
-1. **Prepare:** Heat the oven to 425°F / 220°C. Dry the washed vegetables, cube the sweet potato evenly and halve the sprouts; quarter unusually large sprouts. Line a large rimmed sheet pan if desired.
-2. **Roast:** Toss sweet potato, sprouts and onion with all the listed roasting oil, salt and pepper. Spread in a single layer with space between pieces, sprouts cut side down. Roast about 20–25 minutes, turning the sweet potato and onion once halfway and starting to check at 18 minutes. Remove when sweet potato is fork-tender and sprouts are browned; do not chase blackened edges.
-3. **Whisk dressing:** While the vegetables roast, whisk all the listed dressing oil with vinegar, maple syrup, Dijon and garlic. Taste and season with salt and pepper. Stir again if it separates.
-4. **Soften kale:** Wash, dry, stem and chop kale before measuring. Put the leaves in a large bowl with a small pinch of salt and rub gently for 1–2 minutes until pliable.
-5. **Combine:** Let the roasted vegetables stop steaming fiercely, then add to the kale with Parmesan and cranberries. Add about half the dressing and toss with tongs; add more only as needed to coat. Refrigerate any unused dressing separately.
-6. **Serve:** Divide into the listed side portions and serve warm. Refrigerate leftovers promptly rather than leaving the bowl at room temperature.
-
-## Cooking Notes
-
-About 45 minutes is a preparation-and-roasting plan: allow about 15 minutes for preparation and roughly 20–25 minutes roasting, plus any remaining preheating. The oven must reach 425°F before loading. Make dressing and massage kale while vegetables roast; large pieces or additional tray loads take longer.
-
-Refrigerate in a shallow covered container at 40°F / 4°C or below within 2 hours, or 1 hour above 90°F / 32°C. Use within 3 days. For best make-ahead texture, store dressing separately and assemble near serving.
-
-## Sources
-
-- [Nicole Modic — Warm roasted veggie salad with maple Dijon vinaigrette](https://kalejunkie.com/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette/)
-- [FoodSafety.gov — Four steps to food safety](https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety)
+1. **Roast the vegetables:** Heat the oven to 425°F. Toss the sweet potato, Brussels sprouts and onion with the roasting oil, salt and pepper on a rimmed baking sheet. Spread in a single layer with the sprouts cut side down. Roast until the sweet potato is tender and the sprouts are well browned, 20 to 25 minutes, stirring the sweet potato and onion halfway.
+2. **Make the dressing:** While the vegetables roast, whisk the dressing oil, vinegar, maple syrup, Dijon and garlic. Season with salt and pepper.
+3. **Massage the kale:** Put the kale in a large bowl with a pinch of salt. Rub it with your hands until dark green and soft, 1 to 2 minutes.
+4. **Toss and serve:** Add the hot vegetables, Parmesan and cranberries to the kale. Toss with half the dressing, then add more to taste. Serve warm with the rest of the dressing on the side.

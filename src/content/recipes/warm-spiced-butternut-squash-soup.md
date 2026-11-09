@@ -20,40 +20,40 @@ cuisines:
 role: main
 vibe: comfort
 prepTime: 20 min
-cookTime: 135 min
-totalTime: 155 min
+cookTime: 2 hr 15 min
+totalTime: 2 hr 35 min
 servings: 10 portions
 pairsWith:
-  - cinnamon-sweet-potatoes
-  - green-beans-with-shallots-and-lemon
-  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
+  - shaved-brussels-sprout-salad-with-apples-and-pecorino
+  - cornbread
+pairingNotes:
+  shaved-brussels-sprout-salad-with-apples-and-pecorino: 'A crisp, sharp salad against the smooth soup.'
+  cornbread: Warm cornbread for dunking.
 ingredients:
-  - '--- Soup and scrap broth ---'
-  - >-
-    4 lb whole butternut squash, washed before peeling; reserve peels, seeds and trimmings for
-    broth; cube all usable flesh
+  - '--- Soup ---'
+  - '4 lb butternut squash, peeled and seeded, peels and seeds saved, flesh cut into 1-inch cubes'
   - 1/4 cup extra-virgin olive oil
   - 7 cups water
   - 1/2 tsp whole allspice
   - 1/2 tsp whole black peppercorns
-  - '6 fresh thyme sprigs, washed'
+  - 6 fresh thyme sprigs
   - 3 whole cloves
-  - '1 cinnamon stick, 3-inch piece per original stick; size stays fixed when count scales'
+  - '1 cinnamon stick, 3 inches long'
   - 1 star anise pod
-  - '1 yellow onion, peeled and chopped'
+  - '1 yellow onion, chopped'
   - 2 1/2 tsp kosher salt
-  - 'additional kosher salt, to taste after blending'
   - 1 tbsp cider vinegar
   - 1/8 tsp crushed red pepper
+  - 'kosher salt, to taste'
   - '--- Garnish ---'
   - 1/2 cup pomegranate arils
-  - '1/4 cup fresh cilantro, washed and chopped'
+  - '1/4 cup fresh cilantro, chopped'
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-source: Adapted from Myrecipes.com
-sourceUrl: 'http://www.myrecipes.com/recipe/warm-spiced-butternut-squash-soup'
+source: Adapted from MyRecipes
+sourceUrl: 'https://www.myrecipes.com/recipe/warm-spiced-butternut-squash-soup'
 formula:
   version: 1
   yield:
@@ -61,20 +61,18 @@ formula:
     unit: portion
   components:
     - id: soup
-      name: Soup and scrap broth
+      name: Soup
       ingredients:
         - id: squash
           key: squash
-          name: whole butternut squash
+          name: butternut squash
           quantity:
             amount: 4
             unit: lb
+          preparation: 'peeled and seeded, peels and seeds saved, flesh cut into 1-inch cubes'
           uses:
             - step: squash
               share: 1
-          preparation: >-
-            washed before peeling; reserve peels, seeds and trimmings for broth; cube all usable
-            flesh
         - id: oil
           key: oil
           name: extra-virgin olive oil
@@ -92,10 +90,10 @@ formula:
           quantity:
             amount: 7
             unit: cup
+          role: cooking-water
           uses:
             - step: stock
               share: 1
-          role: cooking-water
         - id: allspice
           key: allspice
           name: whole allspice
@@ -117,56 +115,55 @@ formula:
         - id: thyme
           key: thyme
           name: fresh thyme sprig
+          plural: fresh thyme sprigs
           quantity:
             amount: 6
             unit: count
           uses:
             - step: stock
               share: 1
-          plural: fresh thyme sprigs
-          preparation: washed
         - id: cloves
           key: cloves
           name: whole clove
+          plural: whole cloves
           quantity:
             amount: 3
             unit: count
           uses:
             - step: stock
               share: 1
-          plural: whole cloves
         - id: cinnamon
           key: cinnamon
           name: cinnamon stick
+          plural: cinnamon sticks
+          preparation: 3 inches long
           quantity:
             amount: 1
             unit: count
           uses:
             - step: stock
               share: 1
-          plural: cinnamon sticks
-          preparation: 3-inch piece per original stick; size stays fixed when count scales
         - id: anise
           key: anise
           name: star anise pod
+          plural: star anise pods
           quantity:
             amount: 1
             unit: count
           uses:
             - step: stock
               share: 1
-          plural: star anise pods
         - id: onion
           key: onion
           name: yellow onion
+          plural: yellow onions
           quantity:
             amount: 1
             unit: count
+          preparation: chopped
           uses:
             - step: onion
               share: 1
-          plural: yellow onions
-          preparation: peeled and chopped
         - id: salt
           key: salt
           name: kosher salt
@@ -175,13 +172,6 @@ formula:
             unit: tsp
           uses:
             - step: simmer
-              share: 1
-        - id: finish-salt
-          key: salt
-          name: additional kosher salt
-          allowance: to taste after blending
-          uses:
-            - step: finish
               share: 1
         - id: vinegar
           key: vinegar
@@ -198,6 +188,13 @@ formula:
           quantity:
             amount: 1/8
             unit: tsp
+          uses:
+            - step: finish
+              share: 1
+        - id: finish-salt
+          key: salt
+          name: kosher salt
+          allowance: to taste
           uses:
             - step: finish
               share: 1
@@ -219,136 +216,79 @@ formula:
           quantity:
             amount: 1/4
             unit: cup
+          preparation: chopped
           uses:
             - step: serve
               share: 1
-          preparation: washed and chopped
   steps:
     - id: scraps
-      title: Prepare and brown scraps
+      title: Brown the scraps
       text: >-
-        Wash {{name:soup.squash}} under running water before peeling, then peel and seed it,
-        reserving the peels, trimmings and seeds and cubing the flesh. Heat {{ingredients}} in a
-        large Dutch oven over medium-high heat. Add all the reserved scraps and sauté about 8
-        minutes until lightly browned; reduce heat if they scorch.
+        Warm {{ingredients}} in a large Dutch oven over medium-high heat. Add the squash peels,
+        seeds and trimmings. Cook, stirring, until lightly browned, about 8 minutes.
     - id: stock
-      title: Make scrap broth
+      title: Make the broth
       text: >-
-        Add {{ingredients}} to the scraps. Bring to a boil, cover, reduce heat and simmer about 45
-        minutes. Strain into a heat-safe bowl large enough for the liquid and discard solids. The
-        measured water is the starting volume; strain and use all the resulting broth rather than
-        claiming seven cups finished yield.
+        Add {{ingredients}}. Bring to a boil, then cover and simmer gently for 45 minutes. Strain
+        the broth into a large bowl and discard the solids.
     - id: onion
-      title: Soften onion
+      title: Soften the onion
       text: >-
-        Let the emptied pan become safe to handle and wipe it clean. Heat {{ingredients}} over
-        medium heat, cover and cook about 5 minutes, stirring occasionally.
+        Wipe out the pot. Warm {{ingredients}} over medium heat. Cover and cook, stirring now and
+        then, until the onion is soft, about 5 minutes.
     - id: squash
-      title: Soften squash
+      title: Brown the squash
       text: >-
-        Add all the cubed flesh from {{ingredients}}. Cover and cook about 10 minutes, stirring
-        occasionally. The flesh and its earlier reserved scraps belong to the same measured whole
-        squash; do not add a second squash dose.
+        Add the cubed {{ingredients}}. Cook uncovered, stirring often, until the edges start to
+        brown, about 10 minutes.
     - id: simmer
-      title: Simmer flesh
+      title: Simmer the soup
       text: >-
-        Add all the reserved scrap broth and {{ingredients}}. Bring to a boil, cover and simmer
-        about 40 minutes, until squash is very tender and collapses under a spoon. Use a vessel with
-        stirring headroom; larger batches may need separate pots and longer heating.
+        Pour in all the strained broth and add {{ingredients}}. Bring to a boil, then cover and
+        simmer until the squash is very tender and collapses under a spoon, about 40 minutes.
     - id: blend
-      title: Purée
-      text: >-
-        Take the pot off the heat. Use an immersion blender approved for this load, keeping its head
-        submerged and switching it off before lifting it. For a countertop blender, use only a model
-        approved for hot liquids and follow its temperature, fill, lid and venting instructions;
-        work in batches. If your model requires cold ingredients, cool promptly in shallow
-        containers before blending, then reheat the soup. Never seal hot soup in a personal blending
-        cup. Blend smooth, working in as many permitted loads as needed; return all the purée to a
-        clean pot.
+      title: Blend
+      text: Take the pot off the heat and blend with an immersion blender until completely smooth.
     - id: finish
-      title: Finish
+      title: Season the soup
       text: >-
-        Stir in {{ingredients}}. Stir to distribute them through the purée, then taste. This much
-        squash and broth needs firm seasoning: with Diamond Crystal kosher salt, expect to add about
-        1 1/2 tsp more, for about 4 tsp total. Morton kosher salt is usually right at the measured
-        amount. Add the last of it a little at a time.
+        Stir in {{ingredients}}, adding the salt a little at a time and tasting until the soup
+        tastes bright and full.
     - id: serve
-      title: Garnish
-      text: 'Divide the soup among the listed portions and distribute all {{ingredients}} over them.'
+      title: Garnish and serve
+      text: 'Ladle into bowls and scatter with {{ingredients}}.'
 equipment:
   - large-pot
   - blender
   - fine-mesh-strainer
 learning:
-  focus: Account for scrap broth and both oil stages
-  outcome: Tender squash puréed with strained spice broth and finished with pomegranate and cilantro.
   techniques:
     - temperature
-  before:
-    - >-
-      The whole squash weight includes peels, seeds and trimmings. Save them for the stock before
-      cubing the flesh; stock extraction discards those solids.
-    - >-
-      Use kosher salt as listed; brand/crystal size affects a volume measure. The measured salt
-      suits Morton. Diamond Crystal is lighter by volume, so plan on about 4 tsp in total, adding
-      the last of it after blending. No replacement with table salt is assumed. More stock or squash
-      needs enough pot/strainer/receiving-bowl space, not a linear time multiplier.
-  checkpoints:
-    - step: 1
-      cue: 'Squash scraps are lightly browned, not blackened.'
-      why: The first quarter of the oil belongs to this stock stage.
-    - step: 2
-      cue: All strained broth is reserved and whole spices and scraps are removed.
-      why: 'Seven cups is input water, not guaranteed output stock.'
-    - step: 5
-      cue: Squash flesh collapses readily under a spoon.
-      why: Tenderness determines when puréeing can begin.
-  troubleshooting:
-    - problem: Purée has firm or grainy pieces
-      cause: The vegetables were not thoroughly tender before blending.
-      fix: >-
-        Continue cooking until the stated tenderness cue is met before blending, using an appliance
-        approved for the load.
+  substitutions:
+    - ingredient: kosher salt
+      alternative: Diamond Crystal kosher salt
+      effect: >-
+        It is lighter by volume, so this soup needs about 4 tsp in all. Add the last of it after
+        blending.
   storage: >-
-    Divide leftover soup into shallow containers and refrigerate within 2 hours, or 1 hour above
-    90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days. Reheat the portion being served,
-    stirring, to 165°F / 74°C throughout and bring soup to a rolling boil.
-  timing: >-
-    Allow about 155 minutes, including 20 minutes preparation and about 135 minutes
-    cooking/finishing. The recorded stages include 8 minutes scrap sauté, 45 minutes stock simmer, 5
-    minutes covered onion, 10 minutes covered squash and 40 minutes soup simmer, plus heating,
-    straining and blending. Gentle covered stages mostly are unattended apart from stirring;
-    appliance-required cooling and extra loads add elapsed time.
-  sources:
-    - title: Adapted from Myrecipes.com
-      url: 'http://www.myrecipes.com/recipe/warm-spiced-butternut-squash-soup'
-    - title: USDA leftover soup handling
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
-    - title: FDA produce preparation
-      url: 'https://www.fda.gov/consumers/consumer-updates/7-tips-cleaning-fruits-vegetables'
-    - title: Blender manufacturer vessel limits
-      url: 'https://www.nutribullet.com/faq/'
+    Keeps 4 days in the fridge and freezes for 3 months. Add the pomegranate and cilantro after
+    reheating.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Brown the squash peels, seeds and trimmings briefly, then simmer them with whole spices to make the soup’s strained cooking liquid. All the olive oil has a destination: one-quarter cooks the scraps and three-quarters cook the onion. Cover the squash while it softens, then purée only after it is thoroughly tender and finish with the measured vinegar and red pepper.
+The broth for this soup comes from the squash itself. Its peels and seeds are browned and simmered with cinnamon, star anise, cloves and allspice, so the soup tastes warmly spiced without any cream. Cider vinegar and red pepper at the end, then pomegranate and cilantro on top, keep it bright.
 
 ## Directions
 
-1. **Prepare and brown scraps:** Wash whole butternut squash under running water before peeling, then peel and seed it, reserving the peels, trimmings and seeds and cubing the flesh. Heat 1/4 of the extra-virgin olive oil in a large Dutch oven over medium-high heat. Add all the reserved scraps and sauté about 8 minutes until lightly browned; reduce heat if they scorch.
-2. **Make scrap broth:** Add water, whole allspice, whole black peppercorns, fresh thyme sprigs, whole cloves, cinnamon stick, and star anise pod to the scraps. Bring to a boil, cover, reduce heat and simmer about 45 minutes. Strain into a heat-safe bowl large enough for the liquid and discard solids. The measured water is the starting volume; strain and use all the resulting broth rather than claiming seven cups finished yield.
-3. **Soften onion:** Let the emptied pan become safe to handle and wipe it clean. Heat 3/4 of the extra-virgin olive oil and yellow onion over medium heat, cover and cook about 5 minutes, stirring occasionally.
-4. **Soften squash:** Add all the cubed flesh from whole butternut squash. Cover and cook about 10 minutes, stirring occasionally. The flesh and its earlier reserved scraps belong to the same measured whole squash; do not add a second squash dose.
-5. **Simmer flesh:** Add all the reserved scrap broth and kosher salt. Bring to a boil, cover and simmer about 40 minutes, until squash is very tender and collapses under a spoon. Use a vessel with stirring headroom; larger batches may need separate pots and longer heating.
-6. **Purée:** Take the pot off the heat. Use an immersion blender approved for this load, keeping its head submerged and switching it off before lifting it. For a countertop blender, use only a model approved for hot liquids and follow its temperature, fill, lid and venting instructions; work in batches. If your model requires cold ingredients, cool promptly in shallow containers before blending, then reheat the soup. Never seal hot soup in a personal blending cup. Blend smooth, working in as many permitted loads as needed; return all the purée to a clean pot.
-7. **Finish:** Stir in additional kosher salt, cider vinegar, and crushed red pepper. Stir to distribute them through the purée, then taste. This much squash and broth needs firm seasoning: with Diamond Crystal kosher salt, expect to add about 1 1/2 tsp more, for about 4 tsp total. Morton kosher salt is usually right at the measured amount. Add the last of it a little at a time.
-8. **Garnish:** Divide the soup among the listed portions and distribute all pomegranate arils and fresh cilantro over them.
-
-## Browned-squash variation
-
-For browned edges on the squash flesh, follow the scrap-broth and onion steps above, then leave the pot uncovered instead of covering it during the squash step. Cook the cubed flesh in the measured onion-stage oil for about 10 minutes, stirring and checking for browned edges and catching. Add all the reserved broth and measured salt, then cover and simmer until very tender as in the main method. Keep the remaining ingredients and finish unchanged. Larger batches may need separate pots and longer heating.
+1. **Brown the scraps:** Warm 1/4 of the extra-virgin olive oil in a large Dutch oven over medium-high heat. Add the squash peels, seeds and trimmings. Cook, stirring, until lightly browned, about 8 minutes.
+2. **Make the broth:** Add water, whole allspice, whole black peppercorns, fresh thyme sprigs, whole cloves, cinnamon stick, and star anise pod. Bring to a boil, then cover and simmer gently for 45 minutes. Strain the broth into a large bowl and discard the solids.
+3. **Soften the onion:** Wipe out the pot. Warm 3/4 of the extra-virgin olive oil and yellow onion over medium heat. Cover and cook, stirring now and then, until the onion is soft, about 5 minutes.
+4. **Brown the squash:** Add the cubed butternut squash. Cook uncovered, stirring often, until the edges start to brown, about 10 minutes.
+5. **Simmer the soup:** Pour in all the strained broth and add kosher salt. Bring to a boil, then cover and simmer until the squash is very tender and collapses under a spoon, about 40 minutes.
+6. **Blend:** Take the pot off the heat and blend with an immersion blender until completely smooth.
+7. **Season the soup:** Stir in cider vinegar, crushed red pepper, and kosher salt, adding the salt a little at a time and tasting until the soup tastes bright and full.
+8. **Garnish and serve:** Ladle into bowls and scatter with pomegranate arils and fresh cilantro.
