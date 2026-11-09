@@ -20,29 +20,41 @@ cuisines:
   - French
 role: main
 vibe: comfort
-prepTime: 20 min
-cookTime: About 70–95 min baking
-totalTime: About 2 hr 20 min–3 hr
+prepTime: 30 min
+cookTime: 1 hr 30 min
+totalTime: 2 hr 45 min
 servings: 6 portions
 pairsWith:
-  - sweet-and-white-potato-gratin
-  - tarragon-potatoes
-  - garlic-bread
+  - everyday-arugula-salad
+  - garlic-butter-green-beans
+pairingNotes:
+  everyday-arugula-salad: Peppery greens against the rich cheese and pastry.
+  garlic-butter-green-beans: A simple French green vegetable on the side.
 ingredients:
+  - '--- Pastry ---'
   - 2 cups all-purpose flour
-  - 'all-purpose flour, for rolling'
-  - '3/4 cup (6 oz) cold unsalted butter, cubed'
+  - 1 tsp kosher salt
   - 1/2 tsp baking powder
+  - 2 tsp fresh thyme leaves
+  - '3/4 cup (6 oz) cold unsalted butter, cubed'
+  - '4 oz goat cheese, crumbled'
   - 1 tbsp cold apple cider vinegar
-  - '3–4 tbsp ice water, add only as needed; unused maximum may remain'
-  - 3 tsp kosher salt
-  - 4 tbsp olive oil
-  - 1 tsp black pepper
-  - '12 oz goat cheese, crumbled'
+  - 3–4 tbsp ice water
+  - 'all-purpose flour, for rolling'
+  - '--- Tomatoes ---'
+  - '3 lb heirloom tomatoes, thinly sliced'
+  - 3 tbsp olive oil
+  - 1 tsp kosher salt
+  - 1/2 tsp black pepper
+  - '--- Filling ---'
+  - '8 oz goat cheese, crumbled'
   - 1 cup whole-milk ricotta
-  - 1/2 tsp grated garlic
-  - 4 tsp fresh thyme leaves
-  - '3 lb heirloom tomatoes, washed and evenly thinly sliced'
+  - '1/2 tsp garlic, grated'
+  - 2 tsp fresh thyme leaves
+  - '--- To finish ---'
+  - 1 tbsp olive oil
+  - 1 tsp kosher salt
+  - 1/2 tsp black pepper
   - 'fresh green and purple basil, for garnish'
 seasons:
   - year-round
@@ -50,70 +62,27 @@ nutritionalDensity: moderate
 leftovers: good
 advancePrep:
   - freeze-ahead
-source: Adapted from foodandwine.com
+source: Adapted from Food & Wine
 sourceUrl: 'https://www.foodandwine.com/recipes/tomato-and-goat-cheese-tart'
 learning:
-  focus: 'Allocate pastry, roasting and filling ingredients proportionally'
-  outcome: A set goat-cheese pastry shell with browned roasted tomatoes and a warm cheese filling.
   techniques:
     - temperature
-  before:
-    - >-
-      Pan dimensions and rolling circles describe the original batch. Multiples need separate
-      original-size pies or tarts; smaller batches need appropriately smaller dishes with similar
-      layer depth and earlier doneness checks. Do not multiply temperatures or assume baking time
-      scales with ingredients.
-    - >-
-      For the original batch reserve one-third of goat cheese for pastry and two-thirds for filling;
-      salt is divided into thirds, thyme and pepper into halves, and oil into three-quarters for
-      roasting and one-quarter for assembly. The listed amounts govern at every scale.
-    - >-
-      Check the tart pan permits the transition from the freezer to a 450°F oven. Use foil for the
-      blind-bake liner; ordinary 425°F-rated parchment is not a 450°F liner.
-  checkpoints:
-    - step: 2
-      cue: Tomato surfaces are dry to the touch and slices have visibly shrunk.
-      why: Roasting before assembly removes some water before the tomatoes meet the cheese and pastry.
-    - step: 4
-      cue: The shell is set and just coloring at the edge after weighted baking.
-      why: >-
-        This is a partial blind-bake, followed by a separate filling bake; it does not need an
-        invented extra unweighted stage.
-  troubleshooting:
-    - problem: Pastry breaks when the tart rim is removed
-      cause: The tart is too hot or shell was damaged during handling.
-      fix: >-
-        Give it the 20–30-minute cooling period and release the rim gently. Serve broken portions
-        from the pan; extra cooling cannot mend a torn shell.
-  timing: >-
-    Allow about 2 hours 20 minutes to 3 hours: dough mixing and 30-minute chilling, tomatoes 30–45
-    minutes overlapping the chill, roll/freeze 20 minutes, blind-bake 20–25 minutes, shell cooling
-    10 minutes, filling/assembly, final bake 20–25 minutes and 20–30 minutes cooling. Oven changes,
-    extra sheets or tart rounds add time.
-  substitutions: []
-  storage: >-
-    Refrigerate promptly, within 2 hours after baking or 1 hour above 90°F / 32°C, at 40°F / 4°C or
-    below. Keep covered once cold. Use within 3–4 days, or sooner if a dairy ingredient needs using
-    sooner. For hot leftovers, reheat the served portion to 165°F throughout; pastry will soften in
-    storage.
-  sources:
-    - title: Food & Wine — Tomato and Goat Cheese Tart
-      url: 'https://www.foodandwine.com/recipes/tomato-and-goat-cheese-tart'
-    - title: FDA — Safe food handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: Reynolds — Baking with parchment
-      url: 'https://www.reynoldsbrands.com/tips-and-how-tos/tips-baking-parchment-paper'
+  substitutions:
+    - ingredient: Heirloom tomatoes
+      alternative: Ripe Roma or vine tomatoes
+      effect: Less colorful but just as good once roasted. Choose the ripest ones you can find.
+  storage: Keeps 3 days in the fridge. Reheat slices in a 350°F oven so the pastry crisps again.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 formula:
   version: 1
   yield:
     amount: 6
     unit: portion
   components:
-    - id: tart
-      name: Tart ingredients
+    - id: pastry
+      name: Pastry
       ingredients:
         - id: flour
           key: flour
@@ -122,14 +91,34 @@ formula:
             amount: 2
             unit: cup
           uses:
-            - step: dough
+            - step: dry
               share: 1
-        - id: rolling-flour
-          key: rolling-flour
-          name: all-purpose flour
-          allowance: for rolling
+        - id: salt
+          key: salt
+          name: kosher salt
+          quantity:
+            amount: 1
+            unit: tsp
           uses:
-            - step: shape
+            - step: dry
+              share: 1
+        - id: baking-powder
+          key: baking-powder
+          name: baking powder
+          quantity:
+            amount: 1/2
+            unit: tsp
+          uses:
+            - step: dry
+              share: 1
+        - id: thyme
+          key: thyme
+          name: fresh thyme leaves
+          quantity:
+            amount: 2
+            unit: tsp
+          uses:
+            - step: dry
               share: 1
         - id: butter
           key: butter
@@ -138,21 +127,22 @@ formula:
             amount: 3/4
             unit: cup
           uses:
-            - step: dough
+            - step: fat
               share: 1
           equivalents:
             - amount: 6
               unit: oz
           preparation: cubed
-        - id: baking-powder
-          key: baking-powder
-          name: baking powder
+        - id: goat
+          key: goat
+          name: goat cheese
           quantity:
-            amount: 1/2
-            unit: tsp
+            amount: 4
+            unit: oz
           uses:
-            - step: dough
+            - step: fat
               share: 1
+          preparation: crumbled
         - id: vinegar
           key: vinegar
           name: cold apple cider vinegar
@@ -160,65 +150,77 @@ formula:
             amount: 1
             unit: tbsp
           uses:
-            - step: dough
+            - step: bind
               share: 1
         - id: water
           key: water
           name: ice water
           quantity:
             amount: 3
-            unit: tbsp
             max: 4
+            unit: tbsp
           uses:
-            - step: dough
+            - step: bind
               share: 1
-          preparation: add only as needed; unused maximum may remain
-        - id: salt
-          key: salt
-          name: kosher salt
+        - id: rolling-flour
+          key: rolling-flour
+          name: all-purpose flour
+          allowance: for rolling
+          uses:
+            - step: shape
+              share: 1
+    - id: tomatoes
+      name: Tomatoes
+      ingredients:
+        - id: tomatoes
+          key: tomatoes
+          name: heirloom tomatoes
           quantity:
             amount: 3
-            unit: tsp
+            unit: lb
           uses:
-            - step: dough
-              share: 1/3
             - step: roast
-              share: 1/3
-            - step: assemble
-              share: 1/3
+              share: 1
+          preparation: thinly sliced
         - id: oil
           key: oil
           name: olive oil
           quantity:
-            amount: 4
+            amount: 3
             unit: tbsp
           uses:
             - step: roast
-              share: 3/4
-            - step: assemble
-              share: 1/4
-        - id: pepper
-          key: pepper
-          name: black pepper
+              share: 1
+        - id: salt
+          key: salt
+          name: kosher salt
           quantity:
             amount: 1
             unit: tsp
           uses:
             - step: roast
-              share: 1/2
-            - step: assemble
-              share: 1/2
+              share: 1
+        - id: pepper
+          key: pepper
+          name: black pepper
+          quantity:
+            amount: 1/2
+            unit: tsp
+          uses:
+            - step: roast
+              share: 1
+    - id: filling
+      name: Filling
+      ingredients:
         - id: goat
           key: goat
           name: goat cheese
           quantity:
-            amount: 12
+            amount: 8
             unit: oz
           uses:
-            - step: dough
-              share: 1/3
             - step: filling
-              share: 2/3
+              share: 1
           preparation: crumbled
         - id: ricotta
           key: ricotta
@@ -231,34 +233,53 @@ formula:
               share: 1
         - id: garlic
           key: garlic
-          name: grated garlic
+          name: garlic
           quantity:
             amount: 1/2
             unit: tsp
           uses:
             - step: filling
               share: 1
+          preparation: grated
         - id: thyme
           key: thyme
           name: fresh thyme leaves
           quantity:
-            amount: 4
+            amount: 2
             unit: tsp
           uses:
-            - step: dough
-              share: 1/2
             - step: filling
-              share: 1/2
-        - id: tomatoes
-          key: tomatoes
-          name: heirloom tomatoes
-          quantity:
-            amount: 3
-            unit: lb
-          uses:
-            - step: roast
               share: 1
-          preparation: washed and evenly thinly sliced
+    - id: finish
+      name: To finish
+      ingredients:
+        - id: oil
+          key: oil
+          name: olive oil
+          quantity:
+            amount: 1
+            unit: tbsp
+          uses:
+            - step: assemble
+              share: 1
+        - id: salt
+          key: salt
+          name: kosher salt
+          quantity:
+            amount: 1
+            unit: tsp
+          uses:
+            - step: assemble
+              share: 1
+        - id: pepper
+          key: pepper
+          name: black pepper
+          quantity:
+            amount: 1/2
+            unit: tsp
+          uses:
+            - step: assemble
+              share: 1
         - id: basil
           key: basil
           name: fresh green and purple basil
@@ -268,73 +289,69 @@ formula:
               share: 1
           role: garnish
   steps:
-    - id: dough
-      title: Make dough
+    - id: dry
+      title: Pulse the dry ingredients
+      text: 'In a food processor, pulse {{ingredients}} to combine.'
+    - id: fat
+      title: Cut in the butter
+      text: 'Add {{ingredients}} and pulse until the mixture looks like coarse crumbs with pea-size bits.'
+    - id: bind
+      title: Bring the dough together
       text: >-
-        Use {{ingredients}} for the pastry: pulse flour, baking powder, assigned thyme and assigned
-        salt together. Add all the cold butter and assigned goat cheese and pulse until crumbly.
-        Pulse in all vinegar, then the ice-water supply gradually just until dough gathers; unused
-        water may remain. Form a disk, wrap and refrigerate at least 30 minutes.
+        Add {{ingredients}} a spoonful at a time, pulsing just until the dough clumps together.
+        Press it into a disk, wrap and refrigerate for at least 30 minutes.
     - id: roast
-      title: Roast tomatoes
+      title: Roast the tomatoes
       text: >-
-        Heat the oven to 425°F with racks in the upper and lower thirds. Divide {{ingredients}}
-        across two large rimmed sheets for the original batch, spreading the slices without crowded
-        piles and dividing the assigned oil, salt and pepper over every sheet. Roast until slices
-        shrink and their surfaces are dry to the touch, beginning checks around 30 minutes and often
-        taking 30–45 minutes. Rotate sheets between racks halfway through; extra sheets may require
-        more oven rounds. Retain all tomato slices and their oil for the tart.
+        While the dough chills, heat the oven to 425°F with racks in the upper and lower thirds.
+        Divide {{ingredients}} between two large rimmed baking sheets, turning the slices to coat
+        and spreading them in one layer. Roast, switching the pans halfway, until the slices shrink
+        and feel dry on top, 30 to 45 minutes.
     - id: shape
-      title: Shape and freeze shell
+      title: Shape the shell
       text: >-
-        Use {{ingredients}} lightly on the work surface. Roll dough to a 12-inch circle about 1/4
-        inch thick for the original 11-inch removable-bottom tart pan; press into the bottom and
-        sides. Use suitable extra or smaller pans when scaling, with similar pastry thickness and
-        enough room for the full filling. Freeze the shaped shell 20 minutes. Increase oven
-        temperature to 450°F.
-    - id: blind-bake
-      title: Blind-bake
+        Dust the counter with {{ingredients}} and roll the dough into a 12-inch circle about 1/4
+        inch thick. Press it into an 11-inch tart pan with a removable bottom and freeze for 20
+        minutes. Raise the oven to 450°F.
+    - id: blind
+      title: Blind-bake the shell
       text: >-
-        Put the tart pan on a rimmed baking sheet. Line the frozen shell with foil and pie weights
-        filling to the edge. Bake at 450°F for about 20–25 minutes until set and beginning to turn
-        golden at the edges. Carefully lift out weights and foil and cool about 10 minutes. Reduce
-        the oven to 425°F. Do not replace foil with parchment unless that actual product is rated
-        for 450°F.
+        Set the tart pan on a rimmed baking sheet. Line the shell with foil and fill it with pie
+        weights. Bake until the edges are set and just turning golden, 20 to 25 minutes. Lift out
+        the foil and weights, let the shell cool for 10 minutes and lower the oven to 425°F.
     - id: filling
-      title: Make cheese filling
-      text: >-
-        Whisk all {{ingredients}} until combined. Scrape the entire mixture across the baked shell;
-        this uses every remaining portion of goat cheese and thyme, not another full measured batch.
+      title: Spread the filling
+      text: 'Whisk {{ingredients}} until smooth and spread it over the bottom of the shell.'
     - id: assemble
-      title: Add tomatoes and finish seasoning
+      title: Layer the tomatoes
       text: >-
-        Arrange all the roasted tomato slices over the cheese, overlapping slightly as needed.
-        Divide all {{ingredients}} over the tomatoes. The earlier roasting oil remains with the
-        tomatoes; this is only the reserved final oil and seasoning.
+        Arrange the roasted tomatoes over the cheese, overlapping them slightly. Drizzle and season
+        with {{ingredients}}.
     - id: bake
-      title: Finish baking
+      title: Bake
       text: >-
-        Bake at 425°F, starting checks around 20–25 minutes for the original tart, until the
-        tomatoes and pastry are browned and the filling is hot. Shield pastry if its edge colors
-        early; actual pan depth and additional tart rounds alter the clock.
+        Bake until the pastry is deep golden brown and the filling is hot, 20 to 25 minutes. If the
+        edge browns too fast, cover it with strips of foil.
     - id: serve
       title: Cool and serve
       text: >-
-        Cool 20–30 minutes until just warm before releasing the removable rim and slicing. Finish
-        with {{ingredients}}. Refrigerate remaining portions promptly.
+        Let the tart cool for 20 to 30 minutes, then remove the rim and slice. Scatter
+        {{ingredients}} over the top.
 ---
 
 ## Chef's Note
 
-Roast the tomatoes before layering so their surface moisture has time to evaporate. Goat cheese belongs in both the pastry and the ricotta filling, while the salt, oil, pepper and thyme have separate measured destinations. The baked tart needs its short cooling period before the rim comes off.
+This holiday tart from Food & Wine layers roasted heirloom tomatoes over goat cheese and ricotta in a flaky, thyme-flecked goat cheese pastry. Roasting the tomatoes first concentrates their flavor and dries them out, so the crust stays crisp under the filling.
 
 ## Directions
 
-1. **Make dough:** Use all-purpose flour, cold unsalted butter, baking powder, cold apple cider vinegar, ice water, 1/3 of the kosher salt, 1/3 of the goat cheese, and 1/2 of the fresh thyme leaves for the pastry: pulse flour, baking powder, assigned thyme and assigned salt together. Add all the cold butter and assigned goat cheese and pulse until crumbly. Pulse in all vinegar, then the ice-water supply gradually just until dough gathers; unused water may remain. Form a disk, wrap and refrigerate at least 30 minutes.
-2. **Roast tomatoes:** Heat the oven to 425°F with racks in the upper and lower thirds. Divide 1/3 of the kosher salt, 3/4 of the olive oil, 1/2 of the black pepper, and heirloom tomatoes across two large rimmed sheets for the original batch, spreading the slices without crowded piles and dividing the assigned oil, salt and pepper over every sheet. Roast until slices shrink and their surfaces are dry to the touch, beginning checks around 30 minutes and often taking 30–45 minutes. Rotate sheets between racks halfway through; extra sheets may require more oven rounds. Retain all tomato slices and their oil for the tart.
-3. **Shape and freeze shell:** Use all-purpose flour lightly on the work surface. Roll dough to a 12-inch circle about 1/4 inch thick for the original 11-inch removable-bottom tart pan; press into the bottom and sides. Use suitable extra or smaller pans when scaling, with similar pastry thickness and enough room for the full filling. Freeze the shaped shell 20 minutes. Increase oven temperature to 450°F.
-4. **Blind-bake:** Put the tart pan on a rimmed baking sheet. Line the frozen shell with foil and pie weights filling to the edge. Bake at 450°F for about 20–25 minutes until set and beginning to turn golden at the edges. Carefully lift out weights and foil and cool about 10 minutes. Reduce the oven to 425°F. Do not replace foil with parchment unless that actual product is rated for 450°F.
-5. **Make cheese filling:** Whisk all 2/3 of the goat cheese, whole-milk ricotta, grated garlic, and 1/2 of the fresh thyme leaves until combined. Scrape the entire mixture across the baked shell; this uses every remaining portion of goat cheese and thyme, not another full measured batch.
-6. **Add tomatoes and finish seasoning:** Arrange all the roasted tomato slices over the cheese, overlapping slightly as needed. Divide all 1/3 of the kosher salt, 1/4 of the olive oil, and 1/2 of the black pepper over the tomatoes. The earlier roasting oil remains with the tomatoes; this is only the reserved final oil and seasoning.
-7. **Finish baking:** Bake at 425°F, starting checks around 20–25 minutes for the original tart, until the tomatoes and pastry are browned and the filling is hot. Shield pastry if its edge colors early; actual pan depth and additional tart rounds alter the clock.
-8. **Cool and serve:** Cool 20–30 minutes until just warm before releasing the removable rim and slicing. Finish with fresh green and purple basil. Refrigerate remaining portions promptly.
+1. **Pulse the dry ingredients:** In a food processor, pulse all-purpose flour, kosher salt, baking powder, and fresh thyme leaves to combine.
+2. **Cut in the butter:** Add cold unsalted butter and goat cheese and pulse until the mixture looks like coarse crumbs with pea-size bits.
+3. **Bring the dough together:** Add cold apple cider vinegar and ice water a spoonful at a time, pulsing just until the dough clumps together. Press it into a disk, wrap and refrigerate for at least 30 minutes.
+4. **Roast the tomatoes:** While the dough chills, heat the oven to 425°F with racks in the upper and lower thirds. Divide heirloom tomatoes, olive oil, kosher salt, and black pepper between two large rimmed baking sheets, turning the slices to coat and spreading them in one layer. Roast, switching the pans halfway, until the slices shrink and feel dry on top, 30 to 45 minutes.
+5. **Shape the shell:** Dust the counter with all-purpose flour and roll the dough into a 12-inch circle about 1/4 inch thick. Press it into an 11-inch tart pan with a removable bottom and freeze for 20 minutes. Raise the oven to 450°F.
+6. **Blind-bake the shell:** Set the tart pan on a rimmed baking sheet. Line the shell with foil and fill it with pie weights. Bake until the edges are set and just turning golden, 20 to 25 minutes. Lift out the foil and weights, let the shell cool for 10 minutes and lower the oven to 425°F.
+7. **Spread the filling:** Whisk goat cheese, whole-milk ricotta, garlic, and fresh thyme leaves until smooth and spread it over the bottom of the shell.
+8. **Layer the tomatoes:** Arrange the roasted tomatoes over the cheese, overlapping them slightly. Drizzle and season with olive oil, kosher salt, and black pepper.
+9. **Bake:** Bake until the pastry is deep golden brown and the filling is hot, 20 to 25 minutes. If the edge browns too fast, cover it with strips of foil.
+10. **Cool and serve:** Let the tart cool for 20 to 30 minutes, then remove the rim and slice. Scatter fresh green and purple basil over the top.

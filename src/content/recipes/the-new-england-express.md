@@ -33,30 +33,25 @@ role: drink
 vibe: nutritious
 prepTime: 10 min
 cookTime: 5 min
-totalTime: About 15–25 min plus chilling
+totalTime: '25 min, plus 1 hr chilling'
 servings: 8 portions
 ingredients:
   - '--- Thyme syrup ---'
   - 1/3 cup granulated sugar
   - 1/3 cup water
-  - '8 fresh thyme sprigs, for infusion'
-  - '--- Punch base ---'
-  - 2 cups pasteurized unfiltered apple cider
+  - '8 fresh thyme sprigs, for the syrup'
+  - '--- Punch ---'
+  - 2 cups unfiltered apple cider
   - 1 1/2 cups dark rum
   - 3/4 cup fresh lime juice
-  - 1 tsp aromatic bitters
-  - '--- Service ---'
-  - 'ice, enough for the serving glasses'
-  - 'club soda, to top each drink'
+  - 1 tsp Angostura bitters
+  - '--- For serving ---'
+  - 'ice, for serving'
+  - 'club soda, for topping'
   - '8 fresh thyme sprigs, for garnish'
   - '8 lime slices, for garnish'
-pairsWith:
-  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
-  - avocado-kale-caesar-salad
-  - herb-marinated-pork-tenderloins
-  - honey-glazed-carrots
-source: Adapted from Bonappetit.com
-sourceUrl: 'http://www.bonappetit.com/recipe/the-new-england-express'
+source: Adapted from Bon Appétit
+sourceUrl: 'https://www.bonappetit.com/recipe/the-new-england-express'
 formula:
   version: 1
   yield:
@@ -95,13 +90,13 @@ formula:
             - step: infuse
               share: 1
           plural: fresh thyme sprigs
-          preparation: for infusion
+          preparation: for the syrup
     - id: base
-      name: Punch base
+      name: Punch
       ingredients:
         - id: cider
           key: apple-cider
-          name: pasteurized unfiltered apple cider
+          name: unfiltered apple cider
           quantity:
             amount: 2
             unit: cup
@@ -128,7 +123,7 @@ formula:
               share: 1
         - id: bitters
           key: aromatic-bitters
-          name: aromatic bitters
+          name: Angostura bitters
           quantity:
             amount: 1
             unit: tsp
@@ -136,21 +131,21 @@ formula:
             - step: base
               share: 1
     - id: service
-      name: Service
+      name: For serving
       ingredients:
         - id: ice
           key: ice
           name: ice
-          allowance: enough for the serving glasses
+          allowance: for serving
           uses:
-            - step: serve
+            - step: pour
               share: 1
         - id: soda
           key: club-soda
           name: club soda
-          allowance: to top each drink
+          allowance: for topping
           uses:
-            - step: serve
+            - step: top
               share: 1
         - id: thyme
           key: thyme
@@ -159,7 +154,7 @@ formula:
             amount: 8
             unit: count
           uses:
-            - step: serve
+            - step: garnish
               share: 1
           plural: fresh thyme sprigs
           preparation: for garnish
@@ -171,86 +166,54 @@ formula:
             amount: 8
             unit: count
           uses:
-            - step: serve
+            - step: garnish
               share: 1
           plural: lime slices
           preparation: for garnish
           role: garnish
   steps:
     - id: syrup
-      title: Dissolve
+      title: Make the syrup
       text: >-
-        Combine {{ingredients}} in a saucepan with room for the full batch. Bring to a boil,
-        stirring until the sugar dissolves. Remove from heat.
+        In a small saucepan, bring {{ingredients}} to a boil, stirring until the sugar dissolves.
+        Take the pan off the heat.
     - id: infuse
-      title: Infuse and chill
+      title: Steep the thyme
       text: >-
-        Add {{ingredients}}, cover and let stand for 10 minutes. Strain into a clean heat-safe
-        container, discarding the spent sprigs. Cool promptly, then cover and refrigerate until
-        cold; chilling takes additional time.
+        Add {{ingredients}}, cover and steep for 10 minutes. Strain the syrup and refrigerate until
+        cold, about 1 hour.
     - id: base
-      title: Mix
+      title: Mix the punch
       text: >-
-        Combine all the chilled strained syrup with {{ingredients}} in a pitcher that accommodates
-        the full load. Stir to combine. If preparing ahead, cover and refrigerate the complete base
-        for up to 4 hours; add serving ice and soda only at service.
-    - id: serve
-      title: Divide and finish
-      text: >-
-        Wash the fresh garnish produce before cutting or serving. Use {{ingredients}} for service.
-        Divide the entire pitcher among the listed planning portions in glasses with room for ice
-        and soda; top with soda and stir gently, then divide the fresh thyme and lime garnishes
-        among the drinks. Serve immediately.
+        In a large pitcher, stir the chilled syrup with {{ingredients}}. You can cover and
+        refrigerate the punch for up to 4 hours.
+    - id: pour
+      title: Pour
+      text: 'Fill eight rocks glasses with {{ingredients}} and divide the punch among them.'
+    - id: top
+      title: Top with soda
+      text: 'Top each glass with a splash of {{ingredients}} and stir gently.'
+    - id: garnish
+      title: Garnish
+      text: 'Garnish each drink with {{ingredients}}, one of each, and serve right away.'
 learning:
-  focus: Separate infusion thyme from fresh garnish and divide the whole punch base.
-  outcome: Cold cider-rum punch with the full thyme syrup and soda added at service.
   techniques:
     - temperature
     - seasoning
-  before:
-    - >-
-      The syrup uses its own thyme sprigs; the fresh garnish is an additional full supply. Wash
-      fresh garnish produce before cutting or serving.
-    - >-
-      Choose a pitcher and glasses for the actual full load. The strained syrup yield and soda
-      top-up are not measured finished drink volume.
-  checkpoints:
-    - step: 3
-      cue: All the chilled syrup and measured base ingredients are mixed before portioning.
-      why: >-
-        Filling arbitrary glasses three-quarters full can leave an unknown share of the measured
-        base unused.
-  troubleshooting:
-    - problem: The drinks lose carbonation before serving.
-      cause: Soda was stirred into the make-ahead pitcher or added to warm syrup.
-      fix: Chill the full base first; portion over fresh ice and add soda only at service.
-  timing: >-
-    About 15–25 minutes for measuring, heating and the 10-minute infusion, plus sufficient syrup
-    chilling. The complete cold base can be mixed up to 4 hours ahead.
-  storage: >-
-    Cover and refrigerate the prepared base at 40°F or below for its up-to-four-hour make-ahead
-    plan. Keep unserved portions cold and serve with fresh ice and soda. Prepare the herb syrup
-    close to service rather than holding it for extended storage.
-  sources:
-    - title: Alison Roman — New England Express
-      url: 'http://www.bonappetit.com/recipe/the-new-england-express'
-    - title: FDA — Juice safety
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-juice-safety'
-    - title: FDA — Cold handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-  substitutions: []
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Steep the thyme off heat after dissolving the sugar, then chill the syrup before mixing the pitcher. All the strained syrup goes into the cider, rum, lime and bitters base. Keep the fresh garnish thyme separate from the steeped sprigs and add soda only when serving.
+This fall punch from Bon Appétit mixes unfiltered apple cider and dark rum with plenty of fresh lime. Thyme steeped into the syrup adds a savory, woodsy note that ties the earthy cider to the molasses depth of the rum. Add the club soda only at the last minute so every glass is lively.
 
 ## Directions
 
-1. **Dissolve:** Combine granulated sugar and water in a saucepan with room for the full batch. Bring to a boil, stirring until the sugar dissolves. Remove from heat.
-2. **Infuse and chill:** Add fresh thyme sprigs, cover and let stand for 10 minutes. Strain into a clean heat-safe container, discarding the spent sprigs. Cool promptly, then cover and refrigerate until cold; chilling takes additional time.
-3. **Mix:** Combine all the chilled strained syrup with pasteurized unfiltered apple cider, dark rum, fresh lime juice, and aromatic bitters in a pitcher that accommodates the full load. Stir to combine. If preparing ahead, cover and refrigerate the complete base for up to 4 hours; add serving ice and soda only at service.
-4. **Divide and finish:** Wash the fresh garnish produce before cutting or serving. Use ice, club soda, fresh thyme sprigs, and lime slices for service. Divide the entire pitcher among the listed planning portions in glasses with room for ice and soda; top with soda and stir gently, then divide the fresh thyme and lime garnishes among the drinks. Serve immediately.
+1. **Make the syrup:** In a small saucepan, bring granulated sugar and water to a boil, stirring until the sugar dissolves. Take the pan off the heat.
+2. **Steep the thyme:** Add fresh thyme sprigs, cover and steep for 10 minutes. Strain the syrup and refrigerate until cold, about 1 hour.
+3. **Mix the punch:** In a large pitcher, stir the chilled syrup with unfiltered apple cider, dark rum, fresh lime juice, and Angostura bitters. You can cover and refrigerate the punch for up to 4 hours.
+4. **Pour:** Fill eight rocks glasses with ice and divide the punch among them.
+5. **Top with soda:** Top each glass with a splash of club soda and stir gently.
+6. **Garnish:** Garnish each drink with fresh thyme sprigs and lime slices, one of each, and serve right away.

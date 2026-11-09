@@ -34,117 +34,64 @@ equipment:
 prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
-servings: 4 modest bowls
+servings: '4'
 pairsWith:
   - steamed-white-rice
+  - thai-mango-salad
+pairingNotes:
+  steamed-white-rice: Spoon the soup over rice for a fuller meal.
+  thai-mango-salad: A crunchy, tart salad beside the silky broth.
 ingredients:
-  - 400 ml full-fat unsweetened coconut milk
-  - 2 cups (480 ml) unsalted chicken stock
-  - '30 g fresh or frozen galangal, thinly sliced'
-  - '2 lemongrass stalks, tough outer layers removed, lower halves bruised and cut into 2-inch pieces'
-  - '4 makrut lime leaves, torn into large pieces'
-  - '2 small dried red chiles, left whole for gentler heat or broken for more heat'
-  - '450 g boneless skinless chicken breast, cut into 1/4-inch-thick bite-sized slices'
-  - '225 g oyster mushrooms, torn into bite-sized pieces, or cremini mushrooms, thinly sliced'
-  - '100 g cherry tomatoes, halved'
-  - '2 tbsp fish sauce, added gradually to taste'
-  - '1 tsp palm sugar or brown sugar, plus a little more only if needed'
-  - '3 tbsp fresh lime juice, added gradually to taste'
-  - 2 tbsp chopped cilantro
+  - 1 can (13.5 oz) full-fat coconut milk
+  - 2 cups unsalted chicken stock
+  - '1 (2-inch) piece fresh galangal, thinly sliced'
+  - '2 stalks lemongrass, outer layers removed, bruised and cut into 2-inch pieces'
+  - '4 makrut lime leaves, torn'
+  - 2 small dried red chiles
+  - '8 oz oyster mushrooms, torn into bite-size pieces'
+  - '1 lb boneless, skinless chicken breast, cut into thin bite-size slices'
+  - '2/3 cup cherry tomatoes, halved'
+  - 1 tsp palm sugar or brown sugar
+  - '2 tbsp fish sauce, plus more to taste'
+  - '3 tbsp fresh lime juice, plus more to taste'
+  - '2 tbsp cilantro, chopped'
 description: >-
-  A coconut and galangal broth with tender chicken, mushrooms, and tomato, finished off heat with
-  fresh lime juice.
+  A coconut broth steeped with galangal, lemongrass and lime leaves, with tender chicken, mushrooms
+  and tomato and a bright finish of lime.
 learning:
-  focus: Infuse the broth first and cook breast meat near the end
-  outcome: >-
-    A fragrant coconut broth with galangal and citrus aroma, tender chicken slices, and a fresh sour
-    finish.
   techniques:
     - gentle-proteins
     - temperature
     - seasoning
-  before:
-    - >-
-      Galangal gives this soup its name and characteristic aroma. Frozen galangal is useful; ginger
-      makes a different coconut soup.
-    - >-
-      The large galangal, lemongrass, lime-leaf and dried-chile pieces are removed after infusing.
-      Removing chiles does not remove heat that has already entered the broth.
-  checkpoints:
-    - step: 2
-      cue: The broth smells of galangal and citrus before meat is added.
-      why: >-
-        The aromatic infusion needs time, while thin breast slices need only a short cook.
-        Separating the stages avoids holding meat through the whole infusion.
-    - step: 4
-      cue: Thick chicken slices reach 165°F / 74°C in a gentle simmer.
-      why: >-
-        A measured center temperature establishes doneness; a no-pink check is not enough, and hard
-        boiling can tighten lean meat.
-    - step: 5
-      cue: 'Lime is fresh and distinct, balanced against a savory rather than aggressively salty broth.'
-      why: >-
-        Off-heat lime addition preserves a fresher aroma. Staged seasoning accounts for evaporation
-        and fish-sauce variation.
-  troubleshooting:
-    - problem: Chicken is dry
-      cause: It simmered during the aromatic infusion or the soup boiled hard.
-      fix: >-
-        Next time infuse and strain first, then cook thin breast slices only to their endpoint. Add
-        cooked leftovers only long enough to reheat safely.
-    - problem: Broth is too sour
-      cause: All lime juice was added before tasting.
-      fix: >-
-        Add a little unsalted stock or coconut milk to dilute it, then recheck seasoning. Sugar
-        changes balance but does not remove acid.
-    - problem: Soup tastes flat despite enough salt
-      cause: 'Aromatics were weak, insufficiently bruised, or substituted.'
-      fix: >-
-        Infuse fresh or frozen galangal and properly bruised lemongrass in some broth, then strain
-        it back in. More fish sauce alone cannot recreate their aroma.
   substitutions:
     - ingredient: Fresh galangal
-      alternative: The same weight of frozen sliced galangal
+      alternative: Fresh ginger
       effect: >-
-        Retains the defining ingredient. Ginger or ordinary citrus zest will not reproduce the same
-        soup.
-    - ingredient: 'Chicken, chicken stock and fish sauce'
-      alternative: '400 g firm tofu, vegetable stock and gluten-free tamari to taste'
-      effect: >-
-        Creates a coconut-galangal tofu soup, not tom kha gai. Drain and cube tofu, warm it through
-        with the vegetables, and check all packaged seasonings for the intended diet.
-    - ingredient: Fish sauce and stock
-      alternative: Versions labeled gluten-free
-      effect: 'Supports the gluten-free option; check both products, not only the absence of wheat noodles.'
-  timing: >-
-    About 40 minutes includes ingredient preparation, heating, a ten-minute infusion, straining and
-    a short mushroom/chicken simmer. Makes four modest bowls; rice is prepared separately if wanted.
+        Galangal is sold fresh or frozen at Asian markets. Ginger makes a good soup but is sharper
+        and spicier, without galangal's piney, citrusy aroma.
+    - ingredient: Makrut lime leaves
+      alternative: 1 tsp grated lime zest
+      effect: Stir it in with the lime juice. You get the citrus but not the floral perfume of the leaves.
+    - ingredient: Oyster mushrooms
+      alternative: Cremini mushrooms
+      effect: Slice them thin. They are a little firmer and earthier.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Keep lime and cilantro separate
-    when making ahead, then add after reheating. Use the original amount as a guide and taste again;
-    do not automatically add a full second dose.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: 'Pailin Chongchitnant — Tom kha: galangal, infusion aromatics and late breast cooking'
-      url: 'https://hot-thai-kitchen.com/tom-ka-gai/'
+    Keeps 3 days in the fridge. Reheat gently without boiling, then add a fresh squeeze of lime and
+    the cilantro.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Galangal gives this coconut chicken soup its distinctive aroma, with mushrooms and a small tomato addition. Ginger makes a different-tasting substitute. Infuse the large aromatics first and remove them before adding the chicken and vegetables. Add lean chicken late and finish with lime off heat for a fragrant, spoonable broth.
+Tom kha gai is Thailand's silky coconut chicken soup, named for galangal, the piney, peppery root that perfumes the broth along with lemongrass and lime leaves. Fish sauce, a little palm sugar and plenty of lime balance it salty, sweet and sour. Keep it at a gentle simmer so the coconut milk stays smooth and the chicken stays tender.
 
 ## Directions
 
-1. **Prepare the infusion:** Slice galangal, trim and bruise lemongrass, and tear lime leaves. Choose whether to leave dried chiles whole or break them for more heat. Put coconut milk, stock and these aromatics in a 3-quart saucepan.
-2. **Infuse and strain:** Bring to a gentle simmer over medium heat and cook about 10 minutes, stirring occasionally. Strain into a heatproof bowl, discarding galangal, lemongrass, lime leaves and dried chiles. Return the fragrant broth to the saucepan. The infused chile heat remains even after straining.
-3. **Start the mushrooms:** Bring broth back to a gentle simmer. Add mushrooms and cook about 3 minutes, until beginning to soften. Meanwhile keep the prepared chicken refrigerated until ready to add.
-4. **Cook chicken and tomatoes:** Add chicken slices and tomatoes, stirring to separate the chicken. Return to a gentle simmer and cook about 4–6 minutes, until several thick chicken slices reach 165°F / 74°C and mushrooms are tender. Extend as needed, keeping the simmer gentle.
-5. **Season off heat:** Turn off heat. Stir in sugar and about half the fish sauce, then about half the lime juice. Taste and add more fish sauce and lime gradually only as needed. The soup should be savory and freshly sour, not cloying. Add a little extra sugar only if the finished balance needs it.
-6. **Serve:** Divide meat, vegetables and broth among four modest bowls and finish with cilantro. Serve separately prepared plain rice if wanted. Do not add an unmeasured extra coconut-cream drizzle; the broth already contains its full coconut portion.
+1. **Infuse the broth:** In a 3-quart saucepan, combine the coconut milk, stock, galangal, lemongrass, lime leaves and chiles. Break the chiles first if you want more heat. Bring to a gentle simmer over medium heat and simmer, stirring now and then, until very fragrant, about 10 minutes.
+2. **Strain:** Strain the broth into a heatproof bowl and discard the aromatics. Return the broth to the pan.
+3. **Cook the mushrooms:** Bring the broth back to a gentle simmer. Add the mushrooms and cook until they start to soften, about 3 minutes.
+4. **Cook the chicken:** Add the chicken and tomatoes and stir to separate the slices. Keep at a gentle simmer until the chicken reaches 165°F and the mushrooms are tender, 4 to 6 minutes.
+5. **Season off the heat:** Turn off the heat and stir in the sugar, fish sauce and lime juice. Taste and add more fish sauce or lime until the soup is savory and bright.
+6. **Serve:** Ladle into bowls and scatter the cilantro over the top.
