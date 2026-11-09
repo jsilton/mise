@@ -34,92 +34,55 @@ cookTime: 20 min
 totalTime: 35 min
 servings: '4'
 pairsWith:
-  - fresh-egg-pasta
-  - perfect-mashed-potatoes
-  - crispy-parmesan-roasted-broccoli
+  - buttered-egg-noodles
+  - roasted-asparagus
+pairingNotes:
+  buttered-egg-noodles: Noodles to catch the lemon-butter sauce.
+  roasted-asparagus: A spring green that loves lemon and capers.
 ingredients:
-  - '1.5 lbs (680 g) boneless skinless chicken breasts, for thin cutlets'
-  - '2 tbsp olive oil, divided'
+  - '1 1/2 lb boneless skinless chicken breasts (2 large)'
   - 1/2 tsp fine salt
   - 1/4 tsp black pepper
+  - '2 tbsp olive oil, divided'
   - '2 cloves garlic, minced'
-  - '1/2 cup (120 ml) unsalted chicken broth, plus more if needed'
+  - '2 tbsp brined capers, drained'
+  - 1/2 cup unsalted chicken broth
   - 2 tbsp fresh lemon juice
-  - '2 tbsp (28 g) unsalted butter, cold and cubed'
-  - '2 tbsp brined capers, drained and briefly rinsed'
-  - 2 tbsp chopped flat-leaf parsley
+  - '2 tbsp unsalted butter, cold and cubed'
+  - '2 tbsp flat-leaf parsley, chopped'
 origin: Italian-American
 description: >-
-  Thin chicken cutlets with a bright lemon-caper pan sauce. This unfloured version finishes with
-  butter off the heat.
+  Thin, unfloured chicken cutlets in a bright lemon-caper pan sauce, finished with butter off the
+  heat.
 dietary:
   - gluten-free
   - egg-free
 learning:
-  focus: 'Finish a bright, fluid butter sauce'
-  outcome: Tender cutlets lightly coated in a lemon-caper sauce that is glossy and pourable.
   techniques:
     - emulsions
     - temperature
-  before:
-    - 'Make four cutlets, then pound evenly to 1/4 inch. Plan to cook in two batches.'
-    - >-
-      Use brined capers here. Salt-packed capers need a longer rinse or soak according to their
-      package.
-  checkpoints:
-    - step: 3
-      cue: The broth lifts the golden pan residue and remains fluid.
-      why: >-
-        There is little liquid to start with. Reducing too far concentrates salt and leaves too
-        little water for a stable butter sauce.
-    - step: 4
-      cue: All cutlet centers reach 165°F / 74°C before finishing the sauce.
-      why: >-
-        Chicken can finish in the broth if necessary; boiling after butter is added can separate the
-        sauce.
-    - step: 5
-      cue: Butter blends into the liquid without a visible layer of oil.
-      why: >-
-        Swirling off heat disperses fat into the broth. This unfloured sauce is light and less
-        resistant to hard boiling than a starch-thickened sauce.
-  troubleshooting:
-    - problem: Sauce is oily
-      cause: Too little liquid remains or the finished sauce became too hot.
-      fix: >-
-        Take it off heat and swirl in a tablespoon of cool broth. Keep the sauce below a boil after
-        finishing.
-    - problem: Lemon or capers dominate
-      cause: Lemon acidity and caper saltiness vary.
-      fix: >-
-        Loosen with a little unsalted broth and taste with a bite of chicken. Next time hold back
-        some lemon until the final tasting.
-  timing: >-
-    35 minutes includes two batches of thin cutlets. Make any pasta or potatoes separately; their
-    time is not included.
+  substitutions:
+    - ingredient: Floured cutlets
+      alternative: Dredge in flour before searing
+      effect: >-
+        Coat the cutlets lightly in flour and shake off the excess. They brown more and the sauce
+        thickens a little, but the dish is no longer gluten-free.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Reheat chicken in the sauce with a
-    splash of broth, then stir gently. The sauce can separate during reheating.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: American Chemical Society — Chemistry of grilling
-      url: 'https://www.acs.org/pressroom/reactions/library/grilling.html'
+    Keeps 3 days in the fridge. Reheat gently in the sauce with a splash of broth, since the butter
+    sauce can separate.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Piccata pairs a thin cutlet with lemon, capers, and butter. This version omits a flour coating, leaving a light pan sauce. The goal is a thin, bright coating, not a thick gravy. Save the lemon for the finish and keep enough broth in the pan to carry the butter.
+Piccata is an Italian-American restaurant classic of thin cutlets in a sharp sauce of lemon, capers and butter. Without flour, the chicken sears clean and the sauce stays light and bright. Swirl the cold butter in off the heat so the sauce turns glossy instead of oily.
 
 ## Directions
 
-1. **Prepare:** Slice the breasts horizontally into four cutlets and pound between sheets of plastic wrap to an even 1/4 inch. Pat dry and season with the measured salt and pepper.
-2. **Sear in batches:** Heat 1 tbsp oil in a wide skillet over medium-high heat. Cook half the cutlets about 2–3 minutes per side, until lightly golden. Transfer to a plate and repeat with the remaining oil and chicken. Lower heat if the pan residue darkens too quickly.
-3. **Deglaze:** Reduce heat to medium. Stir garlic and capers in the pan for 30 seconds, then add broth. Scrape up golden residue and simmer for about 1 minute. Discard blackened residue rather than incorporating it into the sauce.
-4. **Check chicken:** Check each cutlet by inserting a thermometer from its side into the center. If any are below 165°F / 74°C, return them and their plate juices to the broth and simmer gently until they reach that temperature. If all are already cooked, add only their plate juices to the broth and bring it back to a simmer. Transfer cooked chicken to a clean platter. Add a little broth if the pan is becoming dry.
-5. **Finish off heat:** Turn off heat and let vigorous bubbling stop. Add lemon juice and swirl in cold butter a few pieces at a time until glossy. Stir in parsley. Taste before adding any additional seasoning, then spoon the sauce over the chicken and serve immediately.
+1. **Cut and pound:** Slice each breast in half horizontally to make four cutlets. Pound them between sheets of plastic wrap to an even 1/4 inch. Pat dry and season both sides with the salt and pepper.
+2. **Sear the cutlets:** Heat half the oil in a wide skillet over medium-high heat. Sear half the cutlets until lightly golden, 2 to 3 minutes per side. Move them to a plate and repeat with the rest of the oil and chicken.
+3. **Start the sauce:** Lower the heat to medium. Stir the garlic and capers in the pan for 30 seconds. Pour in the broth, scrape up the browned bits and simmer for 1 minute.
+4. **Finish the chicken:** Return the cutlets and their juices to the pan. Simmer gently, turning once, until the centers reach 165°F, 1 to 2 minutes. Move the chicken to a warm platter.
+5. **Finish with butter:** Turn off the heat and let the bubbling settle. Add the lemon juice, then swirl in the cold butter a few pieces at a time until the sauce is glossy. Stir in the parsley, taste for salt and spoon the sauce over the chicken.

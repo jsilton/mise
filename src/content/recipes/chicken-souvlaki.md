@@ -17,22 +17,27 @@ role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 15 min
-totalTime: 1 hr 5 min
+totalTime: '35 min, plus 30 min marinating'
 servings: '4'
 advancePrep:
   - season-ahead
 pairsWith:
-  - greek-village-salad
   - warm-pita-bread
+  - greek-village-salad
+  - tzatziki-sauce
+pairingNotes:
+  warm-pita-bread: Slide the chicken off the skewer into warm pita.
+  greek-village-salad: 'Tomato, cucumber and feta for a full Greek plate.'
+  tzatziki-sauce: The classic cool garlic yogurt sauce for souvlaki.
 ingredients:
-  - '1.5 lbs (680 g) boneless skinless chicken thighs, cut into even 1-inch pieces'
+  - '1 1/2 lb boneless skinless chicken thighs, cut into 1-inch pieces'
   - 2 tbsp olive oil
   - 2 tbsp fresh lemon juice
-  - 1 tbsp dried oregano
+  - 1 tbsp dried Greek oregano
   - '3 cloves garlic, finely grated'
   - 3/4 tsp fine salt
   - 1/2 tsp black pepper
-  - '1 tsp neutral oil, for brushing the grill grates'
+  - '1 tsp neutral oil, for the grill grates'
   - '1/2 lemon, cut into wedges'
 origin: Greece
 seasons:
@@ -40,8 +45,8 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 description: >-
-  Lemon-oregano chicken skewers with browned edges and a verified center temperature, plus a fresh
-  lemon finish.
+  Lemon, garlic and oregano chicken skewers grilled until browned at the edges, finished with a
+  squeeze of fresh lemon.
 equipment:
   - grill
   - metal-skewers
@@ -51,73 +56,33 @@ dietary:
   - egg-free
   - gluten-free
 learning:
-  focus: Cook evenly sized skewers to the center
-  outcome: 'Juicy, evenly cooked chicken pieces with browned edges and a clear oregano-lemon flavor.'
   techniques:
     - temperature
     - browning
-  before:
-    - >-
-      Use metal skewers, or soak wooden skewers according to their package and keep exposed ends
-      away from direct flame.
-    - >-
-      Cut consistently sized pieces and thread without compressing them tightly; thick folded
-      bundles cook unevenly.
-  checkpoints:
-    - step: 3
-      cue: Skewers sizzle steadily without sustained flames licking the meat.
-      why: >-
-        Excess marinade dripping onto the heat can cause flare-ups that burn garlic before the
-        chicken center cooks.
-    - step: 4
-      cue: 'Several of the largest pieces reach 165°F / 74°C, measured away from the metal skewer.'
-      why: >-
-        Pulling at 160°F and assuming carryover is unreliable for small cubes. The skewer itself can
-        also give a misleading reading.
-  troubleshooting:
-    - problem: Outside burns while centers lag
-      cause: 'Heat is too high, pieces are uneven, or chicken is packed tightly.'
-      fix: >-
-        Move skewers to a cooler part of the grill and keep cooking to 165°F / 74°C. Cut evenly and
-        loosen the spacing next time.
-    - problem: Chicken tastes harshly lemony or has a soft surface
-      cause: The acid exposure was excessive for the small pieces.
-      fix: >-
-        Serve with plain pita and salad now. Next time keep marination within 30 minutes to 4 hours
-        rather than extending overnight.
   substitutions:
-    - ingredient: Outdoor grill
-      alternative: A lightly oiled heavy skillet
+    - ingredient: Dried Greek oregano
+      alternative: Regular dried oregano
+      effect: 'Less floral and peppery. Use the same amount.'
+    - ingredient: Skillet
+      alternative: Cook in a heavy skillet instead of on the grill
       effect: >-
-        Cook unskewered pieces in two batches, turning until 165°F / 74°C. Use the measured grate
-        oil for the skillet and allow extra cooking time.
-  timing: >-
-    About 65 minutes includes 15 minutes prep, 30 minutes minimum marinating, 15 minutes grilling,
-    and 5 minutes rest. Preheat the grill during the marination period.
+        Leave the chicken off the skewers and cook it in a lightly oiled skillet over medium-high
+        heat in two batches, turning, until it reaches 165°F, 8 to 10 minutes.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Remove cooled meat from skewers
-    for storage. Refrigerate side salads and sauces separately.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: American Chemical Society — Chemistry of grilling
-      url: 'https://www.acs.org/pressroom/reactions/library/grilling.html'
+    Keeps 3 days in the fridge, off the skewers. Reheat briefly in a hot skillet.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Souvlaki is built around small pieces of meat cooked on skewers. This chicken version uses lemon, garlic, and plenty of oregano. The marinade seasons the surface; even cutting and careful heat control matter more than an extended acidic soak for a juicy center.
+Souvlaki is Greece's favorite street food, small pieces of meat grilled on skewers and tucked into pita. Chicken thighs stay juicy over high heat, and a marinade heavy with lemon, garlic and Greek oregano gives the classic bright flavor. Cut the pieces evenly so they all cook at the same pace.
 
 ## Directions
 
-1. **Marinate:** Mix olive oil, lemon juice, oregano, garlic, salt, and pepper. Toss with chicken, cover, and refrigerate for 30 minutes to 4 hours at 40°F / 4°C or below.
-2. **Prepare grill and skewers:** Preheat the grill to medium-high, with a cooler area available. Thread chicken onto about eight skewers without tightly bunching the pieces. Let excess marinade drip off and discard it. Brush clean grates lightly with the measured neutral oil.
-3. **Grill:** Cook skewers with the lid closed between turns, turning every 2–3 minutes, until browned on several sides, usually about 10–15 minutes. Move them to the cooler area if garlic or oregano darkens too quickly or dripping marinade causes flare-ups.
-4. **Verify:** Insert a thermometer into several of the largest chicken pieces, keeping its sensing tip in the meat and away from the skewer. Cook until each checked piece reaches 165°F / 74°C; continue as needed rather than relying on carryover from 160°F.
-5. **Rest and finish:** Move to a clean platter and rest for 5 minutes. Serve with the lemon wedges for a fresh squeeze. A Greek village salad and pita make a fuller meal.
+1. **Marinate the chicken:** Whisk the olive oil, lemon juice, oregano, garlic, salt and pepper in a bowl. Toss in the chicken, cover and refrigerate for 30 minutes to 4 hours. Any longer and the lemon softens the surface.
+2. **Heat the grill:** Heat the grill to medium-high, leaving one side cooler.
+3. **Skewer the chicken:** Let the extra marinade drip off and thread the chicken onto eight skewers without packing it tightly. If you use wooden skewers, soak them in water for 20 minutes first.
+4. **Grill the skewers:** Brush the grates with the neutral oil. Grill with the lid closed, turning every 2 to 3 minutes, until browned on all sides and the largest pieces reach 165°F, 10 to 15 minutes. Move the skewers to the cooler side if flare-ups char them.
+5. **Rest and serve:** Rest the skewers on a platter for 5 minutes. Serve with the lemon wedges for squeezing.

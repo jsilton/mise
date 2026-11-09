@@ -32,94 +32,55 @@ equipment:
   - meat-mallet
   - instant-read-thermometer
 pairsWith:
-  - fresh-egg-pasta
+  - creamy-polenta
   - everyday-arugula-salad
+pairingNotes:
+  creamy-polenta: Soft polenta under the chicken catches the pan sauce.
+  everyday-arugula-salad: Peppery, lemony greens to finish the plate.
 ingredients:
-  - '2 lbs (900 g) boneless skinless chicken thighs, opened flat'
-  - '1/2 cup (60 g) all-purpose flour, for dredging'
-  - '3 tbsp olive oil, divided'
+  - '2 lb boneless skinless chicken thighs, opened flat'
   - 3/4 tsp fine salt
   - 1/2 tsp black pepper
-  - '5 cloves garlic, minced'
+  - '1/2 cup all-purpose flour, for dredging'
+  - '3 tbsp olive oil, divided'
   - 2 tbsp tomato paste
-  - 1/2 cup (120 ml) dry white wine
-  - '3/4 cup (180 ml) unsalted chicken broth, plus more if needed'
-  - '9 oz (255 g) fresh baby spinach, washed if needed and well dried'
-  - '1 tbsp (14 g) unsalted butter, cold and cubed'
+  - '5 cloves garlic, minced'
+  - 1/2 cup dry white wine
+  - 3/4 cup unsalted chicken broth
+  - 9 oz baby spinach
+  - '1 tbsp unsalted butter, cold'
 origin: Italian-inspired
 description: >-
-  Thin chicken thighs in a light tomato–white wine pan sauce with spinach, finished with a small
-  amount of butter.
+  Thin chicken thighs in a light tomato and white wine pan sauce with spinach, finished with a
+  little butter.
 learning:
-  focus: Control moisture in a vegetable pan sauce
-  outcome: >-
-    Tender chicken and wilted spinach in a lightly thickened sauce, with no raw flour or puddles of
-    spinach water.
   techniques:
     - browning
     - emulsions
     - temperature
-  before:
-    - Open the thighs flat and gently level thick sections to about 1/2 inch.
-    - >-
-      Dry spinach well. Use a 12-inch skillet and allow two or three chicken batches rather than
-      piling 900 g into one layer.
-  checkpoints:
-    - step: 3
-      cue: 'Tomato paste deepens slightly in color and smells cooked, without turning black.'
-      why: >-
-        Brief cooking develops its flavor; burned paste makes the sauce bitter and cannot be
-        repaired by wine.
-    - step: 5
-      cue: Chicken centers reach 165°F / 74°C before they leave the sauce.
-      why: The initial sear develops color; the gentle simmer finishes the meat.
-    - step: 6
-      cue: Spinach is wilted and excess released water has simmered away.
-      why: >-
-        Spinach needs heat to wilt and release water before butter is incorporated. Adding a whole
-        bag off heat gives uneven wilting and a diluted finish.
-  troubleshooting:
-    - problem: Sauce turns pasty
-      cause: Too much dredging flour stuck to the chicken or the liquid over-reduced.
-      fix: Add unsalted broth a tablespoon at a time. Shake off flour more thoroughly next time.
-    - problem: Spinach waters down the sauce
-      cause: Leaves were wet or their released liquid had no chance to evaporate.
-      fix: Keep chicken aside and simmer the spinach sauce briefly before adding butter.
   substitutions:
     - ingredient: Dry white wine
-      alternative: 120 ml additional unsalted broth with 1–2 tsp lemon juice to taste at the end
-      effect: >-
-        An alcohol-free version with less wine aroma. Add the lemon gradually after reducing the
-        sauce.
-  timing: >-
-    50 minutes allows preparation, two or three searing batches, and spinach wilting. Pasta is a
-    separate component with its own cooking time.
+      alternative: More chicken broth and a squeeze of lemon
+      effect: 'Makes an alcohol-free sauce with less depth. Add the lemon at the end, to taste.'
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Spinach softens further when
-    reheated. Loosen the sauce with broth and stir gently.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: American Chemical Society — Chemistry of grilling
-      url: 'https://www.acs.org/pressroom/reactions/library/grilling.html'
+    Keeps 3 days in the fridge. Reheat gently with a splash of broth.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 rating: 5
 ---
 
 ## Chef's Note
 
-Scaloppine are thin slices of meat cooked quickly. Here, a light flour coating and a small quantity of tomato paste give body to a white-wine pan sauce. The spinach must wilt before the off-heat butter finish; otherwise it can cool the sauce and release water after the sauce has been balanced.
+Scaloppine are thin cutlets cooked fast, an Italian method most often used for veal. Here chicken thighs get a light coat of flour and a quick sauce of browned tomato paste, garlic and white wine, with spinach wilted right in the pan. Cook the paste until it turns brick red so its sweetness deepens.
 
 ## Directions
 
-1. **Prepare chicken:** Open thighs flat and pound thicker sections gently to about 1/2 inch between sheets of plastic wrap. Season with salt and pepper, dredge lightly in flour, and shake off excess. Discard leftover flour after raw chicken contact.
-2. **Brown in batches:** Heat 1 tbsp oil in a large skillet over medium-high heat. Sear chicken in uncrowded batches, about 3–4 minutes on the first side and 2–3 on the second, distributing the remaining oil among later batches. Transfer to a plate; the chicken will finish in the sauce. Adjust heat to avoid burning the flour residue.
-3. **Cook paste and garlic:** Lower heat to medium. Stir tomato paste in the pan for 1–2 minutes until slightly darker and fragrant. Add garlic and stir for 30 seconds. If the pan is dry enough to scorch, loosen with a tablespoon of the measured broth.
-4. **Deglaze:** Take the pan briefly off the burner to add wine. Return to medium heat, scrape up golden residue, and simmer 2–3 minutes. Add the remaining broth and bring to a gentle simmer.
-5. **Finish the chicken:** Return chicken and plate juices. Simmer gently about 3–5 minutes, turning pieces, until the thickest centers reach 165°F / 74°C. Continue as needed, adding broth if the sauce becomes too thick. Transfer cooked chicken to a clean platter.
-6. **Wilt spinach and finish:** Add spinach to the simmering sauce in handfuls, turning until wilted, about 2–3 minutes. Simmer briefly if it releases excess water. Turn off heat, let vigorous bubbling stop, and swirl in the butter. Taste and adjust only if needed. Spoon spinach and sauce over the chicken and serve.
+1. **Pound and season:** Lay the thighs between sheets of plastic wrap and pound the thick parts to an even 1/2 inch. Season both sides with the salt and pepper.
+2. **Dredge the chicken:** Spread the flour in a shallow dish. Coat each piece lightly and shake off the excess.
+3. **Brown the chicken:** Heat some of the oil in a large skillet over medium-high heat. Sear the chicken in two or three batches until golden, 3 to 4 minutes on the first side and 2 to 3 minutes on the second, adding more oil for each batch. It finishes cooking in the sauce. Move it to a plate.
+4. **Toast the paste:** Lower the heat to medium. Stir the tomato paste in the pan until it darkens to brick red, 1 to 2 minutes. Add the garlic and stir for 30 seconds.
+5. **Reduce the wine:** Take the pan off the burner and pour in the wine. Return it to medium heat, scrape up the browned bits and simmer for 2 to 3 minutes. Add the broth and bring it to a gentle simmer.
+6. **Simmer the chicken:** Return the chicken and its juices to the pan. Simmer gently, turning the pieces, until the thickest ones reach 165°F, 3 to 5 minutes. Move the chicken to a warm platter.
+7. **Wilt the spinach:** Add the spinach to the simmering sauce a handful at a time. Turn it until it wilts and its water cooks off, 2 to 3 minutes.
+8. **Finish with butter:** Turn off the heat and let the bubbling settle. Swirl in the butter, taste for salt and spoon the spinach and sauce over the chicken.
