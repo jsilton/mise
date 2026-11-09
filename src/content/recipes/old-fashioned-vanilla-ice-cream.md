@@ -25,24 +25,25 @@ flavorProfile:
 cuisines:
   - American
 role: dessert
-vibe: technical
+vibe: comfort
 prepTime: 5 min
 cookTime: 10 min
-totalTime: 'At least 6 hr 15 min, plus churning and machine preparation'
+totalTime: '15 min, plus 6 hr 20 min chilling, churning and freezing'
 servings: 1 quart
 ingredients:
-  - 4 large Egg Yolks
-  - 1/2 cup Granulated Sugar
-  - 1 cup Whole Milk
-  - 1 cup Heavy Cream
-  - 2 tsp Pure Vanilla Bean Paste
-  - Pinch of Sea Salt
+  - 1 cup whole milk
+  - pinch of sea salt
+  - 4 large egg yolks
+  - 1/2 cup granulated sugar
+  - '1 cup heavy cream, cold'
+  - 2 tsp vanilla bean paste
 origin: United States
 pairsWith:
-  - apple-cider-cream-pie
   - apple-pie
-  - babys-first-smash-cake
-  - best-cinnamon-roll-recipe-cinnabon-copycat
+  - cranberry-crunch
+pairingNotes:
+  apple-pie: A scoop on warm pie, à la mode.
+  cranberry-crunch: Cold vanilla melting into hot, tart fruit.
 nutrition:
   calories: 1935
   protein: 23.5
@@ -51,86 +52,32 @@ nutrition:
   fiber: 0
   sugar: 219
   sodium: 2550
-source: Adapted from Addapinch.com
+source: Adapted from Add a Pinch
 sourceUrl: 'https://addapinch.com/old-fashioned-vanilla-ice-cream-recipe/'
 learning:
-  focus: Stop heating a stirred custard at its measured endpoint
-  outcome: 'The custard is smooth, coats the spoon and churns to soft serve once fully cold.'
   techniques:
     - gentle-proteins
     - cold-preparation
-  before:
-    - >-
-      Prepare the machine as directed, including freezing its bowl in advance if required. Keep the
-      cream refrigerated until it is added.
-    - 'Use a thermometer, a saucepan with stirring room and shallow containers for rapid chilling.'
-    - >-
-      The stated quart is an approximate yield. Respect the actual machine liquid-fill limit; use
-      additional batches for increased quantities, keeping waiting base refrigerated.
-  checkpoints:
-    - step: 2
-      cue: The hot milk is incorporated gradually without visible cooked egg flecks.
-      why: Gradual addition and constant whisking reduce localized overheating.
-    - step: 3
-      cue: The stirred mixture reaches 165°F and coats the spoon without boiling.
-      why: A thermometer establishes the endpoint and immediate removal limits carryover heating.
-    - step: 4
-      cue: 'The custard is cold throughout, at 40°F / 4°C or below.'
-      why: >-
-        Keeping the base refrigerated avoids a warm holding period and gives the machine a colder
-        starting mixture.
-    - step: 6
-      cue: The churned ice cream is soft serve before transfer to the freezer.
-      why: Machine time varies; hardening is a separate step.
-  troubleshooting:
-    - problem: Custard has cooked egg flecks
-      cause: The milk was added too fast or the pan overheated.
-      fix: >-
-        Remove from heat and strain small flecks; badly scrambled custard cannot be made smooth by
-        churning.
-    - problem: Ice cream stays liquid
-      cause: 'The machine bowl was insufficiently frozen, the base was warm or too much base was added.'
-      fix: >-
-        Keep the base refrigerated while correcting machine preparation and split into batches
-        within the fill limit.
-    - problem: Ice cream is harder than expected after freezing
-      cause: Home freezers and hardening times vary.
-      fix: >-
-        Let only the portion to be served soften briefly, keeping the rest frozen. Do not melt the
-        whole container to make it scoopable.
   substitutions:
-    - ingredient: Vanilla bean paste
-      alternative: The same amount of vanilla extract
-      effect: Publisher-supported; flavor remains vanilla but without the visible seed flecks.
-  timing: >-
-    At least 6 hr 15 min plus churning and machine preparation: around 5 minutes preparation,
-    approximately 10 minutes stove work, at least 4 hours cold chilling and 2 hours hardening.
-    Churning is often around 20 minutes but follow the machine and soft-serve endpoint. Overnight
-    chilling is optional and extends the elapsed preparation time.
+    - ingredient: vanilla bean paste
+      alternative: Pure vanilla extract
+      effect: Use the same amount. The flavor is the same, without the black specks of seed.
   storage: >-
-    Keep refrigerated at 40°F / 4°C or below. Refrigerate promptly, within 2 hours of cooking or
-    serving (1 hour above 90°F / 32°C). Churn by the next day as a practical make-ahead plan. Freeze
-    promptly after churning and keep frozen until serving. Keep waiting base refrigerated between
-    machine batches; do not use smell as a cold-storage test.
-  sources:
-    - title: Adapted from Addapinch.com
-      url: 'https://addapinch.com/old-fashioned-vanilla-ice-cream-recipe/'
-    - title: FDA — Egg cooking and prompt cold handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety'
+    Keeps 2 weeks covered in the freezer. Let it soften for 5 minutes before scooping.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Gradually whisk hot milk into yolks and sugar, then stir the custard over gentle heat to 165°F. Stop before it boils. Chill the base fully before adding cold cream and vanilla; churning produces soft serve, and the freezer firms it further.
+This is a classic custard vanilla ice cream, the kind that goes on every pie and cobbler. The cold cream goes in after the custard chills, which keeps the base light and quick to churn. Vanilla bean paste gives deep flavor and flecks of seed. Chill the base overnight if you can for the creamiest texture.
 
 ## Directions
 
-1.  **The Base:** In a small saucepan, heat milk and the pinch of salt over medium-low until just simmering.
-2.  **Emulsify:** In a medium bowl, whisk egg yolks and sugar until pale yellow. Slowly stream in the hot milk while whisking constantly.
-3.  **Thicken:** Return the mixture to the pan. Stir constantly over gentle heat until it reaches 165°F and coats the back of a spoon. Remove from the heat immediately. **Do not boil.**
-4.  **The Chill:** Transfer to a shallow container and refrigerate promptly for **at least 4 hours**, until thoroughly cold, at 40°F / 4°C or below. Prepare the ice cream maker, including freezing its bowl if required, according to its instructions.
-5.  **Churn:** Stir in the chilled heavy cream and vanilla bean paste. Pour into your prepared ice cream maker, respecting its liquid-fill limit. Churn in batches if needed and keep waiting base refrigerated.
-6.  **Set:** Churn according to instructions (usually 20 mins). Transfer to a freezer-safe container and freeze for 2 hours before serving.
+1. **Heat the milk:** Warm the milk and salt in a small saucepan over medium-low heat until just simmering.
+2. **Temper the yolks:** In a medium bowl, whisk the yolks and sugar until pale yellow. Slowly pour in the hot milk, whisking constantly.
+3. **Cook the custard:** Pour the mixture back into the pan. Stir constantly over low heat until it coats the back of a spoon and reaches 165°F, about 5 minutes. Take it off the heat right away and don't let it boil.
+4. **Chill the base:** Pour the custard into a container, cover and refrigerate until very cold, at least 4 hours or overnight.
+5. **Churn:** Stir in the cream and vanilla bean paste. Churn in an ice cream maker until it looks like soft-serve, about 20 minutes.
+6. **Freeze:** Pack it into a covered container and freeze until firm, about 2 hours.
