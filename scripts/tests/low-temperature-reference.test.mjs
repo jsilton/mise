@@ -277,7 +277,10 @@ test('commercial pasteurized-in-shell egg use is not home pasteurization', () =>
   // The November rewrite dropped the pasteurized-in-shell egg advice and the raw-protein
   // warning from this assembly recipe (every listed protein is already cooked). The real body
   // must still pass the detector, and the synthetic phrases below keep the qualifier covered.
-  assert.match(actual, /\*\*Add the protein:\*\* Pile the protein on one side of each bowl\./);
+  assert.match(
+    actual,
+    /\*\*Add the protein:\*\* Pile the chickpeas, tofu, eggs, grilled chicken or fish, or rotisserie chicken on one side of each bowl\./
+  );
   assert.equal(hasLowTemperatureReference(actual, words), false);
   assert.equal(hasLowTemperatureReference('Use pasteurized-in-shell eggs.', words), false);
   // Only the product qualifier is excluded: the instruction remains visible.

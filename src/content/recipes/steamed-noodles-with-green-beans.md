@@ -90,7 +90,7 @@ Bian dou men mian is a northern Chinese home dish. Fresh noodles are steamed, th
 
 ## Directions
 
-1. **Marinate the pork:** Toss the pork with the soy sauce, cornstarch, Shaoxing wine and white pepper from the pork list. Let it sit for 20 minutes while you prep and steam the noodles. Stir the braising liquid together in a small bowl.
+1. **Marinate the pork:** Toss the pork with the soy sauce, cornstarch, Shaoxing wine and white pepper from the pork list. Let it sit for 20 minutes while you prep and steam the noodles. For the braising liquid, stir the dark soy sauce, sugar, water and the light soy sauce from the braising list together in a small bowl.
 2. **Steam the noodles:** Line a steamer rack with parchment poked with holes and bring the water below it to a boil. Toss the noodles with a little of the oil, spread them loosely on the parchment, cover and steam until flexible, 10 to 12 minutes.
 3. **Brown the pork:** Heat the rest of the oil in a deep 12-inch pan with a tight lid over medium-high heat. Cook the pork, turning, until browned in patches, 3 to 4 minutes. Lower the heat to medium, add the ginger and star anise for 30 seconds, then the garlic and scallion whites for 30 seconds more.
 4. **Cook the beans:** Add the green beans and stir-fry until bright green, about 3 minutes.

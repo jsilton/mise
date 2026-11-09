@@ -230,12 +230,13 @@ formula:
       title: Boil the pasta
       text: >-
         Meanwhile, cook {{ingredients}} in a large pot of salted boiling water until 2 minutes short
-        of al dente, then drain.
+        of al dente. Scoop out some of the pasta water, then drain.
     - id: bind
       title: Finish the pasta
       text: >-
         Add the spaghetti to the greens and broth and toss over medium heat until al dente, 1 to 2
-        minutes. Return the clams and their juices to warm through.
+        minutes, adding a splash of the pasta water if it looks dry. Return the clams and their
+        juices to warm through.
     - id: finish
       title: Butter and serve
       text: >-
@@ -265,6 +266,6 @@ Raleigh chef Ashley Christensen gives spaghetti with clams a Southern turn with 
 4. **Bloom the garlic:** Warm 1/2 of the extra-virgin olive oil, 1/2 of the garlic cloves, and red pepper flakes in the clean pot over medium heat until the garlic is fragrant, 30 to 45 seconds.
 5. **Braise the greens:** Add Swiss chard or collard greens a handful at a time and cook, stirring, until wilted and tender, about 3 minutes for chard and a few minutes longer for collards.
 6. **Add the broth:** Pour in the pepper broth and bring to a simmer. Season with kosher salt and black pepper.
-7. **Boil the pasta:** Meanwhile, cook spaghetti in a large pot of salted boiling water until 2 minutes short of al dente, then drain.
-8. **Finish the pasta:** Add the spaghetti to the greens and broth and toss over medium heat until al dente, 1 to 2 minutes. Return the clams and their juices to warm through.
+7. **Boil the pasta:** Meanwhile, cook spaghetti in a large pot of salted boiling water until 2 minutes short of al dente. Scoop out some of the pasta water, then drain.
+8. **Finish the pasta:** Add the spaghetti to the greens and broth and toss over medium heat until al dente, 1 to 2 minutes, adding a splash of the pasta water if it looks dry. Return the clams and their juices to warm through.
 9. **Butter and serve:** Off the heat, add unsalted butter, lemon zest, fresh lemon juice, and Parmesan and toss until the butter melts and the sauce turns glossy. Serve in shallow bowls with more Parmesan.

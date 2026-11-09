@@ -66,7 +66,7 @@ These are meal prep bowls from The Girl on Bloor, made on one sheet pan. The chi
 
 ## Directions
 
-1. **Mix the pesto:** Heat the oven to 400°F and line a large rimmed sheet pan with parchment. In a small bowl, stir the pesto, Parmesan, garlic and two-thirds of the olive oil. Season with salt and pepper. Spoon out two spoonfuls for the chicken and two more for the vegetables, and set the rest aside for serving.
+1. **Mix the pesto:** Heat the oven to 400°F and line a large rimmed sheet pan with parchment. In a small bowl, stir the pesto, Parmigiano-Reggiano, garlic and two-thirds of the olive oil. Season with salt and pepper. Spoon out two spoonfuls for the chicken and two more for the vegetables, and set the rest aside for serving.
 2. **Roast the chicken:** On the pan, toss the chicken and mushrooms with the rest of the olive oil and the first spoonfuls of pesto mixture. Spread them out and roast for 10 minutes.
 3. **Add the vegetables:** Add the broccoli, zucchini and tomatoes to the pan and toss them with the second spoonfuls of pesto mixture. Spread everything out in one layer.
 4. **Finish roasting:** Roast until the chicken reaches 165°F and the broccoli is crisp-tender, about 10 minutes more.

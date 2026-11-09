@@ -78,7 +78,7 @@ These are The Woks of Life family's all-purpose pork and greens dumplings, the k
 
 ## Directions
 
-1. **Blanch the greens:** Bring a large pot of water to a boil. Blanch the greens until just wilted, about 1 minute, then drain and rinse under cold water.
+1. **Blanch the greens:** Bring a large pot of water to a boil. Blanch the shepherd's purse until just wilted, about 1 minute, then drain and rinse under cold water.
 2. **Chop the greens:** Squeeze out as much water as you can, then chop the greens very finely. A few pulses in a food processor work too.
 3. **Mix the filling:** Put the greens, pork, Shaoxing wine, neutral oil, sesame oil, salt, soy sauce, white pepper and water in a large bowl. Stir hard in one direction until the filling turns sticky and paste-like, 6 to 8 minutes.
 4. **Test the seasoning:** Fold one dumpling and boil it until cooked through, about 5 minutes. Taste it and add a little more salt or soy sauce to the filling if it needs it.

@@ -92,7 +92,7 @@ Poke is Hawaii's seasoned raw fish, cut into cubes, tossed with soy and sesame a
 
 1. **Make the rice and cucumbers:** Make the sushi rice. While it cooks, make the half batch of oi muchim and refrigerate it.
 2. **Cook the edamame:** Boil the edamame until tender, following the package time, then drain and chill.
-3. **Prep the vegetables:** Slice the avocado and toss it with half the lime juice and the salt. Keep the cut vegetables cold until serving.
+3. **Prep the vegetables:** Slice the avocado and toss it with half the lime juice and the salt. Keep the cucumber, carrot, cabbage and jalapeño cold until serving.
 4. **Mix the dressing:** Whisk the soy sauce, sesame oil, rice vinegar, ginger, the rest of the lime juice and the sriracha, if using, in a medium bowl.
 5. **Dress the seafood:** Cut the tuna or salmon into 1/2-inch cubes, or slice the scallops 1/4 inch thick. Fold the seafood into the dressing and refrigerate for 5 to 10 minutes, no longer.
 6. **Set out the bar:** Set the poke bowl in a larger bowl of ice. Put the rice, cucumber salad, avocado, vegetables and toppings in separate bowls around it.

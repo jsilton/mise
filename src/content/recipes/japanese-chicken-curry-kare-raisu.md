@@ -88,7 +88,7 @@ Kare raisu, curry rice, is Japan's favorite home comfort food, a Western-style c
 
 1. **Brown the onions:** Heat the oil in a heavy 5-quart pot over medium heat. Add the onions and salt and cook, stirring often, until soft and deep golden, 15 to 20 minutes. Add a splash of the stock if they start to stick.
 2. **Add the aromatics:** Stir in the garlic and ginger until fragrant, about 30 seconds.
-3. **Sear the chicken:** Add the chicken and turn it in the onions until the outside turns opaque, 3 to 4 minutes.
+3. **Cook the chicken:** Add the chicken and turn it in the onions until the outside turns opaque, 3 to 4 minutes.
 4. **Simmer the vegetables:** Add the carrots, potatoes, stock, apple, Worcestershire, ketchup and soy sauce. Bring to a simmer, partly cover and cook, stirring now and then, until the potatoes and carrots are nearly tender, about 20 minutes.
 5. **Make the roux:** While the vegetables simmer, melt the butter in a small saucepan over medium-low heat. Stir in the flour and cook, stirring constantly, until light brown and toasty, 10 to 15 minutes. Turn the heat to low, stir in the curry powder and garam masala for 30 seconds, then take the pan off the heat.
 6. **Loosen the roux:** Whisk a ladleful of the hot curry liquid into the roux a little at a time until smooth.

@@ -72,7 +72,7 @@ This is the oven version of a Cantonese steamed fish. A whole snapper bakes unde
 ## Directions
 
 1. **Heat the oven:** Heat the oven to 425°F. Line a roasting pan large enough to hold the fish flat with foil, then parchment.
-2. **Slash the fish:** Pat the fish dry inside and out. Cut three slashes about 1/2 inch deep into the thickest part on each side and lay it in the pan.
+2. **Slash the fish:** Pat the snapper dry inside and out. Cut three slashes about 1/2 inch deep into the thickest part on each side and lay it in the pan.
 3. **Season the fish:** Rub the garlic and half the ginger into the slashes and the cavity. Stir the soy sauce, broth, Shaoxing wine and sesame oil together and pour it over the fish.
 4. **Bake covered:** Cover the pan tightly with foil and bake until the flesh at the thickest part is opaque, flakes easily and reads 145°F, 30 to 40 minutes. Start checking at 25 minutes.
 5. **Move to a platter:** Use two wide spatulas to move the fish to a warm platter. Save the pan juices. Pile the scallions and the rest of the ginger on the fish.

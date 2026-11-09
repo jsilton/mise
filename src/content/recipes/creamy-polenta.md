@@ -83,5 +83,5 @@ Real polenta from northern Italy takes patience, about 40 minutes of slow, gentl
 1. **Boil the liquid:** Combine the water, milk and salt in a heavy 3- to 4-quart saucepan. Bring to a gentle boil over medium-high heat, watching that the milk doesn't boil over.
 2. **Whisk in the polenta:** Lower the heat to medium-low. Pour in the polenta in a slow, thin stream, whisking constantly, then keep whisking until smooth and starting to thicken, about 2 minutes.
 3. **Cook low and slow:** Turn the heat to its lowest setting so the polenta barely bubbles. Cook 35 to 40 minutes, stirring every 5 minutes with a wooden spoon and scraping the bottom and corners. Add a splash of warm water whenever it gets too stiff to stir. It is done when it pulls away from the sides and tastes creamy, with no grit.
-4. **Finish:** Take the pan off the heat. Stir in the butter and Parmesan until melted. Season with pepper, then taste for salt.
+4. **Finish:** Take the pan off the heat. Stir in the butter and Parmigiano-Reggiano until melted. Season with pepper, then taste for salt.
 5. **Serve:** Serve right away, since polenta thickens as it stands. Whisk in a little warm water if it sets up before you plate.

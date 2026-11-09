@@ -82,4 +82,4 @@ Sheet-pan gnocchi is a weeknight favorite from The Kitchn. Packaged gnocchi go s
 2. **Toss:** In a large bowl, toss the gnocchi, peppers, tomatoes, onion and garlic with the olive oil, rosemary and a generous seasoning of salt and pepper until every piece is glossy.
 3. **Roast:** Spread everything in a single layer on a large rimmed baking sheet, using two sheets if it crowds. Roast, stirring once halfway through, until the gnocchi are plump and golden and the peppers are tender and charred at the edges, 18 to 20 minutes.
 4. **Add the shrimp:** If using shrimp, toss them with the oil for the shrimp and a pinch of salt while the pan roasts. When the gnocchi have 5 to 6 minutes left, scatter the shrimp over the pan and roast until pink and opaque.
-5. **Finish and serve:** Toss everything on the pan with the basil and Parmesan. Serve right away in shallow bowls.
+5. **Finish and serve:** Toss everything on the pan with the basil and Parmigiano-Reggiano. Serve right away in shallow bowls.

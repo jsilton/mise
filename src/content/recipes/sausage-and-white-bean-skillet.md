@@ -206,9 +206,9 @@ formula:
     - id: sausage
       title: Brown the sausage
       text: >-
-        Heat a large skillet over medium-high heat. Add {{ingredients}} to the dry pan and let it
-        brown undisturbed for 2 minutes. Break it up or turn the rounds until browned all over,
-        about 5 minutes in all, then move it to a plate.
+        Heat a large skillet over medium-high heat. Spread {{ingredients}} in a single layer in the
+        dry pan and let it brown undisturbed for 2 minutes. Break it up or turn the rounds until
+        browned all over, about 5 minutes in all, then move it to a plate.
     - id: aromatics
       title: Soften the onion
       text: >-
@@ -251,7 +251,7 @@ Sausage and white beans is Italian home cooking at its simplest. The sausage bri
 
 ## Directions
 
-1. **Brown the sausage:** Heat a large skillet over medium-high heat. Add Italian pork sausage to the dry pan and let it brown undisturbed for 2 minutes. Break it up or turn the rounds until browned all over, about 5 minutes in all, then move it to a plate.
+1. **Brown the sausage:** Heat a large skillet over medium-high heat. Spread Italian pork sausage in a single layer in the dry pan and let it brown undisturbed for 2 minutes. Break it up or turn the rounds until browned all over, about 5 minutes in all, then move it to a plate.
 2. **Soften the onion:** Lower the heat to medium. Add extra-virgin olive oil and onion to the fat in the pan and cook, stirring, until soft, 3 to 5 minutes.
 3. **Toast the paste:** Stir in garlic cloves, tomato paste, dried oregano, dried thyme, and red pepper flakes. Cook, stirring constantly, until the garlic is fragrant and the paste darkens slightly, about 1 minute.
 4. **Simmer with the beans:** Add cannellini or Great Northern beans and chicken stock and scrape up the browned bits. Return the sausage and its juices. Simmer over medium-low heat until the broth thickens but stays saucy and the sausage is cooked through, 8 to 10 minutes.

@@ -71,7 +71,7 @@ A Cantonese home classic from The Woks of Life: fish steamed with ginger, then f
 
 ## Directions
 
-1. **Set up the steamer:** Bring water to a boil in a wok or wide pot fitted with a steamer rack and lid. Lay the fish on a heatproof plate that fits inside with room around it and scatter half the ginger over it.
+1. **Set up the steamer:** Bring water to a boil in a wok or wide pot fitted with a steamer rack and lid. Lay the flounder on a heatproof plate that fits inside with room around it and scatter half the ginger over it.
 2. **Steam the fish:** Set the plate on the rack, cover and steam over high heat until the thickest part is opaque and flakes easily at the bone, 8 to 10 minutes.
 3. **Warm the sauce:** While the fish steams, heat the soy sauce, water and sugar in a small saucepan until steaming and the sugar dissolves.
 4. **Top the fish:** Carefully lift out the plate and pour off the steaming liquid. Pile the rest of the ginger, the green onions and the cilantro on the fish. Pour the warm sauce around the fish, not over it.

@@ -94,8 +94,8 @@ A build-your-own bowl night: one grain, a protein or two, a pile of fresh vegeta
 
 ## Directions
 
-1. **Start with the grain:** Serve the grain cold, or warm it covered in the microwave until steaming, 1 to 2 minutes. Spoon it into four wide bowls.
-2. **Add the protein:** Pile the protein on one side of each bowl.
-3. **Arrange the vegetables:** Set the greens and vegetables in small piles around the protein. Fan the avocado on top and squeeze lime over it so it stays green.
+1. **Start with the grain:** Serve the rice, quinoa or farro cold, or warm it covered in the microwave until steaming, 1 to 2 minutes. Spoon it into four wide bowls.
+2. **Add the protein:** Pile the chickpeas, tofu, eggs, grilled chicken or fish, or rotisserie chicken on one side of each bowl.
+3. **Arrange the vegetables:** Set the greens, carrot, cucumber, bell pepper, tomatoes and cabbage in small piles around the protein. Fan the avocado on top and squeeze lime over it so it stays green.
 4. **Add the sauce:** Drizzle the sauce over each bowl, or pass it at the table.
 5. **Top and serve:** Scatter the seeds, crispy onions, scallions, herbs and nuts over the bowls just before serving, so they stay crunchy.

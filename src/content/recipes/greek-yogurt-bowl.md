@@ -63,5 +63,5 @@ A good yogurt bowl starts with thick, tangy full-fat Greek yogurt, which holds i
 
 1. **Spoon in the yogurt:** Spoon the yogurt into a bowl and smooth it into an even layer.
 2. **Add the fruit:** Scatter the berries and banana over the yogurt.
-3. **Add the crunch:** Sprinkle the granola, nuts and chia seeds over the fruit.
+3. **Add the crunch:** Sprinkle the granola, almonds or walnuts and chia seeds over the fruit.
 4. **Drizzle and serve:** Drizzle the honey over the top and eat right away, while the granola is crisp.

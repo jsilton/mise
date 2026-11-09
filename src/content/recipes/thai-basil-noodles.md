@@ -77,7 +77,7 @@ These are The Woks of Life's Thai basil noodles, the wide rice noodle cousin of 
 
 1. **Soak the noodles:** Soak the rice noodles in hot water until pliable but still firm, 15 to 20 minutes, or follow the package. Drain well.
 2. **Mix the sauce:** Whisk together the fish sauce, light soy, dark soy, oyster sauce, brown sugar and water.
-3. **Brown the meat:** Heat the oil in a wok or large skillet over high heat until it shimmers. Add the meat, spread it flat and leave it to sear for 2 minutes. Break it up and cook until no pink remains, 3 to 4 minutes more.
+3. **Brown the meat:** Heat the oil in a wok or large skillet over high heat until it shimmers. Add the pork or chicken, spread it flat and leave it to sear for 2 minutes. Break it up and cook until no pink remains, 3 to 4 minutes more.
 4. **Add the aromatics:** Add the garlic, chiles and bell pepper and stir-fry until fragrant, about 30 seconds.
 5. **Toss the noodles:** Add the noodles and sauce. Toss over high heat, scraping the bottom of the wok, until the noodles soak up the sauce and turn deep brown, 2 to 3 minutes.
 6. **Finish with basil:** Add the basil and toss until just wilted, about 30 seconds. Turn off the heat and squeeze half the lime over the noodles. Cut the other half into wedges and serve with chili crisp on the side.

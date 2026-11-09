@@ -179,7 +179,9 @@ formula:
         shimmers.
     - id: sear
       title: Sear the shrimp
-      text: 'Add {{ingredients}} and stir-fry until they start to turn pink, 1 to 2 minutes.'
+      text: >-
+        Add {{ingredients}} and spread the shrimp in a single layer. Sear for 30 seconds, then
+        stir-fry until they start to turn pink, about 1 minute more.
     - id: spice
       title: Add the aromatics
       text: 'Add {{ingredients}} and stir-fry until fragrant, about 1 minute.'
@@ -218,7 +220,7 @@ These quick NYT Cooking tacos stir-fry small shrimp with garlic, toasted cumin a
 
 1. **Warm the tortillas:** Wrap corn tortillas in a damp kitchen towel and microwave until hot and soft, 45 to 60 seconds. Or char them one at a time over a gas flame. Keep them wrapped.
 2. **Heat the pan:** Heat neutral oil in a large heavy skillet or wok over medium-high heat until it shimmers.
-3. **Sear the shrimp:** Add small raw shrimp and kosher salt and stir-fry until they start to turn pink, 1 to 2 minutes.
+3. **Sear the shrimp:** Add small raw shrimp and kosher salt and spread the shrimp in a single layer. Sear for 30 seconds, then stir-fry until they start to turn pink, about 1 minute more.
 4. **Add the aromatics:** Add garlic cloves, cumin seeds, and serrano chilies and stir-fry until fragrant, about 1 minute.
 5. **Add the mango:** Fold in large ripe mango and fresh cilantro and cook until the mango softens at the edges and the shrimp are opaque all the way through, about 1 minute.
 6. **Season with lime:** Take the pan off the heat and stir in fresh lime juice and kosher salt.
