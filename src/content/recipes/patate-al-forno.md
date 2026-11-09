@@ -26,22 +26,24 @@ cuisines:
 role: side
 vibe: nutritious
 prepTime: 10 min
-cookTime: '35–40 min, or until tender'
-totalTime: '45–50 min, plus any remaining preheating'
+cookTime: 40 min
+totalTime: 50 min
 servings: 6 portions
 pairsWith:
-  - buttermilk-baked-chicken
+  - spatchcocked-roast-chicken
   - rosemary-pork-tenderloin
+  - chicken-milanese
+pairingNotes:
+  spatchcocked-roast-chicken: The classic Sunday roast with potatoes.
+  rosemary-pork-tenderloin: Shares the rosemary and roasts at the same time.
+  chicken-milanese: 'Crisp cutlets and crisp potatoes, Milan style.'
 ingredients:
-  - '--- Potatoes and seasoning ---'
-  - '2 lb Yukon Gold potatoes, scrubbed and cut into 1-inch chunks; skin may stay on'
+  - '2 lb Yukon Gold potatoes, scrubbed and cut into 1-inch chunks'
   - 3 tbsp extra-virgin olive oil
-  - '2 fresh rosemary sprigs, leaves stripped and finely chopped; woody stems discarded'
+  - '2 fresh rosemary sprigs, leaves stripped and finely chopped'
   - 1 tsp garlic powder
-  - 1 tsp sea salt
+  - '1 tsp sea salt, plus a pinch for serving'
   - 'black pepper, to taste'
-  - '--- Finish ---'
-  - 'sea salt, a final pinch, to taste'
 origin: Italy
 rating: 5
 formula:
@@ -51,7 +53,7 @@ formula:
     unit: portion
   components:
     - id: potatoes
-      name: Potatoes and seasoning
+      name: Main recipe
       ingredients:
         - id: potatoes
           key: potatoes
@@ -59,7 +61,7 @@ formula:
           quantity:
             amount: 2
             unit: lb
-          preparation: scrubbed and cut into 1-inch chunks; skin may stay on
+          preparation: scrubbed and cut into 1-inch chunks
           uses:
             - step: toss
               share: 1
@@ -79,7 +81,7 @@ formula:
           quantity:
             amount: 2
             unit: count
-          preparation: leaves stripped and finely chopped; woody stems discarded
+          preparation: leaves stripped and finely chopped
           uses:
             - step: toss
               share: 1
@@ -98,6 +100,7 @@ formula:
           quantity:
             amount: 1
             unit: tsp
+          preparation: plus a pinch for serving
           uses:
             - step: toss
               share: 1
@@ -108,133 +111,49 @@ formula:
           uses:
             - step: toss
               share: 1
-    - id: finish
-      name: Finish
-      ingredients:
-        - id: finish-salt
-          key: finish-salt
-          name: sea salt
-          allowance: 'a final pinch, to taste'
-          uses:
-            - step: serve
-              share: 1
   steps:
     - id: prep
-      title: Heat and prepare
+      title: Heat the oven
       text: >-
-        Heat the oven to 450°F. Use a large rimmed metal baking sheet, bare or lined with suitable
-        foil. Use parchment only if its manufacturer rates it for 450°F; keep any lining within its
-        stated instructions. Wash the potatoes under running water before cutting; dry the cut
-        chunks with a clean towel. This method goes directly into the oven without parboiling.
+        Heat the oven to 450°F with a rack in the middle. Leave a large rimmed baking sheet bare or
+        line it with foil.
     - id: toss
-      title: Coat and season
+      title: Season the potatoes
       text: >-
-        Toss {{ingredients}} in a large bowl until the potatoes are evenly coated. Use the chopped
-        rosemary leaves, not the woody stems, and include the black pepper here.
+        Pat the cut potatoes dry with a towel. Toss {{ingredients}} in a large bowl until every
+        piece is coated.
     - id: spread
-      title: Give the potatoes room
+      title: Spread them out
       text: >-
-        Spread the coated chunks in a single layer with a little space between them, placing flat
-        cut faces against the pan where possible. Use more sheets or roasting batches if the
-        measured potatoes do not fit; scaling does not enlarge the sheet.
+        Spread the potatoes on the sheet in a single layer, cut sides down, with a little space
+        between them. Use a second sheet if they crowd, or they will steam instead of brown.
     - id: roast
-      title: Roast until browned and tender
+      title: Roast the potatoes
       text: >-
-        Roast for 35–40 minutes, flipping gently with a spatula halfway through. Start checking at
-        35 minutes: the cut faces should be well browned and a knife should enter the center of a
-        thick chunk easily. Continue if still firm, checking browned areas so they do not blacken.
-        Rotate multiple sheets if browning is uneven; extra sheets can change the timing.
+        Roast until the cut sides are deep golden and a knife slides easily into the thickest piece,
+        35 to 40 minutes. Flip them with a metal spatula halfway through.
     - id: serve
-      title: Season and serve
-      text: >-
-        Taste a potato, then add {{ingredients}} if needed. Serve hot, while the browned edges are
-        at their best.
+      title: Salt and serve
+      text: 'Taste, sprinkle with a pinch more salt and serve hot.'
 learning:
-  focus: Brown cut potato faces while cooking the centers through
-  outcome: >-
-    Rosemary-scented Yukon Gold chunks with browned edges and tender centers, using the direct-roast
-    method.
   techniques:
     - browning
-  before:
-    - >-
-      Cut consistent 1-inch chunks and dry them after washing. There is no parboiling step in this
-      method.
-    - >-
-      Strip the leaves from the measured rosemary sprigs and chop them; do not chop woody stems into
-      the potatoes.
-    - >-
-      At 450°F, check the actual lining rating. Common parchment rated to 425°F is unsuitable for
-      this oven setting.
-  checkpoints:
-    - step: 3
-      cue: 'Potatoes form one uncrowded layer, with cut faces touching the metal.'
-      why: Piled chunks give less direct pan contact and can brown unevenly.
-    - step: 4
-      cue: A thick center yields easily to a knife and the surfaces are browned rather than black.
-      why: A browned surface can hide a firm center; the knife check tests the inside.
-    - step: 5
-      cue: The potatoes are tasted before the finishing pinch.
-      why: The measured salt seasons the roast; the additional pinch is a finishing allowance.
-  troubleshooting:
-    - problem: Golden outside but firm inside
-      cause: Chunks are too large or the oven browns faster than it cooks centers.
-      fix: >-
-        Continue checking the centers and protect already dark areas with loose foil if needed; use
-        consistent 1-inch pieces next time.
-    - problem: 'Pale, soft surfaces'
-      cause: Potatoes were piled or went into the oven very wet.
-      fix: >-
-        Spread over enough sheets and turn to expose the cut faces. The same sheet cannot hold an
-        arbitrarily scaled quantity.
-    - problem: Rosemary feels woody
-      cause: Stems were chopped with the leaves.
-      fix: Remove identifiable woody pieces; strip the sprigs before chopping the next batch.
-  substitutions:
-    - ingredient: Yukon Gold potatoes
-      alternative: Another yellow-fleshed potato
-      effect: >-
-        Keeps the general roast style but moisture and center texture vary; check tenderness rather
-        than promise identical time.
-    - ingredient: Parchment rated below 450°F
-      alternative: Bare rimmed metal sheet or appropriate foil
-      effect: >-
-        Keeps the family’s oven heat without using a lining beyond its rating. Use the measured oil
-        coating and follow the lining instructions.
-  timing: >-
-    About ten minutes to wash, cut and coat plus 35–40 minutes roasting is a 45–50-minute
-    prep-and-roast subtotal, with extra time if centers are not tender. Preheating may overlap
-    preparation, but load only once the oven reaches 450°F; any heating still needed after prep
-    extends elapsed time. No required rest. Larger batches need more sheet area or sequential roasts
-    rather than a multiplied cooking time.
   storage: >-
-    Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C,
-    at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. Serve freshly roasted
-    for the browned edges. Covered storage softens them; reheat spread out on a suitable pan and
-    check the reheating temperature.
-  sources:
-    - title: GialloZafferano — Roasted potatoes
-      url: 'https://www.giallozafferano.com/recipes/Roasted-potatoes.html'
-    - title: Reynolds — Parchment paper temperature rating
-      url: 'https://www.reynoldsbrands.com/products/parchment-paper/parchment-paper-rolls'
-    - title: FDA — Selecting and Serving Produce Safely
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
-    - title: USDA FSIS — Leftovers and Food Safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Leftovers keep 3 days in the fridge. Reheat them on a sheet pan at 425°F until crisp, about 10
+    minutes.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-These rosemary-and-garlic Yukon Gold potatoes go straight into a 450°F oven. Dry the cut chunks, coat them evenly and give them room on the sheet so their flat faces can brown. Judge the roast by both color and an easily pierced center; high heat alone does not guarantee a crunchy exterior or a cooked middle.
+Patate al forno are the roast potatoes that come with Sunday lunch all over Italy. Rosemary, garlic and good olive oil are all they need. Dry the potatoes well and give them room on a hot pan, so the cut sides turn crisp and golden while the centers go creamy.
 
 ## Directions
 
-1. **Heat and prepare:** Heat the oven to 450°F. Use a large rimmed metal baking sheet, bare or lined with suitable foil. Use parchment only if its manufacturer rates it for 450°F; keep any lining within its stated instructions. Wash the potatoes under running water before cutting; dry the cut chunks with a clean towel. This method goes directly into the oven without parboiling.
-2. **Coat and season:** Toss Yukon Gold potatoes, extra-virgin olive oil, fresh rosemary sprigs, garlic powder, sea salt, and black pepper in a large bowl until the potatoes are evenly coated. Use the chopped rosemary leaves, not the woody stems, and include the black pepper here.
-3. **Give the potatoes room:** Spread the coated chunks in a single layer with a little space between them, placing flat cut faces against the pan where possible. Use more sheets or roasting batches if the measured potatoes do not fit; scaling does not enlarge the sheet.
-4. **Roast until browned and tender:** Roast for 35–40 minutes, flipping gently with a spatula halfway through. Start checking at 35 minutes: the cut faces should be well browned and a knife should enter the center of a thick chunk easily. Continue if still firm, checking browned areas so they do not blacken. Rotate multiple sheets if browning is uneven; extra sheets can change the timing.
-5. **Season and serve:** Taste a potato, then add sea salt if needed. Serve hot, while the browned edges are at their best.
+1. **Heat the oven:** Heat the oven to 450°F with a rack in the middle. Leave a large rimmed baking sheet bare or line it with foil.
+2. **Season the potatoes:** Pat the cut potatoes dry with a towel. Toss Yukon Gold potatoes, extra-virgin olive oil, fresh rosemary sprigs, garlic powder, sea salt, and black pepper in a large bowl until every piece is coated.
+3. **Spread them out:** Spread the potatoes on the sheet in a single layer, cut sides down, with a little space between them. Use a second sheet if they crowd, or they will steam instead of brown.
+4. **Roast the potatoes:** Roast until the cut sides are deep golden and a knife slides easily into the thickest piece, 35 to 40 minutes. Flip them with a metal spatula halfway through.
+5. **Salt and serve:** Taste, sprinkle with a pinch more salt and serve hot.
