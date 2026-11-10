@@ -207,9 +207,9 @@ Bibimbap means mixed rice. Hot rice is topped with bulgogi, seasoned vegetable b
 
 ## Directions
 
-1. **Mix the sauce:** Stir gochujang, toasted sesame oil, sugar, water, and rice vinegar in a small bowl until the sugar dissolves.
-2. **Fill the bowls:** Divide cooked short-grain rice among four bowls.
-3. **Add the toppings:** Arrange [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), [Seasoned Spinach](/mise/recipes/garlic-sesame-spinach), and [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts) in separate piles around the top of the rice.
-4. **Heat the pan:** Heat neutral oil in a large nonstick skillet over medium heat.
-5. **Fry the eggs:** Crack in large eggs and fry them sunny side up until the whites are set and the yolks are still runny, 2 to 3 minutes. Set an egg in the center of each bowl.
+1. **Mix the sauce:** Stir the gochujang, sesame oil, sugar, water, and rice vinegar in a small bowl until the sugar dissolves.
+2. **Fill the bowls:** Divide the short-grain rice among four bowls.
+3. **Add the toppings:** Arrange the [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), [Seasoned Spinach](/mise/recipes/garlic-sesame-spinach), and [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts) in separate piles around the top of the rice.
+4. **Heat the pan:** Heat the neutral oil in a large nonstick skillet over medium heat.
+5. **Fry the eggs:** Crack in the eggs and fry them sunny side up until the whites are set and the yolks are still runny, 2 to 3 minutes. Set an egg in the center of each bowl.
 6. **Sauce and mix:** Spoon the sauce over the bowls. Break the yolks and mix everything together just before eating.

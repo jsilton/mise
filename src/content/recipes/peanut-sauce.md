@@ -168,7 +168,7 @@ learning:
     status: editorial-review
     date: '2026-11-10'
 ingredients:
-  - 1 cup full-fat coconut milk
+  - '1 cup full-fat coconut milk, divided'
   - 1 tbsp Thai red curry paste
   - '3/4 cup unsalted roasted peanuts, finely ground'
   - '2 tbsp palm sugar, finely chopped'
@@ -183,7 +183,7 @@ This is the warm peanut sauce served with satay in Thailand, where red curry pas
 
 ## Directions
 
-1. **Fry the curry paste:** Put 1/4 of the full-fat coconut milk and Thai red curry paste in a small saucepan over medium heat. Cook, stirring, until the paste darkens, smells fragrant and beads of red oil show at the edges, 2 to 3 minutes.
-2. **Whisk in the peanuts:** Add 3/4 of the full-fat coconut milk, unsalted roasted peanuts, palm sugar, and water and whisk until combined.
+1. **Fry the curry paste:** Put the Thai red curry paste and 1/4 cup of the coconut milk in a small saucepan over medium heat. Cook, stirring, until the paste darkens, smells fragrant and beads of red oil show at the edges, 2 to 3 minutes.
+2. **Whisk in the peanuts:** Add the roasted peanuts, palm sugar, water, and the rest of the coconut milk and whisk until combined.
 3. **Simmer:** Turn the heat to low and simmer gently, stirring often, until the peanuts soften, the sauce is as thick as heavy cream and the surface glistens, 8 to 10 minutes.
-4. **Season:** Take the pan off the heat and stir in tamarind concentrate and fish sauce. The sauce pours slowly off a spoon and tastes sweet, salty and a little sour.
+4. **Season:** Take the pan off the heat and stir in the tamarind concentrate and fish sauce. The sauce pours slowly off a spoon and tastes sweet, salty and a little sour.

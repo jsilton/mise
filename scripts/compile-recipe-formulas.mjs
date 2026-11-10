@@ -47,7 +47,10 @@ for (const file of files) {
     } else {
       parsed.data.ingredients = ingredients;
       parsed.data.servings = servings;
-      const content = parsed.content.replace(section, () => `## Directions\n\n${directions}\n\n`);
+      // A Directions section at the end of the file ends with one newline, not a blank line.
+      const content = parsed.content
+        .replace(section, () => `## Directions\n\n${directions}\n\n`)
+        .replace(/\n+$/, '\n');
       fs.writeFileSync(filename, matter.stringify(content, parsed.data, { lineWidth: 100 }));
     }
   } catch (error) {

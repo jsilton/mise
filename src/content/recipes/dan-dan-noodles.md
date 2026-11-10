@@ -42,7 +42,7 @@ pairingNotes:
 ingredients:
   - '--- Pork topping ---'
   - 8 oz ground pork
-  - 3 tsp neutral oil
+  - '3 tsp neutral oil, divided'
   - 2 tsp Chinese sweet bean sauce
   - 2 tsp Shaoxing wine
   - 1 tsp dark soy sauce
@@ -356,11 +356,11 @@ Dan dan noodles are Sichuan street food, named for the shoulder pole that vendor
 
 ## Directions
 
-1. **Mix the sauce:** In a bowl, stir Chinese roasted sesame paste, light soy sauce, sugar, five-spice powder, ground Sichuan peppercorns, Sichuan chili oil with its sediment, and garlic cloves until smooth. Set it aside.
-2. **Brown the pork:** Add ground pork and 1/3 of the neutral oil to a wok over medium-high heat. Cook, breaking the pork into small crumbles, until browned with no pink left, about 5 minutes.
-3. **Season the pork:** Add Chinese sweet bean sauce, Shaoxing wine, dark soy sauce, and five-spice powder. Stir-fry until the liquid cooks off and the pork is dark and glossy, about 2 minutes. Move the pork to a bowl.
-4. **Fry the preserved greens:** Add 2/3 of the neutral oil and sui mi ya cai (Sichuan preserved mustard greens) to the wok. Stir-fry over medium heat until fragrant, about 2 minutes, then stir them into the pork.
-5. **Blanch the bok choy:** Bring a large pot of water to a boil. Blanch small baby bok choy (if using) until the leaves wilt and the stems are crisp-tender, about 1 minute. Lift out and drain.
-6. **Boil the noodles:** Cook dried Chinese wheat noodles in the same water by the package directions until tender and springy. Scoop out a mug of the cooking water, then drain the noodles well.
-7. **Finish the sauce:** Whisk hot noodle cooking water into the sauce until it flows and coats a spoon. Divide the sauce among the serving bowls.
-8. **Build the bowls:** Divide the noodles, bok choy and pork among the bowls. Top with roasted peanuts, scallions, and more chili oil (if using). Toss each bowl well at the table and eat right away.
+1. **Mix the sauce:** In a bowl, stir the Chinese roasted sesame paste, light soy sauce, sugar, ground Sichuan peppercorns, Sichuan chili oil with its sediment, garlic, and 1/4 tsp of the five-spice powder until smooth. Set it aside.
+2. **Brown the pork:** Add the ground pork and 1 tsp of the neutral oil to a wok over medium-high heat. Cook, breaking the pork into small crumbles, until browned with no pink left, about 5 minutes.
+3. **Season the pork:** Add the Chinese sweet bean sauce, Shaoxing wine, dark soy sauce, and 1/2 tsp of the five-spice powder. Stir-fry until the liquid cooks off and the pork is dark and glossy, about 2 minutes. Move the pork to a bowl.
+4. **Fry the preserved greens:** Add the sui mi ya cai and the rest of the neutral oil to the wok. Stir-fry over medium heat until fragrant, about 2 minutes, then stir them into the pork.
+5. **Blanch the bok choy:** Bring a large pot of water to a boil. Blanch the baby bok choy (if using) until the leaves wilt and the stems are crisp-tender, about 1 minute. Lift out and drain.
+6. **Boil the noodles:** Cook the dried Chinese wheat noodles in the same water by the package directions until tender and springy. Scoop out a mug of the cooking water, then drain the noodles well.
+7. **Finish the sauce:** Whisk the hot noodle cooking water into the sauce until it flows and coats a spoon. Divide the sauce among the serving bowls.
+8. **Build the bowls:** Divide the noodles, bok choy and pork among the bowls. Top with the roasted peanuts, scallions, and more chili oil (if using). Toss each bowl well at the table and eat right away.

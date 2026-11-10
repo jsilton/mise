@@ -165,8 +165,8 @@ Sweet potato wedges roasted hot until their cut sides brown, then brushed with m
 ## Directions
 
 1. **Heat the oven:** Heat the oven to 425°F and line a large rimmed baking sheet with parchment.
-2. **Season the wedges:** Pat the wedges dry. Toss sweet potatoes, olive oil, kosher salt, and black pepper in a large bowl until evenly coated. Spread the wedges on the sheet in one layer, cut side down, with space between them.
+2. **Season the wedges:** Pat the wedges dry. Toss the sweet potatoes, olive oil, kosher salt, and pepper in a large bowl until evenly coated. Spread the wedges on the sheet in one layer, cut side down, with space between them.
 3. **Roast the first side:** Roast until the undersides are golden brown and the centers are starting to soften, 18 to 20 minutes.
-4. **Flip and glaze:** Flip the wedges onto their other cut side. Top them with pure maple syrup and smoked paprika (if using), brushing the syrup on in a thin coat.
+4. **Flip and glaze:** Flip the wedges onto their other cut side. Top them with the maple syrup and smoked paprika (if using), brushing the syrup on in a thin coat.
 5. **Finish roasting:** Roast until the glaze bubbles and browns and a knife slides easily into the thickest wedge, 8 to 10 minutes. Watch closely near the end so the maple doesn't burn.
-6. **Serve:** Sprinkle with flaky sea salt and serve warm.
+6. **Serve:** Sprinkle with the flaky sea salt and serve warm.

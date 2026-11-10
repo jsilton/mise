@@ -218,11 +218,11 @@ Food & Wine's luxe take on a hot dog swaps the frank for a strip of seared beef 
 
 ## Directions
 
-1. **Char the corn:** Heat a dry cast-iron skillet over high heat. Add corn kernels and cook, stirring only now and then, until charred in spots, 4 to 5 minutes. Tip it into a bowl to cool.
-2. **Mix the dressing:** In a small bowl, whisk apple cider vinegar, sugar, and kosher salt and black pepper until the sugar dissolves.
-3. **Make the relish:** Pour the dressing over the corn, add red bell pepper and red onion and toss well. Let the relish sit while you cook the beef.
-4. **Season the beef:** Toss center-cut beef tenderloin, olive oil, garlic powder, paprika, and kosher salt and black pepper together until the beef is evenly coated.
+1. **Char the corn:** Heat a dry cast-iron skillet over high heat. Add the corn kernels and cook, stirring only now and then, until charred in spots, 4 to 5 minutes. Tip it into a bowl to cool.
+2. **Mix the dressing:** In a small bowl, whisk the apple cider vinegar, sugar, and salt and pepper until the sugar dissolves.
+3. **Make the relish:** Pour the dressing over the corn, add the red bell pepper and red onion and toss well. Let the relish sit while you cook the beef.
+4. **Season the beef:** Toss the beef tenderloin, olive oil, garlic powder, paprika, and salt and pepper together until the beef is evenly coated.
 5. **Sear the beef:** Reheat the skillet over high heat, or heat a grill to high. Sear the strips, turning, until browned all over and 125°F in the center for medium-rare, 6 to 8 minutes.
 6. **Rest the beef:** Move the beef to a plate and let it rest for 5 minutes.
-7. **Toast the buns:** Toast brioche hot dog buns or 6-inch baguette pieces cut side down in the skillet or on the grill until golden, about 1 minute.
+7. **Toast the buns:** Toast the brioche hot dog buns or 6-inch baguette pieces cut side down in the skillet or on the grill until golden, about 1 minute.
 8. **Assemble:** Tuck a beef strip into each bun and spoon the relish over the top.

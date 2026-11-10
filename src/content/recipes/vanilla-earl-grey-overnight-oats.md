@@ -193,9 +193,9 @@ Earl Grey steeps into the soaking liquid, so these oats taste of bergamot and va
 
 ## Directions
 
-1. **Steep the tea:** Put boiling water and Earl Grey tea bag in a heatproof bowl. Steep for 5 minutes, then squeeze out the tea bag and discard it.
-2. **Flavor the tea:** Stir honey, whole milk or almond milk, pure vanilla extract, and fine sea salt into the hot tea until the honey dissolves.
-3. **Add the oats:** Stir in old-fashioned rolled oats until they are all coated.
+1. **Steep the tea:** Put the boiling water and Earl Grey tea bag in a heatproof bowl. Steep for 5 minutes, then squeeze out the tea bag and discard it.
+2. **Flavor the tea:** Stir the whole milk or almond milk, vanilla, salt, and 1 tbsp of the honey into the hot tea until the honey dissolves.
+3. **Add the oats:** Stir in the oats until they are all coated.
 4. **Soak overnight:** Divide among jars, cover and refrigerate for at least 6 hours, or overnight, until the oats are soft and creamy.
 5. **Stir and loosen:** Stir the oats. If they are thick, loosen them with a splash of milk (if using).
-6. **Top and serve:** Top with stroopwafel and honey (if using) just before serving.
+6. **Top and serve:** Top with the stroopwafel and honey (if using) just before serving.

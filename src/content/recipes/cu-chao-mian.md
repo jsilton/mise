@@ -45,7 +45,7 @@ ingredients:
   - 1/8 tsp sugar
   - '--- Noodles ---'
   - 1 lb fresh Shanghai-style thick wheat noodles (cu mian)
-  - 3 tbsp neutral oil
+  - '3 tbsp neutral oil, divided'
   - '8 fresh shiitake mushrooms, stems removed, caps sliced'
   - 2 1/2 tsp dark soy sauce
   - 2 1/2 tsp light soy sauce
@@ -263,10 +263,10 @@ Cu chao mian is Shanghai's everyday fried noodle dish: thick, chewy wheat noodle
 
 ## Directions
 
-1. **Marinate the pork:** Toss pork tenderloin, cornstarch, Shaoxing wine, light soy sauce, dark soy sauce, and sugar in a bowl until coated. Let stand 10 minutes.
-2. **Boil the noodles:** Meanwhile, cook fresh Shanghai-style thick wheat noodles (cu mian) in a large pot of boiling water until just tender, 2 to 3 minutes. Drain, rinse under cold water and shake dry.
-3. **Sear the pork:** Heat 1/3 of the neutral oil in a wok over high heat until it shimmers. Add the pork in a single layer and stir-fry until browned and just cooked through, about 2 minutes. Move it to a plate.
-4. **Cook the mushrooms:** Lower the heat to medium. Add 2/3 of the neutral oil and fresh shiitake mushrooms to the wok and stir-fry until the mushrooms soften, about 2 minutes. Add the noodles and toss gently with tongs or chopsticks to separate them.
-5. **Glaze the noodles:** Turn the heat to high and add dark soy sauce, light soy sauce, and sugar. Stir-fry until the noodles are evenly dark and glossy, about 3 minutes.
+1. **Marinate the pork:** Toss the pork tenderloin, cornstarch, Shaoxing wine, 1/2 tsp of the light soy sauce, 1/8 tsp of the dark soy sauce, and 1/8 tsp of the sugar in a bowl until coated. Let stand 10 minutes.
+2. **Boil the noodles:** Meanwhile, cook the Shanghai-style thick wheat noodles in a large pot of boiling water until just tender, 2 to 3 minutes. Drain, rinse under cold water and shake dry.
+3. **Sear the pork:** Heat 1 tbsp of the oil in a wok over high heat until it shimmers. Add the pork in a single layer and stir-fry until browned and just cooked through, about 2 minutes. Move it to a plate.
+4. **Cook the mushrooms:** Lower the heat to medium. Add the shiitake mushrooms and the rest of the oil to the wok and stir-fry until the mushrooms soften, about 2 minutes. Add the noodles and toss gently with tongs or chopsticks to separate them.
+5. **Glaze the noodles:** Turn the heat to high and add 2 1/2 tsp of the dark soy sauce, 2 1/2 tsp of the light soy sauce, and 1/4 tsp of the sugar. Stir-fry until the noodles are evenly dark and glossy, about 3 minutes.
 6. **Add the greens:** Add the stems of baby bok choy and the pork. Toss for 1 minute, then add the leaves and toss until just wilted, about 30 seconds more. The stems should still crunch.
-7. **Serve:** Serve hot, with Chinese black vinegar (if using) at the table for a few drops on each bowl.
+7. **Serve:** Serve hot, with the Chinese black vinegar (if using) at the table for a few drops on each bowl.

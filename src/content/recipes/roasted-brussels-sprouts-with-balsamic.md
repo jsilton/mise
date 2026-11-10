@@ -175,8 +175,8 @@ High heat turns the cut sides of Brussels sprouts dark brown and sweet, and that
 ## Directions
 
 1. **Heat the pan:** Put a large rimmed baking sheet in the oven and heat the oven to 425°F.
-2. **Season the sprouts:** Toss Brussels sprouts, olive oil, kosher salt, and black pepper in a large bowl until evenly coated.
+2. **Season the sprouts:** Toss the Brussels sprouts, olive oil, kosher salt, and pepper in a large bowl until evenly coated.
 3. **Roast:** Carefully pull out the hot sheet and spread the sprouts on it cut side down in one layer. Roast without stirring until the cut sides are deep brown and the centers are nearly tender, about 20 minutes.
-4. **Mix the glaze:** While the sprouts roast, whisk aged balsamic vinegar and honey in a small bowl.
+4. **Mix the glaze:** While the sprouts roast, whisk the aged balsamic vinegar and honey in a small bowl.
 5. **Glaze the sprouts:** Drizzle the glaze over the sprouts, toss and roast until the glaze is bubbling and sticky and the centers are tender, about 5 minutes. Watch closely so the honey does not burn.
-6. **Serve:** Sprinkle with flaky sea salt and serve hot.
+6. **Serve:** Sprinkle with the flaky sea salt and serve hot.

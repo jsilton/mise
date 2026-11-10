@@ -40,6 +40,7 @@ equipment:
   - mixing-bowl
 formula:
   version: 1
+  stepText: preserved
   yield:
     amount: 10
     unit: portion

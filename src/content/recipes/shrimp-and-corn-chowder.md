@@ -39,11 +39,11 @@ pairingNotes:
   spicy-peach-and-avocado-salad: A cool summer salad beside the hot chowder.
 ingredients:
   - '2 lb raw medium shrimp, peeled and deveined'
-  - '6 garlic cloves, minced'
+  - '6 garlic cloves, minced, divided'
   - '2 scallions, minced'
   - 2 tbsp fresh lime juice
   - 1 tsp kosher salt
-  - '2 cups corn kernels, fresh or thawed frozen'
+  - '2 cups corn kernels, fresh or thawed frozen, divided'
   - 2 cups whole milk
   - 2 tbsp annatto oil
   - '1/2 cup red onion, finely chopped'
@@ -292,11 +292,11 @@ This is Maricel Presilla's chowder from coastal Ecuador. Grated green plantain m
 
 ## Directions
 
-1. **Marinate the shrimp:** Toss raw medium shrimp, 2/3 of the garlic cloves, scallions, fresh lime juice, and kosher salt in a bowl. Cover and refrigerate for 1 hour.
-2. **Make the corn milk:** While the shrimp marinate, puree 1/2 of the corn kernels and whole milk in a blender or food processor. Strain through a coarse sieve, pressing hard on the solids, and keep the corn milk.
-3. **Soften the vegetables:** In a large pot over medium heat, cook 1/3 of the garlic cloves, annatto oil, red onion, red bell pepper, and ground cumin, stirring, until the vegetables soften, about 5 minutes.
-4. **Add the tomatoes:** Stir in plum tomatoes and cook for 2 minutes.
-5. **Simmer the chowder:** Add the corn milk and 1/2 of the corn kernels, fish stock or low-sodium chicken stock, and green plantain. Bring to a boil, then simmer, stirring now and then, until the plantain is soft and the soup has thickened, about 20 minutes.
+1. **Marinate the shrimp:** Toss the shrimp, scallions, lime juice, 4 garlic cloves, and 1 tsp of the salt in a bowl. Cover and refrigerate for 1 hour.
+2. **Make the corn milk:** While the shrimp marinate, puree the whole milk and 1 cup of the corn kernels in a blender or food processor. Strain through a coarse sieve, pressing hard on the solids, and keep the corn milk.
+3. **Soften the vegetables:** In a large pot over medium heat, cook the annatto oil, red onion, red bell pepper, cumin, and the rest of the garlic, stirring, until the vegetables soften, about 5 minutes.
+4. **Add the tomatoes:** Stir in the plum tomatoes and cook for 2 minutes.
+5. **Simmer the chowder:** Add the corn milk and the fish stock or low-sodium chicken stock, green plantain, and the rest of the corn kernels. Bring to a boil, then simmer, stirring now and then, until the plantain is soft and the soup has thickened, about 20 minutes.
 6. **Blend part of the soup:** Ladle a few cups of the soup into a blender, vent the lid and blend until smooth. Stir it back into the pot and bring the chowder back to a simmer.
 7. **Cook the shrimp:** Add the shrimp and all their marinade. Simmer gently until the shrimp are pink and opaque, 2 to 3 minutes.
-8. **Season and serve:** Stir in cilantro leaves, cayenne pepper, and kosher salt. Taste for salt and serve in warm bowls.
+8. **Season and serve:** Stir in the cilantro, cayenne pepper, and salt. Taste for salt and serve in warm bowls.

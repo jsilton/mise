@@ -378,13 +378,12 @@ Galbi-jjim is Korea's celebration braise of beef short ribs in soy, garlic and g
 
 ## Directions
 
-1. **Soak the mushrooms:** Put dried shiitake mushrooms and hot water in a small bowl and soak, turning the mushrooms once, until they are soft all the way through, about 30 minutes. Lift out the mushrooms and squeeze them over the bowl. Cut off the stems, slice the caps and keep the soaking liquid.
-2. **Sear the ribs:** While the mushrooms soak, toss bone-in English-cut beef short ribs and neutral oil in a large bowl to coat. Heat a large, heavy skillet over medium-high heat until very hot. Sear the ribs in three batches, with space between the pieces, turning until the meaty sides have a deep brown crust, 8 to 10 minutes a batch. Stand the ribs bone side up in a 6-quart slow cooker.
-3. **Mix the sauce:** Whisk large Asian pear, yellow onion, garlic cloves, fresh ginger, low-sodium soy sauce, gochujang, light brown sugar, and black pepper with the mushroom soaking liquid in a bowl until the sugar and gochujang dissolve.
+1. **Soak the mushrooms:** Put the dried shiitake mushrooms and hot water in a small bowl and soak, turning the mushrooms once, until they are soft all the way through, about 30 minutes. Lift out the mushrooms and squeeze them over the bowl. Cut off the stems, slice the caps and keep the soaking liquid.
+2. **Sear the ribs:** While the mushrooms soak, toss the English-cut beef short ribs and neutral oil in a large bowl to coat. Heat a large, heavy skillet over medium-high heat until very hot. Sear the ribs in three batches, with space between the pieces, turning until the meaty sides have a deep brown crust, 8 to 10 minutes a batch. Stand the ribs bone side up in a 6-quart slow cooker.
+3. **Mix the sauce:** Whisk the Asian pear, yellow onion, garlic, ginger, soy sauce, gochujang, brown sugar, and pepper with the mushroom soaking liquid in a bowl until the sugar and gochujang dissolve.
 4. **Deglaze the skillet:** Pour off all but a thin film of fat from the skillet. Pour the sauce into the hot skillet over medium heat and scrape up the browned bits from the bottom. Let it bubble for 1 minute, then pour it over the ribs.
-5. **Braise:** Tuck the sliced mushrooms, daikon radish and large carrots in around the ribs. Cover and cook on low for 7 to 8 hours or on high for 4 to 5 hours, until the meat pulls away from the bones and the radish is translucent.
+5. **Braise:** Tuck the sliced mushrooms, the daikon radish and carrots in around the ribs. Cover and cook on low for 7 to 8 hours or on high for 4 to 5 hours, until the meat pulls away from the bones and the radish is translucent.
 6. **Skim and reduce:** Lift the ribs and vegetables into a serving dish with tongs and a slotted spoon and cover to keep warm. Let the liquid in the cooker settle for 5 minutes, then spoon off the fat. Pour the liquid into a saucepan and boil over high heat until it has reduced by about a third, about 10 minutes.
-7. **Thicken the sauce:** Whisk cornstarch and cold water until smooth. Stir it into the boiling liquid and boil until the sauce is glossy and thick enough to coat a spoon, 1 to 2 minutes.
-8. **Brighten the sauce:** Take the pan off the heat and stir in toasted sesame oil and rice vinegar. Taste and add more vinegar if it tastes heavy or more soy sauce if it needs salt. Pour the sauce over the ribs and vegetables and turn gently to coat.
-9. **Serve:** Scatter scallions and toasted sesame seeds (if using) over the top and serve with rice.
-
+7. **Thicken the sauce:** Whisk the cornstarch and cold water until smooth. Stir it into the boiling liquid and boil until the sauce is glossy and thick enough to coat a spoon, 1 to 2 minutes.
+8. **Brighten the sauce:** Take the pan off the heat and stir in the sesame oil and rice vinegar. Taste and add more vinegar if it tastes heavy or more soy sauce if it needs salt. Pour the sauce over the ribs and vegetables and turn gently to coat.
+9. **Serve:** Scatter the scallions and sesame seeds (if using) over the top and serve with rice.

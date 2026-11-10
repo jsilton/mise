@@ -359,15 +359,15 @@ This is Lindsay Ostrom's three-layer chocolate cake from Pinch of Yum, frosted w
 
 ## Directions
 
-1. **Prepare the pans:** Heat the oven to 350°F. Grease three 9-inch round cake pans with butter or neutral oil. Line the bottoms with parchment and grease the parchment.
-2. **Bloom the cocoa:** Whisk boiling water, unsweetened cocoa powder, and instant espresso powder together in a large heatproof bowl until smooth. Let it cool until just warm to the touch, about 15 minutes, so it does not cook the eggs.
-3. **Whisk in the eggs:** Whisk plain full-fat Greek yogurt, vegetable oil, large eggs, and vanilla extract into the cocoa mixture until smooth.
-4. **Mix the dry ingredients:** In another large bowl, whisk all-purpose flour, granulated sugar, baking soda, baking powder, and fine sea salt until no lumps remain.
+1. **Prepare the pans:** Heat the oven to 350°F. Grease three 9-inch round cake pans with the butter or neutral oil. Line the bottoms with parchment and grease the parchment.
+2. **Bloom the cocoa:** Whisk the boiling water, instant espresso powder, and 1 1/2 cups of the cocoa powder together in a large heatproof bowl until smooth. Let it cool until just warm to the touch, about 15 minutes, so it does not cook the eggs.
+3. **Whisk in the eggs:** Whisk the Greek yogurt, vegetable oil, eggs, and 1 tbsp of the vanilla into the cocoa mixture until smooth.
+4. **Mix the dry ingredients:** In another large bowl, whisk the flour, granulated sugar, baking soda, baking powder, and fine sea salt until no lumps remain.
 5. **Make the batter:** Fold the dry mixture into the chocolate mixture just until no dry pockets remain. Divide the batter evenly among the pans.
 6. **Bake the layers:** Bake until the centers spring back when pressed and a toothpick comes out clean, 30 to 35 minutes.
 7. **Cool the layers:** Cool the layers in their pans on a rack for 10 minutes. Run a knife around the edges, turn them out and peel off the parchment. Let them cool completely, about 1 hour.
-8. **Beat the butter:** While the layers cool, beat butter and cream cheese in a stand mixer on medium speed until smooth and fluffy, about 2 minutes.
-9. **Finish the frosting:** On low speed, beat in unsweetened cocoa powder, vanilla extract, salt, powdered sugar, and heavy cream, adding the sugar a little at a time. Turn the speed to medium and beat until fluffy and spreadable, about 2 minutes.
+8. **Beat the butter:** While the layers cool, beat the butter and cream cheese in a stand mixer on medium speed until smooth and fluffy, about 2 minutes.
+9. **Finish the frosting:** On low speed, beat in the salt, powdered sugar, heavy cream, 1 1/2 cups of the cocoa powder, and 1 tbsp of the vanilla, adding the sugar a little at a time. Turn the speed to medium and beat until fluffy and spreadable, about 2 minutes.
 10. **Stack and chill:** Set one layer on a cake plate and spread it with frosting. Stack the other layers, frosting between each, then frost the top and sides. Refrigerate until the frosting is firm, about 30 minutes.
-11. **Coat with chips:** Hold the cake over a tray and press chocolate chips into the sides by the handful.
-12. **Drizzle and serve:** Melt chopped chocolate or chocolate chips (if using) in the microwave in short bursts, stirring between each, and drizzle it over the top. Let the cake sit out for 30 minutes before slicing so the frosting softens.
+11. **Coat with chips:** Hold the cake over a tray and press the chocolate chips into the sides by the handful.
+12. **Drizzle and serve:** Melt the chocolate or chocolate chips (if using) in the microwave in short bursts, stirring between each, and drizzle it over the top. Let the cake sit out for 30 minutes before slicing so the frosting softens.

@@ -38,7 +38,7 @@ ingredients:
   - 1 1/2 cups whole milk
   - 1/2 cup heavy whipping cream
   - 'sea salt, a pinch'
-  - '1 1/2 graham cracker sheets, coarsely crushed'
+  - '1 1/2 graham cracker sheets, coarsely crushed, divided'
   - 'Key lime wedges, for serving, optional'
 origin: United States
 source: Adapted from MyRecipes
@@ -175,8 +175,8 @@ This is Key lime pie in a scoop: tart lime and sweet condensed milk churned with
 
 ## Directions
 
-1. **Whisk the base:** Whisk sweetened condensed milk, Key lime juice, lime zest, whole milk, heavy whipping cream, and sea salt in a bowl until smooth. Cover and refrigerate until cold, at least 1 hour.
+1. **Whisk the base:** Whisk the sweetened condensed milk, Key lime juice, lime zest, whole milk, heavy whipping cream, and salt in a bowl until smooth. Cover and refrigerate until cold, at least 1 hour.
 2. **Churn:** Pour the cold base into an ice cream maker and churn until thick, like soft serve, 20 to 25 minutes.
-3. **Fold in the crumbs:** Fold 1/2 of the graham cracker sheets into the churned ice cream. Keep the rest of the crumbs dry in a sealed bag for topping.
+3. **Fold in the crumbs:** Fold half of the graham crackers into the churned ice cream. Keep the rest of the crumbs dry in a sealed bag for topping.
 4. **Freeze:** Scrape the ice cream into a chilled container, cover tightly and freeze until firm enough to scoop, at least 4 hours or overnight.
-5. **Scoop and top:** Scoop into bowls and top with 1/2 of the graham cracker sheets and Key lime wedges (if using).
+5. **Scoop and top:** Scoop into bowls and top with the Key lime wedges (if using) and the rest of the graham crackers.

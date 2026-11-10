@@ -228,10 +228,10 @@ These ABC muffins from My Kids Lick the Bowl get all their sweetness from apple,
 
 ## Directions
 
-1. **Heat the oven:** Heat the oven to 350°F. Grease a 12-cup muffin tin with butter or neutral oil.
-2. **Squeeze the fruit:** Squeeze the grated apple and large carrot in your hands over the sink to press out the free juice. The shreds should be damp but not dripping.
-3. **Mix the wet ingredients:** Whisk large banana, large eggs, unsalted butter, and vanilla extract in a large bowl until smooth. Stir in the apple and carrot.
-4. **Mix the dry ingredients:** Whisk all-purpose flour, baking powder, ground cinnamon, and salt in another bowl.
+1. **Heat the oven:** Heat the oven to 350°F. Grease a 12-cup muffin tin with the butter or neutral oil.
+2. **Squeeze the fruit:** Squeeze the grated apple and carrot in your hands over the sink to press out the free juice. The shreds should be damp but not dripping.
+3. **Mix the wet ingredients:** Whisk the banana, eggs, butter, and vanilla in a large bowl until smooth. Stir in the apple and carrot.
+4. **Mix the dry ingredients:** Whisk the flour, baking powder, cinnamon, and salt in another bowl.
 5. **Fill the tin:** Fold the dry ingredients into the wet just until no dry flour remains. Divide the batter among the muffin cups.
 6. **Bake:** Bake until the tops spring back and a toothpick in the center comes out clean, 20 to 25 minutes.
 7. **Cool:** Cool in the tin for 5 minutes, then turn the muffins out onto a rack to cool.

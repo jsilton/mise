@@ -323,13 +323,12 @@ These are Italian-American meatballs, the Sunday sauce kind that grew out of sou
 
 ## Directions
 
-1. **Soak the bread:** Put white sandwich bread slices and whole milk in a large bowl and let the bread soak for 5 minutes. Mash it with a fork into a smooth paste.
-2. **Season the paste:** Stir large egg, Parmigiano-Reggiano, garlic cloves, fresh flat-leaf parsley, kosher salt, black pepper, and dried oregano into the bread paste until evenly mixed.
-3. **Add the meat:** Add ground beef (85% lean) and ground pork. Mix with your fingertips just until no streaks of bread paste remain. Stop there, since overworked meat turns tough.
-4. **Cook the garlic:** Heat the broiler with a rack 6 inches below it. Warm extra-virgin olive oil, garlic cloves, and red pepper flakes in a Dutch oven over medium-low heat until the garlic is pale gold at the edges, about 3 minutes.
-5. **Start the sauce:** Add whole peeled DOP San Marzano tomatoes, kosher salt, and fresh basil sprigs to the pot. Bring to a simmer, then turn the heat to low and partly cover the pot.
+1. **Soak the bread:** Put the white sandwich bread slices and whole milk in a large bowl and let the bread soak for 5 minutes. Mash it with a fork into a smooth paste.
+2. **Season the paste:** Stir the egg, Parmigiano-Reggiano, flat-leaf parsley, pepper, oregano, 2 garlic cloves, and 1 1/2 tsp of the salt into the bread paste until evenly mixed.
+3. **Add the meat:** Add the ground beef and ground pork. Mix with your fingertips just until no streaks of bread paste remain. Stop there, since overworked meat turns tough.
+4. **Cook the garlic:** Heat the broiler with a rack 6 inches below it. Warm the olive oil, red pepper flakes, and 4 garlic cloves in a Dutch oven over medium-low heat until the garlic is pale gold at the edges, about 3 minutes.
+5. **Start the sauce:** Add the DOP San Marzano tomatoes, basil, and 1 1/2 tsp of the salt to the pot. Bring to a simmer, then turn the heat to low and partly cover the pot.
 6. **Shape the meatballs:** Line a rimmed baking sheet with foil and rub it lightly with oil. With wet hands, roll the meat into balls the size of golf balls and set them 1 inch apart on the sheet.
 7. **Broil the meatballs:** Broil until the tops are well browned, 6 to 8 minutes. They finish cooking in the sauce.
 8. **Simmer in the sauce:** Slide the meatballs and their pan juices into the sauce and turn them gently to coat. Simmer over low heat, partly covered, until the sauce has thickened and a meatball reads 160°F in the center, 25 to 30 minutes.
 9. **Serve:** Take out the basil sprigs. Spoon the meatballs and sauce into warm bowls and grate more Parmigiano-Reggiano over the top.
-

@@ -36,7 +36,7 @@ ingredients:
   - '2 tbsp fresh lime juice, for the shrimp'
   - '2 garlic cloves, minced'
   - '1 tsp kosher salt, for the shrimp'
-  - 4 tbsp extra-virgin olive oil
+  - '4 tbsp extra-virgin olive oil, divided'
   - '1 tbsp water, for the onions'
   - 2 tsp chili powder
   - 2 tsp ground cumin
@@ -329,9 +329,9 @@ These Delish tacos roast sweet pineapple and red onion on a sheet pan, then add 
 
 ## Directions
 
-1. **Marinate the shrimp:** Heat the oven to 425°F. Pat the shrimp dry, then toss raw shrimp, fresh lime juice, garlic cloves, kosher salt, 1/4 of the extra-virgin olive oil, chili powder, ground cumin, and cayenne in a bowl until the shrimp are well coated. Refrigerate for 15 minutes while the fruit roasts.
-2. **Roast the pineapple:** Arrange fresh pineapple, medium red onion, 1/2 of the extra-virgin olive oil, and water on a large rimmed sheet pan, with the onion and water in one zone and the pineapple in another. Split the oil between them, toss each zone to coat and leave a third zone open for the shrimp. Roast until the onion softens and the pineapple starts to brown, about 10 minutes.
-3. **Make the slaw:** While the pan roasts, toss 1/4 of the extra-virgin olive oil, green cabbage, fresh cilantro, lime, and kosher salt in a bowl. Refrigerate until serving.
+1. **Marinate the shrimp:** Heat the oven to 425°F. Pat the shrimp dry, then toss the shrimp, lime juice, garlic, chili powder, cumin, cayenne, 1 tsp of the salt, and 1 tbsp of the olive oil in a bowl until the shrimp are well coated. Refrigerate for 15 minutes while the fruit roasts.
+2. **Roast the pineapple:** Arrange the pineapple, red onion, water, and 2 tbsp of the olive oil on a large rimmed sheet pan, with the onion and water in one zone and the pineapple in another. Split the oil between them, toss each zone to coat and leave a third zone open for the shrimp. Roast until the onion softens and the pineapple starts to brown, about 10 minutes.
+3. **Make the slaw:** While the pan roasts, toss the green cabbage, lime, salt, the rest of the olive oil, and 1/2 cup of the cilantro in a bowl. Refrigerate until serving.
 4. **Roast the shrimp:** Spread the shrimp and their marinade in the open zone of the hot pan. Roast until the shrimp are pink and opaque and the pineapple edges are browned, 6 to 8 minutes.
-5. **Fill the tortillas:** Fill corn tortillas with the slaw, then the shrimp, roasted onion and pineapple.
-6. **Top and serve:** Top with avocado, sour cream, lime wedges (if using), fresh cilantro (if using), and radish (if using) and serve.
+5. **Fill the tortillas:** Fill the corn tortillas with the slaw, then the shrimp, roasted onion and pineapple.
+6. **Top and serve:** Top with the avocado, sour cream, lime wedges (if using), cilantro (if using), and radish (if using) and serve.

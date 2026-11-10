@@ -245,12 +245,12 @@ Potato and leek soup is a French home classic, and the pressure cooker makes it 
 
 ## Directions
 
-1. **Soften the leeks:** Set the pressure cooker to sauté on medium. Add unsalted butter, extra-virgin olive oil, and leeks and cook, stirring often, until the leeks are soft and translucent but not browned, 5 to 7 minutes.
-2. **Add the garlic and flour:** Stir in garlic cloves and all-purpose flour. Cook, stirring, until the garlic is fragrant and the flour coats the leeks with no dry spots, about 1 minute.
-3. **Add the broth:** Slowly pour in chicken or vegetable broth, stirring and scraping the bottom of the pot so no flour sticks.
-4. **Add the potatoes:** Stir in Yukon Gold potatoes, fresh bay leaf, ground nutmeg (if using), salt, and white pepper.
+1. **Soften the leeks:** Set the pressure cooker to sauté on medium. Add the butter, olive oil, and leeks and cook, stirring often, until the leeks are soft and translucent but not browned, 5 to 7 minutes.
+2. **Add the garlic and flour:** Stir in the garlic and flour. Cook, stirring, until the garlic is fragrant and the flour coats the leeks with no dry spots, about 1 minute.
+3. **Add the broth:** Slowly pour in the chicken or vegetable broth, stirring and scraping the bottom of the pot so no flour sticks.
+4. **Add the potatoes:** Stir in the Yukon Gold potatoes, bay leaf, nutmeg (if using), salt, and white pepper.
 5. **Pressure-cook:** Turn off the sauté setting. Lock the lid, close the valve and cook at high pressure for 7 minutes.
 6. **Release the pressure:** Let the pressure come down on its own for 15 minutes, then open the valve to release the rest. Discard the bay leaf. The potatoes should be soft enough to crush with a spoon.
 7. **Blend:** Blend the soup in the pot with an immersion blender until smooth, and stop there, since overworked potatoes turn gluey.
-8. **Add the dairy:** Stir in half-and-half. Taste and season with more salt and white pepper.
-9. **Serve:** Ladle into bowls and top with sour cream and chopped fresh chives. Serve hot or chilled.
+8. **Add the dairy:** Stir in the half-and-half. Taste and season with more salt and white pepper.
+9. **Serve:** Ladle into bowls and top with the sour cream and chopped fresh chives. Serve hot or chilled.

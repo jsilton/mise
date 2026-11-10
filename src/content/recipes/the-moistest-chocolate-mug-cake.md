@@ -170,9 +170,9 @@ This mug cake from Table for Two is a one-serving chocolate cake that goes from 
 
 ## Directions
 
-1. **Mix the dry ingredients:** In a large (14-ounce) microwave-safe mug, whisk all-purpose flour, unsweetened cocoa powder, granulated sugar, baking powder, and sea salt with a fork until evenly combined.
-2. **Stir in the wet ingredients:** Add milk and vegetable oil and whisk with the fork until the batter is glossy and no flour pockets remain, even at the bottom of the mug.
-3. **Add the center:** Drop chocolate-hazelnut spread into the middle of the batter. Do not push it down.
+1. **Mix the dry ingredients:** In a large (14-ounce) microwave-safe mug, whisk the flour, cocoa powder, granulated sugar, baking powder, and salt with a fork until evenly combined.
+2. **Stir in the wet ingredients:** Add the milk and oil and whisk with the fork until the batter is glossy and no flour pockets remain, even at the bottom of the mug.
+3. **Add the center:** Drop the chocolate-hazelnut spread into the middle of the batter. Do not push it down.
 4. **Microwave:** Microwave on high until the cake has risen and the top looks set around the melted center, about 70 seconds in a 950-watt microwave. A lower-power microwave can take up to 90 seconds.
 5. **Let it stand:** Let the cake stand for 1 minute so the crumb sets.
-6. **Serve:** Dust with powdered sugar (if using) and eat it warm, straight from the mug.
+6. **Serve:** Dust with the powdered sugar (if using) and eat it warm, straight from the mug.

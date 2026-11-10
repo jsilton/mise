@@ -55,8 +55,8 @@ ingredients:
   - '3 scallions, cut into 2-inch pieces'
   - 5 oz fresh spinach
   - '--- Seasoning and cooking oil ---'
-  - 5 tbsp soy sauce
-  - 4 tsp toasted sesame oil
+  - '5 tbsp soy sauce, divided'
+  - '4 tsp toasted sesame oil, divided'
   - 1 tsp cornstarch
   - 1/4 tsp black pepper
   - 2 tbsp brown sugar
@@ -345,10 +345,10 @@ Japchae is the Korean party dish of chewy sweet-potato noodles, beef and bright 
 
 ## Directions
 
-1. **Marinate the beef:** Toss beef sirloin, garlic, 1/5 of the soy sauce, 1/4 of the toasted sesame oil, cornstarch, and black pepper in a bowl. Refrigerate for 15 minutes while you prepare the vegetables.
-2. **Cook the noodles:** Boil dried sweet-potato glass noodles (dangmyeon) in a large pot of water until translucent and chewy, 6 to 8 minutes. Drain, rinse under cool water and drain again. Cut them a few times with kitchen scissors and toss with a few drops of the extra sesame oil so they don't stick.
+1. **Marinate the beef:** Toss the beef sirloin, cornstarch, black pepper, 1/2 tsp of the garlic, 1 tbsp of the soy sauce, and 1 tsp of the toasted sesame oil in a bowl. Refrigerate for 15 minutes while you prepare the vegetables.
+2. **Cook the noodles:** Boil the dried sweet-potato glass noodles in a large pot of water until translucent and chewy, 6 to 8 minutes. Drain, rinse under cool water and drain again. Cut them a few times with kitchen scissors and toss with a few drops of the extra sesame oil so they don't stick.
 3. **Sear the beef:** Heat a third of the neutral oil in a large skillet over high heat until shimmering. Add the beef in a single layer and let it brown for 1 minute, then stir until no pink remains, 1 to 2 minutes more. Move it to a plate.
-4. **Cook the vegetables:** Set medium carrots, red bell pepper, shiitake mushrooms, medium onion, scallions, fresh spinach, and kosher salt by the stove. In the same skillet over medium-high heat, cook each vegetable on its own in a thin film of the remaining oil with a pinch of the salt. Move each to a large bowl. The carrots, pepper, mushrooms and onion take 2 to 3 minutes each, until just tender. The scallions and spinach take about 1 minute each.
-5. **Mix the sauce:** Whisk garlic, 4/5 of the soy sauce, 3/4 of the toasted sesame oil, and brown sugar in a small bowl until the sugar dissolves.
-6. **Toss and warm:** Return the noodles, vegetables and beef with its juices to the skillet over low heat. Add the sauce and gochugaru (if using) and toss until everything is glossy and warm, 1 to 2 minutes.
-7. **Serve:** Finish with toasted sesame seeds and more toasted sesame oil and serve warm or at room temperature.
+4. **Cook the vegetables:** Set the carrots, red bell pepper, shiitake mushrooms, onion, scallions, spinach, and salt by the stove. In the same skillet over medium-high heat, cook each vegetable on its own in a thin film of the remaining oil with a pinch of the salt. Move each to a large bowl. The carrots, pepper, mushrooms and onion take 2 to 3 minutes each, until just tender. The scallions and spinach take about 1 minute each.
+5. **Mix the sauce:** Whisk the brown sugar, 2 1/2 tsp of the garlic, the rest of the soy sauce, and the rest of the toasted sesame oil in a small bowl until the sugar dissolves.
+6. **Toss and warm:** Return the noodles, vegetables and beef with its juices to the skillet over low heat. Add the sauce and the gochugaru (if using) and toss until everything is glossy and warm, 1 to 2 minutes.
+7. **Serve:** Finish with the sesame seeds and more toasted sesame oil and serve warm or at room temperature.

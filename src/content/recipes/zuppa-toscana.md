@@ -219,10 +219,10 @@ Zuppa toscana is the Italian-American sausage, potato and kale soup made famous 
 
 ## Directions
 
-1. **Brown the sausage:** In a Dutch oven over medium heat, cook bulk hot or sweet Italian sausage, breaking it into small crumbles, until browned and no longer pink, about 8 minutes. Move the sausage to a plate and leave the fat in the pot.
-2. **Soften the onion:** Add yellow onion to the fat and cook, stirring, until soft, 4 to 5 minutes.
-3. **Add the garlic:** Stir in garlic cloves and red pepper flakes and cook until fragrant, about 30 seconds.
-4. **Simmer the potatoes:** Add russet potatoes, chicken bone broth, sea salt, and black pepper and bring to a boil. Lower the heat and simmer until a fork slides easily through the potatoes, 10 to 12 minutes.
-5. **Add the cream:** Turn the heat to low. Stir in heavy cream and return the sausage to the pot. Heat gently, without boiling, for 5 minutes.
-6. **Wilt the kale:** Stir in lacinato kale and cook until wilted and tender, 1 to 3 minutes.
-7. **Season and serve:** Taste and add more salt and pepper if it needs it. Ladle into bowls and drizzle with olive oil (if using).
+1. **Brown the sausage:** In a Dutch oven over medium heat, cook the bulk hot or sweet Italian sausage, breaking it into small crumbles, until browned and no longer pink, about 8 minutes. Move the sausage to a plate and leave the fat in the pot.
+2. **Soften the onion:** Add the yellow onion to the fat and cook, stirring, until soft, 4 to 5 minutes.
+3. **Add the garlic:** Stir in the garlic and red pepper flakes and cook until fragrant, about 30 seconds.
+4. **Simmer the potatoes:** Add the russet potatoes, chicken bone broth, salt, and pepper and bring to a boil. Lower the heat and simmer until a fork slides easily through the potatoes, 10 to 12 minutes.
+5. **Add the cream:** Turn the heat to low. Stir in the heavy cream and return the sausage to the pot. Heat gently, without boiling, for 5 minutes.
+6. **Wilt the kale:** Stir in the lacinato kale and cook until wilted and tender, 1 to 3 minutes.
+7. **Season and serve:** Taste and add more salt and pepper if it needs it. Ladle into bowls and drizzle with the olive oil (if using).

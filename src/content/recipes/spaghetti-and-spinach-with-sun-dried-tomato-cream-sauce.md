@@ -235,10 +235,10 @@ A light, creamy weeknight spaghetti. Sun-dried tomatoes and their oil give the s
 
 ## Directions
 
-1. **Boil the pasta:** Bring a large pot of salted water to a boil. Cook whole-wheat spaghetti as the package directs until al dente. Scoop out some of the pasta water.
-2. **Wilt the spinach:** Put baby spinach in a large colander in the sink. Pour the pasta and its water over the spinach, toss to wilt and drain well.
-3. **Soften the onion:** Warm oil from the sun-dried tomato jar, unsalted butter, red onion, and oil-packed sun-dried tomatoes in the empty pasta pot over medium heat. Cook, stirring, until the onion softens, about 3 minutes.
-4. **Add the garlic:** Stir in garlic cloves, red pepper flakes, salt, and black pepper and cook until fragrant, about 45 seconds.
-5. **Reduce the broth:** Pour in low-sodium chicken broth and simmer until reduced by half, 2 to 3 minutes.
-6. **Make it creamy:** Lower the heat and stir in sour cream and Parmesan until the cheese melts and the sauce is smooth. Keep it from boiling.
+1. **Boil the pasta:** Bring a large pot of salted water to a boil. Cook the whole-wheat spaghetti as the package directs until al dente. Scoop out some of the pasta water.
+2. **Wilt the spinach:** Put the baby spinach in a large colander in the sink. Pour the pasta and its water over the spinach, toss to wilt and drain well.
+3. **Soften the onion:** Warm the oil from the sun-dried tomato jar, butter, red onion, and oil-packed sun-dried tomatoes in the empty pasta pot over medium heat. Cook, stirring, until the onion softens, about 3 minutes.
+4. **Add the garlic:** Stir in the garlic, red pepper flakes, salt, and pepper and cook until fragrant, about 45 seconds.
+5. **Reduce the broth:** Pour in the chicken broth and simmer until reduced by half, 2 to 3 minutes.
+6. **Make it creamy:** Lower the heat and stir in the sour cream and Parmesan until the cheese melts and the sauce is smooth. Keep it from boiling.
 7. **Toss and serve:** Return the spaghetti and spinach to the pot and toss over low heat until hot and coated, about 1 minute. Loosen with a splash of the pasta water if the sauce is thick. Serve with more black pepper.

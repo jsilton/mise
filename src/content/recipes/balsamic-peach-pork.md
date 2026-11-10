@@ -216,9 +216,9 @@ Pork chops, peaches and balsamic make a quick summer skillet dinner from Half Ba
 
 ## Directions
 
-1. **Reduce the glaze:** Combine balsamic vinegar, honey, and fresh thyme leaves in a small saucepan. Simmer over medium heat, stirring now and then, until reduced by half and syrupy, 5 to 8 minutes. Set aside off the heat. It thickens more as it cools.
-2. **Heat the broiler:** Set an oven rack about 6 inches below the broiler and heat the broiler to high. While it heats, pat bone-in pork chops dry.
-3. **Season the chops:** Season both sides of the chops well with kosher salt and black pepper.
-4. **Sear the chops:** Heat extra-virgin olive oil in a large broiler-safe skillet over medium-high heat until it shimmers. Sear the chops until deep golden, 3 to 4 minutes per side.
-5. **Glaze and broil:** Spoon the glaze over the chops and arrange ripe peaches over and around them. Broil until the peaches char at the edges and the chops reach 145°F in the thickest part, 4 to 5 minutes.
-6. **Top and rest:** Scatter feta, fresh basil, and crushed red pepper flakes over the pan. Rest the chops for 5 minutes, then serve with the peaches and pan juices spooned over.
+1. **Reduce the glaze:** Combine the balsamic vinegar, honey, and thyme in a small saucepan. Simmer over medium heat, stirring now and then, until reduced by half and syrupy, 5 to 8 minutes. Set aside off the heat. It thickens more as it cools.
+2. **Heat the broiler:** Set an oven rack about 6 inches below the broiler and heat the broiler to high. While it heats, pat the pork chops dry.
+3. **Season the chops:** Season both sides of the chops well with the salt and pepper.
+4. **Sear the chops:** Heat the olive oil in a large broiler-safe skillet over medium-high heat until it shimmers. Sear the chops until deep golden, 3 to 4 minutes per side.
+5. **Glaze and broil:** Spoon the glaze over the chops and arrange the peaches over and around them. Broil until the peaches char at the edges and the chops reach 145°F in the thickest part, 4 to 5 minutes.
+6. **Top and rest:** Scatter the feta, basil, and crushed red pepper flakes over the pan. Rest the chops for 5 minutes, then serve with the peaches and pan juices spooned over.

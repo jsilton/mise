@@ -282,12 +282,12 @@ Baked beans go back to New England bean pots, where navy beans cooked slowly wit
 
 ## Directions
 
-1. **Soak the beans:** Put dried navy beans and kosher salt in a large bowl, cover with cold water by 3 inches and stir to dissolve the salt. Soak at room temperature for at least 8 hours or overnight.
+1. **Soak the beans:** Put the dried navy beans and 1 tbsp of the salt in a large bowl, cover with cold water by 3 inches and stir to dissolve the salt. Soak at room temperature for at least 8 hours or overnight.
 2. **Simmer the beans:** Drain and rinse the beans. Put them in a Dutch oven and cover with fresh water by 2 inches. Bring to a boil, then simmer gently over medium-low heat until a bean crushes easily between two fingers and the skins are still whole, 45 to 60 minutes.
 3. **Save the liquid:** Heat the oven to 325°F. Drain the beans over a bowl and keep the cooking liquid.
-4. **Render the bacon:** Wipe out the pot and set it over medium heat. Cook thick-cut bacon, stirring, until the fat has rendered and the edges are brown, 6 to 8 minutes.
-5. **Soften the onion:** Add yellow onion and garlic cloves to the bacon and its fat. Cook, stirring, until the onion is soft and golden, about 6 minutes.
-6. **Build the sauce:** Stir in ketchup, molasses, dark brown sugar, yellow mustard, Worcestershire sauce, smoked paprika, kosher salt, and black pepper and simmer for 1 minute.
+4. **Render the bacon:** Wipe out the pot and set it over medium heat. Cook the thick-cut bacon, stirring, until the fat has rendered and the edges are brown, 6 to 8 minutes.
+5. **Soften the onion:** Add the yellow onion and garlic to the bacon and its fat. Cook, stirring, until the onion is soft and golden, about 6 minutes.
+6. **Build the sauce:** Stir in the ketchup, molasses, brown sugar, yellow mustard, Worcestershire sauce, smoked paprika, pepper, and 1 1/2 tsp of the salt and simmer for 1 minute.
 7. **Bake covered:** Add the beans and enough of the cooking liquid to just cover them. Bring to a simmer, cover and bake for 1 hour 30 minutes.
 8. **Bake uncovered:** Uncover the pot and stir. Bake until the sauce is thick, dark and syrupy and the top is sticky at the edges, 45 to 60 minutes more. Stir in a splash of the cooking liquid if the top dries out before the sauce thickens.
-9. **Finish:** Stir in apple cider vinegar. Let the beans rest for 15 minutes so the sauce thickens.
+9. **Finish:** Stir in the apple cider vinegar. Let the beans rest for 15 minutes so the sauce thickens.

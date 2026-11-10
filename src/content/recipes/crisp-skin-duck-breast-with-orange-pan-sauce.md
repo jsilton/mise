@@ -221,10 +221,10 @@ This is Sohla El-Waylly's duck breast, cooked like a good steak and served rosy.
 
 ## Directions
 
-1. **Score and season:** Pat the duck breasts dry. Score the skin in a tight crosshatch about 1/8 inch apart, cutting through the fat but not into the meat. Season both sides with kosher salt, more heavily on the skin.
-2. **Render the skin:** Lay boneless skin-on duck breasts skin-side down in a large, cold, heavy skillet with no oil. Set over medium-low heat, pressing with a small pan so the skin stays flat. Cook at a gentle sizzle until the skin is deep golden and crisp and most of the fat has melted out, about 15 minutes. Pour the fat into a heatproof jar every few minutes and save it for roasting potatoes.
+1. **Score and season:** Pat the duck breasts dry. Score the skin in a tight crosshatch about 1/8 inch apart, cutting through the fat but not into the meat. Season both sides with the salt, more heavily on the skin.
+2. **Render the skin:** Lay the duck breasts skin-side down in a large, cold, heavy skillet with no oil. Set over medium-low heat, pressing with a small pan so the skin stays flat. Cook at a gentle sizzle until the skin is deep golden and crisp and most of the fat has melted out, about 15 minutes. Pour the fat into a heatproof jar every few minutes and save it for roasting potatoes.
 3. **Cook and rest:** Turn the breasts and cook on the flesh side until the thickest part reads 130 to 135°F for medium-rare, 1 to 3 minutes, or 165°F for well done. Move them skin-side up to a rack and rest 10 minutes while you make the sauce.
-4. **Reduce the wine:** Pour off all but a thin film of fat, keeping the browned bits in the pan. Off the heat, add dry white wine, then set the pan over high heat and scrape up the browned bits. Boil until the wine is almost gone, about 2 minutes.
-5. **Reduce the stock:** Add homemade chicken stock and boil until reduced by half and lightly syrupy, 5 to 8 minutes.
-6. **Finish the sauce:** Take the skillet off the heat. Swirl in unsalted butter, orange zest, fresh orange juice, black pepper, and kosher salt, adding the butter a few pieces at a time until the sauce is glossy. Taste for salt.
+4. **Reduce the wine:** Pour off all but a thin film of fat, keeping the browned bits in the pan. Off the heat, add the dry white wine, then set the pan over high heat and scrape up the browned bits. Boil until the wine is almost gone, about 2 minutes.
+5. **Reduce the stock:** Add the chicken stock and boil until reduced by half and lightly syrupy, 5 to 8 minutes.
+6. **Finish the sauce:** Take the skillet off the heat. Swirl in the butter, orange zest, orange juice, pepper, and salt, adding the butter a few pieces at a time until the sauce is glossy. Taste for salt.
 7. **Slice and serve:** Slice the duck across the grain about 1/4 inch thick. Spoon the sauce onto the plates and lay the duck on top, skin-side up, so the skin stays crisp.

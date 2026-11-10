@@ -238,8 +238,8 @@ Roy Choi's Kogi truck in Los Angeles made Korean barbecue tacos famous, and his 
 
 ## Directions
 
-1. **Pickle the cucumber:** Toss large English cucumber, rice vinegar, sugar, fresh chili pepper, and sea salt in a bowl. Cover and refrigerate for at least 1 hour and up to 3 hours, so the cucumber stays crisp.
-2. **Mix the sauce:** Whisk gochujang, granulated sugar, soy sauce, rice vinegar, and toasted sesame oil in a small bowl until the sugar dissolves.
-3. **Sear the meat:** Heat a large skillet over high heat. Add cooked [pulled pork](/mise/recipes/pulled-pork) or shredded chicken and half the sauce. Toss until the meat is hot and lacquered and the edges are crisp, 3 to 4 minutes. Lower the heat if the sauce starts to scorch.
-4. **Char the tortillas:** Warm corn tortillas over a gas flame or in a dry skillet, turning, until hot, flexible and charred in spots. Wrap them in a towel as you go.
-5. **Fill and serve:** Fill the tortillas with the meat. Top with drained cucumber pickle and scallions, drizzle with the rest of the sauce and serve.
+1. **Pickle the cucumber:** Toss the English cucumber, sugar, chili pepper, salt, and 2 tbsp of the rice vinegar in a bowl. Cover and refrigerate for at least 1 hour and up to 3 hours, so the cucumber stays crisp.
+2. **Mix the sauce:** Whisk the gochujang, granulated sugar, soy sauce, sesame oil, and 1 tsp of the rice vinegar in a small bowl until the sugar dissolves.
+3. **Sear the meat:** Heat a large skillet over high heat. Add the cooked [pulled pork](/mise/recipes/pulled-pork) or shredded chicken and half the sauce. Toss until the meat is hot and lacquered and the edges are crisp, 3 to 4 minutes. Lower the heat if the sauce starts to scorch.
+4. **Char the tortillas:** Warm the corn tortillas over a gas flame or in a dry skillet, turning, until hot, flexible and charred in spots. Wrap them in a towel as you go.
+5. **Fill and serve:** Fill the tortillas with the meat. Top with drained cucumber pickle and the scallions, drizzle with the rest of the sauce and serve.

@@ -143,7 +143,7 @@ test('japchae accounts for its oil and scallions, lamb sauce lists cooking oil',
   // Nov 10 approved: 5 tbsp soy sauce, 1 tbsp for the beef and 4 tbsp in the sauce.
   assert.match(
     content,
-    /^5\. \*\*Mix the sauce:\*\*.*4\/5 of the soy sauce, 3\/4 of the toasted sesame oil/m
+    /^5\. \*\*Mix the sauce:\*\*.*the rest of the soy sauce, and the rest of the toasted sesame oil/m
   );
   // Nov 8 approved: 1/2 tsp garlic in the marinade, the rest (2 1/2 tsp) in the sauce.
   assert.deepEqual(ingredient('garlic').quantity, { amount: '1/2', unit: 'tsp' });

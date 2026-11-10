@@ -133,7 +133,7 @@ formula:
       text: 'Pour in {{ingredients}} and stir twice.'
     - id: finish
       title: Top with tonic
-      text: "Top with {{ingredients}} and don't stir again, so the drink keeps its fizz."
+      text: 'Top with {{ingredients}} and don''t stir again, so the drink keeps its fizz.'
     - id: bitters
       title: Add the bitters
       text: 'Shake {{ingredients}} onto the surface.'
@@ -160,9 +160,9 @@ This tall, pink drink is mostly fresh grapefruit juice, with gin and a little to
 
 ## Directions
 
-1. **Press the basil:** Put fresh basil leaves in a tall 16-ounce glass. Press them gently with a muddler or the back of a spoon until fragrant, about 10 seconds, without grinding them to a paste.
-2. **Add the ice:** Fill the glass about two-thirds full with large ice cubes.
-3. **Add the gin and juice:** Pour in London dry gin and fresh pink grapefruit juice and stir twice.
-4. **Top with tonic:** Top with tonic water and don't stir again, so the drink keeps its fizz.
-5. **Add the bitters:** Shake Angostura bitters onto the surface.
+1. **Press the basil:** Put the fresh basil leaves in a tall 16-ounce glass. Press them gently with a muddler or the back of a spoon until fragrant, about 10 seconds, without grinding them to a paste.
+2. **Add the ice:** Fill the glass about two-thirds full with the ice cubes.
+3. **Add the gin and juice:** Pour in the London dry gin and pink grapefruit juice and stir twice.
+4. **Top with tonic:** Top with the tonic water and don't stir again, so the drink keeps its fizz.
+5. **Add the bitters:** Shake the Angostura bitters onto the surface.
 6. **Garnish:** Clap the fresh basil sprig between your palms to release its scent and tuck it into the ice. Serve right away.

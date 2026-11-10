@@ -263,10 +263,10 @@ A vegetarian quiche from EatingWell with browned mushrooms, sweet onion, spinach
 ## Directions
 
 1. **Prebake the crust:** Heat the oven to 375°F. Fit the unbaked pie crust into a deep 9-inch pie plate and prick the bottom with a fork. Line it with foil, fill with pie weights or dried beans and bake for 15 minutes. Lift out the foil and weights and bake until the bottom looks dry, about 5 minutes more. Set the crust on a rimmed baking sheet.
-2. **Brown the mushrooms:** While the crust bakes, heat extra-virgin olive oil and fresh mixed mushrooms in a wide skillet over medium-high heat. Cook, stirring now and then, until the mushrooms are browned and their liquid has cooked away, about 8 minutes.
-3. **Soften the onion:** Add sweet onion and cook, stirring, until soft and lightly golden, about 5 minutes.
-4. **Wilt the spinach:** Add garlic and baby spinach and toss until the garlic smells fragrant, the spinach has wilted and the pan is dry, 1 to 2 minutes. Spread the vegetables on a plate to cool.
-5. **Mix the custard:** Whisk large eggs, whole milk, half-and-half, Dijon mustard, fresh thyme leaves, fine salt, and ground black pepper in a large bowl until smooth.
-6. **Fill the crust:** Fold Gruyère and the cooled vegetables into the custard and pour it into the crust.
+2. **Brown the mushrooms:** While the crust bakes, heat the olive oil and mixed mushrooms in a wide skillet over medium-high heat. Cook, stirring now and then, until the mushrooms are browned and their liquid has cooked away, about 8 minutes.
+3. **Soften the onion:** Add the sweet onion and cook, stirring, until soft and lightly golden, about 5 minutes.
+4. **Wilt the spinach:** Add the garlic and baby spinach and toss until the garlic smells fragrant, the spinach has wilted and the pan is dry, 1 to 2 minutes. Spread the vegetables on a plate to cool.
+5. **Mix the custard:** Whisk the eggs, whole milk, half-and-half, Dijon mustard, thyme, salt, and pepper in a large bowl until smooth.
+6. **Fill the crust:** Fold the Gruyère and the cooled vegetables into the custard and pour it into the crust.
 7. **Bake:** Bake at 375°F until the top is golden and the center jiggles only slightly when you nudge the pan, 30 to 40 minutes. Cover the crust edge with foil if it browns too fast.
 8. **Rest and serve:** Let the quiche rest for 10 minutes, scatter with more thyme and slice.

@@ -327,14 +327,14 @@ This is Bon Appétit's carrot cake, made with brown butter instead of oil and wi
 
 ## Directions
 
-1. **Prepare the pans:** Heat the oven to 350°F. Grease two 9-inch round cake pans with butter, line the bottoms with parchment and grease the parchment.
-2. **Brown the butter:** Melt unsalted butter in a light-colored saucepan over medium heat. Keep stirring and scraping the bottom as it foams until the milk solids turn golden brown and smell nutty, 5 to 8 minutes. Pour it at once into a heatproof bowl, browned bits and all, and let it cool to lukewarm.
-3. **Mix the carrots:** Stir together carrots and buttermilk in a bowl.
-4. **Whisk the dry ingredients:** Whisk all-purpose flour, ground cinnamon, ground ginger, ground nutmeg, baking powder, baking soda, and Diamond Crystal kosher salt in another bowl.
-5. **Beat the eggs and sugars:** In a stand mixer on medium-high speed, beat large eggs, granulated sugar, light brown sugar, and vanilla extract until pale and thick, about 4 minutes. Lower the speed and stream in the brown butter and its browned bits until just combined.
+1. **Prepare the pans:** Heat the oven to 350°F. Grease two 9-inch round cake pans with the butter, line the bottoms with parchment and grease the parchment.
+2. **Brown the butter:** Melt 3/4 cup of the unsalted butter in a light-colored saucepan over medium heat. Keep stirring and scraping the bottom as it foams until the milk solids turn golden brown and smell nutty, 5 to 8 minutes. Pour it at once into a heatproof bowl, browned bits and all, and let it cool to lukewarm.
+3. **Mix the carrots:** Stir together the carrots and buttermilk in a bowl.
+4. **Whisk the dry ingredients:** Whisk the flour, cinnamon, ginger, nutmeg, baking powder, baking soda, and salt in another bowl.
+5. **Beat the eggs and sugars:** In a stand mixer on medium-high speed, beat the eggs, granulated sugar, brown sugar, and 2 tsp of the vanilla until pale and thick, about 4 minutes. Lower the speed and stream in the brown butter and its browned bits until just combined.
 6. **Finish the batter:** On low speed, add the flour mixture in three parts, alternating with the carrot mixture in two parts. Mix until no dry pockets remain, then divide the batter between the pans.
 7. **Bake the layers:** Bake until a tester in the center comes out clean, 35 to 45 minutes. Cool in the pans on a rack for 10 minutes.
 8. **Cool the layers:** Run a knife around the edges, turn the layers out and peel off the parchment. Cool completely on the rack, about 1 hour.
-9. **Beat the frosting:** While the layers cool, beat cream cheese and unsalted butter in the stand mixer on medium speed until smooth, about 2 minutes.
-10. **Sweeten the frosting:** On low speed, beat in powdered sugar and vanilla extract. Raise the speed to medium and beat until smooth and fluffy, about 2 minutes.
+9. **Beat the frosting:** While the layers cool, beat the cream cheese and 3/4 cup of the unsalted butter in the stand mixer on medium speed until smooth, about 2 minutes.
+10. **Sweeten the frosting:** On low speed, beat in the powdered sugar and 1 tsp of the vanilla. Raise the speed to medium and beat until smooth and fluffy, about 2 minutes.
 11. **Frost the cake:** Set one layer on a plate and spread it with a thick layer of frosting. Top with the second layer and frost the top and sides. Chill the cake until 30 minutes before serving.

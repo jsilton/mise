@@ -224,8 +224,8 @@ These breakfast cookies from Leelalicious are oats, pumpkin and honey, studded w
 ## Directions
 
 1. **Heat the oven:** Heat the oven to 350°F and line a baking sheet with parchment.
-2. **Mix the wet ingredients:** In a medium bowl, whisk plain pumpkin puree, coconut oil, honey, and large eggs until smooth.
-3. **Mix the dry ingredients:** In a large bowl, stir together old-fashioned rolled oats, quick-cooking oats, ground flaxseed, unsweetened dried cranberries, pumpkin seeds (pepitas), pumpkin pie spice, and sea salt.
+2. **Mix the wet ingredients:** In a medium bowl, whisk the pumpkin puree, coconut oil, honey, and eggs until smooth.
+3. **Mix the dry ingredients:** In a large bowl, stir together the old-fashioned rolled oats, quick-cooking oats, ground flaxseed, dried cranberries, pumpkin seeds, pumpkin pie spice, and salt.
 4. **Make the dough:** Pour the pumpkin mixture over the oats and stir until every oat is coated and the dough holds together when pressed.
 5. **Shape the cookies:** Scoop the dough into 1/4-cup mounds on the baking sheet, about 2 inches apart. Press each into a disk 3/4 inch thick with your palm. They don't spread in the oven.
 6. **Bake:** Bake until the edges are golden brown and the centers feel firm when pressed, 15 to 20 minutes.

@@ -240,9 +240,9 @@ Greek yogurt and panko keep lean ground chicken tender in these garlic and orega
 
 ## Directions
 
-1. **Mix the meatballs:** Put ground chicken, plain Greek yogurt, panko breadcrumbs, garlic cloves, scallions, dried oregano, red pepper flakes, and salt in a large bowl. Mix gently with your hands just until combined.
+1. **Mix the meatballs:** Put the ground chicken, Greek yogurt, panko, garlic, scallions, oregano, red pepper flakes, and 1 tsp of the salt in a large bowl. Mix gently with your hands just until combined.
 2. **Shape the meatballs:** With wet hands, roll the mixture into 2-inch balls. The mixture is soft, so handle it lightly.
-3. **Brown the meatballs:** Heat half the extra-virgin olive oil in a 12-inch Dutch oven or wide, heavy pot with a lid over medium heat. Add the meatballs and cook, turning them once they release from the pan, until golden on all sides, about 7 minutes. Add a splash more oil if the pan looks dry. They will not be cooked through yet.
-4. **Dress the greens:** While the meatballs brown, toss Swiss chard, lemon, ground cumin, and salt in a large bowl with the rest of the olive oil. Use only the sliced half of the lemon here. Scrunch the leaves with your hands until they are coated.
+3. **Brown the meatballs:** Heat half the olive oil in a 12-inch Dutch oven or wide, heavy pot with a lid over medium heat. Add the meatballs and cook, turning them once they release from the pan, until golden on all sides, about 7 minutes. Add a splash more oil if the pan looks dry. They will not be cooked through yet.
+4. **Dress the greens:** While the meatballs brown, toss the Swiss chard, lemon, cumin, and salt in a large bowl with the rest of the olive oil. Use only the sliced half of the lemon here. Scrunch the leaves with your hands until they are coated.
 5. **Steam under the greens:** Pile the greens and lemon slices on top of the meatballs. Cover tightly and cook over medium heat until the chard is tender and the meatballs reach 165°F in the center, 12 to 15 minutes.
 6. **Finish with lemon:** Spoon the meatballs, greens and pan juices onto plates. Squeeze the other lemon half over the top and serve.

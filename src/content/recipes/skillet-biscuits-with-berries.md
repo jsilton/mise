@@ -230,8 +230,8 @@ formula:
     - id: broil
       title: Brown the tops
       text: >-
-        Uncover and sprinkle the biscuits with {{ingredients}}. Broil, watching closely, until
-        browned in spots, 3 to 5 minutes.
+        Uncover and sprinkle the biscuits with a little {{ingredients}}. Broil, watching closely,
+        until browned in spots, 3 to 5 minutes.
     - id: serve
       title: Serve
       text: >-
@@ -253,10 +253,10 @@ Cobbler's close cousin from Food & Wine: biscuits steam on top of simmering rasp
 
 ## Directions
 
-1. **Mix the dry ingredients:** In a large bowl, whisk all-purpose flour, light brown sugar, baking powder, and salt.
-2. **Cut in the butter:** Cut unsalted butter into the flour with a pastry blender or your fingertips until it looks coarse, with pea-size pieces of butter.
-3. **Shape the biscuits:** Stir in half-and-half just until the dough comes together. Scoop it into loose mounds, one per serving, and refrigerate them on a parchment-lined tray while the berries cook.
-4. **Simmer the berries:** Set an oven rack 6 inches below the broiler and heat the broiler. In a large, deep broiler-safe skillet, combine raspberries, blackberries, granulated sugar, water, orange zest, and cinnamon stick. Bring to a boil over high heat, then simmer, stirring now and then, until the berries are juicy and breaking down, about 10 minutes.
+1. **Mix the dry ingredients:** In a large bowl, whisk the flour, brown sugar, baking powder, and salt.
+2. **Cut in the butter:** Cut the butter into the flour with a pastry blender or your fingertips until it looks coarse, with pea-size pieces of butter.
+3. **Shape the biscuits:** Stir in the half-and-half just until the dough comes together. Scoop it into loose mounds, one per serving, and refrigerate them on a parchment-lined tray while the berries cook.
+4. **Simmer the berries:** Set an oven rack 6 inches below the broiler and heat the broiler. In a large, deep broiler-safe skillet, combine the raspberries, blackberries, water, orange zest, cinnamon stick, and 3/4 cup of the granulated sugar. Bring to a boil over high heat, then simmer, stirring now and then, until the berries are juicy and breaking down, about 10 minutes.
 5. **Steam the biscuits:** Set the dough mounds on the bubbling fruit in one layer. Cover and cook over very low heat until the biscuits are springy and cooked through in the center, about 15 minutes.
-6. **Brown the tops:** Uncover and sprinkle the biscuits with granulated sugar. Broil, watching closely, until browned in spots, 3 to 5 minutes.
-7. **Serve:** Let the skillet cool for 5 minutes and remove the cinnamon stick. Serve warm with sweetened whipped cream.
+6. **Brown the tops:** Uncover and sprinkle the biscuits with a little granulated sugar. Broil, watching closely, until browned in spots, 3 to 5 minutes.
+7. **Serve:** Let the skillet cool for 5 minutes and remove the cinnamon stick. Serve warm with the sweetened whipped cream.

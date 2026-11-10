@@ -330,12 +330,11 @@ Fish tacos come from Baja California, where stands in Ensenada and San Felipe fr
 
 ## Directions
 
-1. **Mix the crema:** Whisk Mexican crema, mayonnaise, fresh lime juice, and kosher salt in a small bowl until smooth. Refrigerate until serving.
-2. **Season the fish:** Pat the fish dry with paper towels and season it all over with kosher salt.
-3. **Heat the oil:** Pour neutral oil into a 5 1/2-quart Dutch oven. It should be 1 inch deep. Heat over medium-high heat to 375°F. Set a wire rack over a rimmed baking sheet.
-4. **Whisk the batter:** When the oil is almost hot, whisk all-purpose flour, cornstarch, baking powder, kosher salt, dried Mexican oregano, yellow mustard, and Mexican lager in a medium bowl just until a few small lumps remain. The batter should be as thin as pancake batter.
-5. **Fry the fish:** Working with 5 pieces at a time, dip skinless cod fillets in the batter and let the extra drip off. Lower each piece into the oil. Fry, turning once, until deep golden and crisp, 3 to 4 minutes. Drain on the rack and let the oil return to 375°F between batches.
-6. **Warm the tortillas:** Heat a dry skillet over medium-high heat. Warm corn tortillas two at a time until soft with a few toasted spots, about 30 seconds per side. Stack them in a clean towel to stay warm.
-7. **Build the tacos:** Put the fish in the warm tortillas. Top with a spoonful of crema, then green cabbage and fresh cilantro.
-8. **Serve:** Serve right away with limes and Mexican hot sauce at the table.
-
+1. **Mix the crema:** Whisk the Mexican crema, mayonnaise, lime juice, and 1/4 tsp of the salt in a small bowl until smooth. Refrigerate until serving.
+2. **Season the fish:** Pat the fish dry with paper towels and season it all over with 3/4 tsp of the salt.
+3. **Heat the oil:** Pour the oil into a 5 1/2-quart Dutch oven. It should be 1 inch deep. Heat over medium-high heat to 375°F. Set a wire rack over a rimmed baking sheet.
+4. **Whisk the batter:** When the oil is almost hot, whisk the flour, cornstarch, baking powder, dried Mexican oregano, yellow mustard, Mexican lager, and 1 tsp of the salt in a medium bowl just until a few small lumps remain. The batter should be as thin as pancake batter.
+5. **Fry the fish:** Working with 5 pieces at a time, dip the cod fillets in the batter and let the extra drip off. Lower each piece into the oil. Fry, turning once, until deep golden and crisp, 3 to 4 minutes. Drain on the rack and let the oil return to 375°F between batches.
+6. **Warm the tortillas:** Heat a dry skillet over medium-high heat. Warm the corn tortillas two at a time until soft with a few toasted spots, about 30 seconds per side. Stack them in a clean towel to stay warm.
+7. **Build the tacos:** Put the fish in the warm tortillas. Top with a spoonful of crema, then the green cabbage and cilantro.
+8. **Serve:** Serve right away with the limes and Mexican hot sauce at the table.

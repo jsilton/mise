@@ -266,11 +266,10 @@ Matzo ball soup is the Ashkenazi Jewish soup of Passover and Friday night dinner
 
 ## Directions
 
-1. **Mix the batter:** Stir large eggs, schmaltz (rendered chicken fat), seltzer, matzo meal, kosher salt, black pepper, and fresh dill together in a medium bowl with a fork until no dry spots remain. The batter will be loose.
+1. **Mix the batter:** Stir the eggs, schmaltz, seltzer, matzo meal, pepper, 1 1/4 tsp of the salt, and 1 tbsp of the dill together in a medium bowl with a fork until no dry spots remain. The batter will be loose.
 2. **Chill the batter:** Cover and refrigerate until the batter is firm enough to scoop, at least 30 minutes.
 3. **Shape the balls:** Bring a large, wide pot of well-salted water to a boil. With wet hands, roll the batter lightly into 12 balls the size of walnuts. Keep them loose, since packed balls cook up dense.
 4. **Simmer the matzo balls:** Drop the balls into the boiling water. Lower the heat to a gentle simmer and cover the pot tightly. Cook without lifting the lid for 35 minutes. They are done when they have doubled in size and one cut in half is the same pale color all the way through.
-5. **Simmer the soup:** While the matzo balls cook, bring homemade chicken stock, medium carrots, celery stalks, and kosher salt to a simmer in a second pot over medium heat. Cook until the carrots are tender, about 15 minutes. Taste and add more salt.
+5. **Simmer the soup:** While the matzo balls cook, bring the chicken stock, carrots, celery, and 1 tbsp of the salt to a simmer in a second pot over medium heat. Cook until the carrots are tender, about 15 minutes. Taste and add more salt.
 6. **Finish the soup:** Lift the matzo balls into the soup with a slotted spoon. Simmer together for 5 minutes so they take on the flavor of the stock.
-7. **Serve:** Ladle the soup into warm bowls with 2 matzo balls each and scatter with fresh dill.
-
+7. **Serve:** Ladle the soup into warm bowls with 2 matzo balls each and scatter with 2 tbsp of the dill.

@@ -139,8 +139,8 @@ A boiled egg is all timing. Lowering cold eggs into water that is already boilin
 ## Directions
 
 1. **Boil the water:** Fill a medium saucepan with enough water to cover the eggs by 1 inch. Bring it to a boil over high heat.
-2. **Set up the ice bath:** Fill a bowl with ice and cold water and set it next to the stove.
-3. **Lower in the eggs:** Lower large eggs into the boiling water one at a time with a slotted spoon and start a timer.
+2. **Set up the ice bath:** Fill a bowl with the ice and cold water and set it next to the stove.
+3. **Lower in the eggs:** Lower the eggs into the boiling water one at a time with a slotted spoon and start a timer.
 4. **Time the eggs:** Turn the heat down so the water keeps a gentle boil. Cook 6 minutes for a runny yolk in a set white. Cook 7 minutes for a jammy yolk. Cook 9 minutes for a soft yolk that is set all the way through. Cook 11 minutes for a firm, pale yellow hard-boiled yolk.
 5. **Chill the eggs:** Move the eggs straight into the ice bath with the slotted spoon. Leave them until they are cool enough to handle, at least 5 minutes.
 6. **Peel:** Tap each egg all over on the counter. Peel it under the water, starting at the wide end where the air pocket sits.

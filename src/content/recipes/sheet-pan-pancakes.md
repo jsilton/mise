@@ -284,10 +284,10 @@ These Belly Full pancakes bake in one pan, so everyone eats at once and nobody s
 
 ## Directions
 
-1. **Grease the pan:** Heat the oven to 425°F. Coat a 9-by-13-inch rimmed baking sheet with nonstick spray, getting into the corners.
-2. **Mix the dry ingredients:** Whisk all-purpose flour, brown sugar, granulated sugar, baking powder, and kosher salt in a large bowl.
-3. **Finish the batter:** Add large eggs, whole milk, unsalted butter, and vanilla and whisk just until smooth with no dry pockets. Pour the batter into the pan and tap it on the counter to level it.
-4. **Top three sections:** Picture the batter in four sections and top three of them with seedless strawberry jam, fresh strawberries, chocolate chips, and blueberries. Dot the jam over the first section, swirl it with a toothpick and lay the strawberries on top. Scatter the chocolate chips over the second and the blueberries over the third.
-5. **Swirl the cinnamon:** Whisk unsalted butter, brown sugar, and ground cinnamon in a small bowl. Dot it over the last section and swirl it with a toothpick.
+1. **Grease the pan:** Heat the oven to 425°F. Coat a 9-by-13-inch rimmed baking sheet with the nonstick spray, getting into the corners.
+2. **Mix the dry ingredients:** Whisk the flour, granulated sugar, baking powder, salt, and 1/4 cup of the brown sugar in a large bowl.
+3. **Finish the batter:** Add the eggs, whole milk, vanilla, and 1/4 cup of the butter and whisk just until smooth with no dry pockets. Pour the batter into the pan and tap it on the counter to level it.
+4. **Top three sections:** Picture the batter in four sections and top three of them with the seedless strawberry jam, strawberries, chocolate chips, and blueberries. Dot the jam over the first section, swirl it with a toothpick and lay the strawberries on top. Scatter the chocolate chips over the second and the blueberries over the third.
+5. **Swirl the cinnamon:** Whisk the cinnamon, 1 1/2 tbsp of the butter, and 1 tbsp of the brown sugar in a small bowl. Dot it over the last section and swirl it with a toothpick.
 6. **Bake:** Bake until the center springs back and a toothpick comes out clean of batter, 15 to 18 minutes. Test a plain spot, not a melted chocolate chip.
-7. **Slice and serve:** Cool for a minute, then cut into squares and serve with maple syrup, butter or powdered sugar.
+7. **Slice and serve:** Cool for a minute, then cut into squares and serve with the maple syrup, butter or powdered sugar.

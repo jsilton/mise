@@ -52,8 +52,8 @@ ingredients:
   - 5 oz fresh baby spinach
   - '--- Filling and topping ---'
   - '15 oz whole-milk ricotta, drained'
-  - '8 oz low-moisture mozzarella, shredded from a block'
-  - '2 oz Parmigiano-Reggiano, finely grated'
+  - '8 oz low-moisture mozzarella, shredded from a block, divided'
+  - '2 oz Parmigiano-Reggiano, finely grated, divided'
   - '1 tbsp lemon zest, from 1 lemon'
   - 1/4 tsp ground nutmeg
   - '2 tbsp fresh chives or basil, minced'
@@ -61,7 +61,7 @@ ingredients:
   - 'black pepper, a few grinds'
   - '1 large egg, beaten'
   - '--- Sauce ---'
-  - 4 cups marinara sauce
+  - '4 cups marinara sauce, divided'
 origin: Italian-American home cooking
 description: >-
   Jumbo shells with a spinach, ricotta and mozzarella filling, baked under tomato sauce and a
@@ -329,16 +329,16 @@ Stuffed shells are an Italian-American red-sauce classic, jumbo pasta filled wit
 
 ## Directions
 
-1. **Heat the oven and water:** Heat the oven to 375°F. Bring a large pot of water to a boil with kosher salt.
-2. **Warm the garlic:** Heat olive oil and garlic clove in a skillet over medium heat until the garlic sizzles, about 30 seconds.
-3. **Wilt the spinach:** Add fresh baby spinach and cook, tossing, until just wilted, 2 to 3 minutes. Discard the garlic and let the spinach cool.
-4. **Parboil the shells:** Add jumbo pasta shells to the boiling water and cook 2 to 3 minutes less than the package says, until pliable but still firm. Drain.
-5. **Oil the shells:** Spread the shells on a sheet pan and toss gently with extra-virgin olive oil so they don't stick.
+1. **Heat the oven and water:** Heat the oven to 375°F. Bring a large pot of water to a boil with the salt.
+2. **Warm the garlic:** Heat the olive oil and garlic in a skillet over medium heat until the garlic sizzles, about 30 seconds.
+3. **Wilt the spinach:** Add the baby spinach and cook, tossing, until just wilted, 2 to 3 minutes. Discard the garlic and let the spinach cool.
+4. **Parboil the shells:** Add the pasta shells to the boiling water and cook 2 to 3 minutes less than the package says, until pliable but still firm. Drain.
+5. **Oil the shells:** Spread the shells on a sheet pan and toss gently with the extra-virgin olive oil so they don't stick.
 6. **Squeeze the spinach:** Wrap the cooled spinach in a clean towel and wring it out until dry. Chop it finely.
-7. **Mix the filling:** In a large bowl, fold whole-milk ricotta, 2/3 of the low-moisture mozzarella, 2/3 of the Parmigiano-Reggiano, lemon zest, ground nutmeg, fresh chives or basil, kosher salt, black pepper, and large egg with the chopped spinach until just combined. Mix by hand so the ricotta stays thick and fluffy.
-8. **Sauce the dish:** Spread 1/4 of the marinara sauce over the bottom of a 9x13-inch baking dish.
+7. **Mix the filling:** In a large bowl, fold the ricotta, lemon zest, nutmeg, chives or basil, pepper, egg, 5 1/4 oz of the low-moisture mozzarella, two thirds of the Parmigiano-Reggiano, and 1/2 tsp of the salt with the chopped spinach until just combined. Mix by hand so the ricotta stays thick and fluffy.
+8. **Sauce the dish:** Spread 1 cup of the marinara sauce over the bottom of a 9x13-inch baking dish.
 9. **Fill the shells:** Spoon the filling into the shells, sharing it evenly, and set them open side up in a single layer in the dish.
-10. **Sauce the shells:** Spoon 3/4 of the marinara sauce over the shells, covering the pasta edges so they don't dry out and crisp.
-11. **Add the cheese:** Scatter 1/3 of the low-moisture mozzarella and 1/3 of the Parmigiano-Reggiano over the top.
+10. **Sauce the shells:** Spoon the rest of the marinara sauce over the shells, covering the pasta edges so they don't dry out and crisp.
+11. **Add the cheese:** Scatter the rest of the low-moisture mozzarella and the rest of the Parmigiano-Reggiano over the top.
 12. **Bake:** Cover with foil, tented so it doesn't touch the cheese, and bake 25 minutes. Uncover and bake until the sauce bubbles at the edges and the cheese has golden spots, 15 to 20 minutes more.
 13. **Rest and serve:** Let the shells rest 10 minutes so the filling sets, then serve.

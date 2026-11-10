@@ -258,8 +258,8 @@ Quesadillas are Mexican home cooking at its simplest, a warm tortilla folded aro
 
 ## Directions
 
-1. **Make the pico:** Stir together ripe tomatoes, white onion, jalapeño, fresh cilantro, fresh lime juice, and kosher salt in a bowl. Taste for salt and chill the pico until serving.
+1. **Make the pico:** Stir together the tomatoes, cilantro, lime juice, salt, 1/4 white onion, and 1 jalapeño in a bowl. Taste for salt and chill the pico until serving.
 2. **Warm the tortillas:** Warm the flour tortillas one at a time in a dry skillet over medium-low heat until soft and pliable, about 20 seconds per side. Stack them in a clean kitchen towel to keep warm.
-3. **Fill and fold:** Scatter rotisserie chicken, Oaxaca cheese, jalapeño, and white onion over half of each tortilla, leaving a small border, then fold the tortillas over the filling. For milder quesadillas, leave the onion and jalapeño out of a few.
-4. **Cook the quesadillas:** Heat a thin film of vegetable oil in the skillet over medium-high heat. Cook two or three quesadillas at a time until golden and the cheese melts, 2 to 3 minutes on the first side and 1 to 2 minutes on the second. Add a little more oil for each batch.
-5. **Cut and serve:** Cut the quesadillas into wedges. Serve them hot with the cold pico, Mexican crema and lime wedges.
+3. **Fill and fold:** Scatter the rotisserie chicken, Oaxaca cheese, 1 jalapeño, and 1/2 cup of the white onion over half of each tortilla, leaving a small border, then fold the tortillas over the filling. For milder quesadillas, leave the onion and jalapeño out of a few.
+4. **Cook the quesadillas:** Heat a thin film of oil in the skillet over medium-high heat. Cook two or three quesadillas at a time until golden and the cheese melts, 2 to 3 minutes on the first side and 1 to 2 minutes on the second. Add a little more oil for each batch.
+5. **Cut and serve:** Cut the quesadillas into wedges. Serve them hot with the cold pico, the Mexican crema and lime wedges.

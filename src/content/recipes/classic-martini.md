@@ -131,7 +131,7 @@ Bon Appétit's classic Martini is a generous pour of London dry gin with a littl
 ## Directions
 
 1. **Chill the glass:** Put a large martini glass in the freezer for 10 minutes.
-2. **Crack the ice:** Wrap a few of the large ice cubes in a clean kitchen towel, one at a time, and crack each into three or four pieces with the back of a bar spoon. Fill a mixing glass with the cracked ice and more whole cubes.
-3. **Stir the drink:** Pour in London dry gin and dry French vermouth. Stir briskly with a bar spoon until the outside of the mixing glass is frosty, about 50 turns.
+2. **Crack the ice:** Wrap a few of the ice cubes in a clean kitchen towel, one at a time, and crack each into three or four pieces with the back of a bar spoon. Fill a mixing glass with the cracked ice and more whole cubes.
+3. **Stir the drink:** Pour in the London dry gin and dry French vermouth. Stir briskly with a bar spoon until the outside of the mixing glass is frosty, about 50 turns.
 4. **Strain:** Strain the drink through a Hawthorne strainer into the cold glass.
 5. **Add the lemon:** Peel a 1-inch strip from the lemon, taking only the yellow zest. Twist it over the drink to spray its oils, rub it around the rim and drop it in. Serve right away.

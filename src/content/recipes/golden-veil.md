@@ -212,7 +212,7 @@ This is our own sparkler, built like a French 75. Gin leads, cognac adds depth a
 ## Directions
 
 1. **Chill the glass:** Put a large wine glass in the freezer for 10 minutes.
-2. **Shake the base:** Put Plymouth gin, mezcal joven, cognac, fresh lemon juice, Bénédictine, light agave nectar, orange bitters, and ice in a cocktail shaker. Shake hard until the shaker is frosty, about 15 seconds.
+2. **Shake the base:** Put the Plymouth gin, mezcal joven, cognac, lemon juice, Bénédictine, light agave nectar, orange bitters, and ice in a cocktail shaker. Shake hard until the shaker is frosty, about 15 seconds.
 3. **Strain and top:** Double-strain the drink through a fine strainer into the chilled glass. Pour in the brut Prosecco slowly down the side of the glass and don't stir, so it keeps its bubbles.
 4. **Garnish:** Twist the lemon peel over the drink to spray its oils on top, then drop it in.
-5. **Add the thyme:** Clap the fresh thyme sprig between your palms to wake it up and set it at the rim. Serve right away.
+5. **Add the thyme:** Clap the thyme between your palms to wake it up and set it at the rim. Serve right away.

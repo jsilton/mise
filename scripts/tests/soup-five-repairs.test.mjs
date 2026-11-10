@@ -62,7 +62,11 @@ test('hot and sour inventories saute oil and excludes separate stock and pork pr
   const factors = [0.25, 0.5, 1, 1.5, 2, 3, 1];
   const oilAmounts = ['1/2', '1', '2', '3', '4', '6', '2'];
   factors.forEach((factor, index) => {
-    assert.equal(formatFormulaIngredient(oil, factor), `${oilAmounts[index]} tbsp canola oil`);
+    // A scaled 1/2 tbsp prints as the teaspoons a cook can measure.
+    assert.equal(
+      formatFormulaIngredient(oil, factor),
+      factor === 0.25 ? '1 1/2 tsp canola oil' : `${oilAmounts[index]} tbsp canola oil`
+    );
   });
   assert.equal(data.cookTime, '25 min');
   assert.equal(data.totalTime, '55 min');

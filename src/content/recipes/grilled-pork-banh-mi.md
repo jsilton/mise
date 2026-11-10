@@ -250,10 +250,10 @@ This is the Saigon street sandwich: sweet, charred lemongrass pork in a crackly 
 
 ## Directions
 
-1. **Make the marinade:** Whisk fish sauce, sugar, honey, garlic cloves, and lemongrass stalks together in a large bowl until the sugar dissolves.
-2. **Coat the pork:** Toss the boneless pork butt in the marinade until coated. Cover and refrigerate for at least 2 hours or overnight.
+1. **Make the marinade:** Whisk the fish sauce, sugar, honey, garlic, and lemongrass together in a large bowl until the sugar dissolves.
+2. **Coat the pork:** Toss the pork butt in the marinade until coated. Cover and refrigerate for at least 2 hours or overnight.
 3. **Make the pickles:** If you haven't already, make the pickled carrots and daikon while the pork marinates. They need at least 1 hour in the fridge.
-4. **Grill the pork:** Heat a grill to medium and oil the grates with neutral oil. Lift the pork from the marinade, wipe off the excess and thread it onto skewers or spread it in a grill basket. Grill until browned and charred at the edges and cooked through, 3 to 4 minutes per side. Move it to a cooler spot if the sugar starts to blacken.
+4. **Grill the pork:** Heat a grill to medium and oil the grates with the oil. Lift the pork from the marinade, wipe off the excess and thread it onto skewers or spread it in a grill basket. Grill until browned and charred at the edges and cooked through, 3 to 4 minutes per side. Move it to a cooler spot if the sugar starts to blacken.
 5. **Toast the bread:** Lay the crusty baguettes cut side down on the grill until warm and crisp, about 1 minute.
-6. **Dress the bread:** Spread mayonnaise and Maggi seasoning over the cut sides of the warm bread.
-7. **Fill the sandwiches:** Pile the pork into the bread, then layer on cucumber spears, [Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon), fresh cilantro sprigs, and jalapeño. Serve right away, while the bread is crisp.
+6. **Dress the bread:** Spread the mayonnaise and Maggi seasoning over the cut sides of the warm bread.
+7. **Fill the sandwiches:** Pile the pork into the bread, then layer on the cucumber spears, [Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon), cilantro, and jalapeño. Serve right away, while the bread is crisp.

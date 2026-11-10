@@ -319,10 +319,10 @@ Shumai are the open-topped pork and shrimp dumplings of Cantonese dim sum. Lisa 
 ## Directions
 
 1. **Soak the mushrooms:** Soak the dried shiitakes in hot water until soft all the way through, about 30 minutes. If using dried scallops, soak them in cold water in the fridge for at least 4 hours or overnight. Drain both, then stem and chop the mushrooms and shred the scallops.
-2. **Hydrate the pork:** In a large bowl, stir ground pork (80/20), tapioca starch, and cold water hard in one direction until the pork soaks up the water and turns sticky, 3 to 5 minutes.
-3. **Add the oils and shrimp:** Stir in peanut or canola oil, toasted sesame oil, and raw shrimp until the filling is sticky again, about 1 minute.
-4. **Season the filling:** Fold in water chestnuts, shiitake mushrooms, fresh ginger, scallions, oyster sauce, kosher salt, sugar, ground white pepper, small dried scallops (if using), and pork back fat (if using) until evenly mixed.
-5. **Shape the shumai:** Working with thin round siu mai wrappers one at a time, hold a wrapper in a loose fist and add a heaping tablespoon of filling. Squeeze the wrapper up around the filling into an open cup, smooth the top and tap the base on the counter so it stands flat.
+2. **Hydrate the pork:** In a large bowl, stir the ground pork, tapioca starch, and cold water hard in one direction until the pork soaks up the water and turns sticky, 3 to 5 minutes.
+3. **Add the oils and shrimp:** Stir in the peanut or canola oil, sesame oil, and shrimp until the filling is sticky again, about 1 minute.
+4. **Season the filling:** Fold in the water chestnuts, shiitake mushrooms, ginger, scallions, oyster sauce, salt, sugar, white pepper, dried scallops (if using), and pork back fat (if using) until evenly mixed.
+5. **Shape the shumai:** Working with the thin round siu mai wrappers one at a time, hold a wrapper in a loose fist and add a heaping tablespoon of filling. Squeeze the wrapper up around the filling into an open cup, smooth the top and tap the base on the counter so it stands flat.
 6. **Top with carrot:** Press a few pieces of carrot onto the top of each one. Set the shumai in a parchment-lined steamer basket, about an inch apart.
 7. **Steam the shumai:** Set the basket over boiling water, cover and steam over high heat until the filling is firm and cooked through and the wrappers look translucent, 8 to 10 minutes. Steam the rest in batches.
-8. **Serve:** Serve hot, with chili oil (if using) on the side.
+8. **Serve:** Serve hot, with the chili oil (if using) on the side.

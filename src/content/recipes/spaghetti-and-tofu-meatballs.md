@@ -316,10 +316,10 @@ Vegetarian meatballs made from crumbled tofu, ground walnuts and breadcrumbs, se
 
 ## Directions
 
-1. **Soften the vegetables:** Heat the oven to 400°F. Warm olive oil, large onion, large carrot, green bell pepper, and garlic cloves in a large skillet over medium heat. Cook, stirring, until soft and golden, about 10 minutes. Spread on a plate to cool slightly.
-2. **Mix:** Put extra-firm tofu, large eggs, ground walnuts, whole-wheat breadcrumbs, Dijon mustard, toasted sesame oil, soy sauce, dried basil, dried oregano, fresh parsley, kosher salt, and black pepper in a large bowl, crumbling the tofu as it goes in. Add the cooled vegetables and mix with your hands until the tofu looks like ground meat and the mixture holds together when squeezed.
-3. **Shape:** Grease two baking sheets with olive oil. Roll the mixture into 1 1/2-inch balls and space them out on the sheets.
+1. **Soften the vegetables:** Heat the oven to 400°F. Warm the onion, carrot, green bell pepper, garlic, and 3 tbsp of the olive oil in a large skillet over medium heat. Cook, stirring, until soft and golden, about 10 minutes. Spread on a plate to cool slightly.
+2. **Mix:** Put the extra-firm tofu, eggs, ground walnuts, whole-wheat breadcrumbs, Dijon mustard, sesame oil, soy sauce, basil, oregano, parsley, salt, and black pepper in a large bowl, crumbling the tofu as it goes in. Add the cooled vegetables and mix with your hands until the tofu looks like ground meat and the mixture holds together when squeezed.
+3. **Shape:** Grease two baking sheets with the olive oil. Roll the mixture into 1 1/2-inch balls and space them out on the sheets.
 4. **Bake:** Bake until browned and firm, 25 to 30 minutes, turning the balls once halfway through.
-5. **Boil the pasta:** While the balls bake, cook spaghetti in a large pot of salted boiling water until al dente, then drain.
-6. **Sauce and serve:** Warm marinara sauce in a wide pan over medium heat. Add half the baked balls and simmer gently until hot, about 5 minutes. Serve over the spaghetti.
+5. **Boil the pasta:** While the balls bake, cook the spaghetti in a large pot of salted boiling water until al dente, then drain.
+6. **Sauce and serve:** Warm the marinara sauce in a wide pan over medium heat. Add half the baked balls and simmer gently until hot, about 5 minutes. Serve over the spaghetti.
 7. **Freeze the rest:** Cool the other half of the baked balls and freeze them for a second dinner.

@@ -344,15 +344,14 @@ Pot roast is the American Sunday braise, a tough and inexpensive chuck roast coo
 
 ## Directions
 
-1. **Season the roast:** Heat the oven to 300°F with a rack in the lower third. Pat the roast dry with paper towels and rub it all over with kosher salt and black pepper.
-2. **Heat the pot:** Heat neutral oil in a 6- to 7-quart Dutch oven over medium-high heat until it shimmers.
-3. **Brown the roast:** Add boneless beef chuck roast and brown it on every side until it is deep brown all over, 12 to 15 minutes. Move it to a plate.
-4. **Soften the onions:** Lower the heat to medium. Add large yellow onions and cook, scraping up the browned bits, until soft and brown at the edges, about 6 minutes.
-5. **Toast the paste:** Stir in garlic cloves, tomato paste, and all-purpose flour. Cook, stirring, until the tomato paste darkens to brick red, about 2 minutes.
-6. **Reduce the wine:** Pour in dry red wine and scrape the bottom of the pot clean. Simmer until the wine has reduced by half, about 3 minutes.
-7. **Braise the roast:** Add low-sodium beef broth, Worcestershire sauce, bay leaves, and fresh thyme sprigs, then return the roast and the juices on its plate. The liquid should come halfway up the meat. Bring to a simmer, cover and move the pot to the oven. Braise for 2 hours, turning the roast over halfway through.
-8. **Add the vegetables:** Tuck carrots, Yukon Gold potatoes, and kosher salt into the liquid around the roast, sprinkling the salt over the vegetables. Cover and braise until a fork slides into the meat with no resistance and the vegetables are tender, 1 to 1 1/4 hours more.
+1. **Season the roast:** Heat the oven to 300°F with a rack in the lower third. Pat the roast dry with paper towels and rub it all over with the pepper and 1 tbsp of the salt.
+2. **Heat the pot:** Heat the oil in a 6- to 7-quart Dutch oven over medium-high heat until it shimmers.
+3. **Brown the roast:** Add the beef chuck roast and brown it on every side until it is deep brown all over, 12 to 15 minutes. Move it to a plate.
+4. **Soften the onions:** Lower the heat to medium. Add the yellow onions and cook, scraping up the browned bits, until soft and brown at the edges, about 6 minutes.
+5. **Toast the paste:** Stir in the garlic, tomato paste, and flour. Cook, stirring, until the tomato paste darkens to brick red, about 2 minutes.
+6. **Reduce the wine:** Pour in the dry red wine and scrape the bottom of the pot clean. Simmer until the wine has reduced by half, about 3 minutes.
+7. **Braise the roast:** Add the beef broth, Worcestershire sauce, bay leaves, and thyme, then return the roast and the juices on its plate. The liquid should come halfway up the meat. Bring to a simmer, cover and move the pot to the oven. Braise for 2 hours, turning the roast over halfway through.
+8. **Add the vegetables:** Tuck the carrots, Yukon Gold potatoes, and 1 tsp of the salt into the liquid around the roast, sprinkling the salt over the vegetables. Cover and braise until a fork slides into the meat with no resistance and the vegetables are tender, 1 to 1 1/4 hours more.
 9. **Rest the roast:** Move the roast to a cutting board and cover it loosely with foil for 15 minutes. Lift the vegetables onto a warm platter with a slotted spoon.
-10. **Finish the gravy:** Skim the fat from the top of the liquid and take out the bay leaves and thyme stems. Simmer over medium heat until the gravy coats a spoon, about 5 minutes. Stir in red wine vinegar and kosher salt, tasting as you add the salt.
-11. **Slice and serve:** Cut off the twine and slice the roast thickly across the grain. Lay the slices over the vegetables, spoon on the gravy and scatter with fresh flat-leaf parsley.
-
+10. **Finish the gravy:** Skim the fat from the top of the liquid and take out the bay leaves and thyme stems. Simmer over medium heat until the gravy coats a spoon, about 5 minutes. Stir in the red wine vinegar and salt, tasting as you add the salt.
+11. **Slice and serve:** Cut off the twine and slice the roast thickly across the grain. Lay the slices over the vegetables, spoon on the gravy and scatter with the flat-leaf parsley.

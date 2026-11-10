@@ -142,7 +142,7 @@ In Japan, teriyaki is a way of cooking. Teri means shine and yaki means grilling
 
 ## Directions
 
-1. **Boil off the alcohol:** Bring sake and mirin to a boil in a small saucepan over medium-high heat. Boil for 1 minute.
-2. **Dissolve the sugar:** Add Japanese soy sauce and granulated sugar and stir until the sugar dissolves.
+1. **Boil off the alcohol:** Bring the sake and mirin to a boil in a small saucepan over medium-high heat. Boil for 1 minute.
+2. **Dissolve the sugar:** Add the Japanese soy sauce and sugar and stir until the sugar dissolves.
 3. **Reduce:** Turn the heat to medium-low and simmer steadily until the sauce has cooked down by about a third, the bubbles turn large and glossy and it lightly coats a spoon, 12 to 15 minutes.
 4. **Cool:** Cool the sauce in the pan for 15 minutes, then pour it into a jar. It looks thin while hot and thickens to a pourable glaze as it cools.

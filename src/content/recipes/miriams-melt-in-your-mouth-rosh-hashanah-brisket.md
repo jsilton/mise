@@ -209,10 +209,10 @@ Miriam Szokovski's brisket is a Rosh Hashanah centerpiece, with honey for a swee
 
 ## Directions
 
-1. **Lay out the onions:** Heat the oven to 400°F. Lay the large Spanish onions in a single layer in a heavy baking dish or Dutch oven that holds the brisket flat.
-2. **Rub the brisket:** Mix paprika, garlic powder, kosher salt, and dried chives (if using) in a small bowl. Rub the mixture into every surface of the first-cut brisket.
-3. **Roast uncovered:** Set the first-cut brisket on the onions and roast uncovered until the rub is browned and the onions are starting to color, 1 hour.
-4. **Add the sauce:** Take the dish out and turn the oven down to 250°F. Pour balsamic vinegar and honey over the meat. Cover very tightly with a heavy lid or a double layer of foil.
+1. **Lay out the onions:** Heat the oven to 400°F. Lay the Spanish onions in a single layer in a heavy baking dish or Dutch oven that holds the brisket flat.
+2. **Rub the brisket:** Mix the paprika, garlic powder, salt, and chives (if using) in a small bowl. Rub the mixture into every surface of the brisket.
+3. **Roast uncovered:** Set the brisket on the onions and roast uncovered until the rub is browned and the onions are starting to color, 1 hour.
+4. **Add the sauce:** Take the dish out and turn the oven down to 250°F. Pour the balsamic vinegar and honey over the meat. Cover very tightly with a heavy lid or a double layer of foil.
 5. **Braise low and slow:** Return the dish to the oven and braise until a fork slides into the meat with almost no resistance, about 4 hours. Turn the brisket once an hour and spoon the juices over it, sealing the cover again each time.
 6. **Chill overnight:** Let the brisket cool in its juices for 30 minutes. Cover and refrigerate overnight, until the meat is cold and firm and the fat has set on top.
 7. **Slice the brisket:** Lift off the hardened fat if you like. Take out the cold brisket and slice it thinly against the grain, then lay the slices in a baking dish.

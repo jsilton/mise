@@ -233,9 +233,9 @@ This is Chef Kriger's Shabbat brisket from Camp Micah, braised in a sweet and ta
 
 ## Directions
 
-1. **Season the brisket:** Heat the oven to 325°F. Pat the brisket dry with paper towels and season it generously on both sides with kosher salt and black pepper.
-2. **Fill the pan:** Arrange first-cut beef brisket, baby carrots, and large yellow onion in a heavy roasting pan or Dutch oven, with the brisket fat side up in one flat layer and the vegetables around and over it. Cut the brisket in two if it won't fit without stacking.
-3. **Pour on the sauce:** Whisk ketchup, Worcestershire sauce, Dijon mustard, grape jelly, brown sugar, garlic powder, onion powder, and water in a bowl until the jelly dissolves. Pour it over the meat and vegetables so the top is coated, then cover the pan tightly with a lid or foil.
+1. **Season the brisket:** Heat the oven to 325°F. Pat the brisket dry with paper towels and season it generously on both sides with the salt and pepper.
+2. **Fill the pan:** Arrange the beef brisket, baby carrots, and yellow onion in a heavy roasting pan or Dutch oven, with the brisket fat side up in one flat layer and the vegetables around and over it. Cut the brisket in two if it won't fit without stacking.
+3. **Pour on the sauce:** Whisk the ketchup, Worcestershire sauce, Dijon mustard, grape jelly, brown sugar, garlic powder, onion powder, and water in a bowl until the jelly dissolves. Pour it over the meat and vegetables so the top is coated, then cover the pan tightly with a lid or foil.
 4. **Braise the brisket:** Braise in the oven until a fork slides into the thickest part and turns easily, 3 1/2 to 5 hours. Check now and then, and add a splash of hot water if the sauce dries at the edges.
 5. **Chill overnight:** Move the brisket, vegetables and sauce into shallow containers, keeping track of which way the grain runs. Refrigerate overnight until cold, at least 8 hours.
 6. **Slice the brisket:** Heat the oven to 325°F. Lift off the fat that has set on top of the sauce. Slice the cold brisket thinly across the grain and lay the slices in a shallow baking dish.

@@ -273,12 +273,11 @@ Pumpkin pie has been on New England tables since colonial times, and Amelia Simm
 
 ## Directions
 
-1. **Freeze the crust:** Heat the oven to 400°F with a rack in the lowest position and a rimmed baking sheet on the rack. Freeze unbaked 9-inch deep-dish all-butter pie crust in its pie plate until hard, about 20 minutes.
+1. **Freeze the crust:** Heat the oven to 400°F with a rack in the lowest position and a rimmed baking sheet on the rack. Freeze the unbaked 9-inch deep-dish all-butter pie crust in its pie plate until hard, about 20 minutes.
 2. **Blind bake:** Line the crust with parchment and fill it to the rim with pie weights. Bake on the hot sheet until the edge is set and pale gold, 18 to 20 minutes. Lift out the parchment and weights and bake until the bottom looks dry, 5 to 7 minutes more. Lower the oven to 350°F.
-3. **Cook the pumpkin:** While the crust bakes, stir pure pumpkin puree, light brown sugar, ground cinnamon, ground ginger, nutmeg, ground cloves, and fine sea salt together in a medium saucepan over medium heat. Cook, stirring constantly, until the mixture is thick, glossy and a shade darker, about 6 minutes.
-4. **Add the dairy:** Take the pan off the heat. Whisk in heavy cream and whole milk until smooth.
-5. **Whisk in the eggs:** Whisk in large eggs, large egg yolk, and vanilla extract just until combined. Stop before the filling turns foamy.
+3. **Cook the pumpkin:** While the crust bakes, stir the pumpkin puree, brown sugar, cinnamon, ginger, nutmeg, cloves, and salt together in a medium saucepan over medium heat. Cook, stirring constantly, until the mixture is thick, glossy and a shade darker, about 6 minutes.
+4. **Add the dairy:** Take the pan off the heat. Whisk in the heavy cream and whole milk until smooth.
+5. **Whisk in the eggs:** Whisk in the eggs, egg yolk, and vanilla just until combined. Stop before the filling turns foamy.
 6. **Fill and bake:** Pour the warm filling into the warm crust. Bake on the sheet at 350°F until the edges are set and the center 2 inches still jiggles like set gelatin, 40 to 50 minutes. After the first 20 minutes, cover the edge of the crust with a foil ring. The center of the finished pie reads 175°F.
 7. **Cool the pie:** Cool the pie on a wire rack until fully set, at least 3 hours.
-8. **Serve:** Slice and serve with lightly sweetened whipped cream.
-
+8. **Serve:** Slice and serve with the lightly sweetened whipped cream.

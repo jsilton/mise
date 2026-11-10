@@ -227,10 +227,10 @@ Golden saffron rice in the Spanish style, made hands-off in the rice cooker. Oni
 
 ## Directions
 
-1. **Rinse the rice:** Rinse long-grain white rice in a few changes of cool water until the water runs mostly clear. Drain well in a fine-mesh strainer and put it in the rice cooker bowl.
-2. **Steep the saffron:** Warm a few spoonfuls of the stock until hot and crumble saffron threads into it. Let it steep while you cook the vegetables.
-3. **Cook the vegetables:** Put unsalted butter, yellow onion, and red bell pepper in a small skillet over medium heat. Cook, stirring often, until the vegetables are soft and the onion has golden edges, 7 to 10 minutes.
-4. **Add the garlic:** Stir in garlic cloves and cook just until fragrant, about 30 seconds. Take the pan off the heat.
-5. **Load the cooker:** Pour the saffron and its liquid over the rice. Add low-sodium chicken stock, fine salt, and MSG (if using), leaving out the few spoonfuls of stock that went into the saffron. Stir to dissolve the salt and level the rice. Spoon the vegetables and their butter over the top without stirring them in.
+1. **Rinse the rice:** Rinse the long-grain white rice in a few changes of cool water until the water runs mostly clear. Drain well in a fine-mesh strainer and put it in the rice cooker bowl.
+2. **Steep the saffron:** Warm a few spoonfuls of the stock until hot and crumble the saffron into it. Let it steep while you cook the vegetables.
+3. **Cook the vegetables:** Put the butter, yellow onion, and red bell pepper in a small skillet over medium heat. Cook, stirring often, until the vegetables are soft and the onion has golden edges, 7 to 10 minutes.
+4. **Add the garlic:** Stir in the garlic and cook just until fragrant, about 30 seconds. Take the pan off the heat.
+5. **Load the cooker:** Pour the saffron and its liquid over the rice. Add the chicken stock, salt, and MSG (if using), leaving out the few spoonfuls of stock that went into the saffron. Stir to dissolve the salt and level the rice. Spoon the vegetables and their butter over the top without stirring them in.
 6. **Cook the rice:** Close the lid and run the Mixed setting on a Zojirushi, or the setting your cooker uses for seasoned rice, 40 to 60 minutes. Keep the lid closed until it finishes.
 7. **Fluff and serve:** Fluff the rice with a paddle as soon as the cycle ends, folding in the vegetables. Taste, add a pinch of salt if it needs it and serve.

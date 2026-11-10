@@ -262,9 +262,9 @@ This is a rich, creamy American take on Mexican sopa de tortilla, built on pantr
 
 ## Directions
 
-1. **Melt the butter:** Melt the unsalted butter in a large pot over medium heat until it foams.
-2. **Soften the onion:** Add the onion and garlic cloves and cook, stirring, until the onion is soft, about 5 minutes.
-3. **Toast the flour and cumin:** Stir in the all-purpose flour and ground cumin and cook, stirring, for 1 minute, until the cumin smells toasted.
+1. **Melt the butter:** Melt the butter in a large pot over medium heat until it foams.
+2. **Soften the onion:** Add the onion and garlic and cook, stirring, until the onion is soft, about 5 minutes.
+3. **Toast the flour and cumin:** Stir in the flour and cumin and cook, stirring, for 1 minute, until the cumin smells toasted.
 4. **Add the liquid:** Slowly stir in the chicken broth and half-and-half until smooth. Bring to a boil, stirring along the bottom of the pot, then lower the heat.
-5. **Simmer the soup:** Add the condensed cream of chicken soup, fresh salsa, creamed corn, cooked boneless chicken breast halves, and fajita seasoning. Simmer gently, stirring along the bottom often so it doesn't catch, until the soup is hot through and slightly thickened, about 15 minutes.
-6. **Build the bowls:** Crumble a handful of the chips into each bowl and add a little of the cheese. Ladle in the hot soup and top with tortilla chips, Monterey Jack cheese, and fresh cilantro.
+5. **Simmer the soup:** Add the condensed cream of chicken soup, salsa, creamed corn, chicken breast halves, and fajita seasoning. Simmer gently, stirring along the bottom often so it doesn't catch, until the soup is hot through and slightly thickened, about 15 minutes.
+6. **Build the bowls:** Crumble a handful of the chips into each bowl and add a little of the cheese. Ladle in the hot soup and top with the tortilla chips, Monterey Jack cheese, and cilantro.

@@ -296,11 +296,11 @@ This is the Cantonese takeout classic, made the way The Woks of Life makes it at
 
 ## Directions
 
-1. **Coat the chicken:** Toss boneless skinless chicken thighs, cornstarch, water, and vegetable oil for the chicken in a bowl until the chicken is evenly coated. Let it sit while you cook the noodles.
-2. **Boil the noodles:** Bring a large pot of water to a boil. Cook fresh lo mein egg noodles until just al dente, 2 to 3 minutes. Rinse briefly under warm water and drain well.
+1. **Coat the chicken:** Toss the chicken thighs, cornstarch, water, and vegetable oil for the chicken in a bowl until the chicken is evenly coated. Let it sit while you cook the noodles.
+2. **Boil the noodles:** Bring a large pot of water to a boil. Cook the lo mein egg noodles until just al dente, 2 to 3 minutes. Rinse briefly under warm water and drain well.
 3. **Sear the chicken:** Heat the vegetable oil for searing in a wok over high heat until shimmering. Spread the chicken in one layer and sear, turning once, until browned and cooked through, about 3 minutes. Move it to a plate.
-4. **Cook the garlic:** Add the vegetable oil for the vegetables and garlic clove to the hot wok and stir until fragrant, about 10 seconds.
-5. **Stir-fry the vegetables:** Add cabbage and medium carrots and stir-fry over high heat until just wilted, about 1 minute.
-6. **Add the noodles:** Pour Shaoxing wine around the edge of the wok. Add the noodles and chicken and toss from the bottom for 30 seconds, adding a splash of water if the noodles clump. Cover for 1 minute.
-7. **Season the noodles:** Uncover and add soy sauce, dark soy sauce, sesame oil, salt, and sugar. Toss until the noodles are evenly brown, about 30 seconds.
-8. **Finish and serve:** Add mung bean sprouts and scallions and toss until the sprouts are just tender, 1 to 2 minutes. Serve hot.
+4. **Cook the garlic:** Add the vegetable oil for the vegetables and garlic to the hot wok and stir until fragrant, about 10 seconds.
+5. **Stir-fry the vegetables:** Add the cabbage and carrots and stir-fry over high heat until just wilted, about 1 minute.
+6. **Add the noodles:** Pour the Shaoxing wine around the edge of the wok. Add the noodles and chicken and toss from the bottom for 30 seconds, adding a splash of water if the noodles clump. Cover for 1 minute.
+7. **Season the noodles:** Uncover and add the soy sauce, dark soy sauce, sesame oil, salt, and sugar. Toss until the noodles are evenly brown, about 30 seconds.
+8. **Finish and serve:** Add the mung bean sprouts and scallions and toss until the sprouts are just tender, 1 to 2 minutes. Serve hot.

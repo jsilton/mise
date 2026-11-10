@@ -283,12 +283,12 @@ These are Libby's soft, cakey pumpkin cookies. Cinnamon, ginger, cloves and nutm
 
 ## Directions
 
-1. **Heat the oven:** Heat the oven to 350°F. Grease two baking sheets with butter or baking spray.
-2. **Mix the dry ingredients:** Whisk all-purpose flour, baking soda, baking powder, ground cinnamon, ground ginger, ground cloves, ground nutmeg, and sea salt in a medium bowl.
-3. **Cream the butter:** Beat unsalted butter and granulated sugar in a large bowl with a mixer until light and fluffy, about 3 minutes.
-4. **Add the pumpkin:** Beat in pure pumpkin puree, large egg, and pure vanilla extract until smooth.
+1. **Heat the oven:** Heat the oven to 350°F. Grease two baking sheets with the butter or baking spray.
+2. **Mix the dry ingredients:** Whisk the flour, baking soda, baking powder, cinnamon, ginger, cloves, nutmeg, and salt in a medium bowl.
+3. **Cream the butter:** Beat the granulated sugar and 1/2 cup of the butter in a large bowl with a mixer until light and fluffy, about 3 minutes.
+4. **Add the pumpkin:** Beat in the pumpkin puree, egg, and 1 tsp of the vanilla until smooth.
 5. **Add the flour mixture:** Mix in the flour mixture on low speed just until no dry flour remains. The dough will be very soft.
 6. **Scoop the dough:** Drop rounded tablespoons of dough onto the baking sheets about 2 inches apart.
 7. **Bake:** Bake until the edges are firm and the tops are lightly golden, 15 to 18 minutes. Bake the rest of the dough the same way.
 8. **Cool:** Let the cookies sit on the sheets for 2 minutes, then move them to a rack to cool completely.
-9. **Glaze:** Whisk confectioners’ sugar, milk, unsalted butter, and pure vanilla extract until smooth. Drizzle the glaze over the cooled cookies and let it set before stacking.
+9. **Glaze:** Whisk the confectioners’ sugar, milk, 1 tbsp of the butter, and 1 tsp of the vanilla until smooth. Drizzle the glaze over the cooled cookies and let it set before stacking.

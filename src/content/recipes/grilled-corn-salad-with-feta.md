@@ -151,7 +151,7 @@ Grilled sweet corn, salty feta and a little red onion, tossed with olive oil and
 
 ## Directions
 
-1. **Grill the corn:** Heat a grill to medium-high. Grill the large ears of corn, turning often, until the kernels are tender and charred in spots, 10 to 12 minutes. Let the ears cool until you can handle them.
+1. **Grill the corn:** Heat a grill to medium-high. Grill the corn, turning often, until the kernels are tender and charred in spots, 10 to 12 minutes. Let the ears cool until you can handle them.
 2. **Cut the kernels:** Stand each ear upright in a wide bowl and cut the kernels off the cob.
-3. **Dress the corn:** Add red onion, extra-virgin olive oil, fresh lime juice, and feta to the kernels and toss well.
-4. **Season and serve:** Toss in fresh mint, cilantro or parsley, kosher salt, and black pepper. Taste for salt and serve warm or cold.
+3. **Dress the corn:** Add the red onion, olive oil, lime juice, and feta to the kernels and toss well.
+4. **Season and serve:** Toss in the mint, cilantro or parsley, salt, and pepper. Taste for salt and serve warm or cold.

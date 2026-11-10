@@ -172,8 +172,8 @@ Soft, banana-sweet breakfast bars studded with strawberries. Cooked quinoa keeps
 ## Directions
 
 1. **Heat the oven:** Heat the oven to 350°F. Line an 8x8-inch baking dish with parchment.
-2. **Mash the bananas:** Put large ripe bananas, large eggs, and pure vanilla extract in a large bowl. Mash the bananas until smooth, then whisk in the eggs and vanilla.
-3. **Stir in the oats:** Stir in cooked quinoa, old-fashioned rolled oats, raisins or golden raisins, and sea salt until evenly mixed.
-4. **Fold in the berries:** Gently fold in fresh strawberries without mashing them.
+2. **Mash the bananas:** Put the bananas, eggs, and vanilla in a large bowl. Mash the bananas until smooth, then whisk in the eggs and vanilla.
+3. **Stir in the oats:** Stir in the quinoa, oats, raisins or golden raisins, and salt until evenly mixed.
+4. **Fold in the berries:** Gently fold in the strawberries without mashing them.
 5. **Bake:** Spread the mixture in the dish and press it into a flat, even layer. Bake until the center is firm to the touch and the edges are golden, 20 to 25 minutes.
 6. **Cool and cut:** Cool completely in the pan so the bars hold together, about 1 hour. Lift out by the parchment and cut into squares.

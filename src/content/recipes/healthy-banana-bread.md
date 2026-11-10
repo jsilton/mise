@@ -231,9 +231,9 @@ A whole wheat banana bread made with olive oil and sweetened with honey or maple
 
 ## Directions
 
-1. **Heat the oven:** Heat the oven to 325°F. Grease a 9x5-inch loaf pan with butter or neutral oil.
-2. **Mix the wet ingredients:** In a large bowl, whisk extra-virgin olive oil, honey or maple syrup, large eggs, ripe banana, milk, baking soda, vanilla extract, sea salt, and ground cinnamon until smooth, breaking up any lumps of baking soda. Small lumps of banana are fine.
-3. **Fold in the flour:** With a spatula, fold in white whole wheat flour and dark chocolate chips or chopped walnuts (if using) just until no dry flour remains.
-4. **Fill the pan:** Scrape the batter into the pan and smooth the top. Sprinkle with ground cinnamon (if using) and swirl it in with the tip of a knife.
+1. **Heat the oven:** Heat the oven to 325°F. Grease a 9x5-inch loaf pan with the butter or neutral oil.
+2. **Mix the wet ingredients:** In a large bowl, whisk the olive oil, honey or maple syrup, eggs, banana, milk, baking soda, vanilla, salt, and 1/2 tsp of the cinnamon until smooth, breaking up any lumps of baking soda. Small lumps of banana are fine.
+3. **Fold in the flour:** With a spatula, fold in the white whole wheat flour and dark chocolate chips or chopped walnuts (if using) just until no dry flour remains.
+4. **Fill the pan:** Scrape the batter into the pan and smooth the top. Sprinkle with the cinnamon (if using) and swirl it in with the tip of a knife.
 5. **Bake:** Bake until a toothpick in the center comes out clean, 55 to 60 minutes. Tent with foil if the top browns before the center is done.
 6. **Cool:** Cool in the pan for 10 minutes, then turn the loaf out onto a rack. Let it cool completely before slicing, about 1 hour.

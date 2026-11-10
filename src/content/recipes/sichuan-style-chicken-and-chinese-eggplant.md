@@ -352,13 +352,16 @@ formula:
         water a tablespoon at a time. Uncover and cook until the water is gone, 2 to 4 minutes, then
         move the eggplant to a plate.
     - id: chicken
-      title: Cook the chicken
+      title: Sear the chicken
       text: >-
         Once the wok is dry, turn the heat to medium-high. Add {{ingredients}}, then all the
-        chicken, and leave it for 2 minutes. Stir and separate the strips. Cook, stirring every
-        minute or so, until browned in spots and 165°F in the thickest strips, 8 to 12 minutes. If
-        the marinade catches, lower the heat and add a splash of water. Move the chicken and its
-        juices to a second plate.
+        chicken, and leave it for 2 minutes. Stir and separate the strips.
+    - id: chicken-through
+      title: Cook the chicken through
+      text: >-
+        Cook, stirring every minute or so, until browned in spots and 165°F in the thickest strips,
+        8 to 12 minutes. If the marinade catches, lower the heat and add a splash of water. Move the
+        chicken and its juices to a second plate.
     - id: doubanjiang
       title: Fry the chili-bean paste
       text: >-
@@ -374,8 +377,7 @@ formula:
       text: >-
         Whisk the sauce again and pour it in. Simmer, stirring, until glossy, 30 to 60 seconds.
         Return the chicken and its juices, then gently fold in the eggplant and heat through, 1 to 2
-        minutes. Add a splash of water if the glaze is thick. Taste, then add {{ingredients}} as
-        needed.
+        minutes. Add a splash of water if the glaze is thick. Stir in {{ingredients}}.
     - id: serve
       title: Serve
       text: 'Turn off the heat and fold in the scallion greens. Serve right away with {{ingredients}}.'
@@ -454,13 +456,14 @@ This is Jordan's Sichuan-style chicken and eggplant: silky Chinese eggplant and 
 
 ## Directions
 
-1. **Salt the eggplant:** Toss Chinese eggplant and kosher salt in a colander and let it sit for 15 minutes.
-2. **Marinate the chicken:** While the eggplant sits, mix boneless skinless chicken thighs, light soy sauce, Shaoxing wine, cornstarch, toasted sesame oil, and ground white pepper until evenly coated. Refrigerate for at least 15 minutes.
-3. **Mix the sauce:** Whisk Chinkiang black vinegar, light soy sauce, dark soy sauce, granulated sugar, low-sodium chicken broth or water, and cornstarch in a bowl until the sugar dissolves.
-4. **Brown the eggplant:** Rinse the eggplant briefly and pat it very dry. Heat neutral high-heat cooking oil in the wok over medium-high heat. Add all the eggplant and cook, turning now and then, until some sides are browned, 3 to 4 minutes.
-5. **Steam the eggplant:** Lower the heat to medium. Pour water down the side of the wok and cover right away. Steam, turning once, until a knife slides easily through the centers and the flesh is silky, 4 to 6 minutes. If the pan dries before the eggplant is tender, add a little more water a tablespoon at a time. Uncover and cook until the water is gone, 2 to 4 minutes, then move the eggplant to a plate.
-6. **Cook the chicken:** Once the wok is dry, turn the heat to medium-high. Add neutral high-heat cooking oil, then all the chicken, and leave it for 2 minutes. Stir and separate the strips. Cook, stirring every minute or so, until browned in spots and 165°F in the thickest strips, 8 to 12 minutes. If the marinade catches, lower the heat and add a splash of water. Move the chicken and its juices to a second plate.
-7. **Fry the chili-bean paste:** Wipe out any scorched bits and lower the heat to medium. Add neutral high-heat cooking oil and Pixian doubanjiang (spicy broad-bean paste) and stir until fragrant and the oil turns red, 20 to 30 seconds.
-8. **Add the aromatics:** Add medium scallions, garlic cloves, fresh ginger, and crushed red pepper flakes (if using), holding back the scallion greens for the end. Stir until fragrant, 20 to 30 seconds.
-9. **Glaze and finish:** Whisk the sauce again and pour it in. Simmer, stirring, until glossy, 30 to 60 seconds. Return the chicken and its juices, then gently fold in the eggplant and heat through, 1 to 2 minutes. Add a splash of water if the glaze is thick. Taste, then add Chinkiang black vinegar (if using) and light soy sauce (if using) as needed.
-10. **Serve:** Turn off the heat and fold in the scallion greens. Serve right away with cooked steamed rice.
+1. **Salt the eggplant:** Toss the Chinese eggplant and salt in a colander and let it sit for 15 minutes.
+2. **Marinate the chicken:** While the eggplant sits, mix the chicken thighs, Shaoxing wine, sesame oil, white pepper, 1 1/2 tbsp of the light soy sauce, and 1 1/2 tbsp of the cornstarch until evenly coated. Refrigerate for at least 15 minutes.
+3. **Mix the sauce:** Whisk the dark soy sauce, sugar, chicken broth or water, 2 tbsp of the Chinkiang black vinegar, 1 tbsp of the light soy sauce, and 1 1/2 tsp of the cornstarch in a bowl until the sugar dissolves.
+4. **Brown the eggplant:** Rinse the eggplant briefly and pat it very dry. Heat 3 tbsp of the neutral high-heat cooking oil in the wok over medium-high heat. Add all the eggplant and cook, turning now and then, until some sides are browned, 3 to 4 minutes.
+5. **Steam the eggplant:** Lower the heat to medium. Pour the water down the side of the wok and cover right away. Steam, turning once, until a knife slides easily through the centers and the flesh is silky, 4 to 6 minutes. If the pan dries before the eggplant is tender, add a little more water a tablespoon at a time. Uncover and cook until the water is gone, 2 to 4 minutes, then move the eggplant to a plate.
+6. **Sear the chicken:** Once the wok is dry, turn the heat to medium-high. Add 1 tbsp of the neutral high-heat cooking oil, then all the chicken, and leave it for 2 minutes. Stir and separate the strips.
+7. **Cook the chicken through:** Cook, stirring every minute or so, until browned in spots and 165°F in the thickest strips, 8 to 12 minutes. If the marinade catches, lower the heat and add a splash of water. Move the chicken and its juices to a second plate.
+8. **Fry the chili-bean paste:** Wipe out any scorched bits and lower the heat to medium. Add the Pixian doubanjiang and 1 tbsp of the neutral high-heat cooking oil and stir until fragrant and the oil turns red, 20 to 30 seconds.
+9. **Add the aromatics:** Add the scallions, garlic, ginger, and crushed red pepper flakes (if using), holding back the scallion greens for the end. Stir until fragrant, 20 to 30 seconds.
+10. **Glaze and finish:** Whisk the sauce again and pour it in. Simmer, stirring, until glossy, 30 to 60 seconds. Return the chicken and its juices, then gently fold in the eggplant and heat through, 1 to 2 minutes. Add a splash of water if the glaze is thick. Stir in 1 1/2 tsp of the Chinkiang black vinegar (if using) and 1 1/2 tsp of the light soy sauce (if using).
+11. **Serve:** Turn off the heat and fold in the scallion greens. Serve right away with the steamed rice.

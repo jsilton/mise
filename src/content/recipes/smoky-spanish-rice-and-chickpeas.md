@@ -221,9 +221,9 @@ A one-pan Spanish-style rice with smoked paprika, tomatoes and chickpeas. Toasti
 
 ## Directions
 
-1. **Soften the onion:** Warm olive oil and medium yellow onion in a large, deep skillet with a tight lid over medium heat. Cook, stirring, until the onion is soft and golden, 6 to 7 minutes.
-2. **Bloom the spices:** Stir in garlic cloves, smoked paprika, and dried oregano and cook until fragrant, 30 to 45 seconds. Lower the heat if the paprika starts to darken.
-3. **Toast the rice:** Add long-grain white rice and stir until every grain is coated in the red oil and smells nutty, 2 to 3 minutes.
-4. **Simmer:** Add diced tomatoes, chickpeas, vegetable broth, and fine salt and bring to a boil. Cover, turn the heat to low and simmer until the liquid is absorbed and the rice is tender, 20 to 22 minutes.
-5. **Rest:** Take the pan off the heat. Scatter fresh spinach (if using) over the rice, cover again and let stand for 6 minutes.
-6. **Fluff and serve:** Fluff the rice with a fork, folding in the wilted spinach. Taste for salt and top with fresh parsley (if using).
+1. **Soften the onion:** Warm the olive oil and yellow onion in a large, deep skillet with a tight lid over medium heat. Cook, stirring, until the onion is soft and golden, 6 to 7 minutes.
+2. **Bloom the spices:** Stir in the garlic, smoked paprika, and oregano and cook until fragrant, 30 to 45 seconds. Lower the heat if the paprika starts to darken.
+3. **Toast the rice:** Add the long-grain white rice and stir until every grain is coated in the red oil and smells nutty, 2 to 3 minutes.
+4. **Simmer:** Add the tomatoes, chickpeas, vegetable broth, and salt and bring to a boil. Cover, turn the heat to low and simmer until the liquid is absorbed and the rice is tender, 20 to 22 minutes.
+5. **Rest:** Take the pan off the heat. Scatter the spinach (if using) over the rice, cover again and let stand for 6 minutes.
+6. **Fluff and serve:** Fluff the rice with a fork, folding in the wilted spinach. Taste for salt and top with the parsley (if using).

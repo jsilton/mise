@@ -45,7 +45,7 @@ ingredients:
   - '2 ears of corn, husked'
   - 1/4 cup mayonnaise
   - 1/4 cup sour cream
-  - '1/2 cup cotija cheese, crumbled'
+  - '1/2 cup cotija cheese, crumbled, divided'
   - 1 tsp ancho chile powder
   - '--- For the bowls ---'
   - '[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice), for serving'
@@ -360,12 +360,12 @@ Carnitas come from Michoacán, where pork is slowly cooked in its own fat until 
 
 ## Directions
 
-1. **Salt the pork:** Toss boneless pork shoulder and kosher salt in a bowl until every piece is coated. Cover and refrigerate for 30 minutes or up to overnight.
-2. **Braise the pork:** Heat the oven to 275°F. Pack the pork snugly in a 9-by-13-inch baking dish. Add orange, yellow onion, garlic cloves, bay leaves, cinnamon stick, and vegetable oil, squeezing the orange over the pork before tucking in the quarters and drizzling the oil over the top. Cover tightly with foil and bake until the pork pulls apart easily with a fork, 3 to 3 1/2 hours.
-3. **Char the corn:** While the pork braises, cook ears of corn in a dry cast-iron skillet over high heat, turning, until blackened in spots, 8 to 10 minutes. Cool slightly and cut the kernels off the cobs.
+1. **Salt the pork:** Toss the pork shoulder and 1 tbsp of the salt in a bowl until every piece is coated. Cover and refrigerate for 30 minutes or up to overnight.
+2. **Braise the pork:** Heat the oven to 275°F. Pack the pork snugly in a 9-by-13-inch baking dish. Add the orange, yellow onion, garlic, bay leaves, cinnamon stick, and oil, squeezing the orange over the pork before tucking in the quarters and drizzling the oil over the top. Cover tightly with foil and bake until the pork pulls apart easily with a fork, 3 to 3 1/2 hours.
+3. **Char the corn:** While the pork braises, cook the corn in a dry cast-iron skillet over high heat, turning, until blackened in spots, 8 to 10 minutes. Cool slightly and cut the kernels off the cobs.
 4. **Return the fat:** Pick out and discard the orange, onion, garlic, bay leaves and cinnamon. Strain the pork over a bowl. Skim the fat off the juices and pour it back over the pork. Save the juices for soup or beans.
-5. **Shred the pork:** Pull the pork into large chunks with two forks. Taste and season with kosher salt.
+5. **Shred the pork:** Pull the pork into large chunks with two forks. Taste and season with the salt.
 6. **Broil until crisp:** Heat the broiler. Spread the pork and its fat in a single layer on a rimmed sheet pan. Broil until the edges crisp, about 6 minutes. Stir to turn new sides up and broil until more edges are crisp, about 6 minutes more.
-7. **Dress the corn:** Stir together mayonnaise, sour cream, 1/2 of the cotija cheese, and ancho chile powder in a bowl. Fold in the charred corn.
-8. **Start the bowls:** Spoon [Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice) into the bowls.
-9. **Top the bowls:** Top the rice with the carnitas and dressed corn, then add 1/2 of the cotija cheese, [Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), [Pickled Red Onions](/mise/recipes/pickled-red-onions), green cabbage, avocados, pepitas, fresh cilantro, and limes.
+7. **Dress the corn:** Stir together the mayonnaise, sour cream, ancho chile powder, and 1/4 cup of the cotija cheese in a bowl. Fold in the charred corn.
+8. **Start the bowls:** Spoon the [Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice) into the bowls.
+9. **Top the bowls:** Top the rice with the carnitas and dressed corn, then add the [Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), [Pickled Red Onions](/mise/recipes/pickled-red-onions), green cabbage, avocados, pepitas, cilantro, limes, and the rest of the cotija cheese.

@@ -223,11 +223,10 @@ Fish cooked in butter and finished with lemon and parsley is the French sole meu
 
 ## Directions
 
-1. **Season the fish:** Pat the fish very dry with paper towels. Season it on all sides with kosher salt and black pepper and let it sit for 10 minutes.
-2. **Flour the fish:** Pat the fish dry again. Dust the two flat sides with all-purpose flour and shake off the extra.
-3. **Heat the pan:** Heat neutral oil in a 12-inch nonstick skillet over medium-high heat until it shimmers.
-4. **Sear the first side:** Lay skinless cod or halibut fillet in the pan with space between the pieces. Cook without moving until the underside is deep golden, 4 to 5 minutes.
-5. **Flip and baste:** Flip the fish with a thin spatula and lower the heat to medium. Add unsalted butter. When it foams, tilt the pan and spoon the butter over the fish until the butter smells nutty and turns light brown and the fish flakes when pressed at the thickest part, 2 to 3 minutes. Move the fish to warm plates.
-6. **Finish the sauce:** Take the pan off the heat. Stir capers, fresh lemon juice, and fresh flat-leaf parsley into the brown butter, standing back as it sputters. Spoon the sauce over the fish.
+1. **Season the fish:** Pat the fish very dry with paper towels. Season it on all sides with the salt and pepper and let it sit for 10 minutes.
+2. **Flour the fish:** Pat the fish dry again. Dust the two flat sides with the flour and shake off the extra.
+3. **Heat the pan:** Heat the oil in a 12-inch nonstick skillet over medium-high heat until it shimmers.
+4. **Sear the first side:** Lay the cod or halibut fillet in the pan with space between the pieces. Cook without moving until the underside is deep golden, 4 to 5 minutes.
+5. **Flip and baste:** Flip the fish with a thin spatula and lower the heat to medium. Add the butter. When it foams, tilt the pan and spoon the butter over the fish until the butter smells nutty and turns light brown and the fish flakes when pressed at the thickest part, 2 to 3 minutes. Move the fish to warm plates.
+6. **Finish the sauce:** Take the pan off the heat. Stir the capers, lemon juice, and flat-leaf parsley into the brown butter, standing back as it sputters. Spoon the sauce over the fish.
 7. **Serve:** Serve right away with wedges of lemon.
-

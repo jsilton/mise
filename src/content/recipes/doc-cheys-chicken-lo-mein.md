@@ -22,7 +22,7 @@ ingredients:
   - '1 lb boneless chicken breast, cut into thin strips'
   - 'kosher salt, for the chicken'
   - 'black pepper, for the chicken'
-  - 1 tbsp vegetable oil
+  - '1 tbsp vegetable oil, divided'
   - '2 tsp garlic, minced'
   - '1 tsp fresh ginger, minced'
   - '1 cup onion, sliced'
@@ -268,11 +268,11 @@ This is the chicken lo mein from Doc Chey's, the Atlanta noodle house, as the AJ
 
 ## Directions
 
-1. **Mix the sauce:** Whisk soy sauce, Shaoxing wine, oyster sauce, and sugar in a small bowl until the sugar dissolves.
-2. **Season the chicken:** Toss boneless chicken breast, kosher salt, and black pepper in a bowl.
-3. **Boil the noodles:** Bring a large pot of water to a boil. Cook fresh lo mein egg noodles until just al dente, 2 to 3 minutes. Rinse briefly under cold water and drain well.
-4. **Cook the chicken:** Heat 1/2 of the vegetable oil in a wok over medium-high heat until it shimmers. Stir-fry the chicken in a single layer, in batches if needed, until browned and cooked through, 3 to 4 minutes. Move it to a plate.
-5. **Fry the aromatics:** Add 1/2 of the vegetable oil, garlic, and fresh ginger to the wok and stir until fragrant, about 30 seconds.
-6. **Stir-fry the vegetables:** Add onion, carrot, bok choy, and frozen shelled edamame. Stir-fry until the vegetables are crisp-tender, about 4 minutes.
+1. **Mix the sauce:** Whisk the soy sauce, Shaoxing wine, oyster sauce, and sugar in a small bowl until the sugar dissolves.
+2. **Season the chicken:** Toss the chicken breast, salt, and pepper in a bowl.
+3. **Boil the noodles:** Bring a large pot of water to a boil. Cook the lo mein egg noodles until just al dente, 2 to 3 minutes. Rinse briefly under cold water and drain well.
+4. **Cook the chicken:** Heat 1 1/2 tsp of the vegetable oil in a wok over medium-high heat until it shimmers. Stir-fry the chicken in a single layer, in batches if needed, until browned and cooked through, 3 to 4 minutes. Move it to a plate.
+5. **Fry the aromatics:** Add the garlic, ginger, and the rest of the vegetable oil to the wok and stir until fragrant, about 30 seconds.
+6. **Stir-fry the vegetables:** Add the onion, carrot, bok choy, and shelled edamame. Stir-fry until the vegetables are crisp-tender, about 4 minutes.
 7. **Toss the noodles:** Add the noodles, the chicken and the sauce. Toss until the noodles are hot and the sauce cooks down to a glaze that coats them, about 3 minutes.
-8. **Finish and serve:** Take the wok off the heat. Add scallions and toasted sesame oil, toss once and serve.
+8. **Finish and serve:** Take the wok off the heat. Add the scallions and sesame oil, toss once and serve.

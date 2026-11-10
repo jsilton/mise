@@ -217,11 +217,11 @@ A plain, unsalted chicken stock for soups, sauces and risotto. Keep it at a lazy
 
 ## Directions
 
-1. **Fill the pot:** Put chicken bones, large yellow onion, medium carrots, celery stalks, and garlic bulb in an 8- to 12-quart stockpot.
-2. **Bring to a boil:** Pour in cold water. Bring to a boil over high heat, then lower the heat right away to a gentle simmer.
+1. **Fill the pot:** Put the chicken bones, yellow onion, carrots, celery, and garlic bulb in an 8- to 12-quart stockpot.
+2. **Bring to a boil:** Pour in the cold water. Bring to a boil over high heat, then lower the heat right away to a gentle simmer.
 3. **Skim:** Skim off the gray foam that rises during the first 30 minutes. Keep the pot at a gentle bubble, never a rolling boil, so the stock stays clear.
-4. **Add the herbs:** Add fresh parsley stems, fresh thyme sprigs, fresh bay leaf, and whole black peppercorns.
-5. **Simmer:** Simmer gently, uncovered, for 4 hours. If the bones poke above the liquid, add hot water to cover them.
+4. **Add the herbs:** Add the parsley stems, thyme, bay leaf, and black peppercorns.
+5. **Simmer:** Simmer gently, uncovered, for 4 hours. If the bones poke above the liquid, add the hot water to cover them.
 6. **Strain:** Strain the stock through a fine-mesh sieve or a cheesecloth-lined colander into a large heatproof bowl. Discard the solids.
 7. **Chill:** Set the bowl in an ice bath and stir now and then until the stock is cool. Cover and refrigerate overnight.
 8. **Skim the fat:** Lift the hardened fat off the top before using or freezing the stock.

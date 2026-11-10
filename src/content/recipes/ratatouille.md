@@ -350,12 +350,12 @@ Kathryne Taylor's ratatouille from Cookie and Kate roasts the vegetables instead
 
 ## Directions
 
-1. **Season the eggplant:** Heat the oven to 425°F with racks in the middle and upper thirds. On a large rimmed baking sheet, toss eggplant, extra-virgin olive oil, and fine sea salt and spread it in one layer.
-2. **Start roasting:** On a second baking sheet, toss large bell pepper, large zucchini, large yellow squash, extra-virgin olive oil, and fine sea salt and spread them in one layer. Roast the eggplant on the middle rack and the other vegetables on the upper rack for 15 minutes.
-3. **Cook the onion:** Meanwhile, in a large Dutch oven over medium heat, cook medium yellow onion, extra-virgin olive oil, and fine sea salt, stirring often, until the onion is tender and golden at the edges, 8 to 10 minutes.
-4. **Add the garlic:** Add garlic cloves and cook until fragrant, about 30 seconds.
-5. **Simmer the tomatoes:** Stir in ripe tomatoes, scraping up any browned bits. Simmer gently, stirring now and then, until the sauce thickens, while the vegetables finish roasting.
+1. **Season the eggplant:** Heat the oven to 425°F with racks in the middle and upper thirds. On a large rimmed baking sheet, toss the eggplant, 2 tbsp of the olive oil, and 1/4 tsp of the salt and spread it in one layer.
+2. **Start roasting:** On a second baking sheet, toss the bell pepper, zucchini, yellow squash, 1 tbsp of the olive oil, and 1/4 tsp of the salt and spread them in one layer. Roast the eggplant on the middle rack and the other vegetables on the upper rack for 15 minutes.
+3. **Cook the onion:** Meanwhile, in a large Dutch oven over medium heat, cook the yellow onion, 2 tbsp of the olive oil, and 1/4 tsp of the salt, stirring often, until the onion is tender and golden at the edges, 8 to 10 minutes.
+4. **Add the garlic:** Add the garlic and cook until fragrant, about 30 seconds.
+5. **Simmer the tomatoes:** Stir in the tomatoes, scraping up any browned bits. Simmer gently, stirring now and then, until the sauce thickens, while the vegetables finish roasting.
 6. **Finish roasting:** After the first 15 minutes, stir both trays and swap their racks. Roast until the eggplant is tender and golden, about 10 minutes more, and the pepper and squash are tender and browned at the edges, 15 to 20 minutes more.
 7. **Combine:** Fold the eggplant into the sauce as soon as it is done, then the pepper and squash with their oil. Simmer everything together for 5 minutes.
-8. **Season:** Take the pot off the heat and stir in extra-virgin olive oil, fresh basil, red pepper flakes, dried oregano, black pepper, fine sea salt, and fresh lemon juice (if using).
-9. **Serve:** Serve hot or at room temperature, topped with extra-virgin olive oil and fresh basil.
+8. **Season:** Take the pot off the heat and stir in the red pepper flakes, oregano, black pepper, salt, lemon juice (if using), 1 tsp of the olive oil, and 1/4 cup of the basil.
+9. **Serve:** Serve hot or at room temperature, topped with the olive oil and basil.

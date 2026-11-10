@@ -260,11 +260,11 @@ A summer galette with pesto, ricotta and sliced heirloom tomatoes in a flaky but
 
 ## Directions
 
-1. **Make the dough:** In a food processor, pulse all-purpose flour, granulated sugar, sea salt, and cold unsalted butter until crumbly, with pea-size bits of butter still visible.
-2. **Chill the dough:** Add ice water and pulse just until the dough holds together when pressed. Shape it into a disk, wrap it and refrigerate for 30 minutes.
-3. **Salt the tomatoes:** Heat the oven to 425°F. Lay the tomato slices on paper towels in one layer and sprinkle lightly with fine sea salt. Let them drain for 15 to 20 minutes, then pat the tops dry.
-4. **Roll the dough:** On a surface dusted with all-purpose flour, roll the dough into a 12-inch circle. Move it to a parchment-lined rimmed baking sheet.
-5. **Fill:** Leaving a 2-inch border, layer basil pesto, whole-milk ricotta, and medium heirloom tomatoes over the dough. Spread the pesto, dot it with the ricotta, then lay the tomato slices on top, overlapping.
-6. **Fold the crust:** Fold the border up over the edge of the filling, pleating as you go. Finish the folded crust with extra-virgin olive oil and sharp cheddar or Gruyère, brushing on the oil first and then scattering the cheese.
+1. **Make the dough:** In a food processor, pulse the sugar, sea salt, butter, and 1 1/2 cups of the flour until crumbly, with pea-size bits of butter still visible.
+2. **Chill the dough:** Add the ice water and pulse just until the dough holds together when pressed. Shape it into a disk, wrap it and refrigerate for 30 minutes.
+3. **Salt the tomatoes:** Heat the oven to 425°F. Lay the tomato slices on paper towels in one layer and sprinkle lightly with the fine sea salt. Let them drain for 15 to 20 minutes, then pat the tops dry.
+4. **Roll the dough:** On a surface dusted with the flour, roll the dough into a 12-inch circle. Move it to a parchment-lined rimmed baking sheet.
+5. **Fill:** Leaving a 2-inch border, layer the basil pesto, ricotta, and heirloom tomatoes over the dough. Spread the pesto, dot it with the ricotta, then lay the tomato slices on top, overlapping.
+6. **Fold the crust:** Fold the border up over the edge of the filling, pleating as you go. Finish the folded crust with the sharp cheddar or Gruyère and 2 tbsp of the olive oil, brushing on the oil first and then scattering the cheese.
 7. **Bake:** Bake until the crust is deep golden on the edge and underneath and the tomatoes are bubbling, 25 to 35 minutes. Cover the edge with foil if it browns before the base.
-8. **Finish and serve:** Cool for 5 minutes. Scatter fresh chives and basil, flaky sea salt and chile flakes, and extra-virgin olive oil (if using) over the top, then slice and serve warm.
+8. **Finish and serve:** Cool for 5 minutes. Scatter the chives and basil, flaky sea salt and chile flakes, and olive oil (if using) over the top, then slice and serve warm.

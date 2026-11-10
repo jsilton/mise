@@ -236,10 +236,10 @@ Pizza beans put everything you love on a pizza over a skillet of giant white bea
 ## Directions
 
 1. **Heat the oven:** Heat the oven to 450°F with a rack in the middle.
-2. **Soften the onion:** Warm extra-virgin olive oil and yellow onion in a large oven-safe skillet, cast iron if you have it, over medium heat. Cook, stirring now and then, until the onion is soft, about 8 minutes.
-3. **Add the garlic:** Add garlic cloves and red pepper flakes (if using) and stir until fragrant, about 1 minute.
-4. **Wilt the kale:** Add the chopped leaves from the bunch of lacinato kale a handful at a time, stirring until they collapse and turn bright green, about 3 minutes.
-5. **Simmer the beans:** Stir in crushed tomatoes, gigante beans, dried oregano, kosher salt, and black pepper. Simmer, stirring now and then, until the beans are hot and the sauce thickens slightly, about 5 minutes.
-6. **Add the cheese:** Scatter mozzarella and Parmesan evenly over the top.
+2. **Soften the onion:** Warm the olive oil and yellow onion in a large oven-safe skillet, cast iron if you have it, over medium heat. Cook, stirring now and then, until the onion is soft, about 8 minutes.
+3. **Add the garlic:** Add the garlic and red pepper flakes (if using) and stir until fragrant, about 1 minute.
+4. **Wilt the kale:** Add the chopped leaves from the lacinato kale a handful at a time, stirring until they collapse and turn bright green, about 3 minutes.
+5. **Simmer the beans:** Stir in the crushed tomatoes, gigante beans, oregano, salt, and pepper. Simmer, stirring now and then, until the beans are hot and the sauce thickens slightly, about 5 minutes.
+6. **Add the cheese:** Scatter the mozzarella and Parmesan evenly over the top.
 7. **Bake:** Bake until the sauce bubbles at the center and the cheese has golden brown spots, 15 to 20 minutes. Let it rest for 5 minutes.
-8. **Serve:** Scoop into bowls and serve with crusty bread (if using).
+8. **Serve:** Scoop into bowls and serve with the crusty bread (if using).

@@ -236,13 +236,13 @@ These buttery muffins come from Taste of Home and work all year because they sta
 
 ## Directions
 
-1. **Prepare the pans:** Heat the oven to 375°F. Line two 12-cup muffin tins with paper liners, or grease the cups with butter or neutral oil.
-2. **Whisk the dry ingredients:** Whisk all-purpose flour, baking powder, and sea salt in a bowl.
-3. **Cream the butter and sugar:** In a stand mixer, beat unsalted butter and granulated sugar on medium-high speed until light and fluffy, 3 to 5 minutes.
-4. **Add the eggs:** Beat in large eggs one at a time, scraping the bowl after each.
-5. **Add the milk:** Beat in 2% milk and vanilla extract on low speed until smooth.
+1. **Prepare the pans:** Heat the oven to 375°F. Line two 12-cup muffin tins with paper liners, or grease the cups with the butter or neutral oil.
+2. **Whisk the dry ingredients:** Whisk the flour, baking powder, and salt in a bowl.
+3. **Cream the butter and sugar:** In a stand mixer, beat the butter and 2 cups of the sugar on medium-high speed until light and fluffy, 3 to 5 minutes.
+4. **Add the eggs:** Beat in the eggs one at a time, scraping the bowl after each.
+5. **Add the milk:** Beat in the 2% milk and vanilla on low speed until smooth.
 6. **Fold in the flour:** Fold in the flour mixture by hand just until no dry pockets remain. A few small lumps are fine.
-7. **Fold in the berries:** Fold in frozen unsweetened blueberries straight from the freezer with as few strokes as possible, so the batter stays pale. Divide it among the cups, about two-thirds full.
-8. **Add the topping:** Stir together granulated sugar and ground nutmeg and sprinkle it over the muffins.
+7. **Fold in the berries:** Fold in the blueberries straight from the freezer with as few strokes as possible, so the batter stays pale. Divide it among the cups, about two-thirds full.
+8. **Add the topping:** Stir together the nutmeg and 2 tbsp of the sugar and sprinkle it over the muffins.
 9. **Bake the muffins:** Bake until golden and a toothpick in the center comes out with no wet batter, 20 to 25 minutes. A streak of berry juice on the toothpick is fine.
 10. **Cool the muffins:** Cool the muffins in the tins for 10 minutes, then move them to a rack.

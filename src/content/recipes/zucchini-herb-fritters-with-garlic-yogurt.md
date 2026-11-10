@@ -355,10 +355,10 @@ These Bon Appétit fritters bind grated zucchini and potato with egg, herbs and 
 
 ## Directions
 
-1. **Salt the vegetables:** Toss small zucchini, small russet potato, medium onion, and kosher salt in a sieve set over a bowl. Let drain for 30 minutes.
-2. **Make the garlic yogurt:** While the vegetables drain, whisk plain yogurt, fresh mint, fresh lemon juice, olive oil, honey, garlic clove, kosher salt, and black pepper in a small bowl. Cover and refrigerate.
+1. **Salt the vegetables:** Toss the zucchini, russet potato, onion, and 2 tsp of the kosher salt in a sieve set over a bowl. Let drain for 30 minutes.
+2. **Make the garlic yogurt:** While the vegetables drain, whisk the yogurt, lemon juice, honey, kosher salt, pepper, 2 tbsp of the mint, 2 tbsp of the olive oil, and 1 garlic clove in a small bowl. Cover and refrigerate.
 3. **Squeeze the vegetables:** A handful at a time, wrap the vegetables in a clean kitchen towel and squeeze hard until only a few drops come out.
-4. **Make the batter:** In a large bowl, whisk large eggs, garlic clove, ground cumin, fresh parsley, fresh mint, black pepper, all-purpose flour, and baking powder into a smooth, thick batter. Stir in the squeezed vegetables until evenly coated.
-5. **Fry the fritters:** Heat vegetable oil in a large skillet over medium-high heat until it shimmers. Drop in 1/4-cup scoops of batter, leaving space between them, and flatten each to about 1/2 inch. Fry until deep golden brown and set in the center, about 3 minutes per side. Work in batches.
-6. **Drain the fritters:** Drain the fritters on a wire rack and sprinkle with flaky salt while hot.
-7. **Serve:** Spoon the garlic yogurt into a bowl and top with olive oil (if using) and fresh parsley and mint leaves (if using). Serve with the warm fritters.
+4. **Make the batter:** In a large bowl, whisk the eggs, cumin, parsley, flour, baking powder, 1 garlic clove, 2 tbsp of the mint, and 1/4 tsp of the pepper into a smooth, thick batter. Stir in the squeezed vegetables until evenly coated.
+5. **Fry the fritters:** Heat the vegetable oil in a large skillet over medium-high heat until it shimmers. Drop in 1/4-cup scoops of batter, leaving space between them, and flatten each to about 1/2 inch. Fry until deep golden brown and set in the center, about 3 minutes per side. Work in batches.
+6. **Drain the fritters:** Drain the fritters on a wire rack and sprinkle with the flaky salt while hot.
+7. **Serve:** Spoon the garlic yogurt into a bowl and top with the olive oil (if using) and parsley and mint leaves (if using). Serve with the warm fritters.

@@ -42,7 +42,7 @@ ingredients:
   - 1 1/2 tsp kosher salt
   - 1 tsp black pepper
   - '30 oz frozen shredded hash browns, thawed'
-  - '2 cups sharp Cheddar, shredded'
+  - '2 cups sharp Cheddar, shredded, divided'
 seasons:
   - year-round
 nutritionalDensity: moderate
@@ -227,12 +227,12 @@ This Pioneer Woman casserole feeds a crowd on a holiday morning and can be put t
 
 ## Directions
 
-1. **Heat the oven:** Heat the oven to 350°F and grease a 9-by-13-inch baking dish with butter.
-2. **Brown the sausage:** Cook bulk breakfast sausage in a large skillet over medium-high heat, breaking it into small pieces, until browned with no pink left, 6 to 8 minutes.
-3. **Add the vegetables:** Add red bell pepper and scallions (the whites only) and cook until the pepper starts to soften, about 3 minutes. Take the pan off the heat and let it cool slightly, fat and all.
-4. **Whisk the custard:** Whisk large eggs, heavy cream, Dijon mustard, hot sauce, kosher salt, and black pepper in a large bowl until frothy.
-5. **Fold it together:** Fold frozen shredded hash browns and 3/4 of the sharp Cheddar into the custard along with the sausage mixture and its fat.
+1. **Heat the oven:** Heat the oven to 350°F and grease a 9-by-13-inch baking dish with the butter.
+2. **Brown the sausage:** Cook the bulk breakfast sausage in a large skillet over medium-high heat, breaking it into small pieces, until browned with no pink left, 6 to 8 minutes.
+3. **Add the vegetables:** Add the red bell pepper and scallions (the whites only) and cook until the pepper starts to soften, about 3 minutes. Take the pan off the heat and let it cool slightly, fat and all.
+4. **Whisk the custard:** Whisk the eggs, heavy cream, Dijon mustard, hot sauce, salt, and black pepper in a large bowl until frothy.
+5. **Fold it together:** Fold the hash browns and 1 1/2 cups of the sharp Cheddar into the custard along with the sausage mixture and its fat.
 6. **Fill the dish:** Spread the mixture evenly in the dish. To make it ahead, cover the dish and refrigerate it overnight. Bake a cold casserole covered for about 10 minutes longer.
 7. **Bake covered:** Cover with foil and bake for 50 minutes.
-8. **Brown the top:** Uncover, scatter 1/4 of the sharp Cheddar over the top and raise the oven to 400°F. Bake until the top is deep golden and a knife in the center comes out clean, 10 to 15 minutes.
+8. **Brown the top:** Uncover, scatter the rest of the sharp Cheddar over the top and raise the oven to 400°F. Bake until the top is deep golden and a knife in the center comes out clean, 10 to 15 minutes.
 9. **Rest and serve:** Let it rest for 10 minutes, then scatter the scallion greens over the top and serve.

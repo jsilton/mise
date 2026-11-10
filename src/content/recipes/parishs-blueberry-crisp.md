@@ -56,6 +56,7 @@ sourceUrl: >-
   https://www.ajc.com/lifestyles/food--cooking/brown-butter-key-parish-blueberry-crisp/ht0uxKmxnFIptyggBS5fpL/
 formula:
   version: 1
+  stepText: preserved
   yield:
     amount: 9
     unit: portion

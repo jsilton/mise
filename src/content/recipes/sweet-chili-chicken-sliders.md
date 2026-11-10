@@ -274,13 +274,13 @@ Sticky, sweet and a little spicy, these sliders are made for game day. A soy, se
 
 ## Directions
 
-1. **Marinate the chicken:** Toss boneless skinless chicken thighs, soy sauce, sesame oil, garlic cloves, and fresh ginger in a bowl. Cover and refrigerate for at least 30 minutes or up to 4 hours.
-2. **Mix the glaze:** Whisk Thai sweet chili sauce, soy sauce, and rice vinegar in a small bowl.
-3. **Mix the mayo:** Stir mayonnaise and Sriracha together and refrigerate until serving.
+1. **Marinate the chicken:** Toss the chicken thighs, sesame oil, garlic, ginger, and 2 tbsp of the soy sauce in a bowl. Cover and refrigerate for at least 30 minutes or up to 4 hours.
+2. **Mix the glaze:** Whisk the Thai sweet chili sauce, rice vinegar, and 1 tbsp of the soy sauce in a small bowl.
+3. **Mix the mayo:** Stir the mayonnaise and Sriracha together and refrigerate until serving.
 4. **Broil the chicken:** Heat the broiler with a rack 6 inches from the heat. Lift the thighs from the marinade, shake off the excess and lay them flat on a sheet pan. Broil until charred in spots and 165°F in the thickest part, 6 to 7 minutes per side.
 5. **Glaze the chicken:** Brush the hot chicken with all the glaze and broil until sticky and caramelized, 1 to 2 minutes. Watch closely so it doesn't burn. Let the chicken rest 5 minutes.
-6. **Toast the rolls:** While the chicken rests, brush the cut sides of the rolls with butter. Broil cut side up on a clean pan until golden, 1 to 2 minutes.
+6. **Toast the rolls:** While the chicken rests, brush the cut sides of the rolls with the butter. Broil cut side up on a clean pan until golden, 1 to 2 minutes.
 7. **Dress the slaw:** Empty the Asian chopped salad kit into a bowl and toss with its dressing and toppings.
 8. **Slice the chicken:** Slice the chicken into slider-size pieces.
 9. **Build the sliders:** Spread the Sriracha mayo on the toasted Hawaiian rolls. Fill with the chicken and slaw.
-10. **Garnish and serve:** Sprinkle with sesame seeds and fresh cilantro (if using) and serve.
+10. **Garnish and serve:** Sprinkle with the sesame seeds and cilantro (if using) and serve.

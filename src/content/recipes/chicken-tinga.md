@@ -222,11 +222,11 @@ Tinga comes from Puebla, where shredded chicken simmers in a smoky sauce of toma
 
 ## Directions
 
-1. **Char the tomatoes and garlic:** Heat a heavy dry skillet over medium-high heat. Add large tomatoes and garlic cloves, with the tomatoes cut side down. Cook, turning now and then, until the tomatoes are soft and charred in patches and the garlic is soft inside its skin, 5 to 7 minutes. Take the garlic out early if it is done before the tomatoes.
+1. **Char the tomatoes and garlic:** Heat a heavy dry skillet over medium-high heat. Add the tomatoes and garlic, with the tomatoes cut side down. Cook, turning now and then, until the tomatoes are soft and charred in patches and the garlic is soft inside its skin, 5 to 7 minutes. Take the garlic out early if it is done before the tomatoes.
 2. **Peel the garlic:** Move the vegetables to a plate and let them cool for a few minutes. Squeeze the garlic out of its skins.
 3. **Blend the sauce:** Blend the charred tomatoes and garlic with the chipotles in adobo and adobo sauce until smooth. Use one chipotle for a milder sauce.
-4. **Soften the onion:** Wipe out the skillet and set it over medium heat. Add the neutral oil and small white onion and cook, stirring, until the onion is soft and translucent, 5 to 6 minutes.
+4. **Soften the onion:** Wipe out the skillet and set it over medium heat. Add the oil and white onion and cook, stirring, until the onion is soft and translucent, 5 to 6 minutes.
 5. **Bloom the oregano:** Stir in the dried Mexican oregano and cook until fragrant, about 30 seconds.
 6. **Simmer the sauce:** Pour in the blended sauce, then stir in the chicken broth and salt. Simmer, stirring now and then, until the sauce thickens slightly, about 5 minutes.
-7. **Simmer the chicken:** Fold in the cooked chicken. Simmer, stirring, until the chicken is hot through and coated in sauce, about 5 minutes.
-8. **Finish with lime:** Stir in a squeeze of fresh lime juice and serve.
+7. **Simmer the chicken:** Fold in the chicken. Simmer, stirring, until the chicken is hot through and coated in sauce, about 5 minutes.
+8. **Finish with lime:** Stir in a squeeze of lime juice and serve.

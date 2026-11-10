@@ -361,11 +361,11 @@ Joyce Chen opened her Cambridge restaurant in 1958 and named these pork dumpling
 
 ## Directions
 
-1. **Make the dough:** Stir all-purpose flour and cold water together in a bowl until shaggy. Knead until smooth and pliable, 3 to 4 minutes, adding a few drops more water if dry flour remains. Cover with a damp towel and let it rest for at least 30 minutes.
-2. **Salt the cabbage:** Toss Napa cabbage and fine salt together in a bowl and let it stand for 10 minutes. Wrap the cabbage in a clean towel and squeeze hard to wring out as much liquid as you can.
-3. **Mix the filling:** In a large bowl, combine ground pork, soy sauce, Shaoxing wine, fine salt, MSG, sugar, neutral oil, and toasted sesame oil with the squeezed cabbage. Stir hard in one direction until the filling turns sticky, about 2 minutes. Refrigerate while you roll the wrappers.
-4. **Make the dipping sauce:** Stir soy sauce, Chinkiang black vinegar, brown sugar, fresh ginger, and chili crisp (if using) together in a small bowl until the sugar dissolves.
-5. **Roll the wrappers:** Dust the counter with all-purpose flour. Roll the dough into a rope and cut it into walnut-size pieces. Roll each piece into a 3-inch round, thinner at the edge than in the center. Keep the dough you are not using covered.
+1. **Make the dough:** Stir the cold water and 2 cups of the flour together in a bowl until shaggy. Knead until smooth and pliable, 3 to 4 minutes, adding a few drops more water if dry flour remains. Cover with a damp towel and let it rest for at least 30 minutes.
+2. **Salt the cabbage:** Toss the Napa cabbage and 1 tsp of the salt together in a bowl and let it stand for 10 minutes. Wrap the cabbage in a clean towel and squeeze hard to wring out as much liquid as you can.
+3. **Mix the filling:** In a large bowl, combine the ground pork, Shaoxing wine, MSG, sugar, sesame oil, 1 1/2 tbsp of the soy sauce, 1/2 tsp of the salt, and 1 tbsp of the neutral oil with the squeezed cabbage. Stir hard in one direction until the filling turns sticky, about 2 minutes. Refrigerate while you roll the wrappers.
+4. **Make the dipping sauce:** Stir the Chinkiang black vinegar, brown sugar, ginger, chili crisp (if using), and 1/4 cup of the soy sauce together in a small bowl until the sugar dissolves.
+5. **Roll the wrappers:** Dust the counter with the flour. Roll the dough into a rope and cut it into walnut-size pieces. Roll each piece into a 3-inch round, thinner at the edge than in the center. Keep the dough you are not using covered.
 6. **Fill the dumplings:** Put a rounded tablespoon of filling in the center of each wrapper. Fold it into a half moon and pinch the edge firmly shut, pleating it a few times. Set the dumplings on a floured tray under a towel.
 7. **Load the pan:** Heat a thin film of neutral oil in a 12-inch nonstick or cast-iron skillet with a lid over medium-high heat. Set the dumplings in the pan in a single layer, lightly touching, about 16 at a time.
 8. **Steam the dumplings:** Pour in about half a cup of cold water, which will spatter, and cover right away. Cook until most of the water has boiled off and the wrappers look translucent, 6 to 7 minutes.

@@ -48,6 +48,7 @@ pairingNotes:
 source: From Mimi (Pat Hamilton)
 formula:
   version: 1
+  stepText: preserved
   yield:
     amount: 70
     unit: piece

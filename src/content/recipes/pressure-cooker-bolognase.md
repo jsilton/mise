@@ -309,13 +309,13 @@ This is Bologna's ragù as the Accademia Italiana della Cucina records it: finel
 
 ## Directions
 
-1. **Render the pork belly:** Warm fresh pork belly and extra-virgin olive oil in a heavy 10-inch lidded casserole over medium-low heat. Cook, stirring, until the fat runs and the pork turns translucent, about 5 minutes. Don't let it brown hard.
-2. **Soften the vegetables:** Add onion, carrot, and celery. Cook, stirring often, until soft and sweet but not browned, 8 to 10 minutes.
-3. **Brown the beef:** Turn the heat to medium and add coarsely ground beef chuck. Break it up and stir until its liquid cooks off and the meat sizzles and starts to brown, about 10 minutes.
-4. **Reduce the wine:** Pour in dry red or white wine and scrape up the browned bits. Simmer until the wine has cooked away and no longer smells sharp, 3 to 5 minutes.
-5. **Add the tomato:** Stir in tomato passata, double-concentrated tomato paste, and light low-salt meat broth. Bring to a gentle simmer, then lower the heat as far as it goes and cover.
+1. **Render the pork belly:** Warm the pork belly and olive oil in a heavy 10-inch lidded casserole over medium-low heat. Cook, stirring, until the fat runs and the pork turns translucent, about 5 minutes. Don't let it brown hard.
+2. **Soften the vegetables:** Add the onion, carrot, and celery. Cook, stirring often, until soft and sweet but not browned, 8 to 10 minutes.
+3. **Brown the beef:** Turn the heat to medium and add the coarsely ground beef chuck. Break it up and stir until its liquid cooks off and the meat sizzles and starts to brown, about 10 minutes.
+4. **Reduce the wine:** Pour in the dry red or white wine and scrape up the browned bits. Simmer until the wine has cooked away and no longer smells sharp, 3 to 5 minutes.
+5. **Add the tomato:** Stir in the tomato passata, double-concentrated tomato paste, and light low-salt meat broth. Bring to a gentle simmer, then lower the heat as far as it goes and cover.
 6. **Simmer the ragù:** Cook at the barest simmer, stirring now and then, for 1 to 1 1/2 hours. Add a splash more hot broth if it starts to stick.
-7. **Add the milk:** Stir in whole milk. Cover and keep simmering until the meat is very tender and the sauce is glossy and clings to it, 1 to 1 1/2 hours more. If the sauce is still loose, uncover for the last 10 minutes.
-8. **Season:** Season with salt and freshly ground black pepper.
-9. **Toss with pasta:** Cook egg tagliatelle (if using) in well-salted boiling water until al dente. Toss it with the hot ragù and a splash of the pasta water until the sauce coats the ribbons.
-10. **Serve:** Serve with Parmigiano-Reggiano (if using) at the table.
+7. **Add the milk:** Stir in the whole milk. Cover and keep simmering until the meat is very tender and the sauce is glossy and clings to it, 1 to 1 1/2 hours more. If the sauce is still loose, uncover for the last 10 minutes.
+8. **Season:** Season with the salt and pepper.
+9. **Toss with pasta:** Cook the egg tagliatelle (if using) in well-salted boiling water until al dente. Toss it with the hot ragù and a splash of the pasta water until the sauce coats the ribbons.
+10. **Serve:** Serve with the Parmigiano-Reggiano (if using) at the table.

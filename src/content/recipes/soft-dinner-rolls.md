@@ -239,12 +239,11 @@ Soft pull-apart dinner rolls are the bread basket of American holiday tables, cl
 
 ## Directions
 
-1. **Mix the dough:** Put whole milk, granulated sugar, instant yeast, large egg, all-purpose flour, and fine sea salt in the bowl of a stand mixer fitted with the dough hook. Mix on low speed until no dry flour remains, about 2 minutes.
-2. **Knead in the butter:** With the mixer on medium-low speed, add unsalted butter one piece at a time. Knead until the dough is smooth and stretchy and pulls away from the sides of the bowl, 8 to 10 minutes. It should feel soft and slightly tacky.
-3. **First rise:** Coat a large bowl and a 9-by-13-inch baking pan with neutral oil. Put the dough in the bowl, cover and let it rise in a warm spot until doubled, 1 to 1 1/2 hours.
+1. **Mix the dough:** Put the whole milk, sugar, instant yeast, egg, flour, and fine sea salt in the bowl of a stand mixer fitted with the dough hook. Mix on low speed until no dry flour remains, about 2 minutes.
+2. **Knead in the butter:** With the mixer on medium-low speed, add 4 tbsp of the butter one piece at a time. Knead until the dough is smooth and stretchy and pulls away from the sides of the bowl, 8 to 10 minutes. It should feel soft and slightly tacky.
+3. **First rise:** Coat a large bowl and a 9-by-13-inch baking pan with the oil. Put the dough in the bowl, cover and let it rise in a warm spot until doubled, 1 to 1 1/2 hours.
 4. **Shape the rolls:** Divide the dough into 15 equal pieces. Cup your hand over each piece and roll it against the counter into a tight ball. Set the balls seam side down in the pan in 3 rows of 5.
 5. **Second rise:** Cover the pan and let the rolls rise until puffy and touching, 45 to 60 minutes. Heat the oven to 350°F with a rack in the middle while they rise.
 6. **Bake:** Bake until the tops are deep golden and the center roll reads 190°F, 22 to 25 minutes.
-7. **Butter the tops:** Brush the hot rolls with unsalted butter.
-8. **Salt and cool:** Sprinkle the tops with flaky sea salt. Cool in the pan for 10 minutes before pulling the rolls apart.
-
+7. **Butter the tops:** Brush the hot rolls with 2 tbsp of the butter.
+8. **Salt and cool:** Sprinkle the tops with the flaky sea salt. Cool in the pan for 10 minutes before pulling the rolls apart.

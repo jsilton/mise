@@ -68,7 +68,7 @@ ingredients:
   - 1/4 tsp kosher salt
   - 1/4 tsp black pepper
   - '--- Toppings ---'
-  - '1/2 cup Parmesan, shaved or grated'
+  - '1/2 cup Parmesan, shaved or grated, divided'
   - 'lemon zest, to taste'
 formula:
   version: 1
@@ -321,8 +321,8 @@ This Caesar swaps romaine for lacinato kale, which stands up to a garlicky ancho
 
 ## Directions
 
-1. **Roast the chickpeas:** Heat the oven to 425°F. Toss chickpeas, olive oil, kosher salt, paprika, garlic powder, and black pepper on a sheet pan and spread them in one layer. Roast, shaking the pan halfway, until golden and crisp, 20 to 25 minutes. Let them cool on the pan.
-2. **Blend the dressing:** While the chickpeas roast, blend extra-virgin olive oil, garlic cloves, fresh lemon juice, Dijon mustard, oil-packed anchovy fillets, water, kosher salt, black pepper, and 1/4 of the Parmesan until smooth and pourable. Add a splash more water if it's too thick. Taste before adding any salt, since the anchovy and cheese are salty.
-3. **Massage the kale:** Put large bunch lacinato kale, olive oil, and kosher salt in a large bowl. Squeeze and rub the kale with your hands until it turns darker and softens, about 2 minutes.
+1. **Roast the chickpeas:** Heat the oven to 425°F. Toss the chickpeas, paprika, garlic powder, pepper, 1 tbsp of the olive oil, and 1/2 tsp of the salt on a sheet pan and spread them in one layer. Roast, shaking the pan halfway, until golden and crisp, 20 to 25 minutes. Let them cool on the pan.
+2. **Blend the dressing:** While the chickpeas roast, blend the extra-virgin olive oil, garlic, lemon juice, Dijon mustard, oil-packed anchovy fillets, water, 1/4 tsp of the salt, 1/4 tsp of the pepper, and 2 tbsp of the Parmesan until smooth and pourable. Add a splash more water if it's too thick. Taste before adding any salt, since the anchovy and cheese are salty.
+3. **Massage the kale:** Put the lacinato kale, salt, and 1 tsp of the olive oil in a large bowl. Squeeze and rub the kale with your hands until it turns darker and softens, about 2 minutes.
 4. **Dress the kale:** Pour the dressing over the kale and toss until every leaf is coated. Let it sit for 5 minutes to soften a little more.
-5. **Top and serve:** Scatter 3/4 of the Parmesan and lemon zest over the salad, top with the cooled chickpeas and serve.
+5. **Top and serve:** Scatter the lemon zest and the rest of the Parmesan over the salad, top with the cooled chickpeas and serve.

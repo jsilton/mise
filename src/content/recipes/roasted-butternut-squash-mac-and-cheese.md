@@ -287,11 +287,11 @@ A fall mac and cheese with sweet roasted butternut squash folded through a sharp
 
 ## Directions
 
-1. **Roast the squash:** Heat the oven to 400°F. Toss butternut squash, olive oil, kosher salt, and black pepper on a rimmed baking sheet and spread in one layer. Roast until tender in the center and golden at the edges, 25 to 30 minutes. Lower the oven to 350°F.
-2. **Boil the pasta:** While the squash roasts, cook cavatappi in a large pot of well-salted boiling water for 2 minutes less than the package says. Drain.
-3. **Make the roux:** Cook unsalted butter and all-purpose flour in a large, heavy pot over medium-low heat, whisking, until the butter melts and the roux turns light gold, about 2 minutes.
-4. **Thicken the milk:** Slowly whisk in whole milk. Simmer over medium heat, stirring along the bottom, until the sauce coats a spoon, 5 to 8 minutes.
-5. **Melt in the cheese:** Take the pot off the heat. Stir in sharp cheddar, Dijon mustard, nutmeg, cayenne, kosher salt, and black pepper, adding the cheese a handful at a time, until the sauce is smooth.
-6. **Fill the dish:** Grease a 9x13-inch baking dish with butter. Fold the pasta and squash into the sauce and spread it in the dish.
-7. **Add the topping:** Toss panko breadcrumbs, unsalted butter, and Parmesan in a small bowl and scatter it evenly over the top.
+1. **Roast the squash:** Heat the oven to 400°F. Toss the butternut squash, olive oil, pepper, and 1/2 tsp of the salt on a rimmed baking sheet and spread in one layer. Roast until tender in the center and golden at the edges, 25 to 30 minutes. Lower the oven to 350°F.
+2. **Boil the pasta:** While the squash roasts, cook the cavatappi in a large pot of well-salted boiling water for 2 minutes less than the package says. Drain.
+3. **Make the roux:** Cook the flour and 4 tbsp of the unsalted butter in a large, heavy pot over medium-low heat, whisking, until the butter melts and the roux turns light gold, about 2 minutes.
+4. **Thicken the milk:** Slowly whisk in the whole milk. Simmer over medium heat, stirring along the bottom, until the sauce coats a spoon, 5 to 8 minutes.
+5. **Melt in the cheese:** Take the pot off the heat. Stir in the sharp cheddar, Dijon mustard, nutmeg, cayenne, salt, and pepper, adding the cheese a handful at a time, until the sauce is smooth.
+6. **Fill the dish:** Grease a 9x13-inch baking dish with the butter. Fold the pasta and squash into the sauce and spread it in the dish.
+7. **Add the topping:** Toss the panko, Parmesan, and 2 tbsp of the unsalted butter in a small bowl and scatter it evenly over the top.
 8. **Bake:** Bake at 350°F until bubbling at the edges and deep golden on top, about 30 minutes. Let stand 5 minutes before serving.

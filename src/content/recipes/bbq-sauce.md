@@ -246,8 +246,8 @@ This is a Kansas City-style barbecue sauce, the thick, sweet and tangy tomato an
 
 ## Directions
 
-1. **Soften the onion:** Heat neutral oil, yellow onion, and kosher salt in a medium saucepan over medium heat. Cook, stirring, until the onion is soft and pale gold, about 5 minutes.
-2. **Bloom the spices:** Add garlic cloves, chili powder, smoked paprika, and black pepper and stir until the spices smell toasty and turn brick red, about 30 seconds.
-3. **Add the liquids:** Stir in ketchup, water, apple cider vinegar, molasses, dark brown sugar, Worcestershire sauce, and yellow mustard and bring the sauce to a simmer.
+1. **Soften the onion:** Heat the oil, yellow onion, and salt in a medium saucepan over medium heat. Cook, stirring, until the onion is soft and pale gold, about 5 minutes.
+2. **Bloom the spices:** Add the garlic, chili powder, smoked paprika, and pepper and stir until the spices smell toasty and turn brick red, about 30 seconds.
+3. **Add the liquids:** Stir in the ketchup, water, apple cider vinegar, molasses, brown sugar, Worcestershire sauce, and yellow mustard and bring the sauce to a simmer.
 4. **Simmer:** Turn the heat to low. Simmer uncovered, stirring often and scraping the bottom, until the sauce is glossy and coats the back of a spoon, 20 to 25 minutes.
 5. **Cool:** Cool the sauce in the pan for 10 minutes, then pour it into a jar. It thickens as it cools.

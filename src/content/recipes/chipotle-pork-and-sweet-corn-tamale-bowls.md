@@ -330,11 +330,11 @@ These bowls borrow the flavors of a pork tamale without the steaming. Polenta co
 
 ## Directions
 
-1. **Simmer the polenta:** Whisk polenta or coarse cornmeal, chicken broth, and ground cumin together in a medium saucepan. Bring to a boil over medium-high heat, whisking, then lower the heat and simmer, whisking often, until thick and no longer gritty, 15 to 25 minutes.
-2. **Finish the polenta:** Stir in unsalted butter and cotija cheese. Cover and keep warm over the lowest heat.
-3. **Char the corn:** While the polenta simmers, heat a heavy skillet over high heat. Spread frozen sweet corn in a single layer and leave it until charred in spots, about 2 minutes. Stir, char 2 minutes more and move the corn to a bowl.
-4. **Brown the pork:** Add ground pork to the same skillet over high heat. Let it sear without stirring for 3 minutes to build a crust. Then break up the pork and cook until no pink remains, 5 to 7 minutes more. Spoon off all but about 1 tablespoon of the fat.
-5. **Cook the pepper:** Add red bell pepper and cook, stirring, until it starts to soften, about 2 minutes.
-6. **Fry the aromatics:** Push the pork to one side. Add garlic cloves, dried Mexican oregano, chipotle peppers in adobo, and adobo sauce from the can to the cleared spot and fry until fragrant, about 45 seconds. Stir everything together.
-7. **Simmer the sauce:** Add fire-roasted crushed tomatoes, kosher salt, and black pepper and scrape up the browned bits. Simmer until the sauce is thick enough to coat the pork, about 5 minutes. Taste and add more salt if it needs it.
-8. **Build the bowls:** Spoon the polenta into bowls. Top with the pork, the charred corn, avocado, green cabbage, pepitas, sour cream, and lime wedges for squeezing.
+1. **Simmer the polenta:** Whisk the polenta or coarse cornmeal, chicken broth, and cumin together in a medium saucepan. Bring to a boil over medium-high heat, whisking, then lower the heat and simmer, whisking often, until thick and no longer gritty, 15 to 25 minutes.
+2. **Finish the polenta:** Stir in the butter and cotija cheese. Cover and keep warm over the lowest heat.
+3. **Char the corn:** While the polenta simmers, heat a heavy skillet over high heat. Spread the sweet corn in a single layer and leave it until charred in spots, about 2 minutes. Stir, char 2 minutes more and move the corn to a bowl.
+4. **Brown the pork:** Add the ground pork to the same skillet over high heat. Let it sear without stirring for 3 minutes to build a crust. Then break up the pork and cook until no pink remains, 5 to 7 minutes more. Spoon off all but about 1 tablespoon of the fat.
+5. **Cook the pepper:** Add the red bell pepper and cook, stirring, until it starts to soften, about 2 minutes.
+6. **Fry the aromatics:** Push the pork to one side. Add the garlic, dried Mexican oregano, chipotle peppers in adobo, and adobo sauce from the can to the cleared spot and fry until fragrant, about 45 seconds. Stir everything together.
+7. **Simmer the sauce:** Add the fire-roasted crushed tomatoes, salt, and black pepper and scrape up the browned bits. Simmer until the sauce is thick enough to coat the pork, about 5 minutes. Taste and add more salt if it needs it.
+8. **Build the bowls:** Spoon the polenta into bowls. Top with the pork, the charred corn, the avocado, green cabbage, pepitas, sour cream, and lime wedges for squeezing.

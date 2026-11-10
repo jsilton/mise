@@ -273,10 +273,10 @@ Crisp cornstarch-coated tofu and browned broccoli folded into a glossy, sweet-ta
 
 ## Directions
 
-1. **Mix the sauce:** Whisk hot water, white miso, fresh lemon juice, maple syrup, cornstarch, and salt in a bowl until the miso dissolves and no lumps remain.
-2. **Coat the tofu:** Toss extra-firm tofu, cornstarch, and salt and black pepper in a bowl until every cube is evenly coated. Shake off the excess starch.
-3. **Fry the tofu:** Heat neutral oil in a 12-inch skillet over medium-high heat until it shimmers. Add the tofu in one layer and fry, turning, until golden and crisp on all sides, 8 to 10 minutes. Move it to a plate.
-4. **Brown the broccoli:** Add broccoli and salt and black pepper to the same skillet, with a splash more oil if the pan is dry. Cook, stirring now and then, until crisp-tender and browned at the edges, 6 to 8 minutes. Add it to the tofu plate.
-5. **Cook the aromatics:** Lower the heat to medium and wipe out any burnt bits with a paper towel held in tongs. Add toasted sesame oil, garlic cloves, and fresh ginger and stir until fragrant, about 30 seconds.
+1. **Mix the sauce:** Whisk the hot water, white miso, lemon juice, maple syrup, salt, and 1 tbsp of the cornstarch in a bowl until the miso dissolves and no lumps remain.
+2. **Coat the tofu:** Toss the extra-firm tofu, salt and pepper, and 1/3 cup of the cornstarch in a bowl until every cube is evenly coated. Shake off the excess starch.
+3. **Fry the tofu:** Heat the neutral oil in a 12-inch skillet over medium-high heat until it shimmers. Add the tofu in one layer and fry, turning, until golden and crisp on all sides, 8 to 10 minutes. Move it to a plate.
+4. **Brown the broccoli:** Add the broccoli and salt and pepper to the same skillet, with a splash more oil if the pan is dry. Cook, stirring now and then, until crisp-tender and browned at the edges, 6 to 8 minutes. Add it to the tofu plate.
+5. **Cook the aromatics:** Lower the heat to medium and wipe out any burnt bits with a paper towel held in tongs. Add the sesame oil, garlic, and ginger and stir until fragrant, about 30 seconds.
 6. **Thicken the sauce:** Stir the sauce again and pour it into the skillet. Simmer, stirring, until glossy and thick, 3 to 4 minutes. Gently fold in the tofu and broccoli until coated and hot.
-7. **Serve:** Sprinkle with scallions and serve right away, while the tofu is still crisp.
+7. **Serve:** Sprinkle with the scallions and serve right away, while the tofu is still crisp.

@@ -212,9 +212,9 @@ This fall punch from Bon Appétit mixes unfiltered apple cider and dark rum with
 
 ## Directions
 
-1. **Make the syrup:** In a small saucepan, bring granulated sugar and water to a boil, stirring until the sugar dissolves. Take the pan off the heat.
-2. **Steep the thyme:** Add fresh thyme sprigs, cover and steep for 10 minutes. Strain the syrup and refrigerate until cold, about 1 hour.
-3. **Mix the punch:** In a large pitcher, stir the chilled syrup with unfiltered apple cider, dark rum, fresh lime juice, and Angostura bitters. You can cover and refrigerate the punch for up to 4 hours.
-4. **Pour:** Fill eight rocks glasses with ice and divide the punch among them.
+1. **Make the syrup:** In a small saucepan, bring the sugar and water to a boil, stirring until the sugar dissolves. Take the pan off the heat.
+2. **Steep the thyme:** Add 8 fresh thyme sprigs, cover and steep for 10 minutes. Strain the syrup and refrigerate until cold, about 1 hour.
+3. **Mix the punch:** In a large pitcher, stir the chilled syrup with the unfiltered apple cider, dark rum, lime juice, and Angostura bitters. You can cover and refrigerate the punch for up to 4 hours.
+4. **Pour:** Fill eight rocks glasses with the ice and divide the punch among them.
 5. **Top with soda:** Top each glass with a splash of club soda and stir gently.
-6. **Garnish:** Garnish each drink with fresh thyme sprigs and lime slices, one of each, and serve right away.
+6. **Garnish:** Garnish each drink with the lime slices and 8 fresh thyme sprigs, one of each, and serve right away.

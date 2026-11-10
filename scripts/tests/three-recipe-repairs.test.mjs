@@ -36,10 +36,10 @@ test('shrimp sauce lists its aromatics and slurry and finishes pork and egg safe
   assert.match(content, /then the blanched pork/);
   // The 160°F line was safety boilerplate the Nov 9 rewrite dropped. The egg still sets in a
   // simmering sauce and the shrimp finish on a visual doneness cue.
-  assert.match(content, /Drizzle the beaten large egg across the surface and let it set/);
+  assert.match(content, /Drizzle the beaten egg across the surface and let it set/);
   assert.match(content, /Simmer until the shrimp are opaque all the way through/);
   // The slurry is mixed on its own and added only as needed.
-  assert.match(content, /Stir cornstarch and cold water together until smooth/);
+  assert.match(content, /Stir the cornstarch and cold water together until smooth/);
   assert.match(
     content,
     /a little at a time until the sauce coats a spoon\. You may not need all of it/
@@ -85,7 +85,10 @@ test('meatball bowl accounts for oil, keeps kale out of meatballs, and uses all 
   const stepText = (id) => steps.find((s) => s.id === id).text;
   // Kale goes only into the serving bowls, massaged with oil, lemon and salt first (Nov 10 fix R069).
   assert.doesNotMatch(stepText('mix'), /kale/i);
-  assert.match(content, /rub fresh kale, olive oil, fresh lemon juice, and salt together/);
+  assert.match(
+    content,
+    /rub the kale, salt, 1 tbsp of the olive oil, and 2 tsp of the lemon juice together/
+  );
   assert.match(content, /Divide the kale among four bowls/);
   // The whole mixture is shaped, with no fixed count.
   assert.match(content, /Shape it into small logs about 2 inches long/);

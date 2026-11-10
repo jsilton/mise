@@ -303,16 +303,16 @@ Alternating spoonfuls of vanilla and chocolate batter in the center of the pan s
 ## Directions
 
 1. **Prepare the pans:** Heat the oven to 325°F. Grease and flour two 8- or 9-inch round cake pans.
-2. **Mix the dry ingredients:** Whisk all-purpose flour, cake flour, baking powder, and fine sea salt together in a bowl.
-3. **Cream the butter:** Beat unsalted butter and superfine sugar in a large bowl until pale and fluffy, 3 to 5 minutes.
-4. **Add the eggs:** Beat in large eggs and vanilla extract, adding the eggs one at a time and scraping the bowl.
-5. **Finish the batter:** On low speed, add the dry ingredients in three additions, alternating with whole milk. Start and end with the dry ingredients and mix just until smooth. Divide the batter evenly between two bowls.
-6. **Make the vanilla half:** Whisk all-purpose flour and whole milk into one bowl of batter until smooth.
-7. **Make the chocolate half:** Stir Dutch-process cocoa powder and hot milk or brewed coffee into a smooth paste and let it stand for 2 minutes so the cocoa blooms. Whisk the paste into the other bowl of batter until smooth.
+2. **Mix the dry ingredients:** Whisk the cake flour, baking powder, salt, and 1 1/2 cups of the all-purpose flour together in a bowl.
+3. **Cream the butter:** Beat the butter and superfine sugar in a large bowl until pale and fluffy, 3 to 5 minutes.
+4. **Add the eggs:** Beat in the eggs and vanilla, adding the eggs one at a time and scraping the bowl.
+5. **Finish the batter:** On low speed, add the dry ingredients in three additions, alternating with 1 1/4 cups of the whole milk. Start and end with the dry ingredients and mix just until smooth. Divide the batter evenly between two bowls.
+6. **Make the vanilla half:** Whisk 2 tbsp of the all-purpose flour and 2 tbsp of the whole milk into one bowl of batter until smooth.
+7. **Make the chocolate half:** Stir the Dutch-process cocoa powder and hot milk or brewed coffee into a smooth paste and let it stand for 2 minutes so the cocoa blooms. Whisk the paste into the other bowl of batter until smooth.
 8. **Swirl the batters:** Drop a large spoonful of vanilla batter into the center of each pan, then a spoonful of chocolate on top of it. Keep alternating until all the batter is used. Each spoonful pushes the last one outward into rings.
 9. **Bake the layers:** Bake until the centers are set and a toothpick comes out clean, 35 to 40 minutes. Turn the pans halfway through if your oven browns unevenly.
 10. **Cool the cakes:** Cool the cakes in their pans for 5 minutes. Turn them out onto racks and cool completely, about 1 hour.
-11. **Heat the cream:** While the cakes cool, heat heavy cream in a heavy saucepan until it just starts to boil.
-12. **Make the ganache:** Pour the hot cream over bittersweet chocolate in a heatproof bowl and let it stand for 5 minutes. Stir gently until smooth and glossy. Refrigerate, stirring now and then, until thick enough to spread, about 45 minutes.
+11. **Heat the cream:** While the cakes cool, heat the heavy cream in a heavy saucepan until it just starts to boil.
+12. **Make the ganache:** Pour the hot cream over the bittersweet chocolate in a heatproof bowl and let it stand for 5 minutes. Stir gently until smooth and glossy. Refrigerate, stirring now and then, until thick enough to spread, about 45 minutes.
 13. **Layer and frost:** Level the cakes and cut each one in half horizontally to make four layers. Stack them with ganache between the layers, then spread the rest over the top and sides.
-14. **Finish and chill:** Drizzle white chocolate (if using) over the top. Refrigerate the cake for at least 1 hour before slicing.
+14. **Finish and chill:** Drizzle the white chocolate (if using) over the top. Refrigerate the cake for at least 1 hour before slicing.

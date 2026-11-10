@@ -222,9 +222,9 @@ Milan's golden risotto, the classic partner to osso buco. Beef marrow cooked wit
 
 ## Directions
 
-1. **Heat the broth:** Bring meat broth to a simmer in a saucepan and keep it hot over low heat.
-2. **Soak the saffron:** Put saffron threads in a cup with a small ladleful of the hot broth and let them soak.
-3. **Cook the onion:** Put small onion, butter, and beef marrow in a wide, heavy pan over low heat. Cook gently, stirring, until the onion is soft and pale gold, about 8 minutes.
-4. **Coat the rice:** Add Carnaroli rice and turn the heat to medium. Stir until every grain is coated and hot, 1 to 2 minutes.
+1. **Heat the broth:** Bring the meat broth to a simmer in a saucepan and keep it hot over low heat.
+2. **Soak the saffron:** Put the saffron in a cup with a small ladleful of the hot broth and let them soak.
+3. **Cook the onion:** Put the onion, butter, and beef marrow in a wide, heavy pan over low heat. Cook gently, stirring, until the onion is soft and pale gold, about 8 minutes.
+4. **Coat the rice:** Add the Carnaroli rice and turn the heat to medium. Stir until every grain is coated and hot, 1 to 2 minutes.
 5. **Add the broth:** Add the hot broth a ladleful at a time, stirring often at a lively simmer. Add the next ladle when the last is nearly absorbed. After 10 minutes, stir in the saffron and its liquid. Keep going until the rice is tender with a slight bite, 15 to 20 minutes in all. If the broth runs out, use hot water.
-6. **Beat in the butter:** Take the pan off the heat. Add cold butter, Grana Padano, and kosher salt and beat hard with a wooden spoon until glossy and creamy, 1 to 2 minutes. Add a splash of hot broth if needed, so the risotto flows in a soft wave when you shake the pan. Serve right away with more cheese.
+6. **Beat in the butter:** Take the pan off the heat. Add the cold butter, Grana Padano, and salt and beat hard with a wooden spoon until glossy and creamy, 1 to 2 minutes. Add a splash of hot broth if needed, so the risotto flows in a soft wave when you shake the pan. Serve right away with more cheese.

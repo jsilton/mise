@@ -224,10 +224,10 @@ These little cookies get nearly all their sweetness from Medjool dates blended w
 
 ## Directions
 
-1. **Prepare the pans:** Heat the oven to 350°F. Grease two baking sheets with butter or baking spray.
-2. **Make the date paste:** Process Medjool dates and unsalted butter in a food processor until a smooth, thick paste forms with no hard bits of date, about 1 minute. Scrape down the sides as needed.
-3. **Add the wet ingredients:** Add large egg, plain Greek yogurt, and vanilla extract and pulse until smooth, about 10 seconds.
-4. **Whisk the dry ingredients:** Whisk buckwheat flour, white whole wheat flour, quick oats, baking soda, ground cinnamon, and fine sea salt in a large bowl.
+1. **Prepare the pans:** Heat the oven to 350°F. Grease two baking sheets with the butter or baking spray.
+2. **Make the date paste:** Process the Medjool dates and butter in a food processor until a smooth, thick paste forms with no hard bits of date, about 1 minute. Scrape down the sides as needed.
+3. **Add the wet ingredients:** Add the egg, Greek yogurt, and vanilla and pulse until smooth, about 10 seconds.
+4. **Whisk the dry ingredients:** Whisk the buckwheat flour, white whole wheat flour, quick oats, baking soda, cinnamon, and salt in a large bowl.
 5. **Mix the dough:** Scrape the date mixture into the bowl and stir with a spatula until a thick, sticky dough forms with no dry flour left.
 6. **Shape the cookies:** Roll the dough into tablespoon-size balls and set them 2 inches apart on the sheets. Press each one firmly with your palm into a 1/2-inch-thick disk.
 7. **Bake the cookies:** Bake, swapping the sheets halfway through, until the edges are lightly browned and the centers look set, 12 to 15 minutes.

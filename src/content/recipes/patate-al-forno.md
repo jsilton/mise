@@ -162,7 +162,7 @@ Patate al forno are the roast potatoes that come with Sunday lunch all over Ital
 ## Directions
 
 1. **Heat the oven:** Set a large bare rimmed baking sheet on the middle rack of the oven. Heat the oven to 450°F with the sheet inside.
-2. **Season the potatoes:** Pat the cut potatoes dry with a towel. Toss Yukon Gold potatoes, extra-virgin olive oil, fresh rosemary sprigs, garlic cloves, sea salt, and black pepper in a large bowl until every piece is coated.
+2. **Season the potatoes:** Pat the cut potatoes dry with a towel. Toss the Yukon Gold potatoes, olive oil, rosemary, garlic, salt, and pepper in a large bowl until every piece is coated.
 3. **Spread them out:** Pull out the hot sheet. Spread the potatoes on it in a single layer, cut sides down, with a little space between them. Use a second sheet if they crowd, or they will steam instead of brown.
 4. **Roast the potatoes:** Roast until the cut sides are deep golden and a knife slides easily into the thickest piece, 35 to 40 minutes. Flip them with a metal spatula halfway through.
 5. **Salt and serve:** Taste, sprinkle with a pinch more salt and serve hot.

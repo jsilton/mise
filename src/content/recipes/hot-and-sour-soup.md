@@ -312,7 +312,7 @@ learning:
       effect: 'Sharper and cleaner, without the malty depth and dark color.'
     - ingredient: dried wood ear mushrooms
       alternative: Dried shiitake mushrooms
-      effect: "More savory and softer, without the wood ears' crunch."
+      effect: 'More savory and softer, without the wood ears'' crunch.'
     - ingredient: char siu (Chinese barbecue pork)
       alternative: 'Leftover roast pork, shredded'
       effect: Milder and less sweet. Add an extra pinch of sugar to the broth.
@@ -330,13 +330,13 @@ The Chinese restaurant classic, peppery and sour. The heat comes from white pepp
 
 ## Directions
 
-1. **Soak the wood ears:** Put dried wood ear mushrooms and boiling water in a heatproof bowl and soak until soft, about 30 minutes. Drain, rinse, cut out any hard centers and slice thin.
-2. **Bloom the aromatics:** Heat canola oil, fresh ginger, and sambal oelek in a large pot over medium heat. Cook, stirring, until fragrant, about 1 minute.
-3. **Add the pork:** Add the sliced wood ears along with char siu (Chinese barbecue pork) and bamboo shoots. Stir to coat in the chile oil, about 1 minute.
-4. **Simmer the broth:** Pour in [unsalted chicken stock](/mise/recipes/homemade-chicken-stock). Bring to a boil, then lower the heat and simmer for 10 minutes.
-5. **Season:** Stir in soy sauce, ground white pepper, salt, and sugar. Taste and add more salt if the broth needs it.
-6. **Add the tofu:** Slide in firm tofu and simmer gently until heated through, about 3 minutes.
-7. **Thicken:** Stir cornstarch and cold water together until smooth. Pour the slurry slowly into the simmering soup, stirring, and simmer until the broth turns glossy and slightly thick, about 2 minutes.
-8. **Swirl in the egg:** Take the pot off the heat and stir the soup in one direction to make a current. Stop stirring and slowly pour the beaten large egg into the soup in a thin stream. Let it sit for 1 minute so the ribbons set.
-9. **Add the vinegar:** Stir in Chinkiang black vinegar off the heat, which keeps its sharp, malty aroma. Taste and add a little more if you want it more sour.
-10. **Serve:** Ladle into bowls and finish with toasted sesame oil, scallions, and fresh cilantro.
+1. **Soak the wood ears:** Put the dried wood ear mushrooms and boiling water in a heatproof bowl and soak until soft, about 30 minutes. Drain, rinse, cut out any hard centers and slice thin.
+2. **Bloom the aromatics:** Heat the canola oil, ginger, and sambal oelek in a large pot over medium heat. Cook, stirring, until fragrant, about 1 minute.
+3. **Add the pork:** Add the sliced wood ears along with the char siu and bamboo shoots. Stir to coat in the chile oil, about 1 minute.
+4. **Simmer the broth:** Pour in the [unsalted chicken stock](/mise/recipes/homemade-chicken-stock). Bring to a boil, then lower the heat and simmer for 10 minutes.
+5. **Season:** Stir in the soy sauce, white pepper, salt, and sugar. Taste and add more salt if the broth needs it.
+6. **Add the tofu:** Slide in the firm tofu and simmer gently until heated through, about 3 minutes.
+7. **Thicken:** Stir the cornstarch and cold water together until smooth. Pour the slurry slowly into the simmering soup, stirring, and simmer until the broth turns glossy and slightly thick, about 2 minutes.
+8. **Swirl in the egg:** Take the pot off the heat and stir the soup in one direction to make a current. Stop stirring and slowly pour the beaten egg into the soup in a thin stream. Let it sit for 1 minute so the ribbons set.
+9. **Add the vinegar:** Stir in the Chinkiang black vinegar off the heat, which keeps its sharp, malty aroma. Taste and add a little more if you want it more sour.
+10. **Serve:** Ladle into bowls and finish with the sesame oil, scallions, and cilantro.

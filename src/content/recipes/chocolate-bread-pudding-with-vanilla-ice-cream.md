@@ -21,7 +21,7 @@ totalTime: 2 hr
 servings: 8 portions
 ingredients:
   - '1 lb (453 g) brioche, cut into 1/2-inch cubes'
-  - '6 oz bittersweet chocolate (70% cacao), chopped'
+  - '6 oz bittersweet chocolate (70% cacao), chopped, divided'
   - 6 oz white chocolate chips
   - 1 1/2 cups heavy cream
   - 1/2 cup unsweetened cocoa powder
@@ -227,11 +227,11 @@ This is a double-chocolate take on King Arthur's bread pudding. Brioche soaks up
 
 ## Directions
 
-1. **Toss the bread:** Toss brioche, 2/3 of the bittersweet chocolate (70% cacao), and white chocolate chips together in a large bowl.
-2. **Melt the chocolate cream:** Whisk 1/3 of the bittersweet chocolate (70% cacao), heavy cream, unsweetened cocoa powder, and granulated sugar in a saucepan over low heat until the chocolate melts and the mixture is smooth, about 5 minutes. Do not let it boil.
-3. **Cool it with milk:** Pour the chocolate cream into a large bowl and whisk in whole milk. Let it cool until lukewarm, about 10 minutes, so it does not scramble the eggs.
-4. **Make the custard:** In another bowl, whisk large eggs, fine salt, and vanilla extract just to blend. Whisk in the lukewarm chocolate mixture until smooth.
+1. **Toss the bread:** Toss the brioche, white chocolate chips, and 4 oz of the bittersweet chocolate together in a large bowl.
+2. **Melt the chocolate cream:** Whisk the heavy cream, cocoa powder, sugar, and the rest of the bittersweet chocolate in a saucepan over low heat until the chocolate melts and the mixture is smooth, about 5 minutes. Do not let it boil.
+3. **Cool it with milk:** Pour the chocolate cream into a large bowl and whisk in the whole milk. Let it cool until lukewarm, about 10 minutes, so it does not scramble the eggs.
+4. **Make the custard:** In another bowl, whisk the eggs, salt, and vanilla just to blend. Whisk in the lukewarm chocolate mixture until smooth.
 5. **Soak the bread:** Pour the custard over the bread and fold gently to wet every cube. Let it soak for 30 minutes, folding once or twice, until no dry centers remain. Heat the oven to 325°F while it soaks.
-6. **Fill the dish:** Coat a 9-by-13-inch baking dish with nonstick cooking spray. Spread the soaked bread and all the custard evenly in the dish.
+6. **Fill the dish:** Coat a 9-by-13-inch baking dish with the nonstick cooking spray. Spread the soaked bread and all the custard evenly in the dish.
 7. **Bake the pudding:** Bake until the center is set with no liquid custard and reads 160°F, 45 to 60 minutes. Lay foil loosely over the top if it darkens before the center sets.
-8. **Rest and serve:** Let the pudding rest for 10 minutes. Serve it warm with vanilla bean ice cream.
+8. **Rest and serve:** Let the pudding rest for 10 minutes. Serve it warm with the vanilla bean ice cream.

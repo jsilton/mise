@@ -7,6 +7,10 @@ interface Props {
 }
 const { servings, scaling, formula } = Astro.props;
 const fixed = scaling?.mode === 'fixed';
+// Page rule: no semicolons. A reason written with one reads as two sentences.
+const reason = scaling?.reason
+  ?.replace(/\s*;\s*(\S)/g, (_match, next: string) => `. ${next.toUpperCase()}`)
+  .replace(/\s*;\s*$/, '');
 ---
 
 <div
@@ -29,7 +33,8 @@ const fixed = scaling?.mode === 'fixed';
       )
     }
   </div>
-  {fixed && <p id="scaling-note">{scaling?.reason}</p>}
+  {fixed && <p id="scaling-note">{reason}</p>}
+  {!fixed && <p id="step-amount-note" hidden />}
 </div>
 <script>
   import {
@@ -37,6 +42,7 @@ const fixed = scaling?.mode === 'fixed';
     formatFormulaIngredient,
     formulaYield,
     formulaShoppingList,
+    formulaStepAmounts,
   } from '../lib/recipe-formula.mjs';
   import { scaleIngredientParts, formatYield } from '../lib/quantities.mjs';
   import { splitLeadingQuantity } from '../lib/ingredient-quantity.mjs';
@@ -62,6 +68,69 @@ const fixed = scaling?.mode === 'fixed';
     b.textContent = quantity;
     first.textContent = rest;
     span.insertBefore(b, first);
+  }
+  // ---------- Amounts inside the steps ----------
+  // A structured recipe prints the amount when a step uses part of an ingredient ("2 tbsp of
+  // the oil"). Those amounts scale with the batch. Any other measured amount in the method was
+  // typed by hand, so it stays as written and a short note under the scaler says so.
+  const stepNote = document.getElementById('step-amount-note');
+  const method = document.querySelector<HTMLElement>('.recipe-method');
+  function methodSteps(): HTMLElement[] {
+    let list = document.getElementById('directions')?.nextElementSibling;
+    while (list && list.tagName !== 'OL' && !/^H[1-6]$/.test(list.tagName))
+      list = list.nextElementSibling;
+    return list?.tagName === 'OL' ? [...list.querySelectorAll<HTMLElement>(':scope > li')] : [];
+  }
+  const measured =
+    /(?:(?:\d|[¼½¾⅓⅔⅛⅜⅝⅞])\s*|\b(?:half|quarter|third|one|two|three|four|five|six)\s+(?:(?:of\s+)?an?\s+)?)(?:cups?|tbsp|tsp|tablespoons?|teaspoons?|oz|ounces?|lbs?|pounds?|g|grams?|kg|ml|l|liters?|sticks?|quarts?|pints?)\b/i;
+  const plain = (text: string) => text.replace(/[‘’]/g, "'");
+  const stepText = new WeakMap<Text, string>();
+  function textNodes(root: HTMLElement) {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes: Text[] = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode as Text);
+    return nodes;
+  }
+  function scaleSteps(factor: number) {
+    const steps = methodSteps();
+    const original = formula ? formulaStepAmounts(formula, 1) : [];
+    const scaled = formula ? formulaStepAmounts(formula, factor) : [];
+    let inSteps = false;
+    steps.forEach((step, index) => {
+      const nodes = textNodes(step);
+      nodes.forEach((node) => {
+        if (!stepText.has(node)) stepText.set(node, node.textContent || '');
+        node.textContent = stepText.get(node)!;
+      });
+      // What is left of the step once the amounts that scale are taken out.
+      let rest = nodes.map((node) => stepText.get(node)).join('');
+      const cursor = new Map<Text, number>();
+      (original[index] || []).forEach((phrase, order) => {
+        const node = nodes.find(
+          (n) => plain(n.textContent || '').indexOf(phrase, cursor.get(n) || 0) >= 0
+        );
+        if (!node) return;
+        const text = node.textContent || '';
+        const at = plain(text).indexOf(phrase, cursor.get(node) || 0);
+        const next = scaled[index]?.[order] ?? phrase;
+        node.textContent = text.slice(0, at) + next + text.slice(at + phrase.length);
+        cursor.set(node, at + next.length);
+        rest = plain(rest).replace(phrase, '');
+      });
+      if (measured.test(rest)) inSteps = true;
+    });
+    if (!stepNote) return;
+    const inNotes =
+      !inSteps &&
+      !!method &&
+      textNodes(method).some(
+        (node) =>
+          !steps.some((step) => step.contains(node)) && measured.test(node.textContent || '')
+      );
+    stepNote.hidden = factor === 1 || !(inSteps || inNotes);
+    stepNote.textContent = inSteps
+      ? 'Step amounts are for the original batch.'
+      : 'Amounts in the notes are for the original batch.';
   }
   scaler?.querySelectorAll<HTMLButtonElement>('[data-scale]').forEach((button) => {
     button.addEventListener('click', () => {
@@ -97,6 +166,7 @@ const fixed = scaling?.mode === 'fixed';
           boldAmount(item);
         });
       }
+      scaleSteps(factor);
       if (yieldLabel) yieldLabel.textContent = scaledYield;
       const headerYield = document.querySelector('[data-header-yield]');
       if (headerYield)
@@ -136,7 +206,8 @@ const fixed = scaling?.mode === 'fixed';
     color: var(--bg-deep);
     border-color: var(--accent-gold);
   }
-  #scaling-note {
+  #scaling-note,
+  #step-amount-note {
     font-size: 0.74rem;
     line-height: 1.6;
     color: var(--text-secondary);

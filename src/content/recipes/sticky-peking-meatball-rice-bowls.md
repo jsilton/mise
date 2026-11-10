@@ -293,11 +293,11 @@ A weeknight shortcut bowl. Frozen meatballs get a sticky glaze of hoisin and duc
 
 ## Directions
 
-1. **Cook the coconut rice:** Put jasmine rice, coconut milk, water, and kosher salt in a rice cooker. Stir once and cook on the white rice setting.
-2. **Brown the meatballs:** Heat frozen fully cooked meatballs and oil in a large skillet over medium heat. Cover and cook, turning now and then, until browned and hot in the center, 12 to 15 minutes.
-3. **Add the aromatics:** Lower the heat to medium-low. Add the fresh ginger and minced garlic cloves and stir until fragrant, about 30 seconds.
-4. **Glaze the meatballs:** Stir in hoisin sauce, Peking duck sauce, rice vinegar, and water. Simmer, stirring, until the glaze thickens and clings to the meatballs, about 5 minutes. Add a splash of water if it gets too thick.
-5. **Cook the carrots:** While the glaze simmers, heat neutral oil and carrots in another skillet over medium-high heat and cook, stirring, until the carrots start to soften, about 2 minutes.
-6. **Wilt the kale:** Add the bunch of kale, thinly sliced garlic cloves, and black pepper. Cook, tossing, until the kale is tender and the carrots are cooked through, 3 to 5 minutes. Add a splash of water if the pan gets dry.
+1. **Cook the coconut rice:** Put the jasmine rice, coconut milk, salt, and 1/2 cup of the water in a rice cooker. Stir once and cook on the white rice setting.
+2. **Brown the meatballs:** Heat the fully cooked meatballs and oil in a large skillet over medium heat. Cover and cook, turning now and then, until browned and hot in the center, 12 to 15 minutes.
+3. **Add the aromatics:** Lower the heat to medium-low. Add the ginger and minced garlic cloves and stir until fragrant, about 30 seconds.
+4. **Glaze the meatballs:** Stir in the hoisin sauce, Peking duck sauce, rice vinegar, and 3 tbsp of the water. Simmer, stirring, until the glaze thickens and clings to the meatballs, about 5 minutes. Add a splash of water if it gets too thick.
+5. **Cook the carrots:** While the glaze simmers, heat the neutral oil and carrots in another skillet over medium-high heat and cook, stirring, until the carrots start to soften, about 2 minutes.
+6. **Wilt the kale:** Add the kale, garlic, and pepper. Cook, tossing, until the kale is tender and the carrots are cooked through, 3 to 5 minutes. Add a splash of water if the pan gets dry.
 7. **Season the greens:** Take the pan off the heat and stir in the juice of the lemon.
 8. **Build the bowls:** Fluff the rice and divide it among bowls. Top with the glazed meatballs and the greens.

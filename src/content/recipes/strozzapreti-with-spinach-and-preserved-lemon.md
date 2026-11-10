@@ -39,14 +39,14 @@ pairingNotes:
 ingredients:
   - 'kosher salt, for the pasta water'
   - 12 oz fresh strozzapreti or dried cavatappi
-  - 8 tbsp (1 stick) unsalted butter
+  - '8 tbsp (1 stick) unsalted butter, divided'
   - 2 tbsp olive oil
   - '1 garlic clove, crushed'
-  - 1/2 tsp red pepper flakes
+  - '1/2 tsp red pepper flakes, divided'
   - 3/4 cup panko breadcrumbs
   - 1 tsp lemon zest
   - 'kosher salt, a pinch'
-  - '8 cups flat-leaf spinach, trimmed, from about 2 bunches'
+  - '8 cups flat-leaf spinach, trimmed, from about 2 bunches, divided'
   - '1 tbsp preserved lemon peel, minced'
   - '1 tbsp fresh lemon juice, plus more to taste'
   - 'kosher salt and black pepper, to taste'
@@ -248,11 +248,11 @@ Strozzapreti ("priest stranglers") is a short, hand-rolled twist of pasta from E
 
 ## Directions
 
-1. **Heat the water:** Bring a large pot of water to a boil and add kosher salt until it tastes like the sea.
-2. **Fry the garlic:** Warm 1/4 of the unsalted butter, olive oil, garlic clove, and 1/2 of the red pepper flakes in a large skillet over medium heat. Cook until the garlic is fragrant, about 1 minute.
-3. **Toast the crumbs:** Stir in panko breadcrumbs, lemon zest, and kosher salt. Cook, stirring, until the crumbs are golden and crisp, about 2 minutes. Tip them onto a plate and wipe out the skillet.
-4. **Boil the pasta:** Add fresh strozzapreti or dried cavatappi to the boiling water and cook until al dente, about 5 minutes for fresh pasta or as the package says for dried. Scoop out a mugful of the cooking water, then drain.
-5. **Brown the butter:** While the pasta cooks, melt 3/4 of the unsalted butter in the skillet over medium heat. Swirl until it foams and turns golden brown and nutty, about 3 minutes.
-6. **Wilt the spinach:** Add 1/2 of the flat-leaf spinach and toss until it collapses, about 1 minute.
-7. **Toss the pasta:** Add the drained pasta, 1/2 of the red pepper flakes, 1/2 of the flat-leaf spinach, preserved lemon peel, fresh lemon juice, and kosher salt and black pepper. Toss until the spinach wilts and the pasta is glossy, about 1 minute, adding a splash of pasta water if it looks dry. Taste and add more lemon juice if it needs it.
+1. **Heat the water:** Bring a large pot of water to a boil and add the salt until it tastes like the sea.
+2. **Fry the garlic:** Warm the olive oil, garlic, 2 tbsp of the butter, and 1/4 tsp of the red pepper flakes in a large skillet over medium heat. Cook until the garlic is fragrant, about 1 minute.
+3. **Toast the crumbs:** Stir in the panko, lemon zest, and salt. Cook, stirring, until the crumbs are golden and crisp, about 2 minutes. Tip them onto a plate and wipe out the skillet.
+4. **Boil the pasta:** Add the strozzapreti or dried cavatappi to the boiling water and cook until al dente, about 5 minutes for fresh pasta or as the package says for dried. Scoop out a mugful of the cooking water, then drain.
+5. **Brown the butter:** While the pasta cooks, melt the rest of the butter in the skillet over medium heat. Swirl until it foams and turns golden brown and nutty, about 3 minutes.
+6. **Wilt the spinach:** Add 4 cups of the flat-leaf spinach and toss until it collapses, about 1 minute.
+7. **Toss the pasta:** Add the drained pasta, the preserved lemon peel, lemon juice, salt and pepper, the rest of the red pepper flakes, and the rest of the flat-leaf spinach. Toss until the spinach wilts and the pasta is glossy, about 1 minute, adding a splash of pasta water if it looks dry. Taste and add more lemon juice if it needs it.
 8. **Serve:** Divide among bowls and pile the crumbs on top just before serving.

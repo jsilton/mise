@@ -145,8 +145,8 @@ These wrappers follow the method Sarah Leung teaches at The Woks of Life. They c
 
 ## Directions
 
-1. **Mix the dough:** Put all-purpose flour, kosher salt, large egg, and water in a large bowl, with the egg and water in a well in the center of the flour. Stir until a firm, shaggy dough forms. If dry crumbs will not come together, add a few drops more water.
+1. **Mix the dough:** Put the flour, salt, egg, and water in a large bowl, with the egg and water in a well in the center of the flour. Stir until a firm, shaggy dough forms. If dry crumbs will not come together, add a few drops more water.
 2. **Knead the dough:** Turn the dough out onto a clean counter and knead until smooth, elastic and quite firm, about 10 minutes.
 3. **Rest the dough:** Wrap it tightly and let it rest at room temperature for 30 to 60 minutes.
-4. **Roll thin sheets:** Cut the dough into four pieces and keep three wrapped. Flatten one into a rectangle and dust both sides with cornstarch. Pass it through a pasta roller from the widest setting down, or roll it out with a pin, until you can see your hand through it but it still lifts without tearing. Cut a long sheet in half if it gets hard to handle.
+4. **Roll thin sheets:** Cut the dough into four pieces and keep three wrapped. Flatten one into a rectangle and dust both sides with the cornstarch. Pass it through a pasta roller from the widest setting down, or roll it out with a pin, until you can see your hand through it but it still lifts without tearing. Cut a long sheet in half if it gets hard to handle.
 5. **Cut the squares:** Dust the sheet again with cornstarch and cut it into 3 1/2-inch squares with a knife or pizza cutter and a straightedge. Stack them with more cornstarch between and keep them covered so the edges stay soft. Press the scraps together, let them rest a few minutes and roll them again.

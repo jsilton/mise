@@ -232,9 +232,9 @@ Delish's air fryer tenders get a flour, egg and panko coating that turns crunchy
 
 ## Directions
 
-1. **Mix the honey mustard:** Whisk mayonnaise, honey, Dijon mustard, hot sauce (if using), kosher salt, and freshly ground black pepper in a small bowl. Cover and chill until serving.
-2. **Season the chicken:** Pat the tenders dry with paper towels. Season both sides with kosher salt and freshly ground black pepper.
-3. **Set up the breading:** Set out three shallow dishes for all-purpose flour, large eggs, buttermilk, and panko breadcrumbs. Put the flour in the first. Whisk the eggs and buttermilk in the second. Put the panko in the third.
+1. **Mix the honey mustard:** Whisk the mayonnaise, honey, Dijon mustard, hot sauce (if using), salt, and pepper in a small bowl. Cover and chill until serving.
+2. **Season the chicken:** Pat the tenders dry with paper towels. Season both sides with the pepper and 1 tsp of the salt.
+3. **Set up the breading:** Set out three shallow dishes for the flour, eggs, buttermilk, and panko. Put the flour in the first. Whisk the eggs and buttermilk in the second. Put the panko in the third.
 4. **Bread the tenders:** Coat the chicken tenders one at a time. Dredge each in flour and shake off the excess, dip it in the egg and let the extra drip off, then press it firmly into the panko on both sides.
-5. **Air-fry in batches:** Heat the air fryer to 400°F. Lay the tenders in the basket in a single layer with space between them. Spray the tops with cooking spray and cook 5 minutes. Flip, spray the other side and cook until golden and 165°F in the thickest part, about 5 minutes more. Repeat with the rest of the tenders.
+5. **Air-fry in batches:** Heat the air fryer to 400°F. Lay the tenders in the basket in a single layer with space between them. Spray the tops with the cooking spray and cook 5 minutes. Flip, spray the other side and cook until golden and 165°F in the thickest part, about 5 minutes more. Repeat with the rest of the tenders.
 6. **Serve:** Keep finished tenders on a wire rack while the rest cook, so the bottoms stay crisp. Serve hot with the honey mustard.

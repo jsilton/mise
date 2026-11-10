@@ -279,12 +279,12 @@ This Food & Wine pie is a fall custard pie made from apple cider boiled down to 
 
 ## Directions
 
-1. **Make the dough:** Pulse all-purpose flour, cornstarch, granulated sugar, kosher salt, and unsalted butter in a food processor until the mixture looks like coarse meal with pea-size bits of butter.
-2. **Add the liquid:** Stir cold milk and apple cider vinegar together. Drizzle over the flour mixture and pulse just until the dough holds together when pinched. Shape it into a disk, wrap and chill for 30 minutes.
-3. **Reduce the cider:** While the dough chills, boil fresh apple cider in a saucepan over high heat until it has reduced to a quarter of its volume, 10 to 12 minutes. Pour it into a bowl and let it cool completely.
-4. **Roll the crust:** Dust the counter with all-purpose flour and roll the dough into an 11-inch round. Fit it into a 9-inch pie plate, fold the overhang under and crimp the edge. Chill until firm, about 15 minutes.
+1. **Make the dough:** Pulse the cornstarch, kosher salt, butter, 1 cup of the flour, and 1 tbsp of the sugar in a food processor until the mixture looks like coarse meal with pea-size bits of butter.
+2. **Add the liquid:** Stir the cold milk and apple cider vinegar together. Drizzle over the flour mixture and pulse just until the dough holds together when pinched. Shape it into a disk, wrap and chill for 30 minutes.
+3. **Reduce the cider:** While the dough chills, boil the apple cider in a saucepan over high heat until it has reduced to a quarter of its volume, 10 to 12 minutes. Pour it into a bowl and let it cool completely.
+4. **Roll the crust:** Dust the counter with the flour and roll the dough into an 11-inch round. Fit it into a 9-inch pie plate, fold the overhang under and crimp the edge. Chill until firm, about 15 minutes.
 5. **Blind-bake the crust:** Heat the oven to 425°F. Line the crust with parchment, fill it with pie weights and bake on the lower rack until the edge is just set, about 15 minutes. Lift out the weights and parchment, cover the rim with foil and bake until the bottom looks dry but not browned, about 15 minutes more. Cool on a rack and lower the oven to 350°F.
-6. **Mix the custard:** Whisk granulated sugar, sour cream, salt, and large eggs into the cooled cider, adding the eggs last, until smooth.
+6. **Mix the custard:** Whisk the sour cream, salt, eggs, and 3/4 cup of the sugar into the cooled cider, adding the eggs last, until smooth.
 7. **Bake the pie:** Pour the custard into the crust, keeping the foil on the rim. Bake on the lower rack until the edge is set and the center jiggles slightly as one piece when you nudge the pan, 35 to 40 minutes.
 8. **Chill:** Cool the pie on a rack for 1 hour, then refrigerate until cold and fully set, at least 3 hours.
-9. **Top with cinnamon cream:** Just before serving, beat heavy cream, granulated sugar, and ground cinnamon until firm peaks form. Spread the cream over the cold pie.
+9. **Top with cinnamon cream:** Just before serving, beat the heavy cream, cinnamon, and 1/4 cup of the sugar until firm peaks form. Spread the cream over the cold pie.

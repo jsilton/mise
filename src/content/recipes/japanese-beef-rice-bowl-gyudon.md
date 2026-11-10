@@ -257,9 +257,9 @@ Gyudon is the beef bowl of Japanese fast-food counters and home kitchens alike. 
 
 ## Directions
 
-1. **Soften the onions:** Warm neutral oil and medium yellow onions in a large skillet over medium heat. Cook, stirring often, until the onions wilt and start to soften, about 5 minutes. Lower the heat if the edges darken.
-2. **Simmer in the sauce:** Add sugar, mirin, sake, light soy sauce, and dashi and bring to a gentle simmer. Cook, stirring now and then, until the onions are tender and sweet and the sauce has reduced slightly, 5 to 8 minutes.
-3. **Poach the eggs:** While the onions simmer, bring a saucepan of water to a bare simmer. Crack large eggs (if using) into the water one at a time and cook until the whites are set and the yolks are still soft, 3 to 4 minutes. Lift them out with a slotted spoon.
-4. **Cook the beef:** Add ribeye or fatty chuck to the skillet, separating the slices into the sauce. Cook, turning, just until no pink remains, 2 to 3 minutes. Take the pan off the heat right away so the beef stays tender.
-5. **Fill the bowls:** Divide cooked short-grain white rice among four bowls. Spoon the beef, onions and sauce over the rice and top each bowl with a poached egg, if using.
-6. **Garnish:** Sprinkle with scallion, toasted sesame seeds (if using), and shichimi togarashi (if using) and serve right away.
+1. **Soften the onions:** Warm the oil and yellow onions in a large skillet over medium heat. Cook, stirring often, until the onions wilt and start to soften, about 5 minutes. Lower the heat if the edges darken.
+2. **Simmer in the sauce:** Add the sugar, mirin, sake, light soy sauce, and dashi and bring to a gentle simmer. Cook, stirring now and then, until the onions are tender and sweet and the sauce has reduced slightly, 5 to 8 minutes.
+3. **Poach the eggs:** While the onions simmer, bring a saucepan of water to a bare simmer. Crack the eggs (if using) into the water one at a time and cook until the whites are set and the yolks are still soft, 3 to 4 minutes. Lift them out with a slotted spoon.
+4. **Cook the beef:** Add the ribeye or fatty chuck to the skillet, separating the slices into the sauce. Cook, turning, just until no pink remains, 2 to 3 minutes. Take the pan off the heat right away so the beef stays tender.
+5. **Fill the bowls:** Divide the short-grain white rice among four bowls. Spoon the beef, onions and sauce over the rice and top each bowl with a poached egg, if using.
+6. **Garnish:** Sprinkle with the scallion, sesame seeds (if using), and shichimi togarashi (if using) and serve right away.

@@ -242,9 +242,9 @@ Kalbi is Korean barbecue short ribs, cut thin across the bone and grilled fast o
 
 ## Directions
 
-1. **Rub the ribs:** Wipe any bone chips from the ribs with a damp paper towel. Put flanken-style beef short ribs, sake, and granulated sugar in a large dish and rub the sake and sugar into both sides of every slice. Cover and refrigerate for 15 minutes while you make the marinade.
-2. **Mix the marinade:** Whisk soy sauce, dark brown sugar, toasted sesame oil, large Asian pear, scallions, garlic cloves, black pepper, and vegetable oil in a bowl until the brown sugar dissolves.
+1. **Rub the ribs:** Wipe any bone chips from the ribs with a damp paper towel. Put the flanken-style beef short ribs, sake, and granulated sugar in a large dish and rub the sake and sugar into both sides of every slice. Cover and refrigerate for 15 minutes while you make the marinade.
+2. **Mix the marinade:** Whisk the soy sauce, brown sugar, sesame oil, Asian pear, scallions, garlic, pepper, and 2 tbsp of the vegetable oil in a bowl until the brown sugar dissolves.
 3. **Marinate:** Pour the marinade over the ribs and turn to coat every slice. Cover and refrigerate for at least 8 hours or overnight, turning the ribs once.
-4. **Heat the grill:** Light a charcoal grill and bank the coals to one side, so you have medium-high direct heat and a cooler zone. Brush the grates with vegetable oil.
+4. **Heat the grill:** Light a charcoal grill and bank the coals to one side, so you have medium-high direct heat and a cooler zone. Brush the grates with the vegetable oil.
 5. **Grill the ribs:** Lift the ribs from the marinade and let the excess drip off. Grill over direct heat until seared and lightly charred, 2 to 3 minutes per side, then pull them right away. Move a piece to the cooler zone only if it flares up or the sugar starts to blacken.
 6. **Rest and cut:** Rest the ribs on a platter for 5 minutes. Cut between the bones with kitchen shears and serve.

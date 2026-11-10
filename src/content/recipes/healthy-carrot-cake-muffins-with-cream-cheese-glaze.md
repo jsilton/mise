@@ -325,12 +325,12 @@ Monique Volz's carrot cake muffins, sweetened with maple syrup and applesauce an
 
 ## Directions
 
-1. **Heat the oven:** Heat the oven to 350°F. Line a 12-cup muffin tin with paper liners and coat the insides with nonstick cooking spray.
-2. **Mix the dry ingredients:** In a medium bowl, whisk whole wheat pastry flour, ground cinnamon, baking soda, ground nutmeg, and sea salt.
-3. **Mix the wet ingredients:** In a large bowl, whisk carrots, pure maple syrup, unsweetened applesauce, large egg, avocado or olive oil, and pure vanilla extract until combined.
-4. **Make the batter:** Add unsweetened milk and the flour mixture to the wet ingredients. Stir just until no dry flour remains.
-5. **Add the mix-ins:** Fold in unsweetened shredded coconut (if using), raisins (if using), and chopped walnuts or pecans (if using).
+1. **Heat the oven:** Heat the oven to 350°F. Line a 12-cup muffin tin with paper liners and coat the insides with the nonstick cooking spray.
+2. **Mix the dry ingredients:** In a medium bowl, whisk the whole wheat pastry flour, cinnamon, baking soda, nutmeg, and salt.
+3. **Mix the wet ingredients:** In a large bowl, whisk the carrots, maple syrup, applesauce, egg, avocado or olive oil, and pure vanilla extract until combined.
+4. **Make the batter:** Add the unsweetened milk and the flour mixture to the wet ingredients. Stir just until no dry flour remains.
+5. **Add the mix-ins:** Fold in the coconut (if using), raisins (if using), and walnuts or pecans (if using).
 6. **Bake:** Divide the batter among the cups. Bake until a toothpick in the center comes out clean, 18 to 20 minutes.
 7. **Cool:** Cool in the pan for 10 minutes, then move the muffins to a rack and cool completely, about 30 minutes.
-8. **Make the glaze:** Whisk light cream cheese, powdered sugar, milk, and vanilla extract until smooth, starting with the smaller amount of milk. Add the rest only if the glaze is too thick to coat.
+8. **Make the glaze:** Whisk the light cream cheese, powdered sugar, milk, and vanilla extract until smooth, starting with the smaller amount of milk. Add the rest only if the glaze is too thick to coat.
 9. **Glaze the muffins:** Dip the top of each cooled muffin in the glaze and set it back on the rack until the glaze sets.

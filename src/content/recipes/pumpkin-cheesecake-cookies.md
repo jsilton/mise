@@ -310,13 +310,13 @@ Chelsey White's soft pumpkin cookies from Chelsweets hide a cheesecake center an
 
 ## Directions
 
-1. **Mix the dry ingredients:** In a medium bowl, whisk together all-purpose flour, baking soda, ground cinnamon, ground ginger, ground nutmeg, and fine salt.
-2. **Cream the butter:** In a stand mixer, beat unsalted butter, light brown sugar, and granulated sugar on medium speed until light and fluffy, about 1 minute.
-3. **Finish the dough:** Blot plain pumpkin puree between paper towels to soak up excess water, then beat it into the butter mixture. Add the flour mixture and mix on low just until no dry flour remains.
+1. **Mix the dry ingredients:** In a medium bowl, whisk together the flour, baking soda, nutmeg, salt, 1/2 tsp of the cinnamon, and 1/4 tsp of the ginger.
+2. **Cream the butter:** In a stand mixer, beat the butter, brown sugar, and 1/4 cup of the granulated sugar on medium speed until light and fluffy, about 1 minute.
+3. **Finish the dough:** Blot the pumpkin puree between paper towels to soak up excess water, then beat it into the butter mixture. Add the flour mixture and mix on low just until no dry flour remains.
 4. **Chill the dough:** Roll the dough into 12 balls on a parchment-lined tray. Refrigerate until firm, about 1 hour.
-5. **Freeze the filling:** While the dough chills, beat block cream cheese, granulated sugar, and vanilla extract until smooth. Scoop 12 dollops onto a parchment-lined plate and freeze until firm enough to pick up, at least 45 minutes.
+5. **Freeze the filling:** While the dough chills, beat the cream cheese, vanilla, and 1/4 cup of the granulated sugar until smooth. Scoop 12 dollops onto a parchment-lined plate and freeze until firm enough to pick up, at least 45 minutes.
 6. **Heat the oven:** When the dough has about 15 minutes left, heat the oven to 350°F and line two baking sheets with parchment.
-7. **Mix the coating:** In a small bowl, stir together granulated sugar, ground cinnamon, and ground ginger.
+7. **Mix the coating:** In a small bowl, stir together 1/3 cup of the granulated sugar, 1/2 tsp of the cinnamon, and 1/4 tsp of the ginger.
 8. **Fill the cookies:** Flatten a dough ball in your palm, set a frozen dollop of filling in the center and wrap the dough around it, pinching the seams closed. If the dough turns sticky, chill it for 10 minutes before going on.
 9. **Coat the cookies:** Roll each filled ball in the cinnamon sugar until well coated. Set them 3 inches apart on the baking sheets and press each one lightly to flatten.
 10. **Bake:** Bake until the edges are set and the centers still look soft, 16 to 19 minutes. Don't wait for them to brown.

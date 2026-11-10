@@ -360,13 +360,13 @@ This Damn Delicious dinner bakes seared chicken thighs in a garlic-Parmesan crea
 
 ## Directions
 
-1. **Roast the potatoes:** Heat the oven to 425°F. Toss baby potatoes, olive oil, and kosher salt on a large rimmed sheet pan and spread them in one layer, cut side down. Roast, stirring once, until browned at the edges and tender in the center, 30 to 35 minutes. Use a second pan if they crowd.
-2. **Season the chicken:** While the potatoes roast, pat the chicken dry with paper towels. Season it all over with Italian seasoning, kosher salt, and black pepper.
-3. **Brown the chicken:** Heat a large oven-safe skillet over medium-high heat. Add olive oil and bone-in, skin-on chicken thighs, letting the oil shimmer before the chicken goes in skin side down. Sear until the skin is deep golden, 5 to 7 minutes. Turn and brown the other side, about 2 minutes, then move the chicken to a plate.
-4. **Wilt the spinach:** Pour off all but a thin film of fat, leaving the browned bits in the pan. Add unsalted butter and baby spinach and stir until the butter melts and the spinach just wilts, about 2 minutes. Move the spinach to a bowl.
-5. **Cook the garlic:** Turn the heat to medium. Add unsalted butter and garlic cloves and stir until the butter melts and the garlic is fragrant, about 1 minute. Don't let it brown.
-6. **Make the roux:** Whisk in all-purpose flour and cook, whisking, until smooth and pale gold, about 1 minute.
-7. **Simmer the broth:** Slowly whisk in chicken broth, dried thyme, and dried basil, scraping up the browned bits. Simmer, whisking, until smooth and lightly thickened, 1 to 2 minutes.
-8. **Add the cream:** Lower the heat. Stir in heavy cream and Parmesan until the cheese melts and the sauce is silky, 1 to 2 minutes. Don't let it boil.
+1. **Roast the potatoes:** Heat the oven to 425°F. Toss the baby potatoes, 2 tbsp of the olive oil, and 1 tsp of the salt on a large rimmed sheet pan and spread them in one layer, cut side down. Roast, stirring once, until browned at the edges and tender in the center, 30 to 35 minutes. Use a second pan if they crowd.
+2. **Season the chicken:** While the potatoes roast, pat the chicken dry with paper towels. Season it all over with the Italian seasoning, 1 1/2 tsp of the salt, and 1/2 tsp of the pepper.
+3. **Brown the chicken:** Heat a large oven-safe skillet over medium-high heat. Add the chicken thighs and 1 tbsp of the olive oil, letting the oil shimmer before the chicken goes in skin side down. Sear until the skin is deep golden, 5 to 7 minutes. Turn and brown the other side, about 2 minutes, then move the chicken to a plate.
+4. **Wilt the spinach:** Pour off all but a thin film of fat, leaving the browned bits in the pan. Add the baby spinach and 1 tbsp of the butter and stir until the butter melts and the spinach just wilts, about 2 minutes. Move the spinach to a bowl.
+5. **Cook the garlic:** Turn the heat to medium. Add the garlic and 4 tbsp of the butter and stir until the butter melts and the garlic is fragrant, about 1 minute. Don't let it brown.
+6. **Make the roux:** Whisk in the flour and cook, whisking, until smooth and pale gold, about 1 minute.
+7. **Simmer the broth:** Slowly whisk in the chicken broth, thyme, and basil, scraping up the browned bits. Simmer, whisking, until smooth and lightly thickened, 1 to 2 minutes.
+8. **Add the cream:** Lower the heat. Stir in the heavy cream and Parmesan until the cheese melts and the sauce is silky, 1 to 2 minutes. Don't let it boil.
 9. **Bake the chicken:** Stir the spinach into the sauce. Nestle the chicken in skin side up, keeping the skin above the sauce. Bake until the thickest thigh reaches 165°F, 15 to 20 minutes. Rest 5 minutes.
-10. **Season and serve:** Taste the sauce and finish it with kosher salt, black pepper, and fresh parsley (if using). Serve each thigh with sauce and spinach, with the potatoes alongside so they stay crisp.
+10. **Season and serve:** Taste the sauce and finish it with the salt, pepper, and parsley (if using). Serve each thigh with sauce and spinach, with the potatoes alongside so they stay crisp.

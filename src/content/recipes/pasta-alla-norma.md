@@ -278,13 +278,13 @@ Pasta alla Norma is the great summer pasta of Catania, named for Bellini's opera
 
 ## Directions
 
-1. **Cook the tomatoes:** Put ripe plum tomatoes, medium white onions, and fresh basil leaves in a large saucepan with a splash of water. Cook over medium heat, stirring now and then, until the tomatoes and onion are soft and collapsed, about 40 minutes.
+1. **Cook the tomatoes:** Put the plum tomatoes, white onions, and fresh basil leaves in a large saucepan with a splash of water. Cook over medium heat, stirring now and then, until the tomatoes and onion are soft and collapsed, about 40 minutes.
 2. **Mill the tomatoes:** Pass the tomato mixture through a food mill into a bowl. Discard the skins and seeds left in the mill.
-3. **Fry the garlic:** Wipe out the saucepan. Warm garlic cloves and extra-virgin olive oil in it over medium-low heat until the garlic is pale gold.
-4. **Finish the sauce:** Add the milled tomatoes, then fresh basil sprig and kosher salt, going easy on the salt since the cheese is salty. Simmer gently, stirring now and then, until the sauce has body, about 20 minutes.
+3. **Fry the garlic:** Wipe out the saucepan. Warm the garlic and extra-virgin olive oil in it over medium-low heat until the garlic is pale gold.
+4. **Finish the sauce:** Add the milled tomatoes, then the fresh basil sprig and salt, going easy on the salt since the cheese is salty. Simmer gently, stirring now and then, until the sauce has body, about 20 minutes.
 5. **Heat the frying oil:** While the sauce simmers, heat about 1/2 inch of olive oil in a heavy frying pan over medium-high heat until a slice of eggplant sizzles steadily when dipped in.
 6. **Fry the eggplant:** Pat the slices of violet eggplants dry. Fry them in small batches without crowding, turning once, until golden and tender, 2 to 3 minutes per side. Drain on paper towels.
-7. **Boil the spaghetti:** Bring a large pot of well-salted water to a boil. Cook spaghetti until al dente.
+7. **Boil the spaghetti:** Bring a large pot of well-salted water to a boil. Cook the spaghetti until al dente.
 8. **Warm the eggplant strips:** While the pasta cooks, cut about a third of the fried eggplant into strips. Warm them in a wide pan with a few spoonfuls of the sauce.
 9. **Toss the pasta:** Drain the spaghetti and add it to the wide pan. Toss over medium heat for 1 minute.
-10. **Top and serve:** Divide the pasta among plates. Top with the rest of the sauce, the whole eggplant slices and ricotta salata, fresh basil leaves, and black pepper.
+10. **Top and serve:** Divide the pasta among plates. Top with the rest of the sauce, the whole eggplant slices and the ricotta salata, fresh basil leaves, and pepper.

@@ -387,14 +387,14 @@ Eli and Max Sussman's terrine from Saveur turns holiday gefilte fish into one sl
 
 ## Directions
 
-1. **Soften the onion:** Warm olive oil and medium onion in a skillet over medium-low heat. Cook, stirring now and then, until the onion is soft and translucent but not browned, 8 to 10 minutes. Scrape it into a large bowl to cool.
+1. **Soften the onion:** Warm the onion and 1 tbsp of the olive oil in a skillet over medium-low heat. Cook, stirring now and then, until the onion is soft and translucent but not browned, 8 to 10 minutes. Scrape it into a large bowl to cool.
 2. **Line the pan:** Heat the oven to 325°F and put a kettle of water on to boil. Line a 9-by-5-inch loaf pan with parchment, leaving an overhang on all sides.
-3. **Grind the fish:** Process carp or pike fillet and salmon fillet in a food processor, scraping the bowl, until the fish forms a fine, sticky paste, about 1 minute. Add it to the onion.
-4. **Mix the terrine:** Add heavy cream, cold water, large eggs, matzo meal, carrot, fresh dill, lemon zest, fresh lemon juice, kosher salt, and black pepper to the bowl. Stir until smooth and evenly combined.
+3. **Grind the fish:** Process the carp or pike fillet and salmon fillet in a food processor, scraping the bowl, until the fish forms a fine, sticky paste, about 1 minute. Add it to the onion.
+4. **Mix the terrine:** Add the heavy cream, cold water, eggs, matzo meal, carrot, fresh dill, lemon zest, 1 tsp of the lemon juice, 2 tsp of the salt, and 1 tsp of the pepper to the bowl. Stir until smooth and evenly combined.
 5. **Fill the pan:** Spread the mixture in the lined pan and smooth the top. Fold the parchment over it and cover the pan tightly with foil.
-6. **Set up the water bath:** Set the loaf pan in a 9-by-13-inch baking dish. Pour in boiling water until it comes halfway up the sides of the loaf pan.
+6. **Set up the water bath:** Set the loaf pan in a 9-by-13-inch baking dish. Pour in the boiling water until it comes halfway up the sides of the loaf pan.
 7. **Bake:** Bake until the center is firm and reads 160°F, about 1 hour 15 minutes.
 8. **Chill:** Lift the loaf pan out of the water and cool it on a rack for 30 minutes. Refrigerate until cold all the way through, at least 4 hours or overnight.
-9. **Make the dressing:** Just before serving, whisk olive oil, fresh lemon juice, kosher salt, and black pepper in a large bowl.
-10. **Toss the salad:** Add baby arugula, radishes, shallot, fresh horseradish, and fresh dill sprigs to the dressing and toss gently.
-11. **Slice and serve:** Turn the terrine out onto a platter and peel off the parchment. Cut it into thick slices with a sharp knife and serve with the salad, lemon wedges and matzos.
+9. **Make the dressing:** Just before serving, whisk the salt, pepper, 2 tbsp of the olive oil, and 2 tbsp of the lemon juice in a large bowl.
+10. **Toss the salad:** Add the baby arugula, radishes, shallot, horseradish, and fresh dill sprigs to the dressing and toss gently.
+11. **Slice and serve:** Turn the terrine out onto a platter and peel off the parchment. Cut it into thick slices with a sharp knife and serve with the salad, the lemon wedges and matzos.

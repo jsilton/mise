@@ -261,9 +261,9 @@ This is the creamy, mustardy potato salad of American cookouts, with celery and 
 
 ## Directions
 
-1. **Boil the potatoes:** Put Yukon Gold potatoes and kosher salt in a large pot and cover with cold water by 1 inch. Bring to a boil over high heat, then simmer over medium heat until a knife slides into a piece with no resistance, 10 to 12 minutes.
-2. **Season while hot:** Drain the potatoes well and spread them on a rimmed baking sheet. Sprinkle with apple cider vinegar and toss gently. Cool to room temperature, about 30 minutes.
-3. **Mix the dressing:** While the potatoes cool, stir mayonnaise, yellow mustard, kosher salt, and black pepper together in a large bowl.
-4. **Fold it together:** Add the cooled potatoes, celery ribs, scallions, dill pickles, and large hard-boiled eggs to the bowl. Fold with a rubber spatula until everything is coated and the edges of the potatoes turn a little creamy.
+1. **Boil the potatoes:** Put the Yukon Gold potatoes and 2 tbsp of the salt in a large pot and cover with cold water by 1 inch. Bring to a boil over high heat, then simmer over medium heat until a knife slides into a piece with no resistance, 10 to 12 minutes.
+2. **Season while hot:** Drain the potatoes well and spread them on a rimmed baking sheet. Sprinkle with the apple cider vinegar and toss gently. Cool to room temperature, about 30 minutes.
+3. **Mix the dressing:** While the potatoes cool, stir the mayonnaise, yellow mustard, pepper, and 1 tsp of the salt together in a large bowl.
+4. **Fold it together:** Add the cooled potatoes, the celery, scallions, dill pickles, and hard-boiled eggs to the bowl. Fold with a rubber spatula until everything is coated and the edges of the potatoes turn a little creamy.
 5. **Chill:** Cover and refrigerate for at least 1 hour so the flavors come together.
-6. **Serve:** Stir the salad and taste it for salt, since cold dulls seasoning. Top with fresh parsley and paprika.
+6. **Serve:** Stir the salad and taste it for salt, since cold dulls seasoning. Top with the parsley and paprika.

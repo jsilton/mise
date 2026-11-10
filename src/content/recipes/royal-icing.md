@@ -32,7 +32,7 @@ pairingNotes:
   sugar-cookie: The classic cookie for outlining and flooding.
 ingredients:
   - '3 large pasteurized egg whites, at room temperature'
-  - "1 lb (450 g) confectioners' sugar, sifted"
+  - '1 lb (450 g) confectioners'' sugar, sifted'
   - 1 tsp pure vanilla extract
   - 'gel food coloring, as needed, optional'
   - 'water, as needed for flooding'
@@ -149,9 +149,9 @@ Royal icing is the classic coat for decorated sugar cookies and gingerbread beca
 
 ## Directions
 
-1. **Froth the whites:** Beat large pasteurized egg whites in a clean, grease-free stand mixer bowl on medium-low until foamy but not yet holding peaks, about 1 minute.
-2. **Add the sugar:** Turn the mixer to low and slowly add confectioners' sugar and pure vanilla extract.
+1. **Froth the whites:** Beat the pasteurized egg whites in a clean, grease-free stand mixer bowl on medium-low until foamy but not yet holding peaks, about 1 minute.
+2. **Add the sugar:** Turn the mixer to low and slowly add the confectioners' sugar and vanilla.
 3. **Beat to stiff peaks:** Raise the speed to medium-high and beat until the icing is thick, glossy and holds stiff peaks, 2 to 3 minutes.
-4. **Color the icing:** Divide the icing among small bowls and stir gel food coloring (if using) into each. Press plastic wrap onto the surface of every bowl you aren't using, since the icing crusts quickly.
-5. **Thin for flooding:** Keep some thick icing for outlines. Stir water into the rest a few drops at a time until a ribbon drizzled across the surface sinks back in about 15 seconds.
+4. **Color the icing:** Divide the icing among small bowls and stir the gel food coloring (if using) into each. Press plastic wrap onto the surface of every bowl you aren't using, since the icing crusts quickly.
+5. **Thin for flooding:** Keep some thick icing for outlines. Stir the water into the rest a few drops at a time until a ribbon drizzled across the surface sinks back in about 15 seconds.
 6. **Decorate and dry:** Pipe outlines onto completely cool cookies with the thick icing, then fill the centers with the thinned icing. Let the cookies dry at room temperature until the icing is hard, 6 to 8 hours, before stacking.

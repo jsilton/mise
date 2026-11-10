@@ -29,7 +29,7 @@ ingredients:
   - 2 1/2 cups all-purpose flour
   - 1 tsp baking soda
   - 1 tsp sea salt
-  - 1 1/2 cups M&M's milk chocolate candies
+  - '1 1/2 cups M&M''s milk chocolate candies, divided'
 seasons:
   - year-round
 nutritionalDensity: moderate
@@ -185,11 +185,11 @@ These are Robbi's classic M&M's cookies from Allrecipes, small, chewy and heavy 
 
 ## Directions
 
-1. **Cream the sugars:** Heat the oven to 350°F. In a large bowl, beat vegetable shortening, light brown sugar, and granulated sugar until light and fluffy, about 2 minutes.
-2. **Add the eggs:** Beat in large eggs and pure vanilla extract until smooth.
-3. **Add the dry ingredients:** Whisk all-purpose flour, baking soda, and sea salt in a separate bowl. Stir them into the wet mixture just until no dry flour remains.
-4. **Fold in the candies:** Fold in 2/3 of the M&M's milk chocolate candies, saving the rest for the tops.
+1. **Cream the sugars:** Heat the oven to 350°F. In a large bowl, beat the vegetable shortening, brown sugar, and granulated sugar until light and fluffy, about 2 minutes.
+2. **Add the eggs:** Beat in the eggs and vanilla until smooth.
+3. **Add the dry ingredients:** Whisk the flour, baking soda, and salt in a separate bowl. Stir them into the wet mixture just until no dry flour remains.
+4. **Fold in the candies:** Fold in 1 cup of the M&M's milk chocolate candies, saving the rest for the tops.
 5. **Scoop the dough:** Drop rounded teaspoons of dough onto ungreased baking sheets, about 2 inches apart.
-6. **Top with candies:** Press 1/3 of the M&M's milk chocolate candies into the tops of the dough balls, spreading them evenly across the whole batch.
+6. **Top with candies:** Press the rest of the M&M's milk chocolate candies into the tops of the dough balls, spreading them evenly across the whole batch.
 7. **Bake:** Bake one sheet at a time until the edges are lightly golden and the centers look set but soft, 9 to 11 minutes.
 8. **Cool:** Let the cookies sit on the sheet for 5 minutes, then move them to a rack to cool completely.

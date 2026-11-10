@@ -38,9 +38,9 @@ ingredients:
   - '--- Noodles ---'
   - '1/2 lb baby broccoli, cut into bite-size pieces'
   - 8 oz soba noodles
-  - 2 tsp toasted sesame oil
+  - '2 tsp toasted sesame oil, divided'
   - '--- Stir-fry ---'
-  - 2 tbsp neutral oil
+  - '2 tbsp neutral oil, divided'
   - '1/2 lb extra-firm tofu, patted dry and diced'
   - 1/2 tsp red pepper flakes
   - '6 oz fresh shiitake mushrooms, stems removed, caps sliced'
@@ -279,11 +279,11 @@ A quick stir-fry of buckwheat soba with tofu, shiitakes and baby broccoli in a g
 
 ## Directions
 
-1. **Mix the sauce:** Whisk chicken or vegetable stock, soy sauce, Shaoxing wine, fresh ginger, garlic, sugar, and salt in a small bowl until the sugar dissolves.
-2. **Blanch the broccoli:** Bring a large pot of water to a boil. Add baby broccoli and cook until bright green and crisp-tender, about 1 minute. Scoop it into a bowl of ice water, then drain and pat dry.
-3. **Cook the soba:** Return the water to a boil and cook soba noodles as the package directs until just tender, usually 4 to 5 minutes. Drain, rinse under cold running water for 1 minute and drain well.
-4. **Oil the noodles:** Toss the noodles with 1/2 of the toasted sesame oil so they do not stick.
-5. **Sear the tofu:** Heat a wok or large skillet over medium-high heat. Add 1/2 of the neutral oil and extra-firm tofu and sear the tofu in a single layer, turning, until golden on several sides, 4 to 5 minutes. Move it to a plate.
-6. **Stir-fry the mushrooms:** Add 1/2 of the neutral oil, red pepper flakes, fresh shiitake mushrooms, and scallions to the pan, holding back the scallion greens. Stir-fry until the mushrooms soften and brown at the edges, 2 to 3 minutes.
+1. **Mix the sauce:** Whisk the chicken or vegetable stock, soy sauce, Shaoxing wine, ginger, garlic, sugar, and salt in a small bowl until the sugar dissolves.
+2. **Blanch the broccoli:** Bring a large pot of water to a boil. Add the baby broccoli and cook until bright green and crisp-tender, about 1 minute. Scoop it into a bowl of ice water, then drain and pat dry.
+3. **Cook the soba:** Return the water to a boil and cook the soba noodles as the package directs until just tender, usually 4 to 5 minutes. Drain, rinse under cold running water for 1 minute and drain well.
+4. **Oil the noodles:** Toss the noodles with 1 tsp of the sesame oil so they do not stick.
+5. **Sear the tofu:** Heat a wok or large skillet over medium-high heat. Add the extra-firm tofu and 1 tbsp of the neutral oil and sear the tofu in a single layer, turning, until golden on several sides, 4 to 5 minutes. Move it to a plate.
+6. **Stir-fry the mushrooms:** Add the red pepper flakes, shiitake mushrooms, scallions, and the rest of the neutral oil to the pan, holding back the scallion greens. Stir-fry until the mushrooms soften and brown at the edges, 2 to 3 minutes.
 7. **Toss it together:** Add the broccoli, noodles, tofu and sauce. Lower the heat to medium and toss gently until everything is hot and glossy, 1 to 2 minutes.
-8. **Finish and serve:** Fold in 1/2 of the toasted sesame oil and fresh cilantro along with the scallion greens. Taste for salt and serve right away.
+8. **Finish and serve:** Fold in the cilantro and the rest of the sesame oil along with the scallion greens. Taste for salt and serve right away.

@@ -54,6 +54,7 @@ learning:
     date: '2026-11-09'
 formula:
   version: 1
+  stepText: preserved
   yield:
     amount: 8
     unit: portion

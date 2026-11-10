@@ -223,11 +223,10 @@ Potato latkes are the Hanukkah food of Ashkenazi Jews from Eastern Europe, fried
 
 ## Directions
 
-1. **Grate the potatoes:** Grate russet potatoes and medium yellow onion on the large holes of a box grater into a large bowl, switching between potato and onion as you go. The onion juice keeps the potato from turning gray.
+1. **Grate the potatoes:** Grate the russet potatoes and yellow onion on the large holes of a box grater into a large bowl, switching between potato and onion as you go. The onion juice keeps the potato from turning gray.
 2. **Wring them dry:** Pile the shreds into a clean dish towel. Twist it tight over the bowl and squeeze hard until almost no liquid comes out. Let the liquid settle for 5 minutes, then pour off the water and keep the white starch at the bottom of the bowl.
-3. **Mix the batter:** Return the shreds to the bowl and add large eggs, matzo meal, kosher salt, and black pepper. Mix with a fork until the starch is worked in and the shreds are evenly coated.
-4. **Heat the oil:** Heat the oven to 250°F. Pour neutral oil into a 12-inch cast-iron skillet until it is 1/4 inch deep, and save the rest. Heat over medium-high heat to 350°F. A shred of potato should sizzle hard the moment it goes in.
+3. **Mix the batter:** Return the shreds to the bowl and add the eggs, matzo meal, pepper, and 1 1/2 tsp of the salt. Mix with a fork until the starch is worked in and the shreds are evenly coated.
+4. **Heat the oil:** Heat the oven to 250°F. Pour the oil into a 12-inch cast-iron skillet until it is 1/4 inch deep, and save the rest. Heat over medium-high heat to 350°F. A shred of potato should sizzle hard the moment it goes in.
 5. **Fry the latkes:** Drop heaping spoonfuls of batter into the oil, 5 at a time. Press each one into a round 3 inches wide and 1/2 inch thick. Fry until deep golden brown with dark, lacy edges, 3 to 4 minutes per side.
-6. **Drain and salt:** Move the latkes to a wire rack set over a rimmed baking sheet and sprinkle them with kosher salt right away. Keep them warm in a 250°F oven while you fry the rest, topping up the oil between batches and letting it heat back up.
-7. **Serve:** Serve the latkes hot with applesauce and sour cream.
-
+6. **Drain and salt:** Move the latkes to a wire rack set over a rimmed baking sheet and sprinkle them with the salt right away. Keep them warm in a 250°F oven while you fry the rest, topping up the oil between batches and letting it heat back up.
+7. **Serve:** Serve the latkes hot with the applesauce and sour cream.

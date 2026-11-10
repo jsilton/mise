@@ -175,7 +175,7 @@ This is the everyday French vinaigrette, the jar a home cook keeps in the fridge
 
 ## Directions
 
-1. **Soak the shallot:** Stir shallot, red wine vinegar, and kosher salt together in a jar. Let it sit for 10 minutes so the vinegar softens the shallot and dissolves the salt.
-2. **Add the mustard:** Add Dijon mustard, honey, and black pepper and stir until smooth.
-3. **Shake:** Add extra-virgin olive oil, close the jar and shake hard until the dressing is thick and creamy, about 20 seconds.
+1. **Soak the shallot:** Stir the shallot, red wine vinegar, and salt together in a jar. Let it sit for 10 minutes so the vinegar softens the shallot and dissolves the salt.
+2. **Add the mustard:** Add the Dijon mustard, honey, and pepper and stir until smooth.
+3. **Shake:** Add the olive oil, close the jar and shake hard until the dressing is thick and creamy, about 20 seconds.
 4. **Taste on a leaf:** Dip a lettuce leaf into the dressing and taste it. It should be sharp and well salted on the leaf.

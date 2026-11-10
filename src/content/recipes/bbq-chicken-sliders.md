@@ -241,10 +241,10 @@ Smoky BBQ chicken thighs on sweet Hawaiian rolls make a game-day favorite. A sho
 
 ## Directions
 
-1. **Marinate the chicken:** Toss boneless skinless chicken thighs, 1/3 of the BBQ sauce, olive oil, smoked paprika, garlic powder, kosher salt, and black pepper in a bowl. Cover and refrigerate for at least 30 minutes or up to 4 hours. Keep the rest of the BBQ sauce aside for glazing.
+1. **Marinate the chicken:** Toss the chicken thighs, olive oil, smoked paprika, garlic powder, salt, pepper, and 1/3 cup of the BBQ sauce in a bowl. Cover and refrigerate for at least 30 minutes or up to 4 hours. Keep the rest of the BBQ sauce aside for glazing.
 2. **Broil the thighs:** Set an oven rack 6 inches below the broiler and heat the broiler to high. Lift the thighs from the marinade, shake off the excess and lay them flat on a sheet pan. Broil until charred in spots and 165°F in the thickest part, 6 to 7 minutes per side.
-3. **Glaze the chicken:** Brush the hot thighs with 2/3 of the BBQ sauce.
-4. **Melt the cheese:** Lay sharp cheddar slices over the chicken. Broil until the cheese melts and bubbles, 1 to 2 minutes.
-5. **Rest and slice:** Let the chicken rest for 5 minutes, then slice it into pieces to fit the rolls. While it rests, melt unsalted butter.
-6. **Toast the rolls:** Lay Hawaiian rolls cut side up on a clean sheet pan and brush the cut sides with the butter. Broil until golden, 1 to 2 minutes, watching closely.
-7. **Build the sliders:** Pile the chicken and cheese onto the bottom halves. Add dill pickle chips, crispy fried onions, and more BBQ sauce, cover with the tops and serve while the onions are crisp.
+3. **Glaze the chicken:** Brush the hot thighs with the rest of the BBQ sauce.
+4. **Melt the cheese:** Lay the sharp cheddar slices over the chicken. Broil until the cheese melts and bubbles, 1 to 2 minutes.
+5. **Rest and slice:** Let the chicken rest for 5 minutes, then slice it into pieces to fit the rolls. While it rests, melt the butter.
+6. **Toast the rolls:** Lay the Hawaiian rolls cut side up on a clean sheet pan and brush the cut sides with the butter. Broil until golden, 1 to 2 minutes, watching closely.
+7. **Build the sliders:** Pile the chicken and cheese onto the bottom halves. Add the dill pickle chips, crispy fried onions, and more BBQ sauce, cover with the tops and serve while the onions are crisp.

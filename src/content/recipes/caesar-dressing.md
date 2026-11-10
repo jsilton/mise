@@ -218,7 +218,7 @@ Caesar Cardini made the first Caesar salad at his restaurant in Tijuana, Mexico,
 
 ## Directions
 
-1. **Make the paste:** Chop oil-packed anchovy fillets, garlic clove, and kosher salt together on a cutting board. Drag the flat of the knife over them until they form a smooth paste.
-2. **Start the base:** Scrape the paste into a medium bowl and whisk in large pasteurized egg yolk, fresh lemon juice, Dijon mustard, and Worcestershire sauce.
-3. **Whisk in the oil:** Whisking constantly, add neutral oil and extra-virgin olive oil a few drops at a time at first and then in a thin stream, until the dressing is thick and glossy.
-4. **Finish:** Whisk in Parmigiano Reggiano and black pepper. The dressing coats a romaine leaf without running off.
+1. **Make the paste:** Chop the oil-packed anchovy fillets, garlic, and salt together on a cutting board. Drag the flat of the knife over them until they form a smooth paste.
+2. **Start the base:** Scrape the paste into a medium bowl and whisk in the pasteurized egg yolk, lemon juice, Dijon mustard, and Worcestershire sauce.
+3. **Whisk in the oil:** Whisking constantly, add the neutral oil and olive oil a few drops at a time at first and then in a thin stream, until the dressing is thick and glossy.
+4. **Finish:** Whisk in the Parmigiano Reggiano and pepper. The dressing coats a romaine leaf without running off.

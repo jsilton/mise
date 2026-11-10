@@ -81,7 +81,7 @@ ingredients:
   - '--- Assembly ---'
   - 12 dried lasagna noodles
   - '1/2 cup Parmigiano-Reggiano, finely grated'
-  - '1 lb low-moisture whole-milk mozzarella, shredded'
+  - '1 lb low-moisture whole-milk mozzarella, shredded, divided'
 formula:
   version: 1
   yield:
@@ -417,16 +417,15 @@ This is Italian-American lasagna, the red-sauce kind layered with meat ragù, ri
 
 ## Directions
 
-1. **Soften the vegetables:** Heat olive oil, medium yellow onion, medium carrot, and celery stalk in a Dutch oven over medium heat. Cook, stirring now and then, until the vegetables are soft and pale gold, about 8 minutes.
-2. **Brown the meat:** Turn the heat to medium-high. Add ground beef (85% lean), ground pork, kosher salt, and black pepper. Cook, breaking the meat into small pieces, until no pink remains and browned bits stick to the pot, 8 to 10 minutes.
-3. **Add the milk:** Lower the heat to medium. Pour in whole milk and simmer, stirring, until the meat has absorbed it, about 5 minutes.
-4. **Toast the paste:** Stir in garlic cloves, tomato paste, and dried oregano. Cook, stirring, until the tomato paste darkens to brick red, about 2 minutes.
-5. **Reduce the wine:** Pour in dry red wine and scrape up the browned bits. Simmer until the wine has almost cooked away, about 4 minutes.
-6. **Simmer the ragù:** Add whole peeled DOP San Marzano tomatoes. Bring to a simmer, then lower the heat and cook partly covered, stirring now and then, until a spoon dragged across the bottom of the pot leaves a trail, about 45 minutes.
-7. **Mix the filling:** While the ragù simmers, stir whole-milk ricotta, large egg, Parmigiano-Reggiano, fresh flat-leaf parsley, kosher salt, and ground nutmeg together in a medium bowl.
-8. **Boil the noodles:** Bring a large pot of well-salted water to a boil. Cook dried lasagna noodles for 2 minutes less than the package says. Drain, then lay the noodles flat on an oiled baking sheet so they do not stick together.
-9. **Build the layers:** Heat the oven to 375°F. Spread a thin layer of ragù over the bottom of a deep 9-by-13-inch baking dish. Cover it with 3 noodles, a third of the ricotta filling, a generous layer of ragù and a handful of mozzarella. Repeat twice more, using 3/4 of the low-moisture whole-milk mozzarella in all and saving enough ragù to cover the top.
-10. **Top the lasagna:** Lay the last 3 noodles on top and cover them to the edges with the rest of the ragù. Scatter Parmigiano-Reggiano and 1/4 of the low-moisture whole-milk mozzarella over the top.
+1. **Soften the vegetables:** Heat the olive oil, yellow onion, carrot, and celery in a Dutch oven over medium heat. Cook, stirring now and then, until the vegetables are soft and pale gold, about 8 minutes.
+2. **Brown the meat:** Turn the heat to medium-high. Add the ground beef, ground pork, pepper, and 2 tsp of the salt. Cook, breaking the meat into small pieces, until no pink remains and browned bits stick to the pot, 8 to 10 minutes.
+3. **Add the milk:** Lower the heat to medium. Pour in the whole milk and simmer, stirring, until the meat has absorbed it, about 5 minutes.
+4. **Toast the paste:** Stir in the garlic, tomato paste, and oregano. Cook, stirring, until the tomato paste darkens to brick red, about 2 minutes.
+5. **Reduce the wine:** Pour in the dry red wine and scrape up the browned bits. Simmer until the wine has almost cooked away, about 4 minutes.
+6. **Simmer the ragù:** Add the DOP San Marzano tomatoes. Bring to a simmer, then lower the heat and cook partly covered, stirring now and then, until a spoon dragged across the bottom of the pot leaves a trail, about 45 minutes.
+7. **Mix the filling:** While the ragù simmers, stir the ricotta, egg, flat-leaf parsley, nutmeg, 1/2 cup of the Parmigiano-Reggiano, and 1/2 tsp of the salt together in a medium bowl.
+8. **Boil the noodles:** Bring a large pot of well-salted water to a boil. Cook the dried lasagna noodles for 2 minutes less than the package says. Drain, then lay the noodles flat on an oiled baking sheet so they do not stick together.
+9. **Build the layers:** Heat the oven to 375°F. Spread a thin layer of ragù over the bottom of a deep 9-by-13-inch baking dish. Cover it with 3 noodles, a third of the ricotta filling, a generous layer of ragù and a handful of mozzarella. Repeat twice more, using 3/4 lb of the low-moisture whole-milk mozzarella in all and saving enough ragù to cover the top.
+10. **Top the lasagna:** Lay the last 3 noodles on top and cover them to the edges with the rest of the ragù. Scatter 1/2 cup of the Parmigiano-Reggiano and the rest of the low-moisture whole-milk mozzarella over the top.
 11. **Bake:** Set the dish on a rimmed baking sheet. Cover it with oiled foil and bake for 25 minutes. Take off the foil and bake until the sauce bubbles at the edges and the cheese is browned in spots, 20 to 25 minutes more.
 12. **Rest:** Rest the lasagna for 20 minutes before cutting so the layers set and the slices hold.
-

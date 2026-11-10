@@ -121,7 +121,9 @@ for (const row of confirmed) {
           assert.deepEqual(ingredient.uses, [{ step: 'eggs', share: 1 }]);
           for (const factor of factors) {
             const scaled = formatFormulaIngredient(ingredient, factor);
-            assert.equal(numeric(scaled.match(number)[0]), amount * factor);
+            // Whole eggs print to the nearest half. Yolks keep their exact fraction.
+            const printed = numeric(scaled.match(number)[0]);
+            assert.ok(Math.abs(printed - amount * factor) <= (id === 'eggs' ? 0.25 : 0), scaled);
           }
         }
       } else if (
@@ -151,7 +153,7 @@ for (const row of confirmed) {
         for (const factor of factors) {
           const scaled = formatFormulaIngredient(ingredient, factor);
           assert.deepEqual(
-            [...scaled.matchAll(number)].map((m) => numeric(m[0])),
+            measures(scaled, ingredient.quantity.unit),
             [(asparagus ? 1 : 12) * factor],
             'the only quantity on the line scales'
           );
@@ -194,7 +196,7 @@ for (const row of confirmed) {
         for (const factor of factors) {
           const scaled = formatFormulaIngredient(ingredient, factor);
           assert.deepEqual(
-            [...scaled.matchAll(number)].map((m) => numeric(m[0])),
+            measures(scaled, ingredient.quantity.unit),
             ginger ? [factor, 2] : [2 * factor]
           );
         }
@@ -240,7 +242,7 @@ for (const row of confirmed) {
         for (const factor of factors) {
           const scaled = formatFormulaIngredient(replacement, factor);
           assert.deepEqual(
-            [...scaled.matchAll(number)].map((m) => numeric(m[0])),
+            measures(scaled, replacement.quantity.unit),
             [(quesadilla ? 2 : 1) * factor],
             'no fixed fruit count sits beside the scaled measure'
           );
@@ -306,7 +308,7 @@ for (const row of confirmed) {
         for (const factor of factors) {
           const scaled = formatFormulaIngredient(ingredient, factor);
           assert.deepEqual(
-            [...scaled.matchAll(number)].map((m) => numeric(m[0])),
+            measures(scaled, 'lb'),
             chicken ? [8 * factor, 2.5 * factor] : [2 * factor]
           );
           if (factor === 1) assert.equal(scaled, formatFormulaIngredient(ingredient));
@@ -386,8 +388,9 @@ for (const row of confirmed) {
         for (const goat of goats)
           assert.ok(data.ingredients.includes(formatFormulaIngredient(goat)));
         for (const factor of factors) {
+          // A pound or more of cheese prints in pounds, so read it back in ounces.
           assert.deepEqual(
-            goats.map((goat) => numeric(formatFormulaIngredient(goat, factor).match(number)[0])),
+            goats.map((goat) => measures(formatFormulaIngredient(goat, factor), 'oz')[0]),
             [4 * factor, 8 * factor]
           );
         }
@@ -406,7 +409,7 @@ for (const row of confirmed) {
         assert.ok(data.ingredients.includes(formatFormulaIngredient(ingredient)));
         for (const factor of factors) {
           const output = formatFormulaIngredient(ingredient, factor);
-          assert.equal(numeric(output.match(number)[0]), 3 * factor);
+          assert.equal(measures(output, 'tbsp')[0], 3 * factor);
           if (factor === 1) assert.equal(output, formatFormulaIngredient(ingredient));
         }
         const swap = data.learning.substitutions.find((x) => x.ingredient === 'Mexican crema');
@@ -417,9 +420,10 @@ for (const row of confirmed) {
         // The family original restores 12 oz (3 sticks): half in the pudding, half
         // for the pan and topping. The 8 oz split now lives in the Suggested Tweak.
         assert.equal(data.formula?.version, 1);
-        const butter = data.formula.components
-          .find((c) => c.id === 'pudding')
-          .ingredients.find((i) => i.id === 'butter');
+        // A family recipe is compiled with stepText: preserved, so its divided butter keeps
+        // the list line it was written with.
+        assert.equal(data.formula.stepText, 'preserved');
+        const butter = formulaEntries(data.formula).find((i) => i.id === 'pudding.butter');
         assert.deepEqual(butter.quantity, { amount: 12, unit: 'oz' });
         assert.deepEqual(butter.equivalents, [{ amount: 3, unit: 'stick' }]);
         assert.deepEqual(butter.uses, [
@@ -430,10 +434,8 @@ for (const row of confirmed) {
         assert.match(fs.readFileSync(sourcePath, 'utf8'), /Use 8 oz butter instead of 12 oz/);
         for (const factor of factors) {
           const output = formatFormulaIngredient(butter, factor);
-          assert.deepEqual(
-            [...output.matchAll(number)].map((m) => numeric(m[0])),
-            [12 * factor, 3 * factor]
-          );
+          // 24 oz prints as "1 1/2 lb", read back here in ounces.
+          assert.deepEqual(measures(output, 'oz'), [12 * factor, 3 * factor]);
           assert.deepEqual(
             butter.uses.map(({ share }) => numeric(share) * 12 * factor),
             [6 * factor, 6 * factor]
@@ -624,31 +626,7 @@ for (const row of confirmed) {
             data.ingredients.includes(live.input),
             'current authored batch measure remains'
           );
-          for (const factor of factors) {
-            const output = scaleIngredient(live.input, factor);
-            const actual = [...output.matchAll(number)].map((m) => numeric(m[0]));
-            const expected = live.amounts.map(
-              (amount, index) => amount * (live.scales[index] ? factor : 1)
-            );
-            assert.equal(actual.length, expected.length);
-            expected.forEach((value, index) => {
-              assert.ok(
-                Math.abs(actual[index] - value) <= 0.005001,
-                factor +
-                  'x live quantity ' +
-                  index +
-                  ': expected ' +
-                  value +
-                  ', got ' +
-                  actual[index] +
-                  ': ' +
-                  output
-              );
-            });
-            assert.match(output, live.qualifier);
-            if (factor === 1)
-              assert.equal(output, live.input, 'reset restores exact live ingredient');
-          }
+          checkScaled(live.input, live.amounts, live.scales);
         }
       } else if (row.slug === 'honey-glazed-spareribs' && row.caseId === 38) {
         // Preserve the original compound parser fixture and every numeric oracle below.
@@ -707,9 +685,10 @@ for (const row of confirmed) {
             unit: row.caseId === 64 ? 'tbsp' : 'oz',
           });
           for (const factor of factors)
-            assert.equal(
-              numeric(formatFormulaIngredient(ingredient, factor).match(number)[0]),
-              numeric(String(amount)) * factor
+            near(
+              measures(formatFormulaIngredient(ingredient, factor), ingredient.quantity.unit)[0],
+              numeric(String(amount)) * factor,
+              ingredient.quantity.unit
             );
         }
       } else if (row.slug === 'dashi-japanese-sea-stock' && row.caseId === 28) {
@@ -737,11 +716,9 @@ for (const row of confirmed) {
         assert.ok(!data.ingredients.includes(component.input));
         for (const factor of factors) {
           const scaled = scaleIngredient(live, factor);
-          assert.deepEqual(
-            [...scaled.matchAll(number)].map((m) => numeric(m[0])),
-            [1.5 * factor],
-            'the teaspoon measure scales'
-          );
+          // 3/8 tsp prints as "scant 1/2 tsp", the nearest spoon a cook has.
+          assert.equal(measures(scaled, 'tsp').length, 1);
+          near(measures(scaled, 'tsp')[0], 1.5 * factor, 'tsp');
           if (factor === 1) assert.equal(scaled, live, 'reset restores the exact live ingredient');
         }
       } else if (row.slug === 'chinese-garlic-sauce-base' && row.caseId === 15) {
@@ -789,27 +766,119 @@ for (const row of confirmed) {
   });
 }
 
+// Scaled amounts are rounded to kitchen measures, and a small measure steps down a
+// unit (cup to tbsp to tsp, then a pinch). The oracle below is still independent source
+// arithmetic: it reads each printed amount back into the authored unit and allows half of
+// the smallest step a cook can measure in that unit.
+const families = [
+  { cup: 1, cups: 1, tbsp: 1 / 16, tsp: 1 / 48 },
+  { lb: 1, lbs: 1, oz: 1 / 16 },
+  { kg: 1, g: 1 / 1000 },
+];
+const measure =
+  /(\d+\s+\d+\/\d+|\d+\/\d+|\d+(?:\.\d+)?)(?:\s*(cups?|tbsp|tsp|lbs?|oz|kg|g|ml)\b)?|\ba pinch\b/g;
+function readQuantities(text) {
+  const found = [...text.matchAll(measure)].map((match) => ({
+    value: match[1] ? numeric(match[1]) : 1 / 16,
+    unit: match[1] ? match[2] : 'tsp',
+    index: match.index,
+    end: match.index + match[0].length,
+  }));
+  // The first number of a range such as "10–12 oz" shares the unit after the second.
+  found.forEach((q, i) => {
+    const next = found[i + 1];
+    if (!q.unit && next && /^\s*(?:[–-]|to)\s*$/.test(text.slice(q.end, next.index)))
+      q.unit = next.unit;
+  });
+  return found;
+}
+const family = (unit) => families.find((f) => unit in f);
+// "1 cup plus 1 tbsp" is one amount, printed in two measures.
+function mergeSplitMeasures(text, quantities) {
+  const merged = [];
+  for (const q of quantities) {
+    const last = merged.at(-1);
+    if (
+      last &&
+      text.slice(last.end, q.index) === ' plus ' &&
+      family(last.unit) &&
+      family(last.unit) === family(q.unit)
+    ) {
+      last.value += (q.value * family(q.unit)[q.unit]) / family(last.unit)[last.unit];
+      last.end = q.end;
+    } else merged.push({ ...q });
+  }
+  return merged;
+}
+// The printed amounts of a line, each read back into `unit` when it was stepped down
+// (1/2 tbsp prints as 1 1/2 tsp). Amounts in other units come back as printed.
+function measures(text, unit) {
+  const table = family(unit || '');
+  let found = readQuantities(text);
+  if (table) found = mergeSplitMeasures(text, found);
+  return found.map((q) =>
+    table && q.unit in table
+      ? Math.round(((q.value * table[q.unit]) / table[unit]) * 1e6) / 1e6
+      : q.value
+  );
+}
+// No spoon measures 3/8, 5/8 or 7/8 tsp and no jigger measures those ounces. They print as a
+// scant or heaping measure of the nearest spoon, or go to the nearest quarter above one unit,
+// so a teaspoon or small-ounce amount may sit 1/8 from the exact value.
+function near(actual, expected, unit) {
+  assert.ok(
+    Math.abs(actual - expected) <= allowance(expected, unit, '') + 1e-9,
+    `expected ${expected} ${unit}, got ${actual}`
+  );
+}
+function allowance(value, unit, text) {
+  const exact = value < 0.1 ? 0.000051 : 0.005001;
+  if (unit === 'tsp') return Math.max(exact, 1 / 8);
+  if (unit === 'tbsp') return Math.max(exact, value < 4 ? 1 / 12 : 1 / 4);
+  if (/^cups?$/.test(unit || '')) return Math.max(exact, value < 4 ? 1 / 32 : 1 / 8);
+  if (unit === 'g' || unit === 'ml')
+    return Math.max(exact, value < 20 ? 0.25 : value < 100 ? 0.5 : 2.5);
+  if (unit === 'oz') return Math.max(exact, value < 16 ? 1 / 8 : 1 / 4);
+  if (/^lbs?$/.test(unit || '')) return Math.max(exact, value < 1 ? 1 / 128 : 1 / 8);
+  // Whole eggs go to the nearest half.
+  const wholeEgg =
+    /^[\d\s/]+(?:(?:small|medium|large|whole|pasteurized)\s+)*eggs?\b(?!\s+(?:whites?|yolks?))/i;
+  if (!unit && wholeEgg.test(text)) return 0.25;
+  return exact;
+}
 function assertScales({ input, quantities }) {
   const authored = [...input.matchAll(number)].map((match) => match[0]);
   assert.deepEqual(
     authored,
     quantities.map((quantity) => quantity.amount)
   );
+  checkScaled(
+    input,
+    quantities.map((quantity) => numeric(quantity.amount)),
+    quantities.map((quantity) => quantity.scales)
+  );
+}
+function checkScaled(input, amounts, scales) {
+  const source = readQuantities(input);
   for (const factor of factors) {
     const output = scaleIngredient(input, factor);
     if (factor === 1) assert.equal(output, input, 'reset restores exact source');
-    const actual = [...output.matchAll(number)].map((match) => numeric(match[0]));
-    const expected = quantities.map(
-      ({ amount, scales }) => numeric(amount) * (scales ? factor : 1)
-    );
-    assert.equal(actual.length, expected.length, `${factor}x: quantity count changed: ${output}`);
+    if (!/\d\.\d/.test(input)) assert.doesNotMatch(output, /\d\.\d/, 'no decimal amounts');
+    const expected = amounts.map((amount, index) => amount * (scales[index] ? factor : 1));
+    let printed = readQuantities(output);
+    if (printed.length !== expected.length) printed = mergeSplitMeasures(output, printed);
+    assert.equal(printed.length, expected.length, `${factor}x: quantity count changed: ${output}`);
     expected.forEach((value, index) => {
-      // The existing display formatter rounds non-kitchen fractions to 2 decimals
-      // (4 below 0.1). The oracle is independently specified source arithmetic.
-      const tolerance = value < 0.1 ? 0.000051 : 0.005001;
+      const unit = source[index].unit;
+      const got = printed[index];
+      const table = family(unit || '');
+      const converts = table && got.unit in table;
+      const actual = converts ? (got.value * table[got.unit]) / table[unit] : got.value;
+      if (!converts)
+        assert.equal(got.unit, unit, `${factor}x quantity ${index}: unit changed: ${output}`);
       assert.ok(
-        Math.abs(actual[index] - value) <= tolerance,
-        `${factor}x quantity ${index}: expected ${value}, got ${actual[index]}: ${output}`
+        Math.abs(actual - value) <= allowance(value, unit, input) + 1e-9,
+        `${factor}x quantity ${index}: expected ${value} ${unit || ''}, got ${actual}: ${output}`
       );
     });
   }

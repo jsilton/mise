@@ -310,13 +310,13 @@ Caponata is Sicily's sweet and sour eggplant dish, made here from the regional r
 
 ## Directions
 
-1. **Salt the eggplant:** Toss eggplant and coarse sea salt in a colander set over a bowl, using enough salt to lightly coat the cubes. Let them drain for 1 hour while you cook the other vegetables.
-2. **Blanch the celery:** Bring a pot of salted water to a boil. Add celery stalks and cook until just starting to soften, about 5 minutes. Drain and spread on a towel to dry.
-3. **Soften the onions:** Warm extra-virgin olive oil and white onions in a wide sauté pan over medium-low heat. Cook, stirring now and then, until the onions are soft and translucent, about 10 minutes.
-4. **Add the olives and capers:** Add pitted green olives, salt-packed capers, and pine nuts. Cook over medium heat, stirring so nothing sticks, for 10 minutes.
-5. **Simmer the tomatoes:** Add ripe tomatoes and simmer, stirring now and then, until they break down into a thick sauce with the onions, about 20 minutes.
-6. **Sauté the celery:** Heat extra-virgin olive oil in a skillet over medium-high heat. Add the blanched celery and cook, stirring, until lightly golden, about 5 minutes.
-7. **Fry the eggplant:** Rinse the eggplant quickly under cold water. Squeeze it gently and pat it completely dry. Heat sunflower or canola oil in a heavy frying pan over medium-high heat until a cube sizzles steadily, about 350°F. Fry the eggplant in batches, turning, until golden and tender, 4 to 5 minutes per batch. Drain on paper towels.
+1. **Salt the eggplant:** Toss the eggplant and salt in a colander set over a bowl, using enough salt to lightly coat the cubes. Let them drain for 1 hour while you cook the other vegetables.
+2. **Blanch the celery:** Bring a pot of salted water to a boil. Add the celery and cook until just starting to soften, about 5 minutes. Drain and spread on a towel to dry.
+3. **Soften the onions:** Warm the olive oil and white onions in a wide sauté pan over medium-low heat. Cook, stirring now and then, until the onions are soft and translucent, about 10 minutes.
+4. **Add the olives and capers:** Add the pitted green olives, salt-packed capers, and pine nuts. Cook over medium heat, stirring so nothing sticks, for 10 minutes.
+5. **Simmer the tomatoes:** Add the tomatoes and simmer, stirring now and then, until they break down into a thick sauce with the onions, about 20 minutes.
+6. **Sauté the celery:** Heat the olive oil in a skillet over medium-high heat. Add the blanched celery and cook, stirring, until lightly golden, about 5 minutes.
+7. **Fry the eggplant:** Rinse the eggplant quickly under cold water. Squeeze it gently and pat it completely dry. Heat the sunflower or canola oil in a heavy frying pan over medium-high heat until a cube sizzles steadily, about 350°F. Fry the eggplant in batches, turning, until golden and tender, 4 to 5 minutes per batch. Drain on paper towels.
 8. **Fold it together:** Add the eggplant and celery to the tomato sauce. Fold gently over medium heat until hot, 3 to 4 minutes, keeping the cubes whole.
-9. **Add the sweet and sour:** Add white wine vinegar and sugar and stir gently until the sugar dissolves and the sharp smell of the vinegar mellows, 2 to 3 minutes. Taste and add salt only if it needs it.
-10. **Finish with basil:** Take the pan off the heat and tear in fresh basil leaves. Serve warm or at room temperature.
+9. **Add the sweet and sour:** Add the white wine vinegar and sugar and stir gently until the sugar dissolves and the sharp smell of the vinegar mellows, 2 to 3 minutes. Taste and add salt only if it needs it.
+10. **Finish with basil:** Take the pan off the heat and tear in the basil. Serve warm or at room temperature.

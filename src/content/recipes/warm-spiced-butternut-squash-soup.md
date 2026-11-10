@@ -32,7 +32,7 @@ pairingNotes:
 ingredients:
   - '--- Soup ---'
   - '4 lb butternut squash, peeled and seeded, peels and seeds saved, flesh cut into 1-inch cubes'
-  - 1/4 cup extra-virgin olive oil
+  - '1/4 cup extra-virgin olive oil, divided'
   - 7 cups water
   - 1/2 tsp whole allspice
   - 1/2 tsp whole black peppercorns
@@ -284,11 +284,11 @@ The broth for this soup comes from the squash itself. Its peels and seeds are br
 
 ## Directions
 
-1. **Brown the scraps:** Warm 1/4 of the extra-virgin olive oil in a large Dutch oven over medium-high heat. Add the squash peels, seeds and trimmings. Cook, stirring, until lightly browned, about 8 minutes.
-2. **Make the broth:** Add water, whole allspice, whole black peppercorns, fresh thyme sprigs, whole cloves, cinnamon stick, and star anise pod. Bring to a boil, then cover and simmer gently for 45 minutes. Strain the broth into a large bowl and discard the solids.
-3. **Soften the onion:** Wipe out the pot. Warm 3/4 of the extra-virgin olive oil and yellow onion over medium heat. Cover and cook, stirring now and then, until the onion is soft, about 5 minutes.
+1. **Brown the scraps:** Warm 1 tbsp of the olive oil in a large Dutch oven over medium-high heat. Add the squash peels, seeds and trimmings. Cook, stirring, until lightly browned, about 8 minutes.
+2. **Make the broth:** Add the water, allspice, black peppercorns, thyme, whole cloves, cinnamon stick, and star anise pod. Bring to a boil, then cover and simmer gently for 45 minutes. Strain the broth into a large bowl and discard the solids.
+3. **Soften the onion:** Wipe out the pot. Warm the yellow onion and the rest of the olive oil over medium heat. Cover and cook, stirring now and then, until the onion is soft, about 5 minutes.
 4. **Brown the squash:** Add the cubed butternut squash. Cook uncovered, stirring often, until the edges start to brown, about 10 minutes.
-5. **Simmer the soup:** Pour in all the strained broth and add kosher salt. Bring to a boil, then cover and simmer until the squash is very tender and collapses under a spoon, about 40 minutes.
+5. **Simmer the soup:** Pour in all the strained broth and add 2 1/2 tsp of the salt. Bring to a boil, then cover and simmer until the squash is very tender and collapses under a spoon, about 40 minutes.
 6. **Blend:** Take the pot off the heat and blend with an immersion blender until completely smooth.
-7. **Season the soup:** Stir in cider vinegar, crushed red pepper, and kosher salt, adding the salt a little at a time and tasting until the soup tastes bright and full.
-8. **Garnish and serve:** Ladle into bowls and scatter with pomegranate arils and fresh cilantro.
+7. **Season the soup:** Stir in the cider vinegar, crushed red pepper, and salt, adding the salt a little at a time and tasting until the soup tastes bright and full.
+8. **Garnish and serve:** Ladle into bowls and scatter with the pomegranate arils and cilantro.

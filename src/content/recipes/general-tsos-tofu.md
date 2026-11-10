@@ -336,11 +336,11 @@ The Woks of Life gives tofu the General Tso's treatment. A coating of honey, hot
 
 ## Directions
 
-1. **Coat the tofu:** In a large bowl, gently toss extra-firm tofu, honey, vinegar-based hot sauce, sesame seeds, and cornstarch until the tofu is lightly and evenly coated.
-2. **Fry the tofu:** Heat peanut oil in a large skillet over medium-high heat to 350°F. Fry the tofu in a single layer, in batches, turning once, until golden and crisp, 4 to 5 minutes per batch. Move it to a plate.
-3. **Cook the aromatics:** Pour off all but a spoonful of the oil and turn the heat to medium. Add fresh ginger, garlic cloves, and dried Chinese red chilies and stir until fragrant, about 30 seconds.
-4. **Add the pepper:** Add red bell pepper and Shaoxing wine (if using) and stir-fry until the pepper just softens, about 1 minute.
-5. **Steam the broccoli:** Pour in vegetable stock and broccoli florets and bring to a boil. Cover and steam until the broccoli is bright green and tender-crisp, about 2 minutes.
-6. **Season the sauce:** Stir in light soy sauce, dark soy sauce, rice vinegar, sugar, salt, and toasted sesame oil and bring the sauce back to a boil.
-7. **Thicken the sauce:** Stir cornstarch and cold water together in a small cup and pour it into the boiling sauce while stirring. Simmer until the sauce is glossy and coats a spoon, 30 to 60 seconds.
+1. **Coat the tofu:** In a large bowl, gently toss the extra-firm tofu, honey, vinegar-based hot sauce, sesame seeds, and 3 tbsp of the cornstarch until the tofu is lightly and evenly coated.
+2. **Fry the tofu:** Heat the peanut oil in a large skillet over medium-high heat to 350°F. Fry the tofu in a single layer, in batches, turning once, until golden and crisp, 4 to 5 minutes per batch. Move it to a plate.
+3. **Cook the aromatics:** Pour off all but a spoonful of the oil and turn the heat to medium. Add the ginger, garlic, and dried Chinese red chilies and stir until fragrant, about 30 seconds.
+4. **Add the pepper:** Add the red bell pepper and Shaoxing wine (if using) and stir-fry until the pepper just softens, about 1 minute.
+5. **Steam the broccoli:** Pour in the vegetable stock and broccoli florets and bring to a boil. Cover and steam until the broccoli is bright green and tender-crisp, about 2 minutes.
+6. **Season the sauce:** Stir in the light soy sauce, dark soy sauce, rice vinegar, sugar, salt, and sesame oil and bring the sauce back to a boil.
+7. **Thicken the sauce:** Stir the cold water and 1 tbsp of the cornstarch together in a small cup and pour it into the boiling sauce while stirring. Simmer until the sauce is glossy and coats a spoon, 30 to 60 seconds.
 8. **Glaze and serve:** Return the tofu to the pan and fold gently until coated, about 30 seconds. Serve right away.

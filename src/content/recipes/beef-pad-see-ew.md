@@ -164,8 +164,10 @@ formula:
               share: 0.25
             - step: vegetables
               share: 0.25
+              lead: true
             - step: egg
               share: 0.5
+              lead: true
           preparation: divided
         - id: garlic
           key: garlic
@@ -278,12 +280,12 @@ Pad see ew is Thai street food: wide rice noodles seared in a hot wok with Chine
 
 ## Directions
 
-1. **Marinate the beef:** Toss flank steak, soy sauce, vegetable oil, and cornstarch in a bowl until the beef is coated. Let it sit while you prepare everything else.
-2. **Mix the sauce:** In a small bowl, stir oyster sauce, sugar, Thai thin soy sauce or light soy sauce, Thai black soy sauce, fish sauce, and ground white pepper until the sugar dissolves.
-3. **Loosen the noodles:** If fresh wide rice noodles are cold and stiff, rinse them briefly under hot water. Separate them gently into ribbons and drain well.
-4. **Sear the beef:** Heat 1/4 of the vegetable oil in a wok over high heat until it shimmers. Spread the beef in a single layer and sear until browned, about 1 minute per side. Move it to a plate.
-5. **Cook the gai lan:** Add 1/4 of the vegetable oil, garlic cloves, and Chinese broccoli (gai lan) to the wok. Stir-fry until the stems are bright green and just tender, 2 to 3 minutes. If the stems are still tough, add a splash of water and cover for 1 minute.
+1. **Marinate the beef:** Toss the flank steak, soy sauce, cornstarch, and 1 tsp of the vegetable oil in a bowl until the beef is coated. Let it sit while you prepare everything else.
+2. **Mix the sauce:** In a small bowl, stir the oyster sauce, sugar, Thai thin soy sauce or light soy sauce, Thai black soy sauce, fish sauce, and white pepper until the sugar dissolves.
+3. **Loosen the noodles:** If the wide rice noodles are cold and stiff, rinse them briefly under hot water. Separate them gently into ribbons and drain well.
+4. **Sear the beef:** Heat 1 tbsp of the vegetable oil in a wok over high heat until it shimmers. Spread the beef in a single layer and sear until browned, about 1 minute per side. Move it to a plate.
+5. **Cook the gai lan:** Add 1 tbsp of the vegetable oil, the garlic, and Chinese broccoli to the wok. Stir-fry until the stems are bright green and just tender, 2 to 3 minutes. If the stems are still tough, add a splash of water and cover for 1 minute.
 6. **Sear the noodles:** Add the noodles and the sauce and spread them out. Let them sit until they char in spots, about 30 seconds, then fold gently. Repeat for 2 to 3 minutes.
-7. **Scramble the eggs:** Push the noodles to one side. Add 1/2 of the vegetable oil and large eggs to the empty side and scramble until just set, about 1 minute. Fold the egg through the noodles.
+7. **Scramble the eggs:** Push the noodles to one side. Add 2 tbsp of the vegetable oil and the eggs to the empty side and scramble until just set, about 1 minute. Fold the egg through the noodles.
 8. **Return the beef:** Return the beef and its juices and toss until everything is hot, about 1 minute.
-9. **Serve:** Serve hot, with chili oil (if using) at the table.
+9. **Serve:** Serve hot, with the chili oil (if using) at the table.

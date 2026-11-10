@@ -224,10 +224,10 @@ Sweet cherries and tawny port make a glossy sauce for rosy duck breast, with hon
 
 ## Directions
 
-1. **Score and season:** Pat the duck breasts dry. Cut a shallow crosshatch through the skin and fat of each breast without reaching the meat. Season both sides with kosher salt and black pepper.
-2. **Render the skin:** Lay duck breasts skin-side down in a cold, heavy skillet with space between them. Set it over medium-low heat and press lightly with a spatula for the first few minutes. Cook at a gentle bubble until the skin is deep golden and crisp, 15 to 20 minutes. Pour the fat into a heatproof bowl as it builds up.
+1. **Score and season:** Pat the duck breasts dry. Cut a shallow crosshatch through the skin and fat of each breast without reaching the meat. Season both sides with the salt and pepper.
+2. **Render the skin:** Lay the duck breasts skin-side down in a cold, heavy skillet with space between them. Set it over medium-low heat and press lightly with a spatula for the first few minutes. Cook at a gentle bubble until the skin is deep golden and crisp, 15 to 20 minutes. Pour the fat into a heatproof bowl as it builds up.
 3. **Finish the meat:** Turn the breasts and cook over medium heat until the thickest part reaches 130 to 135°F for medium-rare, 2 to 4 minutes. Move them to a plate, skin-side up, and rest for 10 minutes while you make the sauce.
-4. **Soften the onion:** Pour off all but a thin film of fat from the skillet. Add onion and cook over medium heat, scraping up the browned bits, until soft, about 3 minutes.
-5. **Reduce the sauce:** Take the pan off the heat and add low-sodium chicken broth, sweet cherries, tawny port, and honey. Return it to the heat and simmer briskly, stirring, until the cherries are soft and the liquid lightly coats a spoon, 3 to 5 minutes.
-6. **Finish with butter:** Take the pan off the heat. Swirl in unsalted butter a few cubes at a time until the sauce is glossy. Season with salt and pepper to taste. Don't let it boil again.
+4. **Soften the onion:** Pour off all but a thin film of fat from the skillet. Add the onion and cook over medium heat, scraping up the browned bits, until soft, about 3 minutes.
+5. **Reduce the sauce:** Take the pan off the heat and add the chicken broth, sweet cherries, tawny port, and honey. Return it to the heat and simmer briskly, stirring, until the cherries are soft and the liquid lightly coats a spoon, 3 to 5 minutes.
+6. **Finish with butter:** Take the pan off the heat. Swirl in the butter a few cubes at a time until the sauce is glossy. Season with salt and pepper to taste. Don't let it boil again.
 7. **Slice and serve:** Slice the duck across the grain. Spoon the sauce beside or under the slices so the skin stays crisp.

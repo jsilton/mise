@@ -162,6 +162,6 @@ Overnight oats are a cousin of Bircher muesli, the Swiss soaked oats from around
 
 ## Directions
 
-1. **Mix the oats:** Stir old-fashioned rolled oats, milk, plain Greek yogurt, chia seeds, maple syrup or honey, vanilla extract, and kosher salt together in a jar or container with a lid. Make sure the chia is mixed all the way through, or it will clump on top.
+1. **Mix the oats:** Stir the oats, milk, Greek yogurt, chia seeds, maple syrup or honey, vanilla, and salt together in a jar or container with a lid. Make sure the chia is mixed all the way through, or it will clump on top.
 2. **Soak overnight:** Cover and refrigerate for at least 4 hours, or overnight, until the oats are soft and creamy.
-3. **Top and serve:** Stir well and loosen with a splash of milk if it is too thick. Top with fresh fruit, nut butter, granola or toasted nuts. Eat it cold, or warm it in a microwave-safe bowl for 1 to 2 minutes, stirring halfway.
+3. **Top and serve:** Stir well and loosen with a splash of milk if it is too thick. Top with the fruit, nut butter, granola or toasted nuts. Eat it cold, or warm it in a microwave-safe bowl for 1 to 2 minutes, stirring halfway.

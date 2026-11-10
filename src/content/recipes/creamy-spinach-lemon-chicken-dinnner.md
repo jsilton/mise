@@ -202,11 +202,11 @@ Thin chicken cutlets get a quick golden sear, then finish in a garlicky oregano 
 
 ## Directions
 
-1. **Cut the cutlets:** Slice large boneless skinless chicken breasts in half horizontally to make thin cutlets. Pound any thick spots with a rolling pin to an even 1/2 inch.
-2. **Sear the chicken:** Season both sides of the cutlets with kosher salt and black pepper. Heat half the olive oil in a 12-inch skillet over medium-high heat. Sear the cutlets in two batches until golden, 2 to 3 minutes per side, then move them to a plate. They finish cooking in the sauce.
-3. **Bloom the garlic:** Lower the heat to medium. Add the remaining olive oil, garlic cloves, and dried oregano to the pan. Stir until fragrant, 30 to 45 seconds, without letting the garlic brown.
-4. **Wilt the spinach:** Add low-sodium chicken broth and baby spinach and scrape up the browned bits. Stir as the spinach wilts down, about 2 minutes, then bring to a gentle simmer.
+1. **Cut the cutlets:** Slice the chicken breasts in half horizontally to make thin cutlets. Pound any thick spots with a rolling pin to an even 1/2 inch.
+2. **Sear the chicken:** Season both sides of the cutlets with the salt and pepper. Heat half the olive oil in a 12-inch skillet over medium-high heat. Sear the cutlets in two batches until golden, 2 to 3 minutes per side, then move them to a plate. They finish cooking in the sauce.
+3. **Bloom the garlic:** Lower the heat to medium. Add the remaining olive oil, garlic, and oregano to the pan. Stir until fragrant, 30 to 45 seconds, without letting the garlic brown.
+4. **Wilt the spinach:** Add the chicken broth and baby spinach and scrape up the browned bits. Stir as the spinach wilts down, about 2 minutes, then bring to a gentle simmer.
 5. **Finish the chicken:** Nestle the cutlets and their juices into the spinach. Cover and simmer gently, turning once, until the chicken reaches 165°F, 2 to 4 minutes. Move the chicken to a platter.
 6. **Reduce the sauce:** Turn the heat to medium-high. Boil the pan uncovered until the liquid is reduced by about half, 3 to 4 minutes.
-7. **Temper the yogurt:** Take the pan off the heat and let it stop bubbling. Put whole-milk Greek yogurt in a small bowl and whisk in a few spoonfuls of the hot broth, then stir it back into the pan.
-8. **Finish and serve:** Stir in lemon zest and juice. Taste for salt and pepper. Spoon the spinach and sauce over the chicken and serve.
+7. **Temper the yogurt:** Take the pan off the heat and let it stop bubbling. Put the Greek yogurt in a small bowl and whisk in a few spoonfuls of the hot broth, then stir it back into the pan.
+8. **Finish and serve:** Stir in the lemon zest and juice. Taste for salt and pepper. Spoon the spinach and sauce over the chicken and serve.

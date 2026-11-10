@@ -327,13 +327,13 @@ Pad Thai is Thailand's best-known noodle dish, chewy rice sticks tossed with a s
 
 ## Directions
 
-1. **Soak the noodles:** Cover dried medium Thai rice sticks (sen lek) with room-temperature water. Soak until they bend easily but are still firm in the center, 30 to 40 minutes, then drain. Prepare everything else while they soak.
-2. **Mix the sauce:** Stir tamarind paste, palm sugar, and fish sauce together until the sugar dissolves. Taste it. It should be sour, salty and sweet at once and a little strong on its own.
-3. **Heat the wok:** Heat half the vegetable oil in a wok or large skillet over medium-high heat until it shimmers.
-4. **Fry the tofu:** Add extra-firm tofu and fry, turning, until golden and firm, about 3 minutes. Move it to a plate.
-5. **Fry the aromatics:** Add the rest of the oil, then shallot, garlic cloves, preserved sweet radish (chai poh), small dried shrimp, and ground dried chili. Stir until fragrant, about 30 seconds, keeping the garlic moving so it doesn't scorch.
+1. **Soak the noodles:** Cover the dried medium Thai rice sticks with room-temperature water. Soak until they bend easily but are still firm in the center, 30 to 40 minutes, then drain. Prepare everything else while they soak.
+2. **Mix the sauce:** Stir the tamarind paste, palm sugar, and fish sauce together until the sugar dissolves. Taste it. It should be sour, salty and sweet at once and a little strong on its own.
+3. **Heat the wok:** Heat half the oil in a wok or large skillet over medium-high heat until it shimmers.
+4. **Fry the tofu:** Add the extra-firm tofu and fry, turning, until golden and firm, about 3 minutes. Move it to a plate.
+5. **Fry the aromatics:** Add the rest of the oil, then the shallot, garlic, preserved sweet radish, dried shrimp, and ground dried chili. Stir until fragrant, about 30 seconds, keeping the garlic moving so it doesn't scorch.
 6. **Toss the noodles:** Turn the heat to high. Add the drained noodles and the sauce and toss until the noodles drink up the sauce and turn soft and chewy, 2 to 3 minutes. If they are still firm and the pan is dry, sprinkle in a spoonful of water and keep tossing.
-7. **Scramble the egg:** Push the noodles to one side. Crack the large egg into the space, scramble until just set, then fold it through the noodles.
-8. **Cook the shrimp:** Add shrimp and the fried tofu. Toss until the shrimp are pink and opaque all the way through, about 2 minutes.
-9. **Add the sprouts:** Add fresh bean sprouts and Chinese chives and toss until the sprouts are hot and the chives just wilt, about 1 minute. There should be no pool of sauce in the pan.
-10. **Serve:** Pile the noodles onto plates and top with roasted peanuts and lime. Squeeze the lime over at the table.
+7. **Scramble the egg:** Push the noodles to one side. Crack the egg into the space, scramble until just set, then fold it through the noodles.
+8. **Cook the shrimp:** Add the shrimp and the fried tofu. Toss until the shrimp are pink and opaque all the way through, about 2 minutes.
+9. **Add the sprouts:** Add the bean sprouts and Chinese chives and toss until the sprouts are hot and the chives just wilt, about 1 minute. There should be no pool of sauce in the pan.
+10. **Serve:** Pile the noodles onto plates and top with the roasted peanuts and lime. Squeeze the lime over at the table.

@@ -212,9 +212,9 @@ Rolled oats blend into a flour right in the batter, so these banana muffins need
 
 ## Directions
 
-1. **Heat the oven:** Heat the oven to 400°F. Coat a 12-cup muffin pan with cooking spray. If you use paper liners, spray them too.
-2. **Blend the batter:** Put plain full-fat Greek yogurt, large ripe bananas, rolled oats, large eggs, brown sugar, baking powder, baking soda, kosher salt, and vanilla extract in a blender or food processor. Blend on high, scraping down once, until the oats are ground fine and the batter is smooth and creamy, about 1 minute.
-3. **Stir in the chips:** Stir in dark chocolate chips by hand.
-4. **Fill the cups:** Fill the cups three-quarters full. Sprinkle more chocolate chips (if using) over the tops.
+1. **Heat the oven:** Heat the oven to 400°F. Coat a 12-cup muffin pan with the cooking spray. If you use paper liners, spray them too.
+2. **Blend the batter:** Put the Greek yogurt, bananas, oats, eggs, brown sugar, baking powder, baking soda, salt, and vanilla in a blender or food processor. Blend on high, scraping down once, until the oats are ground fine and the batter is smooth and creamy, about 1 minute.
+3. **Stir in the chips:** Stir in the dark chocolate chips by hand.
+4. **Fill the cups:** Fill the cups three-quarters full. Sprinkle the more chocolate chips (if using) over the tops.
 5. **Bake:** Bake until the tops are golden and spring back when pressed and a toothpick in the center comes out free of wet batter, 15 to 18 minutes.
 6. **Cool:** Cool in the pan for 10 minutes, then move the muffins to a rack.

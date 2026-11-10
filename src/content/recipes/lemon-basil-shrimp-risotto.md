@@ -290,13 +290,13 @@ Risotto comes from northern Italy, where hot broth goes in a ladle at a time so 
 
 ## Directions
 
-1. **Melt the butter:** Melt unsalted butter in a large, wide skillet over medium-high heat.
-2. **Sear the shrimp:** Add jumbo U10 shrimp and kosher salt to the pan, laying the shrimp in a single layer. Sear until opaque through the center, 2 to 3 minutes per side, then move them to a plate.
-3. **Soften the onion:** Lower the heat to medium and add olive oil and large onion to the same pan. Cook, stirring often, until the onion is soft and translucent but not browned, 5 to 7 minutes.
-4. **Toast the rice:** Add garlic cloves and Arborio rice. Stir until the garlic is fragrant and the edges of the rice turn translucent, about 2 minutes.
-5. **Add the wine:** Pour in dry white wine and stir until it is absorbed.
-6. **Add the broth:** Lower the heat to keep a gentle simmer. Add chicken or vegetable broth a ladle at a time, stirring often and letting each ladle mostly absorb before adding the next. Cook until the rice is tender with a slight bite and flows loosely, 18 to 22 minutes. If the broth runs out first, use hot water.
-7. **Finish the risotto:** Take the pan off the heat and stir in cold unsalted butter, heavy cream, Parmesan, kosher salt, and black pepper until creamy. Add a splash of broth or hot water if it has turned stiff.
-8. **Add the lemon:** Stir in lemon zest and juice.
-9. **Fold in the shrimp:** Fold in the shrimp, their juices and fresh basil leaves. Stir until the shrimp are warm, about 1 minute.
-10. **Serve:** Serve right away, topped with fresh basil (if using).
+1. **Melt the butter:** Melt the unsalted butter in a large, wide skillet over medium-high heat.
+2. **Sear the shrimp:** Add the U10 shrimp and salt to the pan, laying the shrimp in a single layer. Sear until opaque through the center, 2 to 3 minutes per side, then move them to a plate.
+3. **Soften the onion:** Lower the heat to medium and add the olive oil and onion to the same pan. Cook, stirring often, until the onion is soft and translucent but not browned, 5 to 7 minutes.
+4. **Toast the rice:** Add the garlic and Arborio rice. Stir until the garlic is fragrant and the edges of the rice turn translucent, about 2 minutes.
+5. **Add the wine:** Pour in the dry white wine and stir until it is absorbed.
+6. **Add the broth:** Lower the heat to keep a gentle simmer. Add the chicken or vegetable broth a ladle at a time, stirring often and letting each ladle mostly absorb before adding the next. Cook until the rice is tender with a slight bite and flows loosely, 18 to 22 minutes. If the broth runs out first, use hot water.
+7. **Finish the risotto:** Take the pan off the heat and stir in the cold unsalted butter, heavy cream, Parmesan, salt, and pepper until creamy. Add a splash of broth or hot water if it has turned stiff.
+8. **Add the lemon:** Stir in the lemon zest and juice.
+9. **Fold in the shrimp:** Fold in the shrimp, their juices and the fresh basil leaves. Stir until the shrimp are warm, about 1 minute.
+10. **Serve:** Serve right away, topped with the fresh basil (if using).

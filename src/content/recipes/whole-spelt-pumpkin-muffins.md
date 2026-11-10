@@ -187,8 +187,8 @@ Lisa Leake's pumpkin muffins use whole spelt flour and honey in place of white f
 ## Directions
 
 1. **Heat the oven:** Heat the oven to 350°F and line a 12-cup muffin tin with paper liners.
-2. **Mix the dry ingredients:** In a large bowl, whisk whole spelt flour, pumpkin pie spice, baking soda, baking powder, and sea salt together.
-3. **Mix the wet ingredients:** In a medium bowl, whisk plain pumpkin puree, unsalted butter, honey, and large eggs until smooth.
+2. **Mix the dry ingredients:** In a large bowl, whisk the spelt flour, pumpkin pie spice, baking soda, baking powder, and salt together.
+3. **Mix the wet ingredients:** In a medium bowl, whisk the pumpkin puree, butter, honey, and eggs until smooth.
 4. **Fold together:** Pour the pumpkin mixture into the flour mixture. Fold with a spatula just until no dry flour shows. Overmixing makes the muffins tough.
 5. **Bake:** Fill the cups about three-quarters full. Bake until the tops are golden and a toothpick in the center comes out clean, 18 to 20 minutes.
 6. **Cool:** Cool the muffins in the pan for 5 minutes, then lift them onto a rack.

@@ -199,5 +199,5 @@ Bulgogi, Korean "fire meat," is paper-thin beef in a sweet soy marinade with gra
 ## Directions
 
 1. **Slice the beef:** If you're slicing the ribeye yourself, freeze it for 45 minutes until firm, then slice it paper-thin across the grain. Pat the slices dry.
-2. **Marinate:** Whisk soy sauce, toasted sesame oil, brown sugar, Asian pear, garlic cloves, fresh ginger, scallions, and black pepper in a bowl. Add the beef and toss to coat. Cover and refrigerate for at least 30 minutes or overnight.
+2. **Marinate:** Whisk the soy sauce, sesame oil, brown sugar, Asian pear, garlic, ginger, scallions, and pepper in a bowl. Add the beef and toss to coat. Cover and refrigerate for at least 30 minutes or overnight.
 3. **Sear in batches:** Heat a cast-iron skillet or wok over high heat until it smokes, then add a little neutral oil. Lift a single layer of beef from the marinade into the pan, leaving the excess behind. Sear without moving it until the edges char, 1 to 2 minutes, then flip and cook 30 seconds more. Repeat with the rest of the beef and serve hot.

@@ -177,6 +177,6 @@ The Vieux Carré was created in the 1930s by Walter Bergeron, head bartender at 
 ## Directions
 
 1. **Chill the glass:** Put a rocks glass in the freezer for 5 minutes.
-2. **Stir the drink:** Combine rye whiskey, Cognac, sweet vermouth, Bénédictine, dashes of Angostura bitters, dashes of Peychaud's bitters, and ice in a mixing glass. Stir until very cold and silky, about 30 seconds.
-3. **Strain:** Put the large ice cube in the chilled glass and strain the drink over it.
-4. **Garnish:** Twist the strip of lemon peel over the drink to release its oils, then drop it in.
+2. **Stir the drink:** Combine the rye whiskey, Cognac, sweet vermouth, Bénédictine, Angostura bitters, Peychaud's bitters, and ice in a mixing glass. Stir until very cold and silky, about 30 seconds.
+3. **Strain:** Put the ice cube in the chilled glass and strain the drink over it.
+4. **Garnish:** Twist the lemon peel over the drink to release its oils, then drop it in.

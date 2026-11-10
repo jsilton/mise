@@ -377,9 +377,9 @@ A Tex-Mex tortilla soup made hearty with beans and red lentils, which melt into 
 
 ## Directions
 
-1. **Soften the onion:** Warm olive oil and onion in a skillet over medium heat. Cook, stirring, until the onion is soft, about 5 minutes.
-2. **Bloom the spices:** Add garlic cloves, chili powder, and ground cumin and stir until fragrant but not dark, about 1 minute. Scrape everything into a 6-quart slow cooker.
-3. **Load the cooker:** Add bell pepper, jalapeño pepper, vegetable broth, tomato sauce, salsa verde, tomato paste, black beans, pinto beans, corn kernels, dry red lentils, garlic powder, and cayenne pepper to the cooker and stir to break up the tomato paste.
+1. **Soften the onion:** Warm the olive oil and onion in a skillet over medium heat. Cook, stirring, until the onion is soft, about 5 minutes.
+2. **Bloom the spices:** Add the garlic, chili powder, and cumin and stir until fragrant but not dark, about 1 minute. Scrape everything into a 6-quart slow cooker.
+3. **Load the cooker:** Add the bell pepper, jalapeño pepper, vegetable broth, tomato sauce, salsa verde, tomato paste, black beans, pinto beans, corn kernels, dry red lentils, garlic powder, and cayenne pepper to the cooker and stir to break up the tomato paste.
 4. **Slow-cook:** Cover and cook on high for 4 to 6 hours or on low for 7 to 8 hours, until the lentils are completely soft and have thickened the soup.
-5. **Finish the soup:** Stir in heavy cream (if using), salt, and black pepper and heat through. For a silkier soup, pulse a few times with an immersion blender, leaving plenty of texture.
-6. **Serve:** Ladle into bowls and top with crushed tortilla chips, diced avocado, fresh cilantro, shredded cheddar (if using), sour cream (if using), and lime wedges.
+5. **Finish the soup:** Stir in the heavy cream (if using), salt, and black pepper and heat through. For a silkier soup, pulse a few times with an immersion blender, leaving plenty of texture.
+6. **Serve:** Ladle into bowls and top with the crushed tortilla chips, avocado, cilantro, cheddar (if using), sour cream (if using), and lime wedges.

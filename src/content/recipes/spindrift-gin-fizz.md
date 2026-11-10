@@ -163,7 +163,7 @@ Our house gin fizz: light, tart and not too sweet. Hendrick's brings cucumber an
 
 ## Directions
 
-1. **Shake the base:** Put Hendrick's gin, fresh lime juice, agave syrup, and ice in a cocktail shaker. Shake hard until the shaker is frosty, about 15 seconds.
-2. **Strain over ice:** Fill the glasses with fresh ice and strain the base evenly among them.
-3. **Top with bubbles:** Top each glass with an even share of Spindrift Grapefruit sparkling water and dashes of grapefruit bitters. Stir once.
-4. **Garnish and serve:** Garnish with lime wheels and serve right away.
+1. **Shake the base:** Put the Hendrick's gin, lime juice, agave syrup, and ice in a cocktail shaker. Shake hard until the shaker is frosty, about 15 seconds.
+2. **Strain over ice:** Fill the glasses with the fresh ice and strain the base evenly among them.
+3. **Top with bubbles:** Top each glass with an even share of Spindrift Grapefruit sparkling water and grapefruit bitters. Stir once.
+4. **Garnish and serve:** Garnish with the lime wheels and serve right away.

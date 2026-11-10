@@ -147,6 +147,6 @@ The Manhattan was in print by the 1880s and is one of the oldest American cockta
 ## Directions
 
 1. **Chill the glass:** Put a coupe or cocktail glass in the freezer for 10 minutes, or fill it with ice water while you mix the drink.
-2. **Stir the drink:** Put rye whiskey, sweet vermouth, dashes of Angostura bitters, and ice in a mixing glass. Stir with a bar spoon until the outside of the glass is frosty and the drink is very cold, 20 to 30 seconds.
+2. **Stir the drink:** Put the rye whiskey, sweet vermouth, Angostura bitters, and ice in a mixing glass. Stir with a bar spoon until the outside of the glass is frosty and the drink is very cold, 20 to 30 seconds.
 3. **Strain:** Empty the serving glass if it holds ice water. Strain the drink into it.
-4. **Garnish:** Garnish with Luxardo cherry and orange peel (if using). Twist the peel over the drink first to spray its oils on the surface. Serve right away.
+4. **Garnish:** Garnish with the Luxardo cherry and orange peel (if using). Twist the peel over the drink first to spray its oils on the surface. Serve right away.

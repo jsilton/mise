@@ -132,32 +132,181 @@ function numeric(value) {
   }, 0);
   return Number.isFinite(sum) ? sum : null;
 }
-export function formatQuantity(value) {
+const quantityGrid = [
+  [0, 1],
+  [1, 8],
+  [1, 6],
+  [1, 4],
+  [1, 3],
+  [3, 8],
+  [1, 2],
+  [5, 8],
+  [2, 3],
+  [3, 4],
+  [5, 6],
+  [7, 8],
+  [1, 1],
+];
+// Amounts print as whole numbers and kitchen fractions (eighths, thirds and sixths). A scaled
+// value between two fractions goes to the nearest eighth, so no decimal reaches the page, and
+// nothing positive prints as zero. `exact` is for an amount as the author wrote it (a 1.27 oz
+// packet), which keeps its decimal.
+export function formatQuantity(value, { exact = false } = {}) {
   if (!Number.isFinite(value) || value <= 0) return '';
   const whole = Math.floor(value);
   const remainder = value - whole;
-  for (const [n, d] of [
-    [0, 1],
-    [1, 8],
-    [1, 6],
-    [1, 4],
-    [1, 3],
-    [3, 8],
-    [1, 2],
-    [5, 8],
-    [2, 3],
-    [3, 4],
-    [5, 6],
-    [7, 8],
-    [1, 1],
-  ]) {
+  for (const [n, d] of quantityGrid) {
     if (Math.abs(remainder - n / d) < 0.001) {
       if (n === 0) return String(whole);
       if (n === d) return String(whole + 1);
       return `${whole ? whole + ' ' : ''}${n}/${d}`;
     }
   }
-  return String(Number(value.toFixed(value < 0.1 ? 4 : 2)));
+  if (exact) return String(Number(value.toFixed(value < 0.1 ? 4 : 2)));
+  return formatQuantity(Math.max(1, Math.round(value * 8)) / 8);
+}
+
+// ---------- Kitchen measures for scaled amounts ----------
+// A scaled amount has to be something a cook can measure. Small cups step down to
+// tablespoons, small tablespoons to teaspoons, and less than 1/8 tsp is a pinch.
+// Each function returns parts such as [[1, 'cup'], [1, 'tbsp']] ("1 cup plus 1 tbsp")
+// or [['pinch']].
+const close = (a, b, tolerance = 0.02) => Math.abs(a - b) <= tolerance * b + 1e-9;
+function snapTo(value, steps, tolerance) {
+  for (const step of steps) {
+    const snapped = Math.round(value / step) * step;
+    // Close means within 2 percent and never more than a fiftieth of the unit.
+    if (snapped > 0 && close(value, snapped, tolerance) && Math.abs(value - snapped) <= 0.02)
+      return snapped;
+  }
+  return null;
+}
+const roundTo = (value, step) => Math.max(step, Math.round(value / step + 1e-9) * step);
+// No spoon or jigger measures 3/8, 5/8 or 7/8. Under one unit those print as a scant or
+// heaping measure of the nearest spoon ("scant 1/2 tsp"). From one unit up, quarters are close
+// enough. A part may carry that word as its third element: [0.5, 'tsp', 'scant'].
+function eighths(value, unit) {
+  if (value >= 1 - 1e-9) return [[roundTo(value, 1 / 4), unit]];
+  const count = Math.max(1, Math.round(value * 8 + 1e-9));
+  if (count === 3) return [[1 / 2, unit, 'scant']];
+  if (count === 5) return [[1 / 2, unit, 'heaping']];
+  if (count === 7) return [[1, unit, 'scant']];
+  return [[count / 8, unit]];
+}
+// The number of one part as it prints: "1 1/2", or "scant 1/2".
+export const partNumber = ([value, , word]) => (word ? word + ' ' : '') + formatQuantity(value);
+function teaspoons(t) {
+  if (t < 0.11) return [['pinch']];
+  return eighths(t, 'tsp');
+}
+function tablespoons(T) {
+  if (T < 1 - 1e-9) return teaspoons(T * 3);
+  if (T >= 4) return [[roundTo(T, 1 / 2), 'tbsp']];
+  const half = snapTo(T, [1 / 2]);
+  if (half) return [[half, 'tbsp']];
+  const whole = Math.floor(T);
+  const rest = Math.round((T - whole) * 3 * 2) / 2;
+  if (rest === 0) return [[whole, 'tbsp']];
+  if (rest === 3) return [[whole + 1, 'tbsp']];
+  if (rest === 1.5) return [[whole + 0.5, 'tbsp']];
+  return [
+    [whole, 'tbsp'],
+    [rest, 'tsp'],
+  ];
+}
+function cups(c) {
+  const nice = c >= 0.24 ? snapTo(c, [1 / 4, 1 / 3]) : null;
+  if (nice) return [[nice, 'cup']];
+  if (c * 16 < 3.5) return tablespoons(c * 16);
+  if (c * 16 < 6.5) return [[Math.round(c * 16), 'tbsp']];
+  // Between the quarter cups, name the odd tablespoons: 1 cup plus 1 tbsp.
+  const base = Math.floor(c * 4 + 1e-9) / 4;
+  const rest = Math.round((c - base) * 16);
+  if (rest === 0) return [[base, 'cup']];
+  if (rest === 4) return [[base + 0.25, 'cup']];
+  return [
+    [base, 'cup'],
+    [rest, 'tbsp'],
+  ];
+}
+function metric(value, unit) {
+  if (close(value, Math.round(value), 0.001) && value >= 0.5) return [[Math.round(value), unit]];
+  if (value < 20) return [[roundTo(value, 1 / 2), unit]];
+  return [[value < 100 ? Math.round(value) : Math.round(value / 5) * 5, unit]];
+}
+// A pound or more of something solid reads in pounds when it is a tidy quarter pound (1 lb,
+// not 16 oz). Liquids stay in ounces,
+// because "oz" on a drink or a broth is a fluid measure.
+function ounces(oz, solid = false) {
+  if (oz >= 16 - 1e-9) {
+    // Only a tidy quarter pound steps up. 18 oz stays 18 oz.
+    const lb = solid ? snapTo(oz / 16, [1 / 4], 0.001) : null;
+    return lb ? [[lb, 'lb']] : [[roundTo(oz, 1 / 2), 'oz']];
+  }
+  return eighths(oz, 'oz');
+}
+const LIQUID =
+  /\b(?:water|broth|stock|juice|milk|cream(?! cheese)|buttermilk|half-and-half|oil|vinegar|wine|beer|ale|stout|lager|cider|gin|vodka|rum|tequila|mezcal|whiske?y|bourbon|rye|scotch|brandy|cognac|liqueur|vermouth|amaro|aperol|campari|bitters|syrup|soda|tonic|seltzer|champagne|prosecco|cava|sake|mirin|sauce|coffee|espresso|tea|lemonade|pur[eé]e|nectar|kombucha|cordial|schnapps|cura[cç]ao|sec|chartreuse|absinthe|port|sherry|marsala|madeira|pinot|chardonnay|sauvignon|riesling|merlot|cabernet|grenadine|honey|molasses|extract|liquid|fl)\b/i;
+// True when an ingredient measured in ounces is weighed, going by its name.
+export const isSolid = (name) => !LIQUID.test(name || '');
+function pounds(lb) {
+  const nice = lb >= 0.24 ? snapTo(lb, [1 / 4, 1 / 3]) : null;
+  if (nice) return [[nice, 'lb']];
+  if (lb < 1) return ounces(lb * 16);
+  if (lb >= 5) return [[roundTo(lb, 1 / 4), 'lb']];
+  // Between the quarter pounds, name the odd ounces: 1 lb plus 10 oz.
+  const whole = Math.floor(lb);
+  const rest = Math.round((lb - whole) * 16);
+  if (rest === 0) return [[whole, 'lb']];
+  if (rest === 16) return [[whole + 1, 'lb']];
+  return [
+    [whole, 'lb'],
+    [rest, 'oz'],
+  ];
+}
+export function kitchenParts(value, unit, { solid = false } = {}) {
+  if (!Number.isFinite(value) || value <= 0) return [];
+  if (unit === 'cup') return cups(value);
+  if (unit === 'tbsp') return tablespoons(value);
+  if (unit === 'tsp') return teaspoons(value);
+  if (unit === 'g' || unit === 'ml') return metric(value, unit);
+  // Metric amounts that are not a tidy quarter read better one unit down (2100 g, not 2.1 kg).
+  if ((unit === 'kg' || unit === 'l') && (value < 1 || !snapTo(value, [1 / 4], 0.001)))
+    return metric(value * 1000, unit === 'kg' ? 'g' : 'ml');
+  if (unit === 'oz') return ounces(value, solid);
+  if (unit === 'lb') return pounds(value);
+  return [[value, unit]];
+}
+// A range keeps one unit for both ends, the unit that suits its smaller end.
+const perCup = { cup: 1, tbsp: 16, tsp: 48 };
+const perPound = { lb: 1, oz: 16 };
+const perBase = { kg: 1, g: 1000, l: 1, ml: 1000 };
+export function kitchenRange(values, unit, options = {}) {
+  let parts = values.map((value) => kitchenParts(value, unit, options));
+  if (parts.length < 2) return parts;
+  // Both ends of a range are plain numbers, so a scant or heaping measure drops its word.
+  parts = parts.map((p) => p.map(([value, key]) => (key ? [value, key] : [value])));
+  const single = parts.every((p) => p.length === 1 && p[0][0] !== 'pinch');
+  if (single && parts.every((p) => p[0][1] === parts[0][0][1])) return parts;
+  const first = parts[0][0];
+  const target = first[0] === 'pinch' ? 'tsp' : parts[0].at(-1)[1];
+  const table = [perCup, perPound, perBase].find((t) => unit in t && target in t);
+  if (!table) return values.map((value) => [[value, unit]]);
+  const steps = { cup: 1 / 4, tbsp: 1 / 2, tsp: 1 / 4, oz: 1 / 4, lb: 1 / 4, g: 1, ml: 1 };
+  return values.map((value) => [
+    [roundTo((value * table[target]) / table[unit], steps[target]), target],
+  ]);
+}
+// Whole eggs go to the nearest half, with a note on how to measure half an egg.
+export function kitchenEggs(value) {
+  if (close(value, Math.round(value), 0.001) && value >= 0.5)
+    return { count: Math.round(value), note: '' };
+  const count = Math.max(0.5, Math.round(value * 2 + 1e-9) / 2);
+  const notes = [];
+  if (!Number.isInteger(count))
+    notes.push(count < 1 ? 'beat an egg and use half' : 'beat the last egg and use half');
+  if (!close(value, count, 0.001)) notes.push(count > value ? 'rounded up' : 'rounded down');
+  return { count, note: notes.join(', ') };
 }
 // Legacy prose has both recipe amounts and fixed descriptions. Only these
 // grammatical quantity positions are scalable; arbitrary embedded numbers are not.
@@ -171,6 +320,34 @@ const supportedAmount = new RegExp(
 );
 const measuredAtStart = new RegExp(`^\\s*(?:${measuredUnit}|sticks?)\\b`, 'i');
 
+// The measure words legacy lines use, keyed to the units kitchenParts understands.
+const unitKeys = [
+  ['cup', /^cups?$/i, 'cup', 'cups', 'cup', 'cups'],
+  ['tbsp', /^(?:tablespoons?|tbsps?)$/i, 'tbsp', 'tbsp', 'tablespoon', 'tablespoons'],
+  ['tsp', /^(?:teaspoons?|tsps?)$/i, 'tsp', 'tsp', 'teaspoon', 'teaspoons'],
+  ['g', /^(?:g|grams?)$/i, 'g', 'g', 'gram', 'grams'],
+  ['kg', /^(?:kg|kilograms?)$/i, 'kg', 'kg', 'kilogram', 'kilograms'],
+  ['ml', /^ml$/i, 'ml', 'ml', 'ml', 'ml'],
+  ['oz', /^(?:oz|ounces?)$/i, 'oz', 'oz', 'ounce', 'ounces'],
+  ['lb', /^(?:lbs?|pounds?)$/i, 'lb', 'lb', 'pound', 'pounds'],
+  ['l', /^(?:l|liters?|litres?)$/i, 'L', 'L', 'liter', 'liters'],
+];
+const leadingUnit =
+  /^(\s+)(cups?|tablespoons?|tbsps?|teaspoons?|tsps?|grams?|g|kilograms?|kg|ml|ounces?|oz|pounds?|lbs?|liters?|litres?|l)\b/i;
+const leadingEgg =
+  /^(\s+(?:(?:small|medium|large|extra-large|jumbo|whole)\s+)*eggs?)\b(?!\s+(?:whites?|yolks?|noodles?|rolls?|wash|wrappers?))/i;
+function unitWord(key, value, long) {
+  const row = unitKeys.find((entry) => entry[0] === key);
+  return row[(long ? 4 : 2) + (value <= 1 ? 0 : 1)];
+}
+export function formatParts(parts, word) {
+  return parts
+    .map(([value, unit, qualifier]) =>
+      value === 'pinch' ? 'a pinch' : `${partNumber([value, unit, qualifier])} ${word(unit, value)}`
+    )
+    .join(' plus ');
+}
+
 function scaleLeading(text, factor, supportedOnly = false) {
   if (supportedOnly && /\b(?:each|per)\b/i.test(text.split(/[,;]/)[0])) return text;
   text = text.replace(/^(\d[\d,]*(?:\.\d+)?)(g|kg|ml|oz)\b/i, '$1 $2');
@@ -180,9 +357,42 @@ function scaleLeading(text, factor, supportedOnly = false) {
   if (values.some((value) => value === null)) return text;
   // supportedAmount also captures the unit; leave it available for inflection.
   const length = supportedOnly ? match[0].length - match[3].length : match[0].length;
+  const rest = text.slice(length);
+  const scaled = values.map((value) => value * factor);
+  const unit = rest.match(leadingUnit);
+  const row = unit && unitKeys.find((entry) => entry[1].test(unit[2]));
+  if (row) {
+    // Step the measure down to one a cook can use: cups to tbsp to tsp, then a pinch.
+    const after = rest.slice(unit[0].length);
+    const parts = kitchenRange(scaled, row[0], { solid: isSolid(after) });
+    const same = parts.every((p) => p.length === 1 && p[0][1] === row[0]);
+    if (same)
+      return (
+        parts.map((p) => partNumber(p[0])).join('–') +
+        inflectLeadingUnit(rest, Math.max(...parts.map((p) => p[0][0])))
+      );
+    const long = unit[2].length > 4 && row[0] !== 'cup';
+    const word = (key, value) => unitWord(key, value, long);
+    if (parts.at(-1)[0][0] === 'pinch')
+      return 'a pinch' + (/^\s+[a-z]/i.test(after) ? ' of' : '') + after;
+    if (parts.length === 1) return formatParts(parts[0], word) + after;
+    const top = parts[1][0];
+    const low = parts[0][0][0] === 'pinch' ? 1 / 8 : parts[0][0][0];
+    return `${formatQuantity(low)}–${formatQuantity(top[0])} ${word(top[1], top[0])}${after}`;
+  }
+  const egg = scaled.length === 1 && rest.match(leadingEgg);
+  if (egg) {
+    const { count, note } = kitchenEggs(scaled[0]);
+    return (
+      formatQuantity(count) +
+      inflectLeadingUnit(egg[0], count) +
+      (note ? ` (${note})` : '') +
+      rest.slice(egg[0].length)
+    );
+  }
   return (
-    values.map((value) => formatQuantity(value * factor)).join('–') +
-    inflectLeadingUnit(text.slice(length), Math.max(...values) * factor)
+    scaled.map((value) => formatQuantity(value)).join('–') +
+    inflectLeadingUnit(rest, Math.max(...scaled))
   );
 }
 

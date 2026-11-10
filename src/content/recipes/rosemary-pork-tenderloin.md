@@ -214,10 +214,10 @@ Claire Robinson's tenderloin spends an hour under a Dijon, garlic and rosemary c
 
 ## Directions
 
-1. **Make the coating:** Stir together Dijon mustard, fresh rosemary, garlic cloves, black pepper, and kosher salt in a small bowl.
-2. **Coat the pork:** Rub the coating all over pork tenderloins. Wrap them in plastic and refrigerate for 1 hour. Heat the oven to 425°F while they chill.
-3. **Wrap in bacon:** Unwrap the pork and lay maple bacon slices over the tenderloins, half on each. Tie with kitchen twine every few inches to hold the bacon in place.
-4. **Set up the pan:** Scatter fresh rosemary sprigs and garlic cloves in a roasting pan. Lay the tenderloins on top with space between them.
+1. **Make the coating:** Stir together the Dijon mustard, fresh rosemary, pepper, salt, and 2 garlic cloves in a small bowl.
+2. **Coat the pork:** Rub the coating all over the pork tenderloins. Wrap them in plastic and refrigerate for 1 hour. Heat the oven to 425°F while they chill.
+3. **Wrap in bacon:** Unwrap the pork and lay the maple bacon slices over the tenderloins, half on each. Tie with kitchen twine every few inches to hold the bacon in place.
+4. **Set up the pan:** Scatter the fresh rosemary sprigs and 3 garlic cloves in a roasting pan. Lay the tenderloins on top with space between them.
 5. **Roast and broil:** Roast until an instant-read thermometer in the thickest part reads 140°F, 18 to 25 minutes. Switch to the broiler and broil until the bacon is crisp and browned, 1 to 2 minutes, watching closely. The pork should reach 145°F.
 6. **Rest the pork:** Move the tenderloins to a cutting board, rest them for 10 minutes, then cut off the twine.
 7. **Slice and serve:** Slice across the grain into 1-inch rounds and spoon the pan juices over the top. Garnish the platter with the roasted rosemary and garlic.

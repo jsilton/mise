@@ -323,7 +323,7 @@ formula:
         the vinaigrette.
     - id: finish
       title: Finish
-      text: "Scatter {{ingredients}} over the top and serve right away, while they're still crisp."
+      text: 'Scatter {{ingredients}} over the top and serve right away, while they''re still crisp.'
 learning:
   techniques:
     - browning
@@ -349,10 +349,10 @@ A weeknight steak salad: flank steak marinated in soy, Dijon and lemon, seared h
 ## Directions
 
 1. **Score the steak:** Lightly score both sides of the flank steak in a diamond pattern, about 1/8 inch deep, so it doesn't curl in the pan.
-2. **Marinate:** Whisk extra-virgin olive oil, soy sauce, Dijon mustard, garlic cloves, and fresh lemon juice in a shallow dish or zip-top bag. Add the steak, turn to coat, seal and refrigerate for 2 to 12 hours.
-3. **Make the vinaigrette:** While the steak marinates, shake extra-virgin olive oil, fresh lemon juice, Dijon mustard, small shallot, kosher salt, and black pepper in a jar until creamy. Refrigerate until needed.
-4. **Sear the steak:** Lift the steak from the marinade, discard the marinade and pat the steak dry. Heat a cast-iron skillet over high heat until it smokes. Add neutral oil and lay in the steak. Sear without moving it until deeply browned and the thickest part reaches 130°F for medium-rare, 4 to 5 minutes per side.
+2. **Marinate:** Whisk the soy sauce, garlic, 1/4 cup of the olive oil, 1 tbsp of the Dijon mustard, and 1 tbsp of the lemon juice in a shallow dish or zip-top bag. Add the steak, turn to coat, seal and refrigerate for 2 to 12 hours.
+3. **Make the vinaigrette:** While the steak marinates, shake the shallot, salt, pepper, 1/3 cup of the olive oil, 3 tbsp of the lemon juice, and 1 tsp of the Dijon mustard in a jar until creamy. Refrigerate until needed.
+4. **Sear the steak:** Lift the steak from the marinade, discard the marinade and pat the steak dry. Heat a cast-iron skillet over high heat until it smokes. Add the neutral oil and lay in the steak. Sear without moving it until deeply browned and the thickest part reaches 130°F for medium-rare, 4 to 5 minutes per side.
 5. **Rest and slice:** Rest the steak on a cutting board for 10 minutes. Slice it as thinly as you can across the grain, holding the knife at a 45-degree angle.
-6. **Dress the greens:** Toss the leaves of the large head of romaine and head of butter lettuce with half the vinaigrette in a large serving bowl.
-7. **Top the salad:** Arrange English cucumber, avocado, and radishes over the greens. Lay the steak on top and drizzle with the rest of the vinaigrette.
-8. **Finish:** Scatter toasted pepitas and [crispy shallots](/mise/recipes/crispy-shallots) over the top and serve right away, while they're still crisp.
+6. **Dress the greens:** Toss the leaves of the romaine and butter lettuce with half the vinaigrette in a large serving bowl.
+7. **Top the salad:** Arrange the English cucumber, avocado, and radishes over the greens. Lay the steak on top and drizzle with the rest of the vinaigrette.
+8. **Finish:** Scatter the pepitas and [crispy shallots](/mise/recipes/crispy-shallots) over the top and serve right away, while they're still crisp.

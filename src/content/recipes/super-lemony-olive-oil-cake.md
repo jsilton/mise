@@ -251,12 +251,12 @@ Mina Stone's olive oil cake, moist and tender with the zest and juice of two who
 
 ## Directions
 
-1. **Prepare the pan:** Heat the oven to 350°F. Brush a 9-inch springform pan with extra-virgin olive oil, line the bottom with a parchment round and oil the parchment.
-2. **Whisk the base:** In a large bowl, whisk extra-virgin olive oil, granulated sugar, and large eggs until smooth and pale yellow.
-3. **Add milk and lemon:** Whisk in whole milk, large lemons, and pure vanilla extract, using all the lemon zest and juice.
-4. **Mix the dry ingredients:** In a second bowl, whisk all-purpose flour, baking powder, baking soda, and Diamond Crystal kosher salt together.
+1. **Prepare the pan:** Heat the oven to 350°F. Brush a 9-inch springform pan with the olive oil, line the bottom with a parchment round and oil the parchment.
+2. **Whisk the base:** In a large bowl, whisk the eggs, 1 1/2 cups of the olive oil, and 1 1/4 cups of the granulated sugar until smooth and pale yellow.
+3. **Add milk and lemon:** Whisk in the whole milk, lemons, and vanilla, using all the lemon zest and juice.
+4. **Mix the dry ingredients:** In a second bowl, whisk the flour, baking powder, baking soda, and salt together.
 5. **Make the batter:** Make a well in the dry ingredients and pour in the egg mixture a little at a time, whisking in circles until just smooth. A few small lumps are fine.
-6. **Fill the pan:** Scrape the batter into the pan, smooth the top and sprinkle with granulated sugar.
+6. **Fill the pan:** Scrape the batter into the pan, smooth the top and sprinkle with 1 tbsp of the granulated sugar.
 7. **Bake:** Bake until the top is golden and a toothpick in the center comes out clean, about 50 minutes.
 8. **Cool:** Cool completely in the pan on a rack, then unmold.
-9. **Serve:** Just before serving, dust with powdered sugar and lemon zest (if using).
+9. **Serve:** Just before serving, dust with the powdered sugar and lemon zest (if using).

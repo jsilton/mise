@@ -167,8 +167,8 @@ The Sazerac is one of America's oldest cocktails, born in 1830s New Orleans and 
 
 ## Directions
 
-1. **Chill the glass:** Fill a rocks glass with ice water so it chills while you mix, or chill the glass in the freezer.
-2. **Stir the drink:** Combine rye whiskey, simple syrup, dashes of Peychaud's bitters, dashes of Angostura bitters (if using), and ice cubes in a mixing glass. Stir until very cold, 20 to 30 seconds.
-3. **Rinse the glass:** Pour the ice water out of the rocks glass. Add absinthe or Herbsaint, swirl to coat the inside and pour out the excess.
+1. **Chill the glass:** Fill a rocks glass with the ice water so it chills while you mix, or chill the glass in the freezer.
+2. **Stir the drink:** Combine the rye whiskey, simple syrup, Peychaud's bitters, Angostura bitters (if using), and ice cubes in a mixing glass. Stir until very cold, 20 to 30 seconds.
+3. **Rinse the glass:** Pour the ice water out of the rocks glass. Add the absinthe or Herbsaint, swirl to coat the inside and pour out the excess.
 4. **Strain:** Strain the drink into the rinsed glass, with no ice.
 5. **Express the lemon:** Twist the lemon peel over the drink to release its oils, then discard it.

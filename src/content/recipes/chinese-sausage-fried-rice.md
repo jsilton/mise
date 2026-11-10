@@ -35,10 +35,10 @@ pairingNotes:
   steamed-bok-choy-with-oyster-sauce: A quick green vegetable from the same wok.
 ingredients:
   - 3 large eggs
-  - 2 tsp toasted sesame oil
-  - 3 tsp peanut oil
+  - '2 tsp toasted sesame oil, divided'
+  - '1 tbsp peanut oil, divided'
   - '5 Chinese sausages (lap cheong), thinly sliced on the diagonal'
-  - '3 green onions, thinly sliced, whites and greens kept apart'
+  - '3 green onions, thinly sliced, whites and greens kept apart, divided'
   - '2 garlic cloves, minced'
   - '1 red chili, finely chopped'
   - '4 cups cooked jasmine rice, day-old and cold, clumps broken up'
@@ -82,8 +82,8 @@ formula:
           key: peanut
           name: peanut oil
           quantity:
-            amount: 3
-            unit: tsp
+            amount: 1
+            unit: tbsp
           uses:
             - step: omelets
               share: 1/3
@@ -231,10 +231,10 @@ Lap cheong, the sweet cured Chinese sausage, renders its fat into the wok and se
 
 ## Directions
 
-1. **Beat the eggs:** Whisk large eggs and 1/2 of the toasted sesame oil together in a bowl.
-2. **Make the egg ribbons:** Heat 1/3 of the peanut oil in a wok over medium heat. Pour in a third of the egg, swirl it into a thin omelet and cook until just set, about 1 minute. Slide it onto a board and make two more the same way. Roll up the omelets and slice them into thin ribbons.
-3. **Brown the sausage:** Turn the heat to medium-high. Add 2/3 of the peanut oil, Chinese sausages (lap cheong), and 1/2 of the green onions (the whites) to the wok. Stir-fry until the sausage fat renders and the edges brown, 2 to 3 minutes. Lower the heat if the sugars start to scorch.
-4. **Add the aromatics:** Add garlic cloves and red chili and stir-fry until fragrant, about 30 seconds.
-5. **Fry the rice:** Turn the heat to high and add cooked jasmine rice. Stir-fry, pressing the rice against the hot wok, until every grain is hot and lightly toasted, 3 to 4 minutes.
-6. **Season the rice:** Add 1/2 of the toasted sesame oil, frozen peas, light soy sauce, and oyster sauce. Toss until the rice is evenly colored and the peas are hot, about 2 minutes.
-7. **Fold and serve:** Off the heat, fold in the egg ribbons and 1/2 of the green onions (the green tops). Serve right away.
+1. **Beat the eggs:** Whisk the eggs and 1 tsp of the sesame oil together in a bowl.
+2. **Make the egg ribbons:** Heat 1 tsp of the peanut oil in a wok over medium heat. Pour in a third of the egg, swirl it into a thin omelet and cook until just set, about 1 minute. Slide it onto a board and make two more the same way. Roll up the omelets and slice them into thin ribbons.
+3. **Brown the sausage:** Turn the heat to medium-high. Add the Chinese sausages, the rest of the peanut oil, and half of the green onions (the whites) to the wok. Stir-fry until the sausage fat renders and the edges brown, 2 to 3 minutes. Lower the heat if the sugars start to scorch.
+4. **Add the aromatics:** Add the garlic and red chili and stir-fry until fragrant, about 30 seconds.
+5. **Fry the rice:** Turn the heat to high and add the jasmine rice. Stir-fry, pressing the rice against the hot wok, until every grain is hot and lightly toasted, 3 to 4 minutes.
+6. **Season the rice:** Add the peas, light soy sauce, oyster sauce, and the rest of the sesame oil. Toss until the rice is evenly colored and the peas are hot, about 2 minutes.
+7. **Fold and serve:** Off the heat, fold in the egg ribbons and the rest of the green onions (the green tops). Serve right away.

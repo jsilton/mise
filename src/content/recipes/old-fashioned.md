@@ -157,7 +157,7 @@ The Old Fashioned is the original cocktail: whiskey, sugar, water and bitters. I
 
 ## Directions
 
-1. **Dissolve the sugar:** Put the sugar cube, dashes of Angostura bitters, and water in a rocks glass. Muddle until the sugar has dissolved.
-2. **Add the whiskey:** Add the bourbon or rye whiskey and large ice cube. Stir gently until the drink is cold, about 30 seconds.
-3. **Add the orange:** Twist the strip of orange peel over the drink to release its oils. Rub it around the rim and drop it in.
+1. **Dissolve the sugar:** Put the sugar cube, Angostura bitters, and water in a rocks glass. Muddle until the sugar has dissolved.
+2. **Add the whiskey:** Add the bourbon or rye whiskey and ice cube. Stir gently until the drink is cold, about 30 seconds.
+3. **Add the orange:** Twist the orange peel over the drink to release its oils. Rub it around the rim and drop it in.
 4. **Serve:** Add the maraschino cherry (if using) and serve right away.

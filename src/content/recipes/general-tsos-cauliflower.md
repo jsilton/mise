@@ -357,11 +357,11 @@ The Chinese-American takeout classic, with cauliflower in place of the chicken. 
 
 ## Directions
 
-1. **Mix the batter:** Whisk all-purpose flour, cornstarch, baking powder, salt, large eggs, soy sauce, and rice vinegar in a large bowl until smooth and thick enough to coat a floret. If it is too stiff, whisk in a splash of water.
-2. **Heat the oil:** Heat peanut or vegetable oil in a large skillet over medium-high heat until a drop of batter sizzles and floats right away.
+1. **Mix the batter:** Whisk the flour, baking powder, salt, eggs, 1/3 cup of the cornstarch, 3 tbsp of the soy sauce, and 1 tbsp of the rice vinegar in a large bowl until smooth and thick enough to coat a floret. If it is too stiff, whisk in a splash of water.
+2. **Heat the oil:** Heat the peanut or vegetable oil in a large skillet over medium-high heat until a drop of batter sizzles and floats right away.
 3. **Fry the cauliflower:** Toss the cauliflower florets in the batter. Fry in batches without crowding, turning, until golden on all sides and tender in the center, 4 to 5 minutes per batch. Drain on paper towels.
-4. **Cook the aromatics:** Heat a large saucepan or wok over medium heat. Add toasted sesame oil, scallions, garlic cloves, fresh ginger, and small dried red chilies (if using), holding back the scallion greens. Stir until fragrant, about 30 seconds.
-5. **Simmer the sauce:** Add vegetable broth, soy sauce, rice vinegar, Chinkiang black vinegar, Shaoxing wine, and mirin and bring to a simmer. Cook for 2 to 3 minutes.
-6. **Thicken the sauce:** Whisk sugar and cornstarch in a small bowl with a few spoonfuls of the hot sauce until smooth. Stir it into the pan with the scallion greens. Simmer, stirring, until the sauce is glossy and clings to a spoon, 1 to 2 minutes, and stop there so it doesn't turn gluey.
+4. **Cook the aromatics:** Heat a large saucepan or wok over medium heat. Add the sesame oil, scallions, garlic, ginger, and dried red chilies (if using), holding back the scallion greens. Stir until fragrant, about 30 seconds.
+5. **Simmer the sauce:** Add the vegetable broth, Chinkiang black vinegar, Shaoxing wine, mirin, 1/4 cup of the soy sauce, and 2 tbsp of the rice vinegar and bring to a simmer. Cook for 2 to 3 minutes.
+6. **Thicken the sauce:** Whisk the sugar and 1 tbsp of the cornstarch in a small bowl with a few spoonfuls of the hot sauce until smooth. Stir it into the pan with the scallion greens. Simmer, stirring, until the sauce is glossy and clings to a spoon, 1 to 2 minutes, and stop there so it doesn't turn gluey.
 7. **Glaze the cauliflower:** Add the fried cauliflower and fold gently until coated and hot, 1 to 2 minutes.
-8. **Serve:** Sprinkle with sesame seeds (if using) and serve right away.
+8. **Serve:** Sprinkle with the sesame seeds (if using) and serve right away.

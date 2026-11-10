@@ -181,7 +181,6 @@ Broccolini is a cross between broccoli and Chinese broccoli, so its long stems a
 
 ## Directions
 
-1. **Season the broccolini:** Heat the oven to 425°F and line a rimmed baking sheet with parchment. Toss broccolini, extra-virgin olive oil, garlic cloves, red pepper flakes, kosher salt, black pepper, and lemon on the sheet and spread in one layer. Tuck the garlic and lemon rounds under the stalks so the garlic does not burn.
+1. **Season the broccolini:** Heat the oven to 425°F and line a rimmed baking sheet with parchment. Toss the broccolini, olive oil, garlic, red pepper flakes, kosher salt, pepper, and 1/2 lemon on the sheet and spread in one layer. Tuck the garlic and lemon rounds under the stalks so the garlic does not burn.
 2. **Roast:** Roast until the tips are crisp and charred and a knife slides into the thickest stem with a little resistance, 12 to 15 minutes. The garlic should be golden, not dark.
-3. **Finish and serve:** Season the hot broccolini with lemon and flaky sea salt, squeezing the lemon over the top. Serve right away with the roasted lemon rounds.
-
+3. **Finish and serve:** Season the hot broccolini with the flaky sea salt and 1/2 lemon, squeezing the lemon over the top. Serve right away with the roasted lemon rounds.

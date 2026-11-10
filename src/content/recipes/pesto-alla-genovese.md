@@ -200,8 +200,8 @@ Pesto alla genovese is Liguria's raw basil sauce, pounded in a marble mortar wit
 
 ## Directions
 
-1. **Crush the garlic and nuts:** Put raw pine nuts and garlic cloves in a marble mortar. Crush the garlic to a paste with a wooden pestle, then work in the pine nuts until they form a thick, smooth paste.
-2. **Grind the basil:** Add fresh Genovese basil leaves and coarse sea salt, feeding in the leaves a handful at a time. Rotate the pestle gently against the sides of the mortar, scraping down as you go, until the leaves break down into an even, bright green paste, 10 to 15 minutes. Work steadily so the basil stays cool and green.
-3. **Add the cheeses:** Work in Parmigiano-Reggiano and Fiore Sardo until evenly mixed.
-4. **Stir in the oil:** Drizzle in Ligurian extra-virgin olive oil slowly, stirring with the pestle, until the pesto is creamy and holds together.
-5. **Dress the pasta:** To serve with pasta, loosen the pesto with pasta cooking water (if using) a spoonful at a time. Toss it with the drained pasta in a bowl, off the heat, so the basil stays bright.
+1. **Crush the garlic and nuts:** Put the pine nuts and garlic in a marble mortar. Crush the garlic to a paste with a wooden pestle, then work in the pine nuts until they form a thick, smooth paste.
+2. **Grind the basil:** Add the Genovese basil and salt, feeding in the leaves a handful at a time. Rotate the pestle gently against the sides of the mortar, scraping down as you go, until the leaves break down into an even, bright green paste, 10 to 15 minutes. Work steadily so the basil stays cool and green.
+3. **Add the cheeses:** Work in the Parmigiano-Reggiano and Fiore Sardo until evenly mixed.
+4. **Stir in the oil:** Drizzle in the Ligurian extra-virgin olive oil slowly, stirring with the pestle, until the pesto is creamy and holds together.
+5. **Dress the pasta:** To serve with pasta, loosen the pesto with the pasta cooking water (if using) a spoonful at a time. Toss it with the drained pasta in a bowl, off the heat, so the basil stays bright.

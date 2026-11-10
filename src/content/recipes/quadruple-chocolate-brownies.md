@@ -255,11 +255,11 @@ Food & Wine's party-size brownies use four chocolates. A full pound of unsweeten
 
 ## Directions
 
-1. **Prepare the pans:** Heat the oven to 300°F. Grease two 9×13-inch pans with butter and line the bottoms with parchment.
-2. **Melt the chocolate:** In a large saucepan over low heat, melt unsalted butter and unsweetened chocolate, stirring often, until smooth and glossy. Take the pan off the heat and let it cool for 10 minutes.
-3. **Whisk the eggs:** In a very large bowl, whisk granulated sugar, large eggs, pure vanilla extract, and kosher salt until thick and pale, about 2 minutes. Whisk in the melted chocolate until smooth.
-4. **Fold in the flour:** Fold in all-purpose flour, bittersweet chocolate, white chocolate, and milk chocolate just until no dry flour remains. Spread the batter evenly in the two pans.
-5. **Melt the swirl:** Put bittersweet chocolate, white chocolate, and milk chocolate in three separate microwave-safe bowls. Melt each in 20-second bursts, stirring between bursts, until smooth.
+1. **Prepare the pans:** Heat the oven to 300°F. Grease two 9×13-inch pans with the butter and line the bottoms with parchment.
+2. **Melt the chocolate:** In a large saucepan over low heat, melt the unsalted butter and unsweetened chocolate, stirring often, until smooth and glossy. Take the pan off the heat and let it cool for 10 minutes.
+3. **Whisk the eggs:** In a very large bowl, whisk the sugar, eggs, vanilla, and salt until thick and pale, about 2 minutes. Whisk in the melted chocolate until smooth.
+4. **Fold in the flour:** Fold in the flour, 5 oz of the bittersweet chocolate, 5 oz of the white chocolate, and 5 oz of the milk chocolate just until no dry flour remains. Spread the batter evenly in the two pans.
+5. **Melt the swirl:** Put 3 oz of the bittersweet chocolate, 3 oz of the white chocolate, and 3 oz of the milk chocolate in three separate microwave-safe bowls. Melt each in 20-second bursts, stirring between bursts, until smooth.
 6. **Marble the tops:** Drizzle each melted chocolate over both pans. Draw a table knife through the batter a few times to marble it, and stop while all three colors still show.
 7. **Bake:** Bake, rotating the pans halfway through, until the tops are shiny and the centers are set, 35 to 40 minutes. A toothpick in the center should come out with moist crumbs.
 8. **Cool and cut:** Cool the brownies completely in the pans on a rack, about 2 hours, then cut them into squares.

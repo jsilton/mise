@@ -59,6 +59,7 @@ equipment:
   - cooling-rack
 formula:
   version: 1
+  stepText: preserved
   yield:
     amount: 16
     unit: portion

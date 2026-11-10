@@ -17,8 +17,9 @@ An ingredient has:
 - `id`: unique within its component. References use `component-id.ingredient-id`.
 - `key`: stable ingredient identity used for shopping consolidation. Keep different ingredient choices/properties distinct; do not group salted and unsalted butter under the same identity.
 - `name`: the ingredient itself, without its measured amount. A `count` quantity also requires an explicit `plural` name.
+- `stepName` (optional): what the steps call this ingredient, without an article, when the name the compiler derives is not the right one. See "How steps name ingredients" below.
 - `quantity`: the measured amount, or `allowance` for genuinely unmeasured instructions such as “to taste.” These are mutually exclusive.
-- `equivalents`: other expressions of the same total. They scale together. Only supply equivalents already supported by the recipe; the structure does not establish conversion accuracy.
+- `equivalents`: other expressions of the same total. They scale together. Two equivalents print with a comma between them. Only supply equivalents already supported by the recipe; the structure does not establish conversion accuracy.
 - `packageSize`: fixed size per counted package. Two 14-ounce cans become four 14-ounce cans, not four 28-ounce cans. An equivalent package count attached to a measured total is different.
 - `preparation`: softened, chopped, drained, etc. Descriptive sizes stay fixed; an estimate such as “about two carrots” must explicitly say it applies to the original batch or be a supported equivalent.
 - `optional` and `role`: distinguish ordinary ingredients, cooking water, garnishes and discarded ingredients. Cooking water is excluded from the combined shopping list; ingredients that are purchased and later discarded remain included.
@@ -30,15 +31,89 @@ Do not put alternate quantities inside `preparation` or `name`. A mixed amount s
 
 Cake and frosting own their own vanilla quantities. Dough and topping own their own candy quantities. The combined shopping list sums only compatible identities with the same units, names, package specifications and optionality. It does not guess conversions between cups and grams. Component quantities remain separate in the cooking list.
 
-Each step with assigned ingredients must contain `{{ingredients}}` exactly once. The compiler inserts the assigned ingredient names automatically, so a newly assigned leavener cannot disappear from an independently typed mixing list. A partial allocation generates wording such as “1/2 of the unsalted butter.” Shares remain proportional at every batch size.
+Each step with assigned ingredients must contain `{{ingredients}}` exactly once. The compiler inserts the assigned ingredients automatically, so a newly assigned leavener cannot disappear from an independently typed mixing list. Shares remain proportional at every batch size.
 
-For a non-consuming preparation reference, use `{{name:cake.carrots}}`, for example when grating carrots before their assigned folding step. Unknown references, duplicate IDs, missing destinations and allocation sums other than one fail authoring validation. Free prose still needs judgment: assigning an ingredient to the wrong stage is not something a schema can prove correct.
+For a non-consuming preparation reference, use `{{name:cake.carrots}}`, for example when grating carrots before their assigned folding step. It prints the same cooking name the steps use, with no article.
+
+## How steps name ingredients
+
+The ingredient list names what to buy: "3 large eggs", "2 garlic cloves, minced", "4 tbsp vegetable oil, divided". A step names what is in the cook's hand: "the eggs", "the garlic", "2 tbsp of the vegetable oil". The compiler writes the step wording from the formula. Do not type ingredient names, articles or amounts around `{{ingredients}}` to make up for it.
+
+**Cooking names.** The compiler shortens each `name` for the steps. It drops size words (large, medium), shopping words (fresh, unsalted, extra-virgin, all-purpose, low-sodium, boneless skinless), parenthetical notes and container words (cloves, sprigs, stalks, "slices of", "head of"). "kosher salt" becomes "the salt", "garlic cloves" becomes "the garlic", "large head of romaine" becomes "the romaine". A name with a choice in it ("butter or neutral oil") loses only its leading shopping words. A linked name keeps its link.
+
+A short name gives way to the fuller one when another ingredient in the recipe would answer to it too. With sesame oil in the recipe, "vegetable oil" stays "the vegetable oil". With brown sugar in the recipe, "granulated sugar" stays "the granulated sugar".
+
+Set `stepName` when the derived name is wrong or unclear. Write it without an article, in the form the step should use:
+
+```yaml
+- id: lettuce
+  key: romaine
+  name: large head of romaine
+  plural: large heads of romaine
+  stepName: romaine leaves
+```
+
+`stepName` is optional and existing formulas compile without it.
+
+**Articles and order.** The list starts with one "the": "Whisk the flour, baking soda, and salt". An ingredient that prints an amount comes last in the list with its own "of the", so the amount cannot read as applying to its neighbor: "Add the eggs and 2 tbsp of the vegetable oil".
+
+**Divided ingredients.** An ingredient with more than one `uses` entry is divided between steps.
+
+- Its list line gains ", divided" (unless the name or preparation already says so). The shopping list does not.
+- Each use prints the real amount for that step, in kitchen measures: 1/2 of 4 tbsp prints "2 tbsp of the vegetable oil", 1/3 of 1/4 cup prints "4 tsp of the Shaoxing wine".
+- The last use prints "the rest of the vegetable oil".
+- A share of a counted item prints its number with the list name when the number is whole ("4 garlic cloves", "2 large eggs") and words when it is not ("half of the onion"). The step never prints a bare number before the short name, so a quarter batch reads "1 garlic clove" and "1/4 jalapeño".
+- A share that is not a real measure at the written batch (1/9 of 1/4 tsp) prints as the share ("1/9 of the salt"). Fix the quantities instead of leaving that on a page.
+
+**Two lines with the same name.** When two entries end up with the same cooking name, such as the oil in a marinade and the oil for the wok, or vanilla in a cake and in its frosting, every step prints the amount so the cook knows which line it means: "1 tsp of the vegetable oil". Give one of them a `stepName` if a name reads better than an amount.
+
+**Oil first.** An amount normally comes last in the list. When the order matters to the cook, such as oil that goes into the wok before the garlic, mark that use with `lead: true`:
+
+```yaml
+uses:
+  - step: beef
+    share: 1/4
+  - step: vegetables
+    share: 1/4
+    lead: true
+```
+
+The step then reads "Add 1 tbsp of the vegetable oil, the garlic, and Chinese broccoli to the wok". `lead` is optional and applies to that one use.
+
+**Words before the list.** The compiler reads the word or two before `{{ingredients}}`:
+
+| Template                                                                                                                       | Output                                              |
+| ------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------- |
+| `Add {{ingredients}}` or `Add the {{ingredients}}`                                                                             | "Add the eggs and 2 tbsp of the oil"                |
+| `the rest of the {{ingredients}}`, `half the {{ingredients}}`, `a splash of {{ingredients}}`, `a thin film of {{ingredients}}` | names only, no amounts: "a splash of chicken stock" |
+| `the beaten {{ingredients}}`, `the softened {{ingredients}}`                                                                   | "the beaten egg"                                    |
+| `a {{ingredients}}`, `a little {{ingredients}}`                                                                                | "an ice cube", "a little oil"                       |
+
+After "of", "half", "all", "both", "remaining", "a little", "more", "some", "enough", "any" and "extra" the step already says how much, so the compiler prints bare names and no amounts.
+
+**Scaling.** The amounts the compiler prints in steps scale on the page with the batch buttons. "The rest of" needs no scaling. An amount typed by hand in a step does not scale, and the page then shows "Step amounts are for the original batch." under the scaler. Prefer a divided ingredient to a typed amount.
+
+**Scaled amounts.** The written batch prints exactly as authored. Any other batch size is rounded to what a cook can measure: fractions in eighths and thirds, small cups as tablespoons (1/16 cup is 1 tbsp, 1 1/16 cups is 1 cup plus 1 tbsp), small tablespoons as teaspoons, "a pinch" below 1/8 tsp, grams to the nearest gram or 5 g, and whole eggs to the nearest half with a note ("1/2 large egg (beat an egg and use half)"). The same rules apply to legacy recipes. Unknown references, duplicate IDs, missing destinations and allocation sums other than one fail authoring validation. Free prose still needs judgment: assigning an ingredient to the wrong stage is not something a schema can prove correct. No scaled line prints 3/8, 5/8 or 7/8 of a teaspoon or an ounce, or a third of a teaspoon. Under one teaspoon or one ounce those print as "scant 1/2 tsp", "heaping 1/2 tsp" and "scant 1 tsp". Above that they go to the nearest quarter. Ounces of a solid step up to pounds on a tidy quarter pound ("1 lb", "1 1/2 lb"). Ounces of a liquid stay in ounces.
 
 Working examples:
 
 - `src/content/recipes/breakfast-carrot-cake.md`: numeric gram quantity, count/plural egg, explicit leavening destinations and a preparation reference.
 - `src/content/recipes/chocolate-chip-cookie-cake.md`: butter equivalents, separate dough/topping components and combined candy shopping quantity.
-- `scripts/tests/recipe-formula.test.mjs`: divided ingredients, cake/frosting vanilla, packages, ranges, optional roles and invalid definitions. These are software fixtures, not tested culinary recipes.
+- `scripts/tests/recipe-formula.test.mjs`: divided ingredients, counted ingredients split across steps, lead words such as "enough", `lead`, cooking names and `stepName`, cake/frosting vanilla, packages, ranges, optional roles, scaled kitchen measures and invalid definitions. These are software fixtures, not tested culinary recipes.
+
+## Family recipes keep their wording
+
+Family recipes stay exactly as written. A family formula sets one field at the top of the block:
+
+```yaml
+formula:
+  version: 1
+  stepText: preserved
+```
+
+With `stepText: preserved` the compiler writes the Directions and the ingredient lines the way it did when the recipe was first structured. Steps name each ingredient as the card names it, with no added article, no added amount and no ", divided" on the list line. The scaler leaves the step text alone. When a step holds a measured amount and the batch changes, it shows "Step amounts are for the original batch."
+
+Use it for every recipe from a family card. Do not use it for a new recipe. The field is optional and `preserved` is its only value.
 
 ## Yield, equipment and time
 

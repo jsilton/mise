@@ -174,7 +174,7 @@ Pico de gallo is Mexico's salsa fresca, chopped raw instead of blended, in the r
 
 ## Directions
 
-1. **Salt the tomatoes:** Toss ripe plum tomatoes and kosher salt in a strainer set over a bowl. Let them drain for 15 minutes.
-2. **Rinse the onion:** While the tomatoes drain, soak white onion in a small bowl of cold water for 5 minutes. Drain it well.
-3. **Mix:** Shake the strainer to drop the last of the tomato juice. Stir the tomatoes and onion with serrano chile, fresh cilantro, and fresh lime juice in a bowl.
-4. **Rest and taste:** Let the pico sit for 10 minutes so the flavors come together. Taste it on a chip and add kosher salt until the tomato tastes bright.
+1. **Salt the tomatoes:** Toss the plum tomatoes and 3/4 tsp of the salt in a strainer set over a bowl. Let them drain for 15 minutes.
+2. **Rinse the onion:** While the tomatoes drain, soak the white onion in a small bowl of cold water for 5 minutes. Drain it well.
+3. **Mix:** Shake the strainer to drop the last of the tomato juice. Stir the tomatoes and onion with the serrano chile, cilantro, and lime juice in a bowl.
+4. **Rest and taste:** Let the pico sit for 10 minutes so the flavors come together. Taste it on a chip and add the salt until the tomato tastes bright.

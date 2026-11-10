@@ -233,9 +233,9 @@ This whole-wheat banana bread is built for the freezer. There is no butter or oi
 
 ## Directions
 
-1. **Prepare the pan:** Heat the oven to 350°F. Grease a 9x5-inch loaf pan with nonstick spray.
-2. **Blend the wet ingredients:** Blend medium ripe bananas, maple syrup, large egg, plain Greek yogurt, milk, ground cinnamon, and vanilla extract in a blender until smooth, about 30 seconds.
-3. **Whisk the dry ingredients:** Whisk whole-wheat flour, baking powder, baking soda, and fine salt in a large bowl.
+1. **Prepare the pan:** Heat the oven to 350°F. Grease a 9x5-inch loaf pan with the nonstick spray.
+2. **Blend the wet ingredients:** Blend the bananas, maple syrup, egg, Greek yogurt, milk, cinnamon, and vanilla in a blender until smooth, about 30 seconds.
+3. **Whisk the dry ingredients:** Whisk the whole-wheat flour, baking powder, baking soda, and salt in a large bowl.
 4. **Fold the batter:** Pour the banana mixture into the flour mixture and fold with a spatula just until no dry flour remains. Overmixing makes whole wheat tough. Scrape the batter into the pan and smooth the top.
 5. **Bake the loaf:** Bake until the top springs back and a toothpick in the center comes out with only moist crumbs, 50 to 55 minutes. The center should read 200 to 205°F. If the top browns before the center is done, tent it loosely with foil.
 6. **Cool completely:** Cool in the pan for 15 minutes, then turn the loaf out onto a rack and let it cool completely, about 1 1/2 hours.

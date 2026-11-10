@@ -235,8 +235,8 @@ learning:
       effect: The classic choice and a little richer. The cookies are no longer nut-free.
   storage: >-
     Keeps airtight at room temperature for 4 days. The seeds can leave harmless green flecks in the
-    crumb after a day, a reaction with the baking soda. Freeze scooped dough balls for up to 2 months
-    and bake them from frozen, adding 1 to 2 minutes.
+    crumb after a day, a reaction with the baking soda. Freeze scooped dough balls for up to 2
+    months and bake them from frozen, adding 1 to 2 minutes.
   review:
     status: editorial-review
     date: '2026-11-09'
@@ -248,13 +248,13 @@ Ruth Wakefield created the chocolate chip cookie at the Toll House Inn in Massac
 
 ## Directions
 
-1. **Brown the butter:** Melt unsalted butter in a roomy saucepan over medium heat. Keep cooking, swirling the pan, until the foam settles and the solids on the bottom turn deep golden and smell like hazelnuts, 5 to 8 minutes.
+1. **Brown the butter:** Melt the butter in a roomy saucepan over medium heat. Keep cooking, swirling the pan, until the foam settles and the solids on the bottom turn deep golden and smell like hazelnuts, 5 to 8 minutes.
 2. **Cool the butter:** Scrape the butter and all its browned bits into a mixing bowl. Refrigerate, stirring now and then, until it sets to the texture of softened butter, 30 to 40 minutes.
-3. **Cream the sugars:** Beat the brown butter with light brown sugar and granulated sugar on medium until pale and fluffy, 3 to 5 minutes.
-4. **Beat in the eggs:** Beat in large eggs and vanilla extract, adding the eggs one at a time and mixing each until smooth.
-5. **Add the soda:** Stir together baking soda, hot water, and kosher salt in a small cup until the soda dissolves. Beat it into the butter mixture.
-6. **Finish the dough:** Stir in all-purpose flour, semisweet chocolate chips, and sunflower seeds on low or by hand just until no dry flour shows.
+3. **Cream the sugars:** Beat the brown butter with the brown sugar and granulated sugar on medium until pale and fluffy, 3 to 5 minutes.
+4. **Beat in the eggs:** Beat in the eggs and vanilla, adding the eggs one at a time and mixing each until smooth.
+5. **Add the soda:** Stir together the baking soda, hot water, and kosher salt in a small cup until the soda dissolves. Beat it into the butter mixture.
+6. **Finish the dough:** Stir in the flour, semisweet chocolate chips, and sunflower seeds on low or by hand just until no dry flour shows.
 7. **Chill the dough:** Cover the bowl and refrigerate overnight, and up to 24 hours. The rest deepens the toffee flavor and keeps the cookies thick.
 8. **Scoop the dough:** Heat the oven to 350°F and line two baking sheets with parchment. Scoop the dough into balls the size of a golf ball and set them 2 inches apart.
 9. **Bake:** Bake one sheet at a time until the edges are golden and the centers look set but still soft, 10 to 12 minutes. Keep the waiting dough in the fridge.
-10. **Salt and cool:** Sprinkle the hot cookies with flaky sea salt. Let them firm up on the sheet for 5 minutes, then move them to a rack to cool.
+10. **Salt and cool:** Sprinkle the hot cookies with the flaky sea salt. Let them firm up on the sheet for 5 minutes, then move them to a rack to cool.

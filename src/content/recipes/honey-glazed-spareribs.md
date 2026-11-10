@@ -232,14 +232,14 @@ Sticky, sweet-savory ribs in the style of a Chinese-American takeout counter, ma
 
 ## Directions
 
-1. **Blend the marinade:** Blend hoisin sauce, soy sauce, unsulfured molasses, fresh ginger, garlic cloves, sambal oelek or Chinese chile-garlic sauce, and 2/3 of the honey in a blender until smooth.
-2. **Marinate the ribs:** Put pork spareribs in a large bowl, pour the marinade over them and turn to coat. Refrigerate for 45 minutes, turning once.
-3. **Load the cooker:** Pour water into the pressure cooker and set the rack in the pot. Lift the ribs out of the marinade, let the excess drip back into the bowl and stand them on the rack. Cover the bowl of marinade and refrigerate it.
+1. **Blend the marinade:** Blend the hoisin sauce, soy sauce, unsulfured molasses, ginger, garlic, sambal oelek or Chinese chile-garlic sauce, and 1/2 cup of the honey in a blender until smooth.
+2. **Marinate the ribs:** Put the pork spareribs in a large bowl, pour the marinade over them and turn to coat. Refrigerate for 45 minutes, turning once.
+3. **Load the cooker:** Pour the water into the pressure cooker and set the rack in the pot. Lift the ribs out of the marinade, let the excess drip back into the bowl and stand them on the rack. Cover the bowl of marinade and refrigerate it.
 4. **Pressure-cook:** Lock the lid, close the valve and cook at high pressure for 25 minutes.
 5. **Release naturally:** Let the pressure come down on its own until the float valve drops, 15 to 30 minutes. Then open the lid.
 6. **Check the ribs:** The meat should pierce easily with a fork and the bones should wiggle. If the ribs are still firm, lift out the rack, lay the ribs in the liquid and simmer uncovered, turning now and then, until tender. Move the ribs meaty side up to a foil-lined rimmed baking sheet.
 7. **Skim the fat:** Pour the cooking liquid into a measuring cup and let it settle for 5 minutes. Spoon off the fat that rises to the top.
 8. **Reduce the sauce:** Pour the skimmed liquid and the saved marinade into a saucepan. Boil over high heat, stirring often, until glossy and thick enough to coat a spoon, 10 to 15 minutes.
-9. **Glaze the ribs:** Heat the broiler with a rack about 6 inches from the heat. Brush the ribs all over with some of the reduced sauce, then with 1/3 of the honey.
+9. **Glaze the ribs:** Heat the broiler with a rack about 6 inches from the heat. Brush the ribs all over with some of the reduced sauce, then with the rest of the honey.
 10. **Broil:** Broil, turning once, until the glaze bubbles and chars at the edges, about 5 minutes in all. Watch closely, since honey burns fast.
 11. **Cut and serve:** Cut between the bones into single ribs and serve with the rest of the sauce on the side.

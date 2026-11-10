@@ -236,9 +236,9 @@ Lisa Leake wrote this whole-wheat batter so her kids could pick their own fillin
 ## Directions
 
 1. **Heat the oven:** Heat the oven to 400°F and line a 12-cup muffin tin with paper liners.
-2. **Mix the dry ingredients:** In a large bowl, whisk white whole-wheat flour, baking powder, ground cinnamon, ground nutmeg, and salt together.
-3. **Mix the wet ingredients:** In a medium bowl, whisk apple or orange juice, coconut oil, honey, pure vanilla extract, and large eggs until smooth. Room-temperature juice and eggs keep the coconut oil from setting into bits.
+2. **Mix the dry ingredients:** In a large bowl, whisk the white whole-wheat flour, baking powder, cinnamon, nutmeg, and salt together.
+3. **Mix the wet ingredients:** In a medium bowl, whisk the apple or orange juice, coconut oil, honey, vanilla, and eggs until smooth. Room-temperature juice and eggs keep the coconut oil from setting into bits.
 4. **Combine:** Pour the wet mixture into the flour mixture. Stir with a spatula just until no dry flour shows.
-5. **Fold in the fruit:** Gently fold in blueberries, diced strawberries or peeled diced pears with a few strokes. Divide the batter evenly among the cups.
+5. **Fold in the fruit:** Gently fold in the blueberries, diced strawberries or peeled diced pears with a few strokes. Divide the batter evenly among the cups.
 6. **Bake:** Bake until the tops spring back and a toothpick in the center comes out clean, 12 to 15 minutes.
-7. **Cool and serve:** Cool the muffins in the pan for 5 minutes, then lift them onto a rack. Serve warm with salted butter (if using).
+7. **Cool and serve:** Cool the muffins in the pan for 5 minutes, then lift them onto a rack. Serve warm with the salted butter (if using).

@@ -151,5 +151,5 @@ The daiquiri, rum with lime and sugar, is named for Daiquirí, a beach town in e
 ## Directions
 
 1. **Freeze the melon:** Spread the honeydew in a single layer in a freezer-safe container. Freeze until very cold and firm at the edges, about 30 minutes.
-2. **Blend the daiquiri:** Put honeydew melon, light rum, fresh lime juice, Midori or other green melon liqueur, and ice cubes (if using) in a blender. Blend on low, then on high until completely smooth and thick, about 1 minute. Blend in two batches if your blender is small.
-3. **Pour and garnish:** Pour into large chilled glasses. Garnish with cantaloupe cubes and sugar cane skewers, threading three cubes onto each skewer. Serve right away.
+2. **Blend the daiquiri:** Put the honeydew melon, light rum, lime juice, Midori or other green melon liqueur, and ice cubes (if using) in a blender. Blend on low, then on high until completely smooth and thick, about 1 minute. Blend in two batches if your blender is small.
+3. **Pour and garnish:** Pour into large chilled glasses. Garnish with the cantaloupe cubes and sugar cane skewers, threading three cubes onto each skewer. Serve right away.

@@ -155,10 +155,10 @@ These are the original Rice Krispies treats from the back of the cereal box, wit
 
 ## Directions
 
-1. **Grease the pan:** Grease a 9-by-13-inch pan and a spatula with butter or cooking spray.
-2. **Melt the marshmallows:** Melt unsalted butter and fresh marshmallows in a large pot over low heat, stirring constantly with the greased spatula, until smooth, about 5 minutes. Take the pot off the heat right away.
-3. **Add the flavorings:** Stir in sea salt and pure vanilla extract.
-4. **Coat the cereal:** Add Rice Krispies cereal and fold gently until every piece is coated.
+1. **Grease the pan:** Grease a 9-by-13-inch pan and a spatula with the butter or cooking spray.
+2. **Melt the marshmallows:** Melt the butter and marshmallows in a large pot over low heat, stirring constantly with the greased spatula, until smooth, about 5 minutes. Take the pot off the heat right away.
+3. **Add the flavorings:** Stir in the salt and vanilla.
+4. **Coat the cereal:** Add the Rice Krispies cereal and fold gently until every piece is coated.
 5. **Press into the pan:** Scrape the mixture into the pan. Press it into an even layer with the spatula or a sheet of wax paper, using a light touch so the treats stay tender.
 6. **Cool:** Let cool at room temperature until set, about 30 minutes. Do not refrigerate.
 7. **Cut:** Cut into squares and serve the same day for the best texture.

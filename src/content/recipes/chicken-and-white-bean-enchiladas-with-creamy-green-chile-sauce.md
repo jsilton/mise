@@ -210,9 +210,9 @@ These are a lighter take on enchiladas suizas, the Mexico City favorite in a cre
 
 ## Directions
 
-1. **Blend the sauce:** Heat the oven to 375°F. Blend tomatillo salsa verde or green enchilada sauce, light sour cream or Greek yogurt, diced green chiles, and fresh cilantro until smooth.
-2. **Mix the filling:** In a bowl, toss cooked chicken, navy or cannellini beans, and ground cumin with a few spoonfuls of the sauce.
+1. **Blend the sauce:** Heat the oven to 375°F. Blend the tomatillo salsa verde or green enchilada sauce, light sour cream or Greek yogurt, green chiles, and 1/2 cup of the cilantro until smooth.
+2. **Mix the filling:** In a bowl, toss the chicken, navy or cannellini beans, and cumin with a few spoonfuls of the sauce.
 3. **Roll the enchiladas:** Spread a thin layer of sauce over the bottom of a 9x13-inch baking dish. Divide the filling among the flour tortillas, roll them up tightly and lay them seam side down in the dish.
 4. **Sauce and top:** Pour the rest of the sauce over the rolls and scatter the Mexican cheese blend over the top.
 5. **Bake:** Bake until the sauce bubbles at the edges and the cheese is melted and golden, 20 to 25 minutes.
-6. **Garnish and serve:** Let the enchiladas stand for 5 minutes, then top with fresh cilantro (if using) and pickled red onions (if using).
+6. **Garnish and serve:** Let the enchiladas stand for 5 minutes, then top with the cilantro (if using) and pickled red onions (if using).

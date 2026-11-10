@@ -216,9 +216,9 @@ Mei Lin's Korean barbecue ribs bake low and slow in foil with a gochujang, hoisi
 
 ## Directions
 
-1. **Make the sauce:** Heat the oven to 325°F. Whisk gochujang, hoisin sauce, honey, soy sauce, sake, unseasoned rice vinegar, fresh ginger, fresh garlic, and ground white pepper in a large bowl until smooth. Set aside a third of the sauce in a separate bowl for glazing.
-2. **Wrap the ribs:** Lay out a double layer of heavy-duty foil for each rack. Set pork spareribs meaty side up on the foil and brush with the rest of the sauce. Wrap tightly and set the packets on rimmed baking sheets.
+1. **Make the sauce:** Heat the oven to 325°F. Whisk the gochujang, hoisin sauce, honey, soy sauce, sake, unseasoned rice vinegar, ginger, garlic, and white pepper in a large bowl until smooth. Set aside a third of the sauce in a separate bowl for glazing.
+2. **Wrap the ribs:** Lay out a double layer of heavy-duty foil for each rack. Set the pork spareribs meaty side up on the foil and brush with the rest of the sauce. Wrap tightly and set the packets on rimmed baking sheets.
 3. **Bake until tender:** Bake until the meat is tender but not quite falling off the bone, about 2 hours.
 4. **Cut the ribs:** Heat a grill to medium-low. Unwrap the ribs, wipe off the excess sauce and cut the racks into 4-rib sections.
 5. **Grill and glaze:** Brush the ribs lightly with the reserved sauce and grill, turning and brushing, until sticky and caramelized, 3 to 4 minutes per side. Watch closely so the honey doesn't burn.
-6. **Serve:** Pile the ribs on a platter and serve with lime wedges.
+6. **Serve:** Pile the ribs on a platter and serve with the lime wedges.

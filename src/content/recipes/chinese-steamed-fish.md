@@ -36,9 +36,9 @@ pairingNotes:
   steamed-bok-choy-with-oyster-sauce: The classic green vegetable for a Cantonese table.
 ingredients:
   - '1 (1 1/2 lb) whole snapper or sea bass, scaled and gutted'
-  - '1 piece fresh ginger, 2 inches long, peeled and cut into fine matchsticks'
+  - '1 piece fresh ginger, 2 inches long, peeled and cut into fine matchsticks, divided'
   - '2 scallions, cut into fine threads'
-  - 3 tbsp Shaoxing wine
+  - '3 tbsp Shaoxing wine, divided'
   - 4 tbsp light soy sauce
   - 2 tbsp water
   - '1 tbsp rock sugar, crushed to a powder'
@@ -235,12 +235,12 @@ Cantonese steamed whole fish is the centerpiece of a Chinese family dinner and a
 
 ## Directions
 
-1. **Mix the sauce:** Stir 2/3 of the Shaoxing wine, light soy sauce, water, rock sugar, toasted sesame oil, and ground white pepper together in a small bowl until the sugar dissolves.
-2. **Dry the fish:** Pat whole snapper or sea bass dry inside and out. Lay it on a heatproof plate that fits in your steamer or wok.
-3. **Season the fish:** Season the fish with 1/2 of the fresh ginger and 1/3 of the Shaoxing wine, tucking some of the ginger into the cavity.
+1. **Mix the sauce:** Stir the light soy sauce, water, rock sugar, sesame oil, white pepper, and 2 tbsp of the Shaoxing wine together in a small bowl until the sugar dissolves.
+2. **Dry the fish:** Pat the snapper or sea bass dry inside and out. Lay it on a heatproof plate that fits in your steamer or wok.
+3. **Season the fish:** Season the fish with half of the ginger and the rest of the Shaoxing wine, tucking some of the ginger into the cavity.
 4. **Steam the fish:** Bring water to a rolling boil in a steamer or a wok fitted with a rack. Set the plate on the rack, cover and steam over high heat until the flesh at the thickest part is opaque and flakes from the bone, 8 to 12 minutes.
 5. **Drain the plate:** Lift out the plate and pour off the liquid that has collected around the fish. It tastes fishy and would muddy the sauce.
-6. **Add the aromatics:** Scatter 1/2 of the fresh ginger and scallions over the hot fish.
-7. **Pour the hot oil:** Heat peanut oil in a small pan over high heat until it just begins to smoke. Pour it over the ginger and scallions. It should sizzle loudly.
+6. **Add the aromatics:** Scatter the scallions and the rest of the ginger over the hot fish.
+7. **Pour the hot oil:** Heat the peanut oil in a small pan over high heat until it just begins to smoke. Pour it over the ginger and scallions. It should sizzle loudly.
 8. **Heat the sauce:** Pour the sauce into the same hot pan and let it bubble for a few seconds. Pour it around the fish.
-9. **Garnish and serve:** Scatter fresh cilantro leaves over the top and serve right away.
+9. **Garnish and serve:** Scatter the cilantro over the top and serve right away.

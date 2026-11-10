@@ -288,12 +288,12 @@ A weeknight ragù from NYT Cooking. Ground lamb browns hard on its own first, th
 
 ## Directions
 
-1. **Heat the oil:** Heat extra-virgin olive oil in a large heavy pot over medium-high heat until it shimmers.
-2. **Brown the lamb:** Add ground lamb in a broad layer and cook undisturbed until browned underneath, 2 to 3 minutes. Break it up and cook until well browned and crisp in spots, 6 to 8 minutes more. Lift the lamb into a bowl with a slotted spoon and leave the fat in the pot.
-3. **Soften the onion:** Turn the heat to medium. Add medium yellow onion to the fat and cook, scraping up the browned bits, until soft and golden, 5 to 8 minutes.
-4. **Melt the anchovies:** Add garlic cloves, red pepper flakes, and anchovy fillets and cook, stirring, until the anchovies melt into the oil and the garlic is fragrant, about 2 minutes.
-5. **Toast the tomato paste:** Stir in tomato paste and cook, stirring, until it turns brick red and smells roasted, about 3 minutes.
-6. **Simmer the sauce:** Return the lamb and its juices and stir in crushed tomatoes, water, kosher salt, and black pepper, scraping the bottom of the pot. Bring to a boil, then lower the heat and simmer gently, stirring now and then, until the sauce is thick and meaty, 25 to 30 minutes.
-7. **Boil the pasta:** When the sauce has about 15 minutes left, bring a large pot of well-salted water to a boil. Add penne or shells and cook until just short of al dente, then drain.
-8. **Finish the sauce:** Stir balsamic vinegar and fresh oregano or marjoram leaves into the sauce. Add the pasta and toss over low heat until it is coated and al dente, about 1 minute. Taste and add more salt if it needs it.
-9. **Serve:** Spoon into bowls and finish with Parmesan or Pecorino Romano and extra-virgin olive oil.
+1. **Heat the oil:** Heat 2 tbsp of the olive oil in a large heavy pot over medium-high heat until it shimmers.
+2. **Brown the lamb:** Add the ground lamb in a broad layer and cook undisturbed until browned underneath, 2 to 3 minutes. Break it up and cook until well browned and crisp in spots, 6 to 8 minutes more. Lift the lamb into a bowl with a slotted spoon and leave the fat in the pot.
+3. **Soften the onion:** Turn the heat to medium. Add the yellow onion to the fat and cook, scraping up the browned bits, until soft and golden, 5 to 8 minutes.
+4. **Melt the anchovies:** Add the garlic, red pepper flakes, and anchovy fillets and cook, stirring, until the anchovies melt into the oil and the garlic is fragrant, about 2 minutes.
+5. **Toast the tomato paste:** Stir in the tomato paste and cook, stirring, until it turns brick red and smells roasted, about 3 minutes.
+6. **Simmer the sauce:** Return the lamb and its juices and stir in the crushed tomatoes, water, salt, and pepper, scraping the bottom of the pot. Bring to a boil, then lower the heat and simmer gently, stirring now and then, until the sauce is thick and meaty, 25 to 30 minutes.
+7. **Boil the pasta:** When the sauce has about 15 minutes left, bring a large pot of well-salted water to a boil. Add the penne or shells and cook until just short of al dente, then drain.
+8. **Finish the sauce:** Stir the balsamic vinegar and oregano or marjoram leaves into the sauce. Add the pasta and toss over low heat until it is coated and al dente, about 1 minute. Taste and add more salt if it needs it.
+9. **Serve:** Spoon into bowls and finish with the Parmesan or Pecorino Romano and olive oil.

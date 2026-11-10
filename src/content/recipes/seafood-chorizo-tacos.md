@@ -265,10 +265,10 @@ These tacos pair spicy Mexican chorizo with shrimp and squid. The chorizo render
 
 ## Directions
 
-1. **Brown the chorizo:** Add extra-virgin olive oil, fresh Mexican chorizo, salt, and black pepper to a large skillet over medium-high heat. Cook, breaking up the chorizo, until it is browned and crisp at the edges with no pink left, about 4 minutes.
-2. **Soften the onion:** Add small red onion and ground cumin and cook until the onion softens, about 2 minutes.
-3. **Add the garlic:** Stir in the garlic clove and cook until fragrant, about 30 seconds.
-4. **Cook the seafood:** Add raw medium shrimp, cleaned small squid, and Mexican lager and toss over medium-high heat until the shrimp are pink and opaque and the squid turns white and firm, about 3 minutes.
-5. **Finish the filling:** Stir in fresh lime juice, salt, and black pepper and take the skillet off the heat.
-6. **Char the tortillas:** Char corn tortillas over a gas flame or in a dry skillet until spotted and pliable, about 30 seconds per side.
-7. **Fill and serve:** Spoon the filling into the tortillas. Serve with avocado, fresh cilantro, sour cream, and lime wedges at the table.
+1. **Brown the chorizo:** Add the olive oil, Mexican chorizo, salt, and pepper to a large skillet over medium-high heat. Cook, breaking up the chorizo, until it is browned and crisp at the edges with no pink left, about 4 minutes.
+2. **Soften the onion:** Add the red onion and cumin and cook until the onion softens, about 2 minutes.
+3. **Add the garlic:** Stir in the garlic and cook until fragrant, about 30 seconds.
+4. **Cook the seafood:** Add the shrimp, cleaned small squid, and Mexican lager and toss over medium-high heat until the shrimp are pink and opaque and the squid turns white and firm, about 3 minutes.
+5. **Finish the filling:** Stir in the lime juice, salt, and pepper and take the skillet off the heat.
+6. **Char the tortillas:** Char the corn tortillas over a gas flame or in a dry skillet until spotted and pliable, about 30 seconds per side.
+7. **Fill and serve:** Spoon the filling into the tortillas. Serve with the avocado, cilantro, sour cream, and lime wedges at the table.

@@ -36,7 +36,7 @@ pairingNotes:
 ingredients:
   - 15 oz ricotta cheese
   - '8 oz mozzarella cheese, grated'
-  - '1 cup Parmesan cheese, grated'
+  - '1 cup Parmesan cheese, grated, divided'
   - '10 oz frozen spinach, thawed and squeezed dry'
   - 1 large egg
   - 1/2 tsp kosher salt
@@ -212,11 +212,11 @@ This easy spinach lasagna from 100 Days of Real Food uses no-boil whole-wheat sh
 
 ## Directions
 
-1. **Mix the filling:** Heat the oven to 375°F. In a large bowl, stir together ricotta cheese, mozzarella cheese, 3/4 of the Parmesan cheese, frozen spinach, large egg, kosher salt, and black pepper until the spinach is evenly mixed through.
-2. **Thin the sauce:** Stir marinara sauce and water together until smooth. No-boil whole-wheat sheets soak up liquid as they bake, and the extra water keeps the edges and corners tender.
+1. **Mix the filling:** Heat the oven to 375°F. In a large bowl, stir together the ricotta cheese, mozzarella cheese, spinach, egg, salt, pepper, and 3/4 cup of the Parmesan until the spinach is evenly mixed through.
+2. **Thin the sauce:** Stir the marinara sauce and water together until smooth. No-boil whole-wheat sheets soak up liquid as they bake, and the extra water keeps the edges and corners tender.
 3. **Sauce the dish:** Spread a quarter of the sauce over the bottom of a 9-by-13-inch baking dish.
 4. **Build the layers:** Lay a third of the whole-wheat no-boil lasagna sheets over the sauce with as little overlap as you can. Spread a third of the cheese mixture over them, then a quarter of the sauce. Repeat twice more, ending with sauce that covers every sheet edge and corner.
-5. **Top and cover:** Scatter 1/4 of the Parmesan cheese over the top and cover the dish tightly with foil.
+5. **Top and cover:** Scatter the rest of the Parmesan over the top and cover the dish tightly with foil.
 6. **Bake covered:** Bake for 30 minutes.
 7. **Finish uncovered:** Remove the foil and bake until the sauce bubbles at the edges and a knife slides easily through the center noodles, 20 to 25 minutes more.
 8. **Rest:** Let the lasagna rest for 10 minutes before cutting.

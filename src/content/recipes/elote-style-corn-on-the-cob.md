@@ -193,7 +193,7 @@ Elote is Mexico's grilled street corn: charred ears brushed with a mix of mayonn
 ## Directions
 
 1. **Heat the grill:** Heat a grill to medium-high and brush the grates clean.
-2. **Mix the coating:** Stir together mayonnaise, Mexican crema, kosher salt (if using), and black pepper in a small bowl. Cotija and mayonnaise are already salty, so add the salt only if the coating tastes flat. Keep it in the fridge while the corn cooks.
-3. **Grill the corn:** Pat ears of fresh corn dry and set them directly on the hot grates. Cook, turning every 2 to 3 minutes, until the kernels are tender and charred in spots, 8 to 10 minutes.
-4. **Coat and top:** Hold each hot ear over a plate and brush it all over with the coating. Sprinkle with cotija cheese, fresh cilantro, and chili powder or Tajín, turning the ear so the cheese sticks on every side.
-5. **Serve:** Serve right away with lime wedges for squeezing.
+2. **Mix the coating:** Stir together the mayonnaise, Mexican crema, salt (if using), and pepper in a small bowl. Cotija and mayonnaise are already salty, so add the salt only if the coating tastes flat. Keep it in the fridge while the corn cooks.
+3. **Grill the corn:** Pat the corn dry and set them directly on the hot grates. Cook, turning every 2 to 3 minutes, until the kernels are tender and charred in spots, 8 to 10 minutes.
+4. **Coat and top:** Hold each hot ear over a plate and brush it all over with the coating. Sprinkle with the cotija cheese, cilantro, and chili powder or Tajín, turning the ear so the cheese sticks on every side.
+5. **Serve:** Serve right away with the lime wedges for squeezing.

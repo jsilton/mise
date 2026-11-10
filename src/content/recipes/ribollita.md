@@ -335,12 +335,12 @@ Ribollita means "reboiled." Tuscan cooks make a big pot of bean and black kale s
 
 ## Directions
 
-1. **Soak the beans:** The day before, put dried cannellini beans and water in a large bowl, with the water covering the beans by 3 inches. Soak 12 hours or overnight, then drain.
+1. **Soak the beans:** The day before, put the dried cannellini beans and water in a large bowl, with the water covering the beans by 3 inches. Soak 12 hours or overnight, then drain.
 2. **Cook the beans:** Put the beans in a pot and cover by 2 inches with fresh water. Boil hard for 10 minutes, then lower the heat and simmer until creamy all the way through, 1 to 2 hours. Top up with hot water to keep them covered. Keep them in their liquid.
-3. **Cook the soffritto:** Warm extra-virgin olive oil, onions, carrots, and celery ribs in a large, heavy soup pot over medium-low heat. Cook, stirring, until soft but not browned, 10 to 15 minutes.
-4. **Wilt the greens:** Add tomatoes, cavolo nero, savoy cabbage, Swiss chard, and potatoes, with the chard stems going in before the leaves. Stir in the greens by handfuls as they wilt, 5 to 10 minutes.
+3. **Cook the soffritto:** Warm the onions, carrots, celery, and 1/4 cup of the olive oil in a large, heavy soup pot over medium-low heat. Cook, stirring, until soft but not browned, 10 to 15 minutes.
+4. **Wilt the greens:** Add the tomatoes, cavolo nero, savoy cabbage, Swiss chard, and potatoes, with the chard stems going in before the leaves. Stir in the greens by handfuls as they wilt, 5 to 10 minutes.
 5. **Purée half the beans:** Pass about half the beans through a food mill or sieve into their cooking liquid. Keep the rest whole.
-6. **Simmer the soup:** Pour the bean purée and its liquid into the soup pot and season with kosher salt and black pepper. Simmer gently for 1 hour, stirring along the bottom and adding a splash of hot water if it gets too thick, until the potatoes are tender and the broth is creamy. Stir in the whole beans and season well, since the bread is unsalted.
+6. **Simmer the soup:** Pour the bean purée and its liquid into the soup pot and season with the salt and pepper. Simmer gently for 1 hour, stirring along the bottom and adding a splash of hot water if it gets too thick, until the potatoes are tender and the broth is creamy. Stir in the whole beans and season well, since the bread is unsalted.
 7. **Layer with bread:** In a large baking dish, layer half the stale Tuscan bread, half the soup, the rest of the bread and the rest of the soup. Let it cool, then cover and refrigerate overnight.
-8. **Boil it again:** Scrape the soup into a heavy pot and warm over medium-low heat, stirring along the bottom often. Add water if it is too thick to stir. Bring to a boil, then simmer gently, stirring, until thick and spoonable, about 10 minutes.
-9. **Serve:** Ladle into bowls and drizzle each one with extra-virgin olive oil.
+8. **Boil it again:** Scrape the soup into a heavy pot and warm over medium-low heat, stirring along the bottom often. Add the water if it is too thick to stir. Bring to a boil, then simmer gently, stirring, until thick and spoonable, about 10 minutes.
+9. **Serve:** Ladle into bowls and drizzle each one with the olive oil.

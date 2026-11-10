@@ -315,13 +315,13 @@ Pizza night starts the day before with Jim Lahey's no-knead dough. A long, slow 
 
 ## Directions
 
-1. **Mix the dough:** In a large bowl, stir all-purpose flour, water, fine sea salt, and active-dry yeast until no dry flour remains. The dough will be sticky. Cover the bowl. There is no need to knead.
+1. **Mix the dough:** In a large bowl, stir the all-purpose flour, water, fine sea salt, and active-dry yeast until no dry flour remains. The dough will be sticky. Cover the bowl. There is no need to knead.
 2. **Let it rise:** Leave the dough at room temperature until bubbly and more than doubled, about 18 hours.
-3. **Shape the balls:** Turn the dough out onto a surface dusted with flour and cut it into four pieces. Fold the edges under to make four balls. Cover and let them rest until soft and easy to stretch, about 1 hour.
-4. **Heat the oven:** Heat the oven to 500°F with a rack in the middle. Lightly coat two pizza pans or baking sheets with olive oil.
-5. **Start the sauce:** Warm olive oil and garlic cloves in a medium saucepan over medium-low heat until the garlic is fragrant but not browned, 30 to 45 seconds.
-6. **Simmer the sauce:** Stir in whole peeled tomatoes, fine salt, and red pepper flakes (if using). Simmer, stirring now and then, until thick enough to spread, 10 to 15 minutes. Let it cool. The sauce makes more than the pizzas need, so refrigerate the rest.
+3. **Shape the balls:** Turn the dough out onto a surface dusted with the flour and cut it into four pieces. Fold the edges under to make four balls. Cover and let them rest until soft and easy to stretch, about 1 hour.
+4. **Heat the oven:** Heat the oven to 500°F with a rack in the middle. Lightly coat two pizza pans or baking sheets with the olive oil.
+5. **Start the sauce:** Warm the garlic and 2 tbsp of the olive oil in a medium saucepan over medium-low heat until the garlic is fragrant but not browned, 30 to 45 seconds.
+6. **Simmer the sauce:** Stir in the tomatoes, fine salt, and red pepper flakes (if using). Simmer, stirring now and then, until thick enough to spread, 10 to 15 minutes. Let it cool. The sauce makes more than the pizzas need, so refrigerate the rest.
 7. **Stretch the dough:** Stretch one ball into a 10-inch round with a slightly thicker rim and set it on a cool pan. If it springs back, cover it and let it rest 10 minutes more.
-8. **Top the pizza:** Divide fresh mozzarella, Parmesan, and pizza toppings (if using) into four portions. Spread a thin layer of sauce on the dough, leaving a 1/2-inch rim. Scatter on half of one portion's mozzarella, then a single sparse layer of its toppings, then the rest of its mozzarella and its Parmesan.
+8. **Top the pizza:** Divide the mozzarella, Parmesan, and pizza toppings (if using) into four portions. Spread a thin layer of sauce on the dough, leaving a 1/2-inch rim. Scatter on half of one portion's mozzarella, then a single sparse layer of its toppings, then the rest of its mozzarella and its Parmesan.
 9. **Bake:** Bake until the bottom is browned, the rim is golden and the cheese is bubbling, 12 to 15 minutes. Shape and top the next pizza on the second pan while the first one bakes.
-10. **Finish and serve:** Scatter fresh basil (if using) over the hot pizza. Let it rest 2 minutes, then slice and serve. Repeat with the rest of the dough, letting each pan cool before you stretch dough on it again.
+10. **Finish and serve:** Scatter the basil (if using) over the hot pizza. Let it rest 2 minutes, then slice and serve. Repeat with the rest of the dough, letting each pan cool before you stretch dough on it again.

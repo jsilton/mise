@@ -48,7 +48,7 @@ ingredients:
   - 1/4 tsp black pepper
   - 1/4 cup extra-virgin olive oil
   - '--- Shrimp ---'
-  - 2 tbsp extra-virgin olive oil
+  - '2 tbsp extra-virgin olive oil, divided'
   - '3 garlic cloves, minced'
   - '1 lb large shrimp, peeled, deveined and patted dry'
   - 1 tsp Old Bay seasoning
@@ -256,10 +256,10 @@ EatingWell's zucchini noodles swap the cheese and pine nuts in basil pesto for c
 
 ## Directions
 
-1. **Salt the zucchini:** Toss medium zucchini and salt in a colander set in the sink. Let drain for 15 minutes while you make the pesto.
-2. **Make the pesto:** In a food processor, blend ripe avocado, packed fresh basil leaves, unsalted shelled pistachios, fresh lemon juice, salt, black pepper, and extra-virgin olive oil until smooth and creamy, scraping down the bowl once.
+1. **Salt the zucchini:** Toss the zucchini and 1/2 tsp of the salt in a colander set in the sink. Let drain for 15 minutes while you make the pesto.
+2. **Make the pesto:** In a food processor, blend the avocado, basil, shelled pistachios, lemon juice, pepper, 1/4 tsp of the salt, and 1/4 cup of the olive oil until smooth and creamy, scraping down the bowl once.
 3. **Squeeze the zucchini:** Squeeze the zucchini gently by the handful to press out the water without breaking the strands.
-4. **Toast the garlic:** Heat 1/2 of the extra-virgin olive oil and garlic cloves in a large skillet over medium-high heat. Stir until the garlic is fragrant, about 30 seconds.
-5. **Cook the shrimp:** Add large shrimp and Old Bay seasoning. Cook, turning once, until the shrimp are pink and opaque throughout, 3 to 4 minutes. Move them to a large bowl.
-6. **Heat the zucchini:** Add 1/2 of the extra-virgin olive oil and the zucchini to the skillet. Toss over medium-high heat until hot but still firm, about 3 minutes.
+4. **Toast the garlic:** Heat the garlic and 1 tbsp of the olive oil in a large skillet over medium-high heat. Stir until the garlic is fragrant, about 30 seconds.
+5. **Cook the shrimp:** Add the shrimp and Old Bay seasoning. Cook, turning once, until the shrimp are pink and opaque throughout, 3 to 4 minutes. Move them to a large bowl.
+6. **Heat the zucchini:** Add 1 tbsp of the olive oil and the zucchini to the skillet. Toss over medium-high heat until hot but still firm, about 3 minutes.
 7. **Toss with the pesto:** Add the zucchini and the pesto to the bowl of shrimp. Toss gently until every strand is coated, and serve right away.

@@ -187,8 +187,8 @@ Gina Homolka's shortcut soup from Skinnytaste gets dinner on the table in 25 min
 
 ## Directions
 
-1. **Infuse the broth:** In a large pot, bring low-sodium chicken broth, fresh ginger, and garlic clove to a boil. Lower the heat and simmer for 5 minutes.
-2. **Add the vegetables:** Add baby bok choy and shiitake mushrooms and simmer until the mushrooms soften, about 3 minutes.
-3. **Cook the wontons:** Add frozen mini wontons straight from the freezer. Simmer until they float, the filling is cooked through and the bok choy stalks are tender, 3 to 5 minutes, or the time on the package.
-4. **Season:** Turn off the heat and stir in soy sauce, toasted sesame oil, and white pepper. Taste and add more soy sauce if it needs it.
-5. **Serve:** Fish out the ginger and garlic. Ladle the soup into bowls, dividing the wontons evenly, and top with scallion greens.
+1. **Infuse the broth:** In a large pot, bring the chicken broth, ginger, and garlic to a boil. Lower the heat and simmer for 5 minutes.
+2. **Add the vegetables:** Add the baby bok choy and shiitake mushrooms and simmer until the mushrooms soften, about 3 minutes.
+3. **Cook the wontons:** Add the mini wontons straight from the freezer. Simmer until they float, the filling is cooked through and the bok choy stalks are tender, 3 to 5 minutes, or the time on the package.
+4. **Season:** Turn off the heat and stir in the soy sauce, sesame oil, and white pepper. Taste and add more soy sauce if it needs it.
+5. **Serve:** Fish out the ginger and garlic. Ladle the soup into bowls, dividing the wontons evenly, and top with the scallion greens.

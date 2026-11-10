@@ -204,9 +204,9 @@ This is a wacky cake, the old American chocolate cake made with no eggs or butte
 
 ## Directions
 
-1. **Mix the dry ingredients:** Heat the oven to 325°F. Whisk all-purpose flour, granulated sugar, unsweetened cocoa powder, baking soda, and sea salt right in an 8-inch square baking dish, breaking up any cocoa lumps with your fingers.
-2. **Make three wells:** Make three wells in the dry mixture. Pour canola or avocado oil, vanilla extract, and apple cider vinegar into them, one in each well.
-3. **Mix the batter:** Pour cold water over everything. Stir with a fork, scraping the bottom and corners, until the batter is smooth with no dry pockets. Spread it evenly.
-4. **Add the chips:** Sprinkle semisweet chocolate chips over the batter and wipe the rim of the dish clean with a damp towel.
+1. **Mix the dry ingredients:** Heat the oven to 325°F. Whisk the flour, granulated sugar, cocoa powder, baking soda, and salt right in an 8-inch square baking dish, breaking up any cocoa lumps with your fingers.
+2. **Make three wells:** Make three wells in the dry mixture. Pour the canola or avocado oil, vanilla, and apple cider vinegar into them, one in each well.
+3. **Mix the batter:** Pour the cold water over everything. Stir with a fork, scraping the bottom and corners, until the batter is smooth with no dry pockets. Spread it evenly.
+4. **Add the chips:** Sprinkle the semisweet chocolate chips over the batter and wipe the rim of the dish clean with a damp towel.
 5. **Bake:** Bake until a toothpick in the center comes out with a few moist crumbs, 28 to 33 minutes.
-6. **Cool and dust:** Cool the cake in the dish. Dust with confectioners’ sugar (if using) just before serving.
+6. **Cool and dust:** Cool the cake in the dish. Dust with the confectioners’ sugar (if using) just before serving.

@@ -363,12 +363,12 @@ This is the carrot cake from Mercer Street Meals, shared with the Atlanta Journa
 
 ## Directions
 
-1. **Prepare the pans:** Heat the oven to 350°F. Use unsalted butter and all-purpose flour to grease and flour two 8-inch round cake pans, tapping out the excess flour.
-2. **Whisk the dry ingredients:** In a medium bowl, whisk all-purpose flour, baking soda, baking powder, ground cinnamon, ground allspice, ground cloves, nutmeg, and salt until evenly mixed.
-3. **Whisk the wet ingredients:** In a large bowl, whisk granulated sugar, vegetable oil, and large eggs until smooth and glossy, about 1 minute.
-4. **Make the batter:** Stir the dry ingredients into the wet just until no flour shows. Fold in carrots until evenly mixed, then divide the batter between the pans and smooth the tops.
+1. **Prepare the pans:** Heat the oven to 350°F. Use 1 tbsp of the butter and 2 tbsp of the flour to grease and flour two 8-inch round cake pans, tapping out the excess flour.
+2. **Whisk the dry ingredients:** In a medium bowl, whisk the baking soda, baking powder, cinnamon, allspice, cloves, nutmeg, 1 1/2 cups of the flour, and 1/2 tsp of the salt until evenly mixed.
+3. **Whisk the wet ingredients:** In a large bowl, whisk the oil, eggs, and 1 cup of the granulated sugar until smooth and glossy, about 1 minute.
+4. **Make the batter:** Stir the dry ingredients into the wet just until no flour shows. Fold in the carrots until evenly mixed, then divide the batter between the pans and smooth the tops.
 5. **Bake the layers:** Bake until the edges pull away from the pans and a toothpick in the center comes out clean, 25 to 30 minutes. Cool in the pans for 15 minutes, then turn the layers out onto a rack and cool completely, about 1 hour.
-6. **Make the apple syrup:** While the cakes bake, bring Granny Smith apple, granulated sugar, and water to a rolling boil in a small saucepan, then take it off the heat. Strain out and discard the apple, and let the syrup cool.
-7. **Beat the butter:** Beat unsalted butter, powdered sugar, vanilla extract, and salt with a mixer, starting on low, until no dry sugar remains and the mixture is a thick, creamy paste, about 3 minutes. Start with the smaller amount of powdered sugar.
-8. **Add the cream cheese:** Add brick-style cream cheese in chunks and beat on medium just until smooth and creamy, about 1 minute. Taste and beat in the rest of the sugar if you want it sweeter. Chill the frosting until the cakes are cool.
+6. **Make the apple syrup:** While the cakes bake, bring the Granny Smith apple, water, and 1/2 cup of the granulated sugar to a rolling boil in a small saucepan, then take it off the heat. Strain out and discard the apple, and let the syrup cool.
+7. **Beat the butter:** Beat the powdered sugar, vanilla, 1 stick of the butter, and 1/2 tsp of the salt with a mixer, starting on low, until no dry sugar remains and the mixture is a thick, creamy paste, about 3 minutes. Start with the smaller amount of powdered sugar.
+8. **Add the cream cheese:** Add the cream cheese in chunks and beat on medium just until smooth and creamy, about 1 minute. Taste and beat in the rest of the sugar if you want it sweeter. Chill the frosting until the cakes are cool.
 9. **Brush and frost:** Level the tops of the cooled layers with a serrated knife. Brush each cut side lightly with the apple syrup and save the rest for another use. Spread a third of the frosting over the first layer, set the second on top and cover the top and sides with the rest. Chill for 30 minutes to set the frosting before slicing.

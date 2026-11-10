@@ -197,7 +197,7 @@ This is a big, layered gin fizz, with smoky mezcal and rich cognac under bright 
 ## Directions
 
 1. **Chill the glasses:** Chill highball glasses in the freezer while you measure.
-2. **Shake:** Combine London dry gin, unaged mezcal, cognac, fresh lemon juice, agave syrup, dashes of orange bitters, and ice in a cocktail shaker. Shake hard until the shaker is frosty, about 15 seconds.
-3. **Strain:** Fill the chilled glasses with ice and double-strain the cocktail evenly among them.
-4. **Top with bubbles:** Divide unsweetened lemon sparkling water among the glasses and stir once, gently, so the bubbles stay lively.
-5. **Finish and serve:** Finish with dashes of orange bitters and lemon peel twists, one of each per glass. Twist the peel over the drink to release its oils before dropping it in. Serve right away.
+2. **Shake:** Combine the London dry gin, unaged mezcal, cognac, lemon juice, agave syrup, ice, and 4 dashes of orange bitters in a cocktail shaker. Shake hard until the shaker is frosty, about 15 seconds.
+3. **Strain:** Fill the chilled glasses with the ice and double-strain the cocktail evenly among them.
+4. **Top with bubbles:** Divide the lemon sparkling water among the glasses and stir once, gently, so the bubbles stay lively.
+5. **Finish and serve:** Finish with the lemon peel twists and 3 dashes of orange bitters, one of each per glass. Twist the peel over the drink to release its oils before dropping it in. Serve right away.

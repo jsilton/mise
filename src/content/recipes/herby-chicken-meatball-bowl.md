@@ -507,10 +507,10 @@ Soft chicken and ricotta meatballs full of cilantro, dill and lemon zest, served
 
 ## Directions
 
-1. **Roast the chickpeas:** Heat the oven to 400°F. On a sheet pan, toss chickpeas, olive oil, salt, garlic powder, onion powder, Italian seasoning, and Parmesan and spread in one layer. Roast until crisp and golden, 20 to 25 minutes, shaking the pan once.
-2. **Roast the sweet potato:** On a second sheet pan, toss large sweet potato, olive oil, salt, ground cinnamon, and ground cumin. Roast alongside the chickpeas until tender inside and browned at the edges, 20 to 25 minutes.
-3. **Make the dressing:** While the pans roast, blend Greek yogurt, fresh basil leaves, fresh dill, jalapeño, honey, fresh lemon juice, olive oil, garlic cloves, salt, and black pepper in a blender or food processor until smooth. Taste for salt and refrigerate until serving.
-4. **Shape the meatballs:** In a large bowl, gently mix ground chicken, whole-milk ricotta, large egg, panko breadcrumbs, shallot, green onions, fresh cilantro, fresh dill, lemon zest, salt, and black pepper just until combined. The mixture will be soft. Shape it into small logs about 2 inches long.
-5. **Cook the meatballs:** Heat olive oil in a large skillet over medium-high heat. Cook the logs in batches without crowding until golden on all sides and 165°F in the center, 3 to 4 minutes per side. Let them set before turning so they hold together.
-6. **Massage the kale:** In a large bowl, rub fresh kale, olive oil, fresh lemon juice, and salt together with your hands until the kale is dark and tender, about 1 minute.
+1. **Roast the chickpeas:** Heat the oven to 400°F. On a sheet pan, toss the chickpeas, garlic powder, onion powder, Italian seasoning, Parmesan, 1 tbsp of the olive oil, and 1/2 tsp of the salt and spread in one layer. Roast until crisp and golden, 20 to 25 minutes, shaking the pan once.
+2. **Roast the sweet potato:** On a second sheet pan, toss the sweet potato, cinnamon, cumin, 1 tbsp of the olive oil, and 1/2 tsp of the salt. Roast alongside the chickpeas until tender inside and browned at the edges, 20 to 25 minutes.
+3. **Make the dressing:** While the pans roast, blend the Greek yogurt, basil, jalapeño, honey, garlic, salt, pepper, 1/2 cup of the dill, 1 tbsp of the lemon juice, and 1 tbsp of the olive oil in a blender or food processor until smooth. Taste for salt and refrigerate until serving.
+4. **Shape the meatballs:** In a large bowl, gently mix the ground chicken, ricotta, egg, panko, shallot, green onions, cilantro, lemon zest, 1/4 cup of the dill, 1 tsp of the salt, and 1/2 tsp of the pepper just until combined. The mixture will be soft. Shape it into small logs about 2 inches long.
+5. **Cook the meatballs:** Heat 2 tbsp of the olive oil in a large skillet over medium-high heat. Cook the logs in batches without crowding until golden on all sides and 165°F in the center, 3 to 4 minutes per side. Let them set before turning so they hold together.
+6. **Massage the kale:** In a large bowl, rub the kale, salt, 1 tbsp of the olive oil, and 2 tsp of the lemon juice together with your hands until the kale is dark and tender, about 1 minute.
 7. **Build the bowls:** Divide the kale among four bowls. Top with the chickpeas, sweet potato and meatballs, and spoon the dressing over.

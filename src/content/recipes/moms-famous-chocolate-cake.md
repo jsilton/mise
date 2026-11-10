@@ -58,6 +58,7 @@ pairingNotes:
 source: From Maryls McConnell
 formula:
   version: 1
+  stepText: preserved
   yield:
     amount: 12
     unit: portion

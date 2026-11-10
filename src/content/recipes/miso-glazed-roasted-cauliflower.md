@@ -208,8 +208,8 @@ This is cauliflower roasted hot until browned, then lacquered with a Japanese-st
 
 ## Directions
 
-1. **Oil the cauliflower:** Heat the oven to 425°F. Toss cauliflower florets and neutral oil in a large bowl. Spread the florets in a single layer on a rimmed baking sheet, cut sides down, with room between them.
+1. **Oil the cauliflower:** Heat the oven to 425°F. Toss the cauliflower florets and neutral oil in a large bowl. Spread the florets in a single layer on a rimmed baking sheet, cut sides down, with room between them.
 2. **Roast the cauliflower:** Roast, turning once, until browned at the edges and nearly tender in the center, 15 to 20 minutes.
-3. **Mix the glaze:** While the cauliflower roasts, whisk white miso, mirin, soy sauce, toasted sesame oil, rice vinegar, and fresh ginger in a small bowl until the miso is smooth.
+3. **Mix the glaze:** While the cauliflower roasts, whisk the white miso, mirin, soy sauce, sesame oil, rice vinegar, and ginger in a small bowl until the miso is smooth.
 4. **Glaze and finish roasting:** Tip the cauliflower back into the large bowl, toss it with the glaze and spread it out again. Roast until the glaze is sticky and browned in spots and the centers are tender, 8 to 10 minutes.
-5. **Garnish and serve:** Scatter sesame seeds and scallions over the hot cauliflower and serve.
+5. **Garnish and serve:** Scatter the sesame seeds and scallions over the hot cauliflower and serve.

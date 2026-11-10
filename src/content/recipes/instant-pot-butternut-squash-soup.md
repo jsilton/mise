@@ -264,11 +264,11 @@ A smooth fall soup with a smoky, savory backbone. Bacon gives up its fat for coo
 
 ## Directions
 
-1. **Crisp the bacon:** Set the pressure cooker to sauté on high. Add bacon and cook, stirring, until brown and crisp, 6 to 8 minutes. Move the bacon to a plate lined with paper towels and leave the fat in the pot.
-2. **Soften the onion:** Lower the sauté heat to medium. Add sweet onion to the bacon fat and cook, stirring, until translucent, 2 to 3 minutes.
-3. **Add the aromatics:** Stir in garlic cloves, fresh sage leaves, and fresh thyme sprigs and cook until fragrant, 30 to 60 seconds.
-4. **Add the vegetables:** Add Granny Smith apple, butternut squash, large carrots, celery stalk, chicken stock, kosher salt, and black pepper. Stir and scrape up any browned bits from the bottom of the pot.
+1. **Crisp the bacon:** Set the pressure cooker to sauté on high. Add the bacon and cook, stirring, until brown and crisp, 6 to 8 minutes. Move the bacon to a plate lined with paper towels and leave the fat in the pot.
+2. **Soften the onion:** Lower the sauté heat to medium. Add the sweet onion to the bacon fat and cook, stirring, until translucent, 2 to 3 minutes.
+3. **Add the aromatics:** Stir in the garlic, sage, and thyme and cook until fragrant, 30 to 60 seconds.
+4. **Add the vegetables:** Add the Granny Smith apple, butternut squash, carrots, celery, chicken stock, salt, and pepper. Stir and scrape up any browned bits from the bottom of the pot.
 5. **Pressure-cook:** Turn off the sauté setting. Lock the lid, close the valve and cook at high pressure for 12 minutes.
 6. **Release naturally:** Let the pressure come down on its own until the float valve drops, 15 to 30 minutes. Open the lid and discard the thyme sprigs. The squash and carrots should be soft enough to crush with a spoon.
-7. **Blend:** Stir in heavy cream. Blend in the pot with an immersion blender until completely smooth. Taste and season with more salt and pepper.
-8. **Serve:** Ladle into bowls and top with fresh chives and the crisp bacon.
+7. **Blend:** Stir in the heavy cream. Blend in the pot with an immersion blender until completely smooth. Taste and season with more salt and pepper.
+8. **Serve:** Ladle into bowls and top with the chives and the crisp bacon.

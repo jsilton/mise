@@ -205,9 +205,9 @@ A Food Network sheet-pan supper for two. The drumsticks and potatoes get a 20-mi
 
 ## Directions
 
-1. **Season the pan:** Heat the oven to 450°F and line a large rimmed sheet pan with foil. Pat the drumsticks dry. Toss skin-on chicken drumsticks, fingerling potatoes, extra-virgin olive oil, kosher salt, and black pepper on the pan. Set the drumsticks on one side and the potatoes cut side down on the other, leaving the center open.
+1. **Season the pan:** Heat the oven to 450°F and line a large rimmed sheet pan with foil. Pat the drumsticks dry. Toss the chicken drumsticks, fingerling potatoes, pepper, 1 tbsp of the olive oil, and 1 tsp of the salt on the pan. Set the drumsticks on one side and the potatoes cut side down on the other, leaving the center open.
 2. **Roast the chicken and potatoes:** Roast until the potatoes start to soften and the chicken begins to brown, about 20 minutes.
-3. **Add the broccoli:** While the pan roasts, toss broccoli, extra-virgin olive oil, and kosher salt in a bowl. Spread the broccoli in one layer in the center of the pan.
-4. **Glaze the chicken:** Stir thick teriyaki glaze and fresh ginger together and brush a thin layer over the drumsticks.
+3. **Add the broccoli:** While the pan roasts, toss the broccoli, 2 tbsp of the olive oil, and 1/4 tsp of the salt in a bowl. Spread the broccoli in one layer in the center of the pan.
+4. **Glaze the chicken:** Stir the thick teriyaki glaze and ginger together and brush a thin layer over the drumsticks.
 5. **Finish roasting:** Roast until the potatoes are tender, the broccoli is browned at the edges and the thickest drumstick reaches 165°F, 20 to 25 minutes. If the glaze darkens too fast, cover the chicken loosely with foil.
 6. **Rest and serve:** Rest the chicken for 5 minutes. Serve it with the vegetables, leaving any scorched glaze on the pan.

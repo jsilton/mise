@@ -239,11 +239,11 @@ A cousin of Valencia's arroz al horno, which also bakes rice with chickpeas and 
 
 ## Directions
 
-1. **Render the chorizo:** Heat the oven to 400°F. Cook dried Spanish chorizo in a large oven-safe Dutch oven with a tight lid over medium heat, stirring, until crisp at the edges and the red fat has run out, 5 to 7 minutes. Lift the chorizo onto a plate.
-2. **Soften the vegetables:** Add yellow onion, red bell pepper, and garlic cloves to the fat and cook, stirring, until soft and jammy, 8 to 10 minutes. Lower the heat if the garlic browns too fast.
-3. **Bloom the spices:** Stir in tomato paste, smoked paprika, and saffron threads (if using) and cook until fragrant, about 1 minute.
-4. **Toast the rice:** Add Arborio rice and stir until every grain is coated in the red fat, about 2 minutes.
-5. **Add the sherry:** Pour in dry sherry or white wine, scrape up the browned bits and let it bubble for 1 minute.
-6. **Bring to a boil:** Stir in chicken broth, chickpeas, raisins, and kosher salt, adding the salt only after you taste the broth. Return the chorizo to the pot and bring to a boil.
+1. **Render the chorizo:** Heat the oven to 400°F. Cook the dried Spanish chorizo in a large oven-safe Dutch oven with a tight lid over medium heat, stirring, until crisp at the edges and the red fat has run out, 5 to 7 minutes. Lift the chorizo onto a plate.
+2. **Soften the vegetables:** Add the yellow onion, red bell pepper, and garlic to the fat and cook, stirring, until soft and jammy, 8 to 10 minutes. Lower the heat if the garlic browns too fast.
+3. **Bloom the spices:** Stir in the tomato paste, smoked paprika, and saffron (if using) and cook until fragrant, about 1 minute.
+4. **Toast the rice:** Add the Arborio rice and stir until every grain is coated in the red fat, about 2 minutes.
+5. **Add the sherry:** Pour in the dry sherry or white wine, scrape up the browned bits and let it bubble for 1 minute.
+6. **Bring to a boil:** Stir in the chicken broth, chickpeas, raisins, and salt, adding the salt only after you taste the broth. Return the chorizo to the pot and bring to a boil.
 7. **Bake:** Cover tightly and bake until the liquid is absorbed and the rice is tender, 20 to 25 minutes. If the rice is still firm and the pot is dry, add a splash of hot water and bake 5 minutes more.
 8. **Rest and serve:** Let the rice stand, covered, for 10 minutes. Fluff gently and serve.

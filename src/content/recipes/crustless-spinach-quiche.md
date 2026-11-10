@@ -46,6 +46,7 @@ equipment:
   - 9-inch-pie-plate
 formula:
   version: 1
+  stepText: preserved
   yield:
     amount: 6
     unit: portion

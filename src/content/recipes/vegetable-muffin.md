@@ -268,8 +268,8 @@ These chocolate muffins hide spinach and carrots, blended so smooth that kids se
 ## Directions
 
 1. **Heat the oven:** Heat the oven to 350°F. Line a 12-cup muffin tin with paper liners.
-2. **Blend the wet mix:** Blend baby spinach, ripe banana, carrots, avocado oil or melted coconut oil, maple syrup, large eggs, vanilla extract, and apple cider vinegar on high until completely smooth and bright green, about 1 minute.
-3. **Whisk the dry mix:** Whisk white whole-wheat flour, unsweetened cocoa powder, ground cinnamon, baking soda, baking powder, and salt in a large bowl.
-4. **Mix the batter:** Pour the green puree into the dry mix and stir just until no dry flour remains. Fold in dark chocolate chips.
-5. **Fill and bake:** Fill the cups three-quarters full and scatter with dark chocolate chips (if using). Bake until a toothpick in the center comes out with no wet batter, 20 to 22 minutes.
+2. **Blend the wet mix:** Blend the baby spinach, banana, carrots, avocado oil or melted coconut oil, maple syrup, eggs, vanilla, and apple cider vinegar on high until completely smooth and bright green, about 1 minute.
+3. **Whisk the dry mix:** Whisk the white whole-wheat flour, cocoa powder, cinnamon, baking soda, baking powder, and salt in a large bowl.
+4. **Mix the batter:** Pour the green puree into the dry mix and stir just until no dry flour remains. Fold in 1/4 cup of the dark chocolate chips.
+5. **Fill and bake:** Fill the cups three-quarters full and scatter with the dark chocolate chips (if using). Bake until a toothpick in the center comes out with no wet batter, 20 to 22 minutes.
 6. **Cool:** Cool in the pan for 5 minutes, then move the muffins to a rack.

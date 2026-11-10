@@ -223,10 +223,10 @@ Ina Garten's pork tenderloins soak up a bright marinade of lemon, garlic, rosema
 
 ## Directions
 
-1. **Make the marinade:** In a bowl, whisk fresh lemon juice, lemon zest, extra-virgin olive oil, garlic, fresh rosemary, fresh thyme, Dijon mustard, and kosher salt.
-2. **Marinate:** Put pork tenderloins in a large zip-top bag, pour in the marinade and turn to coat. Seal and refrigerate for 3 to 4 hours. Any longer and the lemon turns the surface of the pork mushy.
-3. **Season the pork:** Heat the oven to 400°F. Lift the pork out of the bag, leaving on the herbs that cling to it, and discard the marinade. Season all over with kosher salt and black pepper.
-4. **Sear:** Heat extra-virgin olive oil in a large oven-safe skillet over medium-high heat until shimmering. Sear the tenderloins until golden brown on all sides, about 8 minutes.
+1. **Make the marinade:** In a bowl, whisk the lemon juice, lemon zest, garlic, rosemary, thyme, Dijon mustard, 1/2 cup of the olive oil, and 2 tsp of the salt.
+2. **Marinate:** Put the pork tenderloins in a large zip-top bag, pour in the marinade and turn to coat. Seal and refrigerate for 3 to 4 hours. Any longer and the lemon turns the surface of the pork mushy.
+3. **Season the pork:** Heat the oven to 400°F. Lift the pork out of the bag, leaving on the herbs that cling to it, and discard the marinade. Season all over with the salt and pepper.
+4. **Sear:** Heat 3 tbsp of the olive oil in a large oven-safe skillet over medium-high heat until shimmering. Sear the tenderloins until golden brown on all sides, about 8 minutes.
 5. **Roast:** Move the skillet to the oven. Roast until the thickest part of each tenderloin reaches 145°F, 10 to 15 minutes.
 6. **Rest:** Move the pork to a platter, cover it loosely with foil and let it rest for 10 minutes.
 7. **Slice and serve:** Slice across the grain into 1/2-inch diagonal slices. Serve with the juices from the platter.

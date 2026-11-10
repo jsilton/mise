@@ -261,12 +261,11 @@ Smash burgers come from Midwestern diners and drive-ins, where cooks pressed bal
 
 ## Directions
 
-1. **Mix the sauce:** Stir mayonnaise, ketchup, yellow mustard, and dill pickles together in a small bowl.
-2. **Butter the buns:** Spread the cut sides of the buns with unsalted butter.
-3. **Toast the buns:** Heat a 12-inch cast-iron skillet over medium heat. Toast soft potato buns cut side down until golden, about 1 minute, then set them aside.
+1. **Mix the sauce:** Stir the mayonnaise, ketchup, yellow mustard, and dill pickles together in a small bowl.
+2. **Butter the buns:** Spread the cut sides of the buns with the butter.
+3. **Toast the buns:** Heat a 12-inch cast-iron skillet over medium heat. Toast the soft potato buns cut side down until golden, about 1 minute, then set them aside.
 4. **Heat the pan:** Wipe out the skillet and turn the heat to high. Heat the dry pan until it just starts to smoke, about 3 minutes.
-5. **Smash the patties:** Put 2 balls of ground beef (80% lean) in the pan, spaced well apart. Right away, press each one flat with a stiff metal spatula until it is 1/4 inch thick and wider than a bun.
-6. **Season and sear:** Season the tops with kosher salt and black pepper. Cook without moving until the edges are deep brown and lacy and the tops are mostly gray, about 1 1/2 minutes. Scrape under each patty with the edge of the spatula so the crust comes up with it, then flip.
+5. **Smash the patties:** Put 2 balls of ground beef in the pan, spaced well apart. Right away, press each one flat with a stiff metal spatula until it is 1/4 inch thick and wider than a bun.
+6. **Season and sear:** Season the tops with the salt and pepper. Cook without moving until the edges are deep brown and lacy and the tops are mostly gray, about 1 1/2 minutes. Scrape under each patty with the edge of the spatula so the crust comes up with it, then flip.
 7. **Melt the cheese:** Lay one of the American cheese slices on one patty and stack the other patty on top. Cook until the cheese melts, about 30 seconds, then move the stack to a bottom bun. Smash and cook the rest of the beef the same way, one burger at a time.
-8. **Build the burgers:** Spread the sauce on the top buns. Top each burger with small white onion, dill pickle chips, and iceberg lettuce and close it with a top bun. Serve right away.
-
+8. **Build the burgers:** Spread the sauce on the top buns. Top each burger with the white onion, dill pickle chips, and iceberg lettuce and close it with a top bun. Serve right away.

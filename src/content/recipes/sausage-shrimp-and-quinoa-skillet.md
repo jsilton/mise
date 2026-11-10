@@ -37,7 +37,7 @@ ingredients:
   - 1 tbsp neutral oil
   - '6 oz fully cooked spicy chicken sausage, sliced'
   - '1 cup onion, bell pepper and celery mix, chopped'
-  - 2 tsp Creole seasoning
+  - '2 tsp Creole seasoning, divided'
   - '2 garlic cloves, minced'
   - '3 1/2 cups cooked quinoa, thawed if frozen'
   - '1/2 lb raw medium shrimp, peeled and deveined'
@@ -205,9 +205,9 @@ This weeknight skillet borrows from Creole cooking, with the onion, bell pepper 
 
 ## Directions
 
-1. **Brown the sausage:** Add neutral oil, fully cooked spicy chicken sausage, and onion, bell pepper and celery mix to a large skillet over medium-high heat. Cook, stirring, until the sausage is browned and the vegetables are soft, 5 to 7 minutes.
-2. **Bloom the seasoning:** Stir in 3/4 of the Creole seasoning and garlic cloves and cook until fragrant, about 30 seconds.
-3. **Toast the quinoa:** Add cooked quinoa, breaking up any clumps. Stir until the grains are hot and lightly toasted in the spiced fat, about 2 minutes.
-4. **Cook the shrimp:** Toss 1/4 of the Creole seasoning and raw medium shrimp in a small bowl, then stir the shrimp into the pan. Cook, tossing, until the shrimp are pink and just opaque, 2 to 3 minutes.
-5. **Add the lemon:** Take the pan off the heat and stir in lemon juice.
-6. **Finish:** Finish with salt, black pepper, and fresh parsley. Most Creole blends are salty, so taste before adding salt.
+1. **Brown the sausage:** Add the oil, fully cooked spicy chicken sausage, and onion, bell pepper and celery mix to a large skillet over medium-high heat. Cook, stirring, until the sausage is browned and the vegetables are soft, 5 to 7 minutes.
+2. **Bloom the seasoning:** Stir in the garlic and 1 1/2 tsp of the Creole seasoning and cook until fragrant, about 30 seconds.
+3. **Toast the quinoa:** Add the quinoa, breaking up any clumps. Stir until the grains are hot and lightly toasted in the spiced fat, about 2 minutes.
+4. **Cook the shrimp:** Toss the shrimp and the rest of the Creole seasoning in a small bowl, then stir the shrimp into the pan. Cook, tossing, until the shrimp are pink and just opaque, 2 to 3 minutes.
+5. **Add the lemon:** Take the pan off the heat and stir in the lemon juice.
+6. **Finish:** Finish with the salt, pepper, and parsley. Most Creole blends are salty, so taste before adding salt.

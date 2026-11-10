@@ -208,10 +208,10 @@ A cookie cake is the classic American birthday cake for kids: one giant chocolat
 ## Directions
 
 1. **Heat the oven:** Heat the oven to 375°F. Line a 14-inch deep pizza pan with parchment and grease the pan and the paper with butter or baking spray.
-2. **Cream the butter:** Beat unsalted butter, packed light brown sugar, and granulated sugar in a large bowl until light and fluffy, 3 to 5 minutes.
-3. **Add the eggs:** Beat in large eggs and vanilla extract until combined.
-4. **Add the flour:** Whisk all-purpose flour, baking soda, and fine sea salt together in another bowl. Stir them into the butter mixture just until no flour shows.
-5. **Fold in the chocolate:** Fold in semisweet chocolate discs and candy-coated milk chocolate candies.
-6. **Spread the dough:** Spread the dough evenly in the pan, leaving a 1/2-inch border. Scatter candy-coated milk chocolate candies over the top and press them in lightly.
+2. **Cream the butter:** Beat the butter, brown sugar, and granulated sugar in a large bowl until light and fluffy, 3 to 5 minutes.
+3. **Add the eggs:** Beat in the eggs and vanilla until combined.
+4. **Add the flour:** Whisk the flour, baking soda, and salt together in another bowl. Stir them into the butter mixture just until no flour shows.
+5. **Fold in the chocolate:** Fold in the semisweet chocolate discs and 1/2 cup of the candy-coated milk chocolate candies.
+6. **Spread the dough:** Spread the dough evenly in the pan, leaving a 1/2-inch border. Scatter 3/4 cup of the candy-coated milk chocolate candies over the top and press them in lightly.
 7. **Bake the cookie cake:** Bake until the edges are deep golden brown and the center is set but still soft, 20 to 25 minutes.
 8. **Cool and slice:** Let the cookie cake cool completely in the pan before slicing, about 1 hour.

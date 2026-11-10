@@ -14,7 +14,10 @@ test('family banana bread restores softened-butter creaming and saved pan dimens
   assert.match(butter.preparation, /softened/);
   assert.deepEqual(butter.uses, [{ step: 'cream', share: 1 }]);
   assert.equal(data.source, 'From the Hamilton family');
-  assert.match(recipe, /Beat butter or margarine and sugar with a mixer on medium-high until thoroughly creamed, light and fluffy/);
+  assert.match(
+    recipe,
+    /Beat butter or margarine and sugar with a mixer on medium-high until thoroughly creamed, light and fluffy/
+  );
   const creamIndex = data.formula.steps.findIndex((s) => s.id === 'cream');
   const eggsIndex = data.formula.steps.findIndex((s) => s.id === 'eggs');
   assert.ok(creamIndex >= 0 && eggsIndex >= 0);
@@ -70,7 +73,10 @@ test('waffles preserve formula and budget machine-dependent batches', () => {
   assert.deepEqual(data.cookingMethods, ['griddle']);
   assert.match(content, /rest for 10 minutes/);
   assert.match(content, /while you cook the rest/);
-  assert.match(content, /Cook until the steam slows, the waffle is deep golden and it lifts out easily, 4 to 6 minutes/);
+  assert.match(
+    content,
+    /Cook until the steam slows, the waffle is deep golden and it lifts out easily, 4 to 6 minutes/
+  );
   assert.match(content, /225°F/);
 });
 test('blueberry pancakes preserve saved honey, exact berry allocation and rating', () => {
@@ -81,7 +87,10 @@ test('blueberry pancakes preserve saved honey, exact berry allocation and rating
   // Steps carry no quantities now. 3/4 cup is 12 tbsp, one spoonful for each of 12 pancakes.
   assert.equal(data.servings, '12 pancakes');
   assert.equal((3 / 4) * 16, 12);
-  assert.match(content, /with a quarter-cup measure and scatter a spoonful of blueberries over each/);
+  assert.match(
+    content,
+    /with a quarter-cup measure and scatter a spoonful of blueberries over each/
+  );
 });
 test('anadama retains its source formula, cooling-before-yeast and loaf geometry', () => {
   const { data, content } = read('anadama-bread');
@@ -99,7 +108,9 @@ test('anadama retains its source formula, cooling-before-yeast and loaf geometry
   // The "For handling" heading is gone. The dusting flour is folded into the flour line.
   assert.deepEqual(data.ingredients.slice(8), ['oil, for the bowl', 'butter, for the pan']);
   assert.match(content, /let cool until lukewarm/);
-  assert.ok(content.indexOf('until lukewarm') < content.indexOf('Stir the cooled porridge into the yeast'));
+  assert.ok(
+    content.indexOf('until lukewarm') < content.indexOf('Stir the cooled porridge into the yeast')
+  );
   assert.match(content, /9x5-inch loaf pan/);
   assert.match(content, /375°F/);
 });

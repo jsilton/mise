@@ -331,14 +331,14 @@ Patatas bravas is the tapas bar classic of Madrid: fried potato chunks under a s
 
 ## Directions
 
-1. **Parboil the potatoes:** Put Yukon Gold potatoes in a large pot and cover with cold water by an inch. Salt the water well. Bring to a boil over high heat, then cook until the edges are tender but the centers still resist a knife, 8 to 10 minutes.
+1. **Parboil the potatoes:** Put the Yukon Gold potatoes in a large pot and cover with cold water by an inch. Salt the water well. Bring to a boil over high heat, then cook until the edges are tender but the centers still resist a knife, 8 to 10 minutes.
 2. **Dry the potatoes:** Drain well and spread the potatoes on a sheet pan. Let them steam dry until the surfaces look dry and chalky, at least 10 minutes.
-3. **Soften the onion:** While the potatoes cook, put extra-virgin olive oil and small yellow onion in a medium saucepan over medium heat. Cook, stirring often, until soft and translucent, 5 to 6 minutes.
-4. **Cook the garlic:** Add garlic cloves and stir until fragrant, about 30 seconds.
-5. **Toast the spices:** Stir in pimentón de la Vera, sweet paprika, and cayenne pepper and cook until fragrant, about 30 seconds. Turn the heat down if the paprika starts to darken, since burnt paprika turns bitter.
-6. **Simmer the sauce:** Add crushed tomatoes, sugar, and kosher salt. Simmer over medium-low heat, stirring now and then, until thick enough to hold its shape on a spoon, 15 to 20 minutes.
-7. **Heat the oil:** While the sauce simmers, fill a Dutch oven or heavy pot no more than halfway with neutral frying oil, such as canola or sunflower. Heat over medium-high to 375°F on a thermometer, about 10 minutes.
-8. **Finish the sauce:** Take the pan off the heat and stir in sherry vinegar. For a smooth sauce, blend it with an immersion blender. Set aside.
-9. **Make the alioli:** Whisk mayonnaise, garlic clove, lemon juice, and kosher salt in a small bowl until smooth. Chill until serving.
-10. **Fry the potatoes:** Fry the potatoes in batches without crowding, turning now and then, until deep golden and crisp, 5 to 7 minutes. Lift them onto a rack set over a sheet pan and sprinkle right away with flaky sea salt. Let the oil return to 375°F between batches.
+3. **Soften the onion:** While the potatoes cook, put the olive oil and yellow onion in a medium saucepan over medium heat. Cook, stirring often, until soft and translucent, 5 to 6 minutes.
+4. **Cook the garlic:** Add 3 garlic cloves and stir until fragrant, about 30 seconds.
+5. **Toast the spices:** Stir in the pimentón de la Vera, sweet paprika, and cayenne pepper and cook until fragrant, about 30 seconds. Turn the heat down if the paprika starts to darken, since burnt paprika turns bitter.
+6. **Simmer the sauce:** Add the crushed tomatoes, sugar, and 1/2 tsp of the kosher salt. Simmer over medium-low heat, stirring now and then, until thick enough to hold its shape on a spoon, 15 to 20 minutes.
+7. **Heat the oil:** While the sauce simmers, fill a Dutch oven or heavy pot no more than halfway with the neutral frying oil, such as canola or sunflower. Heat over medium-high to 375°F on a thermometer, about 10 minutes.
+8. **Finish the sauce:** Take the pan off the heat and stir in the sherry vinegar. For a smooth sauce, blend it with an immersion blender. Set aside.
+9. **Make the alioli:** Whisk the mayonnaise, lemon juice, kosher salt, and 1 garlic clove in a small bowl until smooth. Chill until serving.
+10. **Fry the potatoes:** Fry the potatoes in batches without crowding, turning now and then, until deep golden and crisp, 5 to 7 minutes. Lift them onto a rack set over a sheet pan and sprinkle right away with the flaky sea salt. Let the oil return to 375°F between batches.
 11. **Serve:** Pile the hot potatoes on a platter. Spoon the bravas sauce over the top, dot with the alioli and serve right away with toothpicks.

@@ -206,7 +206,7 @@ learning:
         tender in about 25 minutes.
     - ingredient: Pancetta
       alternative: Unsmoked bacon
-      effect: "Bacon works, but smoked bacon adds a smoky taste the original doesn't have."
+      effect: 'Bacon works, but smoked bacon adds a smoky taste the original doesn''t have.'
     - ingredient: Pecorino Romano
       alternative: Parmigiano-Reggiano
       effect: 'Milder and less salty, so taste before you add more salt.'
@@ -224,10 +224,10 @@ This is Marcella Hazan's lamb sauce from Abruzzo, the sheep country in the mount
 
 ## Directions
 
-1. **Cook the onion:** Warm olive oil and yellow onion in a large, deep skillet over medium heat. Cook, stirring often, until the onion is soft and pale gold, about 6 minutes.
-2. **Render the pancetta:** Add pancetta and fresh rosemary. Cook, stirring, until the pancetta fat melts and the rosemary smells toasty, about 3 minutes. The pancetta should stay soft, not crisp.
-3. **Brown the lamb:** Turn the heat to medium-high. Add boneless lamb shoulder, kosher salt, and black pepper. Cook, stirring, until the lamb loses its pink color and starts to brown, about 5 minutes.
-4. **Reduce the wine:** Pour in dry white wine and scrape up the browned bits from the bottom of the pan. Simmer until the wine has almost cooked away, about 8 minutes.
-5. **Simmer the sauce:** Add whole peeled tomatoes and their juices. Bring to a simmer, then lower the heat and cook uncovered, stirring now and then, until the lamb is tender and the fat floats free of the sauce, 40 to 45 minutes. If the sauce gets thick before the lamb is tender, add a splash of water.
-6. **Boil the pasta:** When the sauce has about 15 minutes left, bring a large pot of well-salted water to a boil. Add rigatoni or penne and cook until al dente, then drain.
-7. **Toss and serve:** Put the hot pasta in a warm serving bowl. Add the sauce and Pecorino Romano and toss to coat. Serve with more pecorino and black pepper at the table.
+1. **Cook the onion:** Warm the olive oil and yellow onion in a large, deep skillet over medium heat. Cook, stirring often, until the onion is soft and pale gold, about 6 minutes.
+2. **Render the pancetta:** Add the pancetta and rosemary. Cook, stirring, until the pancetta fat melts and the rosemary smells toasty, about 3 minutes. The pancetta should stay soft, not crisp.
+3. **Brown the lamb:** Turn the heat to medium-high. Add the lamb shoulder, salt, and pepper. Cook, stirring, until the lamb loses its pink color and starts to brown, about 5 minutes.
+4. **Reduce the wine:** Pour in the dry white wine and scrape up the browned bits from the bottom of the pan. Simmer until the wine has almost cooked away, about 8 minutes.
+5. **Simmer the sauce:** Add the tomatoes and their juices. Bring to a simmer, then lower the heat and cook uncovered, stirring now and then, until the lamb is tender and the fat floats free of the sauce, 40 to 45 minutes. If the sauce gets thick before the lamb is tender, add a splash of water.
+6. **Boil the pasta:** When the sauce has about 15 minutes left, bring a large pot of well-salted water to a boil. Add the rigatoni or penne and cook until al dente, then drain.
+7. **Toss and serve:** Put the hot pasta in a warm serving bowl. Add the sauce and the Pecorino Romano and toss to coat. Serve with more pecorino and black pepper at the table.

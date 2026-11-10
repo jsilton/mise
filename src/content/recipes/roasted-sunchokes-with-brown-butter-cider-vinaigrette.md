@@ -260,9 +260,9 @@ Sunchokes are the knobby roots of a sunflower. An hour in the oven turns them cr
 
 ## Directions
 
-1. **Roast the sunchokes:** Heat the oven to 375°F. Toss sunchokes, extra-virgin olive oil, fresh thyme sprigs, garlic cloves, and kosher salt on a rimmed baking sheet and spread in one layer. Roast, turning once, until golden and a fork slides easily into the centers, about 1 hour. Discard the thyme and garlic and tip the sunchokes into a large bowl.
-2. **Reduce the vinegar:** While the sunchokes roast, simmer apple cider vinegar in a small, light-colored saucepan over medium heat until reduced by half, about 3 minutes. Pour it into a heatproof bowl.
-3. **Add the shallot:** Stir shallot and honey into the warm vinegar.
-4. **Brown the butter:** Wipe the saucepan dry and melt unsalted butter over medium heat. Swirl until it foams and the milk solids start to turn golden, about 2 minutes.
-5. **Finish the vinaigrette:** Add red pepper flakes and swirl until the butter is nut-brown and fragrant, about 1 minute more. Whisk it into the vinegar right away.
-6. **Dress and serve:** Pour the warm vinaigrette over the hot sunchokes and add baby spinach, fresh chives, kosher salt, and black pepper. Toss until the spinach just wilts and serve warm.
+1. **Roast the sunchokes:** Heat the oven to 375°F. Toss the sunchokes, olive oil, thyme, garlic, and 1 tsp of the salt on a rimmed baking sheet and spread in one layer. Roast, turning once, until golden and a fork slides easily into the centers, about 1 hour. Discard the thyme and garlic and tip the sunchokes into a large bowl.
+2. **Reduce the vinegar:** While the sunchokes roast, simmer the apple cider vinegar in a small, light-colored saucepan over medium heat until reduced by half, about 3 minutes. Pour it into a heatproof bowl.
+3. **Add the shallot:** Stir the shallot and honey into the warm vinegar.
+4. **Brown the butter:** Wipe the saucepan dry and melt the butter over medium heat. Swirl until it foams and the milk solids start to turn golden, about 2 minutes.
+5. **Finish the vinaigrette:** Add the red pepper flakes and swirl until the butter is nut-brown and fragrant, about 1 minute more. Whisk it into the vinegar right away.
+6. **Dress and serve:** Pour the warm vinaigrette over the hot sunchokes and add the baby spinach, chives, salt, and pepper. Toss until the spinach just wilts and serve warm.

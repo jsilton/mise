@@ -35,7 +35,7 @@ ingredients:
   - '3 lb cherry tomatoes, stemmed'
   - 2 tbsp olive oil
   - '2 medium red onions, thinly sliced'
-  - 1 1/4 tsp salt
+  - '1 1/4 tsp salt, divided'
   - '4 garlic cloves, minced'
   - 1/4 cup dry red wine
   - 1/4 cup all-purpose flour
@@ -46,7 +46,7 @@ ingredients:
   - 1/2 tsp baking soda
   - 1/2 tsp salt
   - '6 tbsp unsalted butter, cold and cubed'
-  - '1 1/2 cups sharp Cheddar, shredded'
+  - '1 1/2 cups sharp Cheddar, shredded, divided'
   - 1 cup whole buttermilk
   - 'buttermilk, for brushing'
 seasons:
@@ -305,13 +305,13 @@ Tomato cobbler is the South's savory take on a fruit cobbler. Slow-browned red o
 
 ## Directions
 
-1. **Brown the onions:** Heat the oven to 375°F with a rack in the middle. Warm olive oil, medium red onions, and 1/3 of the salt in a 12-inch oven-safe skillet over medium heat. Cook, stirring often, until the onions are very soft and deep brown, about 20 minutes. Turn the heat down if they start to scorch.
-2. **Add garlic and wine:** Stir in garlic cloves and dry red wine. Cook until the garlic is fragrant and the wine has almost cooked away, about 2 minutes.
-3. **Stir in the flour:** Stir in all-purpose flour and cook for 1 minute, until the onions look pasty. Take the pan off the heat.
-4. **Fold in the tomatoes:** Gently fold in cherry tomatoes and 2/3 of the salt. If your skillet isn't oven-safe, spread the filling in a 9x13-inch baking dish.
-5. **Cut in the butter:** Put all-purpose flour, cornmeal, baking powder, baking soda, salt, and unsalted butter in a food processor. Pulse until the butter is in pea-sized pieces, about 10 pulses.
-6. **Mix the dough:** Tip the mixture into a bowl. Stir in 2/3 of the sharp Cheddar and whole buttermilk just until no dry flour remains and a shaggy, sticky dough forms.
-7. **Top the filling:** Drop the dough in walnut-sized mounds over the tomatoes, leaving gaps between them so steam can escape. Brush the tops with buttermilk. Set the skillet or dish on a rimmed baking sheet to catch drips.
+1. **Brown the onions:** Heat the oven to 375°F with a rack in the middle. Warm the olive oil, red onions, and a third of the salt in a 12-inch oven-safe skillet over medium heat. Cook, stirring often, until the onions are very soft and deep brown, about 20 minutes. Turn the heat down if they start to scorch.
+2. **Add garlic and wine:** Stir in the garlic and dry red wine. Cook until the garlic is fragrant and the wine has almost cooked away, about 2 minutes.
+3. **Stir in the flour:** Stir in 1/4 cup of the flour and cook for 1 minute, until the onions look pasty. Take the pan off the heat.
+4. **Fold in the tomatoes:** Gently fold in the cherry tomatoes and two thirds of the salt. If your skillet isn't oven-safe, spread the filling in a 9x13-inch baking dish.
+5. **Cut in the butter:** Put the cornmeal, baking powder, baking soda, butter, 1 1/4 cups of the flour, and 1/2 tsp of the salt in a food processor. Pulse until the butter is in pea-sized pieces, about 10 pulses.
+6. **Mix the dough:** Tip the mixture into a bowl. Stir in the whole buttermilk and 1 cup of the sharp Cheddar just until no dry flour remains and a shaggy, sticky dough forms.
+7. **Top the filling:** Drop the dough in walnut-sized mounds over the tomatoes, leaving gaps between them so steam can escape. Brush the tops with the buttermilk. Set the skillet or dish on a rimmed baking sheet to catch drips.
 8. **Bake:** Bake until the biscuits are pale gold and the tomatoes are bubbling at the edges, about 45 minutes.
-9. **Finish with cheese:** Scatter 1/3 of the sharp Cheddar over the biscuits. Bake until the filling bubbles hard and the biscuits are deep golden and cooked through in the center, about 10 minutes more.
+9. **Finish with cheese:** Scatter the rest of the sharp Cheddar over the biscuits. Bake until the filling bubbles hard and the biscuits are deep golden and cooked through in the center, about 10 minutes more.
 10. **Rest:** Let the cobbler rest for 15 minutes so the filling thickens before serving.

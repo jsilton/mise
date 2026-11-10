@@ -370,7 +370,7 @@ learning:
       effect: Ditalini or small shells hold the ragù the same way as the little rings.
     - ingredient: primosale
       alternative: Mild provolone
-      effect: "Melts the same way, with a little more tang than the fresh Sicilian sheep's milk cheese."
+      effect: 'Melts the same way, with a little more tang than the fresh Sicilian sheep''s milk cheese.'
     - ingredient: caciocavallo
       alternative: Pecorino Romano
       effect: 'Sharper and saltier, so taste the ragù before adding more salt.'
@@ -388,16 +388,16 @@ Anelletti al forno is the Sunday pasta bake of Palermo. Little pasta rings are b
 
 ## Directions
 
-1. **Soften the vegetables:** Warm extra-virgin olive oil, medium carrot, medium celery stalk, and medium onion in a large, heavy pot over medium heat. Cook, stirring now and then, until the vegetables are very soft but not browned, about 20 minutes.
-2. **Brown the meat:** Turn the heat to medium-high. Add ground beef, ground pork, and sea salt and freshly ground black pepper. Cook, breaking up the meat with a spoon, until it is browned, 5 to 8 minutes.
-3. **Reduce the wine:** Pour in dry red wine and scrape up the browned bits from the bottom of the pot. Simmer until the wine has almost cooked away, about 6 minutes.
-4. **Simmer the ragù:** Add ground cinnamon, freshly grated nutmeg, and whole peeled tomatoes and their juices. Bring to a simmer, partly cover and cook over low heat at a bare simmer, stirring now and then, until the ragù is thick and the meat is tender, about 2 hours.
-5. **Salt the eggplant:** While the ragù simmers, toss medium eggplant and salt together in a colander. Set a plate and a heavy can on top and let drain for 1 hour. Pat the cubes dry with paper towels.
+1. **Soften the vegetables:** Warm the extra-virgin olive oil, carrot, celery, and onion in a large, heavy pot over medium heat. Cook, stirring now and then, until the vegetables are very soft but not browned, about 20 minutes.
+2. **Brown the meat:** Turn the heat to medium-high. Add the ground beef, ground pork, and salt and pepper. Cook, breaking up the meat with a spoon, until it is browned, 5 to 8 minutes.
+3. **Reduce the wine:** Pour in the dry red wine and scrape up the browned bits from the bottom of the pot. Simmer until the wine has almost cooked away, about 6 minutes.
+4. **Simmer the ragù:** Add the cinnamon, nutmeg, and tomatoes and their juices. Bring to a simmer, partly cover and cook over low heat at a bare simmer, stirring now and then, until the ragù is thick and the meat is tender, about 2 hours.
+5. **Salt the eggplant:** While the ragù simmers, toss the eggplant and salt together in a colander. Set a plate and a heavy can on top and let drain for 1 hour. Pat the cubes dry with paper towels.
 6. **Fry the eggplant:** Heat 1 inch of vegetable oil in a deep skillet over medium-high heat to 350°F, when a cube of eggplant sizzles steadily. Fry the eggplant in batches without crowding, turning, until deep golden and tender, 4 to 5 minutes per batch. Drain on paper towels.
-7. **Finish the ragù:** Stir frozen or fresh peas into the ragù and simmer until tender, about 5 minutes. Taste and add more salt and pepper if needed.
+7. **Finish the ragù:** Stir the frozen or fresh peas into the ragù and simmer until tender, about 5 minutes. Taste and add more salt and pepper if needed.
 8. **Boil the pasta:** Heat the oven to 350°F. Cook the anelletti in a large pot of well-salted boiling water until 2 minutes short of al dente. Drain and return it to the pot.
 9. **Dress the pasta:** Stir in all the fried eggplant and enough ragù to coat the pasta generously. Keep the rest of the ragù warm for serving.
-10. **Coat the dish:** Coat a deep 9x13-inch baking dish with olive oil and plain dry bread crumbs, oiling it first and then tilting it so the crumbs stick to the bottom and sides. Tap the loose crumbs into a small bowl.
-11. **Layer the bake:** Spread half the pasta in the dish. Scatter large hard-boiled eggs, cooked ham, primosale, and caciocavallo over it, using half of each cheese. Top with the rest of the pasta, the rest of the cheese and the saved crumbs.
+10. **Coat the dish:** Coat a deep 9x13-inch baking dish with the olive oil and dry bread crumbs, oiling it first and then tilting it so the crumbs stick to the bottom and sides. Tap the loose crumbs into a small bowl.
+11. **Layer the bake:** Spread half the pasta in the dish. Scatter the hard-boiled eggs, ham, primosale, and caciocavallo over it, using half of each cheese. Top with the rest of the pasta, the rest of the cheese and the saved crumbs.
 12. **Bake:** Bake until the cheese has melted and the edges are bubbling, about 30 minutes.
 13. **Rest and serve:** Let the bake rest for 15 minutes so the layers settle. Cut into squares and serve with the warm ragù spooned over.

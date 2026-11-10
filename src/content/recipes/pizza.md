@@ -51,6 +51,7 @@ scaling:
 source: Family recipe
 formula:
   version: 1
+  stepText: preserved
   yield:
     amount: 4
     unit: portion

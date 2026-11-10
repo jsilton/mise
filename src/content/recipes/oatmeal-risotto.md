@@ -197,9 +197,9 @@ Richard Blais cooks steel-cut oats like risotto. An overnight soak lets them sim
 
 ## Directions
 
-1. **Soak the oats:** Stir steel-cut oats and water or chicken broth together in a bowl. Cover and refrigerate overnight.
-2. **Soak the raisins:** Stir golden raisins and sherry vinegar together in a small bowl and let the raisins soak while the oats cook.
-3. **Bring to a simmer:** Pour the oats and their liquid into a saucepan and bring to a boil over medium-high heat. Lower the heat to a gentle simmer and stir in light brown sugar and kosher salt.
-4. **Simmer the oats:** Simmer, stirring often and scraping the bottom, until the oats are creamy outside and just chewy at the center, 20 to 30 minutes. If the pot gets dry first, add hot water a splash at a time.
-5. **Fold in the banana:** Fold in overripe banana and cook, stirring, until it melts into the oats, about 2 minutes.
-6. **Serve:** Divide the oats among bowls. Drain the raisins, scatter them over the top and finish with Parmesan cheese and light brown sugar (if using).
+1. **Soak the oats:** Stir the steel-cut oats and water or chicken broth together in a bowl. Cover and refrigerate overnight.
+2. **Soak the raisins:** Stir the golden raisins and sherry vinegar together in a small bowl and let the raisins soak while the oats cook.
+3. **Bring to a simmer:** Pour the oats and their liquid into a saucepan and bring to a boil over medium-high heat. Lower the heat to a gentle simmer and stir in the salt and 1 tbsp of the brown sugar.
+4. **Simmer the oats:** Simmer, stirring often and scraping the bottom, until the oats are creamy outside and just chewy at the center, 20 to 30 minutes. If the pot gets dry first, add the hot water a splash at a time.
+5. **Fold in the banana:** Fold in the banana and cook, stirring, until it melts into the oats, about 2 minutes.
+6. **Serve:** Divide the oats among bowls. Drain the raisins, scatter them over the top and finish with the Parmesan and brown sugar (if using).

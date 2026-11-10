@@ -255,12 +255,12 @@ A summer dinner from NYT Cooking. Pork shoulder pounded thin cooks as fast as a 
 
 ## Directions
 
-1. **Pound the pork:** Pound the boneless pork butt or shoulder with a meat mallet to an even 3/4 inch thick.
-2. **Season the pork:** Season both sides of the pork generously with kosher salt and black pepper.
-3. **Marinate the pork:** Mix garlic cloves, fresh rosemary, and extra-virgin olive oil in a small bowl and rub it over both sides of the pork. Let it sit for 15 minutes, or refrigerate it for up to 4 hours.
-4. **Heat the griddle:** Set a large cast-iron griddle on a grill over high heat until very hot. Turn a gas grill to medium, or let a charcoal fire burn down a little. Brush the griddle with extra-virgin olive oil and heat until it shimmers.
+1. **Pound the pork:** Pound the pork butt or shoulder with a meat mallet to an even 3/4 inch thick.
+2. **Season the pork:** Season both sides of the pork generously with the salt and pepper.
+3. **Marinate the pork:** Mix 4–5 garlic cloves, 1 tbsp of the rosemary, and 3 tbsp of the olive oil in a small bowl and rub it over both sides of the pork. Let it sit for 15 minutes, or refrigerate it for up to 4 hours.
+4. **Heat the griddle:** Set a large cast-iron griddle on a grill over high heat until very hot. Turn a gas grill to medium, or let a charcoal fire burn down a little. Brush the griddle with 2 tbsp of the olive oil and heat until it shimmers.
 5. **Sear the pork:** Scrape the garlic and rosemary off the pork, leaving a film of oil, so they don't burn. Lay the pork on the griddle and sear without moving it until a deep brown crust forms, 8 to 10 minutes.
-6. **Cook the peaches:** While the pork sears, add ripe peaches and unsalted butter around it. Set the peaches cut side down and dot them with the butter. Cook until soft and browned, about 5 minutes, then move them to a platter. If they don't all fit, cook them in a second skillet.
+6. **Cook the peaches:** While the pork sears, add the peaches and butter around it. Set the peaches cut side down and dot them with the butter. Cook until soft and browned, about 5 minutes, then move them to a platter. If they don't all fit, cook them in a second skillet.
 7. **Finish the pork:** Flip the pork and cook until the center reaches 145°F, 5 to 7 minutes. Move it to a cutting board and let it rest for 5 minutes.
-8. **Warm the garlic oil:** While the pork rests, warm garlic cloves, fresh rosemary, and extra-virgin olive oil in a small pan over low heat until the garlic is fragrant and pale gold, 2 to 3 minutes. Add a pinch of salt.
+8. **Warm the garlic oil:** While the pork rests, warm 4–5 garlic cloves, 1 tbsp of the rosemary, and 3 tbsp of the olive oil in a small pan over low heat until the garlic is fragrant and pale gold, 2 to 3 minutes. Add a pinch of salt.
 9. **Slice and serve:** Slice the pork across the grain and spoon the warm garlic oil over it. Serve with the peaches and any juices from the board.

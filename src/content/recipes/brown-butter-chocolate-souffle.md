@@ -277,13 +277,13 @@ Claire Ptak's chocolate soufflé for Bon Appétit is one big dish meant for shar
 
 ## Directions
 
-1. **Brown the butter:** Melt unsalted butter in a small skillet over medium heat, swirling, until the milk solids turn brown and smell nutty, about 4 minutes. Pour it into a small bowl and chill, stirring once, until opaque but soft enough to brush, about 20 minutes.
-2. **Separate the eggs:** While the butter chills, heat the oven to 375°F with a rack in the middle. Separate large eggs, putting the whites in a clean mixer bowl and the yolks in a small bowl.
-3. **Heat the cream:** Heat heavy cream in a small saucepan over medium heat until steaming, about 2 minutes.
-4. **Make the ganache:** Pour the hot cream over bittersweet chocolate in a large heatproof bowl. Let it sit for a minute, then stir now and then until smooth and slightly cooled, about 5 minutes.
-5. **Finish the chocolate base:** Whisk Dutch-process cocoa powder, dark rum (if using), Morton kosher salt, and hot water into the chocolate until smooth. Whisk in the yolks.
-6. **Coat the dish:** Brush a 1 1/2-quart soufflé dish with the browned butter, solids and all, right up to the rim. Add granulated sugar for the dish, turn the dish to coat it and tap out the extra. Chill the dish while you whip the whites.
-7. **Whip the whites:** Add granulated sugar and cream of tartar to the egg whites. Beat on medium-high speed until glossy and the peaks hold but bend at the tips, 8 to 10 minutes. Stop before they look dry or clumpy.
+1. **Brown the butter:** Melt the butter in a small skillet over medium heat, swirling, until the milk solids turn brown and smell nutty, about 4 minutes. Pour it into a small bowl and chill, stirring once, until opaque but soft enough to brush, about 20 minutes.
+2. **Separate the eggs:** While the butter chills, heat the oven to 375°F with a rack in the middle. Separate the eggs, putting the whites in a clean mixer bowl and the yolks in a small bowl.
+3. **Heat the cream:** Heat 1 cup of the heavy cream in a small saucepan over medium heat until steaming, about 2 minutes.
+4. **Make the ganache:** Pour the hot cream over the bittersweet chocolate in a large heatproof bowl. Let it sit for a minute, then stir now and then until smooth and slightly cooled, about 5 minutes.
+5. **Finish the chocolate base:** Whisk the Dutch-process cocoa powder, dark rum (if using), salt, and hot water into the chocolate until smooth. Whisk in the yolks.
+6. **Coat the dish:** Brush a 1 1/2-quart soufflé dish with the browned butter, solids and all, right up to the rim. Add the sugar for the dish, turn the dish to coat it and tap out the extra. Chill the dish while you whip the whites.
+7. **Whip the whites:** Add the granulated sugar and cream of tartar to the egg whites. Beat on medium-high speed until glossy and the peaks hold but bend at the tips, 8 to 10 minutes. Stop before they look dry or clumpy.
 8. **Fold in the meringue:** Stir a quarter of the meringue into the chocolate base to lighten it. Fold in the rest in three additions, sweeping the spatula along the bottom of the bowl, until no large white streaks remain. Scrape the batter into the dish.
 9. **Bake the soufflé:** Bake until risen, with a just-set top and a gentle wobble in the center, 35 to 40 minutes.
-10. **Serve at once:** Bring the soufflé straight to the table. Finish with powdered sugar and heavy cream, dusting the top with the sugar and drizzling the cream over each serving.
+10. **Serve at once:** Bring the soufflé straight to the table. Finish with the powdered sugar and heavy cream, dusting the top with the sugar and drizzling the cream over each serving.

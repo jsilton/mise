@@ -268,14 +268,14 @@ Red velvet is a Southern classic: a buttermilk cake with a little natural cocoa,
 ## Directions
 
 1. **Heat the oven:** Heat the oven to 350°F and line two muffin tins with paper liners.
-2. **Separate the eggs:** Separate large eggs, putting the whites in a clean mixing bowl and the yolks in a small bowl.
+2. **Separate the eggs:** Separate the eggs, putting the whites in a clean mixing bowl and the yolks in a small bowl.
 3. **Whip the whites:** Beat the whites on high speed until soft peaks form, 2 to 3 minutes. Set them aside.
-4. **Mix the dry ingredients:** Sift all-purpose flour, cornstarch, natural unsweetened cocoa powder, baking soda, and salt into a bowl and whisk to combine.
-5. **Cream the butter:** In a large bowl, beat unsalted butter and granulated sugar on medium speed until fluffy, about 3 minutes.
-6. **Beat in the oil:** Add canola or avocado oil and beat for 2 minutes. A few small bits of butter are fine.
-7. **Add the yolks:** Beat in the yolks, then distilled white vinegar, pure vanilla extract, and red food coloring (if using). Scrape down the bowl.
-8. **Add the buttermilk:** With the mixer on low, add the dry ingredients in three additions, alternating with whole buttermilk and beginning and ending with the dry. Mix just until combined.
+4. **Mix the dry ingredients:** Sift the flour, cornstarch, natural unsweetened cocoa powder, baking soda, and salt into a bowl and whisk to combine.
+5. **Cream the butter:** In a large bowl, beat the butter and sugar on medium speed until fluffy, about 3 minutes.
+6. **Beat in the oil:** Add the canola or avocado oil and beat for 2 minutes. A few small bits of butter are fine.
+7. **Add the yolks:** Beat in the yolks, then the distilled white vinegar, vanilla, and red food coloring (if using). Scrape down the bowl.
+8. **Add the buttermilk:** With the mixer on low, add the dry ingredients in three additions, alternating with the buttermilk and beginning and ending with the dry. Mix just until combined.
 9. **Fold in the whites:** Fold in the whipped whites with a spatula until no streaks remain.
 10. **Bake:** Fill the liners two-thirds full. Bake until the tops spring back when pressed and a toothpick in the center comes out clean, 20 to 21 minutes.
 11. **Cool:** Cool in the tins for 5 minutes, then move the cupcakes to a rack until completely cool, about 1 hour.
-12. **Frost:** Spread or pipe [Cream Cheese Frosting](/mise/recipes/favorite-cream-cheese-frosting) over the cooled cupcakes.
+12. **Frost:** Spread or pipe the [Cream Cheese Frosting](/mise/recipes/favorite-cream-cheese-frosting) over the cooled cupcakes.

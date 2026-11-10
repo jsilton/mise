@@ -214,9 +214,9 @@ Overnight oats that taste like strawberry cheesecake. Whisking the cream cheese 
 
 ## Directions
 
-1. **Make the cheesecake base:** In a small bowl, whisk plain Greek yogurt, cream cheese, lemon, pure vanilla extract, maple syrup, and kosher salt until completely smooth. Use the lemon juice here and set the zest aside for the fruit.
-2. **Add the milk:** Whisk in unsweetened milk and chia seeds until the chia is evenly spread through.
-3. **Stir in the oats:** Stir in old-fashioned rolled oats until every flake is submerged.
-4. **Fold in the fruit:** Gently fold in fresh strawberries and the lemon zest.
+1. **Make the cheesecake base:** In a small bowl, whisk the Greek yogurt, cream cheese, lemon, vanilla, maple syrup, and salt until completely smooth. Use the lemon juice here and set the zest aside for the fruit.
+2. **Add the milk:** Whisk in the milk and chia seeds until the chia is evenly spread through.
+3. **Stir in the oats:** Stir in the oats until every flake is submerged.
+4. **Fold in the fruit:** Gently fold in the fresh strawberries and the lemon zest.
 5. **Chill overnight:** Spoon into a wide-mouth jar, cover and refrigerate for at least 4 hours or overnight, until the oats are soft and the chia has thickened the milk.
-6. **Top and serve:** Stir once more and top with sliced strawberries (if using) and black pepper (if using).
+6. **Top and serve:** Stir once more and top with the sliced strawberries (if using) and pepper (if using).

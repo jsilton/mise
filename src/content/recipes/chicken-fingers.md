@@ -46,6 +46,7 @@ description: >-
   golden.
 formula:
   version: 1
+  stepText: preserved
   yield:
     amount: 1
     unit: portion

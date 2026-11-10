@@ -366,13 +366,13 @@ Pho bo is Vietnam's beef noodle soup, built on a clear broth scented with charre
 
 ## Directions
 
-1. **Parboil the bones:** Put beef marrow and knuckle bones, beef brisket, and cold water in a large stockpot. Bring to a hard boil for 10 minutes, then drain. Rinse the bones and brisket under cold water and scrub the pot clean. This keeps the broth clear.
-2. **Char the aromatics:** While the bones boil, set large yellow onions and 4-inch piece of fresh ginger cut side up on a sheet pan. Broil on high until blackened in spots and softened, 12 to 15 minutes, turning once.
-3. **Toast the spices:** Toast whole star anise, 3-inch Vietnamese cinnamon stick, whole cloves, coriander seeds, and cardamom pod in a dry skillet over medium heat, stirring, until fragrant, 2 to 3 minutes. Tie them in a cheesecloth bundle.
-4. **Simmer the broth:** Return the bones and brisket to the clean pot with cold water, the charred onion and ginger and the spice bundle. Bring to a boil, then lower the heat to the gentlest simmer, with just a few lazy bubbles. Skim the foam for the first 30 minutes. A hard boil makes the broth cloudy.
+1. **Parboil the bones:** Put the beef marrow and knuckle bones, beef brisket, and cold water in a large stockpot. Bring to a hard boil for 10 minutes, then drain. Rinse the bones and brisket under cold water and scrub the pot clean. This keeps the broth clear.
+2. **Char the aromatics:** While the bones boil, set the yellow onions and ginger cut side up on a sheet pan. Broil on high until blackened in spots and softened, 12 to 15 minutes, turning once.
+3. **Toast the spices:** Toast the star anise, 3-inch Vietnamese cinnamon stick, whole cloves, coriander seeds, and cardamom pod in a dry skillet over medium heat, stirring, until fragrant, 2 to 3 minutes. Tie them in a cheesecloth bundle.
+4. **Simmer the broth:** Return the bones and brisket to the clean pot with 5 quarts of the cold water, the charred onion and ginger and the spice bundle. Bring to a boil, then lower the heat to the gentlest simmer, with just a few lazy bubbles. Skim the foam for the first 30 minutes. A hard boil makes the broth cloudy.
 5. **Pull the brisket:** After 1 1/2 to 2 hours, when a chopstick slides through the brisket easily, lift it out. Plunge it into ice water for 10 minutes to firm it up, then refrigerate it. Keep the bones simmering for 2 hours more.
-6. **Strain and season:** Strain the broth through a cheesecloth-lined sieve and discard the solids. Stir in fish sauce, sugar, and kosher salt. Taste and add more fish sauce until the broth tastes slightly salty on its own, since the noodles and garnishes will dilute it.
-7. **Soak the noodles:** Soak dried rice noodles (banh pho) in warm water until pliable, 20 to 25 minutes, then drain.
-8. **Slice the beef:** While the noodles soak, slice the cold brisket thinly across the grain. Lay the brisket and eye of round out on a plate, keeping the raw slices apart. Bring the broth to a rolling boil.
+6. **Strain and season:** Strain the broth through a cheesecloth-lined sieve and discard the solids. Stir in the fish sauce, sugar, and salt. Taste and add more fish sauce until the broth tastes slightly salty on its own, since the noodles and garnishes will dilute it.
+7. **Soak the noodles:** Soak the dried rice noodles in warm water until pliable, 20 to 25 minutes, then drain.
+8. **Slice the beef:** While the noodles soak, slice the cold brisket thinly across the grain. Lay the brisket and the eye of round out on a plate, keeping the raw slices apart. Bring the broth to a rolling boil.
 9. **Cook the noodles:** Bring a pot of water to a boil. Cook the soaked noodles until tender, 30 to 60 seconds, then drain and divide them among deep bowls.
-10. **Assemble the bowls:** Top the noodles with the brisket and the raw eye of round. Ladle the boiling broth over the beef, which cooks the thin slices in seconds. Serve right away with bean sprouts, fresh Thai basil, fresh cilantro, lime wedges, thinly sliced jalapeños, hoisin sauce, and Sriracha on the side.
+10. **Assemble the bowls:** Top the noodles with the brisket and the raw eye of round. Ladle the boiling broth over the beef, which cooks the thin slices in seconds. Serve right away with the bean sprouts, Thai basil, cilantro, lime wedges, jalapeños, hoisin sauce, and Sriracha on the side.

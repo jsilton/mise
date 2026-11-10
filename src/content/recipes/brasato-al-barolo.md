@@ -309,9 +309,9 @@ Brasato al Barolo is the great Sunday braise of Piedmont. Beef shoulder spends a
 
 ## Directions
 
-1. **Marinate overnight:** Tie the cloves and peppercorns in a small square of cheesecloth so they are easy to find later. Put boneless beef shoulder (cappello di prete), Barolo, carrots, celery ribs, onion, rosemary sprig, whole cloves, garlic clove, bay leaves, black peppercorns, and small piece of cinnamon stick in a snug, nonreactive container, with the beef in the middle and the wine poured over everything. Cover and refrigerate for 12 hours, turning the beef once.
-2. **Drain and season:** Lift out the beef, pat it very dry and season it all over with kosher salt. Strain the marinade, keeping the wine and the vegetables and spices separately.
-3. **Brown the beef:** Heat butter and olive oil over medium-high heat in a heavy lidded casserole that holds the beef snugly. Brown the beef well on all sides, about 5 minutes per side. Lower the heat if the butter starts to burn.
+1. **Marinate overnight:** Tie the cloves and peppercorns in a small square of cheesecloth so they are easy to find later. Put the beef shoulder, Barolo, carrots, celery, onion, rosemary, whole cloves, garlic, bay leaves, black peppercorns, and cinnamon stick in a snug, nonreactive container, with the beef in the middle and the wine poured over everything. Cover and refrigerate for 12 hours, turning the beef once.
+2. **Drain and season:** Lift out the beef, pat it very dry and season it all over with the salt. Strain the marinade, keeping the wine and the vegetables and spices separately.
+3. **Brown the beef:** Heat the butter and olive oil over medium-high heat in a heavy lidded casserole that holds the beef snugly. Brown the beef well on all sides, about 5 minutes per side. Lower the heat if the butter starts to burn.
 4. **Cook the vegetables:** Add the drained vegetables and spices around the beef. Cook, stirring them now and then, until they soften and color lightly, about 15 minutes.
 5. **Braise the beef:** Pour in the wine and bring it to a boil. Cover, lower the heat so the liquid bubbles gently, and braise, turning the beef every 30 minutes, until a fork slides into the thickest part with no resistance, 2 1/2 to 3 hours. Add a splash of water if the liquid runs low.
 6. **Blend the sauce:** Move the beef to a board and cover it loosely. Fish out the bay leaves, rosemary stem, cinnamon and spice bundle. Blend the vegetables and wine in the pot with an immersion blender until smooth.

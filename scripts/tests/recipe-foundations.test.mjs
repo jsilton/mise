@@ -10,13 +10,28 @@ test('ingredient scaling handles fractions, decimals, unicode and ranges', () =>
   assert.equal(scaleIngredient('1 1/2 cups flour', 0.5), '3/4 cup flour');
   assert.equal(scaleIngredient('1½ cups milk', 2), '3 cups milk');
   assert.equal(scaleIngredient('1–2 tsp lemon', 2), '2–4 tsp lemon');
-  assert.equal(scaleIngredient('1/8 tsp pepper', 0.5), '0.0625 tsp pepper');
+  // Less than 1/8 tsp is a pinch, and small measures step down to one a cook can use.
+  assert.equal(scaleIngredient('1/8 tsp pepper', 0.5), 'a pinch of pepper');
+  assert.equal(scaleIngredient('1/4 cup buttermilk', 0.25), '1 tbsp buttermilk');
+  assert.equal(scaleIngredient('1/3 cup mayonnaise', 0.25), '1 tbsp plus 1 tsp mayonnaise');
+  assert.equal(scaleIngredient('3/4 tsp baking soda', 0.25), '1/4 tsp baking soda');
+  assert.equal(scaleIngredient('2 1/8 cups flour', 0.5), '1 cup plus 1 tbsp flour');
+  assert.equal(scaleIngredient('1 tablespoon honey', 0.5), '1 1/2 teaspoons honey');
+  assert.equal(
+    scaleIngredient('1 large egg, beaten', 0.5),
+    '1/2 large egg (beat an egg and use half), beaten'
+  );
+  assert.equal(scaleIngredient('3 large eggs', 0.25), '1 large egg (rounded up)');
 });
 test('equivalent weights scale but package sizes and cuts do not', () => {
-  assert.equal(scaleIngredient('8 oz (225 g) pasta', 2), '16 oz (450 g) pasta');
+  assert.equal(scaleIngredient('8 oz (225 g) pasta', 2), '1 lb (450 g) pasta');
+  assert.equal(scaleIngredient('8 oz chicken broth', 2), '16 oz chicken broth');
+  assert.equal(scaleIngredient('3/4 tsp salt', 0.5), 'scant 1/2 tsp salt');
+  assert.equal(scaleIngredient('1 1/4 tsp salt', 0.5), 'heaping 1/2 tsp salt');
+  assert.equal(scaleIngredient('3/4 oz lime juice', 0.5), 'scant 1/2 oz lime juice');
   assert.equal(
     scaleIngredient('225 g (about 1 1/2 cups) pearl couscous', 0.5),
-    '112 1/2 g (about 3/4 cup) pearl couscous'
+    '115 g (about 3/4 cup) pearl couscous'
   );
   assert.equal(
     scaleIngredient('1 1/2 cups (about 225 g) pearl couscous', 2),
@@ -33,7 +48,7 @@ test('equivalent weights scale but package sizes and cuts do not', () => {
   );
 });
 test('litre equivalents scale together while bottle sizes stay fixed', () => {
-  assert.equal(scaleIngredient('10 cups (2.4 L) cold water', 0.5), '5 cups (1.2 L) cold water');
+  assert.equal(scaleIngredient('10 cups (2.4 L) cold water', 0.5), '5 cups (1200 ml) cold water');
   assert.equal(scaleIngredient('2 L (2000 ml) water', 0.5), '1 L (1000 ml) water');
   assert.equal(scaleIngredient('2 litres (2000 ml) water', 2), '4 litres (4000 ml) water');
   assert.equal(scaleIngredient('2 (1 L) bottles stock', 0.5), '1 (1 L) bottle stock');
@@ -41,7 +56,7 @@ test('litre equivalents scale together while bottle sizes stay fixed', () => {
 test('additional measured amounts scale with their equivalent volumes', () => {
   assert.equal(
     scaleIngredient('1/2 cup (120 ml) milk, plus up to 1/4 cup (60 ml) more if needed', 0.5),
-    '1/4 cup (60 ml) milk, plus up to 1/8 cup (30 ml) more if needed'
+    '1/4 cup (60 ml) milk, plus up to 2 tbsp (30 ml) more if needed'
   );
   assert.equal(
     scaleIngredient('1/2 tsp pepper flakes, plus up to 1/2 tsp more', 0.5),
@@ -307,10 +322,7 @@ test('worded leading ranges scale both bounds without changing purpose or packag
     '6–8 tbsp curry paste, to taste'
   );
   assert.equal(scaleIngredient('8 to 8 1/2 cups flour', 0.5), '4–4 1/4 cups flour');
-  assert.equal(
-    scaleIngredient('1/4 to 1/2 cup water (to thin)', 0.5),
-    '1/8–1/4 cup water (to thin)'
-  );
+  assert.equal(scaleIngredient('1/4 to 1/2 cup water (to thin)', 0.5), '2–4 tbsp water (to thin)');
   assert.equal(scaleIngredient('½ to ¾ tsp pepper', 2), '1–1 1/2 tsp pepper');
   assert.equal(scaleIngredient('1 TO 2 cups water', 2), '2–4 cups water');
   assert.equal(
@@ -363,10 +375,10 @@ test('yield nouns follow scaled counts, including irregular plurals and modifier
 test('compact measures and equivalent totals scale without changing per-package sizes', () => {
   for (const [input, expected] of [
     ['250g carrots', '500 g carrots'],
-    ['350g (0.8 lbs) sprouts', '700 g (1.6 lbs) sprouts'],
+    ['350g (0.8 lbs) sprouts', '700 g (1 lb plus 10 oz) sprouts'],
     ['1/2 cup (1 stick) butter', '1 cup (2 sticks) butter'],
     ['1 stick (1/2 cup) butter', '2 sticks (1 cup) butter'],
-    ['40 oz (5 packs) cream cheese', '80 oz (10 packs) cream cheese'],
+    ['40 oz (5 packs) cream cheese', '5 lb (10 packs) cream cheese'],
     ['2.25 lb (about 1,020 g) salmon', '4 1/2 lb (about 2040 g) salmon'],
     ['2 (14 oz) cans tomatoes', '4 (14 oz) cans tomatoes'],
     ['2-inch piece ginger', '2-inch piece ginger'],

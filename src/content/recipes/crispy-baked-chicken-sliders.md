@@ -288,11 +288,11 @@ These are a homemade take on the Chick-fil-A sandwich, sized for a party. A soak
 
 ## Directions
 
-1. **Cut the chicken:** Slice boneless skinless chicken breasts in half horizontally into cutlets about 1/2 inch thick, then cut them into pieces about the size of the rolls.
-2. **Brine the chicken:** Seal the chicken pieces in a zip-top bag with dill pickle juice and refrigerate for 1 to 4 hours, turning the bag once.
-3. **Toast the panko:** Toss panko breadcrumbs and neutral oil together in a large skillet over medium heat. Toast, stirring often, until evenly golden, 4 to 6 minutes. Spread the crumbs in a shallow dish to cool.
-4. **Heat the oven:** Heat the oven to 425°F. Set a wire rack over a rimmed sheet pan and coat the rack with cooking spray.
-5. **Season the flour:** Whisk all-purpose flour, paprika, garlic powder, onion powder, cayenne pepper, kosher salt, and black pepper together in a shallow dish.
-6. **Bread the chicken:** Beat large eggs in a second shallow dish. Lift the chicken from the brine and pat it dry. Dredge each piece in the flour and shake off the excess, dip it in the egg, then press it firmly into the panko. Set the pieces on the rack with space between them.
-7. **Bake:** Mist the tops with cooking spray. Bake until the coating is deep golden and the thickest piece reaches 165°F, 15 to 20 minutes. Rest the chicken on the rack for 5 minutes.
-8. **Build the sliders:** Build the sliders with Hawaiian sweet rolls, mayonnaise, and dill pickle chips. Spread mayo on the cut sides of each roll, then add a piece of chicken and a few pickles. Serve right away, while the coating is crisp.
+1. **Cut the chicken:** Slice the chicken breasts in half horizontally into cutlets about 1/2 inch thick, then cut them into pieces about the size of the rolls.
+2. **Brine the chicken:** Seal the chicken pieces in a zip-top bag with the dill pickle juice and refrigerate for 1 to 4 hours, turning the bag once.
+3. **Toast the panko:** Toss the panko and oil together in a large skillet over medium heat. Toast, stirring often, until evenly golden, 4 to 6 minutes. Spread the crumbs in a shallow dish to cool.
+4. **Heat the oven:** Heat the oven to 425°F. Set a wire rack over a rimmed sheet pan and coat the rack with the cooking spray.
+5. **Season the flour:** Whisk the flour, paprika, garlic powder, onion powder, cayenne pepper, salt, and black pepper together in a shallow dish.
+6. **Bread the chicken:** Beat the eggs in a second shallow dish. Lift the chicken from the brine and pat it dry. Dredge each piece in the flour and shake off the excess, dip it in the egg, then press it firmly into the panko. Set the pieces on the rack with space between them.
+7. **Bake:** Mist the tops with the cooking spray. Bake until the coating is deep golden and the thickest piece reaches 165°F, 15 to 20 minutes. Rest the chicken on the rack for 5 minutes.
+8. **Build the sliders:** Build the sliders with the Hawaiian sweet rolls, mayonnaise, and dill pickle chips. Spread mayo on the cut sides of each roll, then add a piece of chicken and a few pickles. Serve right away, while the coating is crisp.

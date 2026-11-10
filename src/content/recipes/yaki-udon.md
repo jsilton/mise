@@ -42,7 +42,7 @@ ingredients:
   - '--- Noodles and stir-fry ---'
   - '2 lb frozen udon noodles, four 7 to 8 oz packs'
   - 2 tsp toasted sesame oil
-  - 2 tbsp neutral oil
+  - '2 tbsp neutral oil, divided'
   - 1/2 lb ground pork or thinly sliced beef
   - '1 small yellow onion, sliced'
   - '1 cup shiitake or cremini mushrooms, sliced'
@@ -320,11 +320,11 @@ Yaki udon is a Japanese stir-fry of thick, chewy wheat noodles with pork and veg
 
 ## Directions
 
-1. **Mix the sauce:** In a small bowl, whisk dark soy sauce, low-sodium soy sauce, oyster sauce, mirin, rice vinegar, and sugar until the sugar dissolves.
-2. **Loosen the noodles:** Bring a large pot of water to a boil. Add frozen udon noodles and cook just until they separate and are hot through, 1 to 2 minutes.
-3. **Rinse and oil:** Drain the noodles, rinse them under cold water and drain well. Toss with toasted sesame oil so they don't stick.
-4. **Brown the meat:** Heat a large wok over high heat. Add 1/2 of the neutral oil and ground pork or thinly sliced beef, breaking up the pork as it cooks. Stir-fry until the pork is browned and crisp at the edges, about 5 minutes, or the beef is just browned, 2 to 3 minutes. Move it to a plate.
-5. **Soften the onion:** Add 1/2 of the neutral oil, small yellow onion, and shiitake or cremini mushrooms to the wok. Stir-fry over high heat until they begin to soften, 2 to 3 minutes.
-6. **Add the vegetables:** Add carrot, bok choy, garlic cloves, and scallions, holding back the bok choy leaves. Stir-fry until the stems are crisp-tender, about 3 minutes.
+1. **Mix the sauce:** In a small bowl, whisk the dark soy sauce, low-sodium soy sauce, oyster sauce, mirin, rice vinegar, and sugar until the sugar dissolves.
+2. **Loosen the noodles:** Bring a large pot of water to a boil. Add the udon noodles and cook just until they separate and are hot through, 1 to 2 minutes.
+3. **Rinse and oil:** Drain the noodles, rinse them under cold water and drain well. Toss with the sesame oil so they don't stick.
+4. **Brown the meat:** Heat a large wok over high heat. Add the ground pork or thinly sliced beef and 1 tbsp of the neutral oil, breaking up the pork as it cooks. Stir-fry until the pork is browned and crisp at the edges, about 5 minutes, or the beef is just browned, 2 to 3 minutes. Move it to a plate.
+5. **Soften the onion:** Add the yellow onion, shiitake or cremini mushrooms, and the rest of the neutral oil to the wok. Stir-fry over high heat until they begin to soften, 2 to 3 minutes.
+6. **Add the vegetables:** Add the carrot, bok choy, garlic, and scallions, holding back the bok choy leaves. Stir-fry until the stems are crisp-tender, about 3 minutes.
 7. **Toss with the sauce:** Return the meat to the wok and add the noodles and sauce. Toss over high heat until the noodles are glossy and evenly coated, about 2 minutes. Add the bok choy leaves and toss until just wilted. In a 12-inch skillet, toss the noodles in two batches.
-8. **Serve:** Divide among bowls and top with sesame seeds or furikake (if using) and chili oil (if using).
+8. **Serve:** Divide among bowls and top with the sesame seeds or furikake (if using) and chili oil (if using).

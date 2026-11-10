@@ -198,11 +198,11 @@ An all-butter crust has the best flavor of any pie dough, and its flakes come fr
 
 ## Directions
 
-1. **Mix the dry ingredients:** Whisk all-purpose flour, granulated sugar, and kosher salt in a large bowl.
-2. **Flatten the butter:** Add cold unsalted butter and toss to coat each cube in flour. Press each cube flat between your thumbs and fingers, working fast, until the butter is in thin flakes from the size of an oat to the size of a nickel.
-3. **Add the water:** Sprinkle ice water over the flour a tablespoon at a time, tossing with a fork. Stop as soon as the dough forms shaggy clumps that hold together when squeezed.
+1. **Mix the dry ingredients:** Whisk the sugar, salt, and 1 1/4 cups of the flour in a large bowl.
+2. **Flatten the butter:** Add the butter and toss to coat each cube in flour. Press each cube flat between your thumbs and fingers, working fast, until the butter is in thin flakes from the size of an oat to the size of a nickel.
+3. **Add the water:** Sprinkle the ice water over the flour a tablespoon at a time, tossing with a fork. Stop as soon as the dough forms shaggy clumps that hold together when squeezed.
 4. **Chill the disk:** Gather the dough into a ball and press it into a disk 1 inch thick. Wrap it and refrigerate for at least 1 hour.
 5. **Soften the disk:** Let the disk sit on the counter until it bends without cracking, 5 to 10 minutes.
-6. **Roll:** Dust the counter and the dough with all-purpose flour. Roll from the center out, giving the dough a quarter turn every few strokes, into a 12-inch round about 1/8 inch thick.
+6. **Roll:** Dust the counter and the dough with the flour. Roll from the center out, giving the dough a quarter turn every few strokes, into a 12-inch round about 1/8 inch thick.
 7. **Fit the plate:** Roll the dough loosely around the pin and unroll it over a 9-inch pie plate. Ease it into the corners without stretching it. Trim the overhang to 1 inch, fold it under itself and crimp the edge.
 8. **Chill the shell:** Refrigerate the shell until firm, about 30 minutes, before filling or baking it. A cold shell keeps its crimp and bakes up flaky.

@@ -258,9 +258,9 @@ Keema matar is a North Indian home favorite of spiced ground lamb and sweet peas
 
 ## Directions
 
-1. **Brown the lamb:** Heat a large skillet over medium-high heat. Add ground lamb and cook, breaking it into small pieces, until browned and the fat has rendered, 6 to 8 minutes. Keep the fat in the pan.
-2. **Bloom the cumin:** Push the lamb to one side. Add cumin seeds to the pooled fat and let them sizzle until fragrant and a shade darker, 20 to 30 seconds.
-3. **Soften the onion:** Add large yellow onion and kosher salt and stir everything together. Lower the heat to medium and cook, stirring often, until the onion is soft, about 5 minutes.
-4. **Cook the spices:** Add fresh ginger, garlic, ground turmeric, Kashmiri chili powder, and tomato paste. Cook, stirring constantly, until fragrant and the tomato paste darkens, about 1 minute.
-5. **Simmer the peas:** Add frozen peas and water, cover and simmer gently until the peas are tender and the sauce clings to the lamb, about 5 minutes. Add a splash more water if the pan looks dry.
-6. **Finish and serve:** Take the pan off the heat and stir in garam masala, lemon, fresh cilantro, and kosher salt. Taste for salt and lemon and serve hot.
+1. **Brown the lamb:** Heat a large skillet over medium-high heat. Add the ground lamb and cook, breaking it into small pieces, until browned and the fat has rendered, 6 to 8 minutes. Keep the fat in the pan.
+2. **Bloom the cumin:** Push the lamb to one side. Add the cumin seeds to the pooled fat and let them sizzle until fragrant and a shade darker, 20 to 30 seconds.
+3. **Soften the onion:** Add the yellow onion and 1 tsp of the salt and stir everything together. Lower the heat to medium and cook, stirring often, until the onion is soft, about 5 minutes.
+4. **Cook the spices:** Add the ginger, garlic, turmeric, Kashmiri chili powder, and tomato paste. Cook, stirring constantly, until fragrant and the tomato paste darkens, about 1 minute.
+5. **Simmer the peas:** Add the peas and water, cover and simmer gently until the peas are tender and the sauce clings to the lamb, about 5 minutes. Add a splash more water if the pan looks dry.
+6. **Finish and serve:** Take the pan off the heat and stir in the garam masala, lemon, cilantro, and salt. Taste for salt and lemon and serve hot.

@@ -235,8 +235,8 @@ formula:
     - id: marinate
       title: Marinate the shrimp
       text: >-
-        While the potatoes cook, toss {{ingredients}} in a bowl, using all the lime zest, half the
-        juice and the salt set aside for the shrimp. Let the shrimp sit for 10 minutes.
+        While the potatoes cook, toss {{ingredients}} in a bowl, using all the lime zest and half
+        the juice. Let the shrimp sit for 10 minutes.
     - id: cream
       title: Add the cream and corn
       text: >-
@@ -251,7 +251,7 @@ formula:
       title: Finish and serve
       text: >-
         Turn off the heat and stir in the rest of the lime juice and the bacon. Taste and add more
-        salt if it needs it. Serve with {{ingredients}} wedges.
+        salt if it needs it. Serve with {{ingredients}}, cut into wedges.
 learning:
   techniques:
     - browning
@@ -274,12 +274,12 @@ A lighter take on Robert Irvine's corn chowder, with smoked paprika and bacon in
 
 ## Directions
 
-1. **Roast the corn:** Heat the oven to 425°F. Toss corn kernels, vegetable oil, and black pepper on a rimmed baking sheet with a pinch of the salt and spread in one layer. Roast, stirring once, until the edges brown, about 15 minutes.
-2. **Crisp the bacon:** While the corn roasts, cook slices of bacon in a large, heavy soup pot over medium heat until crisp, about 8 minutes. Lift the bacon onto a plate and leave the fat in the pot.
-3. **Soften the onion:** Add red onion to the bacon fat and cook until soft, about 5 minutes.
-4. **Add the garlic:** Stir in garlic cloves and smoked paprika and cook until fragrant, 30 to 45 seconds.
-5. **Cook the potatoes:** Add Red Bliss potatoes, chicken stock, and kosher salt, scraping up the browned bits. Bring to a boil, then simmer gently until the potatoes are tender, 15 to 20 minutes.
-6. **Marinate the shrimp:** While the potatoes cook, toss raw shrimp, lime, and kosher salt in a bowl, using all the lime zest, half the juice and the salt set aside for the shrimp. Let the shrimp sit for 10 minutes.
-7. **Add the cream and corn:** Stir in heavy cream and the roasted corn. Pulse an immersion blender in the pot 3 or 4 times, so the chowder thickens but stays chunky. Bring back to a gentle simmer.
+1. **Roast the corn:** Heat the oven to 425°F. Toss the corn kernels, oil, and pepper on a rimmed baking sheet with a pinch of the salt and spread in one layer. Roast, stirring once, until the edges brown, about 15 minutes.
+2. **Crisp the bacon:** While the corn roasts, cook the bacon in a large, heavy soup pot over medium heat until crisp, about 8 minutes. Lift the bacon onto a plate and leave the fat in the pot.
+3. **Soften the onion:** Add the red onion to the bacon fat and cook until soft, about 5 minutes.
+4. **Add the garlic:** Stir in the garlic and smoked paprika and cook until fragrant, 30 to 45 seconds.
+5. **Cook the potatoes:** Add the Red Bliss potatoes, chicken stock, and 3/4 tsp of the salt, scraping up the browned bits. Bring to a boil, then simmer gently until the potatoes are tender, 15 to 20 minutes.
+6. **Marinate the shrimp:** While the potatoes cook, toss the shrimp, 1 lime, and 1/4 tsp of the salt in a bowl, using all the lime zest and half the juice. Let the shrimp sit for 10 minutes.
+7. **Add the cream and corn:** Stir in the heavy cream and the roasted corn. Pulse an immersion blender in the pot 3 or 4 times, so the chowder thickens but stays chunky. Bring back to a gentle simmer.
 8. **Cook the shrimp:** Stir in the shrimp and their lime juices and simmer until pink and opaque all the way through, 2 to 3 minutes.
-9. **Finish and serve:** Turn off the heat and stir in the rest of the lime juice and the bacon. Taste and add more salt if it needs it. Serve with lime wedges.
+9. **Finish and serve:** Turn off the heat and stir in the rest of the lime juice and the bacon. Taste and add more salt if it needs it. Serve with 1 lime, cut into wedges.

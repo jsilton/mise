@@ -327,11 +327,11 @@ This is The Woks of Life's take on a Cantonese restaurant classic. Fermented bla
 
 ## Directions
 
-1. **Mix the sauce:** Whisk chicken stock, oyster sauce, dark soy sauce, toasted sesame oil, sugar, and white pepper in a bowl and set it by the stove.
-2. **Boil the water:** Bring water to a boil in the wok.
-3. **Blanch the pork:** Add ground pork and break it into small crumbles. Boil until it is no longer pink, about 1 minute. Drain the pork and wipe the wok dry. Blanching keeps the sauce clear.
-4. **Fry the aromatics:** Heat the wok over medium-high heat. Add vegetable oil, garlic clove, fresh ginger, fermented black beans (douchi), and green bell pepper, then the blanched pork. Stir-fry until fragrant, about 30 seconds.
-5. **Add the shrimp:** Add shrimp and Shaoxing wine and stir-fry for 30 seconds.
-6. **Thicken the sauce:** Pour in the sauce and bring it to a boil. Stir cornstarch and cold water together until smooth, then stir it into the boiling sauce a little at a time until the sauce coats a spoon. You may not need all of it. If the sauce gets too thick, add a splash of water.
-7. **Make the egg ribbons:** Lower the heat to a gentle simmer. Drizzle the beaten large egg across the surface and let it set for 10 seconds, then fold once or twice. Simmer until the shrimp are opaque all the way through, about 1 minute.
-8. **Serve:** Scatter scallion over the top and serve right away.
+1. **Mix the sauce:** Whisk the chicken stock, oyster sauce, dark soy sauce, sesame oil, sugar, and white pepper in a bowl and set it by the stove.
+2. **Boil the water:** Bring the water to a boil in the wok.
+3. **Blanch the pork:** Add the ground pork and break it into small crumbles. Boil until it is no longer pink, about 1 minute. Drain the pork and wipe the wok dry. Blanching keeps the sauce clear.
+4. **Fry the aromatics:** Heat the wok over medium-high heat. Add the vegetable oil, garlic, ginger, fermented black beans, and green bell pepper, then the blanched pork. Stir-fry until fragrant, about 30 seconds.
+5. **Add the shrimp:** Add the shrimp and Shaoxing wine and stir-fry for 30 seconds.
+6. **Thicken the sauce:** Pour in the sauce and bring it to a boil. Stir the cornstarch and cold water together until smooth, then stir it into the boiling sauce a little at a time until the sauce coats a spoon. You may not need all of it. If the sauce gets too thick, add a splash of water.
+7. **Make the egg ribbons:** Lower the heat to a gentle simmer. Drizzle the beaten egg across the surface and let it set for 10 seconds, then fold once or twice. Simmer until the shrimp are opaque all the way through, about 1 minute.
+8. **Serve:** Scatter the scallion over the top and serve right away.

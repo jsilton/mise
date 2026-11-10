@@ -212,13 +212,13 @@ Hamantaschen are the three-cornered butter cookies of Purim, filled with poppy s
 
 ## Directions
 
-1. **Cream the butter:** In a stand mixer, beat unsalted butter and granulated sugar on medium speed until light and fluffy, about 3 minutes.
-2. **Add the egg:** Beat in large egg, pure vanilla extract, and orange zest until combined, scraping the bowl.
-3. **Add the flour:** Sift in all-purpose flour and sea salt. Mix on low speed just until a crumbly dough forms, then stop.
-4. **Knead the dough:** Knead the crumbles by hand into a smooth, slightly tacky ball. If the dough is too dry to come together, work in cold water a little at a time.
+1. **Cream the butter:** In a stand mixer, beat the butter and sugar on medium speed until light and fluffy, about 3 minutes.
+2. **Add the egg:** Beat in the egg, vanilla, and orange zest until combined, scraping the bowl.
+3. **Add the flour:** Sift in the salt and 2 1/4 cups of the flour. Mix on low speed just until a crumbly dough forms, then stop.
+4. **Knead the dough:** Knead the crumbles by hand into a smooth, slightly tacky ball. If the dough is too dry to come together, work in the cold water a little at a time.
 5. **Chill:** Flatten the dough into a disk, wrap it and refrigerate for at least 3 hours or overnight.
-6. **Heat the oven:** Heat the oven to 350°F. Grease two baking sheets with butter or baking spray.
-7. **Roll and cut:** On a surface dusted with all-purpose flour, roll the cold dough 1/8 inch thick. If it cracks, press the cracks closed with your fingers. Cut 3-inch circles and re-roll the scraps once.
+6. **Heat the oven:** Heat the oven to 350°F. Grease two baking sheets with the butter or baking spray.
+7. **Roll and cut:** On a surface dusted with the flour, roll the cold dough 1/8 inch thick. If it cracks, press the cracks closed with your fingers. Cut 3-inch circles and re-roll the scraps once.
 8. **Fill and fold:** Put a teaspoon of poppy seed filling, apricot jam or chocolate-hazelnut spread in the center of each circle. Fold the left side toward the center, then fold the right side over so it overlaps the left. Fold the bottom up, tucking its left corner under the left flap and laying its right corner over the right flap. Pinch the corners firmly, leaving a little filling showing in the middle.
 9. **Bake:** Set the cookies an inch apart on the sheets. Bake one sheet at a time until the edges are just golden, 20 to 25 minutes. Keep the unbaked cookies in the fridge while they wait.
 10. **Cool:** Cool the cookies completely on a wire rack.

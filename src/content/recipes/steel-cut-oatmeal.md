@@ -42,7 +42,7 @@ ingredients:
   - 3 cups boiling water
   - 1/4 tsp fine sea salt
   - 1/2 cup whole milk
-  - 1/2 cup low-fat buttermilk
+  - '1/2 cup low-fat buttermilk, divided'
   - 1 tbsp light brown sugar
   - 1/4 tsp ground cinnamon
   - '--- Toppings ---'
@@ -192,8 +192,8 @@ Alton Brown's steel-cut oats. Toasting the oats in butter first gives them a nut
 
 ## Directions
 
-1. **Toast the oats:** Heat unsalted butter and steel-cut oats in a heavy saucepan over medium heat. Stir constantly until the butter has melted and the oats smell like toasted popcorn and turn golden, 2 to 3 minutes.
-2. **Simmer:** Add boiling water and fine sea salt carefully, since the water will sputter. Turn the heat to very low, cover and simmer gently without stirring for 25 minutes.
-3. **Add the milk:** Stir in whole milk and 1/2 of the low-fat buttermilk. Cook over low heat, stirring gently, until the oats are creamy and tender with a little chew, about 10 minutes.
-4. **Finish off the heat:** Take the pan off the heat and stir in 1/2 of the low-fat buttermilk, light brown sugar, and ground cinnamon.
-5. **Serve:** Serve hot, topped with fresh berries (if using) and maple syrup (if using).
+1. **Toast the oats:** Heat the butter and steel-cut oats in a heavy saucepan over medium heat. Stir constantly until the butter has melted and the oats smell like toasted popcorn and turn golden, 2 to 3 minutes.
+2. **Simmer:** Add the boiling water and salt carefully, since the water will sputter. Turn the heat to very low, cover and simmer gently without stirring for 25 minutes.
+3. **Add the milk:** Stir in the whole milk and 1/4 cup of the buttermilk. Cook over low heat, stirring gently, until the oats are creamy and tender with a little chew, about 10 minutes.
+4. **Finish off the heat:** Take the pan off the heat and stir in the brown sugar, cinnamon, and the rest of the buttermilk.
+5. **Serve:** Serve hot, topped with the berries (if using) and maple syrup (if using).

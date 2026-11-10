@@ -46,6 +46,7 @@ totalTime: 1 hr 50 min
 source: Family recipe
 formula:
   version: 1
+  stepText: preserved
   yield:
     amount: 12
     unit: piece
