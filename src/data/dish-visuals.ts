@@ -1,4 +1,4 @@
-// Recipe photos made by Frederick in batches 1 to 15 (docs/image-prompts on images/approaches).
+// Recipe photos made by Frederick in batches 1 to 17 (docs/image-prompts on images/approaches).
 // Each file is 960 x 640 WebP in public/images/dishes, named for its recipe slug.
 export const dishVisuals: Record<
   string,
@@ -8,6 +8,11 @@ export const dishVisuals: Record<
     file: 'air-fryer-chicken-tenders.webp',
     title: 'Air Fryer Chicken Tenders',
     alt: 'Five golden, panko-crusted chicken tenders stacked loosely on a plate beside a small white ramekin of creamy honey mustard dipping sauce.',
+  },
+  'all-butter-pie-crust': {
+    file: 'all-butter-pie-crust.webp',
+    title: 'All-Butter Pie Crust',
+    alt: 'An unbaked pie shell in a round pie plate with a tall hand-crimped edge, the pale raw dough showing flat flakes of butter.',
   },
   'almond-zucchini-bread': {
     file: 'almond-zucchini-bread.webp',
@@ -94,6 +99,16 @@ export const dishVisuals: Record<
     title: 'Baby’s First Smash Cake',
     alt: 'A small, round, two-layer cake about 6 inches across, covered in smooth white cream cheese frosting, simple and homemade with soft swoops on top.',
   },
+  'baja-fish-tacos': {
+    file: 'baja-fish-tacos.webp',
+    title: 'Baja Fish Tacos',
+    alt: 'Three soft tortillas folded around strips of crisp golden beer-battered fish, topped with white lime crema, shredded cabbage and cilantro, with a lime wedge on the plate.',
+  },
+  'baked-beans': {
+    file: 'baked-beans.webp',
+    title: 'Baked Beans',
+    alt: 'A bowl of small navy beans in a thick, glossy brown molasses sauce with pieces of browned bacon and soft onion.',
+  },
   'baked-chicken-parmesan': {
     file: 'baked-chicken-parmesan.webp',
     title: 'Baked Chicken Parmesan',
@@ -158,6 +173,11 @@ export const dishVisuals: Record<
     file: 'bbq-chicken-sliders.webp',
     title: 'BBQ Chicken Sliders',
     alt: 'Three small sliders on soft, golden, shiny Hawaiian rolls, each filled with glossy BBQ-glazed chicken thigh, melted sharp cheddar, dill pickle chips and crispy fried onions.',
+  },
+  'bbq-sauce': {
+    file: 'bbq-sauce.webp',
+    title: 'BBQ Sauce',
+    alt: 'A bowl of thick, glossy brick-red barbecue sauce with a soft swirl on top.',
   },
   'beef-and-broccoli-stir-fry': {
     file: 'beef-and-broccoli-stir-fry.webp',
@@ -353,6 +373,11 @@ export const dishVisuals: Record<
     file: 'butternut-squash-fettuccine-alfredo.webp',
     title: 'Butternut Squash Fettuccine Alfredo',
     alt: 'A twirled nest of fettuccine in a silky, velvety, pale orange butternut squash cream sauce.',
+  },
+  'caesar-dressing': {
+    file: 'caesar-dressing.webp',
+    title: 'Caesar Dressing',
+    alt: 'A bowl of thick, creamy ivory Caesar dressing flecked with grated Parmigiano and black pepper.',
   },
   'cantonese-shrimp-and-pork-wontons': {
     file: 'cantonese-shrimp-and-pork-wontons.webp',
@@ -1144,6 +1169,11 @@ export const dishVisuals: Record<
     title: 'Slow Cooker French Dip Sandwiches',
     alt: 'French dip sandwiches piled with shredded beef and melted provolone, with a small white ramekin of dark beef jus on the plate.',
   },
+  'french-omelet': {
+    file: 'french-omelet.webp',
+    title: 'French Omelet',
+    alt: 'A smooth, pale yellow rolled omelet lying seam side down on an oval plate, scattered with chopped chives.',
+  },
   'fresh-cabbage-cucumber-and-radish-kimchi': {
     file: 'fresh-cabbage-cucumber-and-radish-kimchi.webp',
     title: 'Fresh Cabbage, Cucumber and Radish Kimchi',
@@ -1524,6 +1554,11 @@ export const dishVisuals: Record<
     title: 'Hot Mulled Apple Cider',
     alt: 'A clear glass mug filled with deep amber mulled cider, a cinnamon stick standing in it and a clove-studded orange wedge resting on the rim.',
   },
+  'house-vinaigrette': {
+    file: 'house-vinaigrette.webp',
+    title: 'House Vinaigrette',
+    alt: 'A small glass jar of creamy, emulsified mustard vinaigrette with bits of minced shallot suspended in it.',
+  },
   'how-to-make-frittatas-stovetop-or-baked': {
     file: 'how-to-make-frittatas-stovetop-or-baked.webp',
     title: 'Frittata',
@@ -1558,6 +1593,11 @@ export const dishVisuals: Record<
     file: 'italian-kale-and-sausage-stuffing.webp',
     title: 'Sausage, Kale and Ciabatta Stuffing',
     alt: 'A generous scoop of baked bread stuffing with golden crisp ciabatta cubes on top, browned sausage crumbles and dark green ribbons of kale through a moist interior.',
+  },
+  'jammy-and-hard-boiled-eggs': {
+    file: 'jammy-and-hard-boiled-eggs.webp',
+    title: 'Jammy and Hard-Boiled Eggs',
+    alt: 'Eight peeled egg halves in two rows, jammy eggs with glossy orange yolks in front and hard-boiled eggs with firm pale yellow yolks behind.',
   },
   'japanese-beef-rice-bowl-gyudon': {
     file: 'japanese-beef-rice-bowl-gyudon.webp',
@@ -1783,6 +1823,21 @@ export const dishVisuals: Record<
     file: 'master-sushi-rice.webp',
     title: 'Sushi Rice (Shari)',
     alt: 'A small white bowl of glossy white short-grain sushi rice in a rounded mound.',
+  },
+  'matzo-ball-soup': {
+    file: 'matzo-ball-soup.webp',
+    title: 'Matzo Ball Soup',
+    alt: 'A bowl of clear golden chicken broth with two large fluffy matzo balls, carrot coins and sliced celery, scattered with fresh dill.',
+  },
+  'meat-lasagna': {
+    file: 'meat-lasagna.webp',
+    title: 'Meat Lasagna with Beef and Pork Ragù',
+    alt: 'A tall slice of lasagna showing layers of pasta, meat ragù, ricotta and melted mozzarella, with browned cheese on top.',
+  },
+  'meatballs-in-san-marzano-sauce': {
+    file: 'meatballs-in-san-marzano-sauce.webp',
+    title: 'Beef and Pork Meatballs in San Marzano Sauce',
+    alt: 'Five browned meatballs in a bright red, slightly chunky tomato sauce with golden slices of garlic and a dusting of grated Parmigiano.',
   },
   'mediterranean-chicken-bowls': {
     file: 'mediterranean-chicken-bowls.webp',
@@ -2109,6 +2164,11 @@ export const dishVisuals: Record<
     title: 'Peanut Noodles',
     alt: 'A twirled mound of noodles coated in a glossy, creamy peanut sauce, topped with sliced green onions, chopped cilantro and sesame seeds.',
   },
+  'peanut-sauce': {
+    file: 'peanut-sauce.webp',
+    title: 'Peanut Sauce',
+    alt: 'A bowl of thick, glossy orange-tan peanut sauce with beads of red curry oil at the edges.',
+  },
   'pear-and-spinach-salad': {
     file: 'pear-and-spinach-salad.webp',
     title: 'Pear & Spinach Salad',
@@ -2154,6 +2214,11 @@ export const dishVisuals: Record<
     title: 'Pizza',
     alt: 'A whole 12-inch pizza with a golden, puffed crust, melted mozzarella, round pepperoni slices, chunks of pineapple and wilted spinach, cut into eight slices with one slice pulled slightly away.',
   },
+  'pico-de-gallo': {
+    file: 'pico-de-gallo.webp',
+    title: 'Pico de Gallo',
+    alt: 'A heaped bowl of diced red tomato and white onion mixed with chopped green chile and cilantro.',
+  },
   'pizza-beans': {
     file: 'pizza-beans.webp',
     title: 'Pizza Beans',
@@ -2173,6 +2238,16 @@ export const dishVisuals: Record<
     file: 'pork-and-greens-dumplings.webp',
     title: 'Pork and Greens Dumplings',
     alt: 'Eight plump, half-moon boiled dumplings with pleated edges, arranged in a circle, one bitten open to show a green-flecked pork filling, with a small pool of dark soy-vinegar dipping sauce on the plate.',
+  },
+  'pot-roast': {
+    file: 'pot-roast.webp',
+    title: 'Sunday Pot Roast',
+    alt: 'Three thick slices of braised beef over chunks of carrot and Yukon Gold potato, with glossy brown gravy and chopped parsley.',
+  },
+  'potato-salad': {
+    file: 'potato-salad.webp',
+    title: 'Potato Salad',
+    alt: 'A bowl of creamy potato salad with chunks of Yukon Gold potato, diced celery, scallions, pickles and chopped egg, topped with parsley and a pinch of paprika.',
   },
   'pressure-cooker-bolognase': {
     file: 'pressure-cooker-bolognase.webp',
@@ -2203,6 +2278,11 @@ export const dishVisuals: Record<
     file: 'pumpkin-cheesecake-cookies.webp',
     title: 'Pumpkin Cheesecake Cookies',
     alt: 'Five soft, round, spiced pumpkin cookies each with a smooth, creamy white cheesecake center, one broken to show the soft inside.',
+  },
+  'pumpkin-pie': {
+    file: 'pumpkin-pie.webp',
+    title: 'Pumpkin Pie',
+    alt: 'A wedge of deep-dish pumpkin pie with a smooth orange custard and a flaky crimped crust, topped with a dollop of whipped cream.',
   },
   'purple-rice': {
     file: 'purple-rice.webp',
@@ -2694,6 +2774,11 @@ export const dishVisuals: Record<
     title: 'Slow Cooker Lentil Tortilla Soup',
     alt: 'A bowl of thick brick-red tomato and lentil soup with black and pinto beans, topped with a pile of crisp tortilla strips, diced avocado and cilantro.',
   },
+  'smash-burgers': {
+    file: 'smash-burgers.webp',
+    title: 'Smash Burgers',
+    alt: 'A double cheeseburger on a toasted potato bun, two thin patties with crisp lacy edges and melted American cheese, topped with onion, pickles, shredded lettuce and pink burger sauce.',
+  },
   'smashed-cucumber-salad': {
     file: 'smashed-cucumber-salad.webp',
     title: 'Smashed Cucumber Salad (Pai Huang Gua)',
@@ -2988,6 +3073,11 @@ export const dishVisuals: Record<
     file: 'tarragon-potatoes.webp',
     title: 'Tarragon Potatoes',
     alt: 'A pile of golden roasted russet potato chunks glistening with butter and olive oil, flecked with dried tarragon.',
+  },
+  'teriyaki-sauce': {
+    file: 'teriyaki-sauce.webp',
+    title: 'Teriyaki Sauce',
+    alt: 'A bowl of glossy, translucent dark brown teriyaki sauce.',
   },
   'thai-basil-chicken-pad-kra-pao': {
     file: 'thai-basil-chicken-pad-kra-pao.webp',
