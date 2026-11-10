@@ -23,7 +23,7 @@ const practice = technique.recipes.map((slug) => {
 
 <Layout title={`${technique.title} | Mise`} description={technique.summary}>
   <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href={`${BASE}learn`}>The learning kitchen</a><span aria-hidden="true">/</span><span
+    <a href={`${BASE}learn/`}>The learning kitchen</a><span aria-hidden="true">/</span><span
       >{technique.category}</span
     >
   </nav>
@@ -111,7 +111,7 @@ const practice = technique.recipes.map((slug) => {
             practice.map((recipe) => {
               const time = timeBand(recipe.data.totalTime);
               return (
-                <a class="practice-card" href={`${BASE}recipes/${recipe.slug}`}>
+                <a class="practice-card" href={`${BASE}recipes/${recipe.slug}/`}>
                   <DishArt slug={recipe.slug} />
                   <div>
                     <span class="practice-title">{recipe.data.title}</span>

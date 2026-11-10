@@ -40,6 +40,9 @@ jobs:
       - name: Check recipe foundations
         run: pnpm test
 
+      - name: Check recipe page rules
+        run: pnpm run check:copy
+
       - name: Audit editorial integrity
         run: pnpm run editorial-audit
 

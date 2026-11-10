@@ -145,7 +145,7 @@ const typeCounts = Object.fromEntries(
       {
         cards.map((c) => (
           <li data-picks={c.picks.join(',')} data-type={c.meal.data.template || ''}>
-            <a class="meal-card" href={`${BASE}meals/${c.meal.slug}`}>
+            <a class="meal-card" href={`${BASE}meals/${c.meal.slug}/`}>
               {c.art && <DishArt slug={c.art} />}
               <div class="meal-body">
                 <p class="meal-kind">{TYPES[c.meal.data.template || ''] || 'Meal'}</p>

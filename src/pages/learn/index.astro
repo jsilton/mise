@@ -4,7 +4,7 @@ import { techniques } from '../../data/techniques';
 import DishArt from '../../components/DishArt.astro';
 import { dishVisuals } from '../../data/dish-visuals';
 const BASE = import.meta.env.BASE_URL;
-// Each lesson shows the painting of a recipe that practises it, when one exists.
+// Each lesson shows the painting of a recipe that practices it, when one exists.
 const artFor = (slugs: string[]) => slugs.find((slug) => dishVisuals[slug]);
 ---
 
@@ -23,17 +23,17 @@ const artFor = (slugs: string[]) => slugs.find((slug) => dishVisuals[slug]);
     <h2 class="sec-h" id="path-title">A good place to begin</h2>
     <ol class="path-steps">
       <li>
-        <a href={`${BASE}learn/browning`}
+        <a href={`${BASE}learn/browning/`}
           ><span class="num" aria-hidden="true">1</span><span>Manage heat</span></a
         >
       </li>
       <li>
-        <a href={`${BASE}learn/emulsions`}
+        <a href={`${BASE}learn/emulsions/`}
           ><span class="num" aria-hidden="true">2</span><span>Build a sauce</span></a
         >
       </li>
       <li>
-        <a href={`${BASE}learn/seasoning`}
+        <a href={`${BASE}learn/seasoning/`}
           ><span class="num" aria-hidden="true">3</span><span>Trust your taste</span></a
         >
       </li>
@@ -45,7 +45,7 @@ const artFor = (slugs: string[]) => slugs.find((slug) => dishVisuals[slug]);
       techniques.map((technique) => {
         const art = artFor(technique.recipes);
         return (
-          <a class="technique-card" href={`${BASE}learn/${technique.slug}`}>
+          <a class="technique-card" href={`${BASE}learn/${technique.slug}/`}>
             {art && <DishArt slug={art} />}
             <div class="technique-body">
               <p class="category">{technique.category}</p>
@@ -53,7 +53,7 @@ const artFor = (slugs: string[]) => slugs.find((slug) => dishVisuals[slug]);
               <p>{technique.summary}</p>
               <span class="read-link">
                 {technique.recipes.length} recipe{technique.recipes.length === 1 ? '' : 's'} to
-                practise <span aria-hidden="true">→</span>
+                practice <span aria-hidden="true">→</span>
               </span>
             </div>
           </a>
@@ -63,7 +63,7 @@ const artFor = (slugs: string[]) => slugs.find((slug) => dishVisuals[slug]);
   </div>
   <p class="editorial-note">
     Each lesson connects a mechanism to a cooking decision, an observable cue, and a recipe to
-    practice. <a href={`${BASE}standards`}>Read our editorial standard →</a>
+    practice. <a href={`${BASE}standards/`}>Read our editorial standard →</a>
   </p>
 </Layout>
 <style>

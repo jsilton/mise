@@ -24,6 +24,7 @@ on:
       - 'src/pages/meals/**'
       - 'scripts/check-recipe-aliases.mjs'
       - 'scripts/validate-recipes.mjs'
+      - 'scripts/check-recipe-copy.mjs'
       - 'scripts/recipe-editorial.mjs'
       - 'scripts/tests/**'
       - 'src/data/**'
@@ -57,6 +58,9 @@ jobs:
 
       - name: Check recipe foundations
         run: pnpm test
+
+      - name: Check recipe page rules
+        run: pnpm run check:copy
 
       - name: Audit editorial integrity
         run: pnpm run editorial-audit

@@ -50,7 +50,7 @@ const templateColors: Record<string, { bg: string; text: string }> = Object.from
     {/* Breadcrumb */}
     <nav class="mb-8">
       <a
-        href={`${import.meta.env.BASE_URL}meals`}
+        href={`${import.meta.env.BASE_URL}meals/`}
         class="breadcrumb-link inline-flex items-center gap-1.5 text-sm transition-colors"
         style="color: var(--text-tertiary);"
       >
@@ -193,7 +193,7 @@ const templateColors: Record<string, { bg: string; text: string }> = Object.from
         {
           meal.data.main && (
             <a
-              href={`${import.meta.env.BASE_URL}recipes/${meal.data.main}`}
+              href={`${import.meta.env.BASE_URL}recipes/${meal.data.main}/`}
               class="recipe-link flex items-center gap-4 p-4 transition-colors group"
             >
               <span class="role-tag">Main</span>
@@ -225,7 +225,7 @@ const templateColors: Record<string, { bg: string; text: string }> = Object.from
           meal.data.sides &&
             meal.data.sides.map((side) => (
               <a
-                href={`${import.meta.env.BASE_URL}recipes/${side}`}
+                href={`${import.meta.env.BASE_URL}recipes/${side}/`}
                 class="recipe-link flex items-center gap-4 p-4 transition-colors group"
               >
                 <span class="role-tag">Side</span>
@@ -256,7 +256,7 @@ const templateColors: Record<string, { bg: string; text: string }> = Object.from
         {
           meal.data.base && (
             <a
-              href={`${import.meta.env.BASE_URL}recipes/${meal.data.base}`}
+              href={`${import.meta.env.BASE_URL}recipes/${meal.data.base}/`}
               class="recipe-link flex items-center gap-4 p-4 transition-colors group"
             >
               <span class="role-tag">Base</span>
@@ -287,7 +287,7 @@ const templateColors: Record<string, { bg: string; text: string }> = Object.from
         {
           meal.data.salad && (
             <a
-              href={`${import.meta.env.BASE_URL}recipes/${meal.data.salad}`}
+              href={`${import.meta.env.BASE_URL}recipes/${meal.data.salad}/`}
               class="recipe-link flex items-center gap-4 p-4 transition-colors group"
             >
               <span class="role-tag">Salad</span>
@@ -318,7 +318,7 @@ const templateColors: Record<string, { bg: string; text: string }> = Object.from
         {
           meal.data.sauce && (
             <a
-              href={`${import.meta.env.BASE_URL}recipes/${meal.data.sauce}`}
+              href={`${import.meta.env.BASE_URL}recipes/${meal.data.sauce}/`}
               class="recipe-link flex items-center gap-4 p-4 transition-colors group"
             >
               <span class="role-tag">Sauce</span>
@@ -349,7 +349,7 @@ const templateColors: Record<string, { bg: string; text: string }> = Object.from
         {
           meal.data.dessert && (
             <a
-              href={`${import.meta.env.BASE_URL}recipes/${meal.data.dessert}`}
+              href={`${import.meta.env.BASE_URL}recipes/${meal.data.dessert}/`}
               class="recipe-link flex items-center gap-4 p-4 transition-colors group"
             >
               <span class="role-tag">Dessert</span>

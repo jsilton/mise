@@ -13,7 +13,7 @@ const BASE = import.meta.env.BASE_URL;
   lessons.length > 0 && (
     <div class="lesson-links" aria-label="Related cooking lessons">
       {lessons.map((t) => (
-        <a href={`${BASE}learn/${t.slug}`}>
+        <a href={`${BASE}learn/${t.slug}/`}>
           {t.title} <span aria-hidden="true">↗</span>
         </a>
       ))}

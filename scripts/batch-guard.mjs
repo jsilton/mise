@@ -11,8 +11,8 @@
  *   6. If lint passes: prompts to keep or revert
  *
  * Usage:
- *   node scripts/batch-guard.mjs "node scripts/batch-technique.mjs"
- *   node scripts/batch-guard.mjs "node scripts/batch-chefs-notes.mjs" --auto-accept
+ *   node scripts/batch-guard.mjs "node scripts/my-batch.mjs"
+ *   node scripts/batch-guard.mjs "node scripts/my-batch.mjs" --auto-accept
  *
  * The --auto-accept flag skips the interactive prompt (for CI).
  * Always run with --dry-run on the inner script first.
@@ -26,7 +26,7 @@ const command = args.filter((a) => a !== '--auto-accept')[0];
 
 if (!command) {
   console.log('Usage: node scripts/batch-guard.mjs "<command>" [--auto-accept]');
-  console.log('Example: node scripts/batch-guard.mjs "node scripts/batch-technique.mjs"');
+  console.log('Example: node scripts/batch-guard.mjs "node scripts/my-batch.mjs"');
   process.exit(1);
 }
 

@@ -158,12 +158,12 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   <section class="featured-section" aria-labelledby="featured-title">
     <div class="section-heading">
       <h2 id="featured-title">Three recipes, three useful lessons.</h2>
-      <a href={`${BASE}learn`}>All lessons ↗</a>
+      <a href={`${BASE}learn/`}>All lessons ↗</a>
     </div>
     <div class="featured-grid">
       {
         featured.map((recipe) => (
-          <a class="featured-recipe" href={`${BASE}recipes/${recipe.slug}`}>
+          <a class="featured-recipe" href={`${BASE}recipes/${recipe.slug}/`}>
             <DishArt slug={recipe.slug} />
             <div class="featured-body">
               <h3>{recipe.data.title}</h3>
