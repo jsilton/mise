@@ -44,10 +44,10 @@ Allow about **6 hours 45 minutes with the minimum four-hour marinade**. Marinati
 
 ## Making dinner ahead
 
-Portion cooked biryani promptly into shallow containers and refrigerate within two hours, or one hour above 90°F / 32°C. Do not leave the full pot out until completely cool. Use refrigerated biryani within 3–4 days or freeze portions for later. Reheat portions covered with a small splash of water, checking that both chicken and rice reach 165°F / 74°C; a fixed oven time cannot guarantee this.
+Portion cooked biryani promptly into shallow containers and refrigerate within two hours, or one hour above 90°F / 32°C. Do not leave the full pot out until completely cool. Use refrigerated biryani within 3–4 days or freeze portions for later. Reheat portions covered with a small splash of water, checking that both chicken and rice reach 165°F / 74°C. A fixed oven time cannot guarantee this.
 
 Make raita and kachumber close to the meal when practical. Use raita within one day for quality, and dress kachumber immediately before serving. The side recipes do not promise better texture after several days.
 
 ## Heat and serving notes
 
-Kashmiri chile powder can still have heat. Use the main recipe's substitution guidance and adjust chile to your diners; omit optional serrano from the salad for a milder side. Keep raita alongside for individual portions. Extra naan is unnecessary for the planned six-portion meal.
+Kashmiri chile powder can still have heat. Use the main recipe's substitution guidance and adjust chile to your diners. Omit optional serrano from the salad for a milder side. Keep raita alongside for individual portions. Extra naan is unnecessary for the planned six-portion meal.

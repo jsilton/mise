@@ -27,9 +27,9 @@ totalTime: 75–90 min
 
 ## Meal Overview
 
-Lemon-oregano chicken, rice pilaf, tomato-cucumber salad, and a small spoonful of tzatziki make a dinner for four. Plan one batch each of chicken, pilaf, and salad. Set aside about **1/2 cup prepared tzatziki** for the table; a quarter batch of its recipe should provide this with a little extra.
+Lemon-oregano chicken, rice pilaf, tomato-cucumber salad, and a small spoonful of tzatziki make a dinner for four. Plan one batch each of chicken, pilaf, and salad. Set aside about **1/2 cup prepared tzatziki** for the table. A quarter batch of its recipe should provide this with a little extra.
 
-Allow about **75–90 minutes**, including chicken marination, vegetable preparation, and the pilaf's covered rest. The time spent marinating overlaps other preparation; it is not an overnight requirement.
+Allow about **75–90 minutes**, including chicken marination, vegetable preparation, and the pilaf's covered rest. The time spent marinating overlaps other preparation. It is not an overnight requirement.
 
 ## Cooking Strategy
 

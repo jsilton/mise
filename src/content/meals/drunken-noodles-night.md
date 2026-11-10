@@ -30,7 +30,7 @@ review:
 
 Use one full batch of Pad Kee Mao and one batch of Edamame with Sea Salt for four diners. The main includes 800 g fresh noodles, 450 g chicken, shallots and baby corn. The side uses 450 g pods before shelling, so each diner receives a small pod portion rather than 112 g edible beans. No additional rice is needed.
 
-This Thai noodle dinner uses a simple Japanese-style pod side. Keep its optional sesame oil and chile flakes out for a plainer contrast with the aromatic main, and add finishing salt gradually. Allow about 60–65 minutes using two burners; dried-noodle preparation can add time. Serve noodle plates as their individual batches finish.
+This Thai noodle dinner uses a simple Japanese-style pod side. Keep its optional sesame oil and chile flakes out for a plainer contrast with the aromatic main, and add finishing salt gradually. Allow about 60–65 minutes using two burners. Dried-noodle preparation can add time. Serve noodle plates as their individual batches finish.
 
 ## Cooking Strategy
 
@@ -42,4 +42,4 @@ This Thai noodle dinner uses a simple Japanese-style pod side. Keep its optional
 
 ## Notes
 
-Holy basil is the main's default. Thai basil is an aroma-changing substitute, not the same herb. Edamame are served in their pods as a separate side; shell them first if putting beans directly onto noodles. Cool leftovers promptly and store components separately according to their recipe instructions.
+Holy basil is the main's default. Thai basil is an aroma-changing substitute, not the same herb. Edamame are served in their pods as a separate side. Shell them first if putting beans directly onto noodles. Cool leftovers promptly and store components separately according to their recipe instructions.

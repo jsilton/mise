@@ -29,7 +29,7 @@ totalTime: 2–2 1/4 hr from scratch
 
 ## Meal Overview
 
-Lemon-caper chicken, egg pasta, and freshly dressed arugula make a complete dinner for four. Use one batch of each linked recipe. The piccata is unfloured and its sauce is intended for the chicken; it is not a large batch of pasta sauce.
+Lemon-caper chicken, egg pasta, and freshly dressed arugula make a complete dinner for four. Use one batch of each linked recipe. The piccata is unfloured and its sauce is intended for the chicken. It is not a large batch of pasta sauce.
 
 Allow about **2–2 1/4 hours from scratch**, including the pasta dough's rest and rolling. With shaped fresh pasta already prepared, allow about **35–45 minutes**. The active-time estimate above is for making the pasta from scratch.
 

@@ -3,32 +3,38 @@ title: Pad Thai Night
 template: one-pot
 main: pad-thai
 sides: [smashed-cucumber-salad]
-totalPrepTime: 20 min
-totalCookTime: 10 min
-totalActiveTime: 25 min
+componentPreparation:
+  pad-thai:
+    state: from-scratch
+    note: 'Two batches, cooked in two wok rounds.'
+  smashed-cucumber-salad:
+    state: from-scratch
+    note: 'One and a half batches, using 2 lb cucumbers.'
+totalPrepTime: 40 min
+totalCookTime: 40 min
+totalActiveTime: 1 hr
+totalTime: 1 hr 20 min
 overallDifficulty: intermediate
 cuisines: [Thai]
 occasions: [weeknight, date-night]
 seasons: [spring, summer, fall, winter]
 nutritionalDensity: moderate
-servings: '4'
+servings: '6'
+review:
+  status: editorial-review
+  date: '2026-11-10'
 ---
 
 ## Meal Overview
 
-Thailand's most famous noodle dish - tamarind-sweet, fish-sauce-savory, with lime and peanut crunch. The cucumber salad provides a cool, refreshing counterpoint to the warm, caramelized noodles. Once everything is prepped, it comes together in minutes.
+Pad thai with shrimp, tofu, tamarind and crushed peanuts, with a cold smashed cucumber salad. One wok batch feeds three, so two rounds feed the five of us with a little left over.
 
 ## Cooking Strategy
 
-1. **Soak noodles** - rice noodles in warm water until pliable
-2. **Mix sauce** - tamarind, fish sauce, sugar, lime
-3. **Make cucumber salad** - dress and chill
-4. **Stir-fry** - shrimp or chicken first, then eggs, then noodles and sauce
-5. **Finish** - bean sprouts, peanuts, lime wedge, cilantro
-6. **Serve** - plated with cucumber salad alongside
-
-## Notes
-
-- Tamarind paste is non-negotiable - it's the soul of pad thai
-- Prep everything before the wok gets hot - it cooks fast
-- Crush the peanuts coarsely for the best texture
+1. **Soak the noodles:** Cover a double batch of rice sticks with room-temperature water and soak until they bend easily, 30 to 40 minutes.
+2. **Start the cucumbers:** Smash and salt the cucumbers and let them drain in the fridge for 15 minutes. Mix their dressing.
+3. **Set up the wok station:** Mix a double batch of the tamarind sauce. Divide the noodles, sauce, tofu, aromatics, eggs, shrimp, sprouts and chives into two sets beside the stove, in the order they go in.
+4. **Dress the cucumbers:** Toss the cucumbers with their dressing just before you cook.
+5. **Cook the first round:** Fry the tofu and aromatics, then toss the first set of drained noodles with its sauce over high heat for 2 to 3 minutes. Scramble in the egg, cook the shrimp until pink and toss in the sprouts and chives. Move the pad thai to a warm platter.
+6. **Cook the second round:** Wipe out the wok and cook the second set the same way.
+7. **Serve:** Pile the noodles onto plates with the peanuts and lime and serve the cucumbers alongside.

@@ -4,32 +4,40 @@ template: bowl
 main: mapo-tofu
 base: steamed-white-rice
 sides: [steamed-bok-choy-with-oyster-sauce]
-totalPrepTime: 10 min
-totalCookTime: 15 min
-totalActiveTime: 15 min
+componentPreparation:
+  mapo-tofu:
+    state: from-scratch
+    note: One batch.
+  steamed-white-rice:
+    state: from-scratch
+    note: One batch.
+  steamed-bok-choy-with-oyster-sauce:
+    state: from-scratch
+    note: One batch.
+totalPrepTime: 25 min
+totalCookTime: 40 min
+totalActiveTime: 45 min
+totalTime: 1 hr 5 min
 overallDifficulty: intermediate
 cuisines: [Chinese]
 occasions: [weeknight]
 seasons: [fall, winter]
 nutritionalDensity: moderate
 servings: '4'
+review:
+  status: editorial-review
+  date: '2026-11-10'
 ---
 
 ## Meal Overview
 
-The iconic Sichuan dish - silky tofu in a fiery, numbing sauce of doubanjiang and Sichuan peppercorn. Steamed rice is essential to temper the heat, and bok choy adds a fresh green element. Bold, complex, and deeply satisfying.
+Soft tofu and pork in a red, numbing Sichuan sauce over plain rice, with garlicky bok choy to cool things down. The rice starts first. The bok choy is cooked before the wok comes out, because the mapo tofu goes straight to the table. For five, cook 2 cups of rice in 2 1/4 cups of water and share the tofu and bok choy five ways.
 
 ## Cooking Strategy
 
-1. **Start rice** - 20 minutes
-2. **Prep tofu** - cube, blanch in salted water to firm
-3. **Cook sauce** - bloom doubanjiang, add ground pork, build sauce
-4. **Add tofu** - gently fold in, simmer to absorb flavor
-5. **Steam bok choy** - quick blanch, 3-4 minutes
-6. **Serve** - rice in bowls, mapo tofu ladled over, bok choy alongside
-
-## Notes
-
-- Silken or soft tofu is traditional - firm tofu changes the character
-- Ground Sichuan peppercorn sprinkled on top at the end
-- Adjust the doubanjiang quantity to control heat level
+1. **Soak the rice:** Rinse the rice and soak it for 30 minutes. Prep the mapo tofu ingredients and halve the bok choy while it soaks.
+2. **Cook the rice:** Bring the rice to a boil, cover it and simmer on low for 12 to 15 minutes. Rest it covered for 10 minutes.
+3. **Cook the bok choy:** Sear and steam the bok choy in two batches, then turn it in the garlic and oyster sauce. Keep it warm on a platter.
+4. **Start the mapo tofu:** Blanch the tofu. Brown the pork in a wok, fry the doubanjiang and black beans until the oil turns red and add the broth.
+5. **Simmer and thicken:** Simmer the tofu in the sauce for about 5 minutes. Thicken it with the slurry in two additions.
+6. **Serve:** Finish the tofu with the sesame oil, chili oil, Sichuan pepper and scallion greens. Serve it over the rice with the bok choy.

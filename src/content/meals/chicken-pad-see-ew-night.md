@@ -26,9 +26,9 @@ review:
 
 ## Meal Overview
 
-Use one full batch of Pad See Ew for five main portions and one batch of Smashed Cucumber Salad shared five ways. The 600 g cucumber batch normally makes four sides; here each diner gets a smaller side of about 120 g cucumber before draining. The main already includes noodles, chicken, Chinese broccoli and eggs.
+Use one full batch of Pad See Ew for five main portions and one batch of Smashed Cucumber Salad shared five ways. The 600 g cucumber batch normally makes four sides. Here each diner gets a smaller side of about 120 g cucumber before draining. The main already includes noodles, chicken, Chinese broccoli and eggs.
 
-The Chinese cucumber salad brings vinegar, garlic and cool crunch alongside the Thai soy-seasoned noodles. This is a mixed-cuisine pairing. Allow about 75–80 minutes for one cook, including five final noodle batches. Plates are best served as each batch finishes; this is a substantial family dinner rather than a 40-minute one-pan dump-and-toss meal.
+The Chinese cucumber salad brings vinegar, garlic and cool crunch alongside the Thai soy-seasoned noodles. This is a mixed-cuisine pairing. Allow about 75–80 minutes for one cook, including five final noodle batches. Plates are best served as each batch finishes. This is a substantial family dinner rather than a 40-minute one-pan dump-and-toss meal.
 
 ## Cooking Strategy
 
@@ -41,4 +41,4 @@ The Chinese cucumber salad brings vinegar, garlic and cool crunch alongside the 
 
 ## Notes
 
-There is no extra rice, egg dish or protein side. If simultaneous service is essential, this five-batch main involves a quality compromise: earlier noodles cool and soften while later portions cook. Store components separately and follow their own chilling instructions; noodles and dressed cucumber are best fresh.
+There is no extra rice, egg dish or protein side. If simultaneous service is essential, this five-batch main involves a quality compromise: earlier noodles cool and soften while later portions cook. Store components separately and follow their own chilling instructions. Noodles and dressed cucumber are best fresh.

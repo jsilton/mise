@@ -27,9 +27,9 @@ review:
 
 ## Meal Overview
 
-Thai red chicken curry, a modest serving of coconut jasmine rice, and a Chinese-style smashed cucumber salad make four bowls. The curry supplies chicken, pepper, and bamboo shoots; cucumber adds vinegar and crunch alongside the coconut sauce.
+Thai red chicken curry, a modest serving of coconut jasmine rice, and a Chinese-style smashed cucumber salad make four bowls. The curry supplies chicken, pepper, and bamboo shoots. Cucumber adds vinegar and crunch alongside the coconut sauce.
 
-Use **one batch of curry**, **half a batch of coconut jasmine rice**, and **one batch of cucumber salad**. The half rice batch uses **180 g dry rice, 200 ml coconut milk, and 120 ml water** and is divided into four modest portions. Omit its optional sugar for this meal. Plain jasmine rice is also a good choice for a less rich dinner; prepare four modest portions following its package instructions. Allow about **50–55 minutes**.
+Use **one batch of curry**, **half a batch of coconut jasmine rice**, and **one batch of cucumber salad**. The half rice batch uses **180 g dry rice, 200 ml coconut milk, and 120 ml water** and is divided into four modest portions. Omit its optional sugar for this meal. Plain jasmine rice is also a good choice for a less rich dinner. Prepare four modest portions following its package instructions. Allow about **50–55 minutes**.
 
 ## Cooking Strategy
 
@@ -41,4 +41,4 @@ Use **one batch of curry**, **half a batch of coconut jasmine rice**, and **one 
 
 ## Notes
 
-Use the linked red curry for this schedule; other paste types need their own seasoning decisions. The curry and rice are best reheated separately, and the cucumber is best freshly dressed. Follow each component's prompt chilling and reheating guidance.
+Use the linked red curry for this schedule. Other paste types need their own seasoning decisions. The curry and rice are best reheated separately, and the cucumber is best freshly dressed. Follow each component's prompt chilling and reheating guidance.

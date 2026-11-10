@@ -2,84 +2,46 @@
 title: Playoff Football Party
 template: grazing
 main: bbq-chicken-sliders
-sides:
-  - sweet-chili-chicken-sliders
-  - crockpot-mac-and-cheese
-  - classic-guacamole
+sides: [sweet-chili-chicken-sliders, crockpot-mac-and-cheese, classic-guacamole]
 drink: red-zone-margarita
-totalPrepTime: 30 min
-totalCookTime: 2 hr
-totalActiveTime: 30 min
+componentPreparation:
+  bbq-chicken-sliders:
+    state: from-scratch
+    note: One batch of 12 sliders.
+  sweet-chili-chicken-sliders:
+    state: from-scratch
+    note: One batch of 12 sliders.
+  crockpot-mac-and-cheese:
+    state: from-scratch
+    note: One batch in a 6-quart slow cooker.
+  classic-guacamole:
+    state: from-scratch
+    note: 'One batch, served with chips and jarred salsa.'
+totalPrepTime: 45 min
+totalCookTime: 3 hr
+totalActiveTime: 1 hr 15 min
+totalTime: 3 hr 30 min
 overallDifficulty: easy
 cuisines: [American, Thai, Mexican]
 occasions: [entertaining, game-day]
 seasons: [winter, fall]
 nutritionalDensity: moderate
-servings: '10-15'
+servings: '10'
+review:
+  status: editorial-review
+  date: '2026-11-10'
 ---
 
 ## Meal Overview
 
-Simple game day: broiled chicken sliders two ways (BBQ and Sweet Chili), creamy slow cooker mac and cheese, fresh guacamole, and chips with salsa. Friends are bringing chips + dip, salad, and veggie snacks. The sliders are dead simple - season, broil, glaze, done. Mac runs in the slow cooker hands-off. You're drinking margaritas by kickoff.
+Game day for ten: broiled chicken sliders two ways, slow cooker mac and cheese and fresh guacamole with chips and salsa. Guests bring chips and onion dip, a salad and a veggie tray. The 24 sliders give everyone two with a few to spare. Red Zone Margaritas are the drink, and their recipe starts the night before.
 
-## The Menu
+## Cooking Strategy
 
-**Sliders (You're Making):**
-
-- **BBQ Chicken Sliders** - broiled thighs, BBQ glaze, pickles
-- **Sweet Chili Chicken Sliders** - broiled thighs, sweet chili glaze, store-bought Asian slaw
-
-**Sides (You're Making):**
-
-- **Slow-Cooker Mac and Cheese** - set it and forget it
-- **Classic Guacamole** - chunky, fresh
-- Chips and jarred salsa
-
-**Guests Bringing:**
-
-- Potato chips and onion dip
-- Tahini Caesar salad
-- Veggie tray / healthy snacks
-
-**Drink:**
-
-- **Red Zone Margarita** - batch cocktail with Game Day Ice
-
-## Prep Timeline
-
-### Night Before
-
-1. **Make the margarita syrup** - 10 min active, 30 min steep
-2. **Freeze Game Day Ice** - fill molds with berries and water
-3. **Shred cheese for mac** - refrigerate
-
-### 2.5 Hours Before Kickoff
-
-| Time    | Task                                                         |
-| ------- | ------------------------------------------------------------ |
-| T-150   | Start mac and cheese in slow cooker on LOW.                  |
-| T-60    | Marinate chicken: BBQ batch + Sweet Chili batch (two bowls). |
-| T-30    | Make guacamole.                                              |
-| T-25    | Broil chicken (6-7 min per side).                            |
-| T-15    | Glaze chicken. Add cheese to BBQ batch. Broil 1-2 min more.  |
-| T-10    | Toast buttered Hawaiian rolls. Let chicken rest. Slice.      |
-| T-5     | Toss Asian slaw. Set out everything. Batch the margarita.    |
-| Kickoff | Done. Assemble sliders to order.                             |
-
-## Station Setup
-
-| Station        | Items                                            | Notes              |
-| -------------- | ------------------------------------------------ | ------------------ |
-| Slider Station | Chicken, Hawaiian rolls, pickles, Asian slaw kit | Assemble to order  |
-| Mac Station    | Slow cooker on WARM                              | Self-serve         |
-| Dip Station    | Guacamole, chips, salsa, chips + onion dip       | Set out at kickoff |
-| Healthy Snacks | Veggie tray, salad                               | Guests bringing    |
-| Drink Station  | Margarita batch, shaker, glasses, Game Day Ice   | Shake per serve    |
-
-## Notes
-
-- Chicken thighs are forgiving - they stay juicy even if slightly overcooked
-- Keep some plain sliders for picky kids (no sauce)
-- Mac stays creamy on WARM for hours
-- Have kid drinks ready (juice boxes, lemonade)
-- The Asian slaw is a bagged salad kit - zero prep, just toss with dressing
+1. **Start the mac and cheese:** 3 hours 30 minutes before kickoff, fill the slow cooker and cook on LOW. Stir after 1 hour and then every 30 minutes until the pasta is tender.
+2. **Marinate the chicken:** 1 hour 30 minutes before kickoff, marinate the BBQ thighs and the sweet chili thighs in two bowls for 30 minutes. Mix the sweet chili glaze and the Sriracha mayo.
+3. **Broil the BBQ chicken:** Broil the BBQ thighs for 6 to 7 minutes per side, until 165°F. Brush them with BBQ sauce, top with the cheddar and broil until it melts, 1 to 2 minutes.
+4. **Broil the sweet chili chicken:** Broil the second batch the same way. Brush it with the glaze and broil until sticky, 1 to 2 minutes.
+5. **Make the guacamole:** Make the guacamole while the chicken rests. Set it out with the chips and salsa.
+6. **Toast the rolls:** Butter the cut sides of all 24 rolls and broil them until golden, 1 to 2 minutes a pan.
+7. **Set out the food:** Slice the chicken and toss the slaw kit. Stir the mac and cheese and serve it from the cooker. Build the sliders at kickoff so the fried onions and slaw stay crisp.

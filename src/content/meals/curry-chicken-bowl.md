@@ -27,7 +27,7 @@ review:
 
 An Indian-inspired slow-cooker chicken curry with vegetables, brown rice, mango, and cilantro makes four complete bowls. The main recipe already includes the rice and garnishes. Add about **1/2 cup prepared cucumber raita** for the table, roughly two tablespoons per person, for a cool yogurt contrast.
 
-Use **one whole batch of the main recipe**, including its four cups cooked brown rice, and **a quarter batch of raita**. The quarter raita batch starts with **120 g plain yogurt and 75 g cucumber** and should provide the half-cup serving amount with a little extra. Allow about **4 hours 30 minutes on HIGH** including preparation; LOW can require **5–6 hours cooking plus preparation**.
+Use **one whole batch of the main recipe**, including its four cups cooked brown rice, and **a quarter batch of raita**. The quarter raita batch starts with **120 g plain yogurt and 75 g cucumber** and should provide the half-cup serving amount with a little extra. Allow about **4 hours 30 minutes on HIGH** including preparation. LOW can require **5–6 hours cooking plus preparation**.
 
 ## Cooking Strategy
 
@@ -39,4 +39,4 @@ Use **one whole batch of the main recipe**, including its four cups cooked brown
 
 ## Notes
 
-The main already supplies rice, peppers, carrots, mango, and lime. Raita is a small complementary serving. Store it separately from curry and rice and use it within a day for quality; follow the main's chilling and reheating instructions for the cooked components.
+The main already supplies rice, peppers, carrots, mango, and lime. Raita is a small complementary serving. Store it separately from curry and rice and use it within a day for quality. Follow the main's chilling and reheating instructions for the cooked components.

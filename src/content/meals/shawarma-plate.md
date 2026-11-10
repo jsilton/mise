@@ -28,7 +28,7 @@ totalTime: About 5 hr including marination
 
 ## Meal Overview
 
-Shawarma-style roast chicken with its tahini drizzle, a modest portion of rice, and fattoush make a complete plate for four. Prepare one chicken batch, **half a batch of the linked basmati rice**, and one fattoush batch. The chicken recipe already includes **1/2 cup prepared tahini sauce**; do not make a second whole sauce batch for this meal.
+Shawarma-style roast chicken with its tahini drizzle, a modest portion of rice, and fattoush make a complete plate for four. Prepare one chicken batch, **half a batch of the linked basmati rice**, and one fattoush batch. The chicken recipe already includes **1/2 cup prepared tahini sauce**. Do not make a second whole sauce batch for this meal.
 
 Allow **about 5 hours including the four-hour chicken marinade**, or roughly one hour of dinner preparation when chicken is already marinated. Fattoush includes pita, so additional bread and a second roasted vegetable are not necessary for this plate.
 
@@ -38,7 +38,7 @@ Allow **about 5 hours including the four-hour chicken marinade**, or roughly one
 2. **Crisp the salad pita first:** Use the fattoush recipe's 375°F oven to toast its pita, then cool it uncovered. Increase the oven to the chicken recipe's 425°F afterward.
 3. **Start rice:** Use half of the linked basmati recipe's ingredient quantities. Choose its plain variation, which lets the chicken supply the main warm-spice flavor. Allow its full covered resting period.
 4. **Roast chicken and prepare salad:** Roast the thighs to 165°F / 74°C. While they cook, chop fattoush vegetables, mix its dressing, and prepare the tahini sauce. Keep salad, dressing, and crisp pita separate.
-5. **Finish chicken:** Rest, slice, and briefly sear the cooked chicken in batches as directed. This recipe uses the oven and skillet; it is not a grill-only preparation.
+5. **Finish chicken:** Rest, slice, and briefly sear the cooked chicken in batches as directed. This recipe uses the oven and skillet. It is not a grill-only preparation.
 6. **Serve together:** Fluff rice. Toss fattoush with dressing and add the crisp pita at the last moment. Divide rice and chicken among four plates and use the chicken recipe's measured tahini drizzle.
 
 ## Notes

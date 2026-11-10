@@ -3,35 +3,47 @@ title: Sunday Roast Chicken Feast
 template: plate
 main: spatchcocked-roast-chicken
 base: crispy-smashed-potatoes
-sides: [charred-broccoli-with-garlic]
 salad: everyday-arugula-salad
-totalPrepTime: 20 min
-totalCookTime: 45 min
-totalActiveTime: 30 min
+sides: [charred-broccoli-with-garlic]
+componentPreparation:
+  spatchcocked-roast-chicken:
+    state: from-scratch
+    note: One 5 lb chicken.
+  crispy-smashed-potatoes:
+    state: from-scratch
+    note: 'One and a half batches, using 2 1/4 lb potatoes, roasted beside the chicken.'
+  everyday-arugula-salad:
+    state: from-scratch
+    note: One batch.
+  charred-broccoli-with-garlic:
+    state: from-scratch
+    note: One batch.
+totalPrepTime: 30 min
+totalCookTime: 1 hr 5 min
+totalActiveTime: 1 hr
+totalTime: 1 hr 35 min
 overallDifficulty: intermediate
 cuisines: [Italian, Mediterranean, American]
 occasions: [sunday-dinner, family, entertaining, meal-prep]
 seasons: [year-round]
 nutritionalDensity: hearty
-servings: '6'
+servings: '5'
+review:
+  status: editorial-review
+  date: '2026-11-10'
 ---
 
 ## Meal Overview
 
-The classic Sunday dinner that never disappoints. A spatchcocked roast chicken crisps up in 45 minutes, while crispy smashed potatoes and charred broccoli roast alongside. Fresh arugula salad for brightness. This is the meal that fuels the week - it's elegant enough for entertaining, simple enough for family.
+A spatchcocked chicken roasted hot until the skin crackles, with crisp smashed potatoes, charred garlic broccoli and an arugula salad. The potatoes share the hot oven with the chicken. For five, roast a 5 lb chicken and make one and a half batches of potatoes.
 
 ## Cooking Strategy
 
-1. **Prep chicken** - spatchcock it, pat dry, season generously
-2. **Start potatoes and broccoli** - get them in the oven first
-3. **Add chicken** - 425°F, skin-side up, about 30-35 minutes
-4. **Check doneness** - thighs should register 165°F, skin should be golden and crispy
-5. **Rest chicken** - 10 minutes minimum while you plate everything
-6. **Make arugula salad** - dress just before serving
-
-## Notes
-
-- Spatchcock means split the backbone and flatten - this exposes more skin for crispiness
-- Dry the skin with paper towels before roasting - this is the secret to crispy skin
-- Use this as Sunday meal-prep - leftover chicken becomes tacos, salads, sandwiches for the week
-- The pan drippings make a quick jus if you add a splash of wine or stock
+1. **Boil the potatoes:** Boil the potatoes in salted water until a fork slides in, 15 to 20 minutes. Heat the oven to 475°F with racks in the lower-middle and upper positions.
+2. **Season the chicken:** While the potatoes boil, cut out the backbone and flatten the chicken. Spread the garlic and herb paste under the skin and rub the skin with the oil, salt and pepper.
+3. **Smash the potatoes:** Smash the drained potatoes on an oiled sheet, let them steam dry for 5 minutes and season them.
+4. **Roast the chicken:** Roast the chicken skin side up on the lower-middle rack until the thigh reads 165°F, 35 to 45 minutes.
+5. **Roast the potatoes:** Slide the potatoes onto the upper rack 20 minutes after the chicken goes in. Roast them until deep golden and crisp, 20 to 25 minutes, flipping them once.
+6. **Cook the broccoli:** In the last 15 minutes, sear and steam the broccoli in two batches and toss it with the garlic, soy sauce and lemon.
+7. **Rest the chicken:** Rest the chicken for 10 minutes. Simmer the pan drippings into a sauce while it rests.
+8. **Serve:** Toss the arugula with its dressing. Carve the chicken into eight pieces and serve it with the pan sauce, potatoes, broccoli and salad.

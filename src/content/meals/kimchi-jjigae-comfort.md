@@ -3,32 +3,36 @@ title: Kimchi Jjigae Comfort
 template: one-pot
 main: kimchi-jjigae-kimchi-stew
 base: steamed-white-rice
-sides: []
+componentPreparation:
+  kimchi-jjigae-kimchi-stew:
+    state: from-scratch
+    note: One batch.
+  steamed-white-rice:
+    state: from-scratch
+    note: One batch.
 totalPrepTime: 15 min
-totalCookTime: 30 min
-totalActiveTime: 20 min
+totalCookTime: 40 min
+totalActiveTime: 30 min
+totalTime: 1 hr
 overallDifficulty: easy
 cuisines: [Korean]
 occasions: [weeknight, one-pot, family, activity-night]
 seasons: [fall, winter, year-round]
 nutritionalDensity: hearty
 servings: '4'
+review:
+  status: editorial-review
+  date: '2026-11-10'
 ---
 
 ## Meal Overview
 
-A warming Korean stew that's as comforting as it is quick. Kimchi provides all the depth - spicy, sour, umami - while tofu and pork give substance. It's forgiving to timing, making it ideal for busy activity nights when everyone eats at different times.
+Kimchi stew with pork belly and tofu, served bubbling hot with plain short-grain rice. The rice needs a 30 minute soak, so it starts first and the stew cooks while the rice does. For five, use the full 14 oz of tofu and cook 2 cups of rice in 2 1/4 cups of water.
 
 ## Cooking Strategy
 
-1. **Start rice** - set early
-2. **Prep ingredients** - cube tofu, slice green onions, mince garlic
-3. **Build stew** - bloom garlic, add kimchi and pork, let simmer
-4. **Finish beans** - warm through while stew cooks
-5. **Assemble bowls** - rice base, ladle stew over top, garnish with green onions
-
-## Notes
-
-- This stew actually improves if you make it ahead - the flavors deepen
-- Serve with extra kimchi on the side for those who want more spice
-- Leftovers reheat beautifully and make great next-day lunch
+1. **Soak the rice:** Rinse the rice and soak it for 30 minutes. Slice the pork, onion, mushrooms and tofu while it soaks.
+2. **Cook the rice:** Bring the rice to a boil, cover it and simmer on low for 12 to 15 minutes. Rest it covered for 10 minutes.
+3. **Build the stew:** While the rice cooks, brown the pork belly, soften the aromatics and fry the kimchi with the gochugaru and gochujang.
+4. **Simmer:** Add the stock and kimchi juice and simmer until the pork is tender, 12 to 15 minutes. Add the tofu and simmer 5 minutes more.
+5. **Serve:** Season the stew with the fish sauce, sugar and sesame oil. Top it with the scallions and serve it with the rice.

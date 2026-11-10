@@ -26,7 +26,7 @@ review:
 
 ## Meal Overview
 
-Prepare one full six-serving White Chicken Chili with Hominy and one 8-inch pan of Buttermilk Cornbread. The chili contains 680 g raw thigh, about 510 g drained white beans and 255 g drained hominy. Cut the cornbread into twelve small squares, serve six and save six; the beans and hominy already supply much of the meal's starch.
+Prepare one full six-serving White Chicken Chili with Hominy and one 8-inch pan of Buttermilk Cornbread. The chili contains 680 g raw thigh, about 510 g drained white beans and 255 g drained hominy. Cut the cornbread into twelve small squares, serve six and save six. The beans and hominy already supply much of the meal's starch.
 
 The chili's 120 g sour cream is stirred into the pot, not an additional topping for each bowl. Finish with its two scallions and, if wanted, the listed 60 g Monterey Jack across all six servings. Plan about 5 hours 40 minutes elapsed using a five-hour LOW cook, or about 3 hours 40 minutes if HIGH takes three hours, with roughly 50 minutes active work.
 
@@ -41,4 +41,4 @@ The chili's 120 g sour cream is stirred into the pot, not an additional topping 
 
 ## Notes
 
-This schedule uses the main's raw-thigh slow-cooker method; an unquantified rotisserie-chicken shortcut is not interchangeable with it. No extra avocado, cilantro, tortilla chips or sour cream is required beyond the component lists. Refrigerate leftover chili promptly in shallow containers and reheat gently to 165°F / 74°C on the stove or in the microwave.
+This schedule uses the main's raw-thigh slow-cooker method. An unquantified rotisserie-chicken shortcut is not interchangeable with it. No extra avocado, cilantro, tortilla chips or sour cream is required beyond the component lists. Refrigerate leftover chili promptly in shallow containers and reheat gently to 165°F / 74°C on the stove or in the microwave.

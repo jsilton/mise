@@ -6,44 +6,34 @@ salad: everyday-arugula-salad
 componentPreparation:
   paella-valenciana:
     state: from-scratch
-    note: One fixed four-portion batch in the specified wide paella pan and matched heat source.
+    note: One batch in a 17 to 18 inch paella pan over a wide burner.
   everyday-arugula-salad:
     state: from-scratch
-    note: >-
-      One four-side-portion batch; wash/dry and prepare dressing ahead, then toss during the
-      paella’s five-minute rest.
-totalPrepTime: About 30–40 min
-totalCookTime: About 75–115 min
-totalActiveTime: About 55–85 min
-totalTime: About 1¾–2¾ hr
+    note: "One batch, tossed during the paella's 5 minute rest."
+totalPrepTime: 30 min
+totalCookTime: 1 hr 35 min
+totalActiveTime: 1 hr 30 min
+totalTime: 2 hr 15 min
 overallDifficulty: intermediate
-cuisines:
-  - Spanish
-occasions:
-  - entertaining
-  - family-meal
-  - weekend-dinner
-seasons:
-  - year-round
+cuisines: [Spanish]
+occasions: [entertaining, family-meal, weekend-dinner]
+seasons: [year-round]
 nutritionalDensity: hearty
 servings: '4'
+review:
+  status: editorial-review
+  date: '2026-11-10'
 ---
 
 ## Meal Overview
 
-Valencian chicken, rabbit and bean paella with a simple arugula salad. The rice cooks in a broad, shallow layer after its meat broth reduces; the salad is dressed at the last moment.
+Paella Valenciana with chicken, rabbit, green beans and garrofó, with a simple arugula salad. The rice cooks in a wide, shallow layer once the meat broth has reduced, and the salad is dressed while the pan rests. For five, serve five smaller portions of the paella and make one and a half batches of the salad.
 
 ## Cooking Strategy
 
-1. **Set up:** Make one full four-portion Paella Valenciana batch in its specified 42–45 cm pan over even, matched heat. Use its stated Senia/Bahía-type rice and ingredient states. Prepare one full arugula-salad recipe: 5 oz baby arugula, 2 tbsp olive oil, 1 tbsp lemon juice, 20 g Parmesan and its measured salt and pepper. Keep the clean, dry greens refrigerated while cooking.
-2. **Build the paella:** Brown the chicken and rabbit, cook the green beans and reduce the tomato/paprika sofrito. Follow the paella’s two-stage water measurement, broth-level mark and separate meat/bean endpoints. Do not replace the measured broth stage with a generic rice-to-liquid rule.
-3. **During broth simmering:** Whisk the salad dressing and shave the cheese using clean tools, away from raw-meat preparation. Return the greens to the refrigerator until serving.
-4. **Cook the rice:** Spread it once into evenly boiling broth, then leave it undisturbed. Adjust heat as the main recipe directs and taste grains at the center and edge. Cooked grains with no loose broth determine the finish; a crust is optional.
-5. **During the five-minute rest:** Take the finished paella off the heat. Toss the arugula with most of its dressing, adding more only if the leaves need it, then finish with Parmesan.
-6. **Serve:** Share the paella among four diners and give each a side salad. For more diners, use additional complete paella pans with suitable heat rather than doubling rice into this one; scale the salad independently.
-
-## Notes
-
-- The paella pan and heat source are part of the recipe, not interchangeable with a small deep skillet. The salad needs a separate bowl and no burner.
-- Keep the timing range flexible: broth evaporation, meat-piece size, wind and burner coverage govern the paella’s elapsed time. Salad washing may add a few minutes.
-- Cool leftovers promptly in shallow containers. Follow each component’s storage instructions; dressed arugula wilts, while reheated paella loses its first serving’s texture.
+1. **Brown the meat:** Brown the chicken and rabbit in the olive oil over medium heat until golden all over, 20 to 30 minutes.
+2. **Build the base:** Cook the green beans for 3 to 5 minutes. Cook the paprika and grated tomato in the center of the pan until thick, 5 to 10 minutes.
+3. **Simmer the broth:** Add the garrofó beans and the first measure of water and mark the level on a spoon handle. Add the rest of the water and the salt and simmer back down to the mark, 25 to 45 minutes.
+4. **Prep the salad:** While the broth simmers, whisk the lemon dressing and shave the Parmigiano.
+5. **Cook the rice:** Stir in the saffron and bring the broth to a lively boil. Scatter the rice in an even layer and cook it without stirring for 15 to 18 minutes, lowering the heat in stages.
+6. **Rest and serve:** Rest the paella off the heat for 5 minutes. Toss the arugula with its dressing and serve the paella straight from the pan.

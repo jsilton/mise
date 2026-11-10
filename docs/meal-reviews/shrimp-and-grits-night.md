@@ -43,3 +43,5 @@ Kitchen questions: actual brand-specific grits timing and cup yield; cheese-grit
 Root read both component recipes and full meal proposal and record. Retained one main and one broccoli side for four diners, with no additional starch or sauce. The meal follows the actual skillet broccoli recipe, finishes grits first and shrimp last, and accounts for the two-burner sequence, separate skillets, brief vegetable hold and slower-grits alternative. Corrected the family-meal occasion. No calendar review or physical meal test is claimed.
 
 The independent reviewer reconstructed the full one-cook sequence and found the 75-minute elapsed/50-active plan plausible. Added an explicit kettle/microwave or early heating/insulated-jug route for reserve grits water so the two-burner claim accounts for it. This is not a timed physical dinner test.
+
+Second review, 2026-11-10. The merged main now simmers the grits 45 to 60 minutes and cooks for 1 hour 5 minutes. The meal's times moved to match: 1 hour 5 minutes of cooking and about ninety minutes elapsed.

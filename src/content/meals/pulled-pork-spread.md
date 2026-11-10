@@ -4,32 +4,43 @@ template: plate
 main: pulled-pork
 base: cornbread
 sides: [coleslaw, quick-seasoned-black-beans]
-totalPrepTime: 20 min
-totalCookTime: 660 min
-totalActiveTime: 30 min
+componentPreparation:
+  pulled-pork:
+    state: from-scratch
+    note: 'One batch, started in the morning.'
+  cornbread:
+    state: from-scratch
+    note: 'One batch, cut into nine squares.'
+  coleslaw:
+    state: from-scratch
+    note: One batch.
+  quick-seasoned-black-beans:
+    state: from-scratch
+    note: 'Two batches, using four cans of beans in a 3-quart pan.'
+totalPrepTime: 35 min
+totalCookTime: 11 hr
+totalActiveTime: 1 hr
+totalTime: 11 hr 30 min
 overallDifficulty: easy
 cuisines: [American]
 occasions: [entertaining, game-day, comfort-food]
 seasons: [summer, fall]
 nutritionalDensity: hearty
 servings: '8'
+review:
+  status: editorial-review
+  date: '2026-11-10'
 ---
 
 ## Meal Overview
 
-Low and slow pulled pork that practically cooks itself - set it in the morning, feast by dinner. The cornbread is warm and buttery, the coleslaw adds crunch and acid, and the black beans round out the plate. Perfect for feeding a crowd with minimal effort.
+Slow cooker pulled pork with buttermilk cornbread, creamy coleslaw and seasoned black beans. The pork goes in at breakfast and cooks unattended all day. The sides take the last hour and a half.
 
 ## Cooking Strategy
 
-1. **Morning: start pulled pork** - rub, place in slow cooker, 10-11 hours on low
-2. **1 hour before serving: make cornbread** - batter and bake
-3. **Start coleslaw at least 75 minutes before serving** - prepare one full eight-portion batch, drain for 30 minutes, dress, then chill at least 30 minutes. Begin this before the cornbread stage.
-4. **20 min before: warm beans** - season and heat through
-5. **Chop pork** - pull out bone and fat, chop meat, toss in cooking juices
-6. **Serve family-style** - everything in serving dishes
-
-## Notes
-
-- Brioche buns on the side for sandwiches
-- Pickled red onions are an excellent topping
-- Leftover pork freezes beautifully for future meals
+1. **Start the pork in the morning:** Rub the pork and set it on the onions in the slow cooker 11 hours 30 minutes before dinner. Cook on LOW until a fork twists the meat apart, 10 to 11 hours.
+2. **Make the coleslaw:** 1 hour 30 minutes before dinner, salt the cabbage and carrots and drain them for 30 minutes. Squeeze them dry, fold them into the dressing and chill for 30 minutes.
+3. **Bake the cornbread:** Heat the oven to 400°F. Mix the batter and bake until golden at the edges, 20 to 25 minutes. Cool it in the pan for 10 minutes.
+4. **Simmer the beans:** Simmer the beans until their liquid coats them, 10 to 15 minutes.
+5. **Pull the pork:** Lift out the pork, discard the bone and fat and pull the meat. Skim the juices and toss them back with the pork a little at a time.
+6. **Serve:** Set out the pork, cornbread, coleslaw and beans family-style.
