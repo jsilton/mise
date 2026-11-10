@@ -221,7 +221,7 @@ formula:
       text: 'Stir in {{ingredients}}. Taste and season with more salt and white pepper.'
     - id: serve
       title: Serve
-      text: 'Ladle into bowls and top with {{ingredients}}. Serve hot or chilled.'
+      text: 'Ladle into bowls and top with {{ingredients}}. Serve hot.'
 learning:
   techniques:
     - starch
@@ -253,4 +253,4 @@ Potato and leek soup is a French home classic, and the pressure cooker makes it 
 6. **Release the pressure:** Let the pressure come down on its own for 15 minutes, then open the valve to release the rest. Discard the bay leaf. The potatoes should be soft enough to crush with a spoon.
 7. **Blend:** Blend the soup in the pot with an immersion blender until smooth, and stop there, since overworked potatoes turn gluey.
 8. **Add the dairy:** Stir in the half-and-half. Taste and season with more salt and white pepper.
-9. **Serve:** Ladle into bowls and top with the sour cream and chopped fresh chives. Serve hot or chilled.
+9. **Serve:** Ladle into bowls and top with the sour cream and chopped fresh chives. Serve hot.

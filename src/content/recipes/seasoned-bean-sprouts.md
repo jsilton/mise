@@ -71,4 +71,4 @@ Kongnamul namul is one of the everyday banchan on a Korean table, and it sits be
 
 1. **Steam the sprouts:** Put the sprouts, water and a pinch of the salt in a medium pot. Cover tightly and cook over medium-high heat until the bean heads are tender and taste nutty, not raw, about 10 minutes. Keep the lid on so the sprouts steam evenly.
 2. **Drain:** Drain the sprouts in a colander and let the steam escape for 2 minutes.
-3. **Season and serve:** In a mixing bowl, toss the warm sprouts with the sesame oil, garlic, green onion and the rest of the salt until every strand is coated. Taste for salt, sprinkle with the sesame seeds and serve warm, at room temperature or chilled.
+3. **Season and serve:** In a mixing bowl, toss the warm sprouts with the sesame oil, garlic, green onion and the rest of the salt until every strand is coated. Taste for salt, sprinkle with the sesame seeds and serve at room temperature.

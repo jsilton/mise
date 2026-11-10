@@ -81,5 +81,5 @@ Cantonese home cooking at its most thrifty: last night's rice turned into tonigh
 1. **Scramble the eggs:** Heat a wok or 12-inch skillet over medium-high heat and add half the oil. When it shimmers, add the eggs and stir until just set in soft curds, about 1 minute. Move them to a plate.
 2. **Fry the rice:** Add the rest of the oil and the rice. Toss, pressing out any clumps, until the grains are hot, separate and crackling against the pan, 4 to 6 minutes.
 3. **Add the aromatics:** Push the rice to one side. Add the garlic and scallion whites and stir until fragrant, about 15 seconds. Add the peas and carrots and toss everything until hot, 1 to 2 minutes.
-4. **Season:** Return the eggs. Drizzle the soy sauce around the edge of the pan, add the sesame oil and white pepper, and toss until the rice is evenly colored and steaming, about 1 minute. Taste and add more soy if needed.
+4. **Season:** Return the eggs. Drizzle the soy sauce around the edge of the pan, add the sesame oil and white pepper, and toss until the rice is evenly colored and steaming, about 1 minute. Taste and adjust the soy sauce.
 5. **Serve:** Fold in the scallion greens and sprinkle with sesame seeds.

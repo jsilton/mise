@@ -80,4 +80,4 @@ Coq au vin is the French farmhouse dish of chicken braised in red wine with mush
 4. **Season the pot:** Stir a quarter of the cornstarch into a quarter of the cold water until smooth. Add it to the slow cooker with the Worcestershire, thyme, soup mix and garlic powder, stirring them into the liquid.
 5. **Slow-cook:** Cover and cook on HIGH for 2 1/2 to 3 hours, until the chicken reaches 165°F and pulls apart with a fork and the carrots are tender.
 6. **Thicken the sauce:** Ladle the liquid into a saucepan and bring it to a simmer. Stir the rest of the cornstarch into the rest of the cold water, whisk it in and simmer until the sauce lightly coats a spoon, 1 to 2 minutes. Pour it back over the chicken.
-7. **Serve:** Taste and add more pepper if needed. Serve the chicken and vegetables over mashed potatoes or rice, with plenty of sauce.
+7. **Serve:** Taste and adjust the pepper. Serve the chicken and vegetables over mashed potatoes or rice, with plenty of sauce.

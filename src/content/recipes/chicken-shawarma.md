@@ -40,7 +40,7 @@ ingredients:
   - 1/2 tsp smoked paprika
   - 3/4 tsp fine salt
   - 1/4 tsp black pepper
-  - '1/2 cup [Tahini Sauce](/mise/recipes/tahini-sauce)'
+  - '1/2 cup [Tahini Sauce](/mise/recipes/tahini-sauce/)'
 origin: Middle East
 seasons:
   - year-round

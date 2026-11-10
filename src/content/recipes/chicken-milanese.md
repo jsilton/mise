@@ -51,7 +51,7 @@ ingredients:
   - 1 tsp dried oregano
   - 1/2 tsp garlic powder
   - '1 cup neutral oil, for frying'
-  - '1 batch [Everyday Arugula Salad](/mise/recipes/everyday-arugula-salad), undressed'
+  - '1 batch [Everyday Arugula Salad](/mise/recipes/everyday-arugula-salad/), undressed'
   - '1 lemon, cut into wedges'
 origin: Italy
 description: >-

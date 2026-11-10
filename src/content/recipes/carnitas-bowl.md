@@ -52,9 +52,9 @@ ingredients:
   - '1/2 cup cotija cheese, crumbled, divided'
   - 1 tsp ancho chile powder
   - '--- For the bowls ---'
-  - '[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice), for serving'
-  - '[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), for serving'
-  - '[Pickled Red Onions](/mise/recipes/pickled-red-onions), for serving'
+  - '[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice/), for serving'
+  - '[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans/), for serving'
+  - '[Pickled Red Onions](/mise/recipes/pickled-red-onions/), for serving'
   - '2 cups green cabbage, shredded'
   - '2 avocados, sliced'
   - '1/4 cup pepitas, toasted'
@@ -244,21 +244,21 @@ formula:
       ingredients:
         - id: rice
           key: rice
-          name: '[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice)'
+          name: '[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice/)'
           allowance: for serving
           uses:
             - step: rice
               share: 1
         - id: beans
           key: beans
-          name: '[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans)'
+          name: '[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans/)'
           allowance: for serving
           uses:
             - step: assemble
               share: 1
         - id: pickled-onions
           key: pickled-onions
-          name: '[Pickled Red Onions](/mise/recipes/pickled-red-onions)'
+          name: '[Pickled Red Onions](/mise/recipes/pickled-red-onions/)'
           allowance: for serving
           uses:
             - step: assemble
@@ -371,5 +371,5 @@ Carnitas come from Michoacán, where pork is slowly cooked in its own fat until 
 5. **Shred the pork:** Pull the pork into large chunks with two forks. Taste and season with the salt.
 6. **Broil until crisp:** Heat the broiler. Spread the pork and its fat in a single layer on a rimmed sheet pan. Broil until the edges crisp, about 6 minutes. Stir to turn new sides up and broil until more edges are crisp, about 6 minutes more.
 7. **Dress the corn:** Stir together the mayonnaise, sour cream, ancho chile powder, and 1/4 cup of the cotija cheese in a bowl. Fold in the charred corn.
-8. **Start the bowls:** Spoon the [Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice) into the bowls.
-9. **Top the bowls:** Top the rice with the carnitas and dressed corn, then add the [Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), [Pickled Red Onions](/mise/recipes/pickled-red-onions), green cabbage, avocados, pepitas, cilantro, limes, and the rest of the cotija cheese.
+8. **Start the bowls:** Spoon the [Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice/) into the bowls.
+9. **Top the bowls:** Top the rice with the carnitas and dressed corn, then add the [Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans/), [Pickled Red Onions](/mise/recipes/pickled-red-onions/), green cabbage, avocados, pepitas, cilantro, limes, and the rest of the cotija cheese.

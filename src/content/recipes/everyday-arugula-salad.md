@@ -68,4 +68,4 @@ The salad Italians set beside a breaded cutlet or a rich pasta: peppery arugula,
 
 1. **Make the dressing:** Whisk the olive oil, lemon juice, salt and pepper in the bottom of a wide salad bowl.
 2. **Toss the greens:** Add the arugula and toss gently with your hands or salad servers until every leaf is lightly glossy.
-3. **Finish and serve:** Scatter the Parmigiano over the top. Taste a leaf with some cheese, add a pinch more salt if needed and serve right away.
+3. **Finish and serve:** Scatter the Parmigiano over the top. Taste a leaf with some cheese, adjust the salt and serve right away.

@@ -23,10 +23,10 @@ totalTime: 1 hr 5 min
 servings: 12 pieces
 pairsWith:
   - greek-village-salad
-  - everyday-arugula-salad
+  - mediterranean-grain-salad
 pairingNotes:
   greek-village-salad: Juicy tomato and cucumber make it a light supper.
-  everyday-arugula-salad: 'Peppery greens against the crisp, rich fritters.'
+  mediterranean-grain-salad: Chewy farro makes the fritters a meal.
 ingredients:
   - '--- Garlic yogurt ---'
   - '1/2 cup plain yogurt, not Greek'

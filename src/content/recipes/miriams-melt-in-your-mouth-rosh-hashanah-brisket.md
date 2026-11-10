@@ -179,8 +179,8 @@ formula:
     - id: slice
       title: Slice the brisket
       text: >-
-        Lift off the hardened fat if you like. Take out the cold brisket and slice it thinly against
-        the grain, then lay the slices in a baking dish.
+        Lift off the hardened fat. Take out the cold brisket and slice it thinly against the grain,
+        then lay the slices in a baking dish.
     - id: serve
       title: Reheat in the sauce
       text: >-
@@ -216,5 +216,5 @@ Miriam Szokovski's brisket is a Rosh Hashanah centerpiece, with honey for a swee
 4. **Add the sauce:** Take the dish out and turn the oven down to 250°F. Pour the balsamic vinegar and honey over the meat. Cover very tightly with a heavy lid or a double layer of foil.
 5. **Braise low and slow:** Return the dish to the oven and braise until a fork slides into the meat with almost no resistance, about 4 hours. Turn the brisket once an hour and spoon the juices over it, sealing the cover again each time.
 6. **Chill overnight:** Let the brisket cool in its juices for 30 minutes. Cover and refrigerate overnight, until the meat is cold and firm and the fat has set on top.
-7. **Slice the brisket:** Lift off the hardened fat if you like. Take out the cold brisket and slice it thinly against the grain, then lay the slices in a baking dish.
+7. **Slice the brisket:** Lift off the hardened fat. Take out the cold brisket and slice it thinly against the grain, then lay the slices in a baking dish.
 8. **Reheat in the sauce:** Bring the onions and sauce to a boil in a saucepan and pour them over the slices. Cover and reheat in a 325°F oven until hot through, about 30 minutes.

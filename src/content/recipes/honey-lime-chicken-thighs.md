@@ -56,7 +56,7 @@ ingredients:
   - '--- For the tacos ---'
   - 16 small corn tortillas
   - '2 ripe avocados, sliced'
-  - '1 cup [Pickled Red Onions](/mise/recipes/pickled-red-onions), drained'
+  - '1 cup [Pickled Red Onions](/mise/recipes/pickled-red-onions/), drained'
   - 1/4 cup fresh cilantro, chopped
   - '1 tbsp toasted sesame seeds (optional)'
 origin: Mexican-inspired home tacos with a fish-sauce glaze

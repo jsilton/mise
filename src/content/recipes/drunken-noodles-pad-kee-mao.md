@@ -91,7 +91,7 @@ Pad kee mao, or drunken noodles, is a Thai street-food stir-fry of wide rice noo
 1. **Marinate the chicken:** Work the water into the chicken with your hands until absorbed. Toss with the cornstarch and soy sauce and let stand 15 minutes.
 2. **Mix the sauce:** Stir the brown sugar into the water until it dissolves. Stir in the oyster sauce, fish sauce, light soy sauce and dark soy sauce.
 3. **Loosen the noodles:** Gently pull the noodles apart into loose ribbons. If they are cold and stiff, microwave them for 30 to 60 seconds first so they don't tear.
-4. **Sear the chicken:** Heat a little of the oil in a wok or 12-inch skillet over medium-high heat. Sear the chicken in a single layer, in batches if needed, until browned and cooked through, 4 to 5 minutes. Move it to a bowl.
+4. **Sear the chicken:** Heat a little of the oil in a wok or 12-inch skillet over medium-high heat. Sear the chicken in a single layer, in two batches, until browned and cooked through, 4 to 5 minutes. Move it to a bowl.
 5. **Cook the aromatics:** Lower the heat to medium and add a little more oil. Stir the garlic and chiles until fragrant, about 30 seconds. Add the shallots and baby corn and stir-fry until the shallots soften, 3 to 4 minutes. Add them to the chicken.
 6. **Fry the noodles:** Raise the heat to medium-high and add a little oil. Working in batches that spread loosely in the pan, add the noodles with their share of the sauce, chicken and vegetables. Fold gently until coated and hot, 1 to 2 minutes, then leave them alone for 20 seconds to char in spots.
 7. **Add the basil:** Turn off the heat and fold in a share of the basil until just wilted. Serve right away and repeat with the rest.

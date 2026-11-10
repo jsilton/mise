@@ -79,4 +79,4 @@ A no-cook ricotta sauce for a fast weeknight pasta. Whisk ricotta, Pecorino, oli
 1. **Boil the pasta:** Bring a large pot of well-salted water to a boil. Add the pasta and cook until al dente.
 2. **Mix the sauce:** While the pasta cooks, whisk the ricotta, oil, Pecorino, lemon zest, half the lemon juice and the pepper flakes in a large bowl.
 3. **Loosen the sauce:** Just before draining, scoop out a mug of the pasta water. Whisk a splash into the ricotta until it looks like thick cream. Drain the pasta.
-4. **Toss and finish:** Add the hot pasta to the bowl and toss hard, adding more pasta water a splash at a time until the sauce is glossy and coats every strand. Fold in the basil and plenty of black pepper. Taste, add the rest of the lemon juice and salt if needed, and serve with a drizzle of oil.
+4. **Toss and finish:** Add the hot pasta to the bowl and toss hard, adding more pasta water a splash at a time until the sauce is glossy and coats every strand. Fold in the basil and plenty of black pepper. Taste, add the rest of the lemon juice and salt, and serve with a drizzle of oil.

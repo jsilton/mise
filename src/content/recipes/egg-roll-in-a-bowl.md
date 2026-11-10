@@ -81,5 +81,5 @@ All the savory filling of a takeout egg roll, with no wrapper and no frying. Bro
 1. **Brown the pork:** Heat the oil in a deep 12-inch skillet over medium-high heat. Add the pork in flattened clumps, sprinkle it with the salt and leave it to brown for 2 minutes. Break it into crumbles and cook until no pink remains, 4 to 5 minutes more. Spoon off all but a thin layer of fat.
 2. **Add the aromatics:** Lower the heat to medium. Stir in the ginger, garlic, scallion whites and white pepper and cook until fragrant, about 30 seconds.
 3. **Cook the cabbage:** Add the carrot and half the cabbage and toss until the cabbage starts to wilt, about 1 minute. Add the rest of the cabbage with the soy sauce and water. Cook uncovered, stirring, until the cabbage is tender with a little bite and no liquid pools in the pan, 3 to 5 minutes.
-4. **Finish:** Take the pan off the heat. Stir in the sesame oil, scallion greens and vinegar. Taste and add more vinegar or soy if needed.
+4. **Finish:** Take the pan off the heat. Stir in the sesame oil, scallion greens and vinegar. Taste and adjust the vinegar and soy sauce.
 5. **Serve:** Spoon into bowls, sprinkle with sesame seeds and pass the chili crisp at the table.

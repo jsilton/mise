@@ -63,4 +63,4 @@ An Italian-style breakfast that takes five minutes. Thirty seconds with a fork a
 
 1. **Whip the ricotta:** Stir the ricotta, olive oil and a pinch of flaky salt hard with a fork until fluffy and spreadable, about 30 seconds.
 2. **Toast the bread:** Toast the bread until deep golden and sturdy, with crisp edges.
-3. **Top and serve:** Spread the ricotta thickly over the warm toast, right to the edges. Drizzle with honey, scatter the pistachios and finish with a little more flaky salt. Add mint, lemon zest or fruit if you like and eat right away.
+3. **Top and serve:** Spread the ricotta thickly over the warm toast, right to the edges. Drizzle with honey, scatter the pistachios and finish with a little more flaky salt. Add the mint, lemon zest and fruit, if using, and eat right away.

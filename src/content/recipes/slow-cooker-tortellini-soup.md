@@ -85,5 +85,5 @@ Creamy tomato tortellini soup is an American slow-cooker favorite. A quick base 
 3. **Load the cooker:** Scrape the base into a 6-quart slow cooker. Add the rest of the broth, the tomatoes and their juices, the pepper and the whole chicken thighs.
 4. **Slow-cook:** Cover and cook on low for 4 to 5 hours or on high for 2 to 3 hours, until the chicken shreds easily. Lift it out, shred it with two forks and return it to the soup.
 5. **Boil the tortellini:** About 20 minutes before the soup is done, bring a large pot of salted water to a boil. Cook the tortellini as the package directs until tender, then drain.
-6. **Finish the soup:** Stir the spinach into the hot soup until wilted, 2 to 3 minutes. Whisk the cream with a ladleful of hot broth, then stir it into the soup with the Parmesan and salt. Taste and add more salt if needed.
+6. **Finish the soup:** Stir the spinach into the hot soup until wilted, 2 to 3 minutes. Whisk the cream with a ladleful of hot broth, then stir it into the soup with the Parmesan and salt. Taste and adjust the salt.
 7. **Serve:** Divide the tortellini among bowls and ladle the soup over.

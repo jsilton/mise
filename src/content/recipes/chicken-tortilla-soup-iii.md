@@ -23,7 +23,7 @@ ingredients:
   - 3 cans (14 oz) chicken broth
   - 4 cups half-and-half
   - 1 can (10 3/4 oz) condensed cream of chicken soup
-  - 1 cup fresh salsa
+  - '1 cup [Pico de Gallo](/mise/recipes/pico-de-gallo/)'
   - 1 can (15 oz) creamed corn
   - '6 cooked boneless chicken breast halves, shredded'
   - 1 package (1.27 oz) fajita seasoning
@@ -41,6 +41,8 @@ flavorProfile:
 occasions:
   - weeknight
   - comfort-food
+usesBase:
+  - pico-de-gallo
 pairsWith:
   - classic-guacamole
   - mango-cabbage-slaw
@@ -142,7 +144,8 @@ formula:
             unit: oz
         - id: salsa
           key: salsa
-          name: fresh salsa
+          name: '[Pico de Gallo](/mise/recipes/pico-de-gallo/)'
+          stepName: pico de gallo
           quantity:
             amount: 1
             unit: cup
@@ -252,6 +255,9 @@ learning:
   techniques:
     - temperature
   substitutions:
+    - ingredient: Pico de Gallo
+      alternative: Store-bought fresh salsa
+      effect: Use the same amount. Refrigerated salsa tastes closest to homemade.
     - ingredient: Unsalted butter
       alternative: Margarine
       effect: 'Works the same way, with less flavor.'
@@ -273,5 +279,5 @@ This is a rich, creamy American take on Mexican sopa de tortilla, built on pantr
 2. **Soften the onion:** Add the onion and garlic and cook, stirring, until the onion is soft, about 5 minutes.
 3. **Toast the flour and cumin:** Stir in the flour and cumin and cook, stirring, for 1 minute, until the cumin smells toasted.
 4. **Add the liquid:** Slowly stir in the chicken broth and half-and-half until smooth. Bring to a boil, stirring along the bottom of the pot, then lower the heat.
-5. **Simmer the soup:** Add the condensed cream of chicken soup, salsa, creamed corn, chicken breast halves, and fajita seasoning. Simmer gently, stirring along the bottom often so it doesn't catch, until the soup is hot through and slightly thickened, about 15 minutes.
+5. **Simmer the soup:** Add the condensed cream of chicken soup, pico de gallo, creamed corn, chicken breast halves, and fajita seasoning. Simmer gently, stirring along the bottom often so it doesn't catch, until the soup is hot through and slightly thickened, about 15 minutes.
 6. **Build the bowls:** Crumble a handful of the chips into each bowl and add a little of the cheese. Ladle in the hot soup and top with the tortilla chips, Monterey Jack cheese, and cilantro.

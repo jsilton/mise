@@ -31,6 +31,8 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
+usesBase:
+  - pico-de-gallo
 pairsWith:
   - classic-guacamole
 pairingNotes:
@@ -45,12 +47,15 @@ ingredients:
   - 1 cup shredded cheddar or pepper jack
   - 4 large flour tortillas (10 inch)
   - '4 slices cooked bacon, crumbled'
-  - 'salsa, hot sauce, sour cream and sliced avocado, for serving (optional)'
+  - '[Pico de Gallo](/mise/recipes/pico-de-gallo/), hot sauce, sour cream and sliced avocado, for serving (optional)'
 learning:
   techniques:
     - gentle-proteins
     - temperature
   substitutions:
+    - ingredient: Pico de Gallo
+      alternative: Store-bought fresh salsa
+      effect: Use the same amount. Refrigerated salsa tastes closest to homemade.
     - ingredient: Cooked bacon
       alternative: Cooked breakfast sausage
       effect: Use 1/2 cup crumbled sausage in place of the bacon.
@@ -72,4 +77,4 @@ The breakfast burrito comes from New Mexico diners, where eggs, cheese and bacon
 1. **Cook the vegetables:** Melt the butter in a large nonstick skillet over medium heat. Add the bell pepper and onion and cook, stirring, until soft and their juices have cooked off, 3 to 4 minutes.
 2. **Scramble the eggs:** Whisk the eggs, milk and salt together and pour them over the vegetables. Fold gently from the edges toward the center until the eggs are just set but still glossy, 2 to 3 minutes. Take the pan off the heat.
 3. **Warm the tortillas:** Heat a dry skillet over medium-high heat. Warm each tortilla until soft and pliable, 15 to 20 seconds per side, and stack them under a towel.
-4. **Fill and roll:** Pile the eggs, cheese and bacon in a strip across the lower third of each tortilla. Fold the bottom edge over the filling, tuck in the sides and roll up tightly. Serve with salsa, hot sauce, sour cream and avocado.
+4. **Fill and roll:** Pile the eggs, cheese and bacon in a strip across the lower third of each tortilla. Fold the bottom edge over the filling, tuck in the sides and roll up tightly. Serve with the pico de gallo, hot sauce, sour cream and avocado.

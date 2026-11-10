@@ -38,7 +38,7 @@ ingredients:
   - 1/2 tsp kosher salt
   - 'black pepper, to taste'
   - 2 tbsp olive oil
-  - '1 batch [Real Alfredo Sauce](/mise/recipes/real-alfredo-sauce), sauce only (skip its fettuccine)'
+  - '1 batch [Real Alfredo Sauce](/mise/recipes/real-alfredo-sauce/), sauce only (skip its fettuccine)'
   - '1/2 cup pasta cooking water'
   - 'fresh parsley, chopped, for serving'
 learning:

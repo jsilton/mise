@@ -37,6 +37,8 @@ advancePrep:
 equipment:
   - mixing-bowls
   - serving-bowls
+usesBase:
+  - house-vinaigrette
 pairsWith:
   - miso-soup
   - korean-pickled-cucumbers
@@ -68,7 +70,7 @@ ingredients:
   - 'fresh cilantro, basil or mint leaves'
   - chopped roasted nuts (optional)
   - '--- Sauce (choose one) ---'
-  - '1/2 cup tahini sauce, lemon-herb vinaigrette, miso-ginger dressing or cilantro-lime crema'
+  - '1/2 cup tahini sauce, [House Vinaigrette](/mise/recipes/house-vinaigrette/), miso-ginger dressing or cilantro-lime crema'
 learning:
   techniques:
     - temperature

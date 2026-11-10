@@ -28,10 +28,10 @@ cookTime: 20 min
 totalTime: 35 min
 servings: 4 portions
 pairsWith:
-  - everyday-arugula-salad
+  - baked-beans
   - coleslaw
 pairingNotes:
-  everyday-arugula-salad: Peppery greens with lemon beside rich beef.
+  baked-beans: 'Franks and beans, done properly.'
   coleslaw: 'Cool, crunchy slaw for a cookout plate.'
 ingredients:
   - '1 lb center-cut beef tenderloin, cut lengthwise into 4 long strips'

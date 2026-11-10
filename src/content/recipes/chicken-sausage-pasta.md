@@ -29,10 +29,10 @@ nutritionalDensity: hearty
 leftovers: good
 pairsWith:
   - garlic-bread
-  - everyday-arugula-salad
+  - broccoli-all-agro
 pairingNotes:
   garlic-bread: For mopping up the tomato sauce.
-  everyday-arugula-salad: Peppery greens and lemon beside a hearty pasta.
+  broccoli-all-agro: Lemony broccoli beside a hearty pasta.
 ingredients:
   - 'kosher salt, for the pasta water and to taste'
   - 2 tbsp extra-virgin olive oil

@@ -40,10 +40,10 @@ equipment:
   - kitchen-shears-or-knife
 pairsWith:
   - crispy-smashed-potatoes
-  - everyday-arugula-salad
+  - glazed-carrots
 pairingNotes:
   crispy-smashed-potatoes: Crisp potatoes to drag through the pan juices.
-  everyday-arugula-salad: 'Peppery greens and lemon against the rich, crisp skin.'
+  glazed-carrots: 'Sweet, buttery carrots beside the crisp skin.'
 ingredients:
   - 1 whole chicken (4–5 lb)
   - 2 tbsp kosher salt

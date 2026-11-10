@@ -97,7 +97,7 @@ Israeli-style falafel packed with so much parsley and cilantro that the inside i
 
 1. **Soak the chickpeas:** Cover the chickpeas with cold water by 3 inches and refrigerate for 12 to 24 hours, until plump. Drain well and pat dry with a towel.
 2. **Toast the spices:** Toast the cumin and coriander seeds in a small dry skillet over medium-low heat, stirring, until fragrant, 1 to 2 minutes. Let cool and grind them finely.
-3. **Grind the mixture:** Pulse the chickpeas, parsley, cilantro, onion and garlic in a food processor, in batches if needed, scraping down the bowl. Stop when everything is finely chopped with no large pieces of chickpea and a pinch pressed in your palm holds together. Don't puree it to a paste.
+3. **Grind the mixture:** Pulse the chickpeas, parsley, cilantro, onion and garlic in a food processor, in two batches, scraping down the bowl. Stop when everything is finely chopped with no large pieces of chickpea and a pinch pressed in your palm holds together. Don't puree it to a paste.
 4. **Season and chill:** Stir in the ground spices, baking powder, salt and pepper. Cover and refrigerate for 30 minutes.
 5. **Heat the oil:** Heat 2 inches of oil in a deep, heavy pot to 350°F. Set a wire rack over a rimmed baking sheet.
 6. **Fry a test ball:** Shape one walnut-sized ball and fry it, turning, until deep brown, 4 to 5 minutes. Cut it open and taste. The center should be tender and cooked through. Add more salt to the mixture if it needs it.

@@ -234,8 +234,8 @@ formula:
       title: Cook the chicken
       text: >-
         Heat {{ingredients}} in a wok over medium-high heat until it shimmers. Stir-fry the chicken
-        in a single layer, in batches if needed, until browned and cooked through, 3 to 4 minutes.
-        Move it to a plate.
+        in a single layer, in two batches, until browned and cooked through, 3 to 4 minutes. Move it
+        to a plate.
     - id: aromatics
       title: Fry the aromatics
       text: 'Add {{ingredients}} to the wok and stir until fragrant, about 30 seconds.'
@@ -276,7 +276,7 @@ This is the chicken lo mein from Doc Chey's, the Atlanta noodle house, as the AJ
 1. **Mix the sauce:** Whisk the soy sauce, Shaoxing wine, oyster sauce, and sugar in a small bowl until the sugar dissolves.
 2. **Season the chicken:** Toss the chicken breast, salt, and pepper in a bowl.
 3. **Boil the noodles:** Bring a large pot of water to a boil. Cook the lo mein egg noodles until just al dente, 2 to 3 minutes. Rinse briefly under cold water and drain well.
-4. **Cook the chicken:** Heat 1 1/2 tsp of the vegetable oil in a wok over medium-high heat until it shimmers. Stir-fry the chicken in a single layer, in batches if needed, until browned and cooked through, 3 to 4 minutes. Move it to a plate.
+4. **Cook the chicken:** Heat 1 1/2 tsp of the vegetable oil in a wok over medium-high heat until it shimmers. Stir-fry the chicken in a single layer, in two batches, until browned and cooked through, 3 to 4 minutes. Move it to a plate.
 5. **Fry the aromatics:** Add the garlic, ginger, and the rest of the vegetable oil to the wok and stir until fragrant, about 30 seconds.
 6. **Stir-fry the vegetables:** Add the onion, carrot, bok choy, and shelled edamame. Stir-fry until the vegetables are crisp-tender, about 4 minutes.
 7. **Toss the noodles:** Add the noodles, the chicken and the sauce. Toss until the noodles are hot and the sauce cooks down to a glaze that coats them, about 3 minutes.

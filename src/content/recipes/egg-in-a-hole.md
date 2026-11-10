@@ -61,4 +61,4 @@ Also called egg in a basket or one-eyed Jack: a fried egg cooked inside a slice 
 2. **Toast the bread:** Melt the butter in a large skillet over medium heat. Add the slices and the rounds and cook until golden underneath, about 1 minute.
 3. **Add the eggs:** Crack an egg into each hole and season with salt and pepper. Cook undisturbed until the white is set on the bottom and the bread is deep golden, 2 to 3 minutes.
 4. **Flip and finish:** Carefully flip the slices and the rounds. Cook 30 to 60 seconds more for a runny yolk, or 1 to 2 minutes for a set one.
-5. **Serve:** Serve right away with the toasted rounds for dipping. Top with cheese, hot sauce or everything bagel seasoning if you like.
+5. **Serve:** Serve right away with the toasted rounds for dipping. Top with cheese, hot sauce or everything bagel seasoning, if using.

@@ -29,10 +29,10 @@ cookTime: 20 min
 totalTime: 55 min
 servings: 4 portions
 pairsWith:
-  - everyday-arugula-salad
+  - crispy-gold-potatoes-with-lemon-garlic-butter
   - grilled-corn-salad-with-feta
 pairingNotes:
-  everyday-arugula-salad: Peppery greens against the sweet peaches.
+  crispy-gold-potatoes-with-lemon-garlic-butter: 'Crisp, smoky potatoes for the grilled pork.'
   grilled-corn-salad-with-feta: Summer corn from the same grill.
 ingredients:
   - '--- Pork ---'

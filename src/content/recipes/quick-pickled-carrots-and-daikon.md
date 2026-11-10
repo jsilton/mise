@@ -27,8 +27,8 @@ pairingNotes:
   grilled-pork-banh-mi: The crunchy pickle every bánh mì needs.
   caramelized-black-pepper-chicken: A bright, tangy bite beside the sticky chicken.
 ingredients:
-  - '150 g carrots, peeled and cut into 2-inch matchsticks'
-  - '150 g daikon radish, peeled and cut into 2-inch matchsticks'
+  - '2 medium carrots (about 5 oz, 150 g), peeled and cut into 2-inch matchsticks'
+  - '5 oz (150 g) daikon radish, a 3-inch piece, peeled and cut into 2-inch matchsticks'
   - 1/2 tsp fine sea salt
   - '1 tsp sugar, for salting'
   - '1/4 cup sugar, for the brine'

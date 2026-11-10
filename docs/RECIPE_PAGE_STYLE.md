@@ -6,7 +6,7 @@ The model recipe is `src/content/recipes/pasta-with-abruzzi-style-lamb-sauce.md`
 
 ## What the page shows
 
-From the top: the title, three cards (total time with prep and cook, how many it serves, level), dietary tags, then the chef's note with no label. Then the ingredients, with any swap under the ingredient it replaces, the numbered steps and the source line. Last come Storing and Serve it with.
+From the top: the title, three cards (total time with prep and cook, how many it serves, level), dietary tags, then the chef's note with no label. Then the ingredients, with any swap under the ingredient it replaces, the numbered steps and the source line. Last come Storing and Serve it with. A side, base or condiment page then has Goes with. It lists up to six dishes that name it under their own Serve it with, taken from those dishes by the page template.
 
 The page shows nothing else. There is no "what you'll learn", no "before you start", no checkpoints or troubleshooting callouts and no timing paragraph. The `learning` fields that fed those (`focus`, `outcome`, `before`, `checkpoints`, `troubleshooting`, `timing`, `sources`) are gone from reviewed recipes.
 

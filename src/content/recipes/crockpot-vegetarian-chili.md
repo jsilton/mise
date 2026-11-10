@@ -98,5 +98,5 @@ A thick, meatless Tex-Mex chili with three kinds of beans, sweet potato and pepp
 1. **Load the cooker:** Put the onion, celery, carrot, bell peppers and sweet potato in a 6-quart slow cooker. Add the beans, green chiles, diced tomatoes and tomato sauce.
 2. **Bloom the spices:** Warm the olive oil in a small skillet over medium-low heat. Add the chili powder, cumin, garlic powder and oregano and stir until fragrant, about 30 seconds. Stir in a splash of the broth and scrape everything into the cooker.
 3. **Cook the chili:** Add the rest of the broth, the salt and the pepper and stir well. Cover and cook on HIGH for 4 to 5 hours or LOW for 7 to 8 hours, until the sweet potato and carrot are fork-tender.
-4. **Thicken and finish:** If the chili is thin, mash some of the beans and sweet potato against the side of the cooker and stir them in. Stir in the vinegar, then taste and add more salt if needed.
+4. **Thicken and finish:** If the chili is thin, mash some of the beans and sweet potato against the side of the cooker and stir them in. Stir in the vinegar, then taste and adjust the salt.
 5. **Serve:** Ladle into bowls and top with yogurt, avocado and cilantro.

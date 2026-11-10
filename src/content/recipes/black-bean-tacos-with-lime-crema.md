@@ -98,7 +98,7 @@ These are weeknight tacos built from a pantry can of black beans, cooked down wi
 
 ## Directions
 
-1. **Make the crema:** Stir the crema, lime juice and pinch of salt together in a small bowl. Taste and add more lime if you like. Chill until serving.
+1. **Make the crema:** Stir the crema, lime juice and pinch of salt together in a small bowl. Chill until serving.
 2. **Soften the onion:** Heat the oil in a 12-inch skillet over medium heat. Add the onion and cook, stirring often, until soft and translucent, 6 to 8 minutes.
 3. **Bloom the spices:** Add the garlic and cook until fragrant, about 30 seconds. Stir in the cumin, chili powder and smoked paprika and cook for 20 seconds. Lower the heat if the spices start to darken.
 4. **Simmer the beans:** Add the beans, broth and salt. Simmer gently, stirring, for 5 to 7 minutes. Mash about a third of the beans against the pan and stir until the filling falls from a spoon in a soft mound. Add a splash of broth if it gets stiff, then cover off the heat.

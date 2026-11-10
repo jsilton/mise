@@ -20,6 +20,8 @@ prepTime: 15 min
 cookTime: 1 hr 5 min
 totalTime: 1 hr 30 min
 servings: '8'
+usesBase:
+  - all-butter-pie-crust
 pairsWith:
   - everyday-arugula-salad
   - roasted-asparagus
@@ -27,7 +29,7 @@ pairingNotes:
   everyday-arugula-salad: A lemony green salad, the classic quiche partner.
   roasted-asparagus: A simple green vegetable for brunch or dinner.
 ingredients:
-  - 1 (9-inch) deep-dish pie crust, unbaked
+  - '1 (9-inch) deep-dish [All-Butter Pie Crust](/mise/recipes/all-butter-pie-crust/), unbaked, from 1 1/2 batches of dough'
   - 1 tbsp unsalted butter
   - 1/2 cup yellow onion, minced
   - 1 cup cooked ham, cubed
@@ -53,6 +55,9 @@ learning:
     - gentle-proteins
     - temperature
   substitutions:
+    - ingredient: All-Butter Pie Crust
+      alternative: 1 store-bought deep-dish pie crust
+      effect: It is less flaky and buttery. Bake it the same way.
     - ingredient: Half-and-half
       alternative: Whole milk
       effect: The custard is lighter and a little less silky.

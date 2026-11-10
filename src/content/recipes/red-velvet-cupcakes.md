@@ -42,7 +42,7 @@ ingredients:
   - 2 tsp pure vanilla extract
   - 'red food coloring, gel or liquid, optional'
   - '--- Frosting ---'
-  - '[Cream Cheese Frosting](/mise/recipes/favorite-cream-cheese-frosting), 1 batch'
+  - '[Cream Cheese Frosting](/mise/recipes/favorite-cream-cheese-frosting/), 1 batch'
 seasons:
   - year-round
 nutritionalDensity: moderate
@@ -182,7 +182,7 @@ formula:
       ingredients:
         - id: frosting
           key: frosting
-          name: '[Cream Cheese Frosting](/mise/recipes/favorite-cream-cheese-frosting)'
+          name: '[Cream Cheese Frosting](/mise/recipes/favorite-cream-cheese-frosting/)'
           allowance: 1 batch
           uses:
             - step: finish
@@ -273,4 +273,4 @@ Red velvet is a Southern classic: a buttermilk cake with a little natural cocoa,
 9. **Fold in the whites:** Fold in the whipped whites with a spatula until no streaks remain.
 10. **Bake:** Fill the liners two-thirds full. Bake until the tops spring back when pressed and a toothpick in the center comes out clean, 20 to 21 minutes.
 11. **Cool:** Cool in the tins for 5 minutes, then move the cupcakes to a rack until completely cool, about 1 hour.
-12. **Frost:** Spread or pipe the [Cream Cheese Frosting](/mise/recipes/favorite-cream-cheese-frosting) over the cooled cupcakes.
+12. **Frost:** Spread or pipe the [Cream Cheese Frosting](/mise/recipes/favorite-cream-cheese-frosting/) over the cooled cupcakes.

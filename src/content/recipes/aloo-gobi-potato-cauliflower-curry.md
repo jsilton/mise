@@ -79,4 +79,4 @@ Aloo gobi is the potato and cauliflower dish cooked in Indian homes on any weekn
 4. **Start the potatoes:** Add the potatoes and salt and stir to coat. Pour in half the water and bring to a simmer. Cover and cook over medium-low, turning once or twice, until the outsides are tender but the centers still resist a knife, 8 to 10 minutes.
 5. **Add the cauliflower:** Fold in the cauliflower and the rest of the water. Cover and simmer, turning gently every 5 minutes, until a knife slides easily into both a potato and a cauliflower stem, 12 to 15 minutes. Add a splash of water if the pan dries out.
 6. **Dry the coating:** Uncover and cook over medium heat, folding gently, until no liquid pools in the pan, 3 to 5 minutes. Stir in the garam masala and cayenne (if using) and cook 30 seconds.
-7. **Finish:** Take the pan off the heat and fold in the lemon juice and cilantro. Taste and add more salt if needed. Serve hot.
+7. **Finish:** Take the pan off the heat and fold in the lemon juice and cilantro. Taste and adjust the salt. Serve hot.

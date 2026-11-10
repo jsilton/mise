@@ -39,7 +39,7 @@ ingredients:
   - 1/2 cup whole milk
   - 2 tbsp honey
   - '1 tsp honey, for the granola'
-  - '1/2 cup [granola](/mise/recipes/granola)'
+  - '1/2 cup [granola](/mise/recipes/granola/)'
   - '1 cup fresh berries or chopped fruit, cut small'
 source: Adapted from I Heart Naptime
 sourceUrl: 'https://www.iheartnaptime.net/breakfast-popsicles/'
@@ -92,7 +92,7 @@ formula:
           preparation: for the granola
         - id: granola
           key: granola
-          name: '[granola](/mise/recipes/granola)'
+          name: '[granola](/mise/recipes/granola/)'
           quantity:
             amount: 1/2
             unit: cup
@@ -150,6 +150,6 @@ This is breakfast on a stick: Greek yogurt and fruit frozen in molds with a crun
 1. **Mix the base:** Whisk the Greek yogurt, whole milk, and 2 tbsp of the honey in a bowl until smooth.
 2. **Add the fruit:** Divide the berries or chopped fruit among the popsicle molds.
 3. **Fill the molds:** Pour the yogurt mixture over the fruit, leaving a 1/2-inch gap at the top of each mold.
-4. **Top with granola:** Toss the [granola](/mise/recipes/granola) and 1 tsp of the honey until coated, warming the honey for 10 seconds first if it is stiff. Press the granola into the top of each mold.
+4. **Top with granola:** Toss the [granola](/mise/recipes/granola/) and 1 tsp of the honey until coated, warming the honey for 10 seconds first if it is stiff. Press the granola into the top of each mold.
 5. **Freeze:** Insert the sticks and freeze until solid, at least 4 hours or overnight.
 6. **Unmold:** Run the outside of each mold under warm water for 5 to 10 seconds, then pull out the pop. Serve right away.

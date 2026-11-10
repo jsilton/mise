@@ -196,9 +196,7 @@ formula:
       text: 'Fold {{ingredients}} into the custard along with the sausage mixture and its fat.'
     - id: assemble
       title: Fill the dish
-      text: >-
-        Spread the mixture evenly in the dish. To make it ahead, cover the dish and refrigerate it
-        overnight. Bake a cold casserole covered for about 10 minutes longer.
+      text: Spread the mixture evenly in the dish.
     - id: covered
       title: Bake covered
       text: Cover with foil and bake for 50 minutes.
@@ -214,6 +212,12 @@ learning:
   techniques:
     - temperature
     - gentle-proteins
+  substitutions:
+    - ingredient: Make ahead
+      alternative: Assemble the night before
+      effect: >-
+        Cover the filled dish and refrigerate it overnight. Bake the cold casserole covered for 10
+        minutes longer.
   storage: >-
     Leftovers keep 4 days in the fridge, and wrapped baked portions freeze for 3 months. Reheat
     covered at 350°F until hot in the center.
@@ -233,7 +237,7 @@ This Pioneer Woman casserole feeds a crowd on a holiday morning and can be put t
 3. **Add the vegetables:** Add the red bell pepper and scallions (the whites only) and cook until the pepper starts to soften, about 3 minutes. Take the pan off the heat and let it cool slightly, fat and all.
 4. **Whisk the custard:** Whisk the eggs, heavy cream, Dijon mustard, hot sauce, salt, and black pepper in a large bowl until frothy.
 5. **Fold it together:** Fold the hash browns and 1 1/2 cups of the sharp Cheddar into the custard along with the sausage mixture and its fat.
-6. **Fill the dish:** Spread the mixture evenly in the dish. To make it ahead, cover the dish and refrigerate it overnight. Bake a cold casserole covered for about 10 minutes longer.
+6. **Fill the dish:** Spread the mixture evenly in the dish.
 7. **Bake covered:** Cover with foil and bake for 50 minutes.
 8. **Brown the top:** Uncover, scatter the rest of the sharp Cheddar over the top and raise the oven to 400°F. Bake until the top is deep golden and a knife in the center comes out clean, 10 to 15 minutes.
 9. **Rest and serve:** Let it rest for 10 minutes, then scatter the scallion greens over the top and serve.

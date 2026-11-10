@@ -77,4 +77,4 @@ Broccoli and lemon is a classic Italian pairing, and here the broccoli and peas 
 2. **Make the garlic oil:** While the pasta cooks, warm the oil and garlic in a small pan over medium-low heat until the garlic is fragrant and pale gold, 2 to 3 minutes. Off the heat, stir in the pepper flakes. Pour it into a large serving bowl and add the lemon zest and half the lemon juice.
 3. **Add the vegetables:** When the pasta has 3 to 4 minutes left, add the broccoli to the pot. Add the peas for the last minute. Cook until the pasta is al dente and the broccoli stems are tender. Scoop out a mug of the cooking water, then drain.
 4. **Toss with the cheese:** Add the hot pasta and vegetables to the bowl. Toss, sprinkling in the cheese a handful at a time and adding splashes of the cooking water until everything is glossy and coated.
-5. **Season and serve:** Season with black pepper. Taste and add the rest of the lemon juice and salt if needed. Serve with more cheese.
+5. **Season and serve:** Season with black pepper. Taste and add the rest of the lemon juice and salt. Serve with more cheese.

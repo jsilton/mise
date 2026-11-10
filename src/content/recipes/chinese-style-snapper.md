@@ -29,7 +29,7 @@ pairingNotes:
   steamed-bok-choy-with-oyster-sauce: A green vegetable for a Cantonese table.
   smashed-cucumber-salad: A cool, garlicky crunch beside the soft fish.
 ingredients:
-  - '1 whole snapper (1.8 kg), scaled and gutted'
+  - '1 whole snapper (about 4 lb, 1.8 kg), scaled and gutted'
   - '3 garlic cloves, finely chopped'
   - '1 (3-inch) piece fresh ginger, peeled and finely shredded'
   - 1/4 cup soy sauce

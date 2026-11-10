@@ -27,7 +27,7 @@ pairingNotes:
   onigiri-japanese-rice-balls: Rice balls and miso soup, a classic Japanese lunch.
   miso-salmon-with-bok-choy: A small bowl of soup beside salmon and rice.
 ingredients:
-  - '4 cups [Dashi](/mise/recipes/dashi-japanese-sea-stock)'
+  - '4 cups [Dashi](/mise/recipes/dashi-japanese-sea-stock/)'
   - 3 tbsp white (shiro) miso
   - '4 oz silken tofu, cut into small cubes'
   - 1 tbsp dried wakame

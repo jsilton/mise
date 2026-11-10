@@ -71,4 +71,4 @@ Cauliflower rice is a light, low-carb base for stir-fries and curries. High heat
 1. **Rice the cauliflower:** Pat the florets dry. Pulse them in batches in a food processor until they look like grains of rice, stopping before they turn to paste.
 2. **Sear the cauliflower:** Heat some of the oil in a large skillet over medium-high heat. Add a thin, even layer of cauliflower and cook undisturbed for 2 minutes.
 3. **Finish the batch:** Stir and cook until lightly golden and tender-crisp, 3 to 4 minutes more. Stir in some of the garlic for the last 30 seconds, until fragrant. Move the batch to a bowl and repeat with the rest of the oil, cauliflower and garlic.
-4. **Season and serve:** Toss all the cauliflower with the salt, pepper and herbs. Taste, add more salt if needed and serve hot.
+4. **Season and serve:** Toss all the cauliflower with the salt, pepper and herbs. Taste, adjust the salt and serve hot.

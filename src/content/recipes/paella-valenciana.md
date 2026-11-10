@@ -214,8 +214,8 @@ formula:
       text: >-
         Add {{ingredients}} and bring to a simmer. Cook uncovered until the broth has cooked down to
         the mark and the meat and garrofó are tender, 25 to 45 minutes. If the broth reaches the
-        mark first, add a little boiling water and keep simmering. Taste and add more salt if
-        needed. The broth should taste a little salty, because the rice soaks it up.
+        mark first, add a little boiling water and keep simmering. Taste and adjust the salt. The
+        broth should taste a little salty, because the rice soaks it up.
     - id: saffron
       title: Add the saffron
       text: >-
@@ -297,7 +297,7 @@ This is paella as it is made in Valencia, with chicken, rabbit, flat green beans
 2. **Cook the green beans:** Add the flat green beans and turn them in the oil until bright green and starting to soften, 3 to 5 minutes. Push the meat and beans to the edge of the pan.
 3. **Make the sofrito:** Lower the heat to medium-low. Stir the sweet paprika and tomatoes into the oil in the center of the pan, the paprika first and the tomato a few seconds later so the paprika doesn't burn. Cook, stirring, until the tomato is thick and no longer watery, 5 to 10 minutes.
 4. **Mark the broth level:** Add the fresh or frozen garrofó beans and 5 cups of the water. Stand the handle of a metal spoon upright in the pan and note where the liquid reaches. The broth needs to cook back down to this mark before the rice goes in.
-5. **Simmer the broth:** Add the salt and 6 cups of the water and bring to a simmer. Cook uncovered until the broth has cooked down to the mark and the meat and garrofó are tender, 25 to 45 minutes. If the broth reaches the mark first, add a little boiling water and keep simmering. Taste and add more salt if needed. The broth should taste a little salty, because the rice soaks it up.
+5. **Simmer the broth:** Add the salt and 6 cups of the water and bring to a simmer. Cook uncovered until the broth has cooked down to the mark and the meat and garrofó are tender, 25 to 45 minutes. If the broth reaches the mark first, add a little boiling water and keep simmering. Taste and adjust the salt. The broth should taste a little salty, because the rice soaks it up.
 6. **Add the saffron:** Crush the saffron into a small cup and stir in a few spoonfuls of hot broth. Pour it back into the pan and bring the broth to a lively boil.
 7. **Spread the rice:** Scatter the Valencian round rice evenly over the boiling broth and spread it once so it lies in a flat, even layer. Do not stir it again.
 8. **Cook the rice:** Boil hard for 5 minutes, then over medium heat for 5 minutes, then over low heat until the broth is absorbed and the grains are tender with no chalky center, 5 to 8 minutes more. If the pan looks dry before the rice is done, sprinkle the boiling water over the dry spots.

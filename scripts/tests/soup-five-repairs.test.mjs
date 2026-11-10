@@ -38,7 +38,7 @@ test('classic wontons inventory bowl seasonings and optional garnish independent
   // The broth is its own linked recipe, so the times cover only filling, folding and boiling.
   assert.ok(
     data.ingredients.includes(
-      '4 cups [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth)'
+      '4 cups [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth/)'
     )
   );
   assert.equal(data.totalTime, '55 min');
@@ -74,7 +74,7 @@ test('hot and sour inventories saute oil and excludes separate stock and pork pr
   // Stock comes from its own linked recipe and the pork is bought cooked, so neither is
   // made in this recipe's steps.
   assert.ok(data.ingredients.includes('1/4 lb char siu (Chinese barbecue pork), shredded'));
-  assert.match(content, /\[unsalted chicken stock\]\(\/mise\/recipes\/homemade-chicken-stock\)/);
+  assert.match(content, /\[unsalted chicken stock\]\(\/mise\/recipes\/homemade-chicken-stock\/\)/);
   assert.doesNotMatch(content, /cook the pork|roast the pork/i);
   assert.match(data.formula.steps.find((step) => step.id === 'infuse').text, /over medium heat/);
   // The 165°F egg check was dropped by design. The egg cue is now the set ribbons.

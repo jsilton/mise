@@ -268,7 +268,7 @@ Keep composed meals with ingredient portions, timing and preparation guidance. W
 - Use atomic tags: `Chinese`, `Italian`, `American` — never `Chinese-American`
 - For fusion: use multiple tags `cuisines: [Korean, Mexican]`
 - Valid multi-word: `Middle Eastern` (space), invalid: `Middle-Eastern` (hyphen)
-- Common cuisines: American, Italian, Chinese, Japanese, Korean, Thai, Vietnamese, Indian, Mexican, French, Greek, Middle Eastern, Jewish, Southern, Mediterranean, Caribbean, Filipino, Brazilian
+- The canonical cuisine list is `CUISINES` in `src/lib/tag-vocabulary.mjs`. Use only values from that list.
 
 ## Known Gaps
 

@@ -42,7 +42,7 @@ ingredients:
   - '--- To serve ---'
   - fresh berries
   - almond butter
-  - '[granola](/mise/recipes/granola)'
+  - '[granola](/mise/recipes/granola/)'
 source: Adapted from Eating Bird Food
 sourceUrl: 'https://www.eatingbirdfood.com/basic-chia-seed-pudding/'
 learning:

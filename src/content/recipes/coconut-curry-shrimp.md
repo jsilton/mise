@@ -75,7 +75,7 @@ Ree Drummond's coconut curry shrimp is a fast, sweet weeknight curry built on cu
 ## Directions
 
 1. **Season the shrimp:** Pat the shrimp dry and season them with half the salt and the pepper.
-2. **Sear the shrimp:** Melt half the butter in a deep 12-inch skillet over medium-high heat. Cook the shrimp in a single layer, in batches if needed, until pink on the bottom, about 2 minutes. Turn and cook until just opaque in the center, 1 to 2 minutes more, then move them to a plate.
+2. **Sear the shrimp:** Melt half the butter in a deep 12-inch skillet over medium-high heat. Cook the shrimp in a single layer, in two batches, until pink on the bottom, about 2 minutes. Turn and cook until just opaque in the center, 1 to 2 minutes more, then move them to a plate.
 3. **Soften the vegetables:** Lower the heat to medium and add the rest of the butter, the onion and the mushrooms. Cook, stirring, until the onion is soft and the mushrooms have given up their liquid, 5 to 7 minutes. Add the garlic and curry powder and stir until fragrant, about 30 seconds.
 4. **Simmer the sauce:** Stir in the coconut milk, honey and the rest of the salt, scraping up the browned bits. Bring to a gentle simmer, add the zucchini and cook until tender with a little bite, 4 to 6 minutes.
 5. **Finish and serve:** Return the shrimp and their juices to the pan and warm through, about 1 minute. Turn off the heat and stir in the basil and half the lime juice. Taste and add more lime, salt or hot sauce, then serve over rice.

@@ -64,7 +64,7 @@ learning:
 
 ## Chef's Note
 
-This is The Woks of Life's coconut red curry shrimp, a fast weeknight curry built on a can of Thai red curry paste. Searing the shrimp first and returning them at the end keeps them plump and tender. Use half the can of paste for a milder curry and the whole can if you like it hot.
+This is The Woks of Life's coconut red curry shrimp, a fast weeknight curry built on a can of Thai red curry paste. Searing the shrimp first and returning them at the end keeps them plump and tender. Half the can of paste makes a mild curry and the whole can makes a hot one.
 
 ## Directions
 

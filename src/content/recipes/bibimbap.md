@@ -44,10 +44,10 @@ ingredients:
   - 1 tbsp sugar
   - 1 tbsp water
   - 1 tsp rice vinegar
-  - '[Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), for topping'
-  - '[Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), for topping'
-  - '[Seasoned Spinach](/mise/recipes/garlic-sesame-spinach), for topping'
-  - '[Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts), for topping'
+  - '[Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye/), for topping'
+  - '[Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers/), for topping'
+  - '[Seasoned Spinach](/mise/recipes/garlic-sesame-spinach/), for topping'
+  - '[Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts/), for topping'
 source: Adapted from My Korean Kitchen
 sourceUrl: 'https://mykoreankitchen.com/bibimbap-korean-mixed-rice-with-meat-and-assorted-vegetables/'
 formula:
@@ -134,28 +134,28 @@ formula:
               share: 1
         - id: meat
           key: prepared-bulgogi
-          name: '[Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye)'
+          name: '[Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye/)'
           allowance: for topping
           uses:
             - step: toppings
               share: 1
         - id: cucumbers
           key: prepared-cucumbers
-          name: '[Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers)'
+          name: '[Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers/)'
           allowance: for topping
           uses:
             - step: toppings
               share: 1
         - id: spinach
           key: prepared-spinach
-          name: '[Seasoned Spinach](/mise/recipes/garlic-sesame-spinach)'
+          name: '[Seasoned Spinach](/mise/recipes/garlic-sesame-spinach/)'
           allowance: for topping
           uses:
             - step: toppings
               share: 1
         - id: sprouts
           key: prepared-sprouts
-          name: '[Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts)'
+          name: '[Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts/)'
           allowance: for topping
           uses:
             - step: toppings
@@ -206,7 +206,7 @@ Bibimbap means mixed rice. Hot rice is topped with bulgogi, seasoned vegetable b
 
 1. **Mix the sauce:** Stir the gochujang, sesame oil, sugar, water, and rice vinegar in a small bowl until the sugar dissolves.
 2. **Fill the bowls:** Divide the short-grain rice among four bowls.
-3. **Add the toppings:** Arrange the [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), [Seasoned Spinach](/mise/recipes/garlic-sesame-spinach), and [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts) in separate piles around the top of the rice.
+3. **Add the toppings:** Arrange the [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye/), [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers/), [Seasoned Spinach](/mise/recipes/garlic-sesame-spinach/), and [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts/) in separate piles around the top of the rice.
 4. **Heat the pan:** Heat the neutral oil in a large nonstick skillet over medium heat.
 5. **Fry the eggs:** Crack in the eggs and fry them sunny side up until the whites are set and the yolks are still runny, 2 to 3 minutes. Set an egg in the center of each bowl.
 6. **Sauce and mix:** Spoon the sauce over the bowls. Break the yolks and mix everything together just before eating.

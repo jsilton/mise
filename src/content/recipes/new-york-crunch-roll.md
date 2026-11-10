@@ -44,7 +44,7 @@ ingredients:
   - '1 medium ripe avocado, thinly sliced'
   - '1/3 English cucumber, seeded and cut into thin matchsticks'
   - 1/3 cup tempura flakes (tenkasu)
-  - '2 cups prepared [Sushi Rice (Shari)](/mise/recipes/master-sushi-rice)'
+  - '2 cups prepared [Sushi Rice (Shari)](/mise/recipes/master-sushi-rice/)'
   - '4 sheets roasted nori, trimmed to 7 1/2 by 6 inches'
   - '1/2 cup water, for dipping'
   - '1 tsp rice vinegar, for dipping'

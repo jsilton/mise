@@ -22,6 +22,8 @@ cookTime: 25 min
 totalTime: '45 min, plus 30 min marinating'
 advancePrep: []
 servings: 12 pieces
+usesBase:
+  - bbq-sauce
 pairsWith:
   - coleslaw
   - grilled-corn-salad-with-feta
@@ -33,7 +35,7 @@ equipment:
 ingredients:
   - '--- Chicken and glaze ---'
   - 2 lb boneless skinless chicken thighs
-  - '1 cup BBQ sauce, divided'
+  - '1 cup [BBQ Sauce](/mise/recipes/bbq-sauce/), divided'
   - 1 tbsp olive oil
   - 1 tsp smoked paprika
   - 1 tsp garlic powder
@@ -45,7 +47,7 @@ ingredients:
   - 2 tbsp unsalted butter
   - 'dill pickle chips, for topping'
   - 1/2 cup crispy fried onions
-  - 'more BBQ sauce, for serving'
+  - 'more [BBQ Sauce](/mise/recipes/bbq-sauce/), for serving'
 origin: United States
 seasons:
   - year-round
@@ -58,6 +60,10 @@ learning:
   techniques:
     - browning
     - temperature
+  substitutions:
+    - ingredient: BBQ Sauce
+      alternative: Bottled BBQ sauce
+      effect: 'Use the same amount of a thick, smoky-sweet sauce.'
   storage: >-
     Store the chicken apart from the rolls and toppings for up to 3 days in the fridge. Reheat it
     under the broiler and build fresh sliders.
@@ -84,7 +90,8 @@ formula:
               share: 1
         - id: bbq-sauce
           key: bbq-sauce
-          name: BBQ sauce
+          name: '[BBQ Sauce](/mise/recipes/bbq-sauce/)'
+          stepName: BBQ sauce
           quantity:
             amount: 1
             unit: cup
@@ -192,7 +199,8 @@ formula:
               share: 1
         - id: extra-sauce
           key: extra-sauce
-          name: more BBQ sauce
+          name: 'more [BBQ Sauce](/mise/recipes/bbq-sauce/)'
+          stepName: more BBQ sauce
           allowance: for serving
           uses:
             - step: assemble

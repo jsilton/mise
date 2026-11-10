@@ -95,7 +95,7 @@ In Jamaica, "peas" means red kidney beans, and rice and peas is the Sunday stapl
 ## Directions
 
 1. **Soak the beans:** Cover the beans with plenty of water and soak overnight, about 8 hours. Drain.
-2. **Cook the beans:** Put the beans in a large pot with the fresh water, adding more if needed to cover them by 2 inches. Boil hard for 30 minutes, then lower the heat and simmer until completely tender, 30 to 60 minutes more. Drain, saving the cooking liquid, and top it up with water if you are short.
+2. **Cook the beans:** Put the beans in a large pot with the fresh water, topping it up to cover them by 2 inches. Boil hard for 30 minutes, then lower the heat and simmer until completely tender, 30 to 60 minutes more. Drain, saving the cooking liquid, and top it up with water if you are short.
 3. **Season the liquid:** In a heavy 3- to 4-quart pot, combine the beans, coconut milk, bean liquid, scallions, thyme, garlic, allspice, salt, black pepper and coconut oil, if using. Lay the Scotch bonnet on top. Bring to a gentle simmer, cover and cook for 5 minutes. Taste the liquid. It should taste well seasoned, since the rice will absorb it.
 4. **Cook the rice:** Lift out the chile, stir in the rice and set the chile back on top. Return to a gentle simmer, cover tightly and turn the heat to low. Cook until the rice is tender and the liquid is absorbed, 18 to 22 minutes.
-5. **Rest and fluff:** Take the pot off the heat and leave it covered for 10 minutes. Carefully remove the chile, thyme stems and scallions. Fluff gently with a fork, taste and add a pinch of salt if needed.
+5. **Rest and fluff:** Take the pot off the heat and leave it covered for 10 minutes. Carefully remove the chile, thyme stems and scallions. Fluff gently with a fork, taste and adjust the salt.

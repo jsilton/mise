@@ -47,7 +47,7 @@ ingredients:
   - '1 scallion, thinly sliced'
   - pinch of red pepper flakes
   - '--- Rice ---'
-  - '4 cups hot cooked [Plain Short-Grain White Rice](/mise/recipes/steamed-white-rice)'
+  - '4 cups hot cooked [Plain Short-Grain White Rice](/mise/recipes/steamed-white-rice/)'
   - 2 tbsp unseasoned rice vinegar
   - '1 tbsp sugar, for the rice'
   - 1/2 tsp fine sea salt

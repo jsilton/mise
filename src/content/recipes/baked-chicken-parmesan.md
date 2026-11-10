@@ -33,10 +33,10 @@ equipment:
   - large-pot
   - instant-read-thermometer
 pairsWith:
-  - everyday-arugula-salad
+  - kale-caesar-with-crispy-chickpeas
   - roasted-broccolini-with-lemon
 pairingNotes:
-  everyday-arugula-salad: Peppery, lemony greens cut the cheese and sauce.
+  kale-caesar-with-crispy-chickpeas: 'A sharp, garlicky Caesar beside cheesy chicken.'
   roasted-broccolini-with-lemon: A green vegetable that roasts in the same hot oven.
 ingredients:
   - '1 1/2 lb boneless skinless chicken breasts, cut into 1/2-inch-thick cutlets'

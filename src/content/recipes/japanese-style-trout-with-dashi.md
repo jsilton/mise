@@ -34,7 +34,7 @@ ingredients:
   - 1 cup mirin
   - 1/2 cup sugar
   - 1/2 cup unseasoned rice vinegar
-  - '1 1/2 cups [Dashi](/mise/recipes/dashi-japanese-sea-stock)'
+  - '1 1/2 cups [Dashi](/mise/recipes/dashi-japanese-sea-stock/)'
   - '2 carrots, finely julienned'
   - '2 leeks, white parts only, finely julienned and washed'
   - 'steamed sushi rice, for serving'

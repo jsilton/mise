@@ -46,7 +46,7 @@ ingredients:
   - 1 tbsp sambal oelek
   - '1/4 lb char siu (Chinese barbecue pork), shredded'
   - '1/2 cup bamboo shoots, sliced'
-  - '2 quarts [unsalted chicken stock](/mise/recipes/homemade-chicken-stock)'
+  - '2 quarts [unsalted chicken stock](/mise/recipes/homemade-chicken-stock/)'
   - 1/4 cup soy sauce
   - 1 tsp ground white pepper
   - 1 tsp salt
@@ -138,7 +138,7 @@ formula:
           preparation: sliced
         - id: stock
           key: stock
-          name: '[unsalted chicken stock](/mise/recipes/homemade-chicken-stock)'
+          name: '[unsalted chicken stock](/mise/recipes/homemade-chicken-stock/)'
           quantity:
             amount: 2
             unit: quart
@@ -332,7 +332,7 @@ The Chinese restaurant classic, peppery and sour. The heat comes from white pepp
 1. **Soak the wood ears:** Put the dried wood ear mushrooms and boiling water in a heatproof bowl and soak until soft, about 30 minutes. Drain, rinse, cut out any hard centers and slice thin.
 2. **Bloom the aromatics:** Heat the canola oil, ginger, and sambal oelek in a large pot over medium heat. Cook, stirring, until fragrant, about 1 minute.
 3. **Add the pork:** Add the sliced wood ears along with the char siu and bamboo shoots. Stir to coat in the chile oil, about 1 minute.
-4. **Simmer the broth:** Pour in the [unsalted chicken stock](/mise/recipes/homemade-chicken-stock). Bring to a boil, then lower the heat and simmer for 10 minutes.
+4. **Simmer the broth:** Pour in the [unsalted chicken stock](/mise/recipes/homemade-chicken-stock/). Bring to a boil, then lower the heat and simmer for 10 minutes.
 5. **Season:** Stir in the soy sauce, white pepper, salt, and sugar. Taste and add more salt if the broth needs it.
 6. **Add the tofu:** Slide in the firm tofu and simmer gently until heated through, about 3 minutes.
 7. **Thicken:** Stir the cornstarch and cold water together until smooth. Pour the slurry slowly into the simmering soup, stirring, and simmer until the broth turns glossy and slightly thick, about 2 minutes.

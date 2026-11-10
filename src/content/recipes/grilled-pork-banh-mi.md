@@ -40,7 +40,7 @@ ingredients:
   - 'mayonnaise, for spreading'
   - 'Maggi seasoning, a few drops'
   - 'cucumber spears, for topping'
-  - '[Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon), drained'
+  - '[Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon/), drained'
   - 'fresh cilantro sprigs, for topping'
   - '1 jalapeño, thinly sliced'
 seasons:
@@ -167,7 +167,7 @@ formula:
               share: 1
         - id: pickles
           key: pickles
-          name: '[Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon)'
+          name: '[Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon/)'
           allowance: drained
           uses:
             - step: fill
@@ -256,4 +256,4 @@ This is the Saigon street sandwich: sweet, charred lemongrass pork in a crackly 
 4. **Grill the pork:** Heat a grill to medium and oil the grates with the oil. Lift the pork from the marinade, wipe off the excess and thread it onto skewers or spread it in a grill basket. Grill until browned and charred at the edges and cooked through, 3 to 4 minutes per side. Move it to a cooler spot if the sugar starts to blacken.
 5. **Toast the bread:** Lay the crusty baguettes cut side down on the grill until warm and crisp, about 1 minute.
 6. **Dress the bread:** Spread the mayonnaise and Maggi seasoning over the cut sides of the warm bread.
-7. **Fill the sandwiches:** Pile the pork into the bread, then layer on the cucumber spears, [Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon), cilantro, and jalapeño. Serve right away, while the bread is crisp.
+7. **Fill the sandwiches:** Pile the pork into the bread, then layer on the cucumber spears, [Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon/), cilantro, and jalapeño. Serve right away, while the bread is crisp.

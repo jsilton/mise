@@ -26,10 +26,10 @@ totalTime: 1 hr 30 min
 servings: '6'
 pairsWith:
   - garlic-bread
-  - everyday-arugula-salad
+  - easy-chopped-pesto-salad-with-cannellini-beans
 pairingNotes:
   garlic-bread: For dunking in the soup.
-  everyday-arugula-salad: Peppery greens beside the sweet soup.
+  easy-chopped-pesto-salad-with-cannellini-beans: 'Pesto, beans and mozzarella beside tomato soup.'
 ingredients:
   - '3 lb Roma tomatoes, halved lengthwise'
   - '6 cloves garlic, peeled'

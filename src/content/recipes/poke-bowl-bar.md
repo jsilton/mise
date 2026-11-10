@@ -48,8 +48,8 @@ ingredients:
   - '1/2 tsp sriracha (optional)'
   - '2 tsp fresh lime juice, divided'
   - '--- Bowls ---'
-  - '4 cups prepared [Sushi Rice (Shari)](/mise/recipes/master-sushi-rice)'
-  - '1/2 recipe [Oi Muchim (Korean Cucumber Salad)](/mise/recipes/korean-pickled-cucumbers)'
+  - '4 cups prepared [Sushi Rice (Shari)](/mise/recipes/master-sushi-rice/)'
+  - '1/2 recipe [Oi Muchim (Korean Cucumber Salad)](/mise/recipes/korean-pickled-cucumbers/)'
   - '1 avocado, sliced'
   - pinch of fine salt
   - 1 cup frozen shelled edamame

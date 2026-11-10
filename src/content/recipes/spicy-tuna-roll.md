@@ -44,7 +44,7 @@ ingredients:
   - 2 tsp sriracha
   - 1/4 tsp toasted sesame oil
   - '2 scallions, thinly sliced'
-  - '2 cups prepared [Sushi Rice (Shari)](/mise/recipes/master-sushi-rice), barely warm'
+  - '2 cups prepared [Sushi Rice (Shari)](/mise/recipes/master-sushi-rice/), barely warm'
   - '4 sheets roasted nori, each trimmed to 7 1/2 by 6 inches'
   - '1/2 cup water mixed with 1 tsp rice vinegar, for your hands'
 description: >-
@@ -70,7 +70,7 @@ Spicy tuna rolls were born in Los Angeles sushi bars in the 1980s as a way to us
 
 ## Directions
 
-1. **Make the rice:** Make the [sushi rice](/mise/recipes/master-sushi-rice) and let it cool until barely warm.
+1. **Make the rice:** Make the [sushi rice](/mise/recipes/master-sushi-rice/) and let it cool until barely warm.
 2. **Mix the filling:** Stir the mayonnaise, sriracha and sesame oil together in a bowl. Chop the tuna into small, rough pieces, not a paste, and fold it into the sauce with the scallions. Taste for heat and keep it cold.
 3. **Set up to roll:** Wrap the bamboo mat in plastic wrap and set the bowl of vinegar water nearby. Divide the rice and the filling into four equal portions.
 4. **Spread the rice:** Lay a nori sheet shiny side down on the mat with a long edge toward you. Wet your fingers and spread one portion of rice evenly over the nori, leaving a 1/2-inch strip bare along the far edge.

@@ -29,11 +29,11 @@ servings: '4'
 pairsWith:
   - homemade-rice-pilaf
   - crispy-parmesan-roasted-broccoli
-  - everyday-arugula-salad
+  - sauteed-mushrooms-with-thyme
 pairingNotes:
   homemade-rice-pilaf: A buttery starch to round out the plate.
   crispy-parmesan-roasted-broccoli: A crisp green vegetable from the oven.
-  everyday-arugula-salad: Peppery greens and lemon beside golden chicken.
+  sauteed-mushrooms-with-thyme: Spoon the mushrooms over the sliced chicken.
 ingredients:
   - '1 1/2 lb boneless, skinless chicken breasts, butterflied into 1/2-inch-thick cutlets'
   - '1/2 cup all-purpose flour, for dredging'

@@ -33,10 +33,10 @@ leftovers: excellent
 equipment:
   - cast-iron-skillet
 pairsWith:
-  - everyday-arugula-salad
+  - caponata
   - garlic-bread
 pairingNotes:
-  everyday-arugula-salad: Peppery greens with lemon beside the rich eggs.
+  caponata: Sweet-sour eggplant beside the rich eggs.
   garlic-bread: Warm bread makes it a full dinner.
 ingredients:
   - 12 large eggs

@@ -70,5 +70,5 @@ Garlic bread is an Italian-American invention from the red-sauce restaurants of 
 1. **Make the garlic butter:** Heat the oven to 400°F. Mash the butter, garlic, parsley, Parmesan and salt with a fork until evenly mixed.
 2. **Spread the bread:** Halve the loaf lengthwise and set both pieces cut side up on a rimmed baking sheet. Spread the garlic butter all the way to the edges.
 3. **Bake the bread:** Bake until the edges are golden and the butter has melted into the center, 12 to 15 minutes.
-4. **Crisp the top:** For a crunchier top, broil for 30 to 60 seconds, watching closely so the garlic does not burn.
+4. **Crisp the top:** Broil until the top is crisp and deep golden, 30 to 60 seconds. Watch closely so the garlic does not burn.
 5. **Slice and serve:** Cut each half into six pieces and serve hot.

@@ -37,10 +37,10 @@ equipment:
   - large-pot
   - skillet
 pairsWith:
-  - everyday-arugula-salad
+  - broccoli-all-agro
   - garlic-bread
 pairingNotes:
-  everyday-arugula-salad: Peppery greens to cut the rich cheese.
+  broccoli-all-agro: Lemony broccoli to cut the rich cheese.
   garlic-bread: For the sauce left in the dish.
 ingredients:
   - '--- Pasta ---'

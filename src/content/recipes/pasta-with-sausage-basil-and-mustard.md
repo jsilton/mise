@@ -30,10 +30,10 @@ seasons:
 nutritionalDensity: hearty
 leftovers: good
 pairsWith:
-  - everyday-arugula-salad
+  - broccoli-all-agro
   - garlic-bread
 pairingNotes:
-  everyday-arugula-salad: Peppery greens and lemon against the creamy sauce.
+  broccoli-all-agro: Lemony broccoli against the creamy sauce.
   garlic-bread: For the sauce left in the bowl.
 ingredients:
   - 1 lb penne or rigatoni

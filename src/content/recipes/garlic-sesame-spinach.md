@@ -72,4 +72,4 @@ Sigeumchi namul is one of the everyday banchan on a Korean table. Mature bunch s
 
 1. **Blanch the spinach:** Bring a large pot of water to a boil and set a bowl of ice water nearby. Blanch half the spinach until the leaves wilt and the stems bend, 30 to 45 seconds. Lift it into the ice water. Return the pot to a boil and repeat with the rest.
 2. **Squeeze:** Drain the spinach. Squeeze it gently by the handful to press out most of the water, leaving the leaves moist. Cut into bite-size lengths and loosen the strands in a bowl.
-3. **Season:** Add the sesame oil, sesame seeds, garlic, scallion and salt. Toss gently with your fingers, taste and add salt if needed. Serve at room temperature or chilled.
+3. **Season:** Add the sesame oil, sesame seeds, garlic, scallion and salt. Toss gently with your fingers. Taste and season with more salt. Serve at room temperature.

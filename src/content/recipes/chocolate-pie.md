@@ -30,7 +30,7 @@ cookTime: 10 min
 totalTime: '25 min, plus 4 hr chilling'
 servings: '10'
 ingredients:
-  - '1 (9-inch) pie crust, baked and cooled'
+  - '1 (9-inch) [All-Butter Pie Crust](/mise/recipes/all-butter-pie-crust/), baked and cooled'
   - 3/4 cup granulated sugar
   - 1/4 cup cornstarch
   - 1/4 tsp fine sea salt
@@ -52,6 +52,8 @@ nutrition:
   sodium: 280
 source: Adapted from The Pioneer Woman
 sourceUrl: 'https://thepioneerwoman.com/cooking/chocolate-pie/'
+usesBase:
+  - all-butter-pie-crust
 learning:
   techniques:
     - starch
@@ -60,12 +62,9 @@ learning:
     - ingredient: Bittersweet chocolate
       alternative: Semisweet chocolate
       effect: Use the same amount. The filling is sweeter and milder.
-    - ingredient: Pie crust
-      alternative: Half the Apple Pie dough, blind baked
-      effect: >-
-        Fit the dough into a 9-inch pie pan, line it with parchment and pie weights, chill it 30
-        minutes and bake at 375°F for 20 minutes. Lift out the weights, prick the bottom and bake
-        until golden across the bottom, 15 to 20 minutes more.
+    - ingredient: All-Butter Pie Crust
+      alternative: 1 store-bought 9-inch pie crust
+      effect: Bake it by the package directions and cool it. It is less flaky and buttery.
   storage: Keeps 3 days in the fridge, covered. Add the whipped cream just before serving.
   review:
     status: editorial-review

@@ -10,16 +10,29 @@ test('key lime counts its chill and retains the measured egg endpoint with promp
   assert.equal(data.totalTime, '45 min, plus cooling and 8 hr chilling');
   // The 160°F probe and the "within 2 hours" refrigeration line were dropped by the style
   // guide. The bake step must still give a set-edge, jiggling-center endpoint.
-  assert.match(content, /Bake until the edges are set and the center still jiggles slightly, about 15 minutes/);
-  assert.match(content, /Cool the pie completely on a rack, then cover and refrigerate for at least 8 hours/);
+  assert.match(
+    content,
+    /Bake until the edges are set and the center still jiggles slightly, about 15 minutes/
+  );
+  assert.match(
+    content,
+    /Cool the pie completely on a rack, then cover and refrigerate for at least 8 hours/
+  );
   assert.doesNotMatch(content, /mandatory for the acidity to mellow/);
 });
 test('chocolate pudding uses a texture endpoint and retains its surface cover', () => {
   const { data, content } = read('chocolate-pie');
   // The crust and chocolate are ready before the filling cooks, by their ingredient lines.
-  assert.ok(data.ingredients.includes('1 (9-inch) pie crust, baked and cooled'));
+  assert.ok(
+    data.ingredients.includes(
+      '1 (9-inch) [All-Butter Pie Crust](/mise/recipes/all-butter-pie-crust/), baked and cooled'
+    )
+  );
   assert.ok(data.ingredients.includes('6 1/2 oz bittersweet chocolate, finely chopped'));
-  assert.match(content, /until the filling bubbles and turns thick and glossy like pudding, 6 to 8 minutes/);
+  assert.match(
+    content,
+    /until the filling bubbles and turns thick and glossy like pudding, 6 to 8 minutes/
+  );
   assert.match(content, /Press plastic wrap directly onto the surface so no skin forms/);
   assert.ok(content.indexOf('Press plastic wrap') < content.indexOf('**Chill the pie:**'));
   assert.doesNotMatch(content, /uncovered after the first hour/);

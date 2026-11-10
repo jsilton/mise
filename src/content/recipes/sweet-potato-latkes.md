@@ -65,4 +65,4 @@ Sweet potato latkes for Hanukkah, crisp and lacy at the edges and soft inside, w
 2. **Make the batter:** Stir in the scallions, flour, salt and pepper, then the eggs, until the mixture is thick and tacky.
 3. **Heat the oil:** Heat the oil in a heavy 12-inch skillet over medium-high heat until it shimmers.
 4. **Fry the latkes:** Drop heaping spoonfuls of batter into the oil, about four at a time, and flatten each into a 3-inch round. Fry until deep golden on the edges and set in the center, about 2 minutes per side. Lower the heat to medium if they brown too fast.
-5. **Drain and serve:** Drain on a paper-towel-lined plate and sprinkle with a pinch of salt while hot. Serve right away with [Nana Ruth's Applesauce](/mise/recipes/nana-ruths-applesauce).
+5. **Drain and serve:** Drain on a paper-towel-lined plate and sprinkle with a pinch of salt while hot. Serve right away with [Nana Ruth's Applesauce](/mise/recipes/nana-ruths-applesauce/).

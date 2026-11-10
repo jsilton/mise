@@ -41,7 +41,7 @@ ingredients:
   - '1 bell pepper, thinly sliced'
   - '1/2 cup fresh cilantro leaves, roughly chopped'
   - 1 tbsp toasted sesame seeds
-  - '1/2 cup [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), for topping (optional)'
+  - '1/2 cup [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers/), for topping (optional)'
 origin: Korean-inspired
 seasons:
   - year-round

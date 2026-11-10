@@ -53,6 +53,8 @@ ingredients:
   - 4 large eggs
   - '1 1/2 cups loosely packed holy basil leaves'
   - '1 lime, cut into wedges (optional)'
+  - '--- For serving ---'
+  - 4 cups hot cooked jasmine rice
 description: >-
   Ground chicken stir-fried with garlic, chiles and holy basil, served over rice with a crisp fried
   egg.

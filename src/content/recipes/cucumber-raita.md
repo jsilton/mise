@@ -76,5 +76,5 @@ Raita is the cool yogurt side served with spicy Indian food all over the subcont
 
 1. **Toast the cumin:** Toast the cumin seeds in a small dry skillet over medium-low heat, shaking the pan, until fragrant and a shade darker, 1 to 2 minutes. Tip them onto a plate to cool, then crush with the back of a spoon.
 2. **Drain the cucumber:** Let the grated cucumber drain in a sieve for 5 minutes. Squeeze out the dripping liquid with your hands, leaving the shreds moist.
-3. **Mix the raita:** Whisk the yogurt in a bowl until smooth. Fold in the cucumber, cumin, herbs, salt and sugar. Taste and add more salt if needed.
+3. **Mix the raita:** Whisk the yogurt in a bowl until smooth. Fold in the cucumber, cumin, herbs, salt and sugar. Taste and adjust the salt.
 4. **Chill:** Refrigerate for 10 minutes, then stir and serve cold.

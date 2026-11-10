@@ -37,8 +37,8 @@ ingredients:
   - 1/2 tsp black pepper
   - 2 tsp olive oil
   - '--- To serve ---'
-  - '1 1/2 cups [Mint Tzatziki with Honey](/mise/recipes/mint-tzatziki)'
-  - '4 pita breads, [warmed](/mise/recipes/warm-pita-bread)'
+  - '1 1/2 cups [Mint Tzatziki with Honey](/mise/recipes/mint-tzatziki/)'
+  - '4 pita breads, [warmed](/mise/recipes/warm-pita-bread/)'
   - '1/3 cup crumbled feta (optional)'
   - '1 large ripe tomato, sliced (optional)'
   - '1 1/2 cups mixed greens (optional)'

@@ -35,7 +35,7 @@ ingredients:
   - 1 cup plain full-fat Greek yogurt
   - '1/2 cup mixed fresh berries, such as blueberries, raspberries and sliced strawberries'
   - '1/2 banana, sliced (optional)'
-  - '1/3 cup [granola](/mise/recipes/granola)'
+  - '1/3 cup [granola](/mise/recipes/granola/)'
   - 1 tbsp sliced almonds or chopped walnuts
   - 1 tbsp chia seeds
   - 1 tbsp honey

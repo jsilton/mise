@@ -31,6 +31,8 @@ prepTime: 25 min
 cookTime: 25 min
 totalTime: 50 min
 servings: '6'
+usesBase:
+  - pico-de-gallo
 pairsWith:
   - cilantro-lime-rice
   - quick-seasoned-black-beans
@@ -71,7 +73,7 @@ ingredients:
   - '12 small (6-inch) flour tortillas'
   - '1 ripe avocado, sliced (optional)'
   - 'fresh cilantro, chopped'
-  - salsa or hot sauce (optional)
+  - '[Pico de Gallo](/mise/recipes/pico-de-gallo/) or hot sauce (optional)'
 description: Spiced chicken breast, three colors of peppers and red onion roasted hot on two
   pans, with warm tortillas, avocado and cilantro.
 learning:
@@ -80,6 +82,9 @@ learning:
     - browning
     - seasoning
   substitutions:
+    - ingredient: Pico de Gallo
+      alternative: Store-bought fresh salsa
+      effect: Use the same amount. Refrigerated salsa tastes closest to homemade.
     - ingredient: ground ancho chile
       alternative: Chili powder
       effect: Chili powder already has salt and cumin in it. Cut the salt to 1 tsp.
@@ -104,4 +109,4 @@ These Tex-Mex fajitas trade the sizzling skillet for two sheet pans in a very ho
 3. **Roast:** Divide the filling between the pans and spread it out in one layer, with the chicken strips flat. Roast 15 to 18 minutes, stirring and swapping the pans after 8 minutes, until the chicken reaches 165°F and the peppers are tender with browned edges. Start checking the chicken at 12 minutes.
 4. **Char and finish:** For more char, move the chicken to a bowl and broil the vegetables one pan at a time, watching closely, 1 to 3 minutes. Toss the chicken and vegetables with the rest of the lime juice.
 5. **Warm the tortillas:** Wrap the tortillas in stacks of four between damp paper towels and microwave each stack until hot and soft, 30 to 45 seconds. Keep them wrapped in a kitchen towel.
-6. **Serve:** Fill the tortillas with the chicken and vegetables. Top with avocado, cilantro and salsa.
+6. **Serve:** Fill the tortillas with the chicken and vegetables. Top with avocado, cilantro and pico de gallo.

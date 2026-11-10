@@ -45,7 +45,7 @@ ingredients:
   - '4 oz block cream cheese, cold, cut into 1/4-inch strips'
   - '3 1/2 oz English cucumber (about 1/3 cucumber), seeded and cut into thin matchsticks'
   - 1 tbsp toasted sesame seeds
-  - '2 cups prepared [Sushi Rice (Shari)](/mise/recipes/master-sushi-rice), barely warm'
+  - '2 cups prepared [Sushi Rice (Shari)](/mise/recipes/master-sushi-rice/), barely warm'
   - '4 sheets roasted nori, trimmed to about 7 1/2 by 6 inches'
   - 'water with a splash of rice vinegar, for your hands'
 description: >-

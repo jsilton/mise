@@ -71,4 +71,4 @@ This Food Network cauliflower mash is a low-carb stand-in for mashed potatoes. D
 2. **Make the garlic butter:** While the cauliflower cooks, melt the butter in a small pan over low heat. Add the garlic and cook gently, stirring, until soft and fragrant but not browned, 3 to 4 minutes.
 3. **Drain well:** Drain the cauliflower in a colander and let it steam for 2 to 3 minutes, shaking now and then, until no water pools underneath.
 4. **Purée:** Put the cauliflower in a food processor with the garlic butter, cream cheese, Parmesan, bouillon paste and pepper. Process until smooth and velvety, about 1 minute.
-5. **Season and serve:** Taste and add salt if needed. Top with chives and a pat of butter.
+5. **Season and serve:** Taste and adjust the salt. Top with chives and a pat of butter.

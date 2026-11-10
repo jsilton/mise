@@ -49,7 +49,7 @@ ingredients:
   - 2 tbsp neutral oil
   - 1/4 cup water
   - >-
-    1/2 cup [Garlic-Ginger Stir-Fry Sauce](/mise/recipes/chinese-garlic-sauce-base), made with
+    1/2 cup [Garlic-Ginger Stir-Fry Sauce](/mise/recipes/chinese-garlic-sauce-base/), made with
     vegetarian oyster sauce
   - 1 tsp sambal oelek (optional)
   - '3 scallions, thinly sliced'

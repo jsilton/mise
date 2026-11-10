@@ -69,4 +69,4 @@ A quick skillet of greens for any weeknight. Thin carrot coins get a head start 
 2. **Add the garlic:** Stir in the garlic and cook until fragrant, about 30 seconds.
 3. **Wilt the kale:** Add the kale a handful at a time, tossing with tongs until each batch wilts enough to make room for the next, about 3 minutes in all.
 4. **Steam:** Pour in the water or broth and cover. Steam until the kale and carrots are tender, 2 to 3 minutes. Uncover and toss until the liquid cooks off, 30 to 60 seconds.
-5. **Season and serve:** Take the pan off the heat. Add the lemon juice, salt, pepper and red pepper flakes and toss. Taste, add salt if needed and serve warm.
+5. **Season and serve:** Take the pan off the heat. Add the lemon juice, salt, pepper and red pepper flakes and toss. Taste, adjust the salt and serve warm.

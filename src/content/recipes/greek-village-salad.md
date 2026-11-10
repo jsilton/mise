@@ -77,4 +77,4 @@ This is horiatiki, the salad served at every taverna in Greece. There is no lett
 
 1. **Arrange the vegetables:** Spread the tomatoes, cucumber, pepper and onion on a wide, shallow platter. Sprinkle with the salt and scatter the olives and capers over the top.
 2. **Add the feta:** Set the block of feta whole in the center and sprinkle the oregano over the feta and the vegetables.
-3. **Dress and serve:** Drizzle the olive oil over everything, then splash on the vinegar. Grind on pepper if you like and serve right away, letting everyone break off feta as they help themselves.
+3. **Dress and serve:** Drizzle the olive oil over everything, then splash on the vinegar. Grind on the pepper and serve right away, letting everyone break off feta as they help themselves.

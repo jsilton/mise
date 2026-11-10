@@ -70,4 +70,4 @@ These are proper buttermilk pancakes with mashed ripe banana in the batter, so t
 3. **Fold and rest:** Pour the wet mixture into the dry and fold gently with a spatula until no dry flour remains. The batter should stay lumpy. Let it rest for 5 minutes.
 4. **Heat the griddle:** While the batter rests, heat a griddle or large nonstick skillet over medium heat, or an electric griddle to 325°F. Grease it lightly with butter or oil.
 5. **Cook the pancakes:** Pour the batter onto the griddle in 4-inch rounds. Cook until bubbles cover the surface and the edges look set, 2 to 3 minutes. Flip and cook until golden underneath and set in the center, 1 to 2 minutes more. Lower the heat if they brown too fast, and grease the griddle again between batches.
-6. **Serve:** Stack the pancakes and top with sliced bananas and warm maple syrup, with a pat of butter if you like.
+6. **Serve:** Stack the pancakes and top with sliced bananas, warm maple syrup and a pat of butter, if using.

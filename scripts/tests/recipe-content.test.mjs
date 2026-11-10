@@ -278,7 +278,7 @@ test('every corpus ingredient link exports its existing target as an absolute UR
   ])
     assert.match(
       createPaprikaRecipe(bySlug.get(slug)).ingredients,
-      new RegExp(`\\]\\(https://[^)]+/mise/recipes/${target}\\)`),
+      new RegExp(`\\]\\(https://[^)]+/mise/recipes/${target}/\\)`),
       slug
     );
   // The source-reviewed pizza/shells batch removes two semantic mislinks.

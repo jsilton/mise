@@ -35,10 +35,10 @@ nutritionalDensity: hearty
 leftovers: excellent
 pairsWith:
   - garlic-bread
-  - everyday-arugula-salad
+  - broccoli-all-agro
 pairingNotes:
   garlic-bread: For the sauce left in the bowl.
-  everyday-arugula-salad: Peppery greens and lemon cut the rich lamb.
+  broccoli-all-agro: Lemony broccoli cuts the rich lamb.
 ingredients:
   - '--- Ragù ---'
   - 2 tbsp extra-virgin olive oil

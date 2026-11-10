@@ -199,8 +199,8 @@ formula:
       title: Fry the chicken
       text: >-
         Heat {{ingredients}} in a wok over high heat until it shimmers. Fry the chicken in a single
-        layer, in batches if needed, until golden and crisp and cooked through to 165°F, about 1
-        minute on the first side and 30 seconds on the second. Drain on a paper-towel-lined plate.
+        layer, in two batches, until golden and crisp and cooked through to 165°F, about 1 minute on
+        the first side and 30 seconds on the second. Drain on a paper-towel-lined plate.
     - id: ginger
       title: Fry the ginger
       text: >-
@@ -250,7 +250,7 @@ Mongolian chicken is the Chinese-American takeout cousin of Mongolian beef. Thin
 1. **Oil the chicken:** Toss the chicken breast or thighs and 1 tbsp of the oil in a bowl until every piece is lightly coated.
 2. **Dredge the chicken:** Add 1/4 cup of the cornstarch and toss until each piece has a thin, even coat. Shake off the loose starch.
 3. **Mix the slurry:** Stir the cold water and 2 tsp of the cornstarch together in a small cup and set it by the stove.
-4. **Fry the chicken:** Heat 1/3 cup of the oil in a wok over high heat until it shimmers. Fry the chicken in a single layer, in batches if needed, until golden and crisp and cooked through to 165°F, about 1 minute on the first side and 30 seconds on the second. Drain on a paper-towel-lined plate.
+4. **Fry the chicken:** Heat 1/3 cup of the oil in a wok over high heat until it shimmers. Fry the chicken in a single layer, in two batches, until golden and crisp and cooked through to 165°F, about 1 minute on the first side and 30 seconds on the second. Drain on a paper-towel-lined plate.
 5. **Fry the ginger:** Pour off all but a thin coating of oil. Set the wok over medium-high heat, add the ginger and stir until fragrant, about 20 seconds.
 6. **Add the aromatics:** Add the dried red chili peppers (if using), garlic, and scallions, using only the scallion whites for now. Stir-fry until the garlic is fragrant, about 15 seconds.
 7. **Simmer the sauce:** Add the soy sauce, brown sugar, and hot water or low-sodium chicken stock. Bring to a simmer, stirring until the sugar dissolves, then simmer for 2 minutes.

@@ -28,6 +28,8 @@ prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '4'
+usesBase:
+  - bbq-sauce
 pairsWith:
   - coleslaw
   - maple-roasted-sweet-potato-wedges
@@ -39,7 +41,7 @@ ingredients:
   - 1/4 cup panko breadcrumbs
   - 2 tbsp milk
   - 1 tbsp Worcestershire sauce
-  - 1 tbsp barbecue sauce
+  - '1 tbsp [BBQ Sauce](/mise/recipes/bbq-sauce/)'
   - 1 tsp garlic powder
   - 1/2 tsp fine salt
   - 1/2 tsp black pepper
@@ -58,6 +60,9 @@ learning:
     - temperature
     - browning
   substitutions:
+    - ingredient: BBQ Sauce
+      alternative: Bottled BBQ sauce
+      effect: Use the same amount of a thick, smoky-sweet sauce.
     - ingredient: milk
       alternative: Chicken broth
       effect: Use the same amount for dairy-free patties.

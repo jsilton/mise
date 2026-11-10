@@ -80,6 +80,9 @@ learning:
       effect: >-
         Skip browning the chicken and its salt. Simmer the sauce with the aromatics for 20 minutes,
         then add the chicken with the beans and heat through.
+    - ingredient: jalapeños
+      alternative: 1 jalapeño
+      effect: A milder chili with the same roasted pepper flavor.
   storage: >-
     Keeps 4 days in the fridge and freezes for 3 months. Reheat gently and brighten it with fresh
     lime and cilantro.
@@ -96,8 +99,8 @@ Chili verde is built on tomatillos and green chiles instead of dried red chiles 
 
 1. **Roast the peppers:** Set an oven rack 6 inches below the broiler and heat the broiler to high. Broil the poblanos and jalapeños on a rimmed baking sheet, turning them, until blistered and blackened all over, 12 to 20 minutes. Move them to a bowl, cover and let them steam for 10 minutes.
 2. **Roast the tomatillos:** Lay the tomatillos cut side down on the baking sheet. Broil until soft and charred on top, 10 to 15 minutes, working in two batches if they don't fit in one layer.
-3. **Peel the peppers:** Rub off the charred skins and pull out the stems and seeds. For a milder chili, use just one jalapeño. Chop the peppers roughly.
-4. **Blend the sauce:** Blend the tomatillos and their juices, the peppers and half the broth until smooth, in batches if needed. Leave the lid's center cap open and cover it with a towel so the steam can escape.
+3. **Peel the peppers:** Rub off the charred skins and pull out the stems and seeds. Chop the peppers roughly.
+4. **Blend the sauce:** Blend the tomatillos and their juices, the peppers and half the broth until smooth, in two batches. Leave the lid's center cap open and cover it with a towel so the steam can escape.
 5. **Brown the chicken:** Pat the chicken dry and season it with the chicken salt. Heat a little of the oil in a 7- to 8-quart Dutch oven over medium-high heat. Brown the chicken in three batches on two sides, 5 to 6 minutes per batch, adding a little oil each time. Move it to a bowl.
 6. **Cook the aromatics:** Lower the heat to medium and add the rest of the oil and the onion. Cook until soft, 6 to 8 minutes. Add the garlic, cumin, coriander and cayenne, if using, and stir until fragrant, about 30 seconds.
 7. **Braise the chicken:** Pour in the rest of the broth and scrape up the browned bits. Add the green sauce, half the sauce salt and the chicken with its juices. Simmer gently, partly covered and stirring now and then, until the chicken is tender, 25 to 35 minutes. If the sauce gets too thick, add a splash more broth.

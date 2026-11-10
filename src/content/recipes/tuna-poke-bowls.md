@@ -44,9 +44,9 @@ ingredients:
   - 1 tsp rice vinegar
   - '1/2 tsp fresh ginger, finely grated'
   - 1/2 tsp sriracha
-  - '4 cups [Sushi Rice (Shari)](/mise/recipes/master-sushi-rice)'
+  - '4 cups [Sushi Rice (Shari)](/mise/recipes/master-sushi-rice/)'
   - '1 avocado, diced'
-  - '1/2 recipe [Oi Muchim (Korean Cucumber Salad)](/mise/recipes/korean-pickled-cucumbers), drained'
+  - '1/2 recipe [Oi Muchim (Korean Cucumber Salad)](/mise/recipes/korean-pickled-cucumbers/), drained'
   - '1/2 cup frozen shelled edamame'
   - '2 scallions, thinly sliced'
   - 1 tbsp toasted sesame seeds
@@ -83,8 +83,8 @@ Poke is Hawaii's raw fish salad, cubed tuna tossed with soy and sesame. Here it 
 
 ## Directions
 
-1. **Make the rice:** Make the [Sushi Rice (Shari)](/mise/recipes/master-sushi-rice) and let it cool until barely warm.
-2. **Make the cucumber salad:** While the rice soaks and cooks, make the half batch of [Oi Muchim](/mise/recipes/korean-pickled-cucumbers). Chill it until serving.
+1. **Make the rice:** Make the [Sushi Rice (Shari)](/mise/recipes/master-sushi-rice/) and let it cool until barely warm.
+2. **Make the cucumber salad:** While the rice soaks and cooks, make the half batch of [Oi Muchim](/mise/recipes/korean-pickled-cucumbers/). Chill it until serving.
 3. **Cook the edamame:** Boil the edamame until tender, about 4 minutes. Drain and rinse under cold water to chill.
 4. **Dress the tuna:** Whisk the soy sauce, sesame oil, rice vinegar, ginger and sriracha in a medium bowl. Gently fold in the tuna and refrigerate for 5 to 10 minutes, no longer, so it stays firm.
 5. **Build the bowls:** Divide the rice among four bowls. Top with the tuna, lifted from its dressing, then the avocado, drained cucumber salad and edamame. Scatter with scallions, sesame seeds and nori, and serve right away with soy sauce and spicy mayonnaise at the table.

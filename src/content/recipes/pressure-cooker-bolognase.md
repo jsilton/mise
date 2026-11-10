@@ -23,10 +23,10 @@ totalTime: 3 hr 20 min
 servings: 6 portions
 pairsWith:
   - fresh-egg-pasta
-  - everyday-arugula-salad
+  - broccoli-all-agro
 pairingNotes:
   fresh-egg-pasta: 'Roll it into tagliatelle, the Bologna way.'
-  everyday-arugula-salad: 'Bright, peppery greens after a rich ragù.'
+  broccoli-all-agro: 'Bright, lemony broccoli after a rich ragù.'
 ingredients:
   - '--- Ragù ---'
   - '150 g (5 oz) fresh pork belly, finely chopped'

@@ -202,7 +202,7 @@ formula:
       title: Beat in the butter
       text: >-
         Take the pan off the heat. Add {{ingredients}} and beat hard with a wooden spoon until
-        glossy and creamy, 1 to 2 minutes. Add a splash of hot broth if needed, so the risotto flows
+        glossy and creamy, 1 to 2 minutes. Loosen with a splash of hot broth until the risotto flows
         in a soft wave when you shake the pan. Serve right away with more cheese.
 ingredients:
   - '1 small onion, finely chopped'
@@ -231,4 +231,4 @@ Milan's golden risotto, the classic partner to osso buco. Beef marrow cooked wit
 3. **Cook the onion:** Put the onion, butter, and beef marrow in a wide, heavy pan over low heat. Cook gently, stirring, until the onion is soft and pale gold, about 8 minutes.
 4. **Coat the rice:** Add the Carnaroli rice and turn the heat to medium. Stir until every grain is coated and hot, 1 to 2 minutes.
 5. **Add the broth:** Add the hot broth a ladleful at a time, stirring often at a lively simmer. Add the next ladle when the last is nearly absorbed. After 10 minutes, stir in the saffron and its liquid. Keep going until the rice is tender with a slight bite, 15 to 20 minutes in all. If the broth runs out, use hot water.
-6. **Beat in the butter:** Take the pan off the heat. Add the cold butter, Grana Padano, and salt and beat hard with a wooden spoon until glossy and creamy, 1 to 2 minutes. Add a splash of hot broth if needed, so the risotto flows in a soft wave when you shake the pan. Serve right away with more cheese.
+6. **Beat in the butter:** Take the pan off the heat. Add the cold butter, Grana Padano, and salt and beat hard with a wooden spoon until glossy and creamy, 1 to 2 minutes. Loosen with a splash of hot broth until the risotto flows in a soft wave when you shake the pan. Serve right away with more cheese.

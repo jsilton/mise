@@ -63,7 +63,7 @@ ingredients:
   - '1 avocado, diced'
   - '4 radishes, thinly shaved'
   - 1/4 cup toasted pepitas
-  - '[crispy shallots](/mise/recipes/crispy-shallots), for topping'
+  - '[crispy shallots](/mise/recipes/crispy-shallots/), for topping'
   - '--- Lemon vinaigrette ---'
   - 1/3 cup extra-virgin olive oil
   - 3 tbsp fresh lemon juice
@@ -219,7 +219,7 @@ formula:
               share: 1
         - id: crispy-shallots
           key: crispy-shallots
-          name: '[crispy shallots](/mise/recipes/crispy-shallots)'
+          name: '[crispy shallots](/mise/recipes/crispy-shallots/)'
           allowance: for topping
           role: garnish
           uses:
@@ -354,4 +354,4 @@ A weeknight steak salad: flank steak marinated in soy, Dijon and lemon, seared h
 5. **Rest and slice:** Rest the steak on a cutting board for 10 minutes. Slice it as thinly as you can across the grain, holding the knife at a 45-degree angle.
 6. **Dress the greens:** Toss the leaves of the romaine and butter lettuce with half the vinaigrette in a large serving bowl.
 7. **Top the salad:** Arrange the English cucumber, avocado, and radishes over the greens. Lay the steak on top and drizzle with the rest of the vinaigrette.
-8. **Finish:** Scatter the pepitas and [crispy shallots](/mise/recipes/crispy-shallots) over the top and serve right away, while they're still crisp.
+8. **Finish:** Scatter the pepitas and [crispy shallots](/mise/recipes/crispy-shallots/) over the top and serve right away, while they're still crisp.

@@ -107,5 +107,5 @@ Baingan bharta is the smoky mashed eggplant of North Indian home kitchens. Its d
 6. **Layer the vegetables:** Spread the eggplant over the onion base. Spoon the tomatoes and their juices on top and don't stir them in, so they can't scorch on the bottom.
 7. **Pressure-cook:** Seal the lid and cook at high pressure for 7 minutes. Turn off Keep Warm and let the pressure release naturally until the float valve drops, 20 to 30 minutes.
 8. **Mash:** Open the lid. The eggplant cubes should collapse under a fork. Mash everything together with a potato masher, leaving some texture.
-9. **Reduce:** Set the cooker to sauté and simmer uncovered, stirring and scraping the bottom often, until the mash is glossy and thick and a spoonful has no watery rim, 20 to 35 minutes. Lower the heat as it thickens. Taste and add more salt if needed.
+9. **Reduce:** Set the cooker to sauté and simmer uncovered, stirring and scraping the bottom often, until the mash is glossy and thick and a spoonful has no watery rim, 20 to 35 minutes. Lower the heat as it thickens. Taste and adjust the salt.
 10. **Finish:** Turn off the heat and fold in the cilantro and half the lemon juice. Taste and add the rest of the lemon juice if it needs brightening.

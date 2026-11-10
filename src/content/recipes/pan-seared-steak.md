@@ -45,11 +45,11 @@ equipment:
 pairsWith:
   - perfect-mashed-potatoes
   - roasted-asparagus
-  - everyday-arugula-salad
+  - sauteed-mushrooms-with-thyme
 pairingNotes:
   perfect-mashed-potatoes: Soft potatoes to catch the garlic butter.
   roasted-asparagus: Roasts in the time the steaks salt.
-  everyday-arugula-salad: Peppery greens and lemon cut the rich beef.
+  sauteed-mushrooms-with-thyme: 'Buttery thyme mushrooms, the steakhouse side.'
 servings: 5 portions
 ingredients:
   - '2 boneless ribeye or New York strip steaks, 1 1/2 inches thick, 1 lb each'

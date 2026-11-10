@@ -47,11 +47,11 @@ equipment:
   - 9x13-baking-dish
   - rimmed-baking-sheet
 pairsWith:
-  - everyday-arugula-salad
+  - kale-caesar-with-crispy-chickpeas
   - garlic-bread
   - roasted-broccolini-with-lemon
 pairingNotes:
-  everyday-arugula-salad: Peppery greens and lemon cut the rich layers.
+  kale-caesar-with-crispy-chickpeas: A garlicky kale Caesar beside the rich layers.
   garlic-bread: The red-sauce classic alongside.
   roasted-broccolini-with-lemon: Roasts while the lasagna rests.
 servings: 10 portions

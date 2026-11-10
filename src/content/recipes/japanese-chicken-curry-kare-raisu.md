@@ -47,6 +47,8 @@ ingredients:
   - 1/2 cup plus 1 tbsp all-purpose flour
   - 3 tbsp Japanese curry powder
   - 1 tsp garam masala
+  - '--- For serving ---'
+  - '6 cups hot cooked [Plain Short-Grain White Rice](/mise/recipes/steamed-white-rice/)'
 seasons:
   - year-round
 nutritionalDensity: moderate
@@ -94,5 +96,5 @@ Kare raisu, curry rice, is Japan's favorite home comfort food, a Western-style c
 4. **Simmer the vegetables:** Add the carrots, potatoes, stock, apple, Worcestershire, ketchup and soy sauce. Bring to a simmer, partly cover and cook, stirring now and then, until the potatoes and carrots are nearly tender, about 20 minutes.
 5. **Make the roux:** While the vegetables simmer, melt the butter in a small saucepan over medium-low heat. Stir in the flour and cook, stirring constantly, until light brown and toasty, 10 to 15 minutes. Turn the heat to low, stir in the curry powder and garam masala for 30 seconds, then take the pan off the heat.
 6. **Loosen the roux:** Whisk a ladleful of the hot curry liquid into the roux a little at a time until smooth.
-7. **Thicken the curry:** Stir the loosened roux into the pot. Simmer uncovered, stirring the bottom often, until the gravy is glossy and thick enough to coat a spoon and the vegetables are fully tender, 8 to 10 minutes. Thin with a splash of water if it gets too thick. Taste and add more salt if needed.
+7. **Thicken the curry:** Stir the loosened roux into the pot. Simmer uncovered, stirring the bottom often, until the gravy is glossy and thick enough to coat a spoon and the vegetables are fully tender, 8 to 10 minutes. Thin with a splash of water if it gets too thick. Taste and adjust the salt.
 8. **Serve:** Spoon the curry over bowls of rice.

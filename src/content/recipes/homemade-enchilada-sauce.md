@@ -78,4 +78,4 @@ A quick red enchilada sauce built on pure ancho chile powder, which gives it a d
 2. **Add the tomato paste:** Whisk in the tomato paste until smooth.
 3. **Add the broth:** Slowly pour in the broth, whisking hard so no lumps form.
 4. **Simmer:** Bring to a boil over medium-high heat, then lower the heat and simmer until the sauce thickens enough to coat a spoon, 5 to 7 minutes.
-5. **Finish:** Take the pan off the heat. Whisk in the vinegar and black pepper, then taste and add more salt if needed.
+5. **Finish:** Take the pan off the heat. Whisk in the vinegar and black pepper, then taste and adjust the salt.

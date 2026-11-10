@@ -120,7 +120,7 @@ Tonkotsu is the pork-bone ramen of Fukuoka, on Japan's southern island of Kyushu
 ## Directions
 
 1. **Blanch the bones:** Put the pork bones and shoulder in a large, heavy stockpot and cover with cold water. Bring to a boil over high heat and boil for 2 minutes. Drain, rinse the bones and meat of gray scum, and scrub out the pot.
-2. **Start the broth:** Return the bones and shoulder to the pot with the water, adding more if needed to cover. Bring to a rolling boil over high heat. Skim off the gray foam for the first 20 minutes, but leave the fat.
+2. **Start the broth:** Return the bones and shoulder to the pot with the water, topping it up to cover. Bring to a rolling boil over high heat. Skim off the gray foam for the first 20 minutes, but leave the fat.
 3. **Add the aromatics:** Add the ginger, onion, garlic and shiitake. Keep the kombu for later.
 4. **Boil the broth:** Keep the broth at a rolling boil, partly covered, for 8 to 12 hours. Stir along the bottom now and then and top up with boiling water to keep the bones covered. It is ready when the broth is creamy and opaque and a cooled spoonful feels sticky on your lips.
 5. **Soak the pork:** About 2 1/2 hours into the boil, when a fork slides easily into the shoulder, lift it out in one piece. Turn it in the soy sauce and mirin for the pork in a small container, cover and refrigerate, turning it now and then, while the broth finishes.

@@ -64,4 +64,4 @@ A classic cutout sugar cookie for holiday baking, with crisp edges and a tender 
 4. **Chill:** Divide the dough into two disks, wrap tightly and refrigerate for at least 2 hours. If it has chilled much longer and cracks when rolled, let it sit on the counter for 15 minutes.
 5. **Roll and cut:** Heat the oven to 375°F and line baking sheets with parchment. On a floured counter, roll one disk to 1/4 inch thick and cut with 2 1/2-inch cutters. Set the cookies 1 inch apart on the sheets and reroll the scraps once.
 6. **Bake:** Bake one sheet at a time until the very edges just turn golden, 10 to 12 minutes.
-7. **Cool:** Let the cookies firm on the sheet for 5 minutes, then move them to a rack to cool completely before decorating with [Royal Icing](/mise/recipes/royal-icing).
+7. **Cool:** Let the cookies firm on the sheet for 5 minutes, then move them to a rack to cool completely before decorating with [Royal Icing](/mise/recipes/royal-icing/).

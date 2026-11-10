@@ -56,7 +56,7 @@ ingredients:
   - 1 tsp smoked paprika
   - 1/2 tsp ground turmeric
   - 1/4 tsp black pepper
-  - '1/2 cup [tahini sauce](/mise/recipes/tahini-sauce)'
+  - '1/2 cup [tahini sauce](/mise/recipes/tahini-sauce/)'
   - '2 tbsp parsley, chopped'
   - 1 tbsp pomegranate seeds (optional)
   - 1/2 tsp Aleppo pepper (optional)

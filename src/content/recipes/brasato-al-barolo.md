@@ -72,10 +72,10 @@ equipment:
   - immersion-blender
 pairsWith:
   - creamy-polenta
-  - everyday-arugula-salad
+  - sauteed-mushrooms-with-thyme
 pairingNotes:
   creamy-polenta: The Piedmont way to catch every drop of sauce.
-  everyday-arugula-salad: Peppery greens and lemon after a rich braise.
+  sauteed-mushrooms-with-thyme: Thyme mushrooms suit the wine-dark braise.
 formula:
   version: 1
   yield:

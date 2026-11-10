@@ -30,6 +30,8 @@ prepTime: 5 min
 cookTime: 15 min
 totalTime: 20 min
 servings: 2 portions
+usesBase:
+  - pico-de-gallo
 pairsWith:
   - classic-guacamole
 pairingNotes:
@@ -41,7 +43,7 @@ ingredients:
   - '2 flour tortillas, 10 inch'
   - 1 cup shredded cheddar or Mexican-blend cheese
   - '2 tbsp pickled jalapeños, chopped, optional'
-  - 'salsa, for serving'
+  - '[Pico de Gallo](/mise/recipes/pico-de-gallo/), for serving'
   - 'sour cream, for serving'
 formula:
   version: 1
@@ -113,7 +115,8 @@ formula:
           preparation: chopped
         - id: salsa
           key: salsa
-          name: salsa
+          name: '[Pico de Gallo](/mise/recipes/pico-de-gallo/)'
+          stepName: pico de gallo
           allowance: for serving
           uses:
             - step: serve
@@ -155,6 +158,10 @@ learning:
   techniques:
     - gentle-proteins
     - temperature
+  substitutions:
+    - ingredient: Pico de Gallo
+      alternative: Store-bought fresh salsa
+      effect: Use the same amount. Refrigerated salsa tastes closest to homemade.
   review:
     status: editorial-review
     date: '2026-11-09'
@@ -170,4 +177,4 @@ This is a ten-minute breakfast for busy mornings: soft scrambled eggs and cheese
 2. **Scramble the eggs:** Melt the butter in a nonstick skillet over medium heat. Pour in the eggs and stir gently until just set but still a little wet, 1 to 2 minutes. They finish cooking inside the quesadilla. Slide them onto a plate and wipe out the skillet.
 3. **Fill the tortillas:** Lay the tortillas flat. On one half of each, layer the cheddar or Mexican-blend cheese and pickled jalapeños (if using) with the eggs, starting and ending with cheese. Fold the other half over.
 4. **Crisp the quesadillas:** Set the folded flour tortillas in the dry skillet over medium heat. Cook, pressing gently with a spatula, until the bottom is golden and crisp, 2 to 3 minutes. Flip and cook until the second side is golden and the cheese has melted, about 2 minutes more.
-5. **Slice and serve:** Let the quesadillas rest on a cutting board for 30 seconds, then cut each into thirds. Serve with the salsa and sour cream.
+5. **Slice and serve:** Let the quesadillas rest on a cutting board for 30 seconds, then cut each into thirds. Serve with the pico de gallo and sour cream.

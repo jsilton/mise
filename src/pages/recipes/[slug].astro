@@ -14,6 +14,7 @@ import { splitLeadingQuantity } from '../../lib/ingredient-quantity.mjs';
 import { placeSwaps } from '../../lib/recipe-placement.mjs';
 import { formulaShoppingList, formulaIngredients } from '../../lib/recipe-formula.mjs';
 import { sourceParts } from '../../lib/source-brand.mjs';
+import { reversePairings } from '../../lib/pairings.mjs';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -39,6 +40,8 @@ const learning = recipe.data.learning;
 const allRecipes = await getCollection('recipes');
 const recipeTitles = new Map(allRecipes.map((r) => [r.slug, r.data.title]));
 const pairings = (recipe.data.pairsWith || []).filter((slug) => recipeTitles.has(slug));
+// A side, base or condiment also lists the dishes that name it under their own Serve it with.
+const goesWith = reversePairings(recipe, allRecipes);
 const canonicalUrl = new URL(`${BASE}recipes/${recipe.slug}/`, Astro.site).href;
 
 const isDivider = isIngredientDivider;
@@ -57,7 +60,9 @@ const { byIngredient: swapsByIngredient, unplaced: otherSwaps } = placeSwaps(
 const lowerFirst = (text: string) => text.replace(/^[A-Z](?![A-Z])/, (c) => c.toLowerCase());
 // Fixes and ingredient swaps live in the recipe itself. Tips keeps storage, what to serve, and
 // swaps that change the method rather than one ingredient.
-const hasTips = Boolean(learning?.storage || pairings.length || otherSwaps.length);
+const hasTips = Boolean(
+  learning?.storage || pairings.length || goesWith.length || otherSwaps.length
+);
 const pairingNotes = recipe.data.pairingNotes || {};
 const source = recipe.data.source ? sourceParts(recipe.data.source) : null;
 // The note sits under the title. Recipe links inside it go to this site's pages.
@@ -266,6 +271,19 @@ function parseIngredientHtml(str: string): string {
                     <li>
                       <a href={`${BASE}recipes/${slug}/`}>{recipeTitles.get(slug)}</a>
                       {pairingNotes[slug] && <span class="pairing-note">{pairingNotes[slug]}</span>}
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+            {goesWith.length > 0 && (
+              <section class="prose-refined pairings tip-card">
+                <h2>Goes with</h2>
+                <ul>
+                  {goesWith.map((dish) => (
+                    <li>
+                      <a href={`${BASE}recipes/${dish.slug}/`}>{dish.title}</a>
+                      {dish.note && <span class="pairing-note">{dish.note}</span>}
                     </li>
                   ))}
                 </ul>

@@ -62,5 +62,5 @@ Ree Drummond's beef with snow peas is a quick, takeout-style stir-fry. One sauce
 2. **Marinate the beef:** Pour a third of the sauce over the steak and toss to coat. Whisk the water into the rest of the sauce and set it aside for finishing.
 3. **Cook the snow peas:** Heat the oil in a wok or large skillet over medium-high heat until it shimmers. Stir-fry the snow peas until bright green and crisp-tender, about 1 minute, then move them to a plate.
 4. **Sear the beef:** Lift half the beef from its marinade and spread it in the pan with half the scallions. Cook until browned on both sides, 2 to 3 minutes, then move it to the plate. Repeat with the rest of the beef and scallions. Discard the leftover marinade.
-5. **Finish the sauce:** Return the beef and snow peas to the pan. Stir the reserved sauce and pour it in with the red pepper flakes. Cook, stirring, until the sauce bubbles and turns thick and glossy, 1 to 2 minutes. Taste and add salt if needed.
+5. **Finish the sauce:** Return the beef and snow peas to the pan. Stir the reserved sauce and pour it in with the red pepper flakes. Cook, stirring, until the sauce bubbles and turns thick and glossy, 1 to 2 minutes. Taste and adjust the salt.
 6. **Serve:** Serve over jasmine rice.

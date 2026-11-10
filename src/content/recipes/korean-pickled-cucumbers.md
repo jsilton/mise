@@ -40,7 +40,7 @@ advancePrep:
   - prep-vegetables
 servings: '4'
 ingredients:
-  - '600 g English or Persian cucumbers, cut into 1/4-inch rounds'
+  - '1 1/3 lb (600 g) English or Persian cucumbers, about 2 English or 6 Persian, cut into 1/4-inch rounds'
   - 1/2 tsp fine salt
   - 1 tbsp gochugaru
   - 1 tbsp unseasoned rice vinegar

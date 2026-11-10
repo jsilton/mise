@@ -51,9 +51,9 @@ pairingNotes:
   dal-tadka: Fresh crunch beside soft, rich lentils.
   lamb-keema-matar: Lemony vegetables cut the spiced lamb.
 ingredients:
-  - '300 g English cucumber, cut into 1/4-inch dice'
-  - '250 g firm ripe tomatoes, seeded and cut into 1/4-inch dice'
-  - '60 g red onion, finely diced'
+  - '1 large English cucumber (about 10 oz, 300 g), cut into 1/4-inch dice'
+  - '2 medium firm ripe tomatoes (about 9 oz, 250 g), seeded and cut into 1/4-inch dice'
+  - '1/2 small red onion (about 2 oz, 60 g), finely diced'
   - '1 small serrano chile, minced (optional)'
   - '1/4 cup fresh cilantro, chopped'
   - '2 tbsp fresh mint, chopped'

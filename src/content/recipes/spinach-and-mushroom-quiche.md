@@ -26,6 +26,8 @@ prepTime: 25 min
 cookTime: 1 hr
 totalTime: 1 hr 35 min
 servings: 6 portions
+usesBase:
+  - all-butter-pie-crust
 pairsWith:
   - everyday-arugula-salad
   - roasted-asparagus
@@ -33,7 +35,9 @@ pairingNotes:
   everyday-arugula-salad: Peppery greens and lemon against the rich custard.
   roasted-asparagus: A green vegetable for a brunch plate.
 ingredients:
-  - '1 unbaked pie crust, for a deep 9-inch pie plate'
+  - >-
+    1 unbaked [All-Butter Pie Crust](/mise/recipes/all-butter-pie-crust/), from 1 1/2 batches of
+    dough
   - 2 tbsp extra-virgin olive oil
   - '8 oz fresh mixed mushrooms, sliced'
   - '1 1/2 cups sweet onion, thinly sliced'
@@ -69,12 +73,13 @@ formula:
       ingredients:
         - id: pastry
           key: pastry
-          name: unbaked pie crust
+          name: 'unbaked [All-Butter Pie Crust](/mise/recipes/all-butter-pie-crust/)'
+          stepName: unbaked pie crust
           quantity:
             amount: 1
             unit: count
-          plural: unbaked pie crusts
-          preparation: for a deep 9-inch pie plate
+          plural: 'unbaked [All-Butter Pie Crusts](/mise/recipes/all-butter-pie-crust/)'
+          preparation: from 1 1/2 batches of dough
           uses:
             - step: prepare
               share: 1
@@ -244,6 +249,9 @@ learning:
     - temperature
     - browning
   substitutions:
+    - ingredient: All-Butter Pie Crust
+      alternative: 1 store-bought deep-dish pie crust
+      effect: It is less flaky and buttery. Bake it the same way.
     - ingredient: Gruyère
       alternative: Swiss cheese
       effect: 'Milder and less nutty, but it melts the same way.'

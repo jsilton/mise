@@ -44,10 +44,10 @@ ingredients:
   - 1/4 tsp ground white pepper
   - 1/2 tsp kosher salt
   - '--- Wontons ---'
-  - '1 lb thin wonton wrappers, store-bought or [Fresh Wonton Wrappers](/mise/recipes/fresh-wonton-wrappers)'
+  - '1 lb thin wonton wrappers, store-bought or [Fresh Wonton Wrappers](/mise/recipes/fresh-wonton-wrappers/)'
   - 'water, for sealing'
   - '--- Soup ---'
-  - '4 cups [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth)'
+  - '4 cups [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth/)'
   - 'baby bok choy or spinach, for the bowls'
   - '1 sheet nori, shredded'
   - 4 tsp light soy sauce

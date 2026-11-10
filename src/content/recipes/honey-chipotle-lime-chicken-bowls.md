@@ -29,7 +29,7 @@ ingredients:
   - 1 tsp fine salt
   - '2 tsp neutral oil, divided'
   - '--- Bowls ---'
-  - '2 batches [Cilantro-Lime Rice](/mise/recipes/cilantro-lime-rice)'
+  - '2 batches [Cilantro-Lime Rice](/mise/recipes/cilantro-lime-rice/)'
   - 4 oz baby spinach or spring mix
   - '1 lb tomatoes, diced'
   - '2 ripe avocados, diced'
@@ -69,7 +69,7 @@ Chicken cutlets in a smoky, sweet marinade of chipotle in adobo, honey, lime and
 ## Directions
 
 1. **Marinate the chicken:** In a large bowl, whisk the chipotle, honey, lime juice, olive oil, Dijon, garlic and salt. Add the chicken and turn to coat. Cover and refrigerate for 30 minutes to 2 hours.
-2. **Make the rice:** While the chicken marinates, make a double batch of [Cilantro-Lime Rice](/mise/recipes/cilantro-lime-rice).
+2. **Make the rice:** While the chicken marinates, make a double batch of [Cilantro-Lime Rice](/mise/recipes/cilantro-lime-rice/).
 3. **Cook the first batch:** Heat half the neutral oil in a 12-inch heavy skillet over medium heat. Lift half the cutlets from the marinade, let the extra drip off and lay them in the pan. Cook until browned and 165°F in the thickest part, about 4 minutes on the first side and 3 to 4 on the second. Turn the heat down if the honey starts to blacken.
 4. **Cook the second batch:** Wipe any burned bits from the pan, add the rest of the oil and cook the remaining cutlets the same way. Discard the marinade.
 5. **Rest and slice:** Let the chicken rest for 5 minutes, then slice it across the grain.

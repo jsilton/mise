@@ -92,4 +92,4 @@ Farro is the grain of ancient Rome, nutty and chewy enough to stand up to a shar
 2. **Cool the farro:** Spread the farro on a sheet pan so the grains don't clump. Let it cool to room temperature, about 15 minutes.
 3. **Make the dressing:** While the farro cools, whisk the olive oil, lemon juice, oregano, garlic and pepper in a small bowl.
 4. **Dress the salad:** Put the cucumber, tomatoes, bell pepper, onion and olives in a large bowl. Add the cooled farro and the dressing and toss until every grain is coated.
-5. **Finish and serve:** Just before serving, fold in the feta, parsley, mint and dill. Taste and add more salt or lemon juice if it needs it. Serve at room temperature or chilled.
+5. **Finish and serve:** Just before serving, fold in the feta, parsley, mint and dill. Taste and adjust the salt and lemon juice. Serve at room temperature.

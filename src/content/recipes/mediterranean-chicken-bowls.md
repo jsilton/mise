@@ -23,10 +23,10 @@ advancePrep: []
 servings: 4 portions
 pairsWith:
   - tzatziki-sauce
-  - everyday-arugula-salad
+  - roasted-cauliflower-with-tahini
 pairingNotes:
   tzatziki-sauce: A cool garlic sauce to spoon over the chicken.
-  everyday-arugula-salad: Peppery greens on the side of a hearty bowl.
+  roasted-cauliflower-with-tahini: Spiced cauliflower and tahini suit the bowl.
 ingredients:
   - '1 1/2 lb boneless, skinless chicken thighs'
   - 3 tbsp extra-virgin olive oil
@@ -40,7 +40,7 @@ ingredients:
   - '1 English cucumber, diced'
   - '2 cups cherry tomatoes, halved'
   - '1/2 cup Greek feta, crumbled'
-  - '[Pickled Red Onions](/mise/recipes/pickled-red-onions), for serving'
+  - '[Pickled Red Onions](/mise/recipes/pickled-red-onions/), for serving'
   - 'lemon wedges, for serving'
 seasons:
   - year-round
@@ -172,7 +172,7 @@ formula:
           preparation: crumbled
         - id: onions
           key: pickled-red-onions
-          name: '[Pickled Red Onions](/mise/recipes/pickled-red-onions)'
+          name: '[Pickled Red Onions](/mise/recipes/pickled-red-onions/)'
           allowance: for serving
           uses:
             - step: finish
@@ -241,4 +241,4 @@ These bowls borrow from Greek souvlaki, with chicken thighs marinated in lemon, 
 3. **Rest and slice:** Move the chicken to a cutting board and rest for 5 minutes, then slice it into thin strips.
 4. **Build the base:** While the chicken rests, divide the hummus and yellow rice or quinoa among deep bowls, spreading the hummus on the bottom and spooning the warm grain on top.
 5. **Add the toppings:** Arrange the sliced chicken, the English cucumber and cherry tomatoes in separate piles over the grain.
-6. **Finish and serve:** Top with the Greek feta, [Pickled Red Onions](/mise/recipes/pickled-red-onions), and lemon wedges and serve right away.
+6. **Finish and serve:** Top with the Greek feta, [Pickled Red Onions](/mise/recipes/pickled-red-onions/), and lemon wedges and serve right away.
