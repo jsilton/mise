@@ -146,52 +146,9 @@ Cuisine tags identify the cultural origin of a recipe. Follow these rules for co
 - **No Boiled Meat:** Meat should be seared, roasted, or poached gently. Never boiled in plain water.
 - **Source Authority:** Use Serious Eats, Bon Appétit, Alton Brown, Rick Bayless, Smitten Kitchen.
 
-## 5. Batch Scripts for Recipe Improvements
+## 5. Bulk Recipe Changes
 
-The project includes several automated scripts to improve recipes at scale. Always run with `--dry-run` first to preview changes.
-
-### batch-technique.mjs
-
-Improves technique precision across recipes in three ways:
-
-1. **Temperature additions:** Finds cooking steps that mention "sear", "fry", "sauté", "brown", or "caramelize" without explicit temperature, and adds inline temperatures (e.g., "high heat (400-450°F)").
-2. **Visual doneness cues:** Replaces vague phrases like "cook until done" with specific visual cues (e.g., "until golden brown and crispy", "until sauce coats the back of a spoon").
-3. **Resting instructions:** Adds resting steps to meat-based main dishes with sear/roast/grill/bake methods if one isn't already present.
-
-**Usage:**
-
-```bash
-# Dry run (preview first 10 recipes):
-npm run batch-technique:dry
-
-# Or with options:
-node scripts/batch-technique.mjs --dry-run --verbose --limit 20
-
-# Apply all changes:
-npm run batch-technique
-```
-
-**Options:**
-
-- `--dry-run` — Preview changes without writing files
-- `--verbose` — Show detailed output for each recipe modified
-- `--limit N` — Process only first N recipes (default: 10 for dry-run, unlimited otherwise)
-
-**What it modifies:**
-
-- Only steps with numbered headers (e.g., `1. **Sear:**`)
-- Skips steps that already have temperatures or good visual cues
-- Skips rest instructions for recipes that already mention resting
-- Non-destructive: only adds detail, never removes existing content
-
-**After running:**
-
-```bash
-npm run build      # Verify the build succeeds
-npm run validate-recipes  # Validate all recipe metadata
-git add -A && git commit -m "refactor: improve technique precision"
-git push origin main
-```
+Bulk scripts that rewrite recipe prose were removed in November 2026 because they could overwrite reviewed pages. Make recipe changes one file at a time, or with a reviewed one-off script that edits only structured fields, and run `pnpm run check:copy` and `pnpm run validate-recipes` before committing.
 
 ## 6. Documentation
 
