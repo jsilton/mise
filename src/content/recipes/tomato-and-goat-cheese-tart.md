@@ -310,9 +310,10 @@ formula:
     - id: shape
       title: Shape the shell
       text: >-
-        Dust the counter with {{ingredients}} and roll the dough into a 12-inch circle about 1/4
-        inch thick. Press it into an 11-inch tart pan with a removable bottom and freeze for 20
-        minutes. Raise the oven to 450°F.
+        Dust the counter with {{ingredients}} and roll the dough into a 13-inch circle a scant 1/4
+        inch thick. Press it into the bottom and up the sides of an 11-inch tart pan with a
+        removable bottom and trim it flush with the rim. Freeze for 20 minutes. Raise the oven to
+        450°F.
     - id: blind
       title: Blind-bake the shell
       text: >-
@@ -349,7 +350,7 @@ This holiday tart from Food & Wine layers roasted heirloom tomatoes over goat ch
 2. **Cut in the butter:** Add cold unsalted butter and goat cheese and pulse until the mixture looks like coarse crumbs with pea-size bits.
 3. **Bring the dough together:** Add cold apple cider vinegar and ice water a spoonful at a time, pulsing just until the dough clumps together. Press it into a disk, wrap and refrigerate for at least 30 minutes.
 4. **Roast the tomatoes:** While the dough chills, heat the oven to 425°F with racks in the upper and lower thirds. Divide heirloom tomatoes, olive oil, kosher salt, and black pepper between two large rimmed baking sheets, turning the slices to coat and spreading them in one layer. Roast, switching the pans halfway, until the slices shrink and feel dry on top, 30 to 45 minutes.
-5. **Shape the shell:** Dust the counter with all-purpose flour and roll the dough into a 12-inch circle about 1/4 inch thick. Press it into an 11-inch tart pan with a removable bottom and freeze for 20 minutes. Raise the oven to 450°F.
+5. **Shape the shell:** Dust the counter with all-purpose flour and roll the dough into a 13-inch circle a scant 1/4 inch thick. Press it into the bottom and up the sides of an 11-inch tart pan with a removable bottom and trim it flush with the rim. Freeze for 20 minutes. Raise the oven to 450°F.
 6. **Blind-bake the shell:** Set the tart pan on a rimmed baking sheet. Line the shell with foil and fill it with pie weights. Bake until the edges are set and just turning golden, 20 to 25 minutes. Lift out the foil and weights, let the shell cool for 10 minutes and lower the oven to 425°F.
 7. **Spread the filling:** Whisk goat cheese, whole-milk ricotta, garlic, and fresh thyme leaves until smooth and spread it over the bottom of the shell.
 8. **Layer the tomatoes:** Arrange the roasted tomatoes over the cheese, overlapping them slightly. Drizzle and season with olive oil, kosher salt, and black pepper.

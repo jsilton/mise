@@ -9,7 +9,6 @@ occasions:
   - entertaining
   - comfort-food
 flavorProfile:
-  - spicy
   - savory
   - umami
 cuisines:
@@ -22,12 +21,13 @@ totalTime: 55 min
 servings: '4'
 seasons:
   - year-round
-  - winter
 nutritionalDensity: moderate
 leftovers: good
 advancePrep:
   - make-ahead
   - freeze-ahead
+usesBase:
+  - cantonese-wonton-broth
 pairsWith:
   - smashed-cucumber-salad
 pairingNotes:
@@ -42,7 +42,7 @@ ingredients:
   - 1/4 tsp kosher salt, plus more for the broth
   - 'pinch of ground white pepper, plus more for the bowls'
   - '40 small wonton wrappers, about 3 1/2 inches square'
-  - 4 cups Cantonese wonton broth
+  - '4 cups [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth)'
   - '2 heads baby bok choy, quartered lengthwise'
   - 'toasted sesame oil, for the bowls'
   - 'chili oil, for serving (optional)'

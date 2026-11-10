@@ -10,6 +10,7 @@ occasions:
   - entertaining
 flavorProfile:
   - sweet
+  - acidic
   - rich
 cuisines:
   - Mediterranean
@@ -34,11 +35,12 @@ ingredients:
   - '1/4 cup red onion, finely diced'
   - '1/2 cup toasted pepitas'
   - '1 orange, zested and juiced'
+  - 1 tbsp fresh lime juice
   - '2 tbsp extra-virgin olive oil, for the kale'
   - '3 tbsp plus 1 tsp extra-virgin olive oil, for the dressing'
   - '1 clove garlic, minced'
   - 1 tsp Dijon mustard
-  - 2 tsp honey
+  - 1 tsp honey
   - 'kosher salt and black pepper, to taste'
 origin: Mediterranean-inspired home cooking
 seasons:
@@ -76,6 +78,6 @@ Sweet mango, creamy avocado and salty feta on a base of massaged kale, with an o
 ## Directions
 
 1. **Massage the kale:** Put the kale in a large, wide bowl with the oil for the kale and a pinch of salt. Rub the leaves with your hands until they turn dark green and soft, about 2 minutes.
-2. **Shake the dressing:** In a small jar, shake the orange juice and zest, the oil for the dressing, garlic, mustard and honey until creamy. Season with salt and pepper.
+2. **Shake the dressing:** In a small jar, shake the orange juice and zest, the lime juice, the oil for the dressing, garlic, mustard and honey until creamy. Season with salt and pepper.
 3. **Toss the salad:** Add the mango, feta and onion to the kale. Pour on most of the dressing and toss gently. Taste a leaf with fruit and cheese and add the rest of the dressing if it needs it.
 4. **Finish and serve:** Gently fold in the avocado, scatter the pepitas on top and serve.

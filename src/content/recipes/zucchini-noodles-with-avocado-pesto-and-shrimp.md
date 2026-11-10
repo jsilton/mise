@@ -8,7 +8,7 @@ cookingMethods:
 occasions:
   - quick-lunch
   - light-and-fresh
-  - snack
+  - weeknight
 seasons:
   - summer
 nutritionalDensity: light
@@ -22,7 +22,7 @@ flavorProfile:
   - acidic
   - herbaceous
 cuisines:
-  - Italian
+  - American
 role: main
 vibe: quick
 prepTime: 25 min
@@ -52,7 +52,7 @@ ingredients:
   - '3 garlic cloves, minced'
   - '1 lb large shrimp, peeled, deveined and patted dry'
   - 1 tsp Old Bay seasoning
-origin: Italy
+origin: United States
 source: Adapted from EatingWell
 sourceUrl: 'https://www.eatingwell.com/recipe/257004/zucchini-noodles-with-avocado-pesto-shrimp/'
 formula:

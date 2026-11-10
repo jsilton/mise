@@ -19,11 +19,11 @@ ingredients:
   - '8 oz (225 g) boneless skinless chicken thighs, cut into thin strips'
   - 2 tsp cornstarch
   - 2 tsp water
-  - '2 tsp vegetable oil, for the chicken'
-  - '2 tbsp vegetable oil, for searing'
+  - 2 tsp vegetable oil for the chicken
+  - 2 tbsp vegetable oil for searing
   - '--- Noodles and vegetables ---'
   - 1 lb (450 g) fresh lo mein egg noodles
-  - '2 tbsp vegetable oil, for the vegetables'
+  - 2 tbsp vegetable oil for the vegetables
   - '1 garlic clove, minced'
   - '4 cups cabbage, shredded'
   - '2 medium carrots, julienned'
@@ -81,24 +81,22 @@ formula:
           role: cooking-water
         - id: coating-oil
           key: oil
-          name: vegetable oil
+          name: vegetable oil for the chicken
           quantity:
             amount: 2
             unit: tsp
           uses:
             - step: coat
               share: 1
-          preparation: for the chicken
         - id: sear-oil
           key: oil
-          name: vegetable oil
+          name: vegetable oil for searing
           quantity:
             amount: 2
             unit: tbsp
           uses:
             - step: sear
               share: 1
-          preparation: for searing
     - id: noodles
       name: Noodles and vegetables
       ingredients:
@@ -116,14 +114,13 @@ formula:
               unit: g
         - id: veg-oil
           key: oil
-          name: vegetable oil
+          name: vegetable oil for the vegetables
           quantity:
             amount: 2
             unit: tbsp
           uses:
             - step: vegetables
               share: 1
-          preparation: for the vegetables
         - id: garlic
           key: garlic
           name: garlic clove
@@ -245,12 +242,12 @@ formula:
     - id: sear
       title: Sear the chicken
       text: >-
-        Heat {{ingredients}} in a wok over high heat until shimmering. Spread the chicken in one
+        Heat the {{ingredients}} in a wok over high heat until shimmering. Spread the chicken in one
         layer and sear, turning once, until browned and cooked through, about 3 minutes. Move it to
         a plate.
     - id: vegetables
       title: Cook the garlic
-      text: 'Add {{ingredients}} to the hot wok and stir until fragrant, about 10 seconds.'
+      text: 'Add the {{ingredients}} to the hot wok and stir until fragrant, about 10 seconds.'
     - id: veg2
       title: Stir-fry the vegetables
       text: 'Add {{ingredients}} and stir-fry over high heat until just wilted, about 1 minute.'
@@ -299,10 +296,10 @@ This is the Cantonese takeout classic, made the way The Woks of Life makes it at
 
 ## Directions
 
-1. **Coat the chicken:** Toss boneless skinless chicken thighs, cornstarch, water, and vegetable oil in a bowl until the chicken is evenly coated. Let it sit while you cook the noodles.
+1. **Coat the chicken:** Toss boneless skinless chicken thighs, cornstarch, water, and vegetable oil for the chicken in a bowl until the chicken is evenly coated. Let it sit while you cook the noodles.
 2. **Boil the noodles:** Bring a large pot of water to a boil. Cook fresh lo mein egg noodles until just al dente, 2 to 3 minutes. Rinse briefly under warm water and drain well.
-3. **Sear the chicken:** Heat vegetable oil in a wok over high heat until shimmering. Spread the chicken in one layer and sear, turning once, until browned and cooked through, about 3 minutes. Move it to a plate.
-4. **Cook the garlic:** Add vegetable oil and garlic clove to the hot wok and stir until fragrant, about 10 seconds.
+3. **Sear the chicken:** Heat the vegetable oil for searing in a wok over high heat until shimmering. Spread the chicken in one layer and sear, turning once, until browned and cooked through, about 3 minutes. Move it to a plate.
+4. **Cook the garlic:** Add the vegetable oil for the vegetables and garlic clove to the hot wok and stir until fragrant, about 10 seconds.
 5. **Stir-fry the vegetables:** Add cabbage and medium carrots and stir-fry over high heat until just wilted, about 1 minute.
 6. **Add the noodles:** Pour Shaoxing wine around the edge of the wok. Add the noodles and chicken and toss from the bottom for 30 seconds, adding a splash of water if the noodles clump. Cover for 1 minute.
 7. **Season the noodles:** Uncover and add soy sauce, dark soy sauce, sesame oil, salt, and sugar. Toss until the noodles are evenly brown, about 30 seconds.

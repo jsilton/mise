@@ -10,7 +10,10 @@ occasions:
   - entertaining
   - weekend-project
 flavorProfile:
-  - acidic
+  - rich
+  - creamy
+  - nutty
+  - savory
 cuisines:
   - Swiss
 role: main
@@ -19,6 +22,9 @@ prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '6'
+equipment:
+  - heavy-pot
+  - fondue-burner
 pairsWith:
   - everyday-arugula-salad
   - shaved-fennel-citrus-salad

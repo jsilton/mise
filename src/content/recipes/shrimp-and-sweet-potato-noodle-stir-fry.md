@@ -96,7 +96,7 @@ Korean sweet potato glass noodles, called dangmyeon, give this soy, lime and gin
 2. **Mix the sauce:** In a small bowl, whisk the sauce ingredients until the honey dissolves. Set it by the stove.
 3. **Boil the noodles:** Boil the noodles in a large pot of water until soft and springy with no hard center, 6 to 7 minutes or as the package says. Drain well and toss right away with the noodle sesame oil.
 4. **Sear the shrimp:** Heat a wok over high heat until it just smokes. Add half the avocado oil and spread the shrimp in one layer. Sear until pink on the outside but not cooked through, about 1 minute per side, then move them to a plate.
-5. **Cook the aromatics:** Add the rest of the oil, the garlic, ginger, green onion whites and gochugaru, if using. Stir until fragrant, about 30 seconds.
-6. **Cook the vegetables:** Add the carrot and stir-fry for 2 minutes. Add the snow peas and stir-fry until bright green and crisp-tender, 1 to 2 minutes more.
+5. **Cook the aromatics:** Lower the heat to medium-high. Add the rest of the oil, the garlic, ginger, green onion whites and gochugaru, if using. Stir until fragrant, 15 to 20 seconds.
+6. **Cook the vegetables:** Add the carrot right away and stir-fry for 2 minutes. Add the snow peas and stir-fry until bright green and crisp-tender, 1 to 2 minutes more.
 7. **Toss it all:** Return the shrimp and their juices to the wok with the noodles and sauce. Toss over high heat until the shrimp are opaque all the way through and the sauce coats every noodle, 1 to 2 minutes.
 8. **Serve:** Fold in the green onion greens and scatter with sesame seeds. Serve right away with lime wedges for squeezing.

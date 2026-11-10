@@ -80,7 +80,8 @@ This is an easy Indian-inspired family curry made with curry powder, tomato past
 
 1. **Bloom the spices:** Heat the oil in a skillet over medium heat. Cook the onion, stirring, until soft, 4 to 5 minutes. Add the garlic, ginger and curry powder and stir until fragrant, 1 to 2 minutes, lowering the heat if the spices start to darken.
 2. **Make the sauce:** Stir the coconut milk, tomato paste and salt into the skillet, scraping up the spices from the bottom. Bring just to a simmer, then turn off the heat.
-3. **Fill the slow cooker:** Spread the carrots and peppers in a 4- to 5-quart slow cooker. Lay the chicken on top and pour the sauce over everything.
-4. **Slow-cook:** Cover and cook on HIGH for 3 to 4 hours or LOW for 5 to 6 hours, until the chicken reaches 165°F and the carrots are tender.
-5. **Finish the curry:** Stir in the garam masala, cover and cook 5 minutes more. Taste for salt. If the sauce is thin, ladle some into a saucepan, boil it down for a few minutes and stir it back in.
-6. **Serve:** Spoon the curry over the brown rice and scatter with cilantro. Serve the mango and lime wedges alongside.
+3. **Fill the slow cooker:** Spread the carrots in a 4- to 5-quart slow cooker. Lay the chicken on top and pour the sauce over everything.
+4. **Slow-cook:** Cover and cook on HIGH for 2 1/2 to 3 1/2 hours or LOW for 4 1/2 to 5 1/2 hours.
+5. **Add the peppers:** Stir in the bell peppers, cover and cook until the chicken reaches 165°F, the carrots are tender and the peppers are just soft, 30 to 45 minutes more.
+6. **Finish the curry:** Stir in the garam masala, cover and cook 5 minutes more. Taste for salt. If the sauce is thin, ladle some into a saucepan, boil it down for a few minutes and stir it back in.
+7. **Serve:** Spoon the curry over the brown rice and scatter with cilantro. Serve the mango and lime wedges alongside.

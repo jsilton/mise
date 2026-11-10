@@ -45,7 +45,7 @@ pairingNotes:
   garlicky-lemon-kale-with-carrots: Garlicky greens, close to Ethiopian gomen.
 ingredients:
   - '1 1/2 cups red lentils, rinsed until the water runs clear'
-  - 3 cups water, plus more as needed
+  - 4 cups water, plus more as needed
   - 3 tbsp niter kibbeh (Ethiopian spiced butter)
   - '2 large red onions, finely diced'
   - '4 garlic cloves, minced'

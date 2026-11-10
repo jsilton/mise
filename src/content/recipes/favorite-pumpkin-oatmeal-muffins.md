@@ -46,7 +46,8 @@ ingredients:
   - 1/3 cup maple syrup
   - 2 large eggs
   - 1 tsp pumpkin pie spice
-  - 1 tsp baking soda
+  - 1 1/2 tsp baking powder
+  - 1/4 tsp baking soda
   - 1/4 tsp sea salt
   - 1 tsp vanilla extract
   - 1/4 cup dark chocolate chips (optional)
@@ -82,7 +83,7 @@ These come from Amy Palanjian of Yummy Toddler Food. There is no flour at all. T
 ## Directions
 
 1. **Prepare the pan:** Heat the oven to 375°F. Grease a 12-cup muffin tin or set silicone liners in it.
-2. **Blend the batter:** Put the oats, pumpkin puree, milk, maple syrup, eggs, pumpkin pie spice, baking soda, salt and vanilla in a blender. Blend on high, scraping down the sides once, until the oats are ground and the batter is smooth with no flakes left, about 1 minute.
+2. **Blend the batter:** Put the oats, pumpkin puree, milk, maple syrup, eggs, pumpkin pie spice, baking powder, baking soda, salt and vanilla in a blender. Blend on high, scraping down the sides once, until the oats are ground and the batter is smooth with no flakes left, about 1 minute.
 3. **Fill the cups:** Divide the batter among the cups, about three-quarters full, and scatter the chocolate chips over the tops.
 4. **Bake the muffins:** Bake until the tops are firm to the touch, the edges are lightly golden and a toothpick in the center comes out clean, 20 to 22 minutes.
 5. **Cool the muffins:** Let the muffins cool in the pan for 10 minutes, then move them to a rack.

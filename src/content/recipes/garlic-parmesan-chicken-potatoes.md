@@ -42,7 +42,7 @@ ingredients:
   - 2 tbsp olive oil
   - 1 tsp kosher salt
   - '--- Chicken and spinach ---'
-  - '2 tbsp unsalted butter, for searing'
+  - '1 tbsp olive oil, for searing'
   - '6 bone-in, skin-on chicken thighs'
   - 1 tbsp Italian seasoning
   - 1 1/2 tsp kosher salt
@@ -108,11 +108,11 @@ formula:
     - id: chicken
       name: Chicken and spinach
       ingredients:
-        - id: sear-butter
-          key: unsalted-butter
-          name: unsalted butter
+        - id: sear-oil
+          key: olive-oil
+          name: olive oil
           quantity:
-            amount: 2
+            amount: 1
             unit: tbsp
           preparation: for searing
           uses:
@@ -298,10 +298,9 @@ formula:
     - id: sear
       title: Brown the chicken
       text: >-
-        Heat a large oven-safe skillet over medium-high heat. Add {{ingredients}}, letting the
-        butter foam before the chicken goes in skin side down. Sear until the skin is deep golden, 5
-        to 7 minutes. Turn and brown the other side, about 2 minutes, then move the chicken to a
-        plate.
+        Heat a large oven-safe skillet over medium-high heat. Add {{ingredients}}, letting the oil
+        shimmer before the chicken goes in skin side down. Sear until the skin is deep golden, 5 to
+        7 minutes. Turn and brown the other side, about 2 minutes, then move the chicken to a plate.
     - id: spinach
       title: Wilt the spinach
       text: >-
@@ -363,7 +362,7 @@ This Damn Delicious dinner bakes seared chicken thighs in a garlic-Parmesan crea
 
 1. **Roast the potatoes:** Heat the oven to 425°F. Toss baby potatoes, olive oil, and kosher salt on a large rimmed sheet pan and spread them in one layer, cut side down. Roast, stirring once, until browned at the edges and tender in the center, 30 to 35 minutes. Use a second pan if they crowd.
 2. **Season the chicken:** While the potatoes roast, pat the chicken dry with paper towels. Season it all over with Italian seasoning, kosher salt, and black pepper.
-3. **Brown the chicken:** Heat a large oven-safe skillet over medium-high heat. Add unsalted butter and bone-in, skin-on chicken thighs, letting the butter foam before the chicken goes in skin side down. Sear until the skin is deep golden, 5 to 7 minutes. Turn and brown the other side, about 2 minutes, then move the chicken to a plate.
+3. **Brown the chicken:** Heat a large oven-safe skillet over medium-high heat. Add olive oil and bone-in, skin-on chicken thighs, letting the oil shimmer before the chicken goes in skin side down. Sear until the skin is deep golden, 5 to 7 minutes. Turn and brown the other side, about 2 minutes, then move the chicken to a plate.
 4. **Wilt the spinach:** Pour off all but a thin film of fat, leaving the browned bits in the pan. Add unsalted butter and baby spinach and stir until the butter melts and the spinach just wilts, about 2 minutes. Move the spinach to a bowl.
 5. **Cook the garlic:** Turn the heat to medium. Add unsalted butter and garlic cloves and stir until the butter melts and the garlic is fragrant, about 1 minute. Don't let it brown.
 6. **Make the roux:** Whisk in all-purpose flour and cook, whisking, until smooth and pale gold, about 1 minute.

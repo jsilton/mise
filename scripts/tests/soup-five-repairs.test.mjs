@@ -36,7 +36,11 @@ test('classic wontons inventory bowl seasonings and optional garnish independent
   assert.ok(data.ingredients.includes('chili oil, for serving (optional)'));
   assert.ok(data.ingredients.includes('1 tsp Shaoxing wine'));
   // The broth is its own linked recipe, so the times cover only filling, folding and boiling.
-  assert.ok(data.ingredients.includes('4 cups Cantonese wonton broth'));
+  assert.ok(
+    data.ingredients.includes(
+      '4 cups [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth)'
+    )
+  );
   assert.equal(data.totalTime, '55 min');
   assertTimesAddUp(data);
   // The 165°F thermometer check was dropped by the style guide (pork filling is not on its

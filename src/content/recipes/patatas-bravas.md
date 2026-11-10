@@ -52,7 +52,7 @@ pairingNotes:
 ingredients:
   - '--- Potatoes ---'
   - '2 lb Yukon Gold potatoes, peeled and cut into rough 1 1/2-inch chunks'
-  - '4 cups vegetable or peanut oil, for frying'
+  - '4 cups neutral frying oil, such as canola or sunflower'
   - 'flaky sea salt, for finishing'
   - '--- Bravas sauce ---'
   - 2 tbsp extra-virgin olive oil
@@ -114,14 +114,13 @@ formula:
           preparation: peeled and cut into rough 1 1/2-inch chunks
         - id: oil
           key: neutral-oil
-          name: vegetable or peanut oil
+          name: 'neutral frying oil, such as canola or sunflower'
           quantity:
             amount: 4
             unit: cup
           uses:
             - step: heat-oil
               share: 1
-          preparation: for frying
         - id: finish-salt
           key: flaky-sea-salt
           name: flaky sea salt
@@ -303,8 +302,8 @@ formula:
     - id: heat-oil
       title: Heat the oil
       text: >-
-        While the sauce simmers, pour {{ingredients}} into a Dutch oven or heavy pot, filling it no
-        more than halfway. Heat over medium-high to 375°F on a thermometer, about 10 minutes.
+        While the sauce simmers, fill a Dutch oven or heavy pot no more than halfway with
+        {{ingredients}}. Heat over medium-high to 375°F on a thermometer, about 10 minutes.
     - id: finish-sauce
       title: Finish the sauce
       text: >-
@@ -338,7 +337,7 @@ Patatas bravas is the tapas bar classic of Madrid: fried potato chunks under a s
 4. **Cook the garlic:** Add garlic cloves and stir until fragrant, about 30 seconds.
 5. **Toast the spices:** Stir in pimentón de la Vera, sweet paprika, and cayenne pepper and cook until fragrant, about 30 seconds. Turn the heat down if the paprika starts to darken, since burnt paprika turns bitter.
 6. **Simmer the sauce:** Add crushed tomatoes, sugar, and kosher salt. Simmer over medium-low heat, stirring now and then, until thick enough to hold its shape on a spoon, 15 to 20 minutes.
-7. **Heat the oil:** While the sauce simmers, pour vegetable or peanut oil into a Dutch oven or heavy pot, filling it no more than halfway. Heat over medium-high to 375°F on a thermometer, about 10 minutes.
+7. **Heat the oil:** While the sauce simmers, fill a Dutch oven or heavy pot no more than halfway with neutral frying oil, such as canola or sunflower. Heat over medium-high to 375°F on a thermometer, about 10 minutes.
 8. **Finish the sauce:** Take the pan off the heat and stir in sherry vinegar. For a smooth sauce, blend it with an immersion blender. Set aside.
 9. **Make the alioli:** Whisk mayonnaise, garlic clove, lemon juice, and kosher salt in a small bowl until smooth. Chill until serving.
 10. **Fry the potatoes:** Fry the potatoes in batches without crowding, turning now and then, until deep golden and crisp, 5 to 7 minutes. Lift them onto a rack set over a sheet pan and sprinkle right away with flaky sea salt. Let the oil return to 375°F between batches.

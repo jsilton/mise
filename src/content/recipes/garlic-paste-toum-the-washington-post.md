@@ -4,6 +4,12 @@ title: Toum
 difficulty: easy
 cookingMethods:
   - blend
+dietary:
+  - vegan
+  - vegetarian
+  - gluten-free
+  - dairy-free
+  - egg-free
 occasions:
   - meal-prep
   - entertaining
@@ -25,9 +31,10 @@ pairsWith:
   - middle-eastern-style-grilled-chicken-kabobs
 ingredients:
   - '2 cups garlic cloves, peeled'
-  - 1/2 tsp kosher salt
-  - 3 cups grapeseed or canola oil
-  - 1/4 cup fresh lemon juice
+  - 2 tsp kosher salt
+  - 1 1/2 cups grapeseed or canola oil for the base
+  - 1 1/2 cups grapeseed or canola oil for finishing
+  - '1/4 cup fresh lemon juice, plus more to taste'
   - 1/3 cup cold water
 seasons:
   - year-round
@@ -60,32 +67,40 @@ formula:
           key: salt
           name: kosher salt
           quantity:
-            amount: 1/2
+            amount: 2
             unit: tsp
           uses:
             - step: puree
               share: 1
         - id: oil
           key: oil
-          name: grapeseed or canola oil
+          name: grapeseed or canola oil for the base
           quantity:
-            amount: 3
+            amount: 1 1/2
             unit: cup
           uses:
             - step: first
-              share: 1/2
+              share: 1
+        - id: oil-finish
+          key: oil
+          name: grapeseed or canola oil for finishing
+          quantity:
+            amount: 1 1/2
+            unit: cup
+          uses:
             - step: thicken
-              share: 1/6
+              share: 1/3
             - step: second
-              share: 1/6
+              share: 1/3
             - step: finish
-              share: 1/6
+              share: 1/3
         - id: lemon
           key: lemon
           name: fresh lemon juice
           quantity:
             amount: 1/4
             unit: cup
+          preparation: plus more to taste
           uses:
             - step: lemon
               share: 1
@@ -102,13 +117,13 @@ formula:
     - id: puree
       title: Purée the garlic
       text: >-
-        Put {{ingredients}} in a food processor. Pulse, scraping down the sides often, until the
+        Put the {{ingredients}} in a food processor. Pulse, scraping down the sides often, until the
         garlic is a completely smooth paste, about 2 minutes.
     - id: first
       title: Start the emulsion
       text: >-
-        With the motor running, add {{ingredients}} in the thinnest stream you can manage, drop by
-        drop at first. Stop to scrape the sides once or twice. Keep going until it is a thick,
+        With the motor running, add the {{ingredients}} in the thinnest stream you can manage, drop
+        by drop at first. Stop to scrape the sides once or twice. Keep going until it is a thick,
         glossy paste, about 10 minutes.
     - id: thicken
       title: Thicken the paste
@@ -117,18 +132,21 @@ formula:
         grits, about 3 minutes.
     - id: lemon
       title: Add the lemon
-      text: 'With the motor running, slowly pour in {{ingredients}}. The paste turns lighter and whiter.'
+      text: >-
+        With the motor running, slowly pour in the {{ingredients}}. The paste turns lighter and
+        whiter.
     - id: second
       title: Add more oil
       text: 'Add {{ingredients}} in the same thin stream until it is absorbed, about 3 minutes.'
     - id: water
       title: Add the water
-      text: 'Slowly pour in {{ingredients}}. The paste loosens but should not turn runny.'
+      text: 'Slowly pour in the {{ingredients}}. The paste loosens but should not turn runny.'
     - id: finish
       title: Finish the oil
       text: >-
         Add {{ingredients}} in the same thin stream until the toum is creamy white and fluffy, like
-        beaten egg whites, about 3 minutes.
+        beaten egg whites, about 3 minutes. Taste and add more lemon juice a teaspoon at a time
+        until the toum tastes bright.
     - id: chill
       title: Chill
       text: Spoon into jars and refrigerate at least 4 hours before serving so the garlic mellows.
@@ -153,11 +171,11 @@ Toum is the fluffy, snow-white Lebanese garlic sauce served with shawarma and gr
 
 ## Directions
 
-1. **Purée the garlic:** Put garlic cloves and kosher salt in a food processor. Pulse, scraping down the sides often, until the garlic is a completely smooth paste, about 2 minutes.
-2. **Start the emulsion:** With the motor running, add 1/2 of the grapeseed or canola oil in the thinnest stream you can manage, drop by drop at first. Stop to scrape the sides once or twice. Keep going until it is a thick, glossy paste, about 10 minutes.
-3. **Thicken the paste:** Add 1/6 of the grapeseed or canola oil in the same thin stream until the paste sets up like creamy cooked grits, about 3 minutes.
-4. **Add the lemon:** With the motor running, slowly pour in fresh lemon juice. The paste turns lighter and whiter.
-5. **Add more oil:** Add 1/6 of the grapeseed or canola oil in the same thin stream until it is absorbed, about 3 minutes.
-6. **Add the water:** Slowly pour in cold water. The paste loosens but should not turn runny.
-7. **Finish the oil:** Add 1/6 of the grapeseed or canola oil in the same thin stream until the toum is creamy white and fluffy, like beaten egg whites, about 3 minutes.
+1. **Purée the garlic:** Put the garlic cloves and kosher salt in a food processor. Pulse, scraping down the sides often, until the garlic is a completely smooth paste, about 2 minutes.
+2. **Start the emulsion:** With the motor running, add the grapeseed or canola oil for the base in the thinnest stream you can manage, drop by drop at first. Stop to scrape the sides once or twice. Keep going until it is a thick, glossy paste, about 10 minutes.
+3. **Thicken the paste:** Add 1/3 of the grapeseed or canola oil for finishing in the same thin stream until the paste sets up like creamy cooked grits, about 3 minutes.
+4. **Add the lemon:** With the motor running, slowly pour in the fresh lemon juice. The paste turns lighter and whiter.
+5. **Add more oil:** Add 1/3 of the grapeseed or canola oil for finishing in the same thin stream until it is absorbed, about 3 minutes.
+6. **Add the water:** Slowly pour in the cold water. The paste loosens but should not turn runny.
+7. **Finish the oil:** Add 1/3 of the grapeseed or canola oil for finishing in the same thin stream until the toum is creamy white and fluffy, like beaten egg whites, about 3 minutes. Taste and add more lemon juice a teaspoon at a time until the toum tastes bright.
 8. **Chill:** Spoon into jars and refrigerate at least 4 hours before serving so the garlic mellows.

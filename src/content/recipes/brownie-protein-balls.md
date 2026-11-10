@@ -11,6 +11,7 @@ occasions:
   - snack
   - quick-lunch
   - meal-prep
+  - kid-friendly
 seasons:
   - year-round
 nutritionalDensity: moderate
@@ -22,7 +23,7 @@ flavorProfile:
   - rich
 cuisines:
   - American
-role: base
+role: dessert
 vibe: quick
 prepTime: 10 min
 cookTime: 0 min

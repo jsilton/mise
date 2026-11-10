@@ -38,8 +38,8 @@ ingredients:
   - '5 garlic cloves, minced'
   - 1 tsp red pepper flakes
   - '2 lb russet potatoes, scrubbed and cut into 1/2-inch cubes'
-  - 4 cups chicken bone broth
-  - '1 tsp sea salt, plus more to taste'
+  - 6 cups chicken bone broth
+  - '1 1/2 tsp sea salt, plus more to taste'
   - '1/2 tsp black pepper, plus more to taste'
   - 1 cup heavy cream
   - '5 cups lacinato kale, stems removed and leaves chopped'
@@ -109,7 +109,7 @@ formula:
           key: chicken-bone-broth
           name: chicken bone broth
           quantity:
-            amount: 4
+            amount: 6
             unit: cup
           uses:
             - step: simmer
@@ -118,7 +118,7 @@ formula:
           key: sea-salt
           name: sea salt
           quantity:
-            amount: 1
+            amount: 1 1/2
             unit: tsp
           uses:
             - step: simmer

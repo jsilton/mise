@@ -13,7 +13,7 @@ pairingNotes:
   arugula-feta-salad: Peppery arugula, berries and feta, dressed with this.
 flavorProfile: [sweet, acidic]
 cuisines: [American]
-role: base
+role: condiment
 vibe: nutritious
 prepTime: 10 min
 cookTime: 0 min

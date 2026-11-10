@@ -7,6 +7,8 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
+  - snack
   - kid-friendly
   - meal-prep
   - weekend-project
@@ -19,11 +21,11 @@ equipment:
   - muffin-tin
 flavorProfile:
   - sweet
-  - umami
-  - rich
+  - earthy
+  - nutty
 cuisines:
   - American
-role: main
+role: side
 vibe: nutritious
 prepTime: 15 min
 cookTime: 18 min

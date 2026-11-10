@@ -18,7 +18,7 @@ cookTime: 3 hr 15 min
 totalTime: 3 hr 25 min
 servings: 4 portions
 pairsWith:
-  - roasted-fall-harvest-salad
+  - everyday-arugula-salad
   - garlic-sauteed-green-beans
 ingredients:
   - '2 cups uncooked quinoa, rinsed and drained'
@@ -187,7 +187,7 @@ learning:
     status: editorial-review
     date: '2026-11-09'
 pairingNotes:
-  roasted-fall-harvest-salad: Crisp greens and roasted vegetables beside the creamy grain.
+  everyday-arugula-salad: 'Peppery greens and lemon cut the creamy, cheesy grain.'
   garlic-sauteed-green-beans: A bright green vegetable to cut the cheese.
 ---
 

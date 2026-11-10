@@ -59,14 +59,14 @@ ingredients:
   - 1 tsp garam masala
   - 1 tsp ground cumin
   - 1 tsp ground coriander
-  - 1 1/2 tsp fine salt
+  - 2 1/4 tsp fine salt
   - 2 tbsp fresh lemon juice
   - '1/2 cup fresh cilantro, chopped, divided'
   - '1/2 cup fresh mint, chopped, divided'
   - '--- Rice ---'
   - 2 1/2 cups aged basmati rice
   - 10 cups water
-  - 1 tbsp fine salt
+  - 2 tbsp fine salt
   - '4 green cardamom pods, lightly cracked'
   - 1 black cardamom pod (optional)
   - 1 cinnamon stick (2 inches)

@@ -58,11 +58,11 @@ learning:
 
 ## Chef's Note
 
-The broiler chars asparagus in minutes, faster and with more color than roasting. Grated garlic turns to a paste that melts into the oil and coats every spear. A shower of Parmesan, lemon and flaky salt while the spears are hot finishes it.
+The broiler chars asparagus in minutes, faster and with more color than roasting. Grated garlic goes on with the lemon juice after the broiler, where the heat of the spears mellows it without scorching it. A shower of Parmesan, lemon zest and flaky salt finishes it.
 
 ## Directions
 
 1. **Heat the broiler:** Set an oven rack 4 to 6 inches from the broiler and heat it on high. Line a rimmed baking sheet with foil.
-2. **Season the asparagus:** Toss the asparagus on the sheet with the olive oil, garlic, kosher salt and pepper. Spread it in a single layer.
+2. **Season the asparagus:** Toss the asparagus on the sheet with the olive oil, kosher salt and pepper. Spread it in a single layer.
 3. **Broil:** Broil, shaking the pan once halfway through, until the tips are charred in spots and the stems are tender-crisp and bright green, 4 to 6 minutes. Pull thin spears a minute or two sooner.
-4. **Finish and serve:** Right away, scatter the Parmesan, lemon zest, lemon juice and flaky salt over the hot spears. Serve at once.
+4. **Finish and serve:** Stir the garlic into the lemon juice and toss it with the hot spears right away. Scatter the Parmesan, lemon zest and flaky salt over the top. Serve at once.

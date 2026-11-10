@@ -269,16 +269,16 @@ for (const row of confirmed) {
         [43, 44, 45].includes(row.caseId)
       ) {
         // Keep all three original parser inputs and numeric oracles below.
-        // The live formula counts thighs (a fixed total weight beside a scaling
-        // count would be wrong at any other size), and uses both juice and zest
-        // from the same counted lemons.
+        // The live formula counts small thighs with a 2 1/2 lb equivalent that
+        // scales with the count (Nov 10 fix), and uses both juice and zest from
+        // the same counted lemons.
         assert.equal(data.formula?.version, 1);
         const chicken = row.caseId === 43;
         const ingredient = data.formula.components
           .find((c) => c.id === 'pan')
           .ingredients.find((i) => i.id === (chicken ? 'chicken' : 'lemon'));
         assert.deepEqual(ingredient.quantity, { amount: chicken ? 8 : 2, unit: 'count' });
-        assert.equal(ingredient.name, chicken ? 'bone-in, skin-on chicken thigh' : 'lemon');
+        assert.equal(ingredient.name, chicken ? 'small bone-in, skin-on chicken thigh' : 'lemon');
         assert.equal(ingredient.preparation, chicken ? undefined : 'zested and juiced');
         assert.deepEqual(ingredient.uses, [{ step: chicken ? 'sear' : 'lemon', share: 1 }]);
         assert.ok(data.ingredients.includes(formatFormulaIngredient(ingredient)));
@@ -291,7 +291,7 @@ for (const row of confirmed) {
           const scaled = formatFormulaIngredient(ingredient, factor);
           assert.deepEqual(
             [...scaled.matchAll(number)].map((m) => numeric(m[0])),
-            [(chicken ? 8 : 2) * factor]
+            chicken ? [8 * factor, 2.5 * factor] : [2 * factor]
           );
           if (factor === 1) assert.equal(scaled, formatFormulaIngredient(ingredient));
         }

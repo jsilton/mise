@@ -4,6 +4,7 @@ title: Baby’s First Smash Cake
 difficulty: easy
 cookingMethods:
   - bake
+  - simmer
   - no-cook
   - blend
 dietary:
@@ -70,5 +71,6 @@ Fit Mama Real Food's smash cake is made for a first birthday, with no added suga
 2. **Mix the dry ingredients:** In a bowl, whisk the whole wheat flour, oat flour, baking soda and cinnamon.
 3. **Make the batter:** In a large bowl, mash the bananas until smooth. Whisk in the applesauce, coconut oil and the vanilla for the cake. Fold in the dry ingredients just until combined.
 4. **Bake:** Divide the batter among the pans and muffin cups. Bake until the centers spring back and a toothpick comes out clean, 15 to 20 minutes. Cool completely on a rack.
-5. **Make the frosting:** Whisk the cream cheese, apple juice concentrate and the vanilla for the frosting until creamy. Chill while the cakes cool, until it holds its shape.
-6. **Frost:** Stack the mini cakes with frosting between the layers, then spread the rest over the outside and the muffins. Keep chilled until the party.
+5. **Reduce the concentrate:** While the cakes bake, simmer the apple juice concentrate in a small saucepan over medium heat until it is syrupy and reduced by half, 6 to 8 minutes. Cool it completely.
+6. **Make the frosting:** Beat the cream cheese and the vanilla for the frosting until smooth. Beat in the cooled concentrate a spoonful at a time, stopping while the frosting still holds a peak. Chill for 30 minutes.
+7. **Frost:** Stack the mini cakes with frosting between the layers, then spread the rest over the outside and the muffins. Keep chilled until the party.

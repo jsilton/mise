@@ -38,7 +38,10 @@ test('oats use their listed sweetener and shortcakes define six-square geometry'
   // Times are plain now (style guide), with no "about" or preheating hedge.
   assert.equal(shortcake.data.totalTime, '1 hr 30 min');
   assert.equal(shortcake.data.servings, '6 shortcakes');
-  assert.match(shortcake.content, /6-by-9-inch rectangle about 1 inch thick and cut six 3-inch squares/);
+  assert.match(
+    shortcake.content,
+    /6-by-9-inch rectangle about 1 inch thick and cut six 3-inch squares/
+  );
   assert.equal(6 * 9, 6 * 3 * 3);
   assert.match(shortcake.content, /Raise the oven to 425°F/);
   assert.match(shortcake.content, /browned underneath, 15 to 18 minutes/);
@@ -78,7 +81,10 @@ test('soup and gratin restore source amounts and allocate the listed ingredients
   assert.match(gratin.content, /Drizzle with a quarter of the cream/);
   assert.match(gratin.content, /all the remaining cheese/);
   assert.match(gratin.content, /bake until the cheese is bubbly, 15 minutes/);
-  assert.match(gratin.content, /lower the oven to 400°F and bake until the top is golden and bubbly, 45 minutes/);
+  assert.match(
+    gratin.content,
+    /lower the oven to 400°F and bake until the top is golden and bubbly, 45 minutes/
+  );
   // The October "use all the cream" change now lives in the Suggested Tweak.
   const tweak = gratin.content.split(/^## Suggested Tweak\s*$/m)[1];
   assert.match(tweak, /last of the cream over the top layer/);
@@ -115,7 +121,10 @@ test('enchiladas make the sauce before allocation and heat filling through', () 
     [{ step: 'fill', share: 1 }]
   );
   // The chicken is already cooked, so the 165°F probe gave way to a bubbling cue.
-  assert.match(data.ingredients.find((x) => x.includes('chicken')), /cooked chicken/);
+  assert.match(
+    data.ingredients.find((x) => x.includes('chicken')),
+    /cooked chicken/
+  );
   assert.match(content, /Bake until the sauce bubbles at the edges/);
 });
 test('japchae accounts for its oil and scallions, lamb sauce lists cooking oil', () => {
@@ -131,7 +140,11 @@ test('japchae accounts for its oil and scallions, lamb sauce lists cooking oil',
     { step: 'marinate', share: '1/4' },
     { step: 'sauce', share: '3/4' },
   ]);
-  assert.match(content, /^5\. \*\*Mix the sauce:\*\*.*2\/3 of the soy sauce, 3\/4 of the toasted sesame oil/m);
+  // Nov 10 approved: 5 tbsp soy sauce, 1 tbsp for the beef and 4 tbsp in the sauce.
+  assert.match(
+    content,
+    /^5\. \*\*Mix the sauce:\*\*.*4\/5 of the soy sauce, 3\/4 of the toasted sesame oil/m
+  );
   // Nov 8 approved: 1/2 tsp garlic in the marinade, the rest (2 1/2 tsp) in the sauce.
   assert.deepEqual(ingredient('garlic').quantity, { amount: '1/2', unit: 'tsp' });
   assert.deepEqual(ingredient('garlic').uses, [{ step: 'marinate', share: 1 }]);

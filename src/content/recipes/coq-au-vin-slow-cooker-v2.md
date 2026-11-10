@@ -33,8 +33,8 @@ ingredients:
   - '16 oz cremini mushrooms, thickly sliced'
   - '4 garlic cloves, minced'
   - '1/2 cup dry red wine, such as Pinot Noir'
-  - '2 tsp cornstarch, divided'
-  - '2 tsp cold water, divided'
+  - '4 tsp cornstarch, divided'
+  - '4 tsp cold water, divided'
   - 1 tsp Worcestershire sauce
   - 1 tsp dried thyme
   - '1 envelope beefy onion soup mix, such as Lipton'
@@ -75,7 +75,7 @@ Coq au vin is the French farmhouse dish of chicken braised in red wine with mush
 1. **Layer the vegetables:** Coat a 5- to 6-quart slow cooker with cooking spray. Spread the carrots over the bottom, then add the pearl onions straight from the freezer, the mushrooms and the garlic.
 2. **Brown the chicken:** Pat the thighs dry and season them with the pepper. Coat a large skillet with cooking spray and heat it over medium-high heat. Brown the thighs in batches without crowding until golden, 2 to 3 minutes per side, and lay them on the vegetables.
 3. **Deglaze the pan:** Take the skillet off the heat and pour in the wine. Return it to the heat and scrape up the browned bits for 30 to 60 seconds, then pour it all into the slow cooker.
-4. **Season the pot:** Stir half the cornstarch into half the cold water until smooth. Add it to the slow cooker with the Worcestershire, thyme, soup mix and garlic powder, stirring them into the liquid.
+4. **Season the pot:** Stir a quarter of the cornstarch into a quarter of the cold water until smooth. Add it to the slow cooker with the Worcestershire, thyme, soup mix and garlic powder, stirring them into the liquid.
 5. **Slow-cook:** Cover and cook on HIGH for 2 1/2 to 3 hours, until the chicken reaches 165°F and pulls apart with a fork and the carrots are tender.
-6. **Thicken the sauce:** If the sauce is thin, ladle the liquid into a saucepan and bring it to a simmer. Stir the rest of the cornstarch into the rest of the cold water, whisk it in and simmer until the sauce lightly coats a spoon, about 1 minute. Pour it back over the chicken.
+6. **Thicken the sauce:** Ladle the liquid into a saucepan and bring it to a simmer. Stir the rest of the cornstarch into the rest of the cold water, whisk it in and simmer until the sauce lightly coats a spoon, 1 to 2 minutes. Pour it back over the chicken.
 7. **Serve:** Taste and add more pepper if needed. Serve the chicken and vegetables over mashed potatoes or rice, with plenty of sauce.

@@ -7,6 +7,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - kid-friendly
   - weekend-project
 seasons:
@@ -21,8 +22,8 @@ flavorProfile:
   - rich
 cuisines:
   - American
-role: dessert
-vibe: technical
+role: main
+vibe: comfort
 prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
@@ -35,6 +36,7 @@ ingredients:
   - 1/4 tsp sea salt
   - '1 tsp unsalted butter, melted'
   - 2 tsp pure vanilla extract
+  - '1 tbsp maple syrup, for the batter'
   - 1/2 cup plain Greek yogurt
   - 3/4 cup nonfat milk
   - '1/2 cup fresh peaches, finely diced'
@@ -79,7 +81,7 @@ These whole wheat silver dollar pancakes taste like peach pie, with cinnamon, va
 ## Directions
 
 1. **Mix the dry ingredients:** Whisk the flour, baking powder, baking soda, cinnamon and salt in a medium bowl.
-2. **Mix the yogurt:** In a second bowl, whisk the melted butter with the vanilla, then whisk in the yogurt until smooth.
+2. **Mix the yogurt:** In a second bowl, whisk the melted butter with the vanilla and the maple syrup for the batter, then whisk in the yogurt until smooth.
 3. **Make the batter:** Add the dry mixture and the milk to the yogurt in alternating additions, starting and ending with the dry mixture. Stir only until no dry flour shows. A few lumps are fine. Fold in the peaches.
 4. **Heat the skillet:** Heat a nonstick skillet or griddle over medium-low heat and coat it lightly with oil spray.
 5. **Cook the first side:** Drop the batter onto the skillet in silver dollar rounds, leaving room to flip. Cook until bubbles form on top and the edges look set, 2 to 3 minutes.

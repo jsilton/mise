@@ -18,7 +18,7 @@ vibe: quick
 prepTime: 10 min
 cookTime: 18 min
 totalTime: 30 min
-servings: 12 biscuits
+servings: 8 biscuits
 pairsWith:
   - buttermilk-baked-chicken
   - classic-beef-stew
@@ -28,7 +28,7 @@ pairingNotes:
 ingredients:
   - 1 1/2 cups all-purpose flour
   - 2 tsp baking powder
-  - 1 tsp sea salt
+  - 1/2 tsp fine sea salt
   - 1/4 tsp garlic powder (optional)
   - '4 oz (1 stick) unsalted butter, cold and cubed'
   - 3/4 cup cold whole milk
@@ -43,6 +43,10 @@ learning:
   techniques:
     - leavening
     - temperature
+  substitutions:
+    - ingredient: Fine sea salt
+      alternative: 1 tsp Diamond Crystal kosher salt
+      effect: The flakes are lighter, so it takes twice the volume for the same seasoning.
   storage: >-
     Best warm the day they are baked. Freeze cooled biscuits for up to 2 months and rewarm at 350°F
     for 5 to 10 minutes.
@@ -61,6 +65,6 @@ These drop biscuits from Serious Eats skip the rolling and cutting, so hot biscu
 2. **Mix the dry ingredients:** In a large bowl, whisk the flour, baking powder, salt and garlic powder, if using.
 3. **Cut in the butter:** Add the cold butter and rub it into the flour with your fingertips or a pastry blender until it looks like coarse meal with some pea-sized pieces left. You can also pulse it 2 or 3 times in a food processor.
 4. **Add the milk:** Pour in the milk and stir with a fork just until a sticky, shaggy dough forms, 15 to 20 seconds. Don't knead it.
-5. **Drop the biscuits:** Scoop the dough into 12 even mounds on the baking sheet, 2 inches apart. Leave the tops rough.
+5. **Drop the biscuits:** Scoop the dough into 8 even mounds on the baking sheet, 2 inches apart. Leave the tops rough.
 6. **Bake:** Bake until the tops and bottoms are golden brown, 15 to 18 minutes.
 7. **Serve:** Serve warm with salted butter and honey.

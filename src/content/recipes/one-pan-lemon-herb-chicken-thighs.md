@@ -18,10 +18,10 @@ cuisines:
   - Mediterranean
   - Italian
 role: main
-vibe: quick
+vibe: comfort
 prepTime: 10 min
-cookTime: 30 min
-totalTime: 45 min
+cookTime: 40 min
+totalTime: 55 min
 servings: 4 portions
 seasons:
   - year-round
@@ -29,6 +29,8 @@ nutritionalDensity: moderate
 leftovers: excellent
 equipment:
   - large-oven-safe-skillet
+  - 9x13-inch-roasting-pan
+  - instant-read-thermometer
 pairsWith:
   - lemon-herb-couscous
   - charred-asparagus-with-parmesan
@@ -37,7 +39,7 @@ pairingNotes:
   charred-asparagus-with-parmesan: A quick green vegetable.
 ingredients:
   - '--- Chicken ---'
-  - '8 bone-in, skin-on chicken thighs'
+  - '8 (2 1/2 lb) small bone-in, skin-on chicken thighs'
   - 2 tsp kosher salt
   - 1/2 tsp black pepper
   - 3 tbsp olive oil
@@ -61,11 +63,14 @@ formula:
       ingredients:
         - id: chicken
           key: chicken-thigh
-          name: 'bone-in, skin-on chicken thigh'
-          plural: 'bone-in, skin-on chicken thighs'
+          name: 'small bone-in, skin-on chicken thigh'
+          plural: 'small bone-in, skin-on chicken thighs'
           quantity:
             amount: 8
             unit: count
+          equivalents:
+            - amount: 2 1/2
+              unit: lb
           uses:
             - step: sear
               share: 1
@@ -190,7 +195,7 @@ formula:
         edges are just tender, about 8 minutes. Drain and let them steam dry.
     - id: heat
       title: Heat the pan
-      text: 'Heat {{ingredients}} in a large oven-safe skillet over medium-high heat until it shimmers.'
+      text: 'Heat {{ingredients}} in a 12-inch oven-safe skillet over medium-high heat until it shimmers.'
     - id: sear
       title: Sear the chicken
       text: >-
@@ -212,13 +217,14 @@ formula:
     - id: return
       title: Return the chicken
       text: >-
-        Nestle the chicken back in, skin side up, with its juices and the skin above the liquid.
-        Tuck any parboiled vegetables around the thighs and sprinkle them with {{ingredients}}.
+        Nestle the chicken back in snugly, skin side up, with its juices and the skin above the
+        liquid. With the vegetables, move the chicken and sauce to a 9x13-inch roasting pan, tuck
+        the parboiled vegetables around the thighs and sprinkle them with {{ingredients}}.
     - id: roast
       title: Roast
       text: >-
-        Roast until the skin is crisp and the chicken reaches 165°F, 12 to 15 minutes. With
-        vegetables, roast 15 to 18 minutes, until they are fork-tender.
+        Roast until the skin is crisp and the thickest thigh reaches 175°F, 18 to 22 minutes. With
+        vegetables, roast 22 to 25 minutes, until they are fork-tender.
     - id: finish
       title: Rest and serve
       text: >-
@@ -241,19 +247,18 @@ learning:
 
 ## Chef's Note
 
-Lemon, garlic, oregano and thyme make a bright Mediterranean pan sauce for crisp chicken thighs. Sear the skin hard first, then roast the thighs skin side up above the sauce so it stays crisp. Add potatoes and the whole dinner comes out of one skillet.
+Lemon, garlic, oregano and thyme make a bright Mediterranean pan sauce for crisp chicken thighs. Sear the skin hard first, then roast the thighs skin side up above the sauce so it stays crisp. Add potatoes and the whole dinner roasts together in one pan.
 
 ## Directions
 
 1. **Season the chicken:** Heat the oven to 425°F. Pat the chicken dry and season both sides with kosher salt and black pepper.
 2. **Parboil the vegetables:** Cover potatoes or other root vegetables (if using) with cold water in a saucepan and bring to a boil. Simmer until the edges are just tender, about 8 minutes. Drain and let them steam dry.
-3. **Heat the pan:** Heat 2/3 of the olive oil in a large oven-safe skillet over medium-high heat until it shimmers.
-4. **Sear the chicken:** Add bone-in, skin-on chicken thighs skin side down, in batches if they don't fit in one layer. Cook without moving until the skin is deep golden and releases, 5 to 6 minutes. Turn, cook 2 minutes more and move to a plate.
+3. **Heat the pan:** Heat 2/3 of the olive oil in a 12-inch oven-safe skillet over medium-high heat until it shimmers.
+4. **Sear the chicken:** Add small bone-in, skin-on chicken thighs skin side down, in batches if they don't fit in one layer. Cook without moving until the skin is deep golden and releases, 5 to 6 minutes. Turn, cook 2 minutes more and move to a plate.
 5. **Cook the garlic:** Lower the heat to medium. Add 1/3 of the olive oil and garlic cloves and stir until fragrant, 30 to 45 seconds.
 6. **Add the herbs:** Stir in fresh oregano and fresh thyme leaves for 15 seconds.
 7. **Add the lemon:** Squeeze in the juice of the lemons and stir in the zest.
 8. **Deglaze:** Pour in chicken stock or water and scrape up the browned bits from the pan.
-9. **Return the chicken:** Nestle the chicken back in, skin side up, with its juices and the skin above the liquid. Tuck any parboiled vegetables around the thighs and sprinkle them with kosher salt (if using).
-10. **Roast:** Roast until the skin is crisp and the chicken reaches 165°F, 12 to 15 minutes. With vegetables, roast 15 to 18 minutes, until they are fork-tender.
+9. **Return the chicken:** Nestle the chicken back in snugly, skin side up, with its juices and the skin above the liquid. With the vegetables, move the chicken and sauce to a 9x13-inch roasting pan, tuck the parboiled vegetables around the thighs and sprinkle them with kosher salt (if using).
+10. **Roast:** Roast until the skin is crisp and the thickest thigh reaches 175°F, 18 to 22 minutes. With vegetables, roast 22 to 25 minutes, until they are fork-tender.
 11. **Rest and serve:** Let the chicken rest for 5 minutes. Taste the sauce and add salt or lemon if it needs it, then scatter fresh parsley over the top.
-

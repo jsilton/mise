@@ -45,13 +45,13 @@ pairingNotes:
   quick-pickled-cucumber-salad: Tangy pickles to cut a rich sauce.
 ingredients:
   - '--- Grain ---'
-  - '2 cups cooked rice, quinoa or farro'
+  - '4 cups cooked rice, quinoa or farro'
   - '--- Protein (choose one or two) ---'
-  - 1 cup roasted chickpeas
+  - 2 cups roasted chickpeas
   - '1 lb baked tofu, cubed'
   - '4 soft-boiled eggs, halved'
   - '1 lb grilled chicken or fish, diced'
-  - '8 oz rotisserie chicken, shredded'
+  - '12 oz rotisserie chicken, shredded'
   - '--- Vegetables ---'
   - 2 cups baby spinach or arugula
   - '1 large carrot, shredded'
