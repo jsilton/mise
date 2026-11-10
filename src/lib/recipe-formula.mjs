@@ -57,7 +57,14 @@ export function createFormulaSchema(z) {
       role: z.enum(['ingredient', 'cooking-water', 'garnish', 'discarded']).optional(),
       uses: z
         .array(
-          z.object({ step: z.string(), share: positive, lead: z.boolean().optional() }).strict()
+          z
+            .object({
+              step: z.string(),
+              share: positive,
+              lead: z.boolean().optional(),
+              words: z.boolean().optional(),
+            })
+            .strict()
         )
         .min(1),
     })
@@ -411,7 +418,9 @@ function formulaStepItems(formula, factor = 1) {
             return { ...item, kind: 'rest', text: `the rest of the ${name}${suffix}` };
           const counted = countPhrase(i, share, factor);
           if (counted) return { ...item, kind: 'amount', text: counted + suffix };
-          const measure = shareMeasure(i, share, factor);
+          // `words: true` keeps a part in words when its rounded measure is awkward
+          // ("5 1/4 oz" for two thirds of 8 oz).
+          const measure = u.words && share !== 1 ? null : shareMeasure(i, share, factor);
           if (measure)
             return { ...item, kind: 'amount', text: `${measure} of the ${name}${suffix}` };
           if (share === 1) return item;

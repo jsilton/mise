@@ -228,6 +228,7 @@ formula:
         - id: serve
           key: pancake-toppings
           name: 'maple syrup, butter or powdered sugar'
+          stepName: toppings
           allowance: for serving
           uses:
             - step: serve
@@ -290,4 +291,4 @@ These Belly Full pancakes bake in one pan, so everyone eats at once and nobody s
 4. **Top three sections:** Picture the batter in four sections and top three of them with the seedless strawberry jam, strawberries, chocolate chips, and blueberries. Dot the jam over the first section, swirl it with a toothpick and lay the strawberries on top. Scatter the chocolate chips over the second and the blueberries over the third.
 5. **Swirl the cinnamon:** Whisk the cinnamon, 1 1/2 tbsp of the butter, and 1 tbsp of the brown sugar in a small bowl. Dot it over the last section and swirl it with a toothpick.
 6. **Bake:** Bake until the center springs back and a toothpick comes out clean of batter, 15 to 18 minutes. Test a plain spot, not a melted chocolate chip.
-7. **Slice and serve:** Cool for a minute, then cut into squares and serve with the maple syrup, butter or powdered sugar.
+7. **Slice and serve:** Cool for a minute, then cut into squares and serve with the toppings.

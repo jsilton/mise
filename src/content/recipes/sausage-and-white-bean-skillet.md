@@ -138,6 +138,7 @@ formula:
         - id: beans
           key: beans
           name: cannellini or Great Northern beans
+          stepName: beans
           quantity:
             amount: 2
             unit: can
@@ -254,6 +255,6 @@ Sausage and white beans is Italian home cooking at its simplest. The sausage bri
 1. **Brown the sausage:** Heat a large skillet over medium-high heat. Spread the Italian pork sausage in a single layer in the dry pan and let it brown undisturbed for 2 minutes. Break it up or turn the rounds until browned all over, about 5 minutes in all, then move it to a plate.
 2. **Soften the onion:** Lower the heat to medium. Add the olive oil and onion to the fat in the pan and cook, stirring, until soft, 3 to 5 minutes.
 3. **Toast the paste:** Stir in the garlic, tomato paste, oregano, thyme, and red pepper flakes. Cook, stirring constantly, until the garlic is fragrant and the paste darkens slightly, about 1 minute.
-4. **Simmer with the beans:** Add the cannellini or Great Northern beans and chicken stock and scrape up the browned bits. Return the sausage and its juices. Simmer over medium-low heat until the broth thickens but stays saucy and the sausage is cooked through, 8 to 10 minutes.
+4. **Simmer with the beans:** Add the beans and chicken stock and scrape up the browned bits. Return the sausage and its juices. Simmer over medium-low heat until the broth thickens but stays saucy and the sausage is cooked through, 8 to 10 minutes.
 5. **Brighten with lemon:** Take the pan off the heat. Season with the salt, pepper, and lemon, squeezing in the juice. Taste and add more salt if it needs it.
 6. **Serve:** Spoon into bowls and top with the parsley and Parmigiano-Reggiano.

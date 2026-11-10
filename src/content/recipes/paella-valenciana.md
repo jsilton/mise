@@ -64,6 +64,7 @@ formula:
         - id: chicken
           key: chicken
           name: bone-in chicken thighs or legs
+          stepName: chicken
           quantity:
             amount: 1
             unit: lb
@@ -114,6 +115,7 @@ formula:
         - id: garrofo
           key: garrofo
           name: fresh or frozen garrofó beans
+          stepName: garrofó beans
           quantity:
             amount: 5
             unit: oz
@@ -293,10 +295,10 @@ This is paella as it is made in Valencia, with chicken, rabbit, flat green beans
 
 ## Directions
 
-1. **Brown the meat:** Set a 17- to 18-inch paella pan over a wide burner or paella ring so the whole base heats evenly. Warm the olive oil, chicken thighs or legs, and rabbit in the pan over medium heat, spreading the meat in one layer. Cook, turning now and then, until golden all over, 20 to 30 minutes.
+1. **Brown the meat:** Set a 17- to 18-inch paella pan over a wide burner or paella ring so the whole base heats evenly. Warm the olive oil, chicken, and rabbit in the pan over medium heat, spreading the meat in one layer. Cook, turning now and then, until golden all over, 20 to 30 minutes.
 2. **Cook the green beans:** Add the flat green beans and turn them in the oil until bright green and starting to soften, 3 to 5 minutes. Push the meat and beans to the edge of the pan.
 3. **Make the sofrito:** Lower the heat to medium-low. Stir the sweet paprika and tomatoes into the oil in the center of the pan, the paprika first and the tomato a few seconds later so the paprika doesn't burn. Cook, stirring, until the tomato is thick and no longer watery, 5 to 10 minutes.
-4. **Mark the broth level:** Add the fresh or frozen garrofó beans and 5 cups of the water. Stand the handle of a metal spoon upright in the pan and note where the liquid reaches. The broth needs to cook back down to this mark before the rice goes in.
+4. **Mark the broth level:** Add the garrofó beans and 5 cups of the water. Stand the handle of a metal spoon upright in the pan and note where the liquid reaches. The broth needs to cook back down to this mark before the rice goes in.
 5. **Simmer the broth:** Add the salt and 6 cups of the water and bring to a simmer. Cook uncovered until the broth has cooked down to the mark and the meat and garrofó are tender, 25 to 45 minutes. If the broth reaches the mark first, add a little boiling water and keep simmering. Taste and adjust the salt. The broth should taste a little salty, because the rice soaks it up.
 6. **Add the saffron:** Crush the saffron into a small cup and stir in a few spoonfuls of hot broth. Pour it back into the pan and bring the broth to a lively boil.
 7. **Spread the rice:** Scatter the Valencian round rice evenly over the boiling broth and spread it once so it lies in a flat, even layer. Do not stir it again.

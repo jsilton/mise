@@ -181,6 +181,7 @@ formula:
         - id: cheese
           key: cheese
           name: sharp cheddar or Gruyère
+          stepName: cheddar
           quantity:
             amount: 1/2
             unit: cup
@@ -265,6 +266,6 @@ A summer galette with pesto, ricotta and sliced heirloom tomatoes in a flaky but
 3. **Salt the tomatoes:** Heat the oven to 425°F. Lay the tomato slices on paper towels in one layer and sprinkle lightly with the fine sea salt. Let them drain for 15 to 20 minutes, then pat the tops dry.
 4. **Roll the dough:** On a surface dusted with the flour, roll the dough into a 12-inch circle. Move it to a parchment-lined rimmed baking sheet.
 5. **Fill:** Leaving a 2-inch border, layer the basil pesto, ricotta, and heirloom tomatoes over the dough. Spread the pesto, dot it with the ricotta, then lay the tomato slices on top, overlapping.
-6. **Fold the crust:** Fold the border up over the edge of the filling, pleating as you go. Finish the folded crust with the sharp cheddar or Gruyère and 2 tbsp of the olive oil, brushing on the oil first and then scattering the cheese.
+6. **Fold the crust:** Fold the border up over the edge of the filling, pleating as you go. Finish the folded crust with the cheddar and 2 tbsp of the olive oil, brushing on the oil first and then scattering the cheese.
 7. **Bake:** Bake until the crust is deep golden on the edge and underneath and the tomatoes are bubbling, 25 to 35 minutes. Cover the edge with foil if it browns before the base.
 8. **Finish and serve:** Cool for 5 minutes. Scatter the chives and basil, flaky sea salt and chile flakes, and olive oil (if using) over the top, then slice and serve warm.

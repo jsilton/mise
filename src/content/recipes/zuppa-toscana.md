@@ -58,6 +58,7 @@ formula:
         - id: sausage
           key: italian-sausage
           name: bulk hot or sweet Italian sausage
+          stepName: sausage
           quantity:
             amount: 1
             unit: lb
@@ -219,7 +220,7 @@ Zuppa toscana is the Italian-American sausage, potato and kale soup made famous 
 
 ## Directions
 
-1. **Brown the sausage:** In a Dutch oven over medium heat, cook the bulk hot or sweet Italian sausage, breaking it into small crumbles, until browned and no longer pink, about 8 minutes. Move the sausage to a plate and leave the fat in the pot.
+1. **Brown the sausage:** In a Dutch oven over medium heat, cook the sausage, breaking it into small crumbles, until browned and no longer pink, about 8 minutes. Move the sausage to a plate and leave the fat in the pot.
 2. **Soften the onion:** Add the yellow onion to the fat and cook, stirring, until soft, 4 to 5 minutes.
 3. **Add the garlic:** Stir in the garlic and red pepper flakes and cook until fragrant, about 30 seconds.
 4. **Simmer the potatoes:** Add the russet potatoes, chicken bone broth, salt, and pepper and bring to a boil. Lower the heat and simmer until a fork slides easily through the potatoes, 10 to 12 minutes.

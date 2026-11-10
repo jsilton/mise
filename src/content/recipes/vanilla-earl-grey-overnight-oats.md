@@ -90,6 +90,7 @@ formula:
         - id: milk
           key: milk
           name: whole milk or almond milk
+          stepName: milk
           quantity:
             amount: 1/2
             unit: cup
@@ -195,7 +196,7 @@ Earl Grey steeps into the soaking liquid, so these oats taste of bergamot and va
 ## Directions
 
 1. **Steep the tea:** Put the boiling water and Earl Grey tea bag in a heatproof bowl. Steep for 5 minutes, then squeeze out the tea bag and discard it.
-2. **Flavor the tea:** Stir the whole milk or almond milk, vanilla, salt, and 1 tbsp of the honey into the hot tea until the honey dissolves.
+2. **Flavor the tea:** Stir the vanilla, salt, 1 tbsp of the honey, and 1/2 cup of the milk into the hot tea until the honey dissolves.
 3. **Add the oats:** Stir in the oats until they are all coated.
 4. **Soak overnight:** Divide among jars, cover and refrigerate for at least 6 hours, or overnight, until the oats are soft and creamy.
 5. **Stir and loosen:** Stir the oats. If they are thick, loosen them with a splash of milk (if using).

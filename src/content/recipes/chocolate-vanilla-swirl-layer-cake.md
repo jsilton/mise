@@ -196,6 +196,7 @@ formula:
         - id: choc-milk
           key: choc-milk
           name: hot milk or brewed coffee
+          stepName: hot liquid
           quantity:
             amount: 3
             unit: tbsp
@@ -308,7 +309,7 @@ Alternating spoonfuls of vanilla and chocolate batter in the center of the pan s
 4. **Add the eggs:** Beat in the eggs and vanilla, adding the eggs one at a time and scraping the bowl.
 5. **Finish the batter:** On low speed, add the dry ingredients in three additions, alternating with 1 1/4 cups of the whole milk. Start and end with the dry ingredients and mix just until smooth. Divide the batter evenly between two bowls.
 6. **Make the vanilla half:** Whisk 2 tbsp of the all-purpose flour and 2 tbsp of the whole milk into one bowl of batter until smooth.
-7. **Make the chocolate half:** Stir the Dutch-process cocoa powder and hot milk or brewed coffee into a smooth paste and let it stand for 2 minutes so the cocoa blooms. Whisk the paste into the other bowl of batter until smooth.
+7. **Make the chocolate half:** Stir the Dutch-process cocoa powder and hot liquid into a smooth paste and let it stand for 2 minutes so the cocoa blooms. Whisk the paste into the other bowl of batter until smooth.
 8. **Swirl the batters:** Drop a large spoonful of vanilla batter into the center of each pan, then a spoonful of chocolate on top of it. Keep alternating until all the batter is used. Each spoonful pushes the last one outward into rings.
 9. **Bake the layers:** Bake until the centers are set and a toothpick comes out clean, 35 to 40 minutes. Turn the pans halfway through if your oven browns unevenly.
 10. **Cool the cakes:** Cool the cakes in their pans for 5 minutes. Turn them out onto racks and cool completely, about 1 hour.

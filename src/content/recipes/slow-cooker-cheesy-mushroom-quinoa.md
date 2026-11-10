@@ -72,6 +72,7 @@ formula:
         - id: broth
           key: prepared-broth
           name: vegetable or chicken broth
+          stepName: broth
           quantity:
             amount: 4
             unit: cup
@@ -199,7 +200,7 @@ Le Crème de la Crumb's hands-off quinoa cooks in broth with mushrooms, red pepp
 
 ## Directions
 
-1. **Load the cooker:** Stir the uncooked quinoa, mushrooms, vegetable or chicken broth, red bell pepper, garlic, and Italian seasoning together in the slow cooker.
+1. **Load the cooker:** Stir the uncooked quinoa, mushrooms, broth, red bell pepper, garlic, and Italian seasoning together in the slow cooker.
 2. **Cook the quinoa:** Cover and cook on High until the quinoa is tender, its little curled tails show and most of the broth is absorbed, 2 to 3 hours.
 3. **Stir in the cream cheese:** Stir in the cream cheese, salt, and black pepper until the cream cheese melts into the hot quinoa, about 1 minute. Add the salt a pinch at a time, tasting as you go, since the broth and cheese are already salty.
 4. **Melt the cheese:** Scatter the Italian blend cheese over the top. Cover and cook until melted, about 15 minutes.

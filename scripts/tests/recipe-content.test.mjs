@@ -158,6 +158,35 @@ test('export policy preserves attributed sources, notes, quantities and uncertai
   assert.match(paprika.notes, /Mise recipe: https/);
 });
 
+test('structured data ingredients keep link text and drop Markdown link syntax', async () => {
+  const data = {
+    title: 'Sliders',
+    ingredients: [
+      '--- Glaze ---',
+      '1 cup [BBQ Sauce](/mise/recipes/bbq-sauce/), divided',
+      '4 large [hard-boiled eggs](/mise/recipes/jammy-and-hard-boiled-eggs/), peeled',
+      '2 tbsp butter',
+    ],
+  };
+  const body = '## Directions\n\n1. Mix.';
+  const url = 'https://jordansilton.com/mise/recipes/sliders/';
+  assert.deepEqual(buildRecipeSchema(data, body, url).recipeIngredient, [
+    '1 cup BBQ Sauce, divided',
+    '4 large hard-boiled eggs, peeled',
+    '2 tbsp butter',
+  ]);
+  // The Paprika export keeps its links. The JSON export is the same schema as the page.
+  const recipe = { data, body, parsed: parseRecipeContent(body), url };
+  assert.match(createPaprikaRecipe(recipe, 'uid').ingredients, /\[BBQ Sauce\]\(https:/);
+  let linked = 0;
+  for (const recipe of await loadTestRecipes()) {
+    const { recipeIngredient } = buildRecipeSchema(recipe.data, recipe.body, recipe.url);
+    if (recipe.data.ingredients.some((line) => line.includes(']('))) linked += 1;
+    for (const line of recipeIngredient) assert.doesNotMatch(line, /\]\(|\[|\]/, recipe.slug);
+  }
+  assert.ok(linked > 30, `${linked} recipes link an ingredient`);
+});
+
 test('validation rejects empty, missing, legacy, duplicate and stale recipe exports', async () => {
   assert.throws(() => assertRecipeSet([], []), /empty/);
   assert.throws(() => assertRecipeSet(['rice'], ['rice', 'beans']), /missing \[beans\]/);

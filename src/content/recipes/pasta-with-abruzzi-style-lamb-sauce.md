@@ -57,6 +57,7 @@ formula:
         - id: pasta
           key: penne-or-rigatoni
           name: rigatoni or penne
+          stepName: pasta
           quantity:
             amount: 1
             unit: lb
@@ -231,5 +232,5 @@ This is Marcella Hazan's lamb sauce from Abruzzo, the sheep country in the mount
 3. **Brown the lamb:** Turn the heat to medium-high. Add the lamb shoulder, salt, and pepper. Cook, stirring, until the lamb loses its pink color and starts to brown, about 5 minutes.
 4. **Reduce the wine:** Pour in the dry white wine and scrape up the browned bits from the bottom of the pan. Simmer until the wine has almost cooked away, about 8 minutes.
 5. **Simmer the sauce:** Add the tomatoes and their juices. Bring to a simmer, then lower the heat and cook uncovered, stirring now and then, until the lamb is tender and the fat floats free of the sauce, 40 to 45 minutes. If the sauce gets thick before the lamb is tender, add a splash of water.
-6. **Boil the pasta:** When the sauce has about 15 minutes left, bring a large pot of well-salted water to a boil. Add the rigatoni or penne and cook until al dente, then drain.
+6. **Boil the pasta:** When the sauce has about 15 minutes left, bring a large pot of well-salted water to a boil. Add the pasta and cook until al dente, then drain.
 7. **Toss and serve:** Put the hot pasta in a warm serving bowl. Add the sauce and the Pecorino Romano and toss to coat. Serve with more pecorino and black pepper at the table.

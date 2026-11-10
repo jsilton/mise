@@ -66,7 +66,7 @@ ingredients:
   - 1/4 tsp black pepper
   - '1 tbsp fresh dill, finely chopped'
   - '--- Soup ---'
-  - 10 cups homemade chicken stock
+  - '10 cups [homemade chicken stock](/mise/recipes/homemade-chicken-stock/)'
   - '3 medium carrots, peeled and sliced 1/4 inch thick'
   - '2 celery stalks, sliced 1/4 inch thick'
   - '1 tbsp kosher salt, plus more to taste'
@@ -151,7 +151,8 @@ formula:
       ingredients:
         - id: stock
           key: chicken-stock
-          name: homemade chicken stock
+          name: '[homemade chicken stock](/mise/recipes/homemade-chicken-stock/)'
+          stepName: chicken stock
           quantity:
             amount: 10
             unit: cup
@@ -249,9 +250,6 @@ learning:
       effect: >-
         Start with 1 tsp salt and taste. Simmering the broth with the carrots and celery freshens
         it.
-    - ingredient: With chicken
-      alternative: Add 2 cups shredded cooked chicken
-      effect: Stir it in with the matzo balls for a fuller meal.
   storage: >-
     Keeps 3 days in the fridge with the matzo balls in the soup. To freeze, freeze the cooked matzo
     balls on a tray and the soup on its own for up to 3 months.
@@ -262,7 +260,7 @@ learning:
 
 ## Chef's Note
 
-Matzo ball soup is the Ashkenazi Jewish soup of Passover and Friday night dinner, with dumplings called knaidlach made from matzo meal, eggs and chicken fat. Seltzer and a rest in the fridge make them light. Keep the lid on while they simmer, because the steam trapped in the pot cooks them through.
+Matzo ball soup is the Ashkenazi Jewish soup of Passover and Friday night dinner, with dumplings called knaidlach made from matzo meal, eggs and chicken fat. Seltzer and a rest in the fridge make them light. Keep the lid on while they simmer, because the steam trapped in the pot cooks them through. For a fuller meal, stir 2 cups shredded cooked chicken into the soup with the matzo balls.
 
 ## Directions
 

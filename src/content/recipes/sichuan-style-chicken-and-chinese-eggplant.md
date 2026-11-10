@@ -274,6 +274,7 @@ formula:
         - id: broth
           key: broth
           name: low-sodium chicken broth or water
+          stepName: broth
           quantity:
             amount: 6
             unit: tbsp
@@ -458,7 +459,7 @@ This is Jordan's Sichuan-style chicken and eggplant: silky Chinese eggplant and 
 
 1. **Salt the eggplant:** Toss the Chinese eggplant and salt in a colander and let it sit for 15 minutes.
 2. **Marinate the chicken:** While the eggplant sits, mix the chicken thighs, Shaoxing wine, sesame oil, white pepper, 1 1/2 tbsp of the light soy sauce, and 1 1/2 tbsp of the cornstarch until evenly coated. Refrigerate for at least 15 minutes.
-3. **Mix the sauce:** Whisk the dark soy sauce, sugar, chicken broth or water, 2 tbsp of the Chinkiang black vinegar, 1 tbsp of the light soy sauce, and 1 1/2 tsp of the cornstarch in a bowl until the sugar dissolves.
+3. **Mix the sauce:** Whisk the dark soy sauce, sugar, broth, 2 tbsp of the Chinkiang black vinegar, 1 tbsp of the light soy sauce, and 1 1/2 tsp of the cornstarch in a bowl until the sugar dissolves.
 4. **Brown the eggplant:** Rinse the eggplant briefly and pat it very dry. Heat 3 tbsp of the neutral high-heat cooking oil in the wok over medium-high heat. Add all the eggplant and cook, turning now and then, until some sides are browned, 3 to 4 minutes.
 5. **Steam the eggplant:** Lower the heat to medium. Pour the water down the side of the wok and cover right away. Steam, turning once, until a knife slides easily through the centers and the flesh is silky, 4 to 6 minutes. If the pan dries before the eggplant is tender, add a little more water a tablespoon at a time. Uncover and cook until the water is gone, 2 to 4 minutes, then move the eggplant to a plate.
 6. **Sear the chicken:** Once the wok is dry, turn the heat to medium-high. Add 1 tbsp of the neutral high-heat cooking oil, then all the chicken, and leave it for 2 minutes. Stir and separate the strips.

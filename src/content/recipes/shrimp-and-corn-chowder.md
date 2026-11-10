@@ -191,6 +191,7 @@ formula:
         - id: stock
           key: fish-or-chicken-stock
           name: fish stock or low-sodium chicken stock
+          stepName: stock
           quantity:
             amount: 6
             unit: cup
@@ -295,7 +296,7 @@ This is Maricel Presilla's chowder from coastal Ecuador. Grated green plantain m
 2. **Make the corn milk:** While the shrimp marinate, puree the whole milk and 1 cup of the corn kernels in a blender or food processor. Strain through a coarse sieve, pressing hard on the solids, and keep the corn milk.
 3. **Soften the vegetables:** In a large pot over medium heat, cook the annatto oil, red onion, red bell pepper, cumin, and the rest of the garlic, stirring, until the vegetables soften, about 5 minutes.
 4. **Add the tomatoes:** Stir in the plum tomatoes and cook for 2 minutes.
-5. **Simmer the chowder:** Add the corn milk and the fish stock or low-sodium chicken stock, green plantain, and the rest of the corn kernels. Bring to a boil, then simmer, stirring now and then, until the plantain is soft and the soup has thickened, about 20 minutes.
+5. **Simmer the chowder:** Add the corn milk and the stock, green plantain, and the rest of the corn kernels. Bring to a boil, then simmer, stirring now and then, until the plantain is soft and the soup has thickened, about 20 minutes.
 6. **Blend part of the soup:** Ladle a few cups of the soup into a blender, vent the lid and blend until smooth. Stir it back into the pot and bring the chowder back to a simmer.
 7. **Cook the shrimp:** Add the shrimp and all their marinade. Simmer gently until the shrimp are pink and opaque, 2 to 3 minutes.
 8. **Season and serve:** Stir in the cilantro, cayenne pepper, and salt. Taste for salt and serve in warm bowls.

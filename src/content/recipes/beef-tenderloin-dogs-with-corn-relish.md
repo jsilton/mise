@@ -104,6 +104,7 @@ formula:
         - id: bread
           key: bread
           name: brioche hot dog bun or 6-inch baguette piece
+          stepName: buns
           quantity:
             amount: 4
             unit: count
@@ -223,5 +224,5 @@ Food & Wine's luxe take on a hot dog swaps the frank for a strip of seared beef 
 4. **Season the beef:** Toss the beef tenderloin, olive oil, garlic powder, paprika, and salt and pepper together until the beef is evenly coated.
 5. **Sear the beef:** Reheat the skillet over high heat, or heat a grill to high. Sear the strips, turning, until browned all over and 125°F in the center for medium-rare, 6 to 8 minutes.
 6. **Rest the beef:** Move the beef to a plate and let it rest for 5 minutes.
-7. **Toast the buns:** Toast the brioche hot dog buns or 6-inch baguette pieces cut side down in the skillet or on the grill until golden, about 1 minute.
+7. **Toast the buns:** Toast the buns cut side down in the skillet or on the grill until golden, about 1 minute.
 8. **Assemble:** Tuck a beef strip into each bun and spoon the relish over the top.

@@ -142,6 +142,7 @@ formula:
         - id: broth
           key: broth
           name: chicken or vegetable broth
+          stepName: broth
           quantity:
             amount: 7
             unit: cup
@@ -294,7 +295,7 @@ Risotto comes from northern Italy, where hot broth goes in a ladle at a time so 
 3. **Soften the onion:** Lower the heat to medium and add the olive oil and onion to the same pan. Cook, stirring often, until the onion is soft and translucent but not browned, 5 to 7 minutes.
 4. **Toast the rice:** Add the garlic and Arborio rice. Stir until the garlic is fragrant and the edges of the rice turn translucent, about 2 minutes.
 5. **Add the wine:** Pour in the dry white wine and stir until it is absorbed.
-6. **Add the broth:** Lower the heat to keep a gentle simmer. Add the chicken or vegetable broth a ladle at a time, stirring often and letting each ladle mostly absorb before adding the next. Cook until the rice is tender with a slight bite and flows loosely, 18 to 22 minutes. If the broth runs out first, use hot water.
+6. **Add the broth:** Lower the heat to keep a gentle simmer. Add the broth a ladle at a time, stirring often and letting each ladle mostly absorb before adding the next. Cook until the rice is tender with a slight bite and flows loosely, 18 to 22 minutes. If the broth runs out first, use hot water.
 7. **Finish the risotto:** Take the pan off the heat and stir in the cold unsalted butter, heavy cream, Parmesan, salt, and pepper until creamy. Add a splash of broth or hot water if it has turned stiff.
 8. **Add the lemon:** Stir in the lemon zest and juice.
 9. **Fold in the shrimp:** Fold in the shrimp, their juices and the fresh basil leaves. Stir until the shrimp are warm, about 1 minute.

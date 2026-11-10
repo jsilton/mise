@@ -84,6 +84,7 @@ formula:
         - id: greens
           key: yu-choy-or-bok-choy
           name: yu choy or baby bok choy
+          stepName: greens
           quantity:
             amount: 4
             unit: oz
@@ -326,7 +327,7 @@ Cantonese pan-fried noodles are a crisp golden cake of thin egg noodles under a 
 4. **Boil the noodles:** Bring a large pot of water to a boil. Cook the Hong Kong-style egg noodles until just tender, about 1 minute, or as the package directs. Rinse with cold water and drain very well, shaking off as much water as you can. Keep the pot boiling for the greens.
 5. **Fry the first side:** Heat 2 tbsp of the vegetable oil in a 10- to 12-inch nonstick skillet over medium heat. Spread the noodles in a thin, even cake. Fry without moving them until the bottom is golden and crisp, about 5 minutes.
 6. **Fry the second side:** Slide the cake onto a plate, flip it back into the pan and fry until the second side is golden, about 5 minutes. Move it to a serving platter.
-7. **Blanch the greens:** Drop the yu choy or baby bok choy into the boiling water and cook until the stems are just tender, 30 seconds to 1 minute. Drain and arrange around the noodle cake.
+7. **Blanch the greens:** Drop the greens into the boiling water and cook until the stems are just tender, 30 seconds to 1 minute. Drain and arrange around the noodle cake.
 8. **Stir-fry the vegetables:** Heat a wok over high heat and add the carrots and mushrooms and 1 tbsp of the vegetable oil. Stir-fry until the carrots are crisp-tender, about 2 minutes.
 9. **Add the aromatics:** Add the ginger and garlic and stir until fragrant, about 30 seconds.
 10. **Sear the shrimp:** Push the vegetables aside and add the shrimp in one layer. Sear for 1 minute per side, then pour the Shaoxing wine around the edge of the wok.

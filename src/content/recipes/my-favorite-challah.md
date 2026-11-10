@@ -169,6 +169,7 @@ formula:
         - id: seeds
           key: poppy-or-sesame-seeds
           name: poppy or sesame seeds
+          stepName: seeds
           allowance: for sprinkling
           uses:
             - step: bake
@@ -257,5 +258,5 @@ Challah is the braided egg bread of the Jewish Sabbath and holidays. This is Joa
 7. **Roll the strands:** Divide the dough in half, then divide each half into six pieces. Roll each piece into a strand about 12 inches long and 1 1/2 inches thick.
 8. **Braid the loaves:** Pinch the tops of six strands together. Move the outside right strand over two strands. Move the second strand from the left to the far right. Move the outside left strand over two. Move the second strand from the right to the far left. Repeat until braided and tuck the ends under, or curve the braid into a ring and pinch the ends together. Braid the second loaf and set both on the baking sheets.
 9. **Glaze and proof:** Beat the egg in a small bowl. Brush the loaves lightly with the egg and chill the rest. Cover the loaves loosely and let them rise until puffy, about 1 hour. Heat the oven to 375°F.
-10. **Bake:** Brush the loaves again with the rest of the egg and sprinkle with the poppy or sesame seeds. Bake in the middle of the oven until deep golden brown, with color in the seams between strands, 35 to 40 minutes. If the tops darken too fast, cover them loosely with foil.
+10. **Bake:** Brush the loaves again with the rest of the egg and sprinkle with the seeds. Bake in the middle of the oven until deep golden brown, with color in the seams between strands, 35 to 40 minutes. If the tops darken too fast, cover them loosely with foil.
 11. **Cool:** Cool the loaves completely on a rack before slicing.

@@ -92,6 +92,7 @@ formula:
         - id: carp
           key: carp
           name: carp or pike fillet
+          stepName: white fish
           quantity:
             amount: 12
             unit: oz
@@ -389,7 +390,7 @@ Eli and Max Sussman's terrine from Saveur turns holiday gefilte fish into one sl
 
 1. **Soften the onion:** Warm the onion and 1 tbsp of the olive oil in a skillet over medium-low heat. Cook, stirring now and then, until the onion is soft and translucent but not browned, 8 to 10 minutes. Scrape it into a large bowl to cool.
 2. **Line the pan:** Heat the oven to 325°F and put a kettle of water on to boil. Line a 9-by-5-inch loaf pan with parchment, leaving an overhang on all sides.
-3. **Grind the fish:** Process the carp or pike fillet and salmon fillet in a food processor, scraping the bowl, until the fish forms a fine, sticky paste, about 1 minute. Add it to the onion.
+3. **Grind the fish:** Process the white fish and salmon fillet in a food processor, scraping the bowl, until the fish forms a fine, sticky paste, about 1 minute. Add it to the onion.
 4. **Mix the terrine:** Add the heavy cream, cold water, eggs, matzo meal, carrot, fresh dill, lemon zest, 1 tsp of the lemon juice, 2 tsp of the salt, and 1 tsp of the pepper to the bowl. Stir until smooth and evenly combined.
 5. **Fill the pan:** Spread the mixture in the lined pan and smooth the top. Fold the parchment over it and cover the pan tightly with foil.
 6. **Set up the water bath:** Set the loaf pan in a 9-by-13-inch baking dish. Pour in the boiling water until it comes halfway up the sides of the loaf pan.

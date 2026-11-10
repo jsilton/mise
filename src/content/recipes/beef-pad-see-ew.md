@@ -116,6 +116,7 @@ formula:
         - id: thin-soy
           key: thin-soy
           name: Thai thin soy sauce or light soy sauce
+          stepName: thin soy sauce
           quantity:
             amount: 2
             unit: tsp
@@ -287,7 +288,7 @@ Pad see ew is Thai street food: wide rice noodles seared in a hot wok with Chine
 ## Directions
 
 1. **Marinate the beef:** Toss the flank steak, soy sauce, cornstarch, and 1 tsp of the vegetable oil in a bowl until the beef is coated. Let it sit while you prepare everything else.
-2. **Mix the sauce:** In a small bowl, stir the oyster sauce, sugar, Thai thin soy sauce or light soy sauce, Thai black soy sauce, fish sauce, and white pepper until the sugar dissolves.
+2. **Mix the sauce:** In a small bowl, stir the oyster sauce, sugar, thin soy sauce, Thai black soy sauce, fish sauce, and white pepper until the sugar dissolves.
 3. **Loosen the noodles:** If the wide rice noodles are cold and stiff, rinse them briefly under hot water. Separate them gently into ribbons and drain well.
 4. **Sear the beef:** Heat 1 tbsp of the vegetable oil in a wok over high heat until it shimmers. Spread the beef in a single layer and sear until browned, about 1 minute per side. Move it to a plate.
 5. **Cook the gai lan:** Add 1 tbsp of the vegetable oil, the garlic, and Chinese broccoli to the wok. Stir-fry until the stems are bright green and just tender, 2 to 3 minutes. If the stems are still tough, add a splash of water and cover for 1 minute.

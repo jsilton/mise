@@ -66,6 +66,7 @@ formula:
         - id: pan-fat
           key: butter-or-neutral-oil
           name: butter or neutral oil
+          stepName: fat for the pan
           allowance: for the pan
           uses:
             - step: prepare
@@ -168,6 +169,7 @@ formula:
         - id: topping
           key: topping
           name: coarse sugar or more chocolate chips
+          stepName: topping
           allowance: for sprinkling
           optional: true
           role: garnish
@@ -226,12 +228,12 @@ These muffins bake up like the ones in a bakery case, tall with wide, sugary top
 
 ## Directions
 
-1. **Heat the oven:** Heat the oven to 425°F. Grease a 12-cup muffin pan, rims included, with the butter or neutral oil.
+1. **Heat the oven:** Heat the oven to 425°F. Grease a 12-cup muffin pan, rims included, with the fat for the pan.
 2. **Mix the dry ingredients:** Whisk the flour, baking powder, baking soda, salt, and semisweet chocolate chips in a large bowl so the chips are coated in flour.
 3. **Mix the wet ingredients:** In another bowl, whisk the butter, sugar, buttermilk, eggs, and vanilla until smooth.
 4. **Fold the batter:** Pour the wet mixture into the dry and fold with a spatula until no dry flour remains. Small lumps are fine.
 5. **Rest the batter:** Let the batter sit for 10 minutes while the oven finishes heating. The flour soaks up the liquid and the muffins dome higher.
-6. **Fill the cups:** Fill the cups all the way to the top. Sprinkle with the coarse sugar or more chocolate chips (if using).
+6. **Fill the cups:** Fill the cups all the way to the top. Sprinkle with the topping (if using).
 7. **Start hot:** Bake at 425°F until the tops puff, 5 minutes.
 8. **Finish at 375°F:** Without opening the door, lower the oven to 375°F. Bake until the tops are golden and a toothpick in the center comes out free of wet batter, 12 to 15 minutes.
 9. **Cool and release:** Cool in the pan for 10 minutes. Loosen the tops and move the muffins to a rack.

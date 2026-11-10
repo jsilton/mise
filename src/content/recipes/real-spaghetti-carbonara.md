@@ -52,6 +52,7 @@ formula:
         - id: pasta
           key: spaghetti-or-rigatoni
           name: spaghetti or rigatoni
+          stepName: pasta
           quantity:
             amount: 1
             unit: lb
@@ -178,7 +179,7 @@ Roman carbonara has no cream. The sauce is eggs, Pecorino Romano, black pepper a
 
 1. **Boil the water:** Bring a large pot of water to a boil and season it with the salt.
 2. **Render the guanciale:** Meanwhile, cook the guanciale in a large skillet over medium heat, stirring now and then, until the fat renders and the pieces are crisp, 8 to 10 minutes. Take the skillet off the heat.
-3. **Boil the pasta:** Add the spaghetti or rigatoni to the boiling water and cook until al dente.
+3. **Boil the pasta:** Add the pasta to the boiling water and cook until al dente.
 4. **Warm the eggs:** While the pasta cooks, whisk the eggs, egg yolks, Pecorino Romano, and pepper in a heatproof bowl. Set the bowl over the pasta pot and whisk constantly until the mixture is warm and the cheese starts to melt, about 1 minute.
 5. **Drain:** Scoop out a mugful of the pasta water, then drain the pasta.
 6. **Toss off the heat:** Add the hot pasta to the skillet with the guanciale and its fat, still off the heat. Pour in the egg mixture and a splash of pasta water and toss hard and fast until the sauce turns creamy and glossy. Add more pasta water a splash at a time if it looks thick.

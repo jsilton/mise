@@ -81,6 +81,7 @@ formula:
         - id: herbs
           key: herbs
           name: fresh rosemary or thyme sprig
+          stepName: herb sprigs
           plural: fresh rosemary or thyme sprigs
           quantity:
             amount: 3
@@ -123,6 +124,7 @@ formula:
         - id: sweetener
           key: sweetener
           name: maple syrup or honey
+          stepName: maple syrup
           quantity:
             amount: 1
             unit: tbsp
@@ -179,7 +181,7 @@ Roots roasted hot and spread out turn sweet and nutty, with dark, crisp edges. C
 
 ## Directions
 
-1. **Season the roots:** Heat the oven to 425°F. Toss the mixed root vegetables, olive oil, rosemary or thyme sprigs, garlic, salt, and pepper in a large bowl. Spread on two large rimmed baking sheets in one layer, with space between the pieces. Tuck the garlic under the vegetables so it does not burn.
+1. **Season the roots:** Heat the oven to 425°F. Toss the mixed root vegetables, olive oil, herb sprigs, garlic, salt, and pepper in a large bowl. Spread on two large rimmed baking sheets in one layer, with space between the pieces. Tuck the garlic under the vegetables so it does not burn.
 2. **Roast:** Roast, turning the vegetables and swapping the sheets halfway, until the edges are dark brown and a knife slides easily into the thickest piece of beet, 35 to 45 minutes. If the sweet potatoes are tender well before the beets, lift them into a bowl and return them for the glaze.
-3. **Glaze:** Whisk the maple syrup or honey and balsamic vinegar and drizzle it over the vegetables. Toss and roast until sticky and glossy, about 5 minutes.
+3. **Glaze:** Whisk the maple syrup and balsamic vinegar and drizzle it over the vegetables. Toss and roast until sticky and glossy, about 5 minutes.
 4. **Serve:** Pick out the herb stems and serve warm.

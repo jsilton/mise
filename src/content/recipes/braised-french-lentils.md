@@ -155,6 +155,7 @@ formula:
         - id: broth
           key: broth
           name: low-sodium chicken or vegetable broth
+          stepName: broth
           quantity:
             amount: 3.5
             unit: cup
@@ -261,6 +262,6 @@ Lentilles du Puy are small green lentils from the volcanic Auvergne in central F
 
 1. **Soften the vegetables:** Heat the olive oil, onion, carrots, and celery in a Dutch oven over medium heat. Cook, stirring now and then, until the onion is translucent and the vegetables are soft, 6 to 7 minutes.
 2. **Add the garlic:** Stir in the garlic and cook until fragrant, about 1 minute.
-3. **Bring to a boil:** Add the French green lentils, thyme, bay leaf, and chicken or vegetable broth. Stir and bring to a boil over high heat.
+3. **Bring to a boil:** Add the French green lentils, thyme, bay leaf, and broth. Stir and bring to a boil over high heat.
 4. **Simmer the lentils:** Lower the heat to a gentle simmer and partly cover the pot. Cook, stirring now and then, until the lentils are creamy inside but still hold their shape and most of the broth is absorbed, 25 to 35 minutes. If the pot gets dry before the lentils are tender, add a splash of water.
 5. **Finish and serve:** Pull out the thyme stems and bay leaf. Stir in the Dijon mustard, red wine vinegar, parsley, salt, and pepper, then taste and add more salt or vinegar if they need it.

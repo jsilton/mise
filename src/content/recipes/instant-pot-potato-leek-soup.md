@@ -110,6 +110,7 @@ formula:
         - id: broth
           key: chicken-or-vegetable-broth
           name: chicken or vegetable broth
+          stepName: broth
           quantity:
             amount: 5
             unit: cup
@@ -247,7 +248,7 @@ Potato and leek soup is a French home classic, and the pressure cooker makes it 
 
 1. **Soften the leeks:** Set the pressure cooker to sauté on medium. Add the butter, olive oil, and leeks and cook, stirring often, until the leeks are soft and translucent but not browned, 5 to 7 minutes.
 2. **Add the garlic and flour:** Stir in the garlic and flour. Cook, stirring, until the garlic is fragrant and the flour coats the leeks with no dry spots, about 1 minute.
-3. **Add the broth:** Slowly pour in the chicken or vegetable broth, stirring and scraping the bottom of the pot so no flour sticks.
+3. **Add the broth:** Slowly pour in the broth, stirring and scraping the bottom of the pot so no flour sticks.
 4. **Add the potatoes:** Stir in the Yukon Gold potatoes, bay leaf, nutmeg (if using), salt, and white pepper.
 5. **Pressure-cook:** Turn off the sauté setting. Lock the lid, close the valve and cook at high pressure for 7 minutes.
 6. **Release the pressure:** Let the pressure come down on its own for 15 minutes, then open the valve to release the rest. Discard the bay leaf. The potatoes should be soft enough to crush with a spoon.

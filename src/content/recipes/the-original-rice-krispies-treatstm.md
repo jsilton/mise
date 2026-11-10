@@ -49,6 +49,7 @@ formula:
         - id: grease
           key: grease
           name: butter or cooking spray
+          stepName: fat for the pan
           allowance: for the pan and spatula
           uses:
             - step: prep
@@ -154,7 +155,7 @@ These are the original Rice Krispies treats from the back of the cereal box, wit
 
 ## Directions
 
-1. **Grease the pan:** Grease a 9-by-13-inch pan and a spatula with the butter or cooking spray.
+1. **Grease the pan:** Grease a 9-by-13-inch pan and a spatula with the fat for the pan.
 2. **Melt the marshmallows:** Melt the butter and marshmallows in a large pot over low heat, stirring constantly with the greased spatula, until smooth, about 5 minutes. Take the pot off the heat right away.
 3. **Add the flavorings:** Stir in the salt and vanilla.
 4. **Coat the cereal:** Add the Rice Krispies cereal and fold gently until every piece is coated.

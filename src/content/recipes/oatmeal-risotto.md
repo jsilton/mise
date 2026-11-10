@@ -75,6 +75,7 @@ formula:
         - id: liquid
           key: water-or-low-sodium-chicken-stock
           name: water or chicken broth
+          stepName: water
           quantity:
             amount: 3
             unit: cup
@@ -197,7 +198,7 @@ Richard Blais cooks steel-cut oats like risotto. An overnight soak lets them sim
 
 ## Directions
 
-1. **Soak the oats:** Stir the steel-cut oats and water or chicken broth together in a bowl. Cover and refrigerate overnight.
+1. **Soak the oats:** Stir the steel-cut oats and water together in a bowl. Cover and refrigerate overnight.
 2. **Soak the raisins:** Stir the golden raisins and sherry vinegar together in a small bowl and let the raisins soak while the oats cook.
 3. **Bring to a simmer:** Pour the oats and their liquid into a saucepan and bring to a boil over medium-high heat. Lower the heat to a gentle simmer and stir in the salt and 1 tbsp of the brown sugar.
 4. **Simmer the oats:** Simmer, stirring often and scraping the bottom, until the oats are creamy outside and just chewy at the center, 20 to 30 minutes. If the pot gets dry first, add the hot water a splash at a time.

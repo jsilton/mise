@@ -189,6 +189,7 @@ formula:
         - id: herbs
           key: herbs
           name: fresh oregano or marjoram leaves
+          stepName: oregano
           allowance: a small handful
           uses:
             - step: finish
@@ -199,6 +200,7 @@ formula:
         - id: pasta
           key: pasta
           name: penne or shells
+          stepName: pasta
           quantity:
             amount: 12
             unit: oz
@@ -208,6 +210,7 @@ formula:
         - id: cheese
           key: cheese
           name: Parmesan or Pecorino Romano
+          stepName: cheese
           allowance: 'grated, for serving'
           role: garnish
           uses:
@@ -295,6 +298,6 @@ A weeknight ragù from NYT Cooking. Ground lamb browns hard on its own first, th
 4. **Melt the anchovies:** Add the garlic, red pepper flakes, and anchovy fillets and cook, stirring, until the anchovies melt into the oil and the garlic is fragrant, about 2 minutes.
 5. **Toast the tomato paste:** Stir in the tomato paste and cook, stirring, until it turns brick red and smells roasted, about 3 minutes.
 6. **Simmer the sauce:** Return the lamb and its juices and stir in the crushed tomatoes, water, salt, and pepper, scraping the bottom of the pot. Bring to a boil, then lower the heat and simmer gently, stirring now and then, until the sauce is thick and meaty, 25 to 30 minutes.
-7. **Boil the pasta:** When the sauce has about 15 minutes left, bring a large pot of well-salted water to a boil. Add the penne or shells and cook until just short of al dente, then drain.
-8. **Finish the sauce:** Stir the balsamic vinegar and oregano or marjoram leaves into the sauce. Add the pasta and toss over low heat until it is coated and al dente, about 1 minute. Taste and add more salt if it needs it.
-9. **Serve:** Spoon into bowls and finish with the Parmesan or Pecorino Romano and olive oil.
+7. **Boil the pasta:** When the sauce has about 15 minutes left, bring a large pot of well-salted water to a boil. Add the pasta and cook until just short of al dente, then drain.
+8. **Finish the sauce:** Stir the balsamic vinegar and oregano into the sauce. Add the pasta and toss over low heat until it is coated and al dente, about 1 minute. Taste and add more salt if it needs it.
+9. **Serve:** Spoon into bowls and finish with the cheese and olive oil.

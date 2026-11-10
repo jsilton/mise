@@ -125,6 +125,7 @@ formula:
         - id: mustard
           key: mustard
           name: whole grain mustard or Dijon
+          stepName: mustard
           allowance: for serving
           uses:
             - step: serve
@@ -175,4 +176,4 @@ This is a one-pan dinner of Italian sausage and crisp baby potatoes. The potatoe
 2. **Roast the potatoes:** Roast the potatoes alone until they start to brown underneath, 15 minutes.
 3. **Add the sausage:** Nestle the Italian sausage links among the potatoes on the hot pan, keeping the potatoes in one layer. Prick each link a few times with a fork so the fat runs out and bastes the potatoes.
 4. **Roast together:** Roast, turning the sausages halfway, until they are browned and reach 160°F in the center and the potatoes are golden and tender, about 20 minutes.
-5. **Serve:** Slice the sausages on the bias. Serve them with the potatoes, the dinner rolls and whole grain mustard or Dijon.
+5. **Serve:** Slice the sausages on the bias. Serve them with the potatoes, the dinner rolls and mustard.

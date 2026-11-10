@@ -60,6 +60,7 @@ formula:
         - id: oil
           key: cooking-oil
           name: avocado or olive oil
+          stepName: oil
           quantity:
             amount: 2
             unit: tsp
@@ -156,6 +157,7 @@ formula:
         - id: corn
           key: corn
           name: fresh or frozen corn kernels
+          stepName: corn
           quantity:
             amount: 1/2
             unit: cup
@@ -195,6 +197,7 @@ formula:
         - id: cheese
           key: cheese
           name: Colby Jack or mozzarella
+          stepName: cheese
           quantity:
             amount: 1/2
             unit: cup
@@ -206,6 +209,7 @@ formula:
         - id: garnish
           key: cilantro-green-onion
           name: fresh cilantro or scallions
+          stepName: garnish
           allowance: for garnish
           uses:
             - step: serve
@@ -266,10 +270,10 @@ All the flavor of beef enchiladas in one skillet, with no rolling and no oven. C
 
 ## Directions
 
-1. **Soften the onion:** Warm the avocado or olive oil and yellow onion in a large, deep skillet over medium heat. Cook, stirring, until the onion is soft and translucent, about 4 minutes.
+1. **Soften the onion:** Warm the oil and yellow onion in a large, deep skillet over medium heat. Cook, stirring, until the onion is soft and translucent, about 4 minutes.
 2. **Brown the beef:** Turn the heat to medium-high. Add the ground beef and cook, breaking it into small pieces, until browned with no pink left, 5 to 6 minutes. Spoon off excess fat.
 3. **Toast the spices:** Stir in the cumin, paprika, garlic powder, salt, and pepper and cook until fragrant, about 30 seconds.
 4. **Cook the squash:** Add the yellow squash and zucchini and cook, stirring, until they start to soften at the edges, 4 to 5 minutes.
-5. **Simmer with the tortillas:** Add the fresh or frozen corn kernels, black beans, red enchilada sauce, and corn tortillas and stir gently to coat the strips. Simmer until the sauce bubbles, the tortilla strips are soft and the squash is tender, about 4 minutes.
-6. **Melt the cheese:** Take the pan off the heat. Scatter the Colby Jack or mozzarella (if using) over the top, cover and let it melt, about 2 minutes.
-7. **Serve:** Sprinkle with the cilantro or scallions (if using) and serve from the skillet.
+5. **Simmer with the tortillas:** Add the corn, black beans, red enchilada sauce, and corn tortillas and stir gently to coat the strips. Simmer until the sauce bubbles, the tortilla strips are soft and the squash is tender, about 4 minutes.
+6. **Melt the cheese:** Take the pan off the heat. Scatter the cheese (if using) over the top, cover and let it melt, about 2 minutes.
+7. **Serve:** Sprinkle with the garnish (if using) and serve from the skillet.

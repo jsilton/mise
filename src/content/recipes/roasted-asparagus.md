@@ -106,6 +106,7 @@ formula:
         - id: garnish
           key: garnish
           name: grated Parmesan or lemon zest
+          stepName: topping
           quantity:
             amount: 1
             unit: tbsp
@@ -152,4 +153,4 @@ Hot-oven asparagus with browned tips and stems that keep a little snap. It takes
 1. **Oil the asparagus:** Heat the oven to 425°F. Toss the asparagus, olive oil, salt, and pepper on a rimmed baking sheet and spread in one layer, with any thin stalks to one side.
 2. **Roast:** Roast until the stems are tender with a little bite and the tips start to brown, 8 to 12 minutes. Pull thin stalks a few minutes early.
 3. **Add the lemon:** Squeeze the lemon over the hot asparagus.
-4. **Top and serve:** Sprinkle with the Parmesan or lemon zest (if using) and serve right away.
+4. **Top and serve:** Sprinkle with the topping (if using) and serve right away.

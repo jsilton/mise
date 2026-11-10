@@ -190,6 +190,7 @@ formula:
         - id: small-pasta
           key: small-pasta
           name: ditalini or other small pasta
+          stepName: pasta
           quantity:
             amount: 3 1/2
             unit: oz
@@ -239,6 +240,7 @@ formula:
         - id: fresh-herbs
           key: fresh-herbs
           name: fresh basil or parsley
+          stepName: herbs
           allowance: 'chopped, for serving'
           role: garnish
           uses:
@@ -367,7 +369,7 @@ Minestrone is the everyday vegetable soup of Italian home kitchens, built on bea
 2. **Soften the vegetables:** Add the onion, carrot, celery, and rosemary. Cook, stirring often, until the vegetables are soft but not browned, 10 to 15 minutes.
 3. **Cook down the tomatoes:** Stir in the garlic and tomatoes. Cook, stirring along the bottom, until the tomatoes break down and most of their liquid cooks off so the mixture sizzles in the oil, 5 to 10 minutes.
 4. **Simmer the broth:** Add the cannellini beans, vegetable stock, Parmesan rind (if using), and salt, starting with a little salt. Bring to a boil, then lower the heat and simmer, partly covered, for 30 minutes, until the broth tastes of the vegetables and rosemary.
-5. **Cook the pasta and squash:** Add the ditalini or other small pasta, zucchini, yellow summer squash, and green beans. Simmer, stirring often so the pasta doesn't stick, until the pasta is al dente and the green beans are tender, 10 to 12 minutes. Add a splash of water if the soup gets too thick.
+5. **Cook the pasta and squash:** Add the pasta, zucchini, yellow summer squash, and green beans. Simmer, stirring often so the pasta doesn't stick, until the pasta is al dente and the green beans are tender, 10 to 12 minutes. Add a splash of water if the soup gets too thick.
 6. **Wilt the spinach:** Stir in the spinach and cook until wilted, about 2 minutes. Fish out the Parmesan rind.
-7. **Season the soup:** Take the pot off the heat. Stir in the basil or parsley and pepper, then taste and add more salt.
+7. **Season the soup:** Take the pot off the heat. Stir in the herbs and pepper, then taste and add more salt.
 8. **Serve:** Ladle into warm bowls and finish with the olive oil and Parmigiano-Reggiano (if using).

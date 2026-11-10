@@ -126,6 +126,7 @@ formula:
         - id: chile
           key: sambal-oelek-or-chile-garlic-sauce
           name: sambal oelek or Chinese chile-garlic sauce
+          stepName: sambal oelek
           quantity:
             amount: 1
             unit: tbsp
@@ -229,7 +230,7 @@ Sticky, sweet-savory ribs in the style of a Chinese-American takeout counter, ma
 
 ## Directions
 
-1. **Blend the marinade:** Blend the hoisin sauce, soy sauce, unsulfured molasses, ginger, garlic, sambal oelek or Chinese chile-garlic sauce, and 1/2 cup of the honey in a blender until smooth.
+1. **Blend the marinade:** Blend the hoisin sauce, soy sauce, unsulfured molasses, ginger, garlic, sambal oelek, and 1/2 cup of the honey in a blender until smooth.
 2. **Marinate the ribs:** Put the pork spareribs in a large bowl, pour the marinade over them and turn to coat. Refrigerate for 45 minutes, turning once.
 3. **Load the cooker:** Pour the water into the pressure cooker and set the rack in the pot. Lift the ribs out of the marinade, let the excess drip back into the bowl and stand them on the rack. Cover the bowl of marinade and refrigerate it.
 4. **Pressure-cook:** Lock the lid, close the valve and cook at high pressure for 25 minutes.

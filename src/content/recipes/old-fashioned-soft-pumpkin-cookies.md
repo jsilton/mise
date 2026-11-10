@@ -184,6 +184,7 @@ formula:
         - id: grease
           key: grease
           name: butter or baking spray
+          stepName: fat for the sheets
           allowance: for the baking sheets
           uses:
             - step: prep
@@ -283,7 +284,7 @@ These are Libby's soft, cakey pumpkin cookies. Cinnamon, ginger, cloves and nutm
 
 ## Directions
 
-1. **Heat the oven:** Heat the oven to 350°F. Grease two baking sheets with the butter or baking spray.
+1. **Heat the oven:** Heat the oven to 350°F. Grease two baking sheets with the fat for the sheets.
 2. **Mix the dry ingredients:** Whisk the flour, baking soda, baking powder, cinnamon, ginger, cloves, nutmeg, and salt in a medium bowl.
 3. **Cream the butter:** Beat the granulated sugar and 1/2 cup of the butter in a large bowl with a mixer until light and fluffy, about 3 minutes.
 4. **Add the pumpkin:** Beat in the pumpkin puree, egg, and 1 tsp of the vanilla until smooth.

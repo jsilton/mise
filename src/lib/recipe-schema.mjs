@@ -29,6 +29,12 @@ export function recipeImageUrl(url) {
 
 // One representation for the site and the JSON export. Source is attribution,
 // not proof of authorship; legacy nutrition is unverified and stays withheld.
+// Ingredient lines can link a base recipe in Markdown. Structured data wants plain text, so a
+// link keeps its text and drops its target.
+export function plainIngredient(ingredient) {
+  return ingredient.replace(/\[([^\]]+)\]\([^\s)]+\)/g, '$1');
+}
+
 export function buildRecipeSchema(
   data,
   body,
@@ -36,7 +42,9 @@ export function buildRecipeSchema(
   parsed = parseRecipeContent(body),
   { hasPhoto = true } = {}
 ) {
-  const ingredients = (data.ingredients || []).filter((value) => !isIngredientDivider(value));
+  const ingredients = (data.ingredients || [])
+    .filter((value) => !isIngredientDivider(value))
+    .map(plainIngredient);
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Recipe',

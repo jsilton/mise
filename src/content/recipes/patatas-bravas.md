@@ -112,6 +112,7 @@ formula:
         - id: oil
           key: neutral-oil
           name: 'neutral frying oil, such as canola or sunflower'
+          stepName: frying oil
           quantity:
             amount: 4
             unit: cup
@@ -334,7 +335,7 @@ Patatas bravas is the tapas bar classic of Madrid: fried potato chunks under a s
 4. **Cook the garlic:** Add 3 garlic cloves and stir until fragrant, about 30 seconds.
 5. **Toast the spices:** Stir in the pimentón de la Vera, sweet paprika, and cayenne pepper and cook until fragrant, about 30 seconds. Turn the heat down if the paprika starts to darken, since burnt paprika turns bitter.
 6. **Simmer the sauce:** Add the crushed tomatoes, sugar, and 1/2 tsp of the kosher salt. Simmer over medium-low heat, stirring now and then, until thick enough to hold its shape on a spoon, 15 to 20 minutes.
-7. **Heat the oil:** While the sauce simmers, fill a Dutch oven or heavy pot no more than halfway with the neutral frying oil, such as canola or sunflower. Heat over medium-high to 375°F on a thermometer, about 10 minutes.
+7. **Heat the oil:** While the sauce simmers, fill a Dutch oven or heavy pot no more than halfway with the frying oil. Heat over medium-high to 375°F on a thermometer, about 10 minutes.
 8. **Finish the sauce:** Take the pan off the heat and stir in the sherry vinegar. For a smooth sauce, blend it with an immersion blender. Set aside.
 9. **Make the alioli:** Whisk the mayonnaise, lemon juice, kosher salt, and 1 garlic clove in a small bowl until smooth. Chill until serving.
 10. **Fry the potatoes:** Fry the potatoes in batches without crowding, turning now and then, until deep golden and crisp, 5 to 7 minutes. Lift them onto a rack set over a sheet pan and sprinkle right away with the flaky sea salt. Let the oil return to 375°F between batches.

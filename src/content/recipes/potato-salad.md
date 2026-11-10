@@ -169,11 +169,12 @@ formula:
               share: 1
         - id: eggs
           key: hard-boiled-egg
-          name: large hard-boiled egg
+          name: 'large [hard-boiled egg](/mise/recipes/jammy-and-hard-boiled-eggs/)'
+          stepName: hard-boiled eggs
           quantity:
             amount: 4
             unit: count
-          plural: large hard-boiled eggs
+          plural: 'large [hard-boiled eggs](/mise/recipes/jammy-and-hard-boiled-eggs/)'
           preparation: peeled and chopped
           uses:
             - step: fold
@@ -250,7 +251,7 @@ ingredients:
   - '3 celery ribs, finely diced'
   - '4 scallions, thinly sliced'
   - '1/3 cup dill pickles, finely chopped'
-  - '4 large hard-boiled eggs, peeled and chopped'
+  - '4 large [hard-boiled eggs](/mise/recipes/jammy-and-hard-boiled-eggs/), peeled and chopped'
   - '2 tbsp fresh parsley, chopped'
   - 'paprika, a pinch, for the top'
 ---

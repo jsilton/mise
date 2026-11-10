@@ -78,6 +78,7 @@ formula:
         - id: oil
           key: neutral-oil
           name: canola or vegetable oil
+          stepName: oil
           quantity:
             amount: 1
             unit: cup
@@ -122,7 +123,7 @@ Crispy shallots, hành phi in Vietnamese, add crunch, sweetness and aroma to sou
 
 ## Directions
 
-1. **Start in cold oil:** Separate the rings. Put the shallots and canola or vegetable oil in a cold small saucepan, so the oil just covers the shallots.
+1. **Start in cold oil:** Separate the rings. Put the shallots and oil in a cold small saucepan, so the oil just covers the shallots.
 2. **Fry slowly:** Set the pan over medium heat. When the oil bubbles steadily around the rings, lower the heat to medium-low. Cook, stirring often to break up clumps, until the bubbling slows and the rings turn pale golden, 15 to 20 minutes. Stir constantly near the end, because they color fast.
 3. **Strain at pale gold:** Pour everything through a fine-mesh strainer set over a heatproof bowl the moment the rings are pale golden. They keep darkening after they leave the oil.
 4. **Salt and cool:** Spread the shallots on a paper towel-lined plate and sprinkle with the salt while they still glisten. Let them cool completely, and they will turn shatteringly crisp.

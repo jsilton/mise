@@ -64,6 +64,7 @@ formula:
         - id: stock
           key: stock
           name: chicken or vegetable stock
+          stepName: stock
           quantity:
             amount: 0.5
             unit: cup
@@ -279,7 +280,7 @@ A quick stir-fry of buckwheat soba with tofu, shiitakes and baby broccoli in a g
 
 ## Directions
 
-1. **Mix the sauce:** Whisk the chicken or vegetable stock, soy sauce, Shaoxing wine, ginger, garlic, sugar, and salt in a small bowl until the sugar dissolves.
+1. **Mix the sauce:** Whisk the stock, soy sauce, Shaoxing wine, ginger, garlic, sugar, and salt in a small bowl until the sugar dissolves.
 2. **Blanch the broccoli:** Bring a large pot of water to a boil. Add the baby broccoli and cook until bright green and crisp-tender, about 1 minute. Scoop it into a bowl of ice water, then drain and pat dry.
 3. **Cook the soba:** Return the water to a boil and cook the soba noodles as the package directs until just tender, usually 4 to 5 minutes. Drain, rinse under cold running water for 1 minute and drain well.
 4. **Oil the noodles:** Toss the noodles with 1 tsp of the sesame oil so they do not stick.

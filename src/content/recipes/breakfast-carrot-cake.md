@@ -93,6 +93,7 @@ formula:
         - id: oil
           key: oil
           name: canola or avocado oil
+          stepName: oil
           quantity:
             amount: 1/2
             unit: cup
@@ -175,6 +176,7 @@ formula:
         - id: nuts
           key: nuts
           name: walnuts or pecans
+          stepName: nuts
           quantity:
             amount: 1/4
             unit: cup
@@ -237,8 +239,8 @@ This is carrot cake made for the morning, with whole wheat flour and Greek yogur
 ## Directions
 
 1. **Prepare the pan:** Heat the oven to 375°F. Line an 8-inch square pan with parchment.
-2. **Whisk the wet ingredients:** In a large bowl, whisk the egg, granulated sugar, brown sugar, canola or avocado oil, Greek yogurt, and vanilla until pale and frothy and the sugar has dissolved, 3 to 5 minutes.
+2. **Whisk the wet ingredients:** In a large bowl, whisk the egg, granulated sugar, brown sugar, oil, Greek yogurt, and vanilla until pale and frothy and the sugar has dissolved, 3 to 5 minutes.
 3. **Add the dry ingredients:** In another bowl, whisk the whole wheat flour, cinnamon, baking powder, baking soda, and salt. Add them to the wet mixture and fold gently with a spatula until no dry flour remains.
-4. **Fold in the carrots:** Add the carrots and walnuts or pecans (if using) and fold just until evenly mixed. Stop as soon as they are combined, so the whole wheat flour stays tender.
+4. **Fold in the carrots:** Add the carrots and nuts (if using) and fold just until evenly mixed. Stop as soon as they are combined, so the whole wheat flour stays tender.
 5. **Bake:** Spread the batter in the pan and tap it on the counter to settle it. Bake until the center springs back and a toothpick comes out clean, 25 to 30 minutes.
 6. **Cool:** Cool in the pan for 10 minutes, then lift it out onto a rack. Cut into squares.

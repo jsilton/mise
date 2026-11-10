@@ -70,6 +70,7 @@ formula:
         - id: polenta
           key: polenta
           name: polenta or coarse cornmeal
+          stepName: polenta
           quantity:
             amount: 1
             unit: cup
@@ -332,7 +333,7 @@ These bowls borrow the flavors of a pork tamale without the steaming. Polenta co
 
 ## Directions
 
-1. **Simmer the polenta:** Whisk the polenta or coarse cornmeal, chicken broth, and cumin together in a medium saucepan. Bring to a boil over medium-high heat, whisking, then lower the heat and simmer, whisking often, until thick and no longer gritty, 15 to 25 minutes.
+1. **Simmer the polenta:** Whisk the polenta, chicken broth, and cumin together in a medium saucepan. Bring to a boil over medium-high heat, whisking, then lower the heat and simmer, whisking often, until thick and no longer gritty, 15 to 25 minutes.
 2. **Finish the polenta:** Stir in the butter and cotija cheese. Cover and keep warm over the lowest heat.
 3. **Char the corn:** While the polenta simmers, heat a heavy skillet over high heat. Spread the sweet corn in a single layer and leave it until charred in spots, about 2 minutes. Stir, char 2 minutes more and move the corn to a bowl.
 4. **Brown the pork:** Add the ground pork to the same skillet over high heat. Let it sear without stirring for 3 minutes to build a crust. Then break up the pork and cook until no pink remains, 5 to 7 minutes more. Spoon off all but about 1 tablespoon of the fat.

@@ -132,6 +132,7 @@ formula:
         - id: grain
           key: cooked-grain
           name: cooked yellow rice or quinoa
+          stepName: rice
           quantity:
             amount: 2
             unit: cup
@@ -239,6 +240,6 @@ These bowls borrow from Greek souvlaki, with chicken thighs marinated in lemon, 
 1. **Marinate the chicken:** Toss the chicken thighs, olive oil, lemon juice, oregano, garlic, salt, and pepper in a large bowl. Cover and refrigerate for at least 15 minutes and up to overnight.
 2. **Sear the chicken:** Heat a large skillet or grill to medium-high. Lift the chicken out of the marinade and cook until charred at the edges and 165°F in the thickest part, 5 to 6 minutes per side. Turn the heat down a little if the outside darkens too fast.
 3. **Rest and slice:** Move the chicken to a cutting board and rest for 5 minutes, then slice it into thin strips.
-4. **Build the base:** While the chicken rests, divide the hummus and yellow rice or quinoa among deep bowls, spreading the hummus on the bottom and spooning the warm grain on top.
+4. **Build the base:** While the chicken rests, divide the hummus and rice among deep bowls, spreading the hummus on the bottom and spooning the warm grain on top.
 5. **Add the toppings:** Arrange the sliced chicken, the English cucumber and cherry tomatoes in separate piles over the grain.
 6. **Finish and serve:** Top with the Greek feta, [Pickled Red Onions](/mise/recipes/pickled-red-onions/), and lemon wedges and serve right away.

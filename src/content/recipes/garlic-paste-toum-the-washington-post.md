@@ -76,6 +76,7 @@ formula:
         - id: oil
           key: oil
           name: grapeseed or canola oil for the base
+          stepName: oil for the base
           quantity:
             amount: 1 1/2
             unit: cup
@@ -85,6 +86,7 @@ formula:
         - id: oil-finish
           key: oil
           name: grapeseed or canola oil for finishing
+          stepName: oil for finishing
           quantity:
             amount: 1 1/2
             unit: cup
@@ -173,10 +175,10 @@ Toum is the fluffy, snow-white Lebanese garlic sauce served with shawarma and gr
 ## Directions
 
 1. **Purée the garlic:** Put the garlic and salt in a food processor. Pulse, scraping down the sides often, until the garlic is a completely smooth paste, about 2 minutes.
-2. **Start the emulsion:** With the motor running, add the grapeseed or canola oil for the base in the thinnest stream you can manage, drop by drop at first. Stop to scrape the sides once or twice. Keep going until it is a thick, glossy paste, about 10 minutes.
-3. **Thicken the paste:** Add 1/2 cup of the grapeseed or canola oil for finishing in the same thin stream until the paste sets up like creamy cooked grits, about 3 minutes.
+2. **Start the emulsion:** With the motor running, add the oil for the base in the thinnest stream you can manage, drop by drop at first. Stop to scrape the sides once or twice. Keep going until it is a thick, glossy paste, about 10 minutes.
+3. **Thicken the paste:** Add 1/2 cup of the oil for finishing in the same thin stream until the paste sets up like creamy cooked grits, about 3 minutes.
 4. **Add the lemon:** With the motor running, slowly pour in the lemon juice. The paste turns lighter and whiter.
-5. **Add more oil:** Add 1/2 cup of the grapeseed or canola oil for finishing in the same thin stream until it is absorbed, about 3 minutes.
+5. **Add more oil:** Add 1/2 cup of the oil for finishing in the same thin stream until it is absorbed, about 3 minutes.
 6. **Add the water:** Slowly pour in the cold water. The paste loosens but should not turn runny.
-7. **Finish the oil:** Add the rest of the grapeseed or canola oil for finishing in the same thin stream until the toum is creamy white and fluffy, like beaten egg whites, about 3 minutes. Taste and add more lemon juice a teaspoon at a time until the toum tastes bright.
+7. **Finish the oil:** Add the rest of the oil for finishing in the same thin stream until the toum is creamy white and fluffy, like beaten egg whites, about 3 minutes. Taste and add more lemon juice a teaspoon at a time until the toum tastes bright.
 8. **Chill:** Spoon into jars and refrigerate at least 4 hours before serving so the garlic mellows.

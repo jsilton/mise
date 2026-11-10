@@ -72,6 +72,7 @@ formula:
         - id: steak
           key: ribeye-or-strip-steak
           name: boneless ribeye or New York strip steak
+          stepName: steaks
           plural: boneless ribeye or New York strip steaks
           quantity:
             amount: 2
@@ -206,7 +207,7 @@ Butter basting is the French bistro move called arroser, where foaming butter, g
 
 1. **Salt the steaks:** Pat the steaks dry with paper towels. Season them all over, edges included, with the kosher salt and pepper. Leave them on a wire rack at room temperature for 45 minutes.
 2. **Heat the pan:** Pat the steaks dry again. Heat the oil in a 12-inch cast-iron skillet over high heat until the oil just starts to smoke, about 3 minutes.
-3. **Sear the steaks:** Lay the ribeye or New York strip steaks in the pan, away from you. Cook, flipping every minute, until both sides have a deep brown crust, about 6 minutes.
+3. **Sear the steaks:** Lay the steaks in the pan, away from you. Cook, flipping every minute, until both sides have a deep brown crust, about 6 minutes.
 4. **Baste with butter:** Lower the heat to medium. Add the butter, garlic, and thyme. When the butter foams, tilt the pan toward you and spoon the butter over the steaks again and again, flipping them once, until the thickest part reads 125°F for medium-rare, 4 to 6 minutes.
 5. **Rest the steaks:** Move the steaks to a cutting board and pour the pan butter over them. Rest for 8 minutes. The temperature climbs to about 130°F as they sit.
 6. **Slice and serve:** Slice the steaks across the grain, 1/2 inch thick. Spoon the juices from the board over the slices and finish with the flaky sea salt.

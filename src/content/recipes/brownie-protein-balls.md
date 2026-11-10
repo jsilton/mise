@@ -105,6 +105,7 @@ formula:
         - id: liquid
           key: liquid
           name: water or almond milk
+          stepName: liquid
           quantity:
             amount: 1
             max: 2
@@ -116,6 +117,7 @@ formula:
         - id: flax
           key: flax
           name: ground flaxseed or chia seeds
+          stepName: seeds
           quantity:
             amount: 2
             unit: tbsp
@@ -171,7 +173,7 @@ No-bake chocolate bites for lunchboxes and after-school snacks. Protein powders 
 ## Directions
 
 1. **Mix the dough:** In a medium bowl, stir the creamy almond butter, chocolate protein powder, almond flour, cocoa powder, maple syrup, and salt with a spatula until a thick dough forms, about 2 minutes.
-2. **Check the dough:** Press a little dough between your fingers. If it crumbles instead of holding together, stir in the water or almond milk (if using) a little at a time until it holds together like soft cookie dough.
-3. **Fold in the mix-ins:** Fold in the ground flaxseed or chia seeds and mini chocolate chips until evenly spread through the dough.
+2. **Check the dough:** Press a little dough between your fingers. If it crumbles instead of holding together, stir in the liquid (if using) a little at a time until it holds together like soft cookie dough.
+3. **Fold in the mix-ins:** Fold in the seeds and mini chocolate chips until evenly spread through the dough.
 4. **Roll the balls:** Roll the dough between your palms into 1 1/2-inch balls and set them on a plate.
 5. **Chill:** Refrigerate until firm, at least 20 minutes.

@@ -60,6 +60,7 @@ formula:
         - id: fish
           key: fish
           name: whole snapper or sea bass
+          stepName: fish
           quantity:
             amount: 1
             unit: count
@@ -236,7 +237,7 @@ Cantonese steamed whole fish is the centerpiece of a Chinese family dinner and a
 ## Directions
 
 1. **Mix the sauce:** Stir the light soy sauce, water, rock sugar, sesame oil, white pepper, and 2 tbsp of the Shaoxing wine together in a small bowl until the sugar dissolves.
-2. **Dry the fish:** Pat the snapper or sea bass dry inside and out. Lay it on a heatproof plate that fits in your steamer or wok.
+2. **Dry the fish:** Pat the fish dry inside and out. Lay it on a heatproof plate that fits in your steamer or wok.
 3. **Season the fish:** Season the fish with half of the ginger and the rest of the Shaoxing wine, tucking some of the ginger into the cavity.
 4. **Steam the fish:** Bring water to a rolling boil in a steamer or a wok fitted with a rack. Set the plate on the rack, cover and steam over high heat until the flesh at the thickest part is opaque and flakes from the bone, 8 to 12 minutes.
 5. **Drain the plate:** Lift out the plate and pour off the liquid that has collected around the fish. It tastes fishy and would muddy the sauce.

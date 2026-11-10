@@ -89,6 +89,7 @@ formula:
         - id: milk
           key: milk
           name: soy or almond milk
+          stepName: milk
           quantity:
             amount: 1 3/4
             unit: cup
@@ -219,7 +220,7 @@ Blended with milk, yogurt and cacao, rolled oats turn into a smooth chocolate pu
 
 1. **Cook the berries:** Microwave the raspberries in a bowl, stirring every minute, until they collapse into a loose sauce, 2 to 3 minutes.
 2. **Thicken the jam:** Stir in 1 tbsp of the chia seeds and let the jam sit until thick, about 5 minutes.
-3. **Blend the oats:** Blend the oats, soy or almond milk, Greek yogurt, cacao powder, maple syrup, vanilla, salt, and 2 tbsp of the chia seeds on high until smooth, about 1 minute.
+3. **Blend the oats:** Blend the oats, milk, Greek yogurt, cacao powder, maple syrup, vanilla, salt, and 2 tbsp of the chia seeds on high until smooth, about 1 minute.
 4. **Layer the jars:** Divide the jam among jars or containers. Pour the oat mixture over the jam.
 5. **Melt the chocolate:** Microwave the dark chocolate in a small bowl in 20-second bursts, stirring each time, until smooth. Let it cool for a minute.
 6. **Add the chocolate top:** Spoon the chocolate over the oats in a thin, even layer.

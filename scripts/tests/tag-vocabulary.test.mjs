@@ -15,6 +15,7 @@ import {
   dietaryFilterOptions,
   seasonsIssue,
   tagIssues,
+  tagLabel,
 } from '../../src/lib/tag-vocabulary.mjs';
 import { QUICK_PICKS, countPicks, quickPicksFor } from '../../src/lib/quick-picks.mjs';
 
@@ -159,6 +160,13 @@ test('the Advanced difficulty option matches the schema value', () => {
   assert.ok(panel.includes('<option value="hard">Advanced</option>'));
   assert.ok(!panel.includes('value="advanced"'));
   assert.ok(recipes.some(({ data }) => data.difficulty === 'hard'));
+});
+
+test('filter labels keep the capitals of an initialism', () => {
+  assert.equal(tagLabel('bbq'), 'BBQ');
+  assert.equal(tagLabel('comfort-food'), 'Comfort food');
+  const panel = fs.readFileSync('src/components/FilterPanel.astro', 'utf8');
+  assert.ok(panel.includes('const formatLabel = tagLabel'));
 });
 
 test('an empty tag line is an issue, a missing one is not', () => {

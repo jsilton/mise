@@ -75,6 +75,7 @@ formula:
         - id: juice
           key: juice
           name: apple or orange juice
+          stepName: juice
           quantity:
             amount: 3/4
             unit: cup
@@ -160,6 +161,7 @@ formula:
         - id: fruit
           key: fruit
           name: 'blueberries, diced strawberries or peeled diced pears'
+          stepName: fruit
           quantity:
             amount: 1
             unit: cup
@@ -237,8 +239,8 @@ Lisa Leake wrote this whole-wheat batter so her kids could pick their own fillin
 
 1. **Heat the oven:** Heat the oven to 400°F and line a 12-cup muffin tin with paper liners.
 2. **Mix the dry ingredients:** In a large bowl, whisk the white whole-wheat flour, baking powder, cinnamon, nutmeg, and salt together.
-3. **Mix the wet ingredients:** In a medium bowl, whisk the apple or orange juice, coconut oil, honey, vanilla, and eggs until smooth. Room-temperature juice and eggs keep the coconut oil from setting into bits.
+3. **Mix the wet ingredients:** In a medium bowl, whisk the juice, coconut oil, honey, vanilla, and eggs until smooth. Room-temperature juice and eggs keep the coconut oil from setting into bits.
 4. **Combine:** Pour the wet mixture into the flour mixture. Stir with a spatula just until no dry flour shows.
-5. **Fold in the fruit:** Gently fold in the blueberries, diced strawberries or peeled diced pears with a few strokes. Divide the batter evenly among the cups.
+5. **Fold in the fruit:** Gently fold in the fruit with a few strokes. Divide the batter evenly among the cups.
 6. **Bake:** Bake until the tops spring back and a toothpick in the center comes out clean, 12 to 15 minutes.
 7. **Cool and serve:** Cool the muffins in the pan for 5 minutes, then lift them onto a rack. Serve warm with the salted butter (if using).

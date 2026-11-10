@@ -78,8 +78,9 @@ for (const row of confirmed) {
           .find((c) => c.id === componentId)
           .ingredients.find((i) => i.id === ingredientId);
         assert.equal(replacement.quantity.amount, row.caseId === 61 ? 8 : 4);
+        // The split is what matters here. A use can also carry a print flag such as `words`.
         assert.deepEqual(
-          replacement.uses,
+          replacement.uses.map(({ step, share }) => ({ step, share })),
           row.caseId === 61
             ? [
                 { step: 'filling', share: '2/3' },

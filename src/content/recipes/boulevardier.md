@@ -53,6 +53,7 @@ formula:
         - id: whiskey
           key: whiskey
           name: bourbon or rye whiskey
+          stepName: whiskey
           quantity:
             amount: 1 1/2
             unit: oz
@@ -138,6 +139,6 @@ Erskine Gwynne, an American in Paris who published a magazine called The Bouleva
 ## Directions
 
 1. **Chill the glass:** Put a coupe in the freezer, or fill it with ice water while you mix and pour the water out just before straining.
-2. **Stir the drink:** Put the bourbon or rye whiskey, Campari, sweet vermouth, and ice in a mixing glass. Stir until very cold, 20 to 30 seconds.
+2. **Stir the drink:** Put the whiskey, Campari, sweet vermouth, and ice in a mixing glass. Stir until very cold, 20 to 30 seconds.
 3. **Strain:** Strain into the chilled coupe, or into a rocks glass over an ice cube (if using).
 4. **Garnish:** Twist the orange peel over the drink to spray its oils on top, then drop it in. Serve right away.

@@ -164,6 +164,7 @@ formula:
           uses:
             - step: filling
               share: 2/3
+              words: true
             - step: cheese
               share: 1/3
           preparation: shredded from a block
@@ -201,6 +202,7 @@ formula:
         - id: herbs
           key: herbs
           name: fresh chives or basil
+          stepName: herbs
           quantity:
             amount: 2
             unit: tbsp
@@ -336,7 +338,7 @@ Stuffed shells are an Italian-American red-sauce classic, jumbo pasta filled wit
 4. **Parboil the shells:** Add the pasta shells to the boiling water and cook 2 to 3 minutes less than the package says, until pliable but still firm. Drain.
 5. **Oil the shells:** Spread the shells on a sheet pan and toss gently with the extra-virgin olive oil so they don't stick.
 6. **Squeeze the spinach:** Wrap the cooled spinach in a clean towel and wring it out until dry. Chop it finely.
-7. **Mix the filling:** In a large bowl, fold the ricotta, lemon zest, nutmeg, chives or basil, pepper, egg, 5 1/4 oz of the low-moisture mozzarella, two thirds of the Parmigiano-Reggiano, and 1/2 tsp of the salt with the chopped spinach until just combined. Mix by hand so the ricotta stays thick and fluffy.
+7. **Mix the filling:** In a large bowl, fold the ricotta, lemon zest, nutmeg, herbs, pepper, egg, two thirds of the low-moisture mozzarella, two thirds of the Parmigiano-Reggiano, and 1/2 tsp of the salt with the chopped spinach until just combined. Mix by hand so the ricotta stays thick and fluffy.
 8. **Sauce the dish:** Spread 1 cup of the marinara sauce over the bottom of a 9x13-inch baking dish.
 9. **Fill the shells:** Spoon the filling into the shells, sharing it evenly, and set them open side up in a single layer in the dish.
 10. **Sauce the shells:** Spoon the rest of the marinara sauce over the shells, covering the pasta edges so they don't dry out and crisp.

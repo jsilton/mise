@@ -50,6 +50,7 @@ formula:
         - id: whiskey
           key: whiskey
           name: bourbon or rye whiskey
+          stepName: whiskey
           quantity:
             amount: 2
             unit: oz
@@ -165,7 +166,7 @@ The whiskey sour has been on American bar menus since the 1860s, when Jerry Thom
 ## Directions
 
 1. **Chill the glass:** Put a rocks glass in the freezer while you mix the drink.
-2. **Dry shake:** Put the bourbon or rye whiskey, lemon juice, simple syrup, and egg white (if using) in a cocktail shaker without ice. Shake hard for 15 seconds to whip the egg white into foam. Skip this shake if you leave out the egg white.
+2. **Dry shake:** Put the whiskey, lemon juice, simple syrup, and egg white (if using) in a cocktail shaker without ice. Shake hard for 15 seconds to whip the egg white into foam. Skip this shake if you leave out the egg white.
 3. **Shake with ice:** Add the ice and shake until the shaker is frosty cold, 10 to 15 seconds.
 4. **Strain:** Fill the chilled glass with the fresh ice and strain the drink over it.
 5. **Decorate the foam:** Dot the Angostura bitters (if using) on the foam and drag a toothpick through them to make a pattern.

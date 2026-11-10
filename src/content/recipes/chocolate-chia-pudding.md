@@ -106,6 +106,7 @@ formula:
         - id: toppings
           key: toppings
           name: 'fresh berries, chocolate chips or chopped nuts'
+          stepName: toppings
           allowance: for topping
           uses:
             - step: serve
@@ -148,4 +149,4 @@ Blending the chia seeds instead of leaving them whole turns this into a silky ch
 
 1. **Blend the pudding:** Blend the vanilla almond milk, chia seeds, maple syrup, cocoa powder, vanilla, and salt on low, then on high, until smooth and the seeds are mostly ground, about 1 minute.
 2. **Chill until set:** Pour the pudding into jars or a bowl. Cover and refrigerate until thick and set, at least 3 hours or overnight.
-3. **Top and serve:** Stir the pudding, loosening it with a splash of almond milk if it is very thick. Top with the berries, chocolate chips or chopped nuts (if using) and serve cold.
+3. **Top and serve:** Stir the pudding, loosening it with a splash of almond milk if it is very thick. Top with the toppings (if using) and serve cold.

@@ -80,6 +80,8 @@ uses:
 
 The step then reads "Add 1 tbsp of the vegetable oil, the garlic, and Chinese broccoli to the wok". `lead` is optional and applies to that one use.
 
+**A share in words.** When a part rounds to an amount no one measures, such as 5 1/4 oz for two thirds of 8 oz of cheese, mark that use with `words: true`. The step then reads "two thirds of the low-moisture mozzarella". `words` is optional and applies to that one use.
+
 **Words before the list.** The compiler reads the word or two before `{{ingredients}}`:
 
 | Template                                                                                                                       | Output                                              |

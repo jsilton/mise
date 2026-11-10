@@ -58,6 +58,7 @@ formula:
         - id: grease
           key: grease
           name: butter or baking spray
+          stepName: fat for the sheets
           allowance: for the pans
           uses:
             - step: prep
@@ -224,7 +225,7 @@ These little cookies get nearly all their sweetness from Medjool dates blended w
 
 ## Directions
 
-1. **Prepare the pans:** Heat the oven to 350°F. Grease two baking sheets with the butter or baking spray.
+1. **Prepare the pans:** Heat the oven to 350°F. Grease two baking sheets with the fat for the sheets.
 2. **Make the date paste:** Process the Medjool dates and butter in a food processor until a smooth, thick paste forms with no hard bits of date, about 1 minute. Scrape down the sides as needed.
 3. **Add the wet ingredients:** Add the egg, Greek yogurt, and vanilla and pulse until smooth, about 10 seconds.
 4. **Whisk the dry ingredients:** Whisk the buckwheat flour, white whole wheat flour, quick oats, baking soda, cinnamon, and salt in a large bowl.

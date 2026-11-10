@@ -127,6 +127,7 @@ formula:
         - id: nutmeg-or-lemon-zest
           key: nutmeg-or-lemon-zest
           name: 'freshly grated nutmeg, lemon zest or both'
+          stepName: nutmeg
           allowance: to taste
           uses:
             - step: mix
@@ -194,7 +195,7 @@ Passatelli are short, rough strands of breadcrumbs, Parmigiano and egg from Roma
 ## Directions
 
 1. **Mash the marrow:** Mash the beef marrow on a board with the flat of a knife until smooth and creamy. Don't let it melt.
-2. **Make the dough:** In a bowl, mix the marrow with the fine plain breadcrumbs, Parmigiano-Reggiano, eggs, and nutmeg, lemon zest or both, holding back a spoonful of the breadcrumbs. Knead into a firm dough that holds its shape. Work in the last of the crumbs if it feels soft.
+2. **Make the dough:** In a bowl, mix the marrow with the fine plain breadcrumbs, Parmigiano-Reggiano, eggs, and nutmeg, holding back a spoonful of the breadcrumbs. Knead into a firm dough that holds its shape. Work in the last of the crumbs if it feels soft.
 3. **Rest the dough:** Cover the dough and refrigerate for 30 minutes so the crumbs soak up the egg.
 4. **Heat the broth:** Bring the meat broth to a boil in a wide pot, then lower the heat to a gentle simmer. Taste it and add salt if it needs it.
 5. **Press the passatelli:** Push the dough through a passatelli press or a ricer with large holes, holding it over the pot. Cut the strands off with a knife every 1 1/2 inches or so and let them drop into the broth.

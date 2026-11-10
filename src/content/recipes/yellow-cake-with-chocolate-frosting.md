@@ -73,6 +73,7 @@ formula:
         - id: pan-fat
           key: butter-or-neutral-oil
           name: butter or neutral oil
+          stepName: fat for the pans
           allowance: for the pans
           uses:
             - step: prepare
@@ -99,6 +100,7 @@ formula:
         - id: oil
           key: neutral-oil
           name: avocado or canola oil
+          stepName: oil
           quantity:
             amount: 1/4
             unit: cup
@@ -306,10 +308,10 @@ Lauren Allen's yellow cake is the classic birthday layer cake with chocolate fro
 
 ## Directions
 
-1. **Prepare the pans:** Heat the oven to 350°F. Grease two 9-inch round cake pans with the butter or neutral oil, line the bottoms with parchment and grease the parchment.
+1. **Prepare the pans:** Heat the oven to 350°F. Grease two 9-inch round cake pans with the fat for the pans, line the bottoms with parchment and grease the parchment.
 2. **Mix the dry ingredients:** In a medium bowl, whisk the flour, baking powder, and salt together.
 3. **Cream the butter:** In a stand mixer on medium speed, beat the granulated sugar and 3/4 cup of the butter until pale and fluffy, about 3 minutes. Scrape the bowl.
-4. **Add the eggs:** Beat in the avocado or canola oil, eggs, egg yolks, and 1 tbsp of the vanilla, adding the eggs and yolks one at a time and scraping the bowl now and then.
+4. **Add the eggs:** Beat in the oil, eggs, egg yolks, and 1 tbsp of the vanilla, adding the eggs and yolks one at a time and scraping the bowl now and then.
 5. **Finish the batter:** On low speed, add the flour mixture in three parts, alternating with the buttermilk in two parts and ending with flour. Stop as soon as no dry flour shows. Divide the batter between the pans and smooth the tops.
 6. **Bake:** Bake until the centers spring back when pressed and a toothpick comes out with a few moist crumbs, 25 to 35 minutes.
 7. **Cool the layers:** Cool the cakes in their pans on a rack for 10 minutes. Run a knife around the edges, turn them out and peel off the parchment. Cool completely, about 1 hour.

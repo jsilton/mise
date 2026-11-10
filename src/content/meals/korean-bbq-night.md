@@ -19,7 +19,7 @@ componentPreparation:
     note: 'One batch, made the day before. It makes 12 cups, so most of it is left for the week.'
   korean-pickled-cucumbers:
     state: from-scratch
-    note: 'One and a half batches, using 900 g cucumbers.'
+    note: 'One and a half batches, using 2 lb (900 g) cucumbers.'
 totalPrepTime: 1 hr 45 min
 totalCookTime: 45 min
 totalActiveTime: 2 hr

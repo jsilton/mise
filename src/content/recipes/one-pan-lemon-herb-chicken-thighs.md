@@ -147,6 +147,7 @@ formula:
         - id: stock
           key: chicken-stock
           name: chicken stock or water
+          stepName: chicken stock
           quantity:
             amount: 1/2
             unit: cup
@@ -166,6 +167,7 @@ formula:
         - id: roots
           key: potatoes
           name: potatoes or other root vegetables
+          stepName: root vegetables
           quantity:
             amount: 1
             unit: lb
@@ -252,13 +254,13 @@ Lemon, garlic, oregano and thyme make a bright Mediterranean pan sauce for crisp
 ## Directions
 
 1. **Season the chicken:** Heat the oven to 425°F. Pat the chicken dry and season both sides with the pepper and 2 tsp of the salt.
-2. **Parboil the vegetables:** Cover the potatoes or other root vegetables (if using) with cold water in a saucepan and bring to a boil. Simmer until the edges are just tender, about 8 minutes. Drain and let them steam dry.
+2. **Parboil the vegetables:** Cover the root vegetables (if using) with cold water in a saucepan and bring to a boil. Simmer until the edges are just tender, about 8 minutes. Drain and let them steam dry.
 3. **Heat the pan:** Heat 2 tbsp of the olive oil in a 12-inch oven-safe skillet over medium-high heat until it shimmers.
 4. **Sear the chicken:** Add the chicken thighs skin side down, in batches if they don't fit in one layer. Cook without moving until the skin is deep golden and releases, 5 to 6 minutes. Turn, cook 2 minutes more and move to a plate.
 5. **Cook the garlic:** Lower the heat to medium. Add the garlic and the rest of the olive oil and stir until fragrant, 30 to 45 seconds.
 6. **Add the herbs:** Stir in the oregano and thyme for 15 seconds.
 7. **Add the lemon:** Squeeze in the juice of the lemons and stir in the zest.
-8. **Deglaze:** Pour in the chicken stock or water and scrape up the browned bits from the pan.
+8. **Deglaze:** Pour in the chicken stock and scrape up the browned bits from the pan.
 9. **Return the chicken:** Nestle the chicken back in snugly, skin side up, with its juices and the skin above the liquid. With the vegetables, move the chicken and sauce to a 9x13-inch roasting pan, tuck the parboiled vegetables around the thighs and sprinkle them with 1/2 tsp of the salt (if using).
 10. **Roast:** Roast until the skin is crisp and the thickest thigh reaches 175°F, 18 to 22 minutes. With vegetables, roast 22 to 25 minutes, until they are fork-tender.
 11. **Rest and serve:** Let the chicken rest for 5 minutes. Taste the sauce and add salt or lemon if it needs it, then scatter the parsley over the top.

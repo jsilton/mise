@@ -52,7 +52,9 @@ pairingNotes:
   hot-mulled-apple-cider: Warm spiced cider beside a cool slice.
 servings: 8 portions
 ingredients:
-  - '1 unbaked 9-inch deep-dish all-butter pie crust, from 1 1/2 batches of dough'
+  - >-
+    1 unbaked 9-inch deep-dish [All-Butter Pie Crust](/mise/recipes/all-butter-pie-crust/), from 1
+    1/2 batches of dough
   - 1 can (15 oz) pure pumpkin puree
   - '3/4 cup light brown sugar, packed'
   - 1 tsp ground cinnamon
@@ -77,8 +79,9 @@ formula:
       ingredients:
         - id: crust
           key: all-butter-pie-crust
-          name: unbaked 9-inch deep-dish all-butter pie crust
-          plural: unbaked 9-inch deep-dish all-butter pie crusts
+          name: 'unbaked 9-inch deep-dish [All-Butter Pie Crust](/mise/recipes/all-butter-pie-crust/)'
+          stepName: unbaked pie crust
+          plural: 'unbaked 9-inch deep-dish [All-Butter Pie Crusts](/mise/recipes/all-butter-pie-crust/)'
           quantity:
             amount: 1
             unit: count
@@ -273,7 +276,7 @@ Pumpkin pie has been on New England tables since colonial times, and Amelia Simm
 
 ## Directions
 
-1. **Freeze the crust:** Heat the oven to 400°F with a rack in the lowest position and a rimmed baking sheet on the rack. Freeze the unbaked 9-inch deep-dish all-butter pie crust in its pie plate until hard, about 20 minutes.
+1. **Freeze the crust:** Heat the oven to 400°F with a rack in the lowest position and a rimmed baking sheet on the rack. Freeze the unbaked pie crust in its pie plate until hard, about 20 minutes.
 2. **Blind bake:** Line the crust with parchment and fill it to the rim with pie weights. Bake on the hot sheet until the edge is set and pale gold, 18 to 20 minutes. Lift out the parchment and weights and bake until the bottom looks dry, 5 to 7 minutes more. Lower the oven to 350°F.
 3. **Cook the pumpkin:** While the crust bakes, stir the pumpkin puree, brown sugar, cinnamon, ginger, nutmeg, cloves, and salt together in a medium saucepan over medium heat. Cook, stirring constantly, until the mixture is thick, glossy and a shade darker, about 6 minutes.
 4. **Add the dairy:** Take the pan off the heat. Whisk in the heavy cream and whole milk until smooth.

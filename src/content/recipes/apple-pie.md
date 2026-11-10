@@ -145,6 +145,7 @@ formula:
         - id: apples
           key: apples
           name: Granny Smith or Mutsu apples
+          stepName: apples
           quantity:
             amount: 3
             unit: lb
@@ -278,7 +279,7 @@ This is Food Network's classic double-crust apple pie. Vodka in the dough adds m
 
 1. **Make the dough:** Pulse the salt, 2 1/2 cups of the flour, 14 tbsp of the butter, and 1 tbsp of the sugar in a food processor until the mixture looks like coarse meal with pea-size bits of butter.
 2. **Add the liquid:** Drizzle in the ice-cold vodka and ice-cold water, holding back the last tablespoon of water, and pulse just until the dough holds together when pinched. Add the last of the water only if it still crumbles. Divide the dough in half, shape into two disks, wrap and chill for at least 1 hour.
-3. **Toss the apples:** While the dough chills, toss the Granny Smith or Mutsu apples, lemon juice, and 2/3 cup of the sugar in a large bowl.
+3. **Toss the apples:** While the dough chills, toss the apples, lemon juice, and 2/3 cup of the sugar in a large bowl.
 4. **Cook the apples:** Melt 1/4 cup of the butter in a large skillet over medium heat. Add the apples and cook, stirring, until they release their juice and begin to soften, 7 to 10 minutes.
 5. **Reduce the juices:** Drain the apples in a colander set over a bowl. Pour the juice back into the skillet and simmer until thick and syrupy, 5 to 8 minutes. Toss the apples with the syrup, the cinnamon and nutmeg, then let the filling cool completely.
 6. **Roll the crust:** Heat the oven to 375°F with a rack in the lower third. Dust the counter with the flour and roll each disk into a 12-inch round. Fit one round into a 9-inch pie plate.

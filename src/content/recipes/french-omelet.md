@@ -86,6 +86,7 @@ formula:
         - id: soft-butter
           key: unsalted-butter
           name: soft unsalted butter
+          stepName: unsalted butter
           quantity:
             amount: 1/2
             unit: tsp
@@ -135,8 +136,8 @@ formula:
     - id: finish
       title: Finish
       text: >-
-        Finish the omelet with {{ingredients}}. Rub the butter over the top and scatter the chives
-        on it. Serve right away.
+        Finish the omelet with {{ingredients}}. Rub the soft butter over the top and scatter the
+        chives on it. Serve right away.
 learning:
   techniques:
     - gentle-proteins
@@ -166,9 +167,9 @@ The French omelet is the classic test of a cook, a smooth, pale yellow roll with
 ## Directions
 
 1. **Beat the eggs:** Beat the eggs and salt with a fork until no streaks of white remain, about 30 seconds.
-2. **Melt the butter:** Heat an 8-inch nonstick skillet over medium heat. Add the unsalted butter and swirl until it foams without browning.
+2. **Melt the butter:** Heat an 8-inch nonstick skillet over medium heat. Add 1 tbsp of the unsalted butter and swirl until it foams without browning.
 3. **Stir the curds:** Pour in the eggs. Stir fast in small circles with a silicone spatula while shaking the pan, until the eggs are small, soft curds held in a little liquid egg, about 1 minute.
 4. **Set the bottom:** Turn the heat to low and smooth the eggs into an even layer. Leave them until the bottom holds together and the top still looks wet and creamy, 20 to 30 seconds.
 5. **Roll the omelet:** Take the pan off the heat and tilt it away from you. Starting at the handle side, roll the eggs down toward the far edge with the spatula.
 6. **Turn it out:** Hold a plate against the far lip of the pan and tip the omelet onto it, seam side down. The outside is pale yellow with no brown spots.
-7. **Finish:** Finish the omelet with the soft unsalted butter and chives. Rub the butter over the top and scatter the chives on it. Serve right away.
+7. **Finish:** Finish the omelet with the chives and 1/2 tsp of the unsalted butter. Rub the soft butter over the top and scatter the chives on it. Serve right away.

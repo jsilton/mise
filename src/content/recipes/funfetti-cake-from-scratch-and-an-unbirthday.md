@@ -186,6 +186,7 @@ formula:
         - id: sprinkles
           key: sprinkles
           name: jimmies or flat confetti sprinkles
+          stepName: sprinkles
           quantity:
             amount: 1/2
             unit: cup
@@ -321,7 +322,7 @@ This is Sam Merritt's from-scratch funfetti cake from Sugar Spun Run, made for b
 3. **Whisk the dry ingredients:** Whisk the all-purpose flour, baking powder, and sea salt in a separate bowl.
 4. **Mix the batter:** On low speed, add the flour mixture in three parts, alternating with the whole milk in two parts. Mix just until each addition disappears.
 5. **Whip the whites:** In a clean, grease-free bowl, whip the egg whites to stiff peaks that stand straight up but still look glossy.
-6. **Fold in the whites:** Fold the whites into the batter in two additions with a spatula, then fold in the jimmies or flat confetti sprinkles just until no white streaks remain.
+6. **Fold in the whites:** Fold the whites into the batter in two additions with a spatula, then fold in the sprinkles just until no white streaks remain.
 7. **Bake the layers:** Divide the batter among the pans and smooth the tops. Bake, rotating the pans once, until the centers spring back and a toothpick comes out with only a few dry crumbs, 35 to 40 minutes.
 8. **Cool the layers:** Cool in the pans for 15 minutes. Run a knife around the edges, turn the layers out onto racks and let them cool completely, about 1 hour.
 9. **Make the buttercream:** In a clean mixer bowl, beat the salt and 1 lb of the butter on medium speed until smooth and fluffy, about 2 minutes.

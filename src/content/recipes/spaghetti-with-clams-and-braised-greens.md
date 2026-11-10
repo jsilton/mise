@@ -118,6 +118,7 @@ formula:
         - id: greens
           key: chard-or-collards
           name: Swiss chard or collard greens
+          stepName: greens
           quantity:
             amount: 1
             unit: lb
@@ -263,7 +264,7 @@ Raleigh chef Ashley Christensen gives spaghetti with clams a Southern turn with 
 2. **Steam the clams:** Add the live littleneck clams and dry white wine and bring to a boil. Cover and cook until the clams open, 5 to 7 minutes. Move them to a bowl as they open and discard any that stay shut.
 3. **Make the pepper broth:** Strain the cooking liquid through a fine sieve into a blender. Add the roasted red peppers and blend until smooth, venting the lid. Rinse the grit out of the pot.
 4. **Bloom the garlic:** Warm the red pepper flakes, the rest of the olive oil, and the rest of the garlic in the clean pot over medium heat until the garlic is fragrant, 30 to 45 seconds.
-5. **Braise the greens:** Add the Swiss chard or collard greens a handful at a time and cook, stirring, until wilted and tender, about 3 minutes for chard and a few minutes longer for collards.
+5. **Braise the greens:** Add the greens a handful at a time and cook, stirring, until wilted and tender, about 3 minutes for chard and a few minutes longer for collards.
 6. **Add the broth:** Pour in the pepper broth and bring to a simmer. Season with the salt and black pepper.
 7. **Boil the pasta:** Meanwhile, cook the spaghetti in a large pot of salted boiling water until 2 minutes short of al dente. Scoop out some of the pasta water, then drain.
 8. **Finish the pasta:** Add the spaghetti to the greens and broth and toss over medium heat until al dente, 1 to 2 minutes, adding a splash of the pasta water if it looks dry. Return the clams and their juices to warm through.

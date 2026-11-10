@@ -82,6 +82,7 @@ formula:
         - id: oil
           key: neutral-seed-frying-oil
           name: sunflower or canola oil
+          stepName: frying oil
           quantity:
             amount: 300
             unit: g
@@ -317,7 +318,7 @@ Caponata is Sicily's sweet and sour eggplant dish, made here from the regional r
 4. **Add the olives and capers:** Add the pitted green olives, salt-packed capers, and pine nuts. Cook over medium heat, stirring so nothing sticks, for 10 minutes.
 5. **Simmer the tomatoes:** Add the tomatoes and simmer, stirring now and then, until they break down into a thick sauce with the onions, about 20 minutes.
 6. **Sauté the celery:** Heat the olive oil in a skillet over medium-high heat. Add the blanched celery and cook, stirring, until lightly golden, about 5 minutes.
-7. **Fry the eggplant:** Rinse the eggplant quickly under cold water. Squeeze it gently and pat it completely dry. Heat the sunflower or canola oil in a heavy frying pan over medium-high heat until a cube sizzles steadily, about 350°F. Fry the eggplant in batches, turning, until golden and tender, 4 to 5 minutes per batch. Drain on paper towels.
+7. **Fry the eggplant:** Rinse the eggplant quickly under cold water. Squeeze it gently and pat it completely dry. Heat the frying oil in a heavy frying pan over medium-high heat until a cube sizzles steadily, about 350°F. Fry the eggplant in batches, turning, until golden and tender, 4 to 5 minutes per batch. Drain on paper towels.
 8. **Fold it together:** Add the eggplant and celery to the tomato sauce. Fold gently over medium heat until hot, 3 to 4 minutes, keeping the cubes whole.
 9. **Add the sweet and sour:** Add the white wine vinegar and sugar and stir gently until the sugar dissolves and the sharp smell of the vinegar mellows, 2 to 3 minutes. Taste and add salt only if it needs it.
 10. **Finish with basil:** Take the pan off the heat and tear in the basil. Serve warm or at room temperature.

@@ -102,6 +102,7 @@ formula:
         - id: fruit
           key: fruit
           name: fresh berries or chopped fruit
+          stepName: fruit
           quantity:
             amount: 1
             unit: cup
@@ -148,7 +149,7 @@ This is breakfast on a stick: Greek yogurt and fruit frozen in molds with a crun
 ## Directions
 
 1. **Mix the base:** Whisk the Greek yogurt, whole milk, and 2 tbsp of the honey in a bowl until smooth.
-2. **Add the fruit:** Divide the berries or chopped fruit among the popsicle molds.
+2. **Add the fruit:** Divide the fruit among the popsicle molds.
 3. **Fill the molds:** Pour the yogurt mixture over the fruit, leaving a 1/2-inch gap at the top of each mold.
 4. **Top with granola:** Toss the [granola](/mise/recipes/granola/) and 1 tsp of the honey until coated, warming the honey for 10 seconds first if it is stiff. Press the granola into the top of each mold.
 5. **Freeze:** Insert the sticks and freeze until solid, at least 4 hours or overnight.

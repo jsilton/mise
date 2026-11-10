@@ -507,6 +507,33 @@ test('a use marked lead prints ahead of the whole ingredients', () => {
   assert.match(steps, /Add the rest of the oil and the eggs to the empty side\./);
   assert.deepEqual(formulaStepAmounts(schema.parse(f), 2)[1], ['2 tbsp of the oil']);
 });
+test('a use marked words prints its share in words, not a rounded measure', () => {
+  const schema = createFormulaSchema(z);
+  const cheese = (words) =>
+    counted(
+      [
+        {
+          id: 'mozzarella',
+          key: 'mozzarella',
+          name: 'low-moisture mozzarella',
+          quantity: q(8, 'oz'),
+          uses: [
+            { step: 'fill', share: '2/3', ...(words ? { words: true } : {}) },
+            { step: 'top', share: '1/3' },
+          ],
+        },
+      ],
+      [
+        ['fill', 'Fold in {{ingredients}}.'],
+        ['top', 'Scatter {{ingredients}} over the top.'],
+      ]
+    );
+  assert.match(formulaDirections(schema.parse(cheese(false))), /Fold in 5 1\/4 oz of the/);
+  const f = schema.parse(cheese(true));
+  assert.match(formulaDirections(f), /Fold in two thirds of the low-moisture mozzarella\./);
+  assert.match(formulaDirections(f), /Scatter the rest of the low-moisture mozzarella/);
+  assert.deepEqual(formulaStepAmounts(f)[0], []);
+});
 test('scaled spoons and ounces skip 3/8, 5/8 and 7/8, and a pound of a solid reads in pounds', () => {
   const line = (name, quantity, factor) =>
     formatFormulaIngredient(

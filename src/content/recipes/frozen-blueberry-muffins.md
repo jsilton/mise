@@ -67,6 +67,7 @@ formula:
         - id: pan-fat
           key: butter-or-neutral-oil
           name: butter or neutral oil
+          stepName: fat for the pan
           allowance: for the pans
           uses:
             - step: prepare
@@ -237,7 +238,7 @@ These buttery muffins come from Taste of Home and work all year because they sta
 
 ## Directions
 
-1. **Prepare the pans:** Heat the oven to 375°F. Line two 12-cup muffin tins with paper liners, or grease the cups with the butter or neutral oil.
+1. **Prepare the pans:** Heat the oven to 375°F. Line two 12-cup muffin tins with paper liners, or grease the cups with the fat for the pan.
 2. **Whisk the dry ingredients:** Whisk the flour, baking powder, and salt in a bowl.
 3. **Cream the butter and sugar:** In a stand mixer, beat the butter and 2 cups of the sugar on medium-high speed until light and fluffy, 3 to 5 minutes.
 4. **Add the eggs:** Beat in the eggs one at a time, scraping the bowl after each.

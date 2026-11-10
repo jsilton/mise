@@ -65,6 +65,7 @@ formula:
         - id: pork
           key: pork
           name: boneless pork butt or shoulder
+          stepName: pork
           quantity:
             amount: 2
             unit: lb
@@ -257,7 +258,7 @@ A summer dinner from NYT Cooking. Pork shoulder pounded thin cooks as fast as a 
 
 ## Directions
 
-1. **Pound the pork:** Pound the pork butt or shoulder with a meat mallet to an even 3/4 inch thick.
+1. **Pound the pork:** Pound the pork with a meat mallet to an even 3/4 inch thick.
 2. **Season the pork:** Season both sides of the pork generously with the salt and pepper.
 3. **Marinate the pork:** Mix 4–5 garlic cloves, 1 tbsp of the rosemary, and 3 tbsp of the olive oil in a small bowl and rub it over both sides of the pork. Let it sit for 15 minutes, or refrigerate it for up to 4 hours.
 4. **Heat the griddle:** Set a large cast-iron griddle on a grill over high heat until very hot. Turn a gas grill to medium, or let a charcoal fire burn down a little. Brush the griddle with 2 tbsp of the olive oil and heat until it shimmers.

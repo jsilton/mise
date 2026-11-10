@@ -79,6 +79,7 @@ formula:
         - id: pan-fat
           key: butter-or-neutral-oil
           name: butter or neutral oil
+          stepName: fat for the pans
           allowance: for greasing the pans and parchment
           uses:
             - step: pans
@@ -317,11 +318,11 @@ This towering chocolate cake was a Gourmet favorite from 1999. Chocolate melted 
 
 ## Directions
 
-1. **Prepare the pans:** Heat the oven to 300°F. Grease two 10-inch round cake pans, each 2 inches deep, with the butter or neutral oil. Line the bottoms with parchment and grease the parchment.
+1. **Prepare the pans:** Heat the oven to 300°F. Grease two 10-inch round cake pans, each 2 inches deep, with the fat for the pans. Line the bottoms with parchment and grease the parchment.
 2. **Melt the chocolate:** Stir the hot brewed coffee and 3 oz of the semisweet chocolate together in a bowl until smooth. Let it cool.
 3. **Sift the dry ingredients:** Sift the flour, natural cocoa powder, baking soda, baking powder, salt, and 3 cups of the sugar together into a large bowl.
 4. **Beat the eggs:** In a stand mixer, beat the eggs on medium-high until thickened and pale yellow, about 3 minutes.
-5. **Add the liquids:** With the mixer running, slowly add the cooled chocolate coffee, then the vegetable oil, buttermilk, and vanilla. Beat until combined.
+5. **Add the liquids:** With the mixer running, slowly add the cooled chocolate coffee, then the oil, buttermilk, and vanilla. Beat until combined.
 6. **Mix the batter:** Add the dry ingredients and beat on medium speed just until combined, scraping the bowl. The batter will be thin.
 7. **Bake:** Divide the batter between the pans. Bake in the middle of the oven until a tester in the center comes out clean, 60 to 70 minutes.
 8. **Cool the layers:** Cool the layers completely in their pans on a rack, about 2 hours. Run a thin knife around the edges, turn the layers out and peel off the parchment.

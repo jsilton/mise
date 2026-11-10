@@ -188,6 +188,7 @@ formula:
         - id: herbs
           key: cilantro-or-parsley
           name: fresh cilantro or parsley
+          stepName: herbs
           quantity:
             amount: 1/4
             unit: cup
@@ -266,5 +267,5 @@ Shakshuka is eggs poached in a spiced tomato and pepper sauce. It comes from Nor
 3. **Simmer the sauce:** Stir in the crushed tomatoes, sugar, and salt. Simmer uncovered, stirring now and then, until the sauce is thick enough that a spoon dragged through it shows the bottom of the pan for a moment, about 10 minutes.
 4. **Add the eggs:** With the back of a spoon, make a shallow well in the sauce for each egg, spaced evenly around the pan. Crack the eggs one at a time into a cup and slide each into a well.
 5. **Poach the eggs:** Cover the pan and turn the heat to medium-low. Cook until the whites are fully set, about 5 minutes for runny yolks and 7 to 8 minutes for jammy ones.
-6. **Add the herbs:** Take the pan off the heat and scatter the cilantro or parsley and feta (if using) over the top.
+6. **Add the herbs:** Take the pan off the heat and scatter the herbs and feta (if using) over the top.
 7. **Serve:** Serve straight from the skillet with the crusty bread for scooping up the sauce and yolks.

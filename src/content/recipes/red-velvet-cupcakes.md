@@ -124,6 +124,7 @@ formula:
         - id: oil
           key: oil
           name: canola or avocado oil
+          stepName: oil
           quantity:
             amount: 1/2
             unit: cup
@@ -267,7 +268,7 @@ Red velvet is a Southern classic: a buttermilk cake with a little natural cocoa,
 3. **Whip the whites:** Beat the whites on high speed until soft peaks form, 2 to 3 minutes. Set them aside.
 4. **Mix the dry ingredients:** Sift the flour, cornstarch, natural unsweetened cocoa powder, baking soda, and salt into a bowl and whisk to combine.
 5. **Cream the butter:** In a large bowl, beat the butter and sugar on medium speed until fluffy, about 3 minutes.
-6. **Beat in the oil:** Add the canola or avocado oil and beat for 2 minutes. A few small bits of butter are fine.
+6. **Beat in the oil:** Add the oil and beat for 2 minutes. A few small bits of butter are fine.
 7. **Add the yolks:** Beat in the yolks, then the distilled white vinegar, vanilla, and red food coloring (if using). Scrape down the bowl.
 8. **Add the buttermilk:** With the mixer on low, add the dry ingredients in three additions, alternating with the buttermilk and beginning and ending with the dry. Mix just until combined.
 9. **Fold in the whites:** Fold in the whipped whites with a spatula until no streaks remain.

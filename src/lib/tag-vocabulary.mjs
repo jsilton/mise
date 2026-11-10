@@ -398,6 +398,12 @@ export function currentFilterValue(filter, value) {
 }
 export const cuisineGroupLabel = (key) => GROUP_LABEL.get(key) || key;
 
+// ── Filter labels ────────────────────────────────────────────────────────
+// A tag prints with a capital and spaces. An initialism keeps all its capitals.
+const TAG_LABELS = { bbq: 'BBQ' };
+export const tagLabel = (value) =>
+  TAG_LABELS[value] || value.charAt(0).toUpperCase() + value.slice(1).replace(/-/g, ' ');
+
 // ── Dietary filter keys ──────────────────────────────────────────────────
 // A vegan recipe is also vegetarian, dairy-free and egg-free, whether or not it says so.
 // Every "-option" tag folds into one choice.

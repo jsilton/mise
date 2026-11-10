@@ -164,10 +164,14 @@ test('shells allocate the entire cheese and prepared sauce batches', () => {
   ]) {
     const item = ingredient(data, 'filling', id);
     assert.equal(item.quantity.amount, total);
-    assert.deepEqual(item.uses, [
-      { step: 'filling', share: '2/3' },
-      { step: 'cheese', share: '1/3' },
-    ]);
+    // The split is what matters here. A use can also carry a print flag such as `words`.
+    assert.deepEqual(
+      item.uses.map(({ step, share }) => ({ step, share })),
+      [
+        { step: 'filling', share: '2/3' },
+        { step: 'cheese', share: '1/3' },
+      ]
+    );
     assert(Math.abs(item.uses.reduce((sum, u) => sum + total * amount(u.share), 0) - total) < 1e-9);
   }
   const sauce = ingredient(data, 'sauce', 'marinara');
