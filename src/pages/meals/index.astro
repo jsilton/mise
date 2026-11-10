@@ -153,7 +153,7 @@ const typeCounts = Object.fromEntries(
                 <p class="meal-parts">
                   {c.main && <span class="main">{c.main}</span>}
                   {c.parts.length > 0 && <span> with {c.parts.join(', ')}</span>}
-                  {c.dessert && <span>; {c.dessert} to finish</span>}
+                  {c.dessert && <span>, then {c.dessert} to finish</span>}
                 </p>
                 <p class="meal-meta">
                   {c.time.minutes > 0 && (

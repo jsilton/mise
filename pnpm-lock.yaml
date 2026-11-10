@@ -20,9 +20,6 @@ importers:
       astro:
         specifier: ^5.18.2
         version: 5.18.2(@types/node@25.0.3)(jiti@1.21.7)(rollup@4.59.0)(typescript@5.9.3)(yaml@2.9.1)
-      fuse.js:
-        specifier: ^7.5.0
-        version: 7.5.0
       gray-matter:
         specifier: ^4.0.3
         version: 4.0.3
@@ -1436,10 +1433,6 @@ packages:
 
   function-bind@1.1.2:
     resolution: {integrity: sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==}
-
-  fuse.js@7.5.0:
-    resolution: {integrity: sha512-sQtrEfA+ez/3G0cCZecF70oqpCRttCexYUG4mUrtWL49ULUzUyxokt5kyqwtKzj1270RaKih+hcP3qLcumccow==}
-    engines: {node: '>=10'}
 
   get-east-asian-width@1.7.0:
     resolution: {integrity: sha512-XjH1AECxf0giL2V1aU8vKyRR2ppRUb5c0EvT7zuJTokQ74bNo52zOtghqdWIqrhUD79fo3x0WfKZdOqxF6LG1Q==}
@@ -3894,8 +3887,6 @@ snapshots:
     optional: true
 
   function-bind@1.1.2: {}
-
-  fuse.js@7.5.0: {}
 
   get-east-asian-width@1.7.0: {}
 
