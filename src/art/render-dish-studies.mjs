@@ -6,7 +6,8 @@ fs.writeFileSync(
   'public/brand/mise-photo-treatment.svg',
   '<svg xmlns="http://www.w3.org/2000/svg">' + photoFilterDefs + '</svg>\n'
 );
-const out = 'public/images/dishes';
+// Studies are working art kept in the archive. They are not published with the site.
+const out = 'docs/archive/art/dishes';
 const n = (x) => Number(x.toFixed(2));
 let seed = 17;
 const rand = () => {

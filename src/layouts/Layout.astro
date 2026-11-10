@@ -5,17 +5,29 @@ interface Props {
   jsonLd?: string;
   description?: string;
   image?: string;
+  imageWidth?: number;
+  imageHeight?: number;
+  imageAlt?: string;
 }
 
 const {
   title,
   jsonLd,
   description = 'Recipes that teach you to cook. Understand the technique, recognize the cues, and build confidence in your kitchen.',
-  image = new URL(
-    `${import.meta.env.BASE_URL}images/dishes/authentic-roman-alfredo-watercolor.png`,
-    Astro.site
-  ).href,
+  image: pageImage,
+  imageWidth,
+  imageHeight,
+  imageAlt,
 } = Astro.props;
+// Pages without their own photo share one small 1200 x 630 JPEG.
+const social = pageImage
+  ? { url: pageImage, width: imageWidth, height: imageHeight, alt: imageAlt }
+  : {
+      url: new URL(`${import.meta.env.BASE_URL}images/share-default.jpg`, Astro.site).href,
+      width: 1200,
+      height: 630,
+      alt: 'A watercolor of fettuccine Alfredo on a white plate.',
+    };
 ---
 
 <!doctype html>
@@ -29,13 +41,17 @@ const {
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={image} />
+    <meta property="og:image" content={social.url} />
+    {social.width && <meta property="og:image:width" content={String(social.width)} />}
+    {social.height && <meta property="og:image:height" content={String(social.height)} />}
+    {social.alt && <meta property="og:image:alt" content={social.alt} />}
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:title" content={title} />
-    <meta property="twitter:description" content={description} />
-    <meta property="twitter:image" content={image} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={social.url} />
+    {social.alt && <meta name="twitter:image:alt" content={social.alt} />}
     <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
     <link rel="stylesheet" href={`${import.meta.env.BASE_URL}styles/print.css`} media="print" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />

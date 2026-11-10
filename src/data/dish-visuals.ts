@@ -492,7 +492,7 @@ export const dishVisuals: Record<
   'chicken-fingers': {
     file: 'chicken-fingers.webp',
     title: 'Chicken Fingers',
-    alt: 'Five baked chicken fingers with a crisp golden panko and Parmesan crust, stacked loosely beside a small white ramekin of marinara.',
+    alt: 'Five baked chicken fingers with a fine, golden, buttery Ritz cracker crumb crust, stacked loosely on a white plate.',
   },
   'chicken-galbi-noodle-salad': {
     file: 'chicken-galbi-noodle-salad.webp',
@@ -1282,7 +1282,7 @@ export const dishVisuals: Record<
   'general-tsos-tofu': {
     file: 'general-tsos-tofu.webp',
     title: "General Tso's Tofu",
-    alt: 'Crisp golden cubes of tofu tossed with red bell pepper strips and a few dried red chilies in a glossy, sticky sauce, beside a small mound of white rice.',
+    alt: 'Crisp golden cubes of sesame-crusted tofu tossed with bright green broccoli florets, red bell pepper slices and a few dried red chilies in a glossy, sticky sauce.',
   },
   'glazed-carrots': {
     file: 'glazed-carrots.webp',
@@ -1602,7 +1602,7 @@ export const dishVisuals: Record<
   'japchae-korean-glass-noodle-stir-fry': {
     file: 'japchae-korean-glass-noodle-stir-fry.webp',
     title: 'Japchae (Korean Glass Noodle Stir-Fry)',
-    alt: 'A loose tangle of glossy, translucent glass noodles tossed with thin strips of beef, carrot, zucchini, shiitake and scallion, sprinkled with sesame seeds.',
+    alt: 'A loose tangle of glossy, translucent glass noodles tossed with thin strips of beef, carrot matchsticks, red bell pepper strips, sliced shiitake, onion, scallion and wilted spinach, sprinkled with sesame seeds.',
   },
   'jeris-lentil-soup': {
     file: 'jeris-lentil-soup.webp',
@@ -1662,7 +1662,7 @@ export const dishVisuals: Record<
   'kimchi-jjigae-kimchi-stew': {
     file: 'kimchi-jjigae-kimchi-stew.webp',
     title: 'Kimchi Jjigae (Kimchi Stew)',
-    alt: 'A bowl of deep red-orange kimchi stew with tender slices of pork belly, soft kimchi, sliced mushrooms and onion in a rich, spicy broth.',
+    alt: 'A bowl of deep red-orange kimchi stew with tender slices of pork belly, soft kimchi, sliced mushrooms, onion and whole slices of medium-firm tofu in a rich, spicy broth, topped with chopped scallions and sesame seeds.',
   },
   'korean-gochujang-wings': {
     file: 'korean-gochujang-wings.webp',
@@ -2017,7 +2017,7 @@ export const dishVisuals: Record<
   'one-pot-spicy-thai-noodles': {
     file: 'one-pot-spicy-thai-noodles.webp',
     title: 'Spicy Thai Noodles',
-    alt: 'A pile of linguine tossed in a glossy soy-ginger sauce with zucchini half-moons, mushrooms, shredded carrot and egg, topped with crushed peanuts, cilantro and green onion.',
+    alt: 'A pile of wide, flat rice noodles tossed in a glossy soy-ginger sauce with zucchini half-moons, mushrooms, shredded carrot and egg, topped with crushed peanuts, cilantro and green onion.',
   },
   'onigiri-japanese-rice-balls': {
     file: 'onigiri-japanese-rice-balls.webp',
@@ -2847,7 +2847,7 @@ export const dishVisuals: Record<
   'starbucks-egg-bites': {
     file: 'starbucks-egg-bites.webp',
     title: 'Starbucks Egg Bites',
-    alt: 'Five round, puffed egg bites with golden tops, one cut in half to show a smooth, velvety custard-like inside studded with bits of bacon.',
+    alt: 'Five small round egg bites with pale, smooth, flat tops dotted with bits of bacon, one cut in half to show a velvety, custard-like inside.',
   },
   'steamed-bok-choy-with-oyster-sauce': {
     file: 'steamed-bok-choy-with-oyster-sauce.webp',
@@ -2897,7 +2897,7 @@ export const dishVisuals: Record<
   'sticky-peking-meatball-rice-bowls': {
     file: 'sticky-peking-meatball-rice-bowls.webp',
     title: 'Sticky Peking Meatball Rice Bowls',
-    alt: 'A bowl of creamy coconut jasmine rice topped with six glossy meatballs coated in a dark, sticky hoisin and duck sauce glaze, scattered with sliced scallions.',
+    alt: 'A bowl of creamy coconut jasmine rice topped with glossy meatballs in a dark, sticky hoisin and duck sauce glaze, with sautéed carrot coins and garlicky wilted kale alongside.',
   },
   'stir-fried-chicken-and-eggplant-with-thai-basil': {
     file: 'stir-fried-chicken-and-eggplant-with-thai-basil.webp',

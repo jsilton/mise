@@ -2,7 +2,7 @@
 
 ## Lavender London Fog, 19 September 2026
 
-Added a built-in-generated watercolor of a clear coupe with a cloudy tea-beige drink and a fine surface bubble layer, without ice or garnish. The user suggested oat milk during authoring; a targeted image edit removed the original cream version's thicker pale band and deepened the tea color. The selected PNG is unchanged tool output, with a 41 KB WebP delivery companion under `public/images/dishes/lavender-london-fog-cocktail-watercolor.*`. Both prompts are retained in `docs/art-prompts/lavender-london-fog-watercolor.txt`.
+Added a built-in-generated watercolor of a clear coupe with a cloudy tea-beige drink and a fine surface bubble layer, without ice or garnish. The user suggested oat milk during authoring; a targeted image edit removed the original cream version's thicker pale band and deepened the tea color. The selected PNG is unchanged tool output, with a 41 KB WebP delivery companion under `docs/archive/art/dishes/lavender-london-fog-cocktail-watercolor.*`. Both prompts are retained in `docs/art-prompts/lavender-london-fog-watercolor.txt`.
 
 The shared map includes this painting without inventing a companion SVG. The style guide filters entries with no vector study, retaining four existing SVG studies. Desktop/mobile rendering, image decoding, three persistent palettes and print title were checked in isolated Chrome; no page errors or mobile overflow. The artwork illustrates the recipe and does not establish an actual tested color, foam or kitchen result.
 
@@ -40,7 +40,7 @@ Same watercolor medium and neutral paper constraints. Roasted branching broccoli
 
 Same watercolor medium and neutral paper constraints. Shallow off-white bowl, thick creamy pale golden split hulled mung lentils, small cumin/mustard seeds, two dried red chiles, a few cilantro leaves and light reddish oil streaks. Visible soft lentil texture. No bread, rice, spoon, or other sides.
 
-Full generation requests are retained in the task tool history. Assets live in public/images/dishes; reusable filter and wordmark in public/brand.
+Full generation requests are retained in the task tool history. The watercolor and study assets now live in docs/archive/art/dishes, outside the published site; reusable filter and wordmark in public/brand.
 
 ## Editable vector studies
 
@@ -76,7 +76,7 @@ The unlisted lemon wedge is removed. Foreground cut stems and browned crowns rem
 
 The image still has slightly warm baked-in paper and a visible rectangular boundary under multiply blending, especially on Sage. This publication improves recipe fidelity and selective rendering; it does not complete seamless paper compositing, the editable SVG direction, or the actual-photo workflow. The mint SVG refinement remains experimental because its larger, clearer subject still looks digitally sculpted.
 
-Selected source: `public/images/dishes/crispy-parmesan-roasted-broccoli-watercolor-v2.png`, 1536 × 1024. Original built-in output SHA-256: `5d80a889beaf05511da4dceeab1ab74d4792cb8ecb1d5a98f140d67826627ef7`. The shared dish map selects the matching WebP for both recipe pages and the style guide; the original SVG study is unchanged.
+Selected source: `docs/archive/art/dishes/crispy-parmesan-roasted-broccoli-watercolor-v2.png`, 1536 × 1024. Original built-in output SHA-256: `5d80a889beaf05511da4dceeab1ab74d4792cb8ecb1d5a98f140d67826627ef7`. The shared dish map selects the matching WebP for both recipe pages and the style guide; the original SVG study is unchanged.
 
 ## Three paintings: neutral margins and food texture
 

@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-const out = fileURLToPath(new URL('../../public/images/dishes/', import.meta.url));
+const out = fileURLToPath(new URL('../../docs/archive/art/dishes/', import.meta.url));
 let seed = 691;
 const rand = () => {
   seed = (seed * 1664525 + 1013904223) >>> 0;

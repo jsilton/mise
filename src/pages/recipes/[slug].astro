@@ -7,7 +7,8 @@ import {
   isIngredientDivider,
   recipeDescription,
 } from '../../lib/recipe-content.mjs';
-import { buildRecipeSchema } from '../../lib/recipe-schema.mjs';
+import { buildRecipeSchema, RECIPE_IMAGE_SIZE } from '../../lib/recipe-schema.mjs';
+import { dishVisuals } from '../../data/dish-visuals';
 import RecipeScaler from '../../components/RecipeScaler.astro';
 import { splitLeadingQuantity } from '../../lib/ingredient-quantity.mjs';
 import { placeSwaps } from '../../lib/recipe-placement.mjs';
@@ -44,6 +45,8 @@ const isDivider = isIngredientDivider;
 const parsedContent = parseRecipeContent(recipe.body || '');
 const description = recipeDescription(recipe.data, parsedContent);
 const schema = buildRecipeSchema(recipe.data, recipe.body || '', canonicalUrl, parsedContent);
+// The dish photo in the JSON-LD is also the page's social preview.
+const socialImage = schema.image?.[0];
 const { byIngredient: swapsByIngredient, unplaced: otherSwaps } = placeSwaps(
   learning?.substitutions || [],
   recipe.data.ingredients || [],
@@ -105,6 +108,10 @@ function parseIngredientHtml(str: string): string {
   title={`${recipe.data.title} | Mise`}
   description={description}
   jsonLd={JSON.stringify(schema).replace(/</g, '\\u003c')}
+  image={socialImage}
+  imageWidth={socialImage && RECIPE_IMAGE_SIZE.width}
+  imageHeight={socialImage && RECIPE_IMAGE_SIZE.height}
+  imageAlt={socialImage && dishVisuals[recipe.slug]?.alt}
 >
   <RecipeHeader {recipe} {noteHtml} />
   <nav class="recipe-toolbar" aria-label="Recipe navigation">

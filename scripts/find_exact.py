@@ -1,6 +1,6 @@
 import re
 
-filepath = "public/recipes/all-recipes-combined.txt"
+filepath = "dist/recipes/all-recipes-combined.txt"
 with open(filepath, 'r', encoding='utf-8') as f:
     text = f.read()
 

@@ -7,10 +7,11 @@ import {
   writeValidatedFile,
 } from './lib/recipe-exports.mjs';
 
-export async function exportText(
-  outputPath = path.resolve('public/recipes/all-recipes-combined.txt'),
-  recipes = null
-) {
+// The site build writes this file into dist (see astro.config.mjs). It is generated, never
+// committed, so the default output is the built site and not public/.
+export const COMBINED_TEXT_PATH = 'dist/recipes/all-recipes-combined.txt';
+
+export async function exportText(outputPath = path.resolve(COMBINED_TEXT_PATH), recipes = null) {
   recipes ||= await loadRecipes();
   await writeValidatedFile(outputPath, createCombinedText(recipes), (value) =>
     validateCombinedText(value, recipes)

@@ -7,7 +7,7 @@ import {
 } from './lib/recipe-exports.mjs';
 
 const RECIPES_DIR = path.resolve('src/content/recipes');
-const OUTPUT_TXT_PATH = path.resolve('public/recipes/all-recipes-combined.txt');
+const OUTPUT_TXT_PATH = path.resolve('dist/recipes/all-recipes-combined.txt');
 
 async function run() {
   const recipes = await loadRecipes(RECIPES_DIR);

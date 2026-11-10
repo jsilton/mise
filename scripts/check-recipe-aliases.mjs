@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 import { containsRecipeSlugReference } from './lib/slug-reference.mjs';
+import { loadRecipes, createJsonCollection } from './lib/recipe-exports.mjs';
 
 const aliases = JSON.parse(fs.readFileSync('src/data/recipe-aliases.json', 'utf8'));
 const retirements = JSON.parse(fs.readFileSync('src/data/recipe-retirements.json', 'utf8'));
@@ -26,6 +27,14 @@ function filesIn(dir) {
   });
 }
 const content = filesIn('src/content').map((file) => [file, fs.readFileSync(file, 'utf8')]);
+// The built pages, the text file the build writes and the JSON-LD export. The JSON export is
+// generated on demand and not kept in git, so it is built here from the current recipes.
+const generated = [
+  ...['dist/index.html', 'dist/sitemap.xml', 'dist/recipes/all-recipes-combined.txt'].map(
+    (file) => [file, fs.readFileSync(file, 'utf8')]
+  ),
+  ['the JSON-LD export', JSON.stringify(createJsonCollection(await loadRecipes()))],
+];
 for (const [slug, decision] of Object.entries(retirements)) {
   assert.equal(decision.status, 'retired-by-user', `Unsupported retirement status: ${slug}`);
   assert.match(decision.date, /^\d{4}-\d{2}-\d{2}$/, `Missing retirement date: ${slug}`);
@@ -51,18 +60,9 @@ for (const [slug, decision] of Object.entries(retirements)) {
       !containsRecipeSlugReference(text, slug, 'https://jordansilton.com/mise/'),
       `Stale retired recipe reference in ${file}: ${slug}`
     );
-  for (const file of [
-    'dist/index.html',
-    'dist/sitemap.xml',
-    'exports/mise-recipes-schema.json',
-    'public/recipes/all-recipes-combined.txt',
-  ])
+  for (const [file, text] of generated)
     assert(
-      !containsRecipeSlugReference(
-        fs.readFileSync(file, 'utf8'),
-        slug,
-        'https://jordansilton.com/mise/'
-      ),
+      !containsRecipeSlugReference(text, slug, 'https://jordansilton.com/mise/'),
       `Retired recipe remains in ${file}: ${slug}`
     );
 }
