@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { randomUUID } from 'node:crypto';
 import { isDeepStrictEqual } from 'node:util';
@@ -9,6 +10,12 @@ import { applyIdentities, readIdentities } from './paprika-identities.mjs';
 
 export const RECIPES_DIR = path.resolve('src/content/recipes');
 export const SITE_URL = 'https://jordansilton.com/mise/';
+const DISH_PHOTOS = path.resolve('public/images/dishes');
+
+// New recipes can ship before their photo, so the export names a photo only when it exists.
+export function hasDishPhoto(slug) {
+  return Boolean(slug) && existsSync(path.join(DISH_PHOTOS, `${slug}.webp`));
+}
 
 export async function loadRecipes(directory = RECIPES_DIR) {
   async function files(dir) {
@@ -72,8 +79,8 @@ export function createJsonCollection(recipes) {
     description:
       'A comprehensive culinary knowledge base and collection of recipes from the Mise Kitchen Standard',
     url: SITE_URL,
-    recipes: recipes.map(({ data, body, parsed, url }) =>
-      buildRecipeSchema(data, body, url, parsed)
+    recipes: recipes.map(({ data, body, parsed, url, slug }) =>
+      buildRecipeSchema(data, body, url, parsed, { hasPhoto: hasDishPhoto(slug) })
     ),
   };
 }

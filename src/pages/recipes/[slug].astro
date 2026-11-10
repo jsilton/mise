@@ -44,7 +44,9 @@ const canonicalUrl = new URL(`${BASE}recipes/${recipe.slug}/`, Astro.site).href;
 const isDivider = isIngredientDivider;
 const parsedContent = parseRecipeContent(recipe.body || '');
 const description = recipeDescription(recipe.data, parsedContent);
-const schema = buildRecipeSchema(recipe.data, recipe.body || '', canonicalUrl, parsedContent);
+const schema = buildRecipeSchema(recipe.data, recipe.body || '', canonicalUrl, parsedContent, {
+  hasPhoto: Boolean(dishVisuals[recipe.slug]),
+});
 // The dish photo in the JSON-LD is also the page's social preview.
 const socialImage = schema.image?.[0];
 const { byIngredient: swapsByIngredient, unplaced: otherSwaps } = placeSwaps(

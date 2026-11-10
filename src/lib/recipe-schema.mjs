@@ -17,9 +17,10 @@ const diets = {
   halal: 'HalalDiet',
 };
 
-// Every recipe has a 960 x 640 photo in public/images/dishes, named for its slug
+// A recipe's 960 x 640 photo sits in public/images/dishes, named for its slug
 // (src/data/dish-visuals.ts). The photo sits beside the recipes folder on the site, so its
-// absolute address comes from the recipe's own page address.
+// absolute address comes from the recipe's own page address. A new recipe can wait for its
+// photo, so callers pass hasPhoto: false when no photo is mapped yet.
 export const RECIPE_IMAGE_SIZE = { width: 960, height: 640 };
 export function recipeImageUrl(url) {
   const match = /^(https?:\/\/.+\/)recipes\/([^/]+)\/$/.exec(url || '');
@@ -28,7 +29,13 @@ export function recipeImageUrl(url) {
 
 // One representation for the site and the JSON export. Source is attribution,
 // not proof of authorship; legacy nutrition is unverified and stays withheld.
-export function buildRecipeSchema(data, body, url, parsed = parseRecipeContent(body)) {
+export function buildRecipeSchema(
+  data,
+  body,
+  url,
+  parsed = parseRecipeContent(body),
+  { hasPhoto = true } = {}
+) {
   const ingredients = (data.ingredients || []).filter((value) => !isIngredientDivider(value));
   const schema = {
     '@context': 'https://schema.org',
@@ -46,7 +53,7 @@ export function buildRecipeSchema(data, body, url, parsed = parseRecipeContent(b
     const duration = timeToISODuration(data[key], { ranges: key === 'totalTime' });
     if (duration) schema[key] = duration;
   }
-  const image = recipeImageUrl(url);
+  const image = hasPhoto ? recipeImageUrl(url) : null;
   if (image) schema.image = [image];
   if (data.servings) schema.recipeYield = data.servings;
   if (data.role) schema.recipeCategory = categories[data.role] || data.role;

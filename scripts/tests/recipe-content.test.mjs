@@ -14,6 +14,7 @@ import {
   createCombinedText,
   validateCombinedText,
   assertRecipeSet,
+  hasDishPhoto,
 } from '../lib/recipe-exports.mjs';
 import { loadTestRecipes } from './fixtures/test-identities.mjs';
 
@@ -78,7 +79,13 @@ test('all current sources have nonempty, aligned schema and export representatio
   validateCombinedText(createCombinedText(recipes), recipes);
   for (const [index, recipe] of recipes.entries()) {
     const schema = collection.recipes[index];
-    assert.deepEqual(schema, buildRecipeSchema(recipe.data, recipe.body, recipe.url), recipe.slug);
+    assert.deepEqual(
+      schema,
+      buildRecipeSchema(recipe.data, recipe.body, recipe.url, undefined, {
+        hasPhoto: hasDishPhoto(recipe.slug),
+      }),
+      recipe.slug
+    );
     assert.deepEqual(flatten(schema.recipeInstructions), recipe.parsed.steps, recipe.slug);
     assert.ok(recipe.parsed.steps.length > 0, recipe.slug);
     const paprika = createPaprikaRecipe(recipe);

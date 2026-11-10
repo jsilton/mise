@@ -20,11 +20,20 @@ async function mappedPhotos() {
   );
 }
 
-test('every recipe JSON-LD names its own photo by absolute address', async () => {
+test('every recipe with a photo names it by absolute address in JSON-LD', async () => {
   const recipes = await loadTestRecipes();
   const photos = await mappedPhotos();
   const onDisk = new Set(await fs.readdir(DISHES));
   for (const recipe of recipes) {
+    if (!photos.has(recipe.slug)) {
+      // A new recipe waiting for its photo names none rather than a missing file.
+      const { image } = buildRecipeSchema(recipe.data, recipe.body, recipe.url, recipe.parsed, {
+        hasPhoto: false,
+      });
+      assert.equal(image, undefined, recipe.slug);
+      assert.ok(!onDisk.has(`${recipe.slug}.webp`), `${recipe.slug}: photo file is not mapped`);
+      continue;
+    }
     const { image } = buildRecipeSchema(recipe.data, recipe.body, recipe.url, recipe.parsed);
     const file = `${recipe.slug}.webp`;
     assert.deepEqual(image, [`https://jordansilton.com/mise/images/dishes/${file}`], recipe.slug);
