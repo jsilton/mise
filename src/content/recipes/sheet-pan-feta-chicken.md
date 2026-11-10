@@ -18,8 +18,8 @@ cuisines:
 role: main
 vibe: nutritious
 prepTime: 15 min
-cookTime: 35 min
-totalTime: 50 min
+cookTime: 25 min
+totalTime: 40 min
 servings: '4'
 pairsWith:
   - lemon-herb-couscous
@@ -76,4 +76,4 @@ This Food & Wine sheet-pan dinner roasts chicken with tomatoes in two rounds. Th
 2. **Season the pan:** On a rimmed half-sheet pan, toss the chicken, onion and two-thirds of the tomatoes with the rest of the oil. Season the chicken with the salt and pepper. Spread everything out, with the vegetables beside the chicken, not on top.
 3. **Roast:** Roast for 12 minutes, until the tomatoes start to split.
 4. **Add the feta and glaze:** Tuck the rest of the tomatoes and the feta slabs into the open spaces. Spoon the glaze over everything.
-5. **Finish roasting:** Roast until the chicken reaches 165°F and the feta is soft and browned at the edges, 13 to 18 minutes more. Let the chicken rest 5 minutes, then serve with the pan juices and basil scattered over.
+5. **Finish roasting:** Roast until the chicken reaches 165°F and the feta is soft, 8 to 12 minutes more. If the feta needs color, broil for 1 to 2 minutes. Let the chicken rest 5 minutes, then serve with the pan juices and basil scattered over.

@@ -15,7 +15,6 @@ nutritionalDensity: hearty
 leftovers: good
 equipment:
   - large-skillet
-  - food-thermometer
 flavorProfile:
   - spicy
   - acidic
@@ -42,6 +41,7 @@ ingredients:
   - '2 garlic cloves, minced'
   - '3 1/2 cups cooked quinoa, thawed if frozen'
   - '1/2 lb raw medium shrimp, peeled and deveined'
+  - '1/2 lemon, juiced'
   - 'salt, to taste'
   - 'black pepper, to taste'
   - 'fresh parsley, for serving, chopped'
@@ -128,6 +128,17 @@ formula:
           uses:
             - step: shrimp
               share: 1
+        - id: lemon
+          key: lemon
+          name: lemon
+          plural: lemons
+          quantity:
+            amount: 1/2
+            unit: count
+          preparation: juiced
+          uses:
+            - step: lemon
+              share: 1
         - id: salt
           key: salt
           name: salt
@@ -169,11 +180,12 @@ formula:
       text: >-
         Toss {{ingredients}} in a small bowl, then stir the shrimp into the pan. Cook, tossing,
         until the shrimp are pink and just opaque, 2 to 3 minutes.
+    - id: lemon
+      title: Add the lemon
+      text: 'Take the pan off the heat and stir in {{ingredients}} juice.'
     - id: serve
       title: Finish
-      text: >-
-        Take the pan off the heat and finish with {{ingredients}}. Most Creole blends are salty, so
-        taste before adding salt.
+      text: 'Finish with {{ingredients}}. Most Creole blends are salty, so taste before adding salt.'
 learning:
   techniques:
     - temperature
@@ -197,4 +209,5 @@ This weeknight skillet borrows from Creole cooking, with the onion, bell pepper 
 2. **Bloom the seasoning:** Stir in 3/4 of the Creole seasoning and garlic cloves and cook until fragrant, about 30 seconds.
 3. **Toast the quinoa:** Add cooked quinoa, breaking up any clumps. Stir until the grains are hot and lightly toasted in the spiced fat, about 2 minutes.
 4. **Cook the shrimp:** Toss 1/4 of the Creole seasoning and raw medium shrimp in a small bowl, then stir the shrimp into the pan. Cook, tossing, until the shrimp are pink and just opaque, 2 to 3 minutes.
-5. **Finish:** Take the pan off the heat and finish with salt, black pepper, and fresh parsley. Most Creole blends are salty, so taste before adding salt.
+5. **Add the lemon:** Take the pan off the heat and stir in lemon juice.
+6. **Finish:** Finish with salt, black pepper, and fresh parsley. Most Creole blends are salty, so taste before adding salt.

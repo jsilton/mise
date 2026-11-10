@@ -23,7 +23,7 @@ vibe: comfort
 prepTime: 15 min
 cookTime: 1 hr 20 min
 totalTime: 1 hr 35 min
-servings: '6'
+servings: '4'
 pairsWith:
   - everyday-arugula-salad
   - garlic-bread

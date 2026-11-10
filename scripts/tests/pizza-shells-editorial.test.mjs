@@ -177,7 +177,7 @@ test('shells allocate the entire cheese and prepared sauce batches', () => {
     { step: 'top', share: '3/4' },
   ]);
   assert(Math.abs(sauce.uses.reduce((sum, u) => sum + amount(u.share), 0) - 1) < 1e-9);
-  assert.equal(ingredient(data, 'pasta', 'jumbo-shells').quantity.amount, 12);
+  assert.equal(ingredient(data, 'pasta', 'jumbo-shells').quantity.amount, 24);
   assert.equal(ingredient(data, 'filling', 'ricotta').quantity.amount, 15);
   assert(!content.includes('roasted-tomato-basil-soup'));
   assert(!content.includes('15 oz minimum'));

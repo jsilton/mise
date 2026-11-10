@@ -30,9 +30,9 @@ ingredients:
   - '1 red bell pepper, finely diced'
   - 1 can (4 oz) diced green chiles
   - '12 oz Mexican blend cheese, shredded'
-  - 1 can (15 oz) red enchilada sauce
+  - 2 cans (15 oz) red enchilada sauce
   - 'neutral oil, for frying'
-  - 8 corn tortillas
+  - 12 corn tortillas
   - '--- For serving ---'
   - 'sour cream, for serving'
   - 'fresh cilantro, chopped'
@@ -123,7 +123,7 @@ formula:
           key: sauce
           name: red enchilada sauce
           quantity:
-            amount: 1
+            amount: 2
             unit: can
           uses:
             - step: sauce
@@ -144,7 +144,7 @@ formula:
           name: corn tortilla
           plural: corn tortillas
           quantity:
-            amount: 8
+            amount: 12
             unit: count
           uses:
             - step: roll
@@ -194,8 +194,9 @@ formula:
     - id: roll
       title: Dip and roll
       text: >-
-        Dip the softened {{ingredients}} in the sauce one at a time. Fill each one with the chicken
-        mixture, roll it up tightly and lay it seam side down in the baking dish.
+        Dip the softened {{ingredients}} in the sauce one at a time. Fill each one with a heaping
+        1/3 cup of the chicken mixture, using it all, roll it up tightly and lay it seam side down
+        in the baking dish.
     - id: bake
       title: Top and bake
       text: >-
@@ -216,6 +217,6 @@ These red-sauce enchiladas are made the traditional way. Each corn tortilla gets
 1. **Make the filling:** Heat the oven to 375°F. In a bowl, toss cooked chicken, red bell pepper, and diced green chiles with a third of the cheese.
 2. **Set up the sauce:** Spread a few spoonfuls of red enchilada sauce over the bottom of a 9x13-inch baking dish. Pour the rest into a shallow bowl for dipping.
 3. **Soften the tortillas:** Heat a thin film of neutral oil in a small skillet over medium-high heat. One at a time, warm the tortillas in the hot oil until soft and bendable, about 5 seconds per side, without letting them crisp. Stack them on a plate.
-4. **Dip and roll:** Dip the softened corn tortillas in the sauce one at a time. Fill each one with the chicken mixture, roll it up tightly and lay it seam side down in the baking dish.
+4. **Dip and roll:** Dip the softened corn tortillas in the sauce one at a time. Fill each one with a heaping 1/3 cup of the chicken mixture, using it all, roll it up tightly and lay it seam side down in the baking dish.
 5. **Top and bake:** Pour the rest of the sauce over the rolls and scatter the rest of the Mexican blend cheese over the top. Bake until the cheese is melted and the sauce bubbles at the edges, 15 to 20 minutes.
 6. **Serve:** Let the enchiladas stand for 5 minutes, then top with sour cream, fresh cilantro, and sliced jalapeños and serve.

@@ -8,10 +8,16 @@ cookingMethods:
   - no-cook
 occasions:
   - holiday
+  - breakfast
+  - weekend-brunch
+  - make-ahead
   - comfort-food
+advancePrep:
+  - make-ahead
 flavorProfile:
-  - acidic
+  - savory
   - rich
+  - creamy
 cuisines:
   - American
 role: main
@@ -190,8 +196,8 @@ formula:
     - id: assemble
       title: Fill the dish
       text: >-
-        Spread the mixture evenly in the dish. You can cover it and refrigerate it overnight at this
-        point. A cold casserole needs a little longer in the oven.
+        Spread the mixture evenly in the dish. To make it ahead, cover the dish and refrigerate it
+        overnight. Bake a cold casserole covered for about 10 minutes longer.
     - id: covered
       title: Bake covered
       text: Cover with foil and bake for 50 minutes.
@@ -226,7 +232,7 @@ This Pioneer Woman casserole feeds a crowd on a holiday morning and can be put t
 3. **Add the vegetables:** Add red bell pepper and scallions (the whites only) and cook until the pepper starts to soften, about 3 minutes. Take the pan off the heat and let it cool slightly, fat and all.
 4. **Whisk the custard:** Whisk large eggs, heavy cream, Dijon mustard, hot sauce, kosher salt, and black pepper in a large bowl until frothy.
 5. **Fold it together:** Fold frozen shredded hash browns and 3/4 of the sharp Cheddar into the custard along with the sausage mixture and its fat.
-6. **Fill the dish:** Spread the mixture evenly in the dish. You can cover it and refrigerate it overnight at this point. A cold casserole needs a little longer in the oven.
+6. **Fill the dish:** Spread the mixture evenly in the dish. To make it ahead, cover the dish and refrigerate it overnight. Bake a cold casserole covered for about 10 minutes longer.
 7. **Bake covered:** Cover with foil and bake for 50 minutes.
 8. **Brown the top:** Uncover, scatter 1/4 of the sharp Cheddar over the top and raise the oven to 400°F. Bake until the top is deep golden and a knife in the center comes out clean, 10 to 15 minutes.
 9. **Rest and serve:** Let it rest for 10 minutes, then scatter the scallion greens over the top and serve.

@@ -17,6 +17,7 @@ nutritionalDensity: moderate
 leftovers: excellent
 equipment:
   - muffin-tin
+  - blender
 flavorProfile:
   - sweet
   - umami
@@ -27,10 +28,10 @@ role: main
 vibe: nutritious
 prepTime: 10 min
 cookTime: 20 min
-totalTime: 35 min
+totalTime: '35 min, plus 1 hr 20 min to roast and cool the beets'
 servings: 12 muffins
 ingredients:
-  - 1 cup beet puree
+  - '1 cup beet puree (from 2 medium beets, about 12 oz)'
   - 2 large eggs
   - '1/4 cup unsalted butter, melted and cooled'
   - 1/4 cup honey
@@ -69,9 +70,10 @@ Beet puree turns these muffins a deep red-brown and keeps them moist, and its ea
 
 ## Directions
 
-1. **Heat the oven:** Heat the oven to 375°F. Line a 12-cup muffin tin with paper liners.
-2. **Mix the wet ingredients:** In a large bowl, whisk the beet puree, eggs, melted butter, honey and brown sugar until smooth. Whisk in the milk.
-3. **Fold in the dry ingredients:** Sift the flour, cocoa, baking soda, baking powder and salt over the bowl. Fold just until no dry flour remains. The batter should be thick but scoopable, so add a splash more milk if it is stiff. Fold in the chocolate chips.
-4. **Fill the cups:** Divide the batter among the cups, filling them about three-quarters full. Scatter the extra chips on top.
-5. **Bake the muffins:** Bake until a toothpick in the center comes out with no wet batter, 18 to 22 minutes. Melted chocolate on the toothpick is fine.
-6. **Cool the muffins:** Cool the muffins in the pan for 5 minutes, then move them to a rack.
+1. **Roast the beets:** Heat the oven to 400°F. Wrap the beets in foil and roast until a knife slides in easily, about 1 hour. Cool, peel and blend until smooth.
+2. **Line the tin:** Lower the oven to 375°F. Line a 12-cup muffin tin with paper liners.
+3. **Mix the wet ingredients:** In a large bowl, whisk the beet puree, eggs, melted butter, honey and brown sugar until smooth. Whisk in the milk.
+4. **Fold in the dry ingredients:** Sift the flour, cocoa, baking soda, baking powder and salt over the bowl. Fold just until no dry flour remains. The batter should be thick but scoopable, so add a splash more milk if it is stiff. Fold in the chocolate chips.
+5. **Fill the cups:** Divide the batter among the cups, filling them about three-quarters full. Scatter the extra chips on top.
+6. **Bake the muffins:** Bake until a toothpick in the center comes out with no wet batter, 18 to 22 minutes. Melted chocolate on the toothpick is fine.
+7. **Cool the muffins:** Cool the muffins in the pan for 5 minutes, then move them to a rack.

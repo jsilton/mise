@@ -66,7 +66,7 @@ description: >-
   Pork and cabbage dumplings in a chewy homemade wrapper, steamed and fried in the skillet until the
   bottoms are golden and crisp.
 equipment:
-  - 8-or-9-inch-skillet-with-lid
+  - 12-inch-skillet-with-lid
   - rolling-pin
   - clean-kitchen-towel
 source: Adapted from Joyce Chen
@@ -332,8 +332,9 @@ formula:
     - id: pan
       title: Load the pan
       text: >-
-        Heat a thin film of {{ingredients}} in an 8- or 9-inch skillet with a lid over medium-high
-        heat. Set the dumplings in the pan in a single layer, lightly touching, about 16 at a time.
+        Heat a thin film of {{ingredients}} in a 12-inch nonstick or cast-iron skillet with a lid
+        over medium-high heat. Set the dumplings in the pan in a single layer, lightly touching,
+        about 16 at a time.
     - id: steam
       title: Steam the dumplings
       text: >-
@@ -366,7 +367,7 @@ Joyce Chen opened her Cambridge restaurant in 1958 and named these pork dumpling
 4. **Make the dipping sauce:** Stir soy sauce, Chinkiang black vinegar, brown sugar, fresh ginger, and chili crisp (if using) together in a small bowl until the sugar dissolves.
 5. **Roll the wrappers:** Dust the counter with all-purpose flour. Roll the dough into a rope and cut it into walnut-size pieces. Roll each piece into a 3-inch round, thinner at the edge than in the center. Keep the dough you are not using covered.
 6. **Fill the dumplings:** Put a rounded tablespoon of filling in the center of each wrapper. Fold it into a half moon and pinch the edge firmly shut, pleating it a few times. Set the dumplings on a floured tray under a towel.
-7. **Load the pan:** Heat a thin film of neutral oil in an 8- or 9-inch skillet with a lid over medium-high heat. Set the dumplings in the pan in a single layer, lightly touching, about 16 at a time.
+7. **Load the pan:** Heat a thin film of neutral oil in a 12-inch nonstick or cast-iron skillet with a lid over medium-high heat. Set the dumplings in the pan in a single layer, lightly touching, about 16 at a time.
 8. **Steam the dumplings:** Pour in about half a cup of cold water, which will spatter, and cover right away. Cook until most of the water has boiled off and the wrappers look translucent, 6 to 7 minutes.
 9. **Crisp the bottoms:** Uncover and lower the heat to medium. Cook until the water is gone and the bottoms are deep golden and crisp, about 2 minutes. Cut one open to check that the filling is firm and no longer pink.
 10. **Serve and repeat:** Loosen the dumplings with a spatula and serve hot with the dipping sauce. Wipe out the pan and cook the rest the same way.

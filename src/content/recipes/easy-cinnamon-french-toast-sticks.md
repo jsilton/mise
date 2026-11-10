@@ -3,18 +3,19 @@ miseId: d5472908-6fe9-4c76-925c-ee0a2a42e2a7
 title: Cinnamon French Toast Sticks
 difficulty: easy
 cookingMethods:
-  - toast
   - pan-fry
 dietary:
   - vegetarian
 occasions:
-  - weeknight
+  - breakfast
+  - weekend-brunch
   - kid-friendly
-  - weekend-project
 seasons:
   - year-round
 nutritionalDensity: hearty
-leftovers: poor
+leftovers: good
+advancePrep:
+  - freeze-ahead
 equipment:
   - large-skillet
   - mixing-bowl

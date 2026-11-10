@@ -52,7 +52,7 @@ pairingNotes:
 formula:
   version: 1
   yield:
-    amount: 4
+    amount: 8
     unit: portion
   components:
     - id: eggplant
@@ -248,10 +248,10 @@ formula:
     - id: fry
       title: Fry the eggplant
       text: >-
-        Squeeze the eggplant gently and pat it completely dry. Heat {{ingredients}} in a heavy
-        frying pan over medium-high heat until a cube sizzles steadily, about 350°F. Fry the
-        eggplant in batches, turning, until golden and tender, 4 to 5 minutes per batch. Drain on
-        paper towels.
+        Rinse the eggplant quickly under cold water. Squeeze it gently and pat it completely dry.
+        Heat {{ingredients}} in a heavy frying pan over medium-high heat until a cube sizzles
+        steadily, about 350°F. Fry the eggplant in batches, turning, until golden and tender, 4 to 5
+        minutes per batch. Drain on paper towels.
     - id: combine
       title: Fold it together
       text: >-
@@ -261,7 +261,7 @@ formula:
       title: Add the sweet and sour
       text: >-
         Add {{ingredients}} and stir gently until the sugar dissolves and the sharp smell of the
-        vinegar mellows, 2 to 3 minutes.
+        vinegar mellows, 2 to 3 minutes. Taste and add salt only if it needs it.
     - id: serve
       title: Finish with basil
       text: 'Take the pan off the heat and tear in {{ingredients}}. Serve warm or at room temperature.'
@@ -301,7 +301,7 @@ ingredients:
   - 50 g (3 1/2 tbsp) white wine vinegar
   - 50 g (1/4 cup) sugar
   - 'fresh basil leaves, for serving'
-servings: 4 portions
+servings: 8 portions
 ---
 
 ## Chef's Note
@@ -316,7 +316,7 @@ Caponata is Sicily's sweet and sour eggplant dish, made here from the regional r
 4. **Add the olives and capers:** Add pitted green olives, salt-packed capers, and pine nuts. Cook over medium heat, stirring so nothing sticks, for 10 minutes.
 5. **Simmer the tomatoes:** Add ripe tomatoes and simmer, stirring now and then, until they break down into a thick sauce with the onions, about 20 minutes.
 6. **Sauté the celery:** Heat extra-virgin olive oil in a skillet over medium-high heat. Add the blanched celery and cook, stirring, until lightly golden, about 5 minutes.
-7. **Fry the eggplant:** Squeeze the eggplant gently and pat it completely dry. Heat sunflower or canola oil in a heavy frying pan over medium-high heat until a cube sizzles steadily, about 350°F. Fry the eggplant in batches, turning, until golden and tender, 4 to 5 minutes per batch. Drain on paper towels.
+7. **Fry the eggplant:** Rinse the eggplant quickly under cold water. Squeeze it gently and pat it completely dry. Heat sunflower or canola oil in a heavy frying pan over medium-high heat until a cube sizzles steadily, about 350°F. Fry the eggplant in batches, turning, until golden and tender, 4 to 5 minutes per batch. Drain on paper towels.
 8. **Fold it together:** Add the eggplant and celery to the tomato sauce. Fold gently over medium heat until hot, 3 to 4 minutes, keeping the cubes whole.
-9. **Add the sweet and sour:** Add white wine vinegar and sugar and stir gently until the sugar dissolves and the sharp smell of the vinegar mellows, 2 to 3 minutes.
+9. **Add the sweet and sour:** Add white wine vinegar and sugar and stir gently until the sugar dissolves and the sharp smell of the vinegar mellows, 2 to 3 minutes. Taste and add salt only if it needs it.
 10. **Finish with basil:** Take the pan off the heat and tear in fresh basil leaves. Serve warm or at room temperature.

@@ -3,23 +3,27 @@ miseId: f27cf509-e64c-45d0-b7a6-e937d258df3d
 title: Mediterranean Pinwheels
 difficulty: easy
 cookingMethods:
+  - assemble
   - blend
 dietary:
   - vegetarian
 occasions:
   - entertaining
   - quick-lunch
+  - appetizer
+  - game-day
+  - make-ahead
 flavorProfile:
   - umami
   - rich
   - herbaceous
 cuisines:
   - Mediterranean
-role: main
+role: side
 vibe: quick
 prepTime: 20 min
 cookTime: 5 min
-totalTime: '40 min, plus 30 min chilling'
+totalTime: '25 min, plus 30 min chilling'
 servings: 32 pinwheels
 pairsWith:
   - lemon-chicken-orzo-soup
@@ -28,7 +32,7 @@ pairingNotes:
   lemon-chicken-orzo-soup: Soup and pinwheels make an easy lunch.
   everyday-arugula-salad: A peppery salad for a light lunch plate.
 ingredients:
-  - 6 large spinach or sun-dried tomato tortillas
+  - 4 large (10-inch) spinach or sun-dried tomato tortillas
   - '8 oz cream cheese, softened'
   - '6 oz sun-dried tomatoes in oil, drained and chopped'
   - 2 tbsp oil from the sun-dried tomato jar

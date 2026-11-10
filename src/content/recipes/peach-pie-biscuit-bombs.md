@@ -23,14 +23,14 @@ flavorProfile:
 cuisines:
   - American
 role: dessert
-vibe: technical
+vibe: comfort
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: 8 biscuit bombs
 ingredients:
   - 1 can refrigerated flaky biscuits (8 large biscuits)
-  - '1 cup fresh peaches, peeled and cut into 1-inch pieces'
+  - '1 cup fresh peaches, peeled and cut into 1/2-inch dice'
   - '4 oz Brie, rind removed, cut into small pieces'
   - 2 tbsp light brown sugar
   - 1 tsp ground cinnamon

@@ -127,7 +127,7 @@ formula:
           quantity:
             amount: 3
             unit: count
-          preparation: 'medium, sliced lengthwise about 1/8 inch thick'
+          preparation: 'medium, sliced lengthwise about 1/4 inch thick'
           uses:
             - step: fry
               share: 1
@@ -262,7 +262,7 @@ ingredients:
   - 1 fresh basil sprig
   - 'kosher salt, to taste'
   - '--- Fried eggplant ---'
-  - '3 violet eggplants, medium, sliced lengthwise about 1/8 inch thick'
+  - '3 violet eggplants, medium, sliced lengthwise about 1/4 inch thick'
   - 'olive oil, for frying'
   - '--- Pasta and finish ---'
   - 1 lb spaghetti

@@ -18,9 +18,9 @@ seasons: [year-round]
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: [4-quart-heavy-pot, tight-fitting-lid]
-pairsWith: [basmati-rice, thai-mango-salad]
+pairsWith: [steamed-white-rice, thai-mango-salad]
 pairingNotes:
-  basmati-rice: Fragrant rice to spoon the sauce over.
+  steamed-white-rice: Plain rice to spoon the sauce over.
   thai-mango-salad: A crisp, tart salad to cut the rich curry.
 ingredients:
   - '1 1/2 lb boneless beef chuck, cut into 1-inch cubes'

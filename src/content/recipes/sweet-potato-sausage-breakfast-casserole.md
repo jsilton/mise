@@ -5,8 +5,8 @@ role: main
 vibe: comfort
 difficulty: easy
 prepTime: 20 min
-cookTime: 1 hr
-totalTime: 1 hr 30 min
+cookTime: 1 hr 5 min
+totalTime: 1 hr 35 min
 servings: 12 slices
 cookingMethods:
   - bake
@@ -57,11 +57,11 @@ A make-ahead breakfast casserole for a crowd, with sausage, peppers, spinach and
 ## Directions
 
 1. **Heat the oven:** Heat the oven to 400°F. Coat a 9x13-inch baking dish with oil spray.
-2. **Roast the sweet potatoes:** Toss the sweet potatoes with the avocado oil in the dish. Roast until a cube is tender when pierced, 15 to 20 minutes.
+2. **Roast the sweet potatoes:** Toss the sweet potatoes with the avocado oil in the dish. Roast until a cube is tender when pierced, 15 to 20 minutes. Lower the oven to 350°F.
 3. **Whisk the eggs:** While the potatoes roast, whisk the eggs, almond milk, green onion, hot sauce, salt and pepper in a large bowl. Stir in the cheddar.
-4. **Brown the sausage:** Cook the sausage in a large skillet over medium-high heat, breaking it up, until browned with no pink left, 6 to 8 minutes.
+4. **Brown the sausage:** Cook the sausage in a large skillet over medium-high heat, breaking it up, until browned with no pink left, 6 to 8 minutes. Spoon off all but about a tablespoon of the fat.
 5. **Cook the vegetables:** Add the onion, both bell peppers and garlic to the sausage. Cook, stirring, until the vegetables start to soften, 3 to 5 minutes.
 6. **Wilt the spinach:** Stir in the spinach until it wilts, about 1 minute. Take the skillet off the heat.
 7. **Assemble:** Spread the sausage mixture over the roasted sweet potatoes and stir to combine. Pour the egg mixture evenly over the top.
-8. **Bake:** Bake until the eggs are puffed and set in the center with no jiggle, 35 to 40 minutes.
+8. **Bake:** Bake until the eggs are just set in the center, 35 to 45 minutes.
 9. **Rest and serve:** Let the casserole rest 10 minutes, then cut into squares and top with more green onion.

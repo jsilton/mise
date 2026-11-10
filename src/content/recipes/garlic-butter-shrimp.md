@@ -37,9 +37,10 @@ pairsWith:
   - roasted-asparagus
 ingredients:
   - '1 1/2 lb raw large shrimp (20–24 per pound), peeled and deveined'
-  - '1/2 tsp kosher salt, divided'
+  - '3/4 tsp kosher salt, divided'
   - 1/4 tsp black pepper
-  - '4 tbsp unsalted butter, divided'
+  - 1 tbsp olive oil
+  - '4 tbsp unsalted butter, cold, divided'
   - '6 cloves garlic, minced'
   - 1/4 tsp red pepper flakes
   - 1/2 cup dry white wine
@@ -71,8 +72,8 @@ This is Italian-American scampi without the pasta: shrimp in a garlic butter sau
 
 ## Directions
 
-1. **Season the shrimp:** Pat the shrimp dry with paper towels. Season with half the salt and all the black pepper.
-2. **Sear the shrimp:** Melt half the butter in a 12-inch skillet over medium-high heat until it foams. Add the shrimp in a single layer, in two batches if they crowd. Cook until browned on the bottom, about 2 minutes, then turn and cook until just opaque in the center, 1 to 2 minutes more. Move them to a plate.
-3. **Cook the garlic:** Turn the heat to medium-low and add the rest of the butter and the garlic. Stir until fragrant, about 30 seconds, then add the red pepper flakes and stir 15 seconds more. Don't let the garlic brown.
+1. **Season the shrimp:** Pat the shrimp dry with paper towels. Season with two-thirds of the salt and all the black pepper.
+2. **Sear the shrimp:** Heat the olive oil in a 12-inch skillet over medium-high heat until it shimmers. Add the shrimp in a single layer, in two batches if they crowd. Cook until browned on the bottom, about 2 minutes, then turn and cook until just opaque in the center, 1 to 2 minutes more. Move them to a plate.
+3. **Cook the garlic:** Turn the heat to medium-low and add a quarter of the butter and the garlic. Stir until fragrant, about 30 seconds, then add the red pepper flakes and stir 15 seconds more. Don't let the garlic brown.
 4. **Reduce the wine:** Pour in the wine and scrape up the browned bits. Simmer until it has reduced by half, 2 to 3 minutes.
-5. **Finish and serve:** Take the pan off the heat and stir in the lemon juice, zest and parsley. Return the shrimp and their juices and toss to coat. Taste, add the rest of the salt if needed and serve right away.
+5. **Finish and serve:** Take the pan off the heat and swirl in the rest of the butter until the sauce turns glossy. Stir in the lemon juice, zest and parsley. Return the shrimp and their juices and toss to coat. Taste, add the rest of the salt if needed and serve right away.

@@ -167,7 +167,9 @@ formula:
         salted water comes to a boil. Lift them out, leaving the sand behind, and rinse.
     - id: boil
       title: Boil the pasta
-      text: 'Cook {{ingredients}} in the boiling water until 2 minutes short of al dente, then drain.'
+      text: >-
+        Cook {{ingredients}} in the boiling water until 2 minutes short of al dente. Scoop out a
+        mugful of the cooking water, then drain.
     - id: foundation
       title: Warm the garlic
       text: >-
@@ -182,7 +184,8 @@ formula:
       title: Finish the pasta
       text: >-
         Add the drained pasta to the skillet. Toss over medium-high heat until it is al dente and
-        glossy with the clam juices, 1 to 2 minutes.
+        glossy with the clam juices, 1 to 2 minutes. Loosen with a splash of the pasta water if the
+        pan looks dry.
     - id: finish
       title: Season
       text: >-
@@ -210,9 +213,9 @@ Spaghetti alle vongole is a classic of Naples and the Amalfi Coast. This is the 
 ## Directions
 
 1. **Soak the clams:** Soak the clams in a bowl of cold, well-salted water for 20 minutes while a large pot of salted water comes to a boil. Lift them out, leaving the sand behind, and rinse.
-2. **Boil the pasta:** Cook spaghetti in the boiling water until 2 minutes short of al dente, then drain.
+2. **Boil the pasta:** Cook spaghetti in the boiling water until 2 minutes short of al dente. Scoop out a mugful of the cooking water, then drain.
 3. **Warm the garlic:** Meanwhile, warm extra-virgin olive oil, garlic cloves, and red pepper flakes in a large, wide lidded skillet over medium heat until fragrant but still pale, about 1 minute.
 4. **Steam the clams:** Add live littleneck clams and dry vermouth. Cover and cook, shaking the pan, until the clams open, 3 to 5 minutes. Discard any that stay shut.
-5. **Finish the pasta:** Add the drained pasta to the skillet. Toss over medium-high heat until it is al dente and glossy with the clam juices, 1 to 2 minutes.
+5. **Finish the pasta:** Add the drained pasta to the skillet. Toss over medium-high heat until it is al dente and glossy with the clam juices, 1 to 2 minutes. Loosen with a splash of the pasta water if the pan looks dry.
 6. **Season:** Off the heat, stir in 1/2 of the fresh parsley, fresh lemon juice, salt, and black pepper. Taste before you add salt, since the clam juices are salty.
 7. **Serve:** Top with 1/2 of the fresh parsley and extra-virgin olive oil (if using) and serve right away.

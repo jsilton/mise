@@ -18,8 +18,8 @@ cuisines:
 role: main
 vibe: comfort
 prepTime: 15 min
-cookTime: 50 min
-totalTime: 1 hr 15 min
+cookTime: 1 hr 5 min
+totalTime: 1 hr 30 min
 servings: '8'
 pairsWith:
   - everyday-arugula-salad
@@ -71,7 +71,7 @@ A ham and cheddar quiche with spinach and a little nutmeg, the kind that works f
 
 ## Directions
 
-1. **Parbake the crust:** Heat the oven to 400°F. Set the crust on a baking sheet, prick the bottom with a fork and bake until it looks dry, 5 to 7 minutes. Lower the oven to 375°F.
+1. **Parbake the crust:** Heat the oven to 400°F. Set the crust on a baking sheet, line it with parchment and fill it with pie weights or dried beans. Bake for 15 minutes. Lift out the parchment and weights and bake until the bottom looks dry, about 5 minutes more. Lower the oven to 375°F.
 2. **Cook the filling:** Melt the butter in a small skillet over medium heat. Cook the onion until soft and translucent, 2 to 3 minutes. Add the ham and bacon, if using, and cook until lightly browned in spots, about 2 minutes more.
 3. **Make the custard:** In a bowl, whisk the eggs, half-and-half, salt, parsley, pepper and nutmeg until smooth.
 4. **Fill the crust:** Scatter the ham mixture, spinach, Cheddar and mozzarella in the crust. Slowly pour the custard over the top.

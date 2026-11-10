@@ -4,10 +4,6 @@ title: Heirloom Tomato & Pesto Galette
 difficulty: intermediate
 cookingMethods:
   - bake
-  - roast
-  - steam
-  - no-cook
-  - blend
 dietary:
   - vegetarian
 occasions:
@@ -15,10 +11,10 @@ occasions:
   - weekend-project
   - potluck
 flavorProfile:
-  - spicy
-  - sweet
   - rich
   - herbaceous
+  - savory
+  - buttery
 cuisines:
   - Italian
 role: main

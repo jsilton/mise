@@ -42,7 +42,7 @@ scaling:
   mode: fixed
   reason: >-
     One four-portion batch uses a level 42–45 cm pan with even heat. Make additional complete pans
-    for more diners; piling twice the rice into this pan changes its depth and evaporation.
+    for more diners. Piling twice the rice into this pan changes its depth and evaporation.
 formula:
   version: 1
   yield:
@@ -145,10 +145,13 @@ formula:
           role: cooking-water
         - id: salt
           key: salt
-          name: kosher salt
+          name: Diamond Crystal kosher salt
           quantity:
-            amount: 2
-            unit: tbsp
+            amount: 18
+            unit: g
+          equivalents:
+            - amount: 2
+              unit: tbsp
           uses:
             - step: broth
               share: 1
@@ -247,7 +250,7 @@ ingredients:
   - '5 oz fresh or frozen garrofó beans, shelled'
   - '5 cups water, to set the broth level'
   - '6 cups water, for simmering'
-  - '2 tbsp kosher salt, plus more to taste'
+  - '18 g (2 tbsp) Diamond Crystal kosher salt, plus more to taste'
   - 32 saffron threads
   - 2 cups (400 g) Valencian round rice (Senia or Bahía)
   - 'boiling water, as needed'
@@ -257,6 +260,9 @@ learning:
     - starch
     - temperature
   substitutions:
+    - ingredient: Diamond Crystal kosher salt
+      alternative: Morton kosher salt or fine salt
+      effect: 'Weigh out the same 18 g, which is 1 tbsp. Both are denser than Diamond Crystal.'
     - ingredient: Bone-in rabbit
       alternative: Bone-in chicken thighs
       effect: >-
@@ -291,7 +297,7 @@ This is paella as it is made in Valencia, with chicken, rabbit, flat green beans
 2. **Cook the green beans:** Add flat green beans (ferraura) and turn them in the oil until bright green and starting to soften, 3 to 5 minutes. Push the meat and beans to the edge of the pan.
 3. **Make the sofrito:** Lower the heat to medium-low. Stir sweet paprika and ripe tomatoes into the oil in the center of the pan, the paprika first and the tomato a few seconds later so the paprika doesn't burn. Cook, stirring, until the tomato is thick and no longer watery, 5 to 10 minutes.
 4. **Mark the broth level:** Add fresh or frozen garrofó beans and water. Stand the handle of a metal spoon upright in the pan and note where the liquid reaches. The broth needs to cook back down to this mark before the rice goes in.
-5. **Simmer the broth:** Add water and kosher salt and bring to a simmer. Cook uncovered until the broth has cooked down to the mark and the meat and garrofó are tender, 25 to 45 minutes. If the broth reaches the mark first, add a little boiling water and keep simmering. Taste and add more salt if needed. The broth should taste a little salty, because the rice soaks it up.
+5. **Simmer the broth:** Add water and Diamond Crystal kosher salt and bring to a simmer. Cook uncovered until the broth has cooked down to the mark and the meat and garrofó are tender, 25 to 45 minutes. If the broth reaches the mark first, add a little boiling water and keep simmering. Taste and add more salt if needed. The broth should taste a little salty, because the rice soaks it up.
 6. **Add the saffron:** Crush saffron threads into a small cup and stir in a few spoonfuls of hot broth. Pour it back into the pan and bring the broth to a lively boil.
 7. **Spread the rice:** Scatter Valencian round rice (Senia or Bahía) evenly over the boiling broth and spread it once so it lies in a flat, even layer. Do not stir it again.
 8. **Cook the rice:** Boil hard for 5 minutes, then over medium heat for 5 minutes, then over low heat until the broth is absorbed and the grains are tender with no chalky center, 5 to 8 minutes more. If the pan looks dry before the rice is done, sprinkle boiling water over the dry spots.

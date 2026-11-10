@@ -20,7 +20,6 @@ pairingNotes:
   chicken-milanese: 'Lemony greens to cut the crisp, rich cutlet.'
   spatchcocked-roast-chicken: A bright green side for roast chicken.
   real-spaghetti-carbonara: Sharp lemon after a rich bowl of pasta.
-source: Saved Paprika recipe
 ingredients:
   - '2 large heads broccoli, cut into florets'
   - 4 tbsp extra-virgin olive oil

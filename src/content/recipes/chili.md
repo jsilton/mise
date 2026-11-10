@@ -58,7 +58,6 @@ description: >-
   lime.
 equipment:
   - 6-quart-dutch-oven
-  - instant-read-thermometer
 learning:
   techniques:
     - browning
@@ -76,8 +75,6 @@ learning:
   review:
     status: editorial-review
     date: '2026-11-09'
-source: Adapted from Chowhound
-sourceUrl: 'https://www.chowhound.com/recipes/spicy-slow-cooker-beef-chili-30669'
 ---
 
 ## Chef's Note

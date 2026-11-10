@@ -32,7 +32,7 @@ leftovers: excellent
 advancePrep:
   - make-ahead
 equipment:
-  - two-shallow-2-quart-baking-dishes
+  - 9x13-inch-baking-dish
   - large-pot
   - skillet
 pairsWith:
@@ -44,7 +44,7 @@ pairingNotes:
 ingredients:
   - '--- Pasta ---'
   - 'kosher salt, for the pasta water'
-  - 12 oz jumbo pasta shells
+  - '24 jumbo pasta shells, about 8 oz, plus 4 extra in case some tear'
   - 1 tbsp extra-virgin olive oil
   - '--- Spinach ---'
   - 1 tbsp olive oil
@@ -68,9 +68,7 @@ description: >-
   browned cheese topping.
 scaling:
   mode: fixed
-  reason: >-
-    Written for a full 12 oz pasta batch and six portions. Shell sizes vary: use enough shallow
-    dishes for one layer, keeping the full filling and sauce allocation together.
+  reason: 'Written for 24 jumbo shells in one 9x13-inch dish, which makes six portions.'
 source: Adapted from NYT Cooking
 sourceUrl: 'https://cooking.nytimes.com/recipes/1013942-stuffed-shells-filled-with-spinach-and-ricotta'
 formula:
@@ -92,10 +90,12 @@ formula:
           role: cooking-water
         - id: jumbo-shells
           key: jumbo-shells
-          name: jumbo pasta shells
+          name: jumbo pasta shell
+          plural: jumbo pasta shells
           quantity:
-            amount: 12
-            unit: oz
+            amount: 24
+            unit: count
+          preparation: 'about 8 oz, plus 4 extra in case some tear'
           uses:
             - step: pasta
               share: 1
@@ -269,7 +269,7 @@ formula:
         until pliable but still firm. Drain.
     - id: oil-shells
       title: Oil the shells
-      text: "Spread the shells on a sheet pan and toss gently with {{ingredients}} so they don't stick."
+      text: 'Spread the shells on a sheet pan and toss gently with {{ingredients}} so they don''t stick.'
     - id: squeeze
       title: Squeeze the spinach
       text: Wrap the cooled spinach in a clean towel and wring it out until dry. Chop it finely.
@@ -279,15 +279,13 @@ formula:
         In a large bowl, fold {{ingredients}} with the chopped spinach until just combined. Mix by
         hand so the ricotta stays thick and fluffy.
     - id: dishes
-      title: Sauce the dishes
-      text: >-
-        Spread {{ingredients}} over the bottom of two shallow 2-quart baking dishes or one 9x13-inch
-        dish.
+      title: Sauce the dish
+      text: 'Spread {{ingredients}} over the bottom of a 9x13-inch baking dish.'
     - id: fill
       title: Fill the shells
       text: >-
         Spoon the filling into the shells, sharing it evenly, and set them open side up in a single
-        layer in the dishes.
+        layer in the dish.
     - id: top
       title: Sauce the shells
       text: >-
@@ -338,8 +336,8 @@ Stuffed shells are an Italian-American red-sauce classic, jumbo pasta filled wit
 5. **Oil the shells:** Spread the shells on a sheet pan and toss gently with extra-virgin olive oil so they don't stick.
 6. **Squeeze the spinach:** Wrap the cooled spinach in a clean towel and wring it out until dry. Chop it finely.
 7. **Mix the filling:** In a large bowl, fold whole-milk ricotta, 2/3 of the low-moisture mozzarella, 2/3 of the Parmigiano-Reggiano, lemon zest, ground nutmeg, fresh chives or basil, kosher salt, black pepper, and large egg with the chopped spinach until just combined. Mix by hand so the ricotta stays thick and fluffy.
-8. **Sauce the dishes:** Spread 1/4 of the marinara sauce over the bottom of two shallow 2-quart baking dishes or one 9x13-inch dish.
-9. **Fill the shells:** Spoon the filling into the shells, sharing it evenly, and set them open side up in a single layer in the dishes.
+8. **Sauce the dish:** Spread 1/4 of the marinara sauce over the bottom of a 9x13-inch baking dish.
+9. **Fill the shells:** Spoon the filling into the shells, sharing it evenly, and set them open side up in a single layer in the dish.
 10. **Sauce the shells:** Spoon 3/4 of the marinara sauce over the shells, covering the pasta edges so they don't dry out and crisp.
 11. **Add the cheese:** Scatter 1/3 of the low-moisture mozzarella and 1/3 of the Parmigiano-Reggiano over the top.
 12. **Bake:** Cover with foil, tented so it doesn't touch the cheese, and bake 25 minutes. Uncover and bake until the sauce bubbles at the edges and the cheese has golden spots, 15 to 20 minutes more.

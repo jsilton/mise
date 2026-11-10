@@ -3,7 +3,6 @@ miseId: 0e6b2821-d078-4aa1-acd0-347f87bbf98b
 title: Corn Chowder with Lime Shrimp
 difficulty: easy
 cookingMethods:
-  - bake
   - roast
   - saute
   - simmer
@@ -16,7 +15,7 @@ flavorProfile:
   - rich
   - smoky
 cuisines:
-  - Mexican
+  - American
 role: main
 vibe: comfort
 prepTime: 20 min
@@ -39,7 +38,9 @@ ingredients:
   - '3/4 tsp kosher salt, plus more to taste'
   - 1 cup heavy cream
   - '1 lb raw shrimp, peeled and deveined'
-  - 1 tbsp fresh lime juice
+  - '1 lime, zested and juiced'
+  - '1/4 tsp kosher salt, for the shrimp'
+  - '1 lime, cut into wedges'
 seasons:
   - year-round
 nutritionalDensity: moderate
@@ -51,7 +52,6 @@ equipment:
   - soup-pot
   - rimmed-baking-sheet
   - immersion-blender
-  - food-thermometer
 formula:
   version: 1
   yield:
@@ -174,15 +174,39 @@ formula:
             amount: 1
             unit: lb
           uses:
-            - step: shrimp
+            - step: marinate
               share: 1
           preparation: peeled and deveined
         - id: lime
-          key: fresh-lime-juice
-          name: fresh lime juice
+          key: lime
+          name: lime
+          plural: limes
           quantity:
             amount: 1
-            unit: tbsp
+            unit: count
+          preparation: zested and juiced
+          uses:
+            - step: marinate
+              share: 1
+        - id: shrimp-salt
+          key: kosher-salt
+          name: kosher salt
+          quantity:
+            amount: 1/4
+            unit: tsp
+          preparation: for the shrimp
+          uses:
+            - step: marinate
+              share: 1
+        - id: lime-wedges
+          key: lime
+          name: lime
+          plural: limes
+          quantity:
+            amount: 1
+            unit: count
+          preparation: cut into wedges
+          role: garnish
           uses:
             - step: finish
               share: 1
@@ -208,6 +232,11 @@ formula:
       text: >-
         Add {{ingredients}}, scraping up the browned bits. Bring to a boil, then simmer gently until
         the potatoes are tender, 15 to 20 minutes.
+    - id: marinate
+      title: Marinate the shrimp
+      text: >-
+        While the potatoes cook, toss {{ingredients}} in a bowl, using all the lime zest, half the
+        juice and the salt set aside for the shrimp. Let the shrimp sit for 10 minutes.
     - id: cream
       title: Add the cream and corn
       text: >-
@@ -216,13 +245,13 @@ formula:
     - id: shrimp
       title: Cook the shrimp
       text: >-
-        Stir in {{ingredients}} and simmer until pink and opaque all the way through, 2 to 3
-        minutes.
+        Stir in the shrimp and their lime juices and simmer until pink and opaque all the way
+        through, 2 to 3 minutes.
     - id: finish
       title: Finish and serve
       text: >-
-        Turn off the heat and stir in {{ingredients}} and the bacon. Taste, add more salt if it
-        needs it and serve.
+        Turn off the heat and stir in the rest of the lime juice and the bacon. Taste and add more
+        salt if it needs it. Serve with {{ingredients}} wedges.
 learning:
   techniques:
     - browning
@@ -250,6 +279,7 @@ A lighter take on Robert Irvine's corn chowder, with smoked paprika and bacon in
 3. **Soften the onion:** Add red onion to the bacon fat and cook until soft, about 5 minutes.
 4. **Add the garlic:** Stir in garlic cloves and smoked paprika and cook until fragrant, 30 to 45 seconds.
 5. **Cook the potatoes:** Add Red Bliss potatoes, chicken stock, and kosher salt, scraping up the browned bits. Bring to a boil, then simmer gently until the potatoes are tender, 15 to 20 minutes.
-6. **Add the cream and corn:** Stir in heavy cream and the roasted corn. Pulse an immersion blender in the pot 3 or 4 times, so the chowder thickens but stays chunky. Bring back to a gentle simmer.
-7. **Cook the shrimp:** Stir in raw shrimp and simmer until pink and opaque all the way through, 2 to 3 minutes.
-8. **Finish and serve:** Turn off the heat and stir in fresh lime juice and the bacon. Taste, add more salt if it needs it and serve.
+6. **Marinate the shrimp:** While the potatoes cook, toss raw shrimp, lime, and kosher salt in a bowl, using all the lime zest, half the juice and the salt set aside for the shrimp. Let the shrimp sit for 10 minutes.
+7. **Add the cream and corn:** Stir in heavy cream and the roasted corn. Pulse an immersion blender in the pot 3 or 4 times, so the chowder thickens but stays chunky. Bring back to a gentle simmer.
+8. **Cook the shrimp:** Stir in the shrimp and their lime juices and simmer until pink and opaque all the way through, 2 to 3 minutes.
+9. **Finish and serve:** Turn off the heat and stir in the rest of the lime juice and the bacon. Taste and add more salt if it needs it. Serve with lime wedges.

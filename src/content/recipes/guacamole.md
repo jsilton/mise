@@ -55,7 +55,7 @@ ingredients:
   - 2 Roma tomatoes, cored, seeded, finely diced and drained
   - 1 clove garlic, finely minced
   - 1/4 cup fresh cilantro, chopped
-  - 1/2 tsp kosher salt, divided
+  - 1 tsp kosher salt, divided, plus more to taste
   - 1/4 tsp ground cumin
 description: Chunky avocado with tomato, red onion, garlic, fresh chile, cilantro and lime.
 learning:
@@ -82,4 +82,4 @@ This is Alton Brown's guacamole, with fresh chile in place of his cayenne. Tossi
 2. **Mash:** Add half the salt and the cumin. Mash with a fork or potato masher until mostly creamy with some small chunks left.
 3. **Fold in the rest:** Gently fold in the onion, tomatoes, chile, garlic and cilantro until evenly mixed.
 4. **Chill:** Smooth the top, press plastic wrap onto the surface and refrigerate for 1 hour.
-5. **Season and serve:** Stir, then taste with a chip. Add the rest of the lime juice and salt as needed and serve.
+5. **Season and serve:** Stir, then taste with a chip. Add the rest of the lime juice and salt, plus more salt if it tastes flat, and serve.

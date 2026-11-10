@@ -16,7 +16,7 @@ cuisines:
 role: drink
 vibe: quick
 prepTime: 5 min
-cookTime: 15 min
+cookTime: 25 min
 totalTime: 30 min
 servings: 6 drinks
 ingredients:
@@ -60,11 +60,11 @@ learning:
 
 ## Chef's Note
 
-This sparkling wine spritzer from MyRecipes is sweetened with a syrup steeped with ginger, Thai basil and lime leaves. Steep the whole basil sprigs, leaves and all, since the leaves carry the anise perfume. Chill the syrup and the wine well so the bubbles last.
+This sparkling wine spritzer from MyRecipes is sweetened with a syrup simmered with ginger and steeped with Thai basil and lime leaves. Steep the whole basil sprigs, leaves and all, since the leaves carry the anise perfume. Chill the syrup and the wine well so the bubbles last.
 
 ## Directions
 
-1. **Make the syrup:** In a small saucepan, bring the water and sugar to a boil and boil, stirring, until the sugar dissolves, about 1 minute. Take it off the heat.
-2. **Steep and chill:** Add the ginger, basil sprigs and lime leaves and press the basil under the syrup. Cover and steep for 10 minutes. Strain into a jar, set it in a bowl of ice water and stir until the syrup is cold, about 10 minutes. Chill six glasses in the freezer at the same time.
+1. **Make the syrup:** In a small saucepan, bring the water, sugar and ginger to a boil, stirring until the sugar dissolves. Lower the heat and simmer gently for 5 minutes. Take it off the heat.
+2. **Steep and chill:** Add the basil sprigs and lime leaves and press the basil under the syrup. Cover and steep for 10 minutes. Strain into a jar, set it in a bowl of ice water and stir until the syrup is cold, about 10 minutes. Chill six glasses in the freezer at the same time.
 3. **Bruise the basil:** Put a basil leaf in each glass and press it gently against the glass with a spoon.
 4. **Pour and serve:** Divide the syrup among the glasses and top with the sparkling wine. Add a lime wedge, stir once gently and serve right away.

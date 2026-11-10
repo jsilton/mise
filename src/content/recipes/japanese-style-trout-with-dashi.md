@@ -19,8 +19,8 @@ cuisines:
 role: main
 vibe: technical
 prepTime: 15 min
-cookTime: 25 min
-totalTime: 40 min
+cookTime: 35 min
+totalTime: 50 min
 servings: '4'
 pairsWith:
   - master-sushi-rice
@@ -68,11 +68,10 @@ Food & Wine's Grace Parisi gave rainbow trout the sweet soy glaze of unagi, the 
 
 ## Directions
 
-1. **Reduce the glaze:** Bring the soy sauce, mirin, sugar and vinegar to a boil in a saucepan. Simmer over medium heat until reduced by about half and thick enough to coat a spoon, about 10 minutes. Pour some into a small bowl for brushing and keep the rest for serving.
+1. **Reduce the glaze:** Bring the soy sauce, mirin, sugar and vinegar to a boil in a saucepan. Simmer briskly over medium-high heat until reduced by about half and syrupy, 20 to 25 minutes. Pour some into a small bowl for brushing and keep the rest for serving.
 2. **Poach the vegetables:** Bring the dashi to a boil in a second saucepan. Add the carrots and leeks and simmer until crisp-tender, about 1 minute. Take the pan off the heat and keep it covered.
 3. **Broil the skin side:** Heat the broiler with a rack about 6 inches from the heat. Lay the fillets skin side up on a sturdy baking sheet and broil until the skin sizzles, about 2 minutes.
 4. **Peel and glaze:** Carefully peel off the skin and discard it. Brush the fish with glaze from the brushing bowl.
-5. **Broil the first side:** Broil until the glaze bubbles and turns glossy, about 3 minutes, brushing once or twice more.
-6. **Broil the second side:** Carefully turn the fillets with a wide spatula and brush the other side. Broil until lacquered and the fish flakes easily, about 3 minutes.
-7. **Assemble:** Mound the rice in shallow bowls and drizzle with a little of the serving glaze. Top with the trout, then lift the vegetables out of the dashi with a slotted spoon and add them with the nori.
-8. **Serve:** Ladle the hot dashi around the edge of each bowl. Pass the rest of the serving glaze at the table.
+5. **Broil the trout:** Broil without turning until the glaze bubbles and the fish flakes easily, 3 to 4 minutes, brushing twice more.
+6. **Assemble:** Mound the rice in shallow bowls and drizzle with a little of the serving glaze. Top with the trout, then lift the vegetables out of the dashi with a slotted spoon and add them with the nori.
+7. **Serve:** Ladle the hot dashi around the edge of each bowl. Pass the rest of the serving glaze at the table.

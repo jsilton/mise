@@ -5,8 +5,8 @@ role: main
 vibe: comfort
 difficulty: easy
 prepTime: 25 min
-cookTime: 15 min
-totalTime: 40 min
+cookTime: 20 min
+totalTime: 45 min
 servings: 4 portions
 cookingMethods:
   - stir-fry
@@ -29,7 +29,7 @@ ingredients:
   - '1 cup carrot, thinly sliced'
   - '1 cup bok choy, sliced'
   - '1 cup frozen shelled edamame, thawed'
-  - 4 cups cooked egg noodles
+  - 12 oz fresh lo mein egg noodles
   - '2 tbsp scallions, sliced'
   - 1 tsp toasted sesame oil
 sourceUrl: >-
@@ -187,12 +187,12 @@ formula:
           preparation: thawed
         - id: noodles
           key: noodles
-          name: cooked egg noodles
+          name: fresh lo mein egg noodles
           quantity:
-            amount: 4
-            unit: cup
+            amount: 12
+            unit: oz
           uses:
-            - step: finish
+            - step: boil
               share: 1
         - id: scallions
           key: scallions
@@ -220,6 +220,11 @@ formula:
     - id: season
       title: Season the chicken
       text: 'Toss {{ingredients}} in a bowl.'
+    - id: boil
+      title: Boil the noodles
+      text: >-
+        Bring a large pot of water to a boil. Cook {{ingredients}} until just al dente, 2 to 3
+        minutes. Rinse briefly under cold water and drain well.
     - id: chicken
       title: Cook the chicken
       text: >-
@@ -235,7 +240,7 @@ formula:
     - id: finish
       title: Toss the noodles
       text: >-
-        Add {{ingredients}}, the chicken and the sauce. Toss until the noodles are hot and the sauce
+        Add the noodles, the chicken and the sauce. Toss until the noodles are hot and the sauce
         cooks down to a glaze that coats them, about 3 minutes.
     - id: serve
       title: Finish and serve
@@ -248,6 +253,9 @@ learning:
     - ingredient: Shaoxing wine
       alternative: Dry sherry
       effect: Close in flavor. Use the same amount.
+    - ingredient: Fresh lo mein egg noodles
+      alternative: 8 oz dried lo mein noodles or spaghetti
+      effect: Boil them by the package time until just al dente. Spaghetti is a little less springy.
   storage: Keeps 3 days in the fridge. Reheat in a hot skillet with a splash of water.
   review:
     status: editorial-review
@@ -262,8 +270,9 @@ This is the chicken lo mein from Doc Chey's, the Atlanta noodle house, as the AJ
 
 1. **Mix the sauce:** Whisk soy sauce, Shaoxing wine, oyster sauce, and sugar in a small bowl until the sugar dissolves.
 2. **Season the chicken:** Toss boneless chicken breast, kosher salt, and black pepper in a bowl.
-3. **Cook the chicken:** Heat 1/2 of the vegetable oil in a wok over medium-high heat until it shimmers. Stir-fry the chicken in a single layer, in batches if needed, until browned and cooked through, 3 to 4 minutes. Move it to a plate.
-4. **Fry the aromatics:** Add 1/2 of the vegetable oil, garlic, and fresh ginger to the wok and stir until fragrant, about 30 seconds.
-5. **Stir-fry the vegetables:** Add onion, carrot, bok choy, and frozen shelled edamame. Stir-fry until the vegetables are crisp-tender, about 4 minutes.
-6. **Toss the noodles:** Add cooked egg noodles, the chicken and the sauce. Toss until the noodles are hot and the sauce cooks down to a glaze that coats them, about 3 minutes.
-7. **Finish and serve:** Take the wok off the heat. Add scallions and toasted sesame oil, toss once and serve.
+3. **Boil the noodles:** Bring a large pot of water to a boil. Cook fresh lo mein egg noodles until just al dente, 2 to 3 minutes. Rinse briefly under cold water and drain well.
+4. **Cook the chicken:** Heat 1/2 of the vegetable oil in a wok over medium-high heat until it shimmers. Stir-fry the chicken in a single layer, in batches if needed, until browned and cooked through, 3 to 4 minutes. Move it to a plate.
+5. **Fry the aromatics:** Add 1/2 of the vegetable oil, garlic, and fresh ginger to the wok and stir until fragrant, about 30 seconds.
+6. **Stir-fry the vegetables:** Add onion, carrot, bok choy, and frozen shelled edamame. Stir-fry until the vegetables are crisp-tender, about 4 minutes.
+7. **Toss the noodles:** Add the noodles, the chicken and the sauce. Toss until the noodles are hot and the sauce cooks down to a glaze that coats them, about 3 minutes.
+8. **Finish and serve:** Take the wok off the heat. Add scallions and toasted sesame oil, toss once and serve.

@@ -10,17 +10,18 @@ cookingMethods:
 occasions:
   - comfort-food
 flavorProfile:
-  - acidic
-  - rich
-  - herbaceous
+  - sweet
+  - warm
+  - aromatic
+  - creamy
 cuisines:
-  - Indian
-role: main
+  - American
+role: side
 vibe: comfort
 prepTime: 30 min
 cookTime: 1 hr
 totalTime: 1 hr 30 min
-servings: '12'
+servings: 12 starter bowls
 pairsWith:
   - naan
   - kachumber-salad
