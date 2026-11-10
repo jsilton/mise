@@ -1,0 +1,509 @@
+{
+  "review_date": "2026-11-10",
+  "reference": {
+    "repository": "jsilton/mise",
+    "branch": "images/mise-style-tests-2026-10-31",
+    "commit": "ef362c8c1e83bf6114f4b1a420c543adc4c33f80",
+    "path": "docs/image-tests/2026-10-31/images/margarita-01-cookbook.png",
+    "attached_to_every_generation": true
+  },
+  "scope": "22 image assets only; no recipe mapping, site code, configuration, merge or deployment.",
+  "coverage": "Each final image individually visually inspected during generation and independently reviewed. Exact filenames, PNG validity, dimensions, and SHA-256 checked programmatically.",
+  "background_note": "Backdrops are visually even, with faint generated photographic grain. Colors approximate the supplied hexadecimal values; they are not mathematically constant RGB fills.",
+  "image_count": 22,
+  "all_png_dimensions_pass": true,
+  "checks_per_image": [
+    "dish composition and counts",
+    "serving vessel and permitted garnish",
+    "no steam, smoke, vapor, props, text or logos",
+    "centered approximately half-width composition",
+    "whole vessel and food remain visible in the center-half crop",
+    "flat even backdrop, without stains, horizon, vignette or colored shadow patches"
+  ],
+  "images": [
+    {
+      "filename": "all-butter-pie-crust.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "a033154fe3f0a068ca6dac9b9baa4d85e63cb956d1c8d44da12b457c74d1a924",
+      "bytes": 1382620,
+      "background_edge_rgb": [
+        251.47,
+        169.87,
+        121.12
+      ],
+      "background_edge_patch_spread_rgb": [
+        0.29,
+        1.06,
+        1.55
+      ],
+      "visual_status": "pass",
+      "visual_notes": "Pale raw empty shell, tall fluting, visible flat butter flakes, white/slate pie plate. Center-half crop safe."
+    },
+    {
+      "filename": "baja-fish-tacos.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "e0ab3683122bbb66d41da70faa342ab307f93b360f8e205c14156e2a73db09ba",
+      "bytes": 1299081,
+      "background_edge_rgb": [
+        201.06,
+        230.26,
+        242.21
+      ],
+      "background_edge_patch_spread_rgb": [
+        0.81,
+        0.28,
+        0.33
+      ],
+      "visual_status": "pass",
+      "visual_notes": "Exactly three corn tortillas and cod strips, crema under cabbage and cilantro, one lime wedge. No forbidden extras."
+    },
+    {
+      "filename": "baked-beans.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "70b847bb878994f2c825ff50e9e08cbd8ea46b24032285fb4e40a2353eb8ab0a",
+      "bytes": 1435391,
+      "background_edge_rgb": [
+        251.42,
+        210.18,
+        121.14
+      ],
+      "background_edge_patch_spread_rgb": [
+        0.24,
+        0.63,
+        1.52
+      ],
+      "visual_status": "pass",
+      "visual_notes": "Whole small beans with thick glossy brown sauce, bacon and golden onion, no herbs."
+    },
+    {
+      "filename": "bbq-sauce.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "17d0892ed0e1a4210171ea81e0c6c39dbe6aaf402b5dd17c08555c48e870258f",
+      "bytes": 1555241,
+      "background_edge_rgb": [
+        198.74,
+        228.39,
+        240.3
+      ],
+      "background_edge_patch_spread_rgb": [
+        2.19,
+        1.52,
+        0.94
+      ],
+      "visual_status": "pass",
+      "visual_notes": "Brick-red glossy thick sauce with swirl and small onion bits, no utensils or food accompaniment."
+    },
+    {
+      "filename": "caesar-dressing.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "90c0887d52c61d3e61494b934d63408c82cbc6380aa03a1d14e955cc9476d704",
+      "bytes": 1474102,
+      "background_edge_rgb": [
+        252.04,
+        169.77,
+        118.17
+      ],
+      "background_edge_patch_spread_rgb": [
+        0.37,
+        1.09,
+        1.32
+      ],
+      "visual_status": "pass",
+      "visual_notes": "Ivory-beige creamy dressing, Parmesan flecks and black pepper, no lettuce/croutons/anchovy/lemon."
+    },
+    {
+      "filename": "french-omelet.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "49acb01928fe1d4111ce40223ec30286f073d2a179b6172a46864c05b6567fbc",
+      "bytes": 1216493,
+      "background_edge_rgb": [
+        203.74,
+        230.56,
+        241.81
+      ],
+      "background_edge_patch_spread_rgb": [
+        0.53,
+        0.26,
+        0.36
+      ],
+      "visual_status": "pass",
+      "visual_notes": "Revised pale-yellow whole smooth omelet, no browning or visible filling, only fine chives and butter sheen. Center-half crop safe."
+    },
+    {
+      "filename": "house-vinaigrette.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "e026e55bf9240b8d9d81105facb5f895bbb45bb9ebb5e2efc95cc07255033604",
+      "bytes": 1509332,
+      "background_edge_rgb": [
+        251.49,
+        167.11,
+        117.09
+      ],
+      "background_edge_patch_spread_rgb": [
+        0.13,
+        1.18,
+        1.48
+      ],
+      "visual_status": "pass",
+      "visual_notes": "Revised squat clear lidless jar, about 44% frame width, roughly 3/4 filled with opaque blended pale-golden dressing and pinkish shallot bits. No separated oil."
+    },
+    {
+      "filename": "jammy-and-hard-boiled-eggs.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "203478c17cb45b015cba7e2292ad49c1d1ab4b32317b68efa30b2572081c3f68",
+      "bytes": 1336423,
+      "background_edge_rgb": [
+        201.92,
+        229.77,
+        240.88
+      ],
+      "background_edge_patch_spread_rgb": [
+        1.39,
+        0.71,
+        0.52
+      ],
+      "visual_status": "pass",
+      "visual_notes": "Exactly eight lengthwise halves in two rows: four glossy orange jammy yolks in front, four firm yellow yolks behind. No seasoning or garnish."
+    },
+    {
+      "filename": "matzo-ball-soup.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "a5826ed7a8991b131e71d3163d4bb7557d3155c2023f3be3a74f0670577c29a1",
+      "bytes": 1591820,
+      "background_edge_rgb": [
+        250.96,
+        165.91,
+        117.33
+      ],
+      "background_edge_patch_spread_rgb": [
+        0.42,
+        1.24,
+        1.78
+      ],
+      "visual_status": "pass",
+      "visual_notes": "Two round matzo balls, clear golden broth, carrot coins, celery and dill. No noodles or chicken."
+    },
+    {
+      "filename": "meat-lasagna.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "74a7434498deae7d9266f78fa551f36c3518659d29f1ebcfea0f0780db5541f6",
+      "bytes": 1490310,
+      "background_edge_rgb": [
+        247.93,
+        206.81,
+        121.56
+      ],
+      "background_edge_patch_spread_rgb": [
+        0.53,
+        0.98,
+        1.43
+      ],
+      "visual_status": "pass",
+      "visual_notes": "One upright square slice, four flat pasta sheets, red meat sauce and parsley-flecked ricotta, browned cheese top. No garnish/bread."
+    },
+    {
+      "filename": "meatballs-in-san-marzano-sauce.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "49ea0bfb9e9f0ce9f80ef7077d5425f3e4f620b46a65cfe238a3cb85e3d488c3",
+      "bytes": 1470775,
+      "background_edge_rgb": [
+        200.5,
+        229.89,
+        242.07
+      ],
+      "background_edge_patch_spread_rgb": [
+        0.78,
+        0.45,
+        0.38
+      ],
+      "visual_status": "pass",
+      "visual_notes": "Exactly five browned meatballs, red chunky sauce, garlic slices and finely grated cheese. No pasta/herbs/bread."
+    },
+    {
+      "filename": "pan-seared-cod-with-brown-butter.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "241e3e52f0316a63fa975150cb2c2fc961bf3338210d7890d6bbae49ecdc2ec5",
+      "bytes": 1533045,
+      "background_edge_rgb": [
+        251.55,
+        210.1,
+        131.16
+      ],
+      "background_edge_patch_spread_rgb": [
+        0.13,
+        0.45,
+        0.75
+      ],
+      "visual_status": "pass",
+      "visual_notes": "One thick seared cod, flaky white sides, butter sauce with capers and parsley, one lemon wedge."
+    },
+    {
+      "filename": "pan-seared-steak.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "05166d06e417ac2be7206672f34d2acf1abaa003db7574af431e03888e8f0597",
+      "bytes": 1445333,
+      "background_edge_rgb": [
+        204.58,
+        230.74,
+        241.96
+      ],
+      "background_edge_patch_spread_rgb": [
+        0.86,
+        0.47,
+        0.53
+      ],
+      "visual_status": "pass",
+      "visual_notes": "Final edit has two irregular split smashed golden garlic cloves and two delicate thyme sprigs. Fanned rosy steak with browned crust, butter and salt, no forbidden sides; framing preserved."
+    },
+    {
+      "filename": "peanut-sauce.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "727deb748688712711a13fffee34197258426e7f650882d6392fbc7190d6e55d",
+      "bytes": 1454929,
+      "background_edge_rgb": [
+        250.03,
+        206.92,
+        119.23
+      ],
+      "background_edge_patch_spread_rgb": [
+        0.35,
+        0.84,
+        1.86
+      ],
+      "visual_status": "pass",
+      "visual_notes": "Thick orange-tan peanut sauce, fine nut texture and small red oil beads along edge, no skewers, toppings, cilantro or lime."
+    },
+    {
+      "filename": "pico-de-gallo.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "e4a3586001ff168a4d878f066f4d0c8745f5844f52c2955d65d1e7611ce439df",
+      "bytes": 1546764,
+      "background_edge_rgb": [
+        250.55,
+        208.34,
+        115.76
+      ],
+      "background_edge_patch_spread_rgb": [
+        0.25,
+        1.24,
+        2.48
+      ],
+      "visual_status": "pass",
+      "visual_notes": "Diced red tomato and white onion with fine green chile and cilantro, heaped without pooled liquid or forbidden sides."
+    },
+    {
+      "filename": "pot-roast.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "43e916d329c84ffa39c03cccb08dcf9752bc142a24a11e073a6be7164f048024",
+      "bytes": 1605305,
+      "background_edge_rgb": [
+        249.68,
+        169.91,
+        121.88
+      ],
+      "background_edge_patch_spread_rgb": [
+        0.33,
+        0.91,
+        1.2
+      ],
+      "visual_status": "pass",
+      "visual_notes": "Three thick beef slices over carrot pieces and potato chunks with brown gravy/parsley. No prohibited extras."
+    },
+    {
+      "filename": "potato-latkes.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "754e998a59e71b2c64442b14bb0559c8d68c8770249fad7454341c3d095b28d5",
+      "bytes": 1543757,
+      "background_edge_rgb": [
+        200.27,
+        229.83,
+        241.91
+      ],
+      "background_edge_patch_spread_rgb": [
+        0.91,
+        0.5,
+        0.41
+      ],
+      "visual_status": "pass",
+      "visual_notes": "Four crisp lacy latkes in overlapping row, applesauce and sour cream on plate without ramekins."
+    },
+    {
+      "filename": "potato-salad.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "ef0eb14b4561b5f26bdc3a215b80162a1d59adf7c63ccc4ef088cf394054c210",
+      "bytes": 1516101,
+      "background_edge_rgb": [
+        249.44,
+        168.51,
+        119.47
+      ],
+      "background_edge_patch_spread_rgb": [
+        0.29,
+        0.7,
+        0.74
+      ],
+      "visual_status": "pass",
+      "visual_notes": "Revised vessel fits center-half crop. Creamy yellow potato chunks with celery, scallion, pickle and chopped egg, parsley and paprika. No whole egg slices or other forbidden toppings."
+    },
+    {
+      "filename": "pumpkin-pie.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "ada0050f3cd17d6fdbeaa5a3d0ca155d9d9c01cfc2250aca2bdda1832d63bb3e",
+      "bytes": 1414818,
+      "background_edge_rgb": [
+        201.12,
+        229.04,
+        241.14
+      ],
+      "background_edge_patch_spread_rgb": [
+        1.04,
+        0.55,
+        0.44
+      ],
+      "visual_status": "pass",
+      "visual_notes": "One deep-dish pie wedge pointed forward, smooth custard, tall fluted crust and one whipped cream dollop. No cracks or extra toppings."
+    },
+    {
+      "filename": "smash-burgers.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "02b930c93818d16a197034769e20adc9cf00ef72cc3bf3f10ca95729990321ba",
+      "bytes": 1566318,
+      "background_edge_rgb": [
+        251.51,
+        209.27,
+        118.81
+      ],
+      "background_edge_patch_spread_rgb": [
+        0.18,
+        0.32,
+        1.39
+      ],
+      "visual_status": "pass",
+      "visual_notes": "Two thin crisp-edged patties extending past seedless potato bun, American cheese, thin white onion, pickle chips, shredded lettuce, pink sauce. No tomato/bacon/fries/toothpick. Revised plate fits central crop."
+    },
+    {
+      "filename": "soft-dinner-rolls.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "8747c85287437775367f88965a1053b9fe7c3d2981b1d92fe5b646fec7f8f98f",
+      "bytes": 1456282,
+      "background_edge_rgb": [
+        250.74,
+        167.8,
+        119.87
+      ],
+      "background_edge_patch_spread_rgb": [
+        0.17,
+        0.66,
+        0.72
+      ],
+      "visual_status": "pass",
+      "visual_notes": "Exactly six glossy salted pull-apart rolls in two rows of three, one partly pulled away exposing feathery white crumb."
+    },
+    {
+      "filename": "teriyaki-sauce.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "valid_1536x1024_png": true,
+      "sha256": "628fecd2ca5e75485837639a97a7124d2c0f9b0df899cfbae11b9f9878a78ef3",
+      "bytes": 1293303,
+      "background_edge_rgb": [
+        250.28,
+        208.08,
+        120.66
+      ],
+      "background_edge_patch_spread_rgb": [
+        0.17,
+        0.32,
+        1.19
+      ],
+      "visual_status": "pass",
+      "visual_notes": "Smooth glossy translucent dark mahogany sauce only, no sesame/scallions/chicken/spoon."
+    }
+  ]
+}
