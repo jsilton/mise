@@ -1,7 +1,7 @@
 ---
 miseId: cd23397b-53b5-45fc-a1d6-e810bb615437
 title: Chocolate Soufflé
-difficulty: easy
+difficulty: intermediate
 cookingMethods:
   - bake
   - simmer
@@ -19,14 +19,7 @@ cuisines:
   - French
 role: dessert
 vibe: technical
-season:
-  - spring
-  - summer
-  - fall
-  - winter
 leftovers: poor
-healthiness: hearty
-makeAhead: false
 prepTime: 20 min
 cookTime: 25 min
 totalTime: 45 min
@@ -44,6 +37,10 @@ ingredients:
 seasons:
   - year-round
 nutritionalDensity: moderate
+equipment:
+  - 6-cup-souffle-dish
+  - electric-mixer
+  - heatproof-bowl
 source: Adapted from Epicurious
 sourceUrl: 'https://www.epicurious.com/recipes/food/views/chocolate-souffle-106173'
 learning:

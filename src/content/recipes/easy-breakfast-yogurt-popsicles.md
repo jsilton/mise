@@ -9,6 +9,8 @@ dietary:
 occasions:
   - kid-friendly
   - snack
+  - breakfast
+  - make-ahead
 seasons:
   - summer
 nutritionalDensity: light
@@ -26,7 +28,7 @@ flavorProfile:
   - rich
 cuisines:
   - American
-role: base
+role: main
 vibe: comfort
 prepTime: 10 min
 cookTime: 0 min
@@ -35,7 +37,8 @@ servings: 8 pieces
 ingredients:
   - '1 cup plain Greek yogurt, full-fat'
   - 1/2 cup whole milk
-  - 2 tsp honey
+  - 2 tbsp honey
+  - '1 tsp honey, for the granola'
   - '1/2 cup [granola](/mise/recipes/granola)'
   - '1 cup fresh berries or chopped fruit, cut small'
 source: Adapted from I Heart Naptime
@@ -73,12 +76,20 @@ formula:
           name: honey
           quantity:
             amount: 2
-            unit: tsp
+            unit: tbsp
           uses:
             - step: base
-              share: 1/2
+              share: 1
+        - id: granola-honey
+          key: honey
+          name: honey
+          quantity:
+            amount: 1
+            unit: tsp
+          uses:
             - step: granola
-              share: 1/2
+              share: 1
+          preparation: for the granola
         - id: granola
           key: granola
           name: '[granola](/mise/recipes/granola)'
@@ -136,9 +147,9 @@ This is breakfast on a stick: Greek yogurt and fruit frozen in molds with a crun
 
 ## Directions
 
-1. **Mix the base:** Whisk plain Greek yogurt, whole milk, and 1/2 of the honey in a bowl until smooth.
+1. **Mix the base:** Whisk plain Greek yogurt, whole milk, and honey in a bowl until smooth.
 2. **Add the fruit:** Divide fresh berries or chopped fruit among the popsicle molds.
 3. **Fill the molds:** Pour the yogurt mixture over the fruit, leaving a 1/2-inch gap at the top of each mold.
-4. **Top with granola:** Toss 1/2 of the honey and [granola](/mise/recipes/granola) until coated, warming the honey for 10 seconds first if it is stiff. Press the granola into the top of each mold.
+4. **Top with granola:** Toss honey and [granola](/mise/recipes/granola) until coated, warming the honey for 10 seconds first if it is stiff. Press the granola into the top of each mold.
 5. **Freeze:** Insert the sticks and freeze until solid, at least 4 hours or overnight.
 6. **Unmold:** Run the outside of each mold under warm water for 5 to 10 seconds, then pull out the pop. Serve right away.

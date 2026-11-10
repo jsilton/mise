@@ -316,8 +316,19 @@ function lintRecipe(filePath) {
   }
 
   if (dietary.includes('gluten-free')) {
+    // Flours that are gluten-free by nature, and any flour the line itself labels
+    // gluten-free, contain the substring "flour" but are not gluten. Strip them before
+    // checking. Oat flour counts only when labeled gluten-free. A line that also names
+    // a wheat flour still fails. Section dividers ("--- Cupcakes ---") are headings,
+    // not ingredients, so they are skipped.
+    const GLUTEN_FREE_FLOURS =
+      /gluten-free[^,;]*?flour|(?:almond|coconut|rice|tapioca|cassava|chickpea|buckwheat) flour/g;
     for (const gluten of GLUTEN_INGREDIENTS) {
-      const found = ingredientLines.find((line) => line.includes(gluten));
+      const found = ingredientLines.find((line) => {
+        if (line.startsWith('---')) return false;
+        const checkLine = gluten === 'flour' ? line.replace(GLUTEN_FREE_FLOURS, '') : line;
+        return checkLine.includes(gluten);
+      });
       if (found) {
         errors.push(
           `Tagged gluten-free but ingredients contain "${gluten}" in: "${found.slice(0, 60)}"`

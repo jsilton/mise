@@ -8,7 +8,6 @@ cookingMethods:
 occasions:
   - meal-prep
   - weeknight
-  - snack
 flavorProfile:
   - umami
   - herbaceous
@@ -27,7 +26,7 @@ seasons:
 nutritionalDensity: moderate
 leftovers: excellent
 equipment:
-  - sheet-pan
+  - rimmed-sheet-pan
 pairsWith:
   - lemon-herb-quinoa
 pairingNotes:
@@ -40,7 +39,7 @@ ingredients:
   - '2 garlic cloves, minced'
   - 'kosher salt and black pepper, to taste'
   - '--- Chicken and vegetables ---'
-  - '3 boneless, skinless chicken breasts, cut into 1-inch cubes'
+  - '1 1/2 lb boneless, skinless chicken breasts (about 3), cut into 1-inch cubes'
   - '8 oz cremini mushrooms, halved'
   - '1 lb broccoli, cut into florets'
   - '1 small zucchini, cut into 1/2-inch slices'
@@ -62,12 +61,12 @@ learning:
 
 ## Chef's Note
 
-These are meal prep bowls from The Girl on Bloor, made on one sheet pan. The chicken and mushrooms roast first to brown, then the broccoli, zucchini and tomatoes join them for the last 10 minutes so they stay crisp-tender. A pesto, Parmesan and garlic mixture coats everything, and the rest goes on at the end as a sauce.
+These are meal prep bowls from The Girl on Bloor, made on two sheet pans so nothing steams. The chicken and mushrooms roast first to brown, then the broccoli, zucchini and tomatoes go in on their own pan for the last 10 minutes so they stay crisp-tender. A pesto, Parmesan and garlic mixture coats everything, and the rest goes on at the end as a sauce.
 
 ## Directions
 
-1. **Mix the pesto:** Heat the oven to 400°F and line a large rimmed sheet pan with parchment. In a small bowl, stir the pesto, Parmigiano-Reggiano, garlic and two-thirds of the olive oil. Season with salt and pepper. Spoon out two spoonfuls for the chicken and two more for the vegetables, and set the rest aside for serving.
-2. **Roast the chicken:** On the pan, toss the chicken and mushrooms with the rest of the olive oil and the first spoonfuls of pesto mixture. Spread them out and roast for 10 minutes.
-3. **Add the vegetables:** Add the broccoli, zucchini and tomatoes to the pan and toss them with the second spoonfuls of pesto mixture. Spread everything out in one layer.
-4. **Finish roasting:** Roast until the chicken reaches 165°F and the broccoli is crisp-tender, about 10 minutes more.
+1. **Mix the pesto:** Heat the oven to 425°F with racks in the upper and lower thirds. Line two rimmed sheet pans with parchment. In a small bowl, stir the pesto, Parmigiano-Reggiano, garlic and two-thirds of the olive oil. Season with salt and pepper. Set half aside for serving. Split the rest into two portions, one for the chicken and one for the vegetables.
+2. **Roast the chicken:** On one pan, toss the chicken and mushrooms with the rest of the olive oil and the first portion of pesto mixture. Spread them out and roast on the upper rack for 10 minutes.
+3. **Add the vegetables:** On the second pan, toss the broccoli, zucchini and tomatoes with the second portion of pesto mixture. Spread them in one layer and slide the pan onto the lower rack.
+4. **Finish roasting:** Roast both pans until the chicken reaches 165°F and the broccoli is crisp-tender, about 10 minutes more.
 5. **Pack the bowls:** Divide the chicken and vegetables among four bowls and spoon the reserved pesto mixture over the top.

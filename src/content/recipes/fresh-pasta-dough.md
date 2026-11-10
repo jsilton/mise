@@ -3,7 +3,8 @@ miseId: 777c717a-d45f-4b30-a837-c4fe12628661
 title: Pasta Dough
 difficulty: easy
 cookingMethods:
-  - no-cook
+  - mix
+  - boil
 dietary:
   - vegetarian
 occasions:
@@ -25,7 +26,9 @@ leftovers: excellent
 advancePrep:
   - make-ahead
 equipment:
+  - stand-mixer
   - pasta-roller
+  - large-pot
 pairsWith:
   - pressure-cooker-bolognase
   - san-marzano-tomato-sauce
@@ -47,6 +50,11 @@ learning:
     - ingredient: 00 flour
       alternative: All-purpose flour
       effect: Use the same amount. The pasta is a little chewier and less silky.
+    - ingredient: By hand
+      alternative: Knead without a mixer
+      effect: >-
+        Knead the shaggy dough on a lightly floured counter until smooth and elastic, 8 to 10
+        minutes.
   storage: >-
     The wrapped dough keeps 1 day in the fridge. Cut and dusted nests freeze for 1 month and cook
     from frozen.

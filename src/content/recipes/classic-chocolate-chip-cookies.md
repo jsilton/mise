@@ -234,8 +234,9 @@ learning:
       alternative: 'Toasted walnuts or pecans, chopped'
       effect: The classic choice and a little richer. The cookies are no longer nut-free.
   storage: >-
-    Keeps airtight at room temperature for 4 days. Freeze scooped dough balls for up to 2 months and
-    bake them from frozen, adding 1 to 2 minutes.
+    Keeps airtight at room temperature for 4 days. The seeds can leave harmless green flecks in the
+    crumb after a day, a reaction with the baking soda. Freeze scooped dough balls for up to 2 months
+    and bake them from frozen, adding 1 to 2 minutes.
   review:
     status: editorial-review
     date: '2026-11-09'

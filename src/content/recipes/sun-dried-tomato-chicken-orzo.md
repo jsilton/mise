@@ -35,7 +35,7 @@ pairingNotes:
   everyday-arugula-salad: Peppery greens to cut the creamy cheese.
   charred-broccoli-with-garlic: A crisp green vegetable beside the soft orzo.
 ingredients:
-  - '1 lb boneless skinless chicken breast, cut into 1-inch pieces'
+  - '1 lb boneless skinless chicken thighs, cut into 1 1/2-inch pieces'
   - 1 tbsp oil from the sun-dried tomato jar
   - 1 tsp dried Italian seasoning
   - 1/2 tsp fine salt, for the chicken
@@ -57,6 +57,9 @@ learning:
     - starch
     - temperature
   substitutions:
+    - ingredient: Chicken thighs
+      alternative: 'Chicken breast, cut into 2-inch chunks'
+      effect: Leaner and milder. The bigger chunks keep it from drying out in the long bake.
     - ingredient: Boursin garlic and fine herbs cheese
       alternative: Store-brand garlic and herb spreadable cheese
       effect: Works the same way. Some brands are softer and saltier, so taste before adding salt.

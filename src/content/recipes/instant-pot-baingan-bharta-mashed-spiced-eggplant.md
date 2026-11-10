@@ -15,7 +15,7 @@ scaling:
   mode: fixed
   reason: >-
     The water, oil and loaded volume are set for one batch in a compatible 6-quart cooker.
-    Make another batch for more portions; do not reduce the pressure-cooking water.
+    Make another batch for more portions. Do not reduce the pressure-cooking water.
 cuisines:
   - Indian
 cookingMethods:
@@ -98,7 +98,7 @@ Baingan bharta is the smoky mashed eggplant of North Indian home kitchens. Its d
 
 ## Directions
 
-1. **Char the eggplants:** Set the whole eggplants directly over a gas flame or close under a hot broiler. Turn with tongs until the skin is black and blistered all over and the flesh slumps, about 10 minutes. Let them cool on a plate.
+1. **Char the eggplants:** Set the whole eggplants directly over a gas flame or close under a hot broiler. Turn with tongs until the skin is black and blistered all over and the flesh is still firm enough to cube, about 8 minutes. Let them cool on a plate.
 2. **Peel and cube:** Peel off the charred skin, leaving a few dark flecks for smoke. Trim the stems and cut the flesh into 1-inch cubes.
 3. **Cook the onion:** Heat the oil in the pressure cooker on the medium sauté setting. Add the cumin seeds and stir until fragrant and a shade darker, about 30 seconds. Add the onion and salt and cook, stirring often, until soft with golden edges, 8 to 12 minutes.
 4. **Bloom the spices:** Lower the heat. Add the garlic, ginger, coriander, garam masala, black pepper, turmeric, paprika and cayenne and stir until fragrant, about 30 seconds.

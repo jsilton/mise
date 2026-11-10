@@ -20,7 +20,7 @@ vibe: quick
 prepTime: 15 min
 cookTime: 20 min
 totalTime: 40 min
-servings: 6 portions
+servings: 4 portions
 pairsWith:
   - mexican-street-corn-salad
   - cilantro-lime-rice
@@ -45,9 +45,9 @@ ingredients:
   - '1/2 cup fresh cilantro, for the slaw'
   - '1 lime, juiced, for the slaw'
   - 'kosher salt, to taste'
-  - 'corn tortillas, warmed, for serving'
-  - 'avocado, for serving, sliced'
-  - 'sour cream, for serving'
+  - '12 corn tortillas, warmed'
+  - '1 avocado, sliced'
+  - 1/2 cup sour cream
   - 'lime wedges, for serving, optional'
   - 'fresh cilantro, for serving, chopped, optional'
   - 'radish, for serving, thinly sliced, optional'
@@ -77,7 +77,7 @@ learning:
 formula:
   version: 1
   yield:
-    amount: 6
+    amount: 4
     unit: portion
   components:
     - id: tacos
@@ -236,15 +236,22 @@ formula:
               share: 1
         - id: tortillas
           key: tortillas
-          name: corn tortillas
-          allowance: 'warmed, for serving'
+          name: corn tortilla
+          plural: corn tortillas
+          quantity:
+            amount: 12
+            unit: count
+          preparation: warmed
           uses:
             - step: assemble
               share: 1
         - id: avocado
           key: avocado
           name: avocado
-          allowance: for serving
+          plural: avocados
+          quantity:
+            amount: 1
+            unit: count
           preparation: sliced
           uses:
             - step: finish
@@ -252,7 +259,9 @@ formula:
         - id: sour-cream
           key: sour-cream
           name: sour cream
-          allowance: for serving
+          quantity:
+            amount: 1/2
+            unit: cup
           uses:
             - step: finish
               share: 1

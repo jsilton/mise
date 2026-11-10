@@ -5,7 +5,7 @@ role: dessert
 vibe: comfort
 difficulty: easy
 prepTime: 15 min
-cookTime: 18 min
+cookTime: 22 min
 totalTime: 45 min
 servings: 12 muffins
 cookingMethods:
@@ -13,7 +13,7 @@ cookingMethods:
 categories: []
 source: Adapted from Yummy Toddler Food
 ingredients:
-  - 1 cup whole-wheat flour
+  - 1 1/2 cups whole-wheat flour
   - 1/4 cup chocolate protein powder
   - 1/4 cup unsweetened cocoa powder
   - 1 tsp ground cinnamon (optional)
@@ -62,5 +62,5 @@ These snack muffins get a little extra protein from chocolate protein powder. Wi
 3. **Mix the wet ingredients:** In a large bowl, whisk the zucchini, milk, maple syrup, eggs, melted butter and vanilla together.
 4. **Make the batter:** Fold the dry ingredients into the wet just until no dry flour remains. Fold in the chocolate chips.
 5. **Fill the cups:** Divide the batter among the cups, filling them about three-quarters full.
-6. **Bake the muffins:** Bake until a toothpick in the center comes out with no wet batter, 16 to 18 minutes.
+6. **Bake the muffins:** Bake until a toothpick in the center comes out with no wet batter, 18 to 22 minutes.
 7. **Cool the muffins:** Cool the muffins in the pan for 5 minutes, then move them to a rack.

@@ -30,7 +30,7 @@ pairsWith:
 pairingNotes:
   smashed-cucumber-salad: 'Cold, garlicky cucumbers beside a hot bowl of soup.'
 ingredients:
-  - 20 frozen mini wontons
+  - 40 frozen mini wontons
   - 6 cups low-sodium chicken broth
   - '1 piece fresh ginger, 1 inch long, smashed'
   - '1 garlic clove, smashed'
@@ -55,7 +55,7 @@ formula:
           key: mini-frozen-wontons
           name: frozen mini wonton
           quantity:
-            amount: 20
+            amount: 40
             unit: count
           uses:
             - step: wontons
@@ -169,6 +169,10 @@ formula:
 learning:
   techniques:
     - temperature
+  substitutions:
+    - ingredient: frozen mini wontons
+      alternative: 20 full-size frozen wontons
+      effect: Five big dumplings a bowl. Simmer them until they float and the filling is hot.
   storage: >-
     Best fresh, since the wontons soften as they sit. Leftover broth and vegetables keep 3 days in
     the fridge. Reheat to a simmer and cook fresh wontons in it.

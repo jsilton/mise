@@ -21,8 +21,8 @@ cuisines:
 role: main
 vibe: comfort
 prepTime: 20 min
-cookTime: 40 min
-totalTime: 1 hr
+cookTime: 1 hr 5 min
+totalTime: 1 hr 25 min
 servings: '4'
 pairsWith:
   - charred-broccoli-with-garlic
@@ -43,7 +43,7 @@ equipment:
 ingredients:
   - '--- Cheese grits ---'
   - 1 cup stone-ground grits
-  - 4 cups water
+  - 4 1/2 cups water
   - 1/2 tsp fine salt
   - 3 tbsp unsalted butter
   - '2 cups sharp cheddar, grated'
@@ -83,8 +83,8 @@ Shrimp and grits started as a Lowcountry fisherman's breakfast and became a Sout
 
 ## Directions
 
-1. **Cook the grits:** Bring the water to a boil in a heavy saucepan. Whisk in the grits and salt, lower the heat to a gentle simmer and cover. Cook, stirring across the bottom every few minutes, until the grits are creamy and tender with no hard centers, 20 to 25 minutes. Add a splash of hot water if they get thick before they are tender.
-2. **Crisp the bacon:** While the grits cook, cook the bacon in a 12-inch skillet over medium heat, stirring, until browned and crisp, 8 to 10 minutes. Move it to a plate and pour off all but a thin coating of fat.
+1. **Cook the grits:** Bring the water to a boil in a heavy saucepan. Whisk in the grits and salt, lower the heat to a bare simmer and cover. Cook, stirring across the bottom every few minutes, until the grits are creamy and tender with no hard centers, 45 to 60 minutes. Keep a kettle of hot water on hand and add a splash if they get thick before they are tender.
+2. **Crisp the bacon:** When the grits have about 20 minutes left, cook the bacon in a 12-inch skillet over medium heat, stirring, until browned and crisp, 8 to 10 minutes. Move it to a plate and pour off all but a thin coating of fat.
 3. **Finish the grits:** Take the grits off the heat and stir in the butter, cheddar and half the pepper. Loosen with a little hot water so they spread softly. Taste for salt, cover and keep warm.
 4. **Sear the shrimp:** Heat the bacon fat over medium-high heat. Add the shrimp in one layer, in two batches if needed, and cook until pink and opaque, 1 to 2 minutes per side. Move them to a plate.
 5. **Make the pan sauce:** Turn the heat to medium-low. Cook the scallion whites for 1 minute, then the garlic for 30 seconds. Add the pan water, scrape up the browned bits and simmer for 30 seconds. Off the heat, stir in the lemon juice, parsley, the rest of the pepper and most of the scallion greens, then toss the shrimp back in to coat.

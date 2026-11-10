@@ -39,7 +39,7 @@ ingredients:
   - 5 quarts water
   - 1/4 cup fish sauce
   - 1 tbsp sugar
-  - 1 1/2 tsp fine salt
+  - '1 tbsp fine salt, plus more to taste'
   - '--- Bowls ---'
   - 1 lb dried flat rice noodles (bánh phở)
   - '3 scallions, thinly sliced'
@@ -91,7 +91,7 @@ Phở gà is the chicken noodle soup of Hanoi, lighter and cleaner than beef pho
 4. **Pull the chicken:** After 30 to 40 minutes, lift out each quarter once its thickest meat reaches 165°F. Let it cool for 10 minutes, pull the meat off the bones and refrigerate it, covered. Return the bones to the pot.
 5. **Simmer the bones:** Keep the broth at a gentle simmer for 2 more hours, skimming now and then. Add a little water if the bones poke above the surface.
 6. **Soak the noodles:** About 30 minutes before serving, cover the noodles with warm water and let them soak for 20 minutes, then drain.
-7. **Strain and season:** Strain the broth through a fine-mesh sieve into a clean pot and discard the solids. Skim off some of the fat. Stir in the sugar, half the fish sauce and half the salt, then taste and add the rest until the broth is savory and lightly sweet. Keep it at a simmer.
+7. **Strain and season:** Strain the broth through a fine-mesh sieve into a clean pot and discard the solids. Skim off some of the fat. Stir in the sugar, the fish sauce and half the salt. Taste and add salt until the broth tastes slightly too salty on its own, because the noodles dilute it. Keep it at a simmer.
 8. **Warm the chicken:** Slice the chicken and warm it in the simmering broth for 2 minutes.
 9. **Boil the noodles:** Bring a large pot of water to a boil. Add the soaked noodles and cook until tender, about 1 minute. Drain and divide among six deep bowls.
 10. **Assemble the bowls:** Top the noodles with the chicken, ladle in the hot broth and scatter over the scallions and cilantro. Serve the bean sprouts, basil, lime, jalapeño, hoisin and sriracha at the table.

@@ -22,11 +22,11 @@ vibe: quick
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
-servings: '4'
+servings: '2'
 seasons:
   - year-round
 nutritionalDensity: moderate
-leftovers: poor
+leftovers: good
 equipment:
   - wok
   - large-skillet

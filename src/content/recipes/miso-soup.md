@@ -14,7 +14,7 @@ flavorProfile:
   - umami
 cuisines:
   - Japanese
-role: base
+role: side
 vibe: quick
 prepTime: 5 min
 cookTime: 10 min

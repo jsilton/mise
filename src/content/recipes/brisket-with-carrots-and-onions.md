@@ -25,13 +25,13 @@ scaling:
   mode: fixed
   reason: >-
     This braise uses one 6–7 lb brisket flat and a full roasting pan of vegetables. For more
-    servings, prepare separate pans; a larger whole cut needs its own pan and tenderness schedule.
+    servings, prepare separate pans. A larger whole cut needs its own pan and tenderness schedule.
 pairsWith:
-  - perfect-mashed-potatoes
-  - garlic-butter-green-beans
+  - garlic-roasted-potatoes
+  - garlic-sauteed-green-beans
 pairingNotes:
-  perfect-mashed-potatoes: Soft potatoes to soak up the tomato sauce.
-  garlic-butter-green-beans: A bright green vegetable for the holiday table.
+  garlic-roasted-potatoes: Crisp olive oil potatoes to drag through the sauce.
+  garlic-sauteed-green-beans: Garlicky green beans brighten the rich braise.
 ingredients:
   - '6–7 lb beef brisket, flat cut'
   - 2 tbsp kosher salt

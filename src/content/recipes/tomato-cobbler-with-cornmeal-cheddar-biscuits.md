@@ -32,10 +32,10 @@ pairingNotes:
   green-beans-with-shallots-and-lemon: A bright green vegetable beside the jammy tomatoes.
 ingredients:
   - '--- Tomato filling ---'
-  - '4 lb cherry tomatoes, stemmed'
+  - '3 lb cherry tomatoes, stemmed'
   - 2 tbsp olive oil
   - '2 medium red onions, thinly sliced'
-  - 1 1/2 tsp salt
+  - 1 1/4 tsp salt
   - '4 garlic cloves, minced'
   - 1/4 cup dry red wine
   - 1/4 cup all-purpose flour
@@ -51,6 +51,10 @@ ingredients:
   - 'buttermilk, for brushing'
 seasons:
   - year-round
+equipment:
+  - 12-inch-oven-safe-skillet
+  - food-processor
+  - rimmed-baking-sheet
 nutritionalDensity: moderate
 leftovers: good
 source: Adapted from The Kitchn
@@ -68,7 +72,7 @@ formula:
           key: cherry-tomatoes
           name: cherry tomatoes
           quantity:
-            amount: 4
+            amount: 3
             unit: lb
           uses:
             - step: tomatoes
@@ -98,7 +102,7 @@ formula:
           key: salt
           name: salt
           quantity:
-            amount: 1 1/2
+            amount: 1 1/4
             unit: tsp
           uses:
             - step: onions

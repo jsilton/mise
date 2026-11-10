@@ -51,7 +51,7 @@ equipment:
 ingredients:
   - '--- For the dish ---'
   - 4 tbsp unsalted butter
-  - 2 tbsp granulated sugar
+  - 2 tbsp granulated sugar for the dish
   - '--- For the soufflé ---'
   - '6 large eggs, at room temperature'
   - '7 oz (200 g) bittersweet chocolate, 65–70% cacao, chopped'
@@ -97,7 +97,7 @@ formula:
               share: 1
         - id: sugar
           key: granulated-sugar
-          name: granulated sugar
+          name: granulated sugar for the dish
           quantity:
             amount: 2
             unit: tbsp
@@ -282,7 +282,7 @@ Claire Ptak's chocolate soufflé for Bon Appétit is one big dish meant for shar
 3. **Heat the cream:** Heat heavy cream in a small saucepan over medium heat until steaming, about 2 minutes.
 4. **Make the ganache:** Pour the hot cream over bittersweet chocolate in a large heatproof bowl. Let it sit for a minute, then stir now and then until smooth and slightly cooled, about 5 minutes.
 5. **Finish the chocolate base:** Whisk Dutch-process cocoa powder, dark rum (if using), Morton kosher salt, and hot water into the chocolate until smooth. Whisk in the yolks.
-6. **Coat the dish:** Brush a 1 1/2-quart soufflé dish with the browned butter, solids and all, right up to the rim. Add granulated sugar, turn the dish to coat it and tap out the extra. Chill the dish while you whip the whites.
+6. **Coat the dish:** Brush a 1 1/2-quart soufflé dish with the browned butter, solids and all, right up to the rim. Add granulated sugar for the dish, turn the dish to coat it and tap out the extra. Chill the dish while you whip the whites.
 7. **Whip the whites:** Add granulated sugar and cream of tartar to the egg whites. Beat on medium-high speed until glossy and the peaks hold but bend at the tips, 8 to 10 minutes. Stop before they look dry or clumpy.
 8. **Fold in the meringue:** Stir a quarter of the meringue into the chocolate base to lighten it. Fold in the rest in three additions, sweeping the spatula along the bottom of the bowl, until no large white streaks remain. Scrape the batter into the dish.
 9. **Bake the soufflé:** Bake until risen, with a just-set top and a gentle wobble in the center, 35 to 40 minutes.

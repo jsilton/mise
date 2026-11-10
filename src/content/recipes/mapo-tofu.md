@@ -17,6 +17,7 @@ flavorProfile:
   - rich
 cuisines:
   - Chinese
+  - Sichuan
 role: main
 vibe: comfort
 seasons:
@@ -43,7 +44,7 @@ pairingNotes:
   smashed-cucumber-salad: Cool cucumbers to calm the heat.
   steamed-bok-choy-with-oyster-sauce: A simple green vegetable for the table.
 ingredients:
-  - '1 block (14 oz) medium-firm tofu, cut into 3/4-inch cubes'
+  - '1 block (14 oz) soft tofu, cut into 3/4-inch cubes'
   - 6 oz ground pork
   - 2 tbsp doubanjiang (Pixian chili bean paste)
   - '1 tbsp fermented black beans, rinsed and roughly chopped'
@@ -77,9 +78,9 @@ learning:
       effect: >-
         Nothing else gives the tingling, numbing finish. Asian grocers and online shops sell them,
         and they keep for months in a sealed jar.
-    - ingredient: Medium-firm tofu
-      alternative: Soft or silken tofu
-      effect: Silkier and closer to what Sichuan cooks use, but fragile. Move it with a wide spoon.
+    - ingredient: Soft tofu
+      alternative: Medium-firm tofu
+      effect: 'Sturdier and easier to stir, a little less silky.'
   storage: Keeps 3 days in the fridge. Reheat gently on the stove until bubbling.
   review:
     status: editorial-review

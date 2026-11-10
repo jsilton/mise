@@ -3,7 +3,7 @@ miseId: ba52ad98-8b00-4376-8b3c-24392c10b83b
 title: Anelletti Al Forno
 aliases:
   - anelletti-al-forno-the-sicilian-pasta-bake
-difficulty: easy
+difficulty: intermediate
 cookingMethods:
   - bake
   - fry
@@ -68,6 +68,12 @@ ingredients:
 origin: Italy
 source: Adapted from Saveur
 sourceUrl: 'https://www.saveur.com/recipes/anelletti-al-forno-recipe/'
+equipment:
+  - dutch-oven
+  - deep-skillet
+  - colander
+  - large-pot
+  - 9x13-inch-baking-dish
 formula:
   version: 1
   yield:
@@ -318,9 +324,9 @@ formula:
     - id: fry
       title: Fry the eggplant
       text: >-
-        Heat 1 inch of {{ingredients}} in a deep skillet over medium-high heat until it shimmers.
-        Fry the eggplant in batches without crowding, turning, until deep golden and tender, 8 to 10
-        minutes per batch. Drain on paper towels.
+        Heat 1 inch of {{ingredients}} in a deep skillet over medium-high heat to 350°F, when a cube
+        of eggplant sizzles steadily. Fry the eggplant in batches without crowding, turning, until
+        deep golden and tender, 4 to 5 minutes per batch. Drain on paper towels.
     - id: peas
       title: Finish the ragù
       text: >-
@@ -387,7 +393,7 @@ Anelletti al forno is the Sunday pasta bake of Palermo. Little pasta rings are b
 3. **Reduce the wine:** Pour in dry red wine and scrape up the browned bits from the bottom of the pot. Simmer until the wine has almost cooked away, about 6 minutes.
 4. **Simmer the ragù:** Add ground cinnamon, freshly grated nutmeg, and whole peeled tomatoes and their juices. Bring to a simmer, partly cover and cook over low heat at a bare simmer, stirring now and then, until the ragù is thick and the meat is tender, about 2 hours.
 5. **Salt the eggplant:** While the ragù simmers, toss medium eggplant and salt together in a colander. Set a plate and a heavy can on top and let drain for 1 hour. Pat the cubes dry with paper towels.
-6. **Fry the eggplant:** Heat 1 inch of vegetable oil in a deep skillet over medium-high heat until it shimmers. Fry the eggplant in batches without crowding, turning, until deep golden and tender, 8 to 10 minutes per batch. Drain on paper towels.
+6. **Fry the eggplant:** Heat 1 inch of vegetable oil in a deep skillet over medium-high heat to 350°F, when a cube of eggplant sizzles steadily. Fry the eggplant in batches without crowding, turning, until deep golden and tender, 4 to 5 minutes per batch. Drain on paper towels.
 7. **Finish the ragù:** Stir frozen or fresh peas into the ragù and simmer until tender, about 5 minutes. Taste and add more salt and pepper if needed.
 8. **Boil the pasta:** Heat the oven to 350°F. Cook the anelletti in a large pot of well-salted boiling water until 2 minutes short of al dente. Drain and return it to the pot.
 9. **Dress the pasta:** Stir in all the fried eggplant and enough ragù to coat the pasta generously. Keep the rest of the ragù warm for serving.

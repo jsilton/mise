@@ -107,7 +107,7 @@ test('known method mismatches retain parser coverage and accepted current step c
     'instant-pot-potato-leek-soup': 9,
     'red-zone-margarita': 7,
     'spatchcocked-roast-chicken': 9,
-    'tonkotsu-style-ramen': 13,
+    'tonkotsu-style-ramen': 14,
   }))
     assert.equal(recipes.get(slug).parsed.steps.length, count, slug);
 });

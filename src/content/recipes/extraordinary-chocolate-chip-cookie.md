@@ -46,7 +46,7 @@ learning:
     - ingredient: Bake right away
       alternative: Skip the overnight chill
       effect: >-
-        Heat the oven while you mix and bake as soon as the dough is ready. The cookies spread a
+        Heat the oven while you mix and bake as soon as the dough is scooped. The cookies spread a
         little more and taste less of caramel.
   storage: >-
     Keeps 4 days in an airtight container. Freeze baked cookies, or scooped balls of dough, for 3
@@ -65,7 +65,7 @@ Martha Stewart's big, bakery-style cookie, packed with more chocolate chips than
 1. **Mix the dry ingredients:** Whisk the flour, salt, baking powder and baking soda in a bowl.
 2. **Cream the butter:** In a stand mixer with the paddle, beat the butter and both sugars on medium speed until pale and fluffy, about 4 minutes. Scrape the bowl, beat in the eggs one at a time, then the vanilla.
 3. **Add the flour and chips:** On low speed, mix in the dry ingredients just until no flour shows. Fold in the chocolate chips by hand until they are spread through the dough.
-4. **Chill:** Press plastic wrap onto the surface of the dough and refrigerate overnight, or up to 36 hours.
-5. **Scoop:** Heat the oven to 350°F and line baking sheets with parchment. Scoop the dough with a 2 1/4-inch scoop and space the balls 3 inches apart.
+4. **Scoop and chill:** Scoop the dough into 24 balls with a 2 1/4-inch scoop and set them close together on a parchment-lined sheet pan. Cover tightly and refrigerate overnight, or up to 36 hours.
+5. **Heat the oven:** Heat the oven to 350°F and line baking sheets with parchment. Space the cold balls 3 inches apart.
 6. **Bake:** Bake one sheet at a time until the edges are golden brown and the centers are set but still look soft, 15 to 17 minutes.
-7. **Cool:** Let the cookies rest on the sheet for 5 minutes, then move them to a rack to cool. Let the sheet cool before scooping the next batch onto it.
+7. **Cool:** Let the cookies rest on the sheet for 5 minutes, then move them to a rack to cool. Let the sheet cool before setting the next batch on it.

@@ -28,3 +28,48 @@ test('vegetarian lint distinguishes celery ribs from meat ribs, including a mixe
     fs.rmSync(dir, { recursive: true, force: true });
   }
 });
+
+test('gluten-free lint allows naturally gluten-free and labeled gluten-free flours', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'mise-lint-gluten-'));
+  try {
+    for (const [ingredient, gluten] of [
+      ['1 1/2 cups almond flour', false],
+      ['1/4 cup coconut flour', false],
+      ['1 cup rice flour', false],
+      ['2 tbsp tapioca flour', false],
+      ['1 cup cassava flour', false],
+      ['1 cup chickpea flour', false],
+      ['1 cup buckwheat flour', false],
+      ['1 cup gluten-free oat flour', false],
+      ['1 cup gluten-free flour', false],
+      ['2 cups gluten-free all-purpose flour', false],
+      ['1 1/4 cups gluten-free 1-to-1 baking flour with xanthan gum', false],
+      ['--- Cupcakes ---', false],
+      ['1 cup oat flour', true],
+      ['2 cups all-purpose flour', true],
+      ['1 cup almond flour and 1 cup all-purpose flour', true],
+      ['1 cup almond flour, 2 tbsp flour for dusting', true],
+    ]) {
+      const file = path.join(dir, 'loaf.md');
+      fs.writeFileSync(
+        file,
+        `---\ntitle: Loaf\ndietary: [gluten-free]\ningredients:\n  - "${ingredient}"\n---\n\n## Chef's Note\n\nBake the loaf until the center is set and the top is golden.\n\n## Directions\n\n1. Mix the batter.\n2. Bake until set.\n`
+      );
+      const result = spawnSync(process.execPath, ['scripts/lint-recipe.mjs', file], {
+        encoding: 'utf8',
+      });
+      assert.equal(
+        result.status,
+        gluten ? 1 : 0,
+        ingredient + '\n' + result.stdout + result.stderr
+      );
+      assert.equal(
+        result.stdout.includes('Tagged gluten-free but ingredients contain'),
+        gluten,
+        ingredient
+      );
+    }
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+});

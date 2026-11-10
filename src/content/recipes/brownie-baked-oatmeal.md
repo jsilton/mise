@@ -38,6 +38,7 @@ ingredients:
   - 1/2 very ripe banana
   - 1 large egg
   - '1/4 cup milk, any kind'
+  - 1 tbsp maple syrup
   - 1 heaping tbsp cocoa powder
   - 1/2 tsp baking powder
   - pinch of fine sea salt
@@ -48,6 +49,10 @@ sourceUrl: 'https://callascleaneats.com/brownie-baked-oatmeal/'
 learning:
   techniques:
     - temperature
+  substitutions:
+    - ingredient: Maple syrup
+      alternative: Honey
+      effect: Use the same amount. A little more floral.
   storage: >-
     Keeps 3 days in the fridge. Reheat in the microwave until warm, 30 to 60 seconds.
   review:
@@ -62,7 +67,7 @@ A single-serving breakfast from Calla's Clean Eats that tastes like a warm brown
 ## Directions
 
 1. **Prepare the dish:** Heat the oven to 350°F. Grease a 12-ounce ramekin or small baking dish.
-2. **Blend the batter:** Put the oats, banana, egg, milk, cocoa, baking powder and fine salt in a blender. Blend on high until completely smooth, about 30 seconds.
+2. **Blend the batter:** Put the oats, banana, egg, milk, maple syrup, cocoa, baking powder and fine salt in a blender. Blend on high until completely smooth, about 30 seconds.
 3. **Fill the dish:** Pour the batter into the ramekin and scatter the chocolate chips over the top.
 4. **Bake:** Bake until the center is set but still soft, like a fudgy brownie, 15 to 18 minutes.
 5. **Finish and serve:** Let it rest for 2 minutes. Sprinkle with flaky salt and eat warm.

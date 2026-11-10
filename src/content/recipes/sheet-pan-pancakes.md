@@ -1,7 +1,7 @@
 ---
 miseId: 04ef7ee8-12c9-4c85-ae70-9cdce341456d
 title: Sheet Pan Pancakes
-role: base
+role: main
 vibe: comfort
 difficulty: easy
 prepTime: 15 min
@@ -10,6 +10,19 @@ totalTime: 35 min
 servings: 6 portions
 cookingMethods:
   - bake
+occasions:
+  - breakfast
+  - weekend-brunch
+  - kid-friendly
+dietary:
+  - vegetarian
+flavorProfile:
+  - sweet
+  - buttery
+seasons:
+  - year-round
+equipment:
+  - quarter-sheet-pan
 categories: []
 source: Adapted from Belly Full
 pairsWith:

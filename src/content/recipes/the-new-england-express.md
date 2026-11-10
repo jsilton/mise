@@ -7,6 +7,8 @@ cookingMethods:
   - no-cook
 dietary:
   - vegetarian
+  - vegan
+  - gluten-free
 occasions:
   - entertaining
   - holiday
@@ -23,14 +25,13 @@ advancePrep:
   - make-ahead
 flavorProfile:
   - sweet
-  - savory
   - acidic
-  - rich
   - herbaceous
+  - warm
 cuisines:
   - American
 role: drink
-vibe: nutritious
+vibe: holiday
 prepTime: 10 min
 cookTime: 5 min
 totalTime: '25 min, plus 1 hr chilling'

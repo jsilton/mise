@@ -6,9 +6,12 @@ cookingMethods:
   - bake
 dietary:
   - vegetarian
+  - gluten-free
+  - dairy-free
 occasions:
   - kid-friendly
-  - weekend-project
+  - breakfast
+  - snack
   - comfort-food
 seasons:
   - summer

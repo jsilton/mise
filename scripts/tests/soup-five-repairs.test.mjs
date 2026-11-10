@@ -22,7 +22,10 @@ test('pressure soup supplies celery and discloses pressure overhead without undo
   assertTimesAddUp(data);
   assert.ok(!data.cookingMethods.includes('grill'));
   assert.match(content, /cook at high pressure for 12\s+minutes/i);
-  assert.match(content, /Let the pressure come down on its own until the float valve drops, 15 to 30 minutes/);
+  assert.match(
+    content,
+    /Let the pressure come down on its own until the float valve drops, 15 to 30 minutes/
+  );
   assert.doesNotMatch(content, /quick release|release the rest by hand/i);
   assert.match(content, /Turn off the sauté setting/);
 });
@@ -63,12 +66,9 @@ test('hot and sour inventories saute oil and excludes separate stock and pork pr
   // Stock comes from its own linked recipe and the pork is bought cooked, so neither is
   // made in this recipe's steps.
   assert.ok(data.ingredients.includes('1/4 lb char siu (Chinese barbecue pork), shredded'));
-  assert.match(content, /\[Chinese Chicken Stock\]\(\/mise\/recipes\/cantonese-wonton-broth\)/);
+  assert.match(content, /\[unsalted chicken stock\]\(\/mise\/recipes\/homemade-chicken-stock\)/);
   assert.doesNotMatch(content, /cook the pork|roast the pork/i);
-  assert.match(
-    data.formula.steps.find((step) => step.id === 'infuse').text,
-    /over medium heat/
-  );
+  assert.match(data.formula.steps.find((step) => step.id === 'infuse').text, /over medium heat/);
   // The 165°F egg check was dropped by design. The egg cue is now the set ribbons.
   assert.match(content, /Let it sit for 1 minute so the ribbons set/);
   const slurryWater = soup.ingredients.find((ingredient) => ingredient.id === 'slurry-water');
@@ -98,8 +98,14 @@ test('Jeri lentils count the final half hour and retain the documented LOW route
   assert.equal(data.totalTime, '6 hr');
   assertTimesAddUp(data);
   const [recipe, tweak = ''] = content.split(/^## Suggested Tweak$/m);
-  assert.match(recipe, /cook on LOW until the lentils are tender all the way through, about 5 hours/);
-  assert.match(recipe, /Stir in the wine, parsley and pepper\. Cover and cook on LOW for 30 minutes more/);
+  assert.match(
+    recipe,
+    /cook on LOW until the lentils are tender all the way through, about 5 hours/
+  );
+  assert.match(
+    recipe,
+    /Stir in the wine, parsley and pepper\. Cover and cook on LOW for 30 minutes more/
+  );
   assert.doesNotMatch(content, /on high for 3 hours/i);
   // Family original: dried parsley and no vinegar. October's vinegar finish lives in the tweak.
   assert.ok(data.ingredients.includes('3 tbsp dried parsley'));

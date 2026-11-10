@@ -42,8 +42,8 @@ ingredients:
   - 3 tbsp low-sodium soy sauce
   - '1 tbsp garlic, minced (3 to 4 cloves)'
   - '1/2 tsp fresh ginger, minced'
-  - '1 cup broccoli florets, cut into bite-size pieces'
-  - 2 tsp water
+  - '3 cups broccoli florets (about 8 oz), cut into bite-size pieces'
+  - 1 tbsp water
   - 1 tbsp neutral oil
 origin: Chinese-American-inspired home cooking
 source: Adapted from Gimme Delicious
@@ -73,6 +73,6 @@ Layla Atik's weeknight shrimp from Gimme Delicious is glazed with honey, soy, ga
 
 1. **Make the sauce:** In a small bowl, whisk the honey, soy sauce, garlic and ginger. Pour half into a second bowl and set it aside for the glaze.
 2. **Marinate the shrimp:** Toss the shrimp with the other half of the sauce and let them sit for 5 minutes.
-3. **Steam the broccoli:** While the shrimp marinate, put the broccoli and water in a covered microwave-safe bowl. Microwave on high until bright green and just tender, about 2 minutes, then drain.
+3. **Steam the broccoli:** While the shrimp marinate, put the broccoli and water in a covered microwave-safe bowl. Microwave on high until bright green and just tender, about 3 minutes, then drain.
 4. **Sear the shrimp:** Lift the shrimp out of the marinade, let the excess drip off and discard the marinade. Heat half the oil in a 12-inch skillet over medium-high heat. Sear half the shrimp in a single layer until pink and opaque, 1 to 2 minutes per side, then move them to a plate. Repeat with the rest of the oil and shrimp.
 5. **Glaze and serve:** Turn the heat to medium. Add the reserved sauce and the broccoli and stir until the sauce bubbles and turns glossy, about 1 minute. Return the shrimp and their juices and toss for 30 seconds to coat. Serve right away.

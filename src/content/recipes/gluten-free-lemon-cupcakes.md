@@ -6,6 +6,8 @@ cookingMethods:
   - bake
 dietary:
   - vegetarian
+  - gluten-free
+  - nut-free
 occasions:
   - entertaining
   - holiday
