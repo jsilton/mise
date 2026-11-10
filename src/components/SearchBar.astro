@@ -5,9 +5,11 @@
 interface Props {
   placeholder?: string;
   id?: string;
+  /** id of a hint element that screen readers announce with the input. */
+  describedBy?: string;
 }
 
-const { placeholder = 'Search...', id = 'searchInput' } = Astro.props;
+const { placeholder = 'Search...', id = 'searchInput', describedBy } = Astro.props;
 ---
 
 <div class="relative w-full">
@@ -15,6 +17,7 @@ const { placeholder = 'Search...', id = 'searchInput' } = Astro.props;
     {id}
     type="search"
     aria-label="Search recipes by dish, ingredient, or technique"
+    aria-describedby={describedBy}
     {placeholder}
     class="search-input w-full pl-10 pr-4 py-3 rounded-full text-base focus:outline-none transition-all"
     style={`background: var(--bg-surface); border: 1px solid var(--border-subtle); color: var(--text-primary);`}

@@ -6,10 +6,10 @@ import FilterPanel from '../components/FilterPanel.astro';
 import RecipeCard from '../components/RecipeCard.astro';
 import { getCollection } from 'astro:content';
 import { parseRecipeContent, recipeDescription } from '../lib/recipe-content.mjs';
-import { getTechniquesForRecipe } from '../data/techniques';
+import { getTechniquesForRecipe, techniques } from '../data/techniques';
 import { timeBand } from '../lib/time-band.mjs';
 import { QUICK_PICKS, COURSES, countPicks } from '../lib/quick-picks.mjs';
-import type { RecipeSearchItem } from '../lib/fuzzySearch';
+import { buildSearchItem } from '../lib/recipe-search.mjs';
 
 const recipes = (await getCollection('recipes')).filter(
   (r) => !['no-cook-playdough', 'play-dough'].includes(r.slug)
@@ -20,38 +20,17 @@ const featured = featuredSlugs.map((slug) => recipes.find((r) => r.slug === slug
 recipes.sort((a, b) => a.data.title.localeCompare(b.data.title));
 const { picks, courses, topCuisines } = countPicks(recipes);
 
-// Search matches ingredient names, not amounts: "2 cups (250 g) flour, sifted" → "flour".
-const ingredientName = (line: string) =>
-  line
-    .toLowerCase()
-    .replace(/\([^)]*\)/g, ' ')
-    .replace(/^[\d\s/.,½¼¾⅓⅔⅛-]+/, '')
-    .replace(
-      /^(cups?|tablespoons?|tbsp|teaspoons?|tsp|pounds?|lbs?|ounces?|oz|grams?|g|kg|ml|liters?|l|cloves?|pinch|dash|cans?|large|medium|small|whole|bunch)\b\.?\s*/g,
-      ''
-    )
-    .split(',')[0]
-    .replace(/\s+/g, ' ')
-    .trim();
-
-const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
-  slug: recipe.slug,
-  title: recipe.data.title,
-  cuisines: recipe.data.cuisines,
-  ingredients: [
-    ...new Set(
-      (recipe.data.ingredients || [])
-        .filter((line) => !/^---/.test(line))
-        .map(ingredientName)
-        .filter(Boolean)
-    ),
-  ],
-  flavorProfile: recipe.data.flavorProfile,
-  cookingMethods: [
-    ...(recipe.data.cookingMethods || []),
-    ...getTechniquesForRecipe(recipe).map((t) => t.title),
-  ],
-  origin: recipe.data.origin,
+// One search record per recipe. The page script turns these into the word index.
+const searchIndexData = recipes.map((recipe) =>
+  buildSearchItem(recipe, {
+    lessons: getTechniquesForRecipe(recipe).map((t) => t.slug),
+    description: recipeDescription(recipe.data, parseRecipeContent(recipe.body || '')),
+  })
+);
+const lessonLinks = techniques.map((t) => ({
+  slug: t.slug,
+  title: t.title,
+  href: `${BASE}learn/${t.slug}`,
 }));
 ---
 
@@ -62,7 +41,14 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   <section class="finder-hero" aria-labelledby="home-title">
     <h1 id="home-title">What are we <em>cooking</em>?</h1>
     <div class="hero-search" role="search">
-      <SearchBar id="searchInput" placeholder="Dal, tacos, chicken, browning…" />
+      <SearchBar
+        id="searchInput"
+        placeholder="Dal, tacos, chicken, browning…"
+        describedBy="searchHint"
+      />
+      <p class="search-hint" id="searchHint">
+        Type a dish, a technique, or two or three ingredients.
+      </p>
     </div>
     <ul class="chips" role="list" aria-label="Quick picks, choose any">
       {
@@ -120,6 +106,7 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
       </label>
     </div>
     <div id="activeFilters" class="active-filters"></div>
+    <a id="lessonHit" class="lesson-hit" hidden><span>Lesson</span> <b></b></a>
     <details class="more-filters">
       <summary
         >More filters <span class="hint">difficulty, cuisine, diet, method, flavor</span></summary
@@ -187,28 +174,29 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   </section>
 </Layout>
 
-<script define:vars={{ searchIndexData }}>
+<script define:vars={{ searchIndexData, lessonLinks }}>
   window.__searchIndexData = searchIndexData;
+  window.__lessonLinks = lessonLinks;
 </script>
 
 <script>
-  import Fuse from 'fuse.js';
+  import {
+    createSearchIndex,
+    lessonForQuery,
+    queryTokens,
+    searchRecipes,
+  } from '../lib/recipe-search.mjs';
 
   const PAGE = 12;
-  const searchIndexData = (window as any).__searchIndexData;
-  const fuse = new Fuse(searchIndexData, {
-    keys: [
-      { name: 'title', weight: 10 },
-      { name: 'ingredients', weight: 5 },
-      { name: 'cuisines', weight: 3 },
-      { name: 'flavorProfile', weight: 2 },
-      { name: 'cookingMethods', weight: 2 },
-      { name: 'origin', weight: 2 },
-    ],
-    threshold: 0.35,
-    minMatchCharLength: 2,
-    ignoreLocation: true,
-  });
+  // Built on the first search, not while the page loads.
+  let searchIndex: ReturnType<typeof createSearchIndex> | undefined;
+  const getSearchIndex = () =>
+    (searchIndex ??= createSearchIndex((window as any).__searchIndexData));
+  const lessonLinks = (window as any).__lessonLinks as {
+    slug: string;
+    title: string;
+    href: string;
+  }[];
 
   const $ = <T extends Element = HTMLElement>(sel: string) => document.querySelector<T>(sel);
   const $$ = <T extends Element = HTMLElement>(sel: string) =>
@@ -223,6 +211,7 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   const heroCount = $('#heroCount')!;
   const active = $('#activeFilters')!;
   const noResults = $('#noResults')!;
+  const lessonHit = $<HTMLAnchorElement>('#lessonHit')!;
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   // The selects in "More filters" stay the source of truth for single-choice filters,
@@ -310,10 +299,16 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
     return items.sort((a, b) => Number(b.hasArt) - Number(a.hasArt) || a.rank - b.rank);
   }
 
+  // Search hits in rank order (best first), or null when the box is empty.
   function currentMatches() {
-    const query = searchInput?.value.trim() || '';
-    const hits = query ? new Set<string>(fuse.search(query).map((r: any) => r.item.slug)) : null;
-    return { query, items: info.filter((c) => matches(c, hits)) };
+    const typed = searchInput?.value.trim() || '';
+    // One letter or only filler words ("a", "the") is not a search yet.
+    const query = queryTokens(typed).length ? typed : '';
+    const order = query
+      ? new Map<string, number>(searchRecipes(query, getSearchIndex()).map((r, i) => [r.slug, i]))
+      : null;
+    const hits = order ? new Set(order.keys()) : null;
+    return { query, order, items: info.filter((c) => matches(c, hits)) };
   }
 
   function labelFor(key: string) {
@@ -323,12 +318,11 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
 
   function render() {
     (window as any).updateFilterState?.();
-    const { query, items } = currentMatches();
+    const { query, order, items } = currentMatches();
     const sorted =
       query && sortSelect.value === 'pick' ? items : sortCards(items, sortSelect.value);
-    if (query && sortSelect.value === 'pick') {
+    if (order && sortSelect.value === 'pick') {
       // With a search, Mixed keeps the best matches first.
-      const order = new Map(fuse.search(query).map((r: any, i: number) => [r.item.slug, i]));
       sorted.sort((a, b) => (order.get(a.slug) ?? 1e9) - (order.get(b.slug) ?? 1e9));
     }
     const visible = new Set(sorted.slice(0, shown).map((c) => c.el));
@@ -344,6 +338,14 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
     showMore.hidden = n <= shown;
     showMore.textContent = `Show more recipes (${n - Math.min(n, shown)} left)`;
     noResults.hidden = n !== 0;
+
+    // A technique word ("browning") shows its lesson above the recipes that practice it.
+    const lesson = query ? lessonForQuery(query, lessonLinks) : null;
+    lessonHit.hidden = !lesson;
+    if (lesson) {
+      lessonHit.href = (lesson as (typeof lessonLinks)[number]).href;
+      lessonHit.querySelector('b')!.textContent = lesson.title;
+    }
 
     $$('[data-pick]').forEach((b) =>
       b.setAttribute('aria-pressed', String(picks.has(b.dataset.pick!)))
@@ -732,6 +734,35 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
     color: var(--text-primary);
     font-weight: 600;
     font-size: 0.88rem;
+  }
+  .search-hint {
+    margin: 0.6rem 0 0;
+    font-size: 0.88rem;
+    color: #fff;
+    text-align: center;
+  }
+  .lesson-hit[hidden] {
+    display: none;
+  }
+  .lesson-hit {
+    display: block;
+    margin: 0.8rem 0 0;
+    padding: 0.7rem 1rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 0.75rem;
+    background: var(--bg-surface);
+    color: var(--text-primary);
+  }
+  .lesson-hit span {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin-right: 0.4rem;
+  }
+  .lesson-hit:hover b {
+    text-decoration: underline;
   }
   .active-filters :global(.clear) {
     background: transparent;
