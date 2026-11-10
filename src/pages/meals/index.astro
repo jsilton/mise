@@ -28,8 +28,8 @@ const PICKS = [
     key: 'under60',
     label: 'Under an hour',
     test: (m: (typeof meals)[number]) => {
-      const t = timeBand(m.data.totalTime).minutes;
-      return t > 0 && t <= 60;
+      const t = timeBand(m.data.totalTime);
+      return t.minutes > 0 && t.minutes <= 60 && !t.open;
     },
   },
   {
