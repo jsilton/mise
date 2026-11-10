@@ -65,6 +65,9 @@ learning:
     - ingredient: Gochugaru
       alternative: 2 tsp mild paprika plus a pinch of cayenne
       effect: Similar color and gentle heat, without the fruity depth of Korean chili.
+    - ingredient: Gochugaru
+      alternative: 1/2 tsp gochugaru
+      effect: A mild salad for kids, with a little color and almost no heat.
     - ingredient: Soy sauce
       alternative: Tamari
       effect: Use it to make the salad gluten-free.

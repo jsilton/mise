@@ -60,6 +60,11 @@ learning:
     - ingredient: broccoli florets
       alternative: Frozen broccoli florets, thawed and patted dry
       effect: Softer, with less bite. Cook them 2 to 3 minutes, just to heat through.
+    - ingredient: Microwave broccoli
+      alternative: Steam it instead of cooking it in the pan
+      effect: >-
+        Cover the florets with a tablespoon of water in a microwave-safe bowl and cook on high
+        until bright green, about 3 minutes. Drain them and skip the broccoli step.
   storage: >-
     Keeps 2 days in the fridge. Reheat gently in a skillet, since the shrimp firm up as they
     warm.

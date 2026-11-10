@@ -27,6 +27,7 @@ ingredients:
   - 1 can (14 oz) sweetened condensed milk
   - 4 large egg yolks
   - 1/2 cup plus 2 tbsp fresh Key lime juice
+  - 4 tsp lime zest
   - '--- Topping ---'
   - '3/4 cup heavy cream, chilled'
   - 1 tbsp powdered sugar
@@ -72,7 +73,7 @@ This is the classic Florida Key lime pie, with a buttery graham crust and a swee
 ## Directions
 
 1. **Bake the crust:** Heat the oven to 350°F. Stir the crumbs, sugar and melted butter until the mixture looks like wet sand. Press it firmly over the bottom and up the sides of a 9-inch glass pie plate. Bake for 10 minutes and let cool.
-2. **Whisk the filling:** In a large bowl, whisk the condensed milk and egg yolks until pale and thick. Slowly whisk in the lime juice. The mixture will thicken noticeably.
+2. **Whisk the filling:** In a large bowl, whisk the condensed milk and egg yolks until pale and thick. Slowly whisk in the lime juice and zest. The mixture will thicken noticeably.
 3. **Bake the pie:** Pour the filling into the cooled crust. Bake until the edges are set and the center still jiggles slightly, about 15 minutes.
 4. **Chill:** Cool the pie completely on a rack, then cover and refrigerate for at least 8 hours.
 5. **Top and serve:** Just before serving, whip the cream and powdered sugar to stiff peaks. Mound it over the pie and scatter lime zest on top.

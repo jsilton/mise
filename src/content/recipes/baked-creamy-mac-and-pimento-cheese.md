@@ -13,20 +13,18 @@ flavorProfile:
   - rich
 cuisines:
   - Southern
-role: side
+role: main
 vibe: comfort
 prepTime: 15 min
 cookTime: 35 min
 totalTime: 50 min
-servings: '6'
+servings: '4'
 pairsWith:
-  - buttermilk-baked-chicken
-  - pulled-pork
-  - spatchcocked-roast-chicken
+  - garlic-sauteed-green-beans
+  - coleslaw
 pairingNotes:
-  buttermilk-baked-chicken: A Southern supper of crisp chicken and cheesy mac.
-  pulled-pork: Smoky pork and sharp cheese, a barbecue plate.
-  spatchcocked-roast-chicken: Roast chicken for a simple Sunday dinner.
+  garlic-sauteed-green-beans: Garlicky green beans beside the cheesy bake.
+  coleslaw: 'Cool, tangy crunch against the sharp cheddar.'
 ingredients:
   - 8 oz elbow macaroni
   - '3 tbsp unsalted butter, plus more for the dish'

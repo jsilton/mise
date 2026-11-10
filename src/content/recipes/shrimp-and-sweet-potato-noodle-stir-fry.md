@@ -35,11 +35,11 @@ advancePrep:
 equipment:
   - wok
 pairsWith:
-  - simply-seasoned-korean-spinach-salad
-  - quick-pickled-cucumber-salad
+  - garlic-sesame-spinach
+  - korean-pickled-cucumbers
 pairingNotes:
-  simply-seasoned-korean-spinach-salad: A soft sesame green beside the chewy noodles.
-  quick-pickled-cucumber-salad: Cool, sharp crunch against the sweet soy sauce.
+  garlic-sesame-spinach: A soft sesame green beside the chewy noodles.
+  korean-pickled-cucumbers: Cool, sharp crunch against the sweet soy sauce.
 ingredients:
   - '--- Shrimp ---'
   - '1 lb large shrimp, peeled and deveined'

@@ -11,3 +11,5 @@ The meal page now serves 4 in 1 hr 20 min elapsed, with 1 hr hands-on. Each comp
 Kitchen-test questions: whether the chilled guacamole step is worth the extra time on a weeknight.
 
 Second review, 2026-11-10. The merged enchilada recipe rolls twelve tortillas, so the page now says one batch makes twelve and gives five people two or three each.
+
+Guacamole merge, 2026-11-10. The guacamole page was merged into classic-guacamole (serves 8, 15 min, no chill). The meal uses half a batch, two avocados, made while the beans simmer. With no 1 hour chill the rice sets the pace. Rice prep takes 10 minutes and its 35 minutes of cooking cover the 20 minutes of rolling. The 20 minute bake covers the beans and the guacamole, and the dish stands 5 minutes. That is 55 minutes of work, so the page says 1 hr elapsed, 55 min hands-on, 50 min prep (10 rice, 20 enchiladas, 5 beans, 15 guacamole) and 45 min cooking. The kitchen-test question about the chilled guacamole no longer applies. The new question is whether one cook can make the guacamole and watch the beans during the bake.

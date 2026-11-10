@@ -354,11 +354,6 @@ export const dishVisuals: Record<
     title: 'Butternut Squash Fettuccine Alfredo',
     alt: 'A twirled nest of fettuccine in a silky, velvety, pale orange butternut squash cream sauce.',
   },
-  'cantonese-fish': {
-    file: 'cantonese-fish.webp',
-    title: 'Cantonese Steamed Fish',
-    alt: 'A whole flat white fish fillet on an oval plate, topped with a neat pile of fine julienned ginger, green scallion and cilantro, sitting in a shallow pool of light soy sauce glistening with a little oil.',
-  },
   'cantonese-shrimp-and-pork-wontons': {
     file: 'cantonese-shrimp-and-pork-wontons.webp',
     title: 'Cantonese Shrimp and Pork Wontons',
@@ -1149,11 +1144,6 @@ export const dishVisuals: Record<
     title: 'Slow Cooker French Dip Sandwiches',
     alt: 'French dip sandwiches piled with shredded beef and melted provolone, with a small white ramekin of dark beef jus on the plate.',
   },
-  'french-toast': {
-    file: 'french-toast.webp',
-    title: 'French Toast',
-    alt: 'Three thick golden slices of challah French toast stacked slightly offset, drizzled with maple syrup and topped with fresh berries.',
-  },
   'fresh-cabbage-cucumber-and-radish-kimchi': {
     file: 'fresh-cabbage-cucumber-and-radish-kimchi.webp',
     title: 'Fresh Cabbage, Cucumber and Radish Kimchi',
@@ -1163,11 +1153,6 @@ export const dishVisuals: Record<
     file: 'fresh-egg-pasta.webp',
     title: 'Fresh Egg Pasta',
     alt: 'A loose twirled nest of golden, yolk-rich fresh tagliatelle ribbons glossed with butter and finished with grated Parmesan.',
-  },
-  'fresh-pasta-dough': {
-    file: 'fresh-pasta-dough.webp',
-    title: 'Pasta Dough',
-    alt: 'A twirled nest of wide fresh pappardelle ribbons lightly coated in a simple red tomato sauce.',
   },
   'fresh-strawberry-vinaigrette-salad-dressing': {
     file: 'fresh-strawberry-vinaigrette-salad-dressing.webp',
@@ -1403,11 +1388,6 @@ export const dishVisuals: Record<
     file: 'grilled-zucchini-with-mint.webp',
     title: 'Grilled Zucchini with Mint and Lemon',
     alt: 'Long planks of zucchini with golden grill marks laid overlapping on a platter, drizzled with olive oil and scattered with torn mint and lemon zest.',
-  },
-  guacamole: {
-    file: 'guacamole.webp',
-    title: 'Guacamole',
-    alt: 'A generous mound of chunky green guacamole studded with diced tomato, red onion and cilantro.',
   },
   'gwock-family-macaroni-and-cheese': {
     file: 'gwock-family-macaroni-and-cheese.webp',
@@ -1653,11 +1633,6 @@ export const dishVisuals: Record<
     file: 'key-lime-pie-ice-cream.webp',
     title: 'Key Lime Pie Ice Cream',
     alt: 'Three round scoops of pale creamy lime ice cream with swirls of crushed graham cracker, a lime wedge at the side.',
-  },
-  'key-lime-pie-with-lime-zest': {
-    file: 'key-lime-pie-with-lime-zest.webp',
-    title: 'Key Lime Pie with Lime Zest',
-    alt: 'A slice of lime pie with a golden graham crust and a smooth pale yellow filling, topped with a large dollop of whipped cream and flecked with bright green zest.',
   },
   'kimchi-jjigae-kimchi-stew': {
     file: 'kimchi-jjigae-kimchi-stew.webp',
@@ -2254,11 +2229,6 @@ export const dishVisuals: Record<
     title: 'Drop Biscuits',
     alt: 'Five rustic, craggy, golden drop biscuits piled loosely, one split open with a pat of butter melting inside.',
   },
-  'quick-honey-garlic-shrimp-and-broccoli': {
-    file: 'quick-honey-garlic-shrimp-and-broccoli.webp',
-    title: 'Honey Garlic Shrimp and Broccoli',
-    alt: 'Plump pink shrimp and bright green broccoli florets coated in a glossy amber honey-soy glaze, piled on a plate.',
-  },
   'quick-lamb-ragu': {
     file: 'quick-lamb-ragu.webp',
     title: 'Lamb Ragù',
@@ -2268,11 +2238,6 @@ export const dishVisuals: Record<
     file: 'quick-pickled-carrots-and-daikon.webp',
     title: 'Do Chua (Pickled Carrots and Daikon)',
     alt: 'A small bowl of crisp, glossy matchsticks of orange carrot and white daikon in a little clear sweet-tart brine.',
-  },
-  'quick-pickled-cucumber-salad': {
-    file: 'quick-pickled-cucumber-salad.webp',
-    title: 'Quick-Pickled Cucumber Salad',
-    alt: 'Thin rounds of cucumber in a glossy soy-sesame dressing, sprinkled with red pepper flakes, sliced scallions and sesame seeds.',
   },
   'quick-seasoned-black-beans': {
     file: 'quick-seasoned-black-beans.webp',
@@ -2373,11 +2338,6 @@ export const dishVisuals: Record<
     file: 'roasted-cauliflower-with-tahini.webp',
     title: 'Whole Roasted Cauliflower with Tahini',
     alt: 'A whole, golden-brown roasted cauliflower head with spice-tinted, caramelized florets, drizzled with creamy lemon-garlic tahini sauce and scattered with parsley and pomegranate seeds.',
-  },
-  'roasted-corn-chowder-robert-irvine': {
-    file: 'roasted-corn-chowder-robert-irvine.webp',
-    title: 'Roasted Corn Chowder with Lime Shrimp — Robert Irvine',
-    alt: 'A bowl of thick, creamy, pale gold corn chowder full of roasted corn kernels and bits of bacon, topped with a small pile of lime-marinated baby shrimp.',
   },
   'roasted-corn-chowder-with-lime-cured-shrimp': {
     file: 'roasted-corn-chowder-with-lime-cured-shrimp.webp',
@@ -2668,11 +2628,6 @@ export const dishVisuals: Record<
     file: 'simple-roast-turkey.webp',
     title: 'Dry-Brined Roast Turkey with Cider',
     alt: 'A whole roasted turkey with crisp, deep golden-brown skin on a platter, surrounded by roasted lemon wedges, onion wedges and garlic cloves.',
-  },
-  'simply-seasoned-korean-spinach-salad': {
-    file: 'simply-seasoned-korean-spinach-salad.webp',
-    title: 'Korean Spinach Salad (Sigeumchi Namul)',
-    alt: 'A small neat mound of tender blanched spinach, lightly squeezed and loosened, glossy with sesame oil and sprinkled with toasted sesame seeds.',
   },
   'skillet-biscuits-with-berries': {
     file: 'skillet-biscuits-with-berries.webp',

@@ -13,3 +13,11 @@ No direct meal references found. Test actual shrimp size and batch time, microwa
 ## Shared evidence and limits
 
 Reused FDA handling/endpoint evidence from `docs/pilot/packets/quick-seafood.json` and `docs/knowledge/cold-sides-and-rice-paper.md`. Cold storage and leftover reheating follow the existing FoodSafety.gov collection guidance. These sources do not establish this formula, pan capacity or exact cooking time. Time ranges and pan guidance are editorial operating estimates requiring cooking verification. Removed unverified inherited nutrition. No physical cooking test. See `shrimp-family-comparison.md` for the family comparison and consolidation decision.
+
+## Consolidation, 2026-11-10
+
+Status: consolidated into `honey-garlic-butter-shrimp-and-broccoli` after a duplicate review. The owner approved the merge. No physical kitchen test.
+
+Both pages are the same weeknight honey, soy, garlic and ginger shrimp with broccoli for four. The kept page sears the shrimp and broccoli separately and thickens the glaze with cornstarch, so the glaze clings. The retired page marinated the shrimp in half the sauce and steamed the broccoli in the microwave. The microwave broccoli is now a swap on the kept page. docs/reviews/shrimp-family-comparison.md recorded both as distinct. The owner approved the merge on 2026-11-10. No recipe or meal linked to the retired page.
+
+Integration: the source file was removed, `quick-honey-garlic-shrimp-and-broccoli` → `honey-garlic-butter-shrimp-and-broccoli` was added to recipe-aliases.json and the old URL redirects through the static alias page. Last source: src/content/recipes/quick-honey-garlic-shrimp-and-broccoli.md at commit eae22c147782e8a69a309112ba290297856d996e, sha256 df9faa4390b7ea42f1f587cc42faa4c7f35a2b6a64c43c19f9a1ff9964be031c.

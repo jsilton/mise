@@ -7,7 +7,6 @@ const read = (slug) => matter(fs.readFileSync(`src/content/recipes/${slug}.md`, 
 const slugs = [
   'korean-mung-bean-sprouts-salad',
   'seasoned-bean-sprouts',
-  'simply-seasoned-korean-spinach-salad',
   'warm-roasted-veggie-salad-with-maple-dijon-vinaigrette',
 ];
 test('targeted salad repairs do not promote editorial review status', () => {
@@ -48,13 +47,16 @@ test('both sprout sides require measured thorough heating rather than a timer al
   assert.match(soy, /Cover tightly/);
   assert.match(soy, /Keep the lid on so the sprouts steam evenly/);
 });
-test('spinach restores the separate blanching salt and avoids forceful drying', () => {
-  const { data, content } = read('simply-seasoned-korean-spinach-salad');
-  assert.ok(data.ingredients.includes('1 tsp fine sea salt, for the blanching water'));
-  assert.ok(data.ingredients.includes('1/4 tsp fine sea salt, for seasoning'));
-  assert.match(content, /Squeeze the spinach in small handfuls to press out most of the water/);
+test('spinach lives on one sigeumchi namul page that still avoids forceful drying', () => {
+  // simply-seasoned-korean-spinach-salad was merged into garlic-sesame-spinach on 2026-11-10.
+  const aliases = JSON.parse(fs.readFileSync('src/data/recipe-aliases.json', 'utf8'));
+  assert.equal(aliases['simply-seasoned-korean-spinach-salad'], 'garlic-sesame-spinach');
+  const { data, content } = read('garlic-sesame-spinach');
+  assert.ok(data.ingredients.includes('1/4 tsp fine salt, plus more to taste'));
+  assert.ok(data.ingredients.includes('2 tsp scallion, finely chopped'));
+  assert.match(content, /Squeeze it gently by the handful to press out most of the water/);
   assert.doesNotMatch(content, /wring|bone-dry/);
-  assert.match(content, /until the leaves wilt and the stems are tender, 30 seconds to 1 minute/);
+  assert.match(content, /until the leaves wilt and the stems bend, 30 to 45 seconds/);
 });
 test('warm vegetable salad separates oils and adds dressing in stages', () => {
   const { data, content } = read('warm-roasted-veggie-salad-with-maple-dijon-vinaigrette');

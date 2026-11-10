@@ -1,7 +1,7 @@
 ---
 miseId: c1aab238-4c84-423e-98cc-f08e31e31c7c
 title: Slow-Cooker Mac and Cheese
-role: side
+role: main
 vibe: comfort
 difficulty: easy
 cuisines:
@@ -37,11 +37,11 @@ ingredients:
   - '4 tbsp unsalted butter, cubed'
   - 'cooking spray, for the cooker'
 pairsWith:
-  - pulled-pork
-  - buttermilk-baked-chicken
+  - coleslaw
+  - steamed-broccoli
 pairingNotes:
-  pulled-pork: The classic barbecue plate.
-  buttermilk-baked-chicken: Crisp Southern chicken with a creamy side.
+  coleslaw: Tangy slaw for a potluck plate.
+  steamed-broccoli: A plain green vegetable beside the creamy mac.
 seasons:
   - year-round
 nutritionalDensity: moderate

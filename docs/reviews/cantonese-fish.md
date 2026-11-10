@@ -13,3 +13,11 @@ All 252 tests, 52 authored formula checks, 643-recipe validation, 11 targeted li
 ## Verified production
 
 Accepted source 089e31969c8c511f0b906dfb756bdb5131130904cd2c4542f6501eaca2a55d5d is verified at remote commit e5276b6f1e0a8e59ba8210eece70a7eb36efead3, successful CI/deployment and its complete live page. [Production evidence](../editorial-campaign/2026-10-05/pasta-fish-eleven-production.json). No kitchen tests or native-app sync.
+
+## Consolidation, 2026-11-10
+
+Status: consolidated into `chinese-steamed-fish` after a duplicate review. The owner approved the merge. No physical kitchen test.
+
+Both pages steam a whole fish with ginger and scallion and finish it with soy and smoking-hot oil. The kept page serves four and held the inbound pairings. It now takes the title Cantonese Steamed Fish and the all-purpose soy swap from the retired page. No recipe or meal linked to the retired page.
+
+Integration: the source file was removed, `cantonese-fish` → `chinese-steamed-fish` was added to recipe-aliases.json and the old URL redirects through the static alias page. Last source: src/content/recipes/cantonese-fish.md at commit eae22c147782e8a69a309112ba290297856d996e, sha256 b5d370f1e67096aeeacc83e7bebf2fbd0cf30fed559c87f7e07ed0825f402f49.

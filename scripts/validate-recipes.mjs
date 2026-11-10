@@ -34,7 +34,7 @@ const PAIRS_WITH_SUGGESTIONS = {
   beef: ['mongolian-beef', 'classic-beef-stew'],
   pork: ['rosemary-pork-tenderloin', 'herb-marinated-pork-tenderloins'],
   salmon: ['miso-salmon-with-bok-choy', 'honey-sriracha-salmon-bowls'],
-  fish: ['baked-cod-with-lemon-panko', 'cantonese-fish'],
+  fish: ['baked-cod-with-lemon-panko', 'chinese-steamed-fish'],
   steak: ['marinated-korean-ribeye'],
   pasta: ['fresh-egg-pasta'],
   noodles: ['pad-thai', 'yaki-udon'],

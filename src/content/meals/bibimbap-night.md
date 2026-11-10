@@ -4,12 +4,7 @@ template: bowl
 main: bibimbap
 base: steamed-white-rice
 sides:
-  [
-    marinated-korean-ribeye,
-    korean-pickled-cucumbers,
-    simply-seasoned-korean-spinach-salad,
-    seasoned-bean-sprouts,
-  ]
+  [marinated-korean-ribeye, korean-pickled-cucumbers, garlic-sesame-spinach, seasoned-bean-sprouts]
 componentPreparation:
   bibimbap:
     state: from-scratch
@@ -23,7 +18,7 @@ componentPreparation:
   korean-pickled-cucumbers:
     state: from-scratch
     note: One batch.
-  simply-seasoned-korean-spinach-salad:
+  garlic-sesame-spinach:
     state: from-scratch
     note: One batch.
   seasoned-bean-sprouts:

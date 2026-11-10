@@ -33,10 +33,10 @@ totalTime: 10 min
 servings: '2'
 pairsWith:
   - avocado-toast
-  - french-toast
+  - classic-french-toast
 pairingNotes:
   avocado-toast: Soft eggs beside crunchy toast and rich avocado.
-  french-toast: A sweet and savory brunch plate.
+  classic-french-toast: A sweet and savory brunch plate.
 ingredients:
   - 6 large eggs
   - 2 tbsp (28 g) unsalted butter

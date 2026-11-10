@@ -7,3 +7,11 @@ Independent whole-recipe challenge and final integration-owner source/diff inspe
 ## Verified production
 
 Accepted source 3b3d1a473e2d67031c9b377b42a548dd7ed3a98d80cda51bb3a1fc9a85a4e5f2, implemented in commit abfbbb36d62af80bbffc0734d274cccda942ba1b, matches its complete live page after successful exact-commit CI/deployment. [Production evidence](../editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json). No kitchen test or native-app sync.
+
+## Consolidation, 2026-11-10
+
+Status: consolidated into `roasted-corn-chowder-with-lime-cured-shrimp` after a duplicate review. The owner approved the merge. No physical kitchen test.
+
+Both pages adapt the same Robert Irvine chowder, and the kept page says so in its note. The kept page thickens with its own potatoes and corn and uses half the cream. Nothing was carried over, because the kept page is a structured recipe whose steps are being reworded in a parallel change. No recipe or meal linked to the retired page.
+
+Integration: the source file was removed, `roasted-corn-chowder-robert-irvine` → `roasted-corn-chowder-with-lime-cured-shrimp` was added to recipe-aliases.json and the old URL redirects through the static alias page. Last source: src/content/recipes/roasted-corn-chowder-robert-irvine.md at commit eae22c147782e8a69a309112ba290297856d996e, sha256 a9dd583501c98417788286aa0771ec546ab28398404bc71c1ec8d7706e88201e.

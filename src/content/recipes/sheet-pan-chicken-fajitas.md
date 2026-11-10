@@ -34,11 +34,11 @@ servings: '6'
 pairsWith:
   - cilantro-lime-rice
   - quick-seasoned-black-beans
-  - guacamole
+  - classic-guacamole
 pairingNotes:
   cilantro-lime-rice: The rice for a full fajita plate.
   quick-seasoned-black-beans: Beans on the side, ready in minutes.
-  guacamole: Cool and creamy against the charred peppers.
+  classic-guacamole: Cool and creamy against the charred peppers.
 equipment:
   - two-18-by-13-inch-rimmed-metal-sheet-pans
   - instant-read-thermometer

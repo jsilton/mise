@@ -1,6 +1,6 @@
 ---
 miseId: 4cc01e42-b3b8-4c0b-a773-c0e21d8d2c1c
-title: Steamed Fish
+title: Cantonese Steamed Fish
 origin: China
 difficulty: easy
 cookingMethods:
@@ -15,6 +15,7 @@ flavorProfile:
   - umami
 cuisines:
   - Chinese
+  - Cantonese
 role: main
 vibe: quick
 prepTime: 15 min
@@ -217,6 +218,9 @@ learning:
     - ingredient: Shaoxing wine
       alternative: Dry sherry
       effect: Keeps a nutty wine aroma close to Shaoxing.
+    - ingredient: Light soy sauce
+      alternative: All-purpose soy sauce
+      effect: Use the same amount. Kikkoman and similar brands taste close to Chinese light soy.
     - ingredient: Rock sugar
       alternative: Granulated sugar
       effect: 'Use the same amount. Rock sugar tastes a little rounder, but the difference is small.'

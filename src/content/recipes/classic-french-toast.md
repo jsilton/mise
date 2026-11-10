@@ -52,6 +52,11 @@ learning:
       effect: >-
         It soaks up custard faster, so dip it about 10 seconds per side. The toast is softer and
         less rich.
+    - ingredient: Maple syrup
+      alternative: Honey, warmed until runny
+      effect: >-
+        Stir it with the cinnamon and nutmeg before whisking it into the custard. The toast
+        tastes rounder and more floral.
   storage: >-
     Keeps 3 days in the fridge or 2 months in the freezer. Reheat in a toaster or a 350°F oven until
     hot and crisp.

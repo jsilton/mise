@@ -244,7 +244,7 @@ learning:
 
 ## Chef's Note
 
-Ruth Wakefield created the chocolate chip cookie at the Toll House Inn in Massachusetts in 1938. Browning the butter adds a nutty, toffee-like depth, and roasted sunflower seeds stand in for walnuts so the cookies can go in nut-free lunchboxes. An overnight rest makes the cookies thicker and more flavorful.
+Ruth Wakefield created the chocolate chip cookie at the Toll House Inn in Massachusetts in 1938. Browning the butter adds a nutty, toffee-like depth, and roasted sunflower seeds stand in for walnuts so the cookies can go in nut-free lunchboxes. An overnight rest makes the cookies thicker and more flavorful. Pick this one when you can chill the dough overnight.
 
 ## Directions
 

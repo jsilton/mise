@@ -13,10 +13,10 @@ cookingMethods:
 categories: []
 source: Adapted from Healthy Fitness Meals
 pairsWith:
-  - guacamole
+  - classic-guacamole
   - quick-seasoned-black-beans
 pairingNotes:
-  guacamole: Cool and creamy against the spiced shrimp.
+  classic-guacamole: Cool and creamy against the spiced shrimp.
   quick-seasoned-black-beans: Beans on the side, ready in minutes.
 ingredients:
   - '1 1/2 lb raw jumbo shrimp, peeled and deveined'

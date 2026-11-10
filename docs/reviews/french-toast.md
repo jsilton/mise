@@ -13,3 +13,11 @@ All 252 tests, 106 authored formula checks, 643-recipe validation, 10 targeted l
 ## Verified production
 
 Accepted source d28ef4d5c0e3288d9272ca655949110d92f71c7641d01fcc5152e6af1569159f is verified at remote commit 633825861e9687843b532d4f9fdfa0273e6a5e15, successful CI/deployment and its complete live page. [Production evidence](../editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json). No kitchen tests or native-app sync.
+
+## Consolidation, 2026-11-10
+
+Status: consolidated into `classic-french-toast` after a duplicate review. The owner approved the merge. No physical kitchen test.
+
+Both pages soak 8 slices of challah or brioche in 4 eggs and 1 cup of milk with cinnamon and nutmeg. The kept page cooks over medium-low heat and holds the slices in a warm oven so all 8 land together. The retired page sweetened the custard with warm honey, which is now a swap on the kept page. The pairing in fluffy-scrambled-eggs now points to the kept page.
+
+Integration: the source file was removed, `french-toast` → `classic-french-toast` was added to recipe-aliases.json and the old URL redirects through the static alias page. Last source: src/content/recipes/french-toast.md at commit eae22c147782e8a69a309112ba290297856d996e, sha256 b40594b408843139aecb2fbfa41be5cb8d03a568dfd71898f20d9af6883f82b4.

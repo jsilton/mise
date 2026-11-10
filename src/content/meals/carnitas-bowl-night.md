@@ -3,7 +3,7 @@ title: Carnitas Bowl Night
 template: bowl
 main: carnitas-bowl
 base: cilantro-lime-rice
-sauce: guacamole
+sauce: classic-guacamole
 sides: [quick-seasoned-black-beans]
 componentPreparation:
   carnitas-bowl:
@@ -12,15 +12,15 @@ componentPreparation:
   cilantro-lime-rice:
     state: from-scratch
     note: 'One and a half batches, using 1 1/2 cups rice.'
-  guacamole:
+  classic-guacamole:
     state: from-scratch
-    note: 'One batch, made 1 hour before dinner so it can chill.'
+    note: 'One batch, made while the rice cooks.'
   quick-seasoned-black-beans:
     state: from-scratch
     note: 'One and a half batches, using three cans of beans.'
-totalPrepTime: 50 min
+totalPrepTime: 45 min
 totalCookTime: 3 hr 45 min
-totalActiveTime: 1 hr 15 min
+totalActiveTime: 1 hr 10 min
 totalTime: 4 hr 55 min
 overallDifficulty: easy
 cuisines: [Mexican]
@@ -44,7 +44,7 @@ Oven-braised carnitas crisped under the broiler, served over cilantro-lime rice 
 3. **Pickle the onions:** While the pork braises, make the pickled red onions and refrigerate them.
 4. **Char the corn:** Char the corn in a dry cast-iron skillet for 8 to 10 minutes, cut off the kernels and fold them into the crema dressing.
 5. **Shred the cabbage:** Shred the cabbage and cut the limes into wedges.
-6. **Chill the guacamole:** Make the guacamole 1 hour before dinner, press plastic wrap onto its surface and refrigerate it.
-7. **Cook the rice and beans:** Start the rice 40 minutes before dinner. Simmer the beans until their liquid coats them, 8 to 12 minutes.
+6. **Cook the rice and beans:** Start the rice 40 minutes before dinner. Simmer the beans until their liquid coats them, 8 to 12 minutes.
+7. **Make the guacamole:** While the rice cooks, make the guacamole and press plastic wrap onto its surface.
 8. **Crisp the pork:** Shred the pork and spread it on a sheet pan with its fat. Broil until the edges crisp, about 6 minutes, then stir and broil 6 minutes more.
 9. **Build the bowls:** Spoon rice into six bowls. Top with carnitas, corn, beans, pickled onions, cabbage, guacamole, cotija and pepitas.

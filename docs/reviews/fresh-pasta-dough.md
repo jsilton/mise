@@ -13,3 +13,11 @@ All 252 tests, 104 authored formula checks, 643-recipe validation, 11 targeted l
 ## Verified production
 
 Accepted source ae63df51b5eb2e4475d00b0b14482b4d0caec09f5fd408aaf76cb3edae10b6f0 is verified at remote commit dc4362e6c5dc2ab7786208dec919438f980cdc6c, successful CI/deployment and its complete live page. [Production evidence](../editorial-campaign/2026-10-05/cookies-dough-eleven-production.json). No kitchen tests or native-app sync.
+
+## Consolidation, 2026-11-10
+
+Status: consolidated into `fresh-egg-pasta` after a duplicate review. The owner approved the merge. No physical kitchen test.
+
+Both pages are plain egg pasta dough for rolled ribbons. The kept page weighs the flour, adds extra yolks and carried every pairing and meal. The stand-mixer knead from the retired page is now a swap on the kept page. No recipe or meal linked to the retired page.
+
+Integration: the source file was removed, `fresh-pasta-dough` → `fresh-egg-pasta` was added to recipe-aliases.json and the old URL redirects through the static alias page. Last source: src/content/recipes/fresh-pasta-dough.md at commit eae22c147782e8a69a309112ba290297856d996e, sha256 5a47baa0a45fa15d05cf7b81e93be1edea3cd590480f63e318ba6b88d760981b.

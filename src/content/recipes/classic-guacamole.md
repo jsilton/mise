@@ -57,6 +57,9 @@ learning:
     - ingredient: Jalapeño
       alternative: Serrano chile
       effect: Hotter and brighter. Leave in the seeds if you want even more heat.
+    - ingredient: Jalapeño
+      alternative: Half the jalapeño
+      effect: A mild guacamole for kids, with the same lime and avocado flavor.
   storage: >-
     Press plastic wrap right onto the surface and refrigerate for up to 1 day. Scrape off any
     browned layer before serving.

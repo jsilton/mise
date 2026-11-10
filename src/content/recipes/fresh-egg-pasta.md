@@ -67,6 +67,11 @@ learning:
     - ingredient: fine semolina
       alternative: All-purpose flour
       effect: Works for dusting, but the nests stick together more easily.
+    - ingredient: Stand mixer
+      alternative: Knead with the dough hook
+      effect: >-
+        Press the crumbs into a ball and knead on low speed until smooth and elastic, 8 to 10
+        minutes.
   storage: >-
     Covered nests keep 2 days in the fridge. Freeze them on a tray, then bag them for up to 1 month
     and cook from frozen, adding a minute.

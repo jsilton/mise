@@ -28,20 +28,18 @@ flavorProfile:
   - rich
 cuisines:
   - American
-role: side
+role: main
 vibe: nutritious
 prepTime: 10 min
 cookTime: 35 min
 totalTime: 45 min
-servings: '8'
+servings: '6'
 pairsWith:
-  - buttermilk-baked-chicken
-  - mommas-healthy-meatloaf
-  - easy-pan-seared-chicken-breasts
+  - everyday-arugula-salad
+  - honey-glazed-carrots
 pairingNotes:
-  buttermilk-baked-chicken: Crisp baked chicken with creamy mac on the side.
-  mommas-healthy-meatloaf: A family weeknight plate of meatloaf and mac.
-  easy-pan-seared-chicken-breasts: A quick lean main beside the cheesy pasta.
+  everyday-arugula-salad: Peppery greens and lemon beside the cheesy pasta.
+  honey-glazed-carrots: Sweet carrots round out the plate.
 ingredients:
   - 12 oz high-fiber elbow pasta
   - 'kosher salt, for the pasta water'

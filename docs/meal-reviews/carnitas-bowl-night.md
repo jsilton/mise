@@ -9,3 +9,5 @@ The bowl recipe serves six but the rice and beans serve four, so both are now on
 The meal page now serves 6 in 4 hr 55 min elapsed, with 1 hr 15 min hands-on. Each component's batch size is stated under "Before you start". The plan follows the page rules: plain steps, one stage per step, no semicolons and no dashes as punctuation.
 
 Kitchen-test questions: broiler crisping on one pan for 3 lb of pork, rice held covered while the pork broils.
+
+Guacamole merge, 2026-11-10. The guacamole page was merged into classic-guacamole (serves 8, 15 min, no chill). One batch of four avocados tops six bowls and is made while the rice cooks. The elapsed time is still set by the pork: 30 minutes of salting plus 4 hours 25 minutes, so 4 hr 55 min stands. The guacamole takes 15 minutes in place of 20, so prep is 45 min and hands-on time is 1 hr 10 min. The earlier paragraphs above describe the retired page.

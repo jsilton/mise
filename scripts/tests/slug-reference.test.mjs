@@ -78,3 +78,36 @@ test('meal URLs cannot hide bare slugs or actual recipe URLs', () => {
     false
   );
 });
+
+test('a one-word slug is a reference only as a link or a YAML reference, never as a prose word', () => {
+  const slug = 'guacamole';
+  const site = 'https://jordansilton.com/mise/';
+  for (const text of [
+    'Serve with fresh guacamole, rice and beans.',
+    '5. **Make guacamole** - fresh, just before serving',
+    'description: Chunky guacamole with tomato.',
+    '  classic-guacamole: Chips and guacamole to start.',
+    '      effect: A mild guacamole for kids.',
+    'pairsWith:\n  - classic-guacamole',
+    'sauce: classic-guacamole',
+    '[Guacamole](/mise/recipes/classic-guacamole/)',
+    "sourceUrl: 'https://example.com/recipes/guacamole'",
+  ])
+    assert.equal(containsRecipeSlugReference(text, slug, site), false, text);
+  for (const text of [
+    'pairsWith:\n  - guacamole',
+    "pairsWith:\n  - 'guacamole'",
+    'pairingNotes:\n  guacamole: Cool and creamy.',
+    'sauce: guacamole',
+    'sides: [quick-seasoned-black-beans, guacamole]',
+    'sides:\n  [\n    guacamole,\n    coleslaw,\n  ]',
+    'sides:\n  [\n    coleslaw,\n    guacamole\n  ]',
+    'sides: [guacamole,\n  coleslaw]',
+    'pairsWith:\n  - guacamole # the dip',
+    'drink: guacamole',
+    'aliases:\n  - guacamole',
+    '[Guacamole](/mise/recipes/guacamole/)',
+    '[Guacamole](https://jordansilton.com/mise/recipes/guacamole/?scale=2)',
+  ])
+    assert.equal(containsRecipeSlugReference(text, slug, site), true, text);
+});

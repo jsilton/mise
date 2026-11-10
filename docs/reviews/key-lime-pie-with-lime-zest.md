@@ -31,3 +31,11 @@ All 252 tests, 85 authored formula checks, 643-recipe validation, 11 targeted li
 ## Verified production
 
 Accepted source 1387b31491c636c09291231c565f3bd0b778d9400111f7d1583fd691ec30c26e is verified at remote commit bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9, successful CI/deployment and its complete live page. [Production evidence](../editorial-campaign/2026-10-05/pasta-pies-eleven-production.json). No kitchen tests or native-app sync.
+
+## Consolidation, 2026-11-10
+
+Status: consolidated into `key-lime-pie` after a duplicate review. The owner approved the merge. No physical kitchen test.
+
+Both pies use the same graham crust, one 14 oz can of condensed milk and 4 yolks. They differed by 2 tbsp of juice and 4 tsp of zest. The kept page now whisks the 4 tsp of zest into its filling. No recipe or meal linked to the retired page.
+
+Integration: the source file was removed, `key-lime-pie-with-lime-zest` → `key-lime-pie` was added to recipe-aliases.json and the old URL redirects through the static alias page. Last source: src/content/recipes/key-lime-pie-with-lime-zest.md at commit eae22c147782e8a69a309112ba290297856d996e, sha256 21849c6d81a35e6e5f49fa796625ce5b46211f97bf628e0a29c24af55ab6d7f2.

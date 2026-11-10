@@ -159,7 +159,7 @@ learning:
 
 ## Chef's Note
 
-Our "In the Park" cocktail: light, tart and not too sweet. Hendrick's brings cucumber and floral notes, Spindrift adds real grapefruit and bubbles, and a few dashes of grapefruit bitters tie the gin and fruit together.
+Our house gin fizz: light, tart and not too sweet. Hendrick's brings cucumber and floral notes, Spindrift adds real grapefruit and bubbles, and a few dashes of grapefruit bitters tie the gin and fruit together. In the Park is the basil and lemon sour made with fresh grapefruit juice.
 
 ## Directions
 

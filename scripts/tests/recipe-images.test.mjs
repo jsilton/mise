@@ -42,6 +42,14 @@ test('every recipe with a photo names it by absolute address in JSON-LD', async 
   }
 });
 
+test('every mapped photo belongs to a live recipe', async () => {
+  // A merged or retired recipe must give up its map entry, and its file moves to
+  // docs/archive/art/dishes so it no longer ships.
+  const live = new Set((await loadTestRecipes()).map((recipe) => recipe.slug));
+  const orphans = [...(await mappedPhotos()).keys()].filter((slug) => !live.has(slug));
+  assert.deepEqual(orphans, [], 'Mapped photos with no recipe');
+});
+
 test('only a recipe page address yields a photo address', () => {
   assert.equal(
     recipeImageUrl('https://example.com/base/recipes/dal-tadka/'),

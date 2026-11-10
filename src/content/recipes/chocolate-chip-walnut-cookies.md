@@ -41,7 +41,7 @@ learning:
 
 ## Chef's Note
 
-This is the Allrecipes classic, made chunkier with a cup of walnuts. Dissolving the baking soda in a little hot water spreads it evenly through the dough. The cookies bake up with crisp brown edges and soft, chewy centers.
+This is the Allrecipes classic, made chunkier with a cup of walnuts. Dissolving the baking soda in a little hot water spreads it evenly through the dough. The cookies bake up with crisp brown edges and soft, chewy centers. Pick this one for a nutty cookie the same day.
 
 ## Directions
 

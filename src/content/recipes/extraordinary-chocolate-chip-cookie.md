@@ -58,7 +58,7 @@ learning:
 
 ## Chef's Note
 
-Martha Stewart's big, bakery-style cookie, packed with more chocolate chips than seems reasonable. Dark brown sugar gives a deep caramel flavor and a chewy center. A night in the fridge lets the flour soak up the moisture, so the cookies bake thicker and taste of butterscotch.
+Martha Stewart's big, bakery-style cookie, packed with more chocolate chips than seems reasonable. Dark brown sugar gives a deep caramel flavor and a chewy center. A night in the fridge lets the flour soak up the moisture, so the cookies bake thicker and taste of butterscotch. Pick this one for big cookies to give away.
 
 ## Directions
 

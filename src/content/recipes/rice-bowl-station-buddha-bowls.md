@@ -39,10 +39,10 @@ equipment:
   - serving-bowls
 pairsWith:
   - miso-soup
-  - quick-pickled-cucumber-salad
+  - korean-pickled-cucumbers
 pairingNotes:
   miso-soup: A light, savory soup to sip beside the bowl.
-  quick-pickled-cucumber-salad: Tangy pickles to cut a rich sauce.
+  korean-pickled-cucumbers: Tangy pickles to cut a rich sauce.
 ingredients:
   - '--- Grain ---'
   - '4 cups cooked rice, quinoa or farro'

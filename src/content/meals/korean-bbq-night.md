@@ -3,12 +3,7 @@ title: Korean BBQ Night
 template: plate
 main: kalbi-grilled-korean-style-short-ribs
 base: steamed-white-rice
-sides:
-  [
-    simply-seasoned-korean-spinach-salad,
-    fresh-cabbage-cucumber-and-radish-kimchi,
-    korean-pickled-cucumbers,
-  ]
+sides: [garlic-sesame-spinach, fresh-cabbage-cucumber-and-radish-kimchi, korean-pickled-cucumbers]
 componentPreparation:
   kalbi-grilled-korean-style-short-ribs:
     state: from-scratch
@@ -16,9 +11,9 @@ componentPreparation:
   steamed-white-rice:
     state: from-scratch
     note: 'One and a half batches, using 2 1/4 cups rice and 2 1/2 cups water in a 3-quart pan.'
-  simply-seasoned-korean-spinach-salad:
+  garlic-sesame-spinach:
     state: from-scratch
-    note: 'One and a half batches, using 375 g spinach.'
+    note: One batch.
   fresh-cabbage-cucumber-and-radish-kimchi:
     state: prepared-ahead
     note: 'One batch, made the day before. It makes 12 cups, so most of it is left for the week.'

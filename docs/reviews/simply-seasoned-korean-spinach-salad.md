@@ -72,3 +72,11 @@ All252 tests,32 authored formula checks,643-recipe validation and30 aggregate QA
 ## Verified production release
 
 Source implementation `92a85abaedde454db49445581b4fbf8a670cf15d` is verified at exact remote release `0f61abae0c8b021ff978d6c85784e419c11591aa`, successful [Pages run 37391061846](https://github.com/jsilton/mise/actions/runs/37391061846) and this live affected page. All six complete visible cooking texts, ingredients, exact built schemas and 30 method steps match production. [Production evidence](../editorial-campaign/2026-10-05/boiled-six-production.json). No physical kitchen test or native-app sync; print preview remains unverified.
+
+## Consolidation, 2026-11-10
+
+Status: consolidated into `garlic-sesame-spinach` after a duplicate review. The owner approved the merge. No physical kitchen test.
+
+Both pages are sigeumchi namul: blanched bunch spinach, squeezed and dressed with sesame oil, garlic, salt and sesame seeds. The kept page makes a full 1 lb batch for four and already carried the pairings. The retired page added 1 tsp chopped scallion, which the kept page now lists as an optional ingredient. Links in bibimbap, shrimp-and-sweet-potato-noodle-stir-fry, bibimbap-night and korean-bbq-night now point to the kept page.
+
+Integration: the source file was removed, `simply-seasoned-korean-spinach-salad` → `garlic-sesame-spinach` was added to recipe-aliases.json and the old URL redirects through the static alias page. Last source: src/content/recipes/simply-seasoned-korean-spinach-salad.md at commit eae22c147782e8a69a309112ba290297856d996e, sha256 0e3892e008b0aaa8e9fec331ca09eec08851e652fbdcaeb7276d5fe3bbb7a8e6.

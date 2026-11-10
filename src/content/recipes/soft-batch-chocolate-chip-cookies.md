@@ -65,7 +65,7 @@ learning:
 
 ## Chef's Note
 
-Thick, soft bakery-style cookies loaded with semisweet chocolate. Plenty of brown sugar keeps them chewy, and baking soda and baking powder together give them lift. Pull them while the centers still look soft. They finish setting on the hot pan and stay tender for days.
+Thick, soft bakery-style cookies loaded with semisweet chocolate. Plenty of brown sugar keeps them chewy, and baking soda and baking powder together give them lift. Pull them while the centers still look soft. They finish setting on the hot pan and stay tender for days. Pick this one for a big, soft batch the same day.
 
 ## Directions
 
