@@ -7,9 +7,9 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - quick-lunch
   - snack
-  - weeknight
 seasons:
   - year-round
 nutritionalDensity: moderate

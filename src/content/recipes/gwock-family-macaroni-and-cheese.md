@@ -28,6 +28,16 @@ ingredients:
   - milk, to almost cover
 cuisines:
   - American
+flavorProfile:
+  - rich
+  - creamy
+  - savory
+occasions:
+  - comfort-food
+  - family-meal
+  - kid-friendly
+dietary:
+  - vegetarian
 learning:
   techniques:
     - temperature

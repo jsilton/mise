@@ -21,7 +21,7 @@ totalTime: 45 min
 overallDifficulty: easy
 cuisines: [Middle Eastern]
 occasions: [weeknight, entertaining]
-seasons: [spring, summer, fall, winter]
+seasons: [year-round]
 nutritionalDensity: moderate
 servings: '4'
 review:

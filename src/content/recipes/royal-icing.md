@@ -32,7 +32,7 @@ pairingNotes:
   sugar-cookie: The classic cookie for outlining and flooding.
 ingredients:
   - '3 large pasteurized egg whites, at room temperature'
-  - '1 lb (450 g) confectioners'' sugar, sifted'
+  - "1 lb (450 g) confectioners' sugar, sifted"
   - 1 tsp pure vanilla extract
   - 'gel food coloring, as needed, optional'
   - 'water, as needed for flooding'

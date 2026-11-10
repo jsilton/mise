@@ -33,7 +33,6 @@ flavorProfile:
   - umami
 seasons:
   - summer
-  - year-round
 nutritionalDensity: moderate
 leftovers: poor
 advancePrep:
@@ -323,7 +322,7 @@ formula:
         the vinaigrette.
     - id: finish
       title: Finish
-      text: 'Scatter {{ingredients}} over the top and serve right away, while they''re still crisp.'
+      text: "Scatter {{ingredients}} over the top and serve right away, while they're still crisp."
 learning:
   techniques:
     - browning

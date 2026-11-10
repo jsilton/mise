@@ -12,7 +12,6 @@ occasions:
   - light-and-fresh
 seasons:
   - spring
-  - year-round
 nutritionalDensity: moderate
 leftovers: good
 equipment:
@@ -25,7 +24,7 @@ flavorProfile:
 cuisines:
   - American
 role: main
-vibe: technical
+vibe: nutritious
 prepTime: 15 min
 cookTime: 35 min
 totalTime: 50 min

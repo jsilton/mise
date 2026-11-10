@@ -16,8 +16,8 @@ totalActiveTime: 30 min
 totalTime: 1 hr
 overallDifficulty: easy
 cuisines: [Korean]
-occasions: [weeknight, one-pot, family, activity-night]
-seasons: [fall, winter, year-round]
+occasions: [weeknight, family-meal]
+seasons: [fall, winter]
 nutritionalDensity: hearty
 servings: '4'
 review:

@@ -4,7 +4,7 @@ title: Shrimp Fettuccine Alfredo
 difficulty: easy
 cookingMethods:
   - boil
-  - steam
+  - sear
 occasions:
   - comfort-food
   - weeknight

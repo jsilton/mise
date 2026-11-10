@@ -15,6 +15,8 @@ flavorProfile:
   - rich
 cuisines:
   - Mexican
+advancePrep:
+  - freeze-ahead
 role: base
 vibe: quick
 prepTime: 5 min

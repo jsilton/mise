@@ -16,7 +16,7 @@ vibe: nutritious
 prepTime: 20 min
 cookTime: 0 min
 totalTime: '20 min, plus 1 hr chilling'
-advancePrep: [pickle-ahead]
+advancePrep: [make-ahead]
 servings: 2 cups
 seasons: [year-round]
 nutritionalDensity: light

@@ -13,11 +13,12 @@ occasions:
   - comfort-food
 flavorProfile:
   - sweet
-  - acidic
   - rich
   - herbaceous
 cuisines:
   - Mediterranean
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 15 min

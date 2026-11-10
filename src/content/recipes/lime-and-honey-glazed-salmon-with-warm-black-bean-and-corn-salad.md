@@ -29,7 +29,7 @@ equipment:
 pairsWith: [purple-rice]
 pairingNotes:
   purple-rice: Spoon it under the beans for a heartier bowl.
-seasons: [summer, year-round]
+seasons: [summer]
 nutritionalDensity: hearty
 leftovers: good
 dietary: [dairy-free, gluten-free-option]

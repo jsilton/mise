@@ -13,6 +13,8 @@ flavorProfile:
   - rich
 cuisines:
   - Southern
+dietary:
+  - vegetarian-option
 role: main
 vibe: comfort
 prepTime: 15 min

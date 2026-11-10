@@ -18,7 +18,7 @@ flavorProfile: [rich, aromatic, tangy]
 seasons: [year-round]
 nutritionalDensity: hearty
 leftovers: good
-advancePrep: [prep-vegetables, cook-ahead]
+advancePrep: [prep-vegetables, cook-ahead, freeze-ahead]
 equipment:
   - 4-quart-wide-saucepan
   - fine-mesh-strainer

@@ -37,6 +37,7 @@ nutritionalDensity: moderate
 leftovers: good
 advancePrep:
   - chill-dough
+  - freeze-ahead
 pairsWith:
   - old-fashioned-vanilla-ice-cream
 pairingNotes:

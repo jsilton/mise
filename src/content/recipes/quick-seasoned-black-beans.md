@@ -10,6 +10,8 @@ cookingMethods:
   - simmer
 cuisines:
   - Mexican
+advancePrep:
+  - freeze-ahead
 dietary:
   - vegan
   - vegetarian

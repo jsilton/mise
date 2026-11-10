@@ -27,7 +27,6 @@ vibe: nutritious
 seasons:
   - fall
   - winter
-  - year-round
 nutritionalDensity: moderate
 leftovers: good
 advancePrep:

@@ -38,6 +38,12 @@ ingredients:
 sourceUrl: 'https://healthyfitnessmeals.com/sheet-pan-shrimp-fajitas/'
 cuisines:
   - Mexican
+flavorProfile:
+  - savory
+  - smoky
+  - spicy
+occasions:
+  - weeknight
 learning:
   techniques:
     - gentle-proteins

@@ -28,6 +28,9 @@ equipment:
   - fine-mesh-strainer
 cuisines:
   - Italian
+flavorProfile:
+  - rich
+  - mild
 role: base
 vibe: technical
 prepTime: 45 min

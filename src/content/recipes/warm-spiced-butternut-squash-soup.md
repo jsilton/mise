@@ -13,10 +13,13 @@ occasions:
   - holiday
   - comfort-food
 flavorProfile:
-  - acidic
-  - rich
+  - sweet
+  - warm
+  - aromatic
 cuisines:
   - American
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 20 min
@@ -49,7 +52,8 @@ ingredients:
   - 1/2 cup pomegranate arils
   - '1/4 cup fresh cilantro, chopped'
 seasons:
-  - year-round
+  - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: good
 source: Adapted from MyRecipes

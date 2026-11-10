@@ -16,6 +16,8 @@ flavorProfile:
   - creamy
 cuisines:
   - American
+dietary:
+  - vegetarian-option
 role: side
 vibe: comfort
 prepTime: 30 min

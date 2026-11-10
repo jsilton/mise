@@ -7,7 +7,7 @@ difficulty: easy
 cookingMethods: [saute, simmer, steam]
 dietary: [vegetarian, gluten-free, vegan-option, dairy-free-option]
 occasions: [entertaining, special-occasion, family-meal]
-flavorProfile: [aromatic, warm, floral, buttery]
+flavorProfile: [aromatic, warm, buttery]
 cuisines: [Indian]
 role: base
 vibe: comfort

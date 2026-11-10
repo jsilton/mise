@@ -6,6 +6,7 @@ cookingMethods:
   - bake
   - saute
 occasions:
+  - breakfast
   - meal-prep
   - weekend-project
 flavorProfile:

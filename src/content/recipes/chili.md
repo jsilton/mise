@@ -45,7 +45,12 @@ flavorProfile:
   - rich
   - smoky
 cuisines:
-  - Tex-Mex
+  - Mexican
+  - American
+dietary:
+  - gluten-free
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 origin: Tex-Mex-inspired home cooking

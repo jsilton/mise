@@ -11,7 +11,7 @@ totalTime: 13 hr 30 min
 overallDifficulty: intermediate
 cuisines: [Caribbean]
 occasions: [family-meal, entertaining, make-ahead, weekend-project, meal-prep]
-seasons: [summer, year-round]
+seasons: [summer]
 nutritionalDensity: hearty
 servings: '8'
 review:

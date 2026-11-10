@@ -12,7 +12,6 @@ cookTime: 0 min
 totalTime: '15 min, plus 20 min chilling'
 servings: '6'
 cuisines:
-  - Moroccan-inspired
   - North African
 cookingMethods:
   - no-cook

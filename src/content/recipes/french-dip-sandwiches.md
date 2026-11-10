@@ -18,8 +18,7 @@ prepTime: 25 min
 cookTime: 8 hr
 totalTime: 8 hr 25 min
 servings: '6'
-advancePrep:
-  - slow-cook
+advancePrep: [freeze-ahead]
 pairsWith:
   - coleslaw
   - avocado-kale-caesar-salad

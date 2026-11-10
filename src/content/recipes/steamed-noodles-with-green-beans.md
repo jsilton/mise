@@ -16,6 +16,8 @@ flavorProfile:
   - umami
 cuisines:
   - Chinese
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 25 min
@@ -25,7 +27,6 @@ servings: '4'
 seasons:
   - summer
   - fall
-  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
 equipment:

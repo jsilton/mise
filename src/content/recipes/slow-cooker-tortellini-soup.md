@@ -13,7 +13,8 @@ flavorProfile:
   - rich
   - herbaceous
 cuisines:
-  - Italian-American
+  - Italian
+  - American
 role: main
 vibe: comfort
 prepTime: 20 min

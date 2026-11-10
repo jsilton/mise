@@ -30,6 +30,7 @@ nutritionalDensity: light
 leftovers: excellent
 advancePrep:
   - make-ahead
+  - freeze-ahead
 pairsWith:
   - stuffed-shells-filled-with-spinach-and-ricotta
   - baked-chicken-parmesan

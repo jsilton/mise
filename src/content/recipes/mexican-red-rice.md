@@ -13,6 +13,9 @@ occasions:
   - meal-prep
 cuisines:
   - Mexican
+flavorProfile:
+  - savory
+  - mild
 role: base
 vibe: quick
 prepTime: 10 min

@@ -9,7 +9,6 @@ occasions:
   - entertaining
 seasons:
   - summer
-  - year-round
 nutritionalDensity: light
 leftovers: poor
 equipment:

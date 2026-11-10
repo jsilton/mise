@@ -8,9 +8,9 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - snack
   - quick-lunch
-  - weeknight
 seasons:
   - year-round
 nutritionalDensity: moderate
@@ -24,6 +24,8 @@ flavorProfile:
   - rich
 cuisines:
   - American
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: nutritious
 prepTime: 5 min

@@ -14,7 +14,7 @@ flavorProfile:
   - acidic
   - savory
 cuisines:
-  - Mediterranean-inspired
+  - Mediterranean
 role: base
 vibe: quick
 prepTime: 10 min

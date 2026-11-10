@@ -15,7 +15,10 @@ flavorProfile:
   - acidic
   - rich
 cuisines:
-  - Tex-Mex
+  - Mexican
+  - American
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 25 min

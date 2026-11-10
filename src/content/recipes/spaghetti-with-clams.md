@@ -12,7 +12,6 @@ occasions:
 seasons:
   - spring
   - summer
-  - year-round
 nutritionalDensity: moderate
 leftovers: poor
 equipment:

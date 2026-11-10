@@ -17,7 +17,7 @@ flavorProfile:
   - smoky
   - umami
 cuisines:
-  - Mexican-inspired
+  - Mexican
   - American
 role: main
 vibe: comfort

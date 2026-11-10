@@ -23,7 +23,6 @@ vibe: comfort
 seasons:
   - fall
   - winter
-  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
 advancePrep:

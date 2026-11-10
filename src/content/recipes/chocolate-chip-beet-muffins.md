@@ -8,6 +8,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - kid-friendly
   - meal-prep
   - weekend-project
@@ -20,11 +21,13 @@ equipment:
   - blender
 flavorProfile:
   - sweet
-  - umami
   - rich
+  - earthy
 cuisines:
   - American
-role: main
+advancePrep:
+  - freeze-ahead
+role: side
 vibe: nutritious
 prepTime: 10 min
 cookTime: 20 min

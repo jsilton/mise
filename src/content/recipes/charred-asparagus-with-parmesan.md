@@ -5,7 +5,7 @@ difficulty: easy
 cookingMethods:
   - broil
 dietary:
-  - vegetarian
+  - vegetarian-option
   - gluten-free
 occasions:
   - weeknight

@@ -5,7 +5,7 @@ difficulty: easy
 cookingMethods:
   - bake
 dietary:
-  - vegetarian
+  - vegetarian-option
 occasions:
   - entertaining
   - potluck
@@ -17,6 +17,7 @@ nutritionalDensity: moderate
 leftovers: excellent
 advancePrep:
   - make-ahead
+  - freeze-ahead
 equipment:
   - baking-sheet
   - small-cookie-scoop-or-tablespoon

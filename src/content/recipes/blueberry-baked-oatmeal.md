@@ -8,6 +8,7 @@ dietary:
   - vegetarian
   - nut-free
 occasions:
+  - breakfast
   - meal-prep
   - kid-friendly
   - weekend-project
@@ -21,6 +22,7 @@ equipment:
   - mixing-bowl
 advancePrep:
   - make-ahead
+  - freeze-ahead
 flavorProfile:
   - sweet
   - rich

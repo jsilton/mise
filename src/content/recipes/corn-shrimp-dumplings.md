@@ -23,7 +23,6 @@ totalTime: 55 min
 servings: 20 dumplings
 seasons:
   - summer
-  - year-round
 nutritionalDensity: light
 leftovers: excellent
 advancePrep:

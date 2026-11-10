@@ -5,7 +5,7 @@ origin: India
 role: main
 vibe: comfort
 difficulty: intermediate
-cookingMethods: [blanch, fry, saute, simmer]
+cookingMethods: [boil, fry, saute, simmer]
 dietary: [vegetarian, gluten-free, nut-free]
 occasions: [comfort-food, family-meal, entertaining]
 flavorProfile: [savory, rich, aromatic, spicy]

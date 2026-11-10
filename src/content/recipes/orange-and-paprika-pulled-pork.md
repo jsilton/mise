@@ -26,6 +26,16 @@ ingredients:
 sourceUrl: 'https://downshiftology.com/recipes/slow-cooker-pulled-pork/'
 cuisines:
   - American
+flavorProfile:
+  - smoky
+  - savory
+  - sweet
+occasions:
+  - meal-prep
+  - family-meal
+  - game-day
+advancePrep:
+  - freeze-ahead
 equipment:
   - slow-cooker
   - mixing-bowl

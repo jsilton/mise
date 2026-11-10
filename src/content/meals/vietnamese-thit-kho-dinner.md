@@ -10,7 +10,7 @@ totalActiveTime: 1 hr 45 min
 totalTime: 2 hr 30 min
 overallDifficulty: intermediate
 cuisines: [Vietnamese]
-occasions: [weeknight, entertaining, family]
+occasions: [weeknight, entertaining, family-meal]
 seasons: [year-round]
 nutritionalDensity: moderate
 servings: '4'

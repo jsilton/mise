@@ -11,7 +11,7 @@ totalTime: 1 hr 10 min
 overallDifficulty: easy
 cuisines: [Chinese, Japanese]
 occasions: [weeknight]
-seasons: [spring, summer, fall, winter]
+seasons: [year-round]
 nutritionalDensity: moderate
 servings: '4'
 review:

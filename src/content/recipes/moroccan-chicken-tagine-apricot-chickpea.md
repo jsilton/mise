@@ -12,7 +12,6 @@ cookTime: 1 hr 30 min
 totalTime: 2 hr
 servings: '6'
 cuisines:
-  - Moroccan-inspired
   - North African
 cookingMethods:
   - braise
@@ -37,13 +36,13 @@ flavorProfile:
 seasons:
   - fall
   - winter
-  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
 advancePrep:
   - make-ahead
   - cook-ahead
   - meal-prep-friendly
+  - freeze-ahead
 equipment:
   - wide-6-quart-dutch-oven-with-lid
   - small-skillet

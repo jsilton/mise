@@ -7,7 +7,7 @@ difficulty: easy
 cookingMethods:
   - bake
 dietary:
-  - vegetarian
+  - vegetarian-option
 occasions:
   - holiday
 flavorProfile:

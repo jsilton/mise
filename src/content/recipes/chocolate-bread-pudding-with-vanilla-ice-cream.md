@@ -13,6 +13,8 @@ flavorProfile:
   - rich
 cuisines:
   - American
+advancePrep:
+  - freeze-ahead
 role: dessert
 vibe: comfort
 prepTime: '25 min, plus 30 min soaking'

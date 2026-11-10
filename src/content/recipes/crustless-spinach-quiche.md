@@ -5,12 +5,13 @@ cookingMethods:
   - bake
   - saute
 dietary:
-  - vegetarian
+  - vegetarian-option
 occasions:
+  - breakfast
   - meal-prep
   - weekend-project
 flavorProfile:
-  - sweet
+  - savory
   - rich
 cuisines:
   - French

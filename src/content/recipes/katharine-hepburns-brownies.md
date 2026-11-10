@@ -19,6 +19,7 @@ equipment:
   - saucepan
 advancePrep:
   - make-ahead
+  - freeze-ahead
 flavorProfile:
   - sweet
   - rich

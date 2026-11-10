@@ -5,15 +5,18 @@ difficulty: easy
 cookingMethods:
   - bake
 occasions:
-  - weeknight
+  - breakfast
   - quick-lunch
 flavorProfile:
-  - spicy
-  - sweet
-  - rich
+  - buttery
+  - savory
 cuisines:
   - Southern
-role: base
+dietary:
+  - vegetarian
+advancePrep:
+  - freeze-ahead
+role: side
 vibe: quick
 prepTime: 10 min
 cookTime: 18 min

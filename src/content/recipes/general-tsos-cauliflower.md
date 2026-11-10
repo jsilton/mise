@@ -6,7 +6,6 @@ cookingMethods:
   - fry
   - saute
   - simmer
-  - steam
 dietary:
   - vegetarian
 occasions:

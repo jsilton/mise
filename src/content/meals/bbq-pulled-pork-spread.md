@@ -23,7 +23,7 @@ totalActiveTime: 45 min
 totalTime: 1 hr
 overallDifficulty: easy
 cuisines: [American, Southern]
-occasions: [weeknight, family, comfort-food, bbq]
+occasions: [weeknight, family-meal, comfort-food, bbq]
 seasons: [year-round]
 nutritionalDensity: hearty
 servings: '6'

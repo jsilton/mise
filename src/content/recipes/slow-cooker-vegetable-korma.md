@@ -31,6 +31,7 @@ leftovers: good
 advancePrep:
   - prep-vegetables
   - cook-ahead
+  - freeze-ahead
 equipment:
   - 6-quart-slow-cooker
   - skillet

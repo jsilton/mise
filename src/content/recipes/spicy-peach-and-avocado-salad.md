@@ -21,13 +21,15 @@ flavorProfile:
   - herbaceous
 cuisines:
   - American
+dietary:
+  - vegetarian
+  - gluten-free
 role: side
 vibe: nutritious
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 30 min
-advancePrep:
-  - macerate
+advancePrep: []
 servings: '8'
 pairsWith:
   - herb-marinated-pork-tenderloins

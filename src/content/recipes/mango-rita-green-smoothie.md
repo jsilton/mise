@@ -7,6 +7,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - snack
   - quick-lunch
   - light-and-fresh

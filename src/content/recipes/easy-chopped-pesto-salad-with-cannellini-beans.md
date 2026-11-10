@@ -26,6 +26,16 @@ ingredients:
 sourceUrl: 'https://thesavvyspoon.com/2025/03/10/chopped-pesto-salad-recipe/'
 cuisines:
   - American
+flavorProfile:
+  - herbaceous
+  - fresh
+  - tangy
+occasions:
+  - light-and-fresh
+  - quick-lunch
+  - potluck
+dietary:
+  - vegetarian-option
 pairsWith:
   - chicken-milanese
   - easy-pan-seared-chicken-breasts

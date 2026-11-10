@@ -13,7 +13,6 @@ cuisines:
   - Italian
 occasions:
   - weeknight
-  - vegetarian
   - light-and-fresh
 seasons:
   - spring

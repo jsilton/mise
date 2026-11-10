@@ -28,6 +28,14 @@ ingredients:
 sourceUrl: 'https://www.yummytoddlerfood.com/cauliflower-alfredo-sauce/'
 cuisines:
   - American
+flavorProfile:
+  - creamy
+  - savory
+occasions:
+  - weeknight
+  - kid-friendly
+dietary:
+  - vegetarian-option
 pairsWith:
   - steamed-broccoli
 pairingNotes:

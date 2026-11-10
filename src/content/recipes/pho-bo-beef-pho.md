@@ -28,6 +28,7 @@ leftovers: good
 advancePrep:
   - make-ahead
   - components-ahead
+  - freeze-ahead
 equipment:
   - stockpot
   - sheet-pan

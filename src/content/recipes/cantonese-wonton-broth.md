@@ -21,12 +21,12 @@ cookTime: 25 min
 totalTime: 30 min
 servings: '6'
 seasons:
-  - year-round
   - winter
 nutritionalDensity: light
 leftovers: excellent
 advancePrep:
   - make-ahead
+  - freeze-ahead
 pairsWith:
   - cantonese-shrimp-and-pork-wontons
 pairingNotes:

@@ -44,6 +44,7 @@ source: Adapted from The Washington Post
 sourceUrl: 'https://www.washingtonpost.com/recipes/garlic-paste-toum/14095/'
 advancePrep:
   - chill-to-set
+  - freeze-ahead
 formula:
   version: 1
   yield:

@@ -7,11 +7,13 @@ cookingMethods:
 occasions:
   - comfort-food
 flavorProfile:
-  - acidic
-  - umami
+  - aromatic
   - rich
+  - warm
 cuisines:
   - Indian
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 25 min

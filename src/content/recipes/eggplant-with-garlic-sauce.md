@@ -19,7 +19,8 @@ flavorProfile:
   - umami
   - rich
 cuisines:
-  - Chinese-American-inspired
+  - Chinese
+  - American
 role: side
 vibe: quick
 prepTime: 15 min
@@ -29,7 +30,6 @@ servings: '4'
 seasons:
   - summer
   - fall
-  - year-round
 nutritionalDensity: light
 leftovers: good
 equipment:

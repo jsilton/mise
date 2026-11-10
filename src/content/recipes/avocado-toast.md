@@ -8,7 +8,7 @@ dietary:
   - vegetarian
   - dairy-free
 occasions:
-  - weeknight
+  - breakfast
   - light-and-fresh
   - quick-lunch
 flavorProfile:

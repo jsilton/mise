@@ -10,12 +10,11 @@ totalCookTime: 30 min
 totalActiveTime: 50 min
 overallDifficulty: intermediate
 cuisines:
-  - Thai-inspired
+  - Thai
   - Japanese
 occasions:
   - weeknight
-  - thursday-adventure
-  - family
+  - family-meal
 seasons:
   - year-round
 nutritionalDensity: moderate

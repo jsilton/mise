@@ -1,7 +1,7 @@
 ---
 miseId: cff263a0-2457-4817-ac2d-24fab696dea3
 title: Chocolate Protein Zucchini Muffins
-role: dessert
+role: side
 vibe: comfort
 difficulty: easy
 prepTime: 15 min
@@ -30,6 +30,18 @@ ingredients:
 sourceUrl: 'https://www.yummytoddlerfood.com/chocolate-zucchini-muffins-with-blueberries/'
 cuisines:
   - American
+flavorProfile:
+  - sweet
+  - rich
+dietary:
+  - vegetarian
+advancePrep:
+  - freeze-ahead
+occasions:
+  - breakfast
+  - snack
+  - meal-prep
+  - kid-friendly
 learning:
   techniques:
     - leavening

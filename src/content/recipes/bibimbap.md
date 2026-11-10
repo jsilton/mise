@@ -19,10 +19,7 @@ cuisines:
 role: main
 vibe: nutritious
 seasons:
-  - spring
-  - summer
-  - fall
-  - winter
+  - year-round
 nutritionalDensity: hearty
 leftovers: poor
 advancePrep:

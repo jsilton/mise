@@ -10,8 +10,10 @@ import { cookingTipSuggestions } from './lib/cooking-tips.mjs';
 import { findUnmentionedIngredients, isIngredientHeadingLine } from './lib/ingredient-mentions.mjs';
 import { extractRecipeTargets } from './lib/recipe-link-targets.mjs';
 import { assertOriginalPreservation } from './lib/recipe-preservation.mjs';
+import { tagIssues } from '../src/lib/tag-vocabulary.mjs';
 
 const RECIPES_DIR = path.resolve('src/content/recipes');
+const MEALS_DIR = path.resolve('src/content/meals');
 const allowedRoles = new Set(['main', 'side', 'dessert', 'base', 'drink', 'condiment']);
 const allowedVibes = new Set(['nutritious', 'comfort', 'technical', 'holiday', 'quick']);
 
@@ -412,6 +414,18 @@ function normalizeKey(str) {
       console.warn(`KB check failed for ${slug}: ${err && err.message}`);
     }
 
+    // Tag values outside the canonical lists split the filters, and unknown keys are
+    // dropped silently, so both block the build.
+    for (const issue of tagIssues(data, 'recipe')) {
+      report.suggestions[slug] = report.suggestions[slug] || [];
+      report.suggestions[slug].push({
+        ruleId: 'tag-vocabulary',
+        title: 'Tag value or key outside the canonical lists',
+        severity: 'fail',
+        suggestion: `${issue}. The allowed values are in src/lib/tag-vocabulary.mjs.`,
+      });
+    }
+
     // Section headings written as plain ingredient lines show up as checkbox
     // ingredients and in structured data, so they block the build.
     if (Array.isArray(data.ingredients)) {
@@ -451,6 +465,21 @@ function normalizeKey(str) {
     if (tips.length) {
       report.suggestions[slug] = report.suggestions[slug] || [];
       report.suggestions[slug].push(...tips);
+    }
+  }
+
+  // Meals carry cuisines, occasions and seasons too. Hold them to the same lists.
+  for (const file of await listMdFiles(MEALS_DIR)) {
+    const { data } = matter(await fs.readFile(file, 'utf8'));
+    const mealKey = `meals/${path.basename(file, '.md')}`;
+    for (const issue of tagIssues(data, 'meal')) {
+      report.suggestions[mealKey] = report.suggestions[mealKey] || [];
+      report.suggestions[mealKey].push({
+        ruleId: 'tag-vocabulary',
+        title: 'Tag value or key outside the canonical lists',
+        severity: 'fail',
+        suggestion: `${issue}. The allowed values are in src/lib/tag-vocabulary.mjs.`,
+      });
     }
   }
 

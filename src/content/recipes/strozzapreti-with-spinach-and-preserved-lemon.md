@@ -27,7 +27,6 @@ servings: 4 portions
 seasons:
   - spring
   - summer
-  - year-round
 nutritionalDensity: moderate
 leftovers: good
 pairsWith:

@@ -14,20 +14,15 @@ occasions:
   - comfort-food
 flavorProfile:
   - sweet
-  - acidic
   - rich
 cuisines:
   - Southern
+advancePrep:
+  - make-ahead
+  - freeze-ahead
 role: dessert
 vibe: technical
-season:
-  - spring
-  - summer
-  - fall
-  - winter
 leftovers: excellent
-healthiness: hearty
-makeAhead: true
 prepTime: 25 min
 cookTime: 1 hr 30 min
 totalTime: '1 hr 55 min, plus 2 hr cooling'

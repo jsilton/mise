@@ -20,6 +20,9 @@ flavorProfile:
   - herbaceous
 cuisines:
   - American
+dietary:
+  - vegan
+  - gluten-free
 role: side
 vibe: nutritious
 prepTime: 15 min

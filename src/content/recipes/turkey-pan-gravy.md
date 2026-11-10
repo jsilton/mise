@@ -6,6 +6,8 @@ cookingMethods: [saute, simmer]
 occasions: [holiday, entertaining]
 flavorProfile: [savory, rich]
 cuisines: [American]
+advancePrep:
+  - freeze-ahead
 role: condiment
 vibe: holiday
 prepTime: 10 min

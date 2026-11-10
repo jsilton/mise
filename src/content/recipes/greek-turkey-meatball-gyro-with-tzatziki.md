@@ -13,6 +13,8 @@ flavorProfile:
   - rich
 cuisines:
   - Greek
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: quick
 prepTime: 25 min

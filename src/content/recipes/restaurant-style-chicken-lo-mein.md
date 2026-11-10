@@ -38,6 +38,11 @@ ingredients:
 sourceUrl: 'https://thewoksoflife.com/chicken-lo-mein/'
 cuisines:
   - Chinese
+flavorProfile:
+  - savory
+  - umami
+occasions:
+  - weeknight
 formula:
   version: 1
   yield:

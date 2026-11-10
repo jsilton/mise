@@ -40,6 +40,7 @@ nutritionalDensity: moderate
 leftovers: good
 advancePrep:
   - chill-dough
+  - freeze-ahead
 source: Adapted from The Pioneer Woman
 sourceUrl: >-
   https://www.thepioneerwoman.com/food-cooking/recipes/a37810333/chocolate-crinkle-cookies-recipe/

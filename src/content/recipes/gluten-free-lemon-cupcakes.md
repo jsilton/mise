@@ -22,6 +22,7 @@ equipment:
   - stand-mixer
 advancePrep:
   - make-ahead
+  - freeze-ahead
 flavorProfile:
   - sweet
   - acidic
@@ -29,7 +30,7 @@ flavorProfile:
 cuisines:
   - American
 role: dessert
-vibe: technical
+vibe: comfort
 prepTime: 20 min
 cookTime: 20 min
 totalTime: '40 min, plus 1 hr cooling'

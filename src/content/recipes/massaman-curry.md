@@ -10,10 +10,12 @@ cookTime: 3 hr
 totalTime: 3 hr 25 min
 servings: '4'
 cuisines: [Thai]
+advancePrep:
+  - freeze-ahead
 cookingMethods: [braise, simmer]
 dietary: [dairy-free]
-occasions: [weekend, dinner-party]
-flavorProfile: [savory, rich, warming, tangy]
+occasions: [weekend-dinner, entertaining]
+flavorProfile: [savory, rich, warm, tangy]
 seasons: [year-round]
 nutritionalDensity: hearty
 leftovers: excellent

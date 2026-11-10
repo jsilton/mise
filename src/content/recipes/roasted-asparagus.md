@@ -6,7 +6,7 @@ cookingMethods:
   - bake
   - roast
 dietary:
-  - vegetarian
+  - vegetarian-option
   - gluten-free
 occasions:
   - weeknight

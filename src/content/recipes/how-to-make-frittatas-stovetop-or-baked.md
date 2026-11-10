@@ -8,8 +8,9 @@ cookingMethods:
   - saute
   - blend
 dietary:
-  - vegetarian
+  - vegetarian-option
 occasions:
+  - breakfast
   - weeknight
   - quick-lunch
   - entertaining

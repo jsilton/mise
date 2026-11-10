@@ -8,12 +8,15 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - weekend-project
   - entertaining
 flavorProfile:
   - sweet
 cuisines:
   - Belgian
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 15 min

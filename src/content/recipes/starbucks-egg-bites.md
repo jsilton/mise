@@ -6,7 +6,7 @@ cookingMethods:
   - bake
   - blend
 occasions:
-  - weeknight
+  - breakfast
   - quick-lunch
   - meal-prep
   - snack
@@ -20,6 +20,7 @@ equipment:
   - roasting-pan
 advancePrep:
   - make-ahead
+  - freeze-ahead
 flavorProfile:
   - savory
   - rich

@@ -15,8 +15,10 @@ flavorProfile:
   - savory
   - umami
 cuisines:
-  - Tex-Mex
+  - Mexican
   - American
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: quick
 prepTime: 15 min

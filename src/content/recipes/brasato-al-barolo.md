@@ -5,6 +5,10 @@ vibe: comfort
 difficulty: intermediate
 cuisines:
   - Italian
+flavorProfile:
+  - rich
+  - savory
+  - aromatic
 categories:
   - Italian
   - Main Course
@@ -60,6 +64,7 @@ occasions:
 leftovers: excellent
 advancePrep:
   - marinate-overnight
+  - freeze-ahead
 equipment:
   - nonreactive-covered-container
   - heavy-lidded-casserole

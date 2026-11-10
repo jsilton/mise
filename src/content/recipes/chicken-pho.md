@@ -15,6 +15,8 @@ flavorProfile:
   - herbaceous
 cuisines:
   - Vietnamese
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 30 min

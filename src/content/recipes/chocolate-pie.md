@@ -3,7 +3,7 @@ miseId: c4d5b610-f1f1-41b3-8032-5841232e8c55
 title: Chocolate Pie
 difficulty: intermediate
 cookingMethods:
-  - boil
+  - simmer
 dietary:
   - vegetarian
 occasions:

@@ -17,7 +17,8 @@ flavorProfile:
   - savory
   - umami
 cuisines:
-  - Chinese-American
+  - Chinese
+  - American
 role: main
 vibe: quick
 prepTime: 20 min

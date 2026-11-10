@@ -17,16 +17,12 @@ flavorProfile:
   - rich
 cuisines:
   - French
+advancePrep:
+  - make-ahead
+  - freeze-ahead
 role: dessert
 vibe: technical
-season:
-  - spring
-  - summer
-  - fall
-  - winter
 leftovers: excellent
-healthiness: hearty
-makeAhead: true
 prepTime: 20 min
 cookTime: 25 min
 totalTime: '45 min, plus 1 hr 30 min cooling and setting'

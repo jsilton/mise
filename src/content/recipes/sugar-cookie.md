@@ -20,6 +20,7 @@ cookTime: 35 min
 totalTime: '1 hr 10 min, plus 2 hr chilling'
 advancePrep:
   - chill-dough
+  - freeze-ahead
 servings: 36 cookies
 pairsWith:
   - royal-icing

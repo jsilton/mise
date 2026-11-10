@@ -31,6 +31,7 @@ nutritionalDensity: hearty
 leftovers: excellent
 advancePrep:
   - make-ahead
+  - freeze-ahead
 equipment:
   - 9x13-inch-baking-dish
   - large-pot
@@ -269,7 +270,7 @@ formula:
         until pliable but still firm. Drain.
     - id: oil-shells
       title: Oil the shells
-      text: 'Spread the shells on a sheet pan and toss gently with {{ingredients}} so they don''t stick.'
+      text: "Spread the shells on a sheet pan and toss gently with {{ingredients}} so they don't stick."
     - id: squeeze
       title: Squeeze the spinach
       text: Wrap the cooled spinach in a clean towel and wring it out until dry. Chop it finely.

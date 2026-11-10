@@ -7,6 +7,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - meal-prep
   - snack
   - quick-lunch
@@ -20,6 +21,7 @@ equipment:
   - saucepan
 advancePrep:
   - make-ahead
+  - freeze-ahead
 flavorProfile:
   - sweet
   - rich

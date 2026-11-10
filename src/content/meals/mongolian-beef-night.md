@@ -10,8 +10,8 @@ totalCookTime: 35 min
 totalActiveTime: 50 min
 overallDifficulty: intermediate
 cuisines:
-  - Chinese-American
-  - Chinese-inspired
+  - Chinese
+  - American
 occasions:
   - weeknight
 seasons:

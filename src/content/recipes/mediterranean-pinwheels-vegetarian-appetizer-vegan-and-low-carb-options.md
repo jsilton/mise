@@ -6,7 +6,7 @@ cookingMethods:
   - assemble
   - blend
 dietary:
-  - vegetarian
+  - vegetarian-option
 occasions:
   - entertaining
   - quick-lunch

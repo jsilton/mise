@@ -18,8 +18,10 @@ scaling:
     Make another batch for more portions. Do not reduce the pressure-cooking water.
 cuisines:
   - Indian
+advancePrep:
+  - freeze-ahead
 cookingMethods:
-  - pressure-cook
+  - steam
   - saute
   - simmer
 dietary:
@@ -36,7 +38,6 @@ flavorProfile:
 seasons:
   - summer
   - fall
-  - year-round
 nutritionalDensity: moderate
 leftovers: good
 equipment:

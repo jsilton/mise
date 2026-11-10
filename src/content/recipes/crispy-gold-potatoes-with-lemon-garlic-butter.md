@@ -9,6 +9,8 @@ vibe: comfort
 difficulty: easy
 cookingMethods:
   - roast
+cuisines:
+  - American
 dietary:
   - vegetarian
   - gluten-free

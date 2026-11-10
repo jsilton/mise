@@ -5,6 +5,7 @@ difficulty: easy
 cookingMethods:
   - bake
 occasions:
+  - breakfast
   - meal-prep
   - snack
   - quick-lunch
@@ -16,6 +17,7 @@ equipment:
   - muffin-tin
 advancePrep:
   - make-ahead
+  - freeze-ahead
 flavorProfile:
   - spicy
   - savory

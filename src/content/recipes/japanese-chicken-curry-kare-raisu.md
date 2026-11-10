@@ -14,6 +14,8 @@ flavorProfile:
   - rich
 cuisines:
   - Japanese
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 25 min

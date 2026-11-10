@@ -11,7 +11,6 @@ occasions:
   - kid-friendly
 seasons:
   - summer
-  - year-round
 nutritionalDensity: moderate
 leftovers: good
 equipment:

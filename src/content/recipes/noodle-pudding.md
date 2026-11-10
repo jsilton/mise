@@ -12,6 +12,8 @@ flavorProfile:
   - rich
 cuisines:
   - Jewish
+dietary:
+  - vegetarian
 role: dessert
 vibe: comfort
 prepTime: 30 min

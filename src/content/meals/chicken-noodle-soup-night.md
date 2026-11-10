@@ -11,7 +11,7 @@ totalTime: 6 hr 40 min
 overallDifficulty: easy
 cuisines:
   - American
-  - Italian-American
+  - Italian
 occasions:
   - comfort-food
 seasons:

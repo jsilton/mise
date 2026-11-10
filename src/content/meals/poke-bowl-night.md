@@ -7,7 +7,7 @@ totalCookTime: 25 min
 totalActiveTime: 40 min
 totalTime: 1 hr 30 min
 overallDifficulty: intermediate
-cuisines: [Hawaiian-inspired, Korean-inspired, Japanese-inspired]
+cuisines: [Hawaiian, Korean, Japanese]
 occasions: [weekend-dinner, entertaining]
 seasons: [year-round]
 nutritionalDensity: moderate

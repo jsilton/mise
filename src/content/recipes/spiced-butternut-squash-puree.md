@@ -34,6 +34,8 @@ flavorProfile:
   - rich
 cuisines:
   - American
+advancePrep:
+  - freeze-ahead
 role: side
 vibe: holiday
 seasons:

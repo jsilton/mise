@@ -18,6 +18,7 @@ equipment:
   - stand-mixer
 advancePrep:
   - make-ahead
+  - freeze-ahead
 pairsWith:
   - red-velvet-cupcakes
   - breakfast-carrot-cake

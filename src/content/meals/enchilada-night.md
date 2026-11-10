@@ -24,7 +24,7 @@ totalActiveTime: 55 min
 totalTime: 1 hr
 overallDifficulty: intermediate
 cuisines: [Mexican]
-occasions: [weeknight, comfort-food, kids-approved]
+occasions: [weeknight, comfort-food, kid-friendly]
 seasons: [fall, winter]
 nutritionalDensity: hearty
 servings: '4'

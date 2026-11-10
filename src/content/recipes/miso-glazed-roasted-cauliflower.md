@@ -21,9 +21,6 @@ cuisines:
 role: side
 vibe: comfort
 seasons:
-  - fall
-  - winter
-  - spring
   - year-round
 nutritionalDensity: moderate
 leftovers: good

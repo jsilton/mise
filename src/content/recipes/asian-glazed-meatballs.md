@@ -28,6 +28,7 @@ nutritionalDensity: hearty
 leftovers: excellent
 advancePrep:
   - make-ahead-sauce
+  - freeze-ahead
 pairsWith:
   - steamed-white-rice
   - steamed-broccoli

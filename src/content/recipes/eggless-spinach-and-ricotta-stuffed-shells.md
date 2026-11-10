@@ -30,6 +30,18 @@ ingredients:
 sourceUrl: 'https://www.loveandlemons.com/stuffed-shells-recipe/'
 cuisines:
   - Italian
+flavorProfile:
+  - rich
+  - savory
+  - creamy
+occasions:
+  - comfort-food
+  - family-meal
+dietary:
+  - vegetarian-option
+  - egg-free
+advancePrep:
+  - freeze-ahead
 pairsWith:
   - everyday-arugula-salad
   - roasted-broccolini-with-lemon

@@ -7,6 +7,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - meal-prep
   - kid-friendly
   - snack
@@ -22,11 +23,10 @@ advancePrep:
   - freeze-ahead
 flavorProfile:
   - sweet
-  - acidic
-  - rich
+  - warm
 cuisines:
   - American
-role: main
+role: side
 vibe: nutritious
 prepTime: 20 min
 cookTime: 20 min

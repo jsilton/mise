@@ -24,7 +24,7 @@ totalActiveTime: 1 hr
 totalTime: 1 hr 35 min
 overallDifficulty: intermediate
 cuisines: [Italian, Mediterranean, American]
-occasions: [sunday-dinner, family, entertaining, meal-prep]
+occasions: [sunday-dinner, family-meal, entertaining, meal-prep]
 seasons: [year-round]
 nutritionalDensity: hearty
 servings: '5'

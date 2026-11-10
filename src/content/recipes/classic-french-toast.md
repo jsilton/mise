@@ -7,6 +7,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - weekend-brunch
   - comfort-food
 flavorProfile:
@@ -15,6 +16,8 @@ flavorProfile:
 cuisines:
   - American
   - French
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 10 min

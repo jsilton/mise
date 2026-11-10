@@ -12,7 +12,6 @@ occasions:
 seasons:
   - fall
   - winter
-  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
 equipment:

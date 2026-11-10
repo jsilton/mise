@@ -25,6 +25,18 @@ ingredients:
 sourceUrl: 'https://www.skinnytaste.com/grilled-corn-salad-with-feta/'
 cuisines:
   - American
+flavorProfile:
+  - sweet
+  - smoky
+  - tangy
+  - fresh
+occasions:
+  - bbq
+  - light-and-fresh
+  - entertaining
+dietary:
+  - vegetarian
+  - gluten-free
 pairsWith:
   - grilled-pork-and-peaches
   - turkey-burgers

@@ -11,9 +11,9 @@ occasions:
   - entertaining
   - weeknight
 flavorProfile:
-  - sweet
+  - briny
+  - smoky
   - savory
-  - acidic
   - herbaceous
 cuisines:
   - Spanish

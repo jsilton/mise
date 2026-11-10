@@ -17,7 +17,7 @@ totalTime: 1 hr 20 min
 overallDifficulty: intermediate
 cuisines: [Thai]
 occasions: [weeknight, date-night]
-seasons: [spring, summer, fall, winter]
+seasons: [year-round]
 nutritionalDensity: moderate
 servings: '6'
 review:

@@ -8,6 +8,7 @@ cookingMethods:
 dietary:
   - pescatarian
 occasions:
+  - breakfast
   - weekend-brunch
   - light-and-fresh
   - entertaining

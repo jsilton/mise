@@ -25,6 +25,8 @@ flavorProfile:
   - umami
 cuisines:
   - American
+dietary:
+  - vegetarian-option
 role: side
 vibe: nutritious
 prepTime: 15 min

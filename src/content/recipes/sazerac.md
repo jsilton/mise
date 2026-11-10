@@ -10,12 +10,13 @@ vibe: technical
 difficulty: intermediate
 cuisines:
   - American
+dietary:
+  - vegan
+  - gluten-free
 occasions:
   - entertaining
   - date-night
-  - comfort-food
 seasons:
-  - year-round
   - fall
   - winter
 flavorProfile:

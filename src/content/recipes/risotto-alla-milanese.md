@@ -5,6 +5,10 @@ vibe: comfort
 difficulty: intermediate
 cuisines:
   - Italian
+flavorProfile:
+  - rich
+  - creamy
+  - aromatic
 categories:
   - Italian
   - Main Course

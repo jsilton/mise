@@ -19,7 +19,7 @@ flavorProfile: [tangy, mild, warm]
 seasons: [year-round]
 nutritionalDensity: light
 leftovers: good
-advancePrep: [rise-dough]
+advancePrep: [rise-dough, freeze-ahead]
 equipment:
   - kitchen-scale
   - rolling-pin

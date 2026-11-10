@@ -34,6 +34,7 @@ nutritionalDensity: light
 leftovers: excellent
 advancePrep:
   - make-ahead-sauce
+  - freeze-ahead
 equipment:
   - medium-saucepan
 pairsWith:

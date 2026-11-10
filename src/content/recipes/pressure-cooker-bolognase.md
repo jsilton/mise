@@ -55,6 +55,7 @@ sourceUrl: >-
   https://www.accademiaitalianadellacucina.it/sites/default/files/Rag%C3%B9%20alla%20bolognese%20-%20ricetta%20aggiornata%2020%20aprile%202023.pdf
 advancePrep:
   - make-ahead-sauce
+  - freeze-ahead
 equipment:
   - heavy-casserole-with-lid
   - wooden-spoon

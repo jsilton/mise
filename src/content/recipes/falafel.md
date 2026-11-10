@@ -41,6 +41,7 @@ nutritionalDensity: moderate
 leftovers: good
 advancePrep:
   - overnight-soak
+  - freeze-ahead
 equipment:
   - food-processor
   - colander

@@ -7,7 +7,6 @@ totalCookTime: 30 min
 totalActiveTime: 55 min
 overallDifficulty: easy
 cuisines:
-  - Greek-inspired
   - Greek
 occasions:
   - weeknight

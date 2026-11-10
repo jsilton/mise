@@ -8,7 +8,7 @@ difficulty: intermediate
 cookingMethods: [grill]
 occasions: [entertaining, family-meal]
 flavorProfile: [savory, spicy, tangy]
-cuisines: [Mediterranean-inspired]
+cuisines: [Mediterranean]
 role: main
 vibe: comfort
 prepTime: 25 min

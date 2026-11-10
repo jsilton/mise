@@ -37,6 +37,7 @@ nutritionalDensity: moderate
 leftovers: good
 advancePrep:
   - chill-dough
+  - freeze-ahead
 source: Adapted from Tori Avey
 sourceUrl: 'https://toriavey.com/toris-kitchen/buttery-hamantaschen/'
 rating: 4

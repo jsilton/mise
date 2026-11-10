@@ -13,6 +13,8 @@ flavorProfile:
   - rich
 cuisines:
   - Italian
+dietary:
+  - vegetarian-option
 role: base
 vibe: quick
 prepTime: 5 min

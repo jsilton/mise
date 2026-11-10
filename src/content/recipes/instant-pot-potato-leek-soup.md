@@ -10,8 +10,8 @@ cookingMethods:
 occasions:
   - comfort-food
 flavorProfile:
-  - sweet
-  - rich
+  - creamy
+  - mild
 cuisines:
   - French
 role: main

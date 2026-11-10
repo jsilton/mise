@@ -12,7 +12,7 @@ flavorProfile:
   - sweet
   - acidic
 cuisines:
-  - Mexican-inspired
+  - Mexican
 role: condiment
 vibe: quick
 prepTime: 10 min

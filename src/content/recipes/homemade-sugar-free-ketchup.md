@@ -18,6 +18,7 @@ equipment:
   - immersion-blender
 advancePrep:
   - make-ahead
+  - freeze-ahead
 flavorProfile:
   - sweet
   - savory

@@ -8,6 +8,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - meal-prep
   - kid-friendly
   - snack
@@ -28,7 +29,7 @@ flavorProfile:
   - rich
 cuisines:
   - American
-role: main
+role: side
 vibe: quick
 prepTime: 10 min
 cookTime: 30 min

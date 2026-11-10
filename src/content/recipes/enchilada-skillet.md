@@ -34,6 +34,14 @@ ingredients:
 sourceUrl: 'https://cleanfoodcrush.com/chopped-enchilada-skillet/'
 cuisines:
   - Mexican
+flavorProfile:
+  - savory
+  - smoky
+occasions:
+  - weeknight
+  - family-meal
+advancePrep:
+  - freeze-ahead
 pairsWith:
   - classic-guacamole
   - mango-cabbage-slaw

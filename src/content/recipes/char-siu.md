@@ -27,6 +27,7 @@ nutritionalDensity: hearty
 leftovers: excellent
 advancePrep:
   - marinate-overnight
+  - freeze-ahead
 equipment:
   - wire-rack
   - rimmed-roasting-pan

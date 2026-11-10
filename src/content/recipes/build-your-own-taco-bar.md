@@ -17,7 +17,7 @@ flavorProfile:
   - fresh
   - acidic
 cuisines:
-  - Mexican-inspired
+  - Mexican
 role: main
 vibe: quick
 prepTime: 20 min

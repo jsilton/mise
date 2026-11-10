@@ -31,6 +31,14 @@ ingredients:
 sourceUrl: 'https://thewoksoflife.com/dumpling-recipe-youll-ever-need/'
 cuisines:
   - Chinese
+flavorProfile:
+  - savory
+  - umami
+occasions:
+  - weekend-project
+  - make-ahead
+advancePrep:
+  - freeze-ahead
 pairsWith:
   - soy-ginger-dipping-sauce
   - homemade-chili-oil

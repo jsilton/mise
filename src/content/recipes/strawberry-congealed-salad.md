@@ -17,11 +17,7 @@ cuisines:
   - Southern
 role: side
 vibe: holiday
-season:
-  - spring
-  - summer
 leftovers: excellent
-healthiness: moderate
 advancePrep:
   - make-ahead
 pairsWith:

@@ -20,7 +20,7 @@ flavorProfile:
   - rich
   - acidic
 cuisines:
-  - Greek-inspired
+  - Greek
 role: condiment
 vibe: quick
 seasons:

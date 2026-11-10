@@ -3,7 +3,8 @@ miseId: c18ff2ef-f461-48ad-b205-162ca3918be5
 title: Balsamic Peach Pork Chops
 difficulty: easy
 cookingMethods:
-  - bake
+  - sear
+  - broil
   - simmer
 occasions:
   - weeknight
@@ -42,7 +43,7 @@ ingredients:
   - '1/2 cup fresh basil, torn'
   - 'crushed red pepper flakes, for serving'
 seasons:
-  - year-round
+  - summer
 nutritionalDensity: moderate
 leftovers: good
 source: Adapted from Half Baked Harvest

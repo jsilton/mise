@@ -14,6 +14,10 @@ flavorProfile:
   - herbaceous
 cuisines:
   - American
+dietary:
+  - vegetarian
+  - vegan-option
+  - gluten-free
 role: side
 vibe: comfort
 prepTime: 15 min
@@ -38,7 +42,8 @@ ingredients:
   - 1 tbsp maple syrup or honey
   - 1 tbsp balsamic vinegar
 seasons:
-  - year-round
+  - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: good
 equipment:

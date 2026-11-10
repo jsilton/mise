@@ -14,6 +14,8 @@ flavorProfile:
 cuisines:
   - American
   - Italian
+dietary:
+  - vegetarian-option
 role: main
 vibe: comfort
 prepTime: 15 min

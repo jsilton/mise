@@ -16,6 +16,8 @@ flavorProfile:
   - umami
 cuisines:
   - Japanese
+advancePrep:
+  - freeze-ahead
 role: base
 vibe: quick
 prepTime: 5 min

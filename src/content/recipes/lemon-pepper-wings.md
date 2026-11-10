@@ -56,7 +56,7 @@ leftovers: good
 description: >-
   Dry-roasted wings tossed lightly with lemon-zest butter, coarse pepper and a splash of juice.
 advancePrep:
-  - dry-uncovered-8-to-24-hours
+  - season-ahead
 learning:
   techniques:
     - browning

@@ -3,6 +3,12 @@
 // Includes filter dropdowns, sort options, reset button, and filtering logic
 // Self-contained: manages all data, rendering, and client-side interactivity
 
+import {
+  cuisineFilterOptions,
+  dietaryFilterOptions,
+  dietaryLabel,
+} from '../lib/tag-vocabulary.mjs';
+
 interface Props {
   recipes: Array<{
     data: {
@@ -29,8 +35,10 @@ const uniqueFilters = {
   vibes: Array.from(
     new Set(recipes.map((r) => r.data.vibe).filter((v): v is string => Boolean(v)))
   ).sort(),
-  cuisines: Array.from(new Set(recipes.flatMap((r) => r.data.cuisines || []))).sort(),
-  dietary: Array.from(new Set(recipes.flatMap((r) => r.data.dietary || []))).sort(),
+  // Cuisines roll up into filter groups, and diet choices need at least 3 recipes.
+  // RecipeCard writes the same group and diet keys into its data attributes.
+  cuisines: cuisineFilterOptions(recipes),
+  dietary: dietaryFilterOptions(recipes),
   cookingMethods: Array.from(new Set(recipes.flatMap((r) => r.data.cookingMethods || []))).sort(),
   occasions: Array.from(new Set(recipes.flatMap((r) => r.data.occasions || []))).sort(),
   flavorProfiles: Array.from(new Set(recipes.flatMap((r) => r.data.flavorProfile || []))).sort(),
@@ -81,7 +89,7 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
           <option value="">All</option>
           <option value="easy">Easy</option>
           <option value="intermediate">Intermediate</option>
-          <option value="advanced">Advanced</option>
+          <option value="hard">Advanced</option>
         </select>
       </div>
 
@@ -123,7 +131,7 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
           class="filter-select text-xs rounded-lg px-2.5 py-2 transition-all"
         >
           <option value="">All</option>
-          {uniqueFilters.cuisines.map((c) => <option value={c}>{formatLabel(c)}</option>)}
+          {uniqueFilters.cuisines.map((c) => <option value={c.key}>{c.label}</option>)}
         </select>
       </div>
 
@@ -139,7 +147,7 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
           class="filter-select text-xs rounded-lg px-2.5 py-2 transition-all"
         >
           <option value="">All</option>
-          {uniqueFilters.dietary.map((d) => <option value={d}>{formatLabel(d)}</option>)}
+          {uniqueFilters.dietary.map((d) => <option value={d}>{dietaryLabel(d)}</option>)}
         </select>
       </div>
 

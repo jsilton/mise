@@ -11,7 +11,8 @@ totalActiveTime: 50 min
 totalTime: 4 hr 40 min
 overallDifficulty: easy
 cuisines:
-  - Chinese-American
+  - Chinese
+  - American
   - Korean
 occasions:
   - comfort-food

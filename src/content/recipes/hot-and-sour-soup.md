@@ -25,9 +25,8 @@ cookTime: 25 min
 totalTime: 55 min
 servings: 6 portions
 seasons:
-  - year-round
-  - winter
   - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: excellent
 advancePrep:
@@ -312,7 +311,7 @@ learning:
       effect: 'Sharper and cleaner, without the malty depth and dark color.'
     - ingredient: dried wood ear mushrooms
       alternative: Dried shiitake mushrooms
-      effect: 'More savory and softer, without the wood ears'' crunch.'
+      effect: "More savory and softer, without the wood ears' crunch."
     - ingredient: char siu (Chinese barbecue pork)
       alternative: 'Leftover roast pork, shredded'
       effect: Milder and less sweet. Add an extra pinch of sugar to the broth.

@@ -27,7 +27,7 @@ flavorProfile:
 cuisines:
   - American
 role: dessert
-vibe: technical
+vibe: comfort
 prepTime: 30 min
 cookTime: 40 min
 totalTime: 1 hr 30 min

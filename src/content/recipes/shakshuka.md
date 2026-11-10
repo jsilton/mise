@@ -9,6 +9,7 @@ dietary:
   - vegetarian
   - dairy-free
 occasions:
+  - breakfast
   - weekend-brunch
   - weeknight
   - comfort-food

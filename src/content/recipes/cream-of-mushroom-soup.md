@@ -12,7 +12,8 @@ dietary:
 occasions:
   - comfort-food
 flavorProfile:
-  - acidic
+  - earthy
+  - creamy
   - rich
 cuisines:
   - American

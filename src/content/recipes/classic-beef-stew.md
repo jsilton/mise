@@ -14,6 +14,8 @@ flavorProfile:
   - umami
 cuisines:
   - American
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 30 min

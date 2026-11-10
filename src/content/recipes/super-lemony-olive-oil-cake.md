@@ -16,14 +16,11 @@ flavorProfile:
   - rich
 cuisines:
   - Mediterranean
+advancePrep:
+  - make-ahead
 role: dessert
-vibe: technical
-season:
-  - spring
-  - summer
+vibe: comfort
 leftovers: excellent
-healthiness: moderate
-makeAhead: true
 prepTime: 15 min
 cookTime: 50 min
 totalTime: '1 hr 5 min, plus cooling'

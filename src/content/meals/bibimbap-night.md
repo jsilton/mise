@@ -31,7 +31,7 @@ totalTime: 1 hr 15 min
 overallDifficulty: intermediate
 cuisines: [Korean]
 occasions: [weeknight, meal-prep]
-seasons: [spring, summer, fall, winter]
+seasons: [year-round]
 nutritionalDensity: hearty
 servings: '4'
 review:

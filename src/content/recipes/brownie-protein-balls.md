@@ -18,6 +18,7 @@ nutritionalDensity: moderate
 leftovers: excellent
 advancePrep:
   - make-ahead
+  - freeze-ahead
 flavorProfile:
   - sweet
   - rich

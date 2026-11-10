@@ -7,6 +7,8 @@ difficulty: intermediate
 origin: Italy
 cuisines:
   - Italian
+dietary:
+  - vegetarian
 occasions:
   - entertaining
   - weekend-project

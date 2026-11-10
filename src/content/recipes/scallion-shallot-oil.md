@@ -10,7 +10,7 @@ cookTime: 25 min
 totalTime: '35 min, plus 15 min cooling'
 servings: 3/4 cup oil and 1/2 cup crisp alliums
 cuisines:
-  - Chinese-inspired
+  - Chinese
 cookingMethods:
   - fry
   - infuse

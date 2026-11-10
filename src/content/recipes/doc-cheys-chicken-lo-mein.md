@@ -36,6 +36,11 @@ sourceUrl: >-
   https://www.ajc.com/lifestyles/food--cooking/lomein-dish-can-made-from-ingredients-hand/nm6EiZJQkRfSmBI9T8PUUK/
 cuisines:
   - Chinese
+flavorProfile:
+  - savory
+  - umami
+occasions:
+  - weeknight
 pairsWith:
   - smashed-cucumber-salad
   - steamed-broccoli

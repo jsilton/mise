@@ -34,6 +34,13 @@ ingredients:
 sourceUrl: 'https://www.allrecipes.com/recipe/15553/chicken-tortilla-soup-iii/'
 cuisines:
   - Mexican
+flavorProfile:
+  - creamy
+  - savory
+  - rich
+occasions:
+  - weeknight
+  - comfort-food
 pairsWith:
   - classic-guacamole
   - mango-cabbage-slaw

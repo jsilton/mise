@@ -24,8 +24,7 @@ vibe: quick
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
-advancePrep:
-  - chill
+advancePrep: []
 servings: '4'
 seasons:
   - year-round

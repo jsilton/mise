@@ -37,6 +37,14 @@ sourceUrl: >-
   https://www.goodhousekeeping.com/food-recipes/a42833/thai-turkey-lettuce-wraps-recipe/
 cuisines:
   - Thai
+flavorProfile:
+  - savory
+  - spicy
+  - fresh
+  - herbaceous
+occasions:
+  - weeknight
+  - light-and-fresh
 learning:
   techniques:
     - temperature

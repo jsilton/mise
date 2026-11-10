@@ -15,6 +15,8 @@ flavorProfile:
   - herbaceous
 cuisines:
   - Thai
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 25 min

@@ -8,7 +8,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
-  - weeknight
+  - breakfast
   - quick-lunch
   - snack
 seasons:

@@ -9,6 +9,10 @@ occasions:
   - comfort-food
 cuisines:
   - American
+flavorProfile:
+  - savory
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 15 min

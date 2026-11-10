@@ -13,6 +13,7 @@ occasions:
   - weeknight
 cookingMethods:
   - broil
+  - marinate
 flavorProfile:
   - sweet
   - spicy
@@ -21,8 +22,7 @@ flavorProfile:
 prepTime: 15 min
 cookTime: 15 min
 totalTime: '30 min, plus 30 min marinating'
-advancePrep:
-  - marinate
+advancePrep: []
 servings: 12 pieces
 pairsWith:
   - steamed-edamame

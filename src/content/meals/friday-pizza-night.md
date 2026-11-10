@@ -16,7 +16,7 @@ totalActiveTime: 1 hr 30 min
 totalTime: '2 hr, plus 19 hr rising'
 overallDifficulty: intermediate
 cuisines: [Italian, American]
-occasions: [friday, family, kids-approved, fun]
+occasions: [family-meal, kid-friendly]
 seasons: [year-round]
 nutritionalDensity: hearty
 servings: '5'

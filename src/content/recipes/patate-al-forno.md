@@ -23,6 +23,9 @@ flavorProfile:
   - herbaceous
 cuisines:
   - Italian
+dietary:
+  - vegan
+  - gluten-free
 role: side
 vibe: nutritious
 prepTime: 10 min

@@ -7,10 +7,12 @@ cookingMethods:
 occasions:
   - kid-friendly
 flavorProfile:
-  - acidic
-  - umami
+  - savory
+  - crispy
 cuisines:
   - American
+dietary:
+  - vegetarian-option
 role: side
 vibe: quick
 prepTime: 5 min

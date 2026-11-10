@@ -27,6 +27,13 @@ ingredients:
 sourceUrl: 'https://www.dinneratthezoo.com/slow-cooker-mongolian-beef/'
 cuisines:
   - Chinese
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+occasions:
+  - comfort-food
+  - family-meal
 equipment:
   - slow-cooker
   - mixing-bowl

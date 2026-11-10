@@ -5,7 +5,7 @@ difficulty: easy
 cookingMethods:
   - boil
 dietary:
-  - vegetarian
+  - vegetarian-option
 occasions:
   - comfort-food
   - kid-friendly

@@ -5,7 +5,8 @@ role: main
 vibe: comfort
 difficulty: easy
 cuisines:
-  - Korean-American
+  - Korean
+  - American
 occasions:
   - entertaining
   - game-day
@@ -57,7 +58,7 @@ nutritionalDensity: moderate
 leftovers: good
 description: 'Rack-roasted wings with a thin gochujang, honey and sesame glaze added just before serving.'
 advancePrep:
-  - dry-uncovered-8-to-24-hours
+  - season-ahead
 learning:
   techniques:
     - browning

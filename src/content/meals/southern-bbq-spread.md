@@ -20,7 +20,7 @@ totalActiveTime: 50 min
 totalTime: 11 hr 30 min
 overallDifficulty: easy
 cuisines: [American, Southern]
-occasions: [entertaining, summer, potluck]
+occasions: [entertaining, potluck]
 seasons: [spring, summer]
 nutritionalDensity: hearty
 servings: '8'

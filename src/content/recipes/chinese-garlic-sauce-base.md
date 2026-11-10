@@ -14,7 +14,8 @@ flavorProfile:
   - umami
   - sweet
 cuisines:
-  - Chinese-American-inspired
+  - Chinese
+  - American
 role: condiment
 vibe: quick
 prepTime: 10 min
@@ -27,6 +28,7 @@ nutritionalDensity: light
 leftovers: good
 advancePrep:
   - make-ahead
+  - freeze-ahead
 pairsWith:
   - eggplant-with-garlic-sauce
   - steamed-broccoli

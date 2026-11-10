@@ -44,6 +44,7 @@ nutritionalDensity: moderate
 leftovers: good
 advancePrep:
   - make-ahead
+  - freeze-ahead
 learning:
   techniques:
     - temperature

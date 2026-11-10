@@ -11,6 +11,8 @@ flavorProfile:
   - rich
 cuisines:
   - American
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: holiday
 prepTime: 15 min

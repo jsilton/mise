@@ -47,7 +47,6 @@ ingredients:
   - 'fine salt, to taste'
 seasons:
   - summer
-  - year-round
 nutritionalDensity: moderate
 description: >-
   Skillet-browned sweet corn tossed with lime, ancho chile and cotija in a

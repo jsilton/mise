@@ -29,6 +29,17 @@ ingredients:
 sourceUrl: 'https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/'
 cuisines:
   - American
+flavorProfile:
+  - sweet
+  - rich
+  - nutty
+occasions:
+  - comfort-food
+  - kid-friendly
+dietary:
+  - vegetarian
+advancePrep:
+  - freeze-ahead
 learning:
   techniques:
     - leavening

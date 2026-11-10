@@ -11,6 +11,8 @@ flavorProfile:
   - rich
 cuisines:
   - Italian
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 20 min
@@ -206,7 +208,7 @@ learning:
         tender in about 25 minutes.
     - ingredient: Pancetta
       alternative: Unsmoked bacon
-      effect: 'Bacon works, but smoked bacon adds a smoky taste the original doesn''t have.'
+      effect: "Bacon works, but smoked bacon adds a smoky taste the original doesn't have."
     - ingredient: Pecorino Romano
       alternative: Parmigiano-Reggiano
       effect: 'Milder and less salty, so taste before you add more salt.'

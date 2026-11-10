@@ -15,7 +15,10 @@ flavorProfile:
   - rich
   - herbaceous
 cuisines:
-  - Italian-American
+  - Italian
+  - American
+dietary:
+  - vegetarian-option
 role: side
 vibe: comfort
 prepTime: 10 min

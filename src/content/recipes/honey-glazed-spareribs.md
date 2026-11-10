@@ -7,9 +7,6 @@ difficulty: easy
 cookingMethods:
   - marinate
   - steam
-  - simmer
-  - boil
-  - blend
   - broil
 occasions:
   - entertaining
@@ -28,9 +25,9 @@ cookTime: 1 hr 20 min
 totalTime: 2 hr 20 min
 advancePrep:
   - components-ahead
+  - freeze-ahead
 servings: 4 portions
 seasons:
-  - year-round
   - summer
 nutritionalDensity: hearty
 leftovers: excellent

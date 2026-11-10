@@ -49,6 +49,7 @@ description: >-
   rest.
 advancePrep:
   - cook-ahead
+  - freeze-ahead
 learning:
   techniques:
     - starch

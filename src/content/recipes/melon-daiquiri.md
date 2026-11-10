@@ -11,6 +11,9 @@ flavorProfile:
   - acidic
 cuisines:
   - Caribbean
+dietary:
+  - vegan
+  - gluten-free
 role: drink
 vibe: quick
 prepTime: 10 min

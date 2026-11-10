@@ -4,7 +4,7 @@ title: Crispy Oven Zucchini Fries
 difficulty: easy
 cookingMethods:
   - bake
-dietary: []
+dietary: [vegetarian-option]
 occasions:
   - weeknight
   - kid-friendly

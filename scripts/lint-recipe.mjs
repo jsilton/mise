@@ -306,6 +306,8 @@ function lintRecipe(filePath) {
         if (dairy === 'cream') {
           checkLine = checkLine.split('cream of coconut').join('').split('coconut cream').join('');
         }
+        // Butternut squash is a vegetable, not butter.
+        if (dairy === 'butter') checkLine = checkLine.split('butternut').join('');
         return checkLine.includes(dairy);
       });
       if (found) {
@@ -326,7 +328,13 @@ function lintRecipe(filePath) {
     for (const gluten of GLUTEN_INGREDIENTS) {
       const found = ingredientLines.find((line) => {
         if (line.startsWith('---')) return false;
-        const checkLine = gluten === 'flour' ? line.replace(GLUTEN_FREE_FLOURS, '') : line;
+        // Pepitas are pumpkin seeds, not pita.
+        const checkLine =
+          gluten === 'flour'
+            ? line.replace(GLUTEN_FREE_FLOURS, '')
+            : gluten === 'pita'
+              ? line.replace(/pepitas?/g, '')
+              : line;
         return checkLine.includes(gluten);
       });
       if (found) {

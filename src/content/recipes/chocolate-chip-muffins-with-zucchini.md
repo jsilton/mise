@@ -25,6 +25,8 @@ flavorProfile:
   - nutty
 cuisines:
   - American
+advancePrep:
+  - freeze-ahead
 role: side
 vibe: nutritious
 prepTime: 15 min

@@ -12,6 +12,8 @@ occasions:
   - weeknight
   - comfort-food
 flavorProfile:
+  - spicy
+  - savory
   - sweet
   - rich
 cuisines:

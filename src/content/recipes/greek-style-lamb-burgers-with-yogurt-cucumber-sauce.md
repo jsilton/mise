@@ -12,7 +12,7 @@ flavorProfile:
   - rich
   - herbaceous
 cuisines:
-  - Greek-inspired
+  - Greek
 role: main
 vibe: comfort
 prepTime: 25 min

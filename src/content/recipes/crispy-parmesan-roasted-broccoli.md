@@ -6,7 +6,7 @@ difficulty: easy
 cookingMethods:
   - roast
 dietary:
-  - vegetarian
+  - vegetarian-option
   - gluten-free
 occasions:
   - weeknight

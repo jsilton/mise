@@ -5,14 +5,15 @@ role: main
 vibe: nutritious
 difficulty: easy
 cuisines:
-  - Greek-inspired
-  - Mediterranean-inspired
+  - Greek
+  - Mediterranean
 occasions:
   - weeknight
   - entertaining
   - meal-prep
 cookingMethods:
   - roast
+  - marinate
 flavorProfile:
   - savory
   - acidic
@@ -20,8 +21,7 @@ flavorProfile:
 prepTime: 15 min
 cookTime: 35 min
 totalTime: 1 hr 20 min
-advancePrep:
-  - marinate
+advancePrep: []
 servings: '4'
 pairsWith:
   - warm-pita-bread

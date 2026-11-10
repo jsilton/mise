@@ -10,7 +10,7 @@ totalActiveTime: 1 hr 10 min
 totalTime: 1 hr 40 min
 overallDifficulty: easy
 cuisines:
-  - Tex-Mex
+  - Mexican
   - American
 occasions:
   - comfort-food

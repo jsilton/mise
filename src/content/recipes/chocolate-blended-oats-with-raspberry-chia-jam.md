@@ -7,9 +7,9 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - meal-prep
   - snack
-  - weekend-project
 seasons:
   - year-round
 nutritionalDensity: moderate
@@ -20,8 +20,8 @@ equipment:
   - blender
 flavorProfile:
   - sweet
-  - acidic
-  - umami
+  - rich
+  - tangy
 cuisines:
   - American
 role: main

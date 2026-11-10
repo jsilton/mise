@@ -16,6 +16,8 @@ flavorProfile:
   - herbaceous
 cuisines:
   - French
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: technical
 prepTime: 30 min

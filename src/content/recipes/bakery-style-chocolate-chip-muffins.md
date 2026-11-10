@@ -7,6 +7,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - kid-friendly
   - weekend-project
   - comfort-food
@@ -21,6 +22,8 @@ flavorProfile:
   - rich
 cuisines:
   - American
+advancePrep:
+  - freeze-ahead
 role: side
 vibe: technical
 prepTime: 25 min

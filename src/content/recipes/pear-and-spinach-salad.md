@@ -13,7 +13,10 @@ flavorProfile:
   - sweet
   - acidic
 cuisines:
-  - Mediterranean
+  - American
+dietary:
+  - vegetarian
+  - gluten-free
 role: side
 vibe: nutritious
 leftovers: poor

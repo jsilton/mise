@@ -20,7 +20,7 @@ flavorProfile:
   - acidic
   - umami
 cuisines:
-  - Mexican-inspired
+  - Mexican
 role: main
 vibe: comfort
 prepTime: 30 min

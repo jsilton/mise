@@ -14,6 +14,7 @@ flavorProfile:
   - umami
 cuisines:
   - Korean
+vibe: quick
 role: main
 prepTime: 15 min
 cookTime: 10 min
@@ -43,7 +44,6 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 advancePrep:
-  - marinate-overnight
   - freeze-ahead
 equipment:
   - heavy-skillet-or-wok

@@ -11,7 +11,8 @@ occasions:
   - holiday
 flavorProfile:
   - sweet
-  - acidic
+  - warm
+  - aromatic
 cuisines:
   - American
 role: drink

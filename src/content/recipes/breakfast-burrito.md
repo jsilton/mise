@@ -7,7 +7,6 @@ cookingMethods:
   - toast
 occasions:
   - breakfast
-  - weeknight
   - meal-prep
   - quick-lunch
 flavorProfile:

@@ -4,10 +4,8 @@ title: Skillet Biscuits with Berries
 difficulty: easy
 cookingMethods:
   - simmer
-  - boil
   - steam
   - broil
-  - no-cook
 dietary:
   - vegetarian
 occasions:

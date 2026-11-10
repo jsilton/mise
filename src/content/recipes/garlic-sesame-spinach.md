@@ -13,6 +13,9 @@ occasions:
   - light-and-fresh
 cuisines:
   - Korean
+flavorProfile:
+  - nutty
+  - savory
 role: side
 vibe: quick
 leftovers: good

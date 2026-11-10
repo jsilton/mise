@@ -32,6 +32,12 @@ ingredients:
 sourceUrl: 'https://thewoksoflife.com/mongolian-chicken/'
 cuisines:
   - Chinese
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+occasions:
+  - weeknight
 pairsWith:
   - steamed-white-rice
   - steamed-bok-choy-with-oyster-sauce

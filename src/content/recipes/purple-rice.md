@@ -15,6 +15,8 @@ scaling:
     for this pot. Make another batch for more portions.
 cuisines:
   - American
+advancePrep:
+  - freeze-ahead
 cookingMethods:
   - simmer
   - steam

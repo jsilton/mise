@@ -34,7 +34,6 @@ flavorProfile:
 seasons:
   - spring
   - summer
-  - year-round
 nutritionalDensity: light
 leftovers: poor
 advancePrep:

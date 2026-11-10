@@ -9,7 +9,6 @@ totalCookTime: 1 hr 30 min
 totalActiveTime: 1 hr 30 min
 overallDifficulty: intermediate
 cuisines:
-  - Moroccan-inspired
   - North African
 occasions:
   - family-meal
@@ -20,7 +19,6 @@ occasions:
 seasons:
   - fall
   - winter
-  - year-round
 nutritionalDensity: hearty
 servings: '6'
 totalTime: 2 hr 15 min

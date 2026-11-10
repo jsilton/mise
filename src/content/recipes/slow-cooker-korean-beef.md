@@ -15,6 +15,8 @@ flavorProfile:
   - umami
 cuisines:
   - Korean
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 45 min

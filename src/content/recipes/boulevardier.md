@@ -6,7 +6,7 @@ cookTime: 0 min
 totalTime: 5 min
 servings: 1 portion
 role: drink
-vibe: technical
+vibe: quick
 difficulty: easy
 cuisines:
   - American
@@ -16,7 +16,6 @@ occasions:
   - date-night
   - comfort-food
 seasons:
-  - year-round
   - fall
   - winter
 flavorProfile:

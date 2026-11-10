@@ -9,6 +9,11 @@ occasions:
   - weekend-project
 cuisines:
   - Chinese
+flavorProfile:
+  - neutral
+  - mild
+dietary:
+  - vegetarian
 role: base
 vibe: technical
 prepTime: 1 hr

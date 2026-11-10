@@ -13,6 +13,8 @@ flavorProfile:
   - bright
 cuisines:
   - American
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 20 min

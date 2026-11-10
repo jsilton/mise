@@ -12,7 +12,7 @@ totalActiveTime: 1 hr 30 min
 totalTime: 13 hr 30 min
 overallDifficulty: hard
 cuisines: [Japanese]
-occasions: [saturday, project, special-occasion, learning]
+occasions: [weekend-project, special-occasion]
 seasons: [fall, winter]
 nutritionalDensity: hearty
 servings: '4'

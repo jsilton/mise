@@ -45,6 +45,7 @@ nutritionalDensity: moderate
 leftovers: excellent
 advancePrep:
   - cook-ahead
+  - freeze-ahead
 source: 'Adapted from Chef Kriger, Camp Micah'
 sourceUrl: 'https://campmicah.com/chef-krigers-recipe-shabbat-brisket/'
 equipment:

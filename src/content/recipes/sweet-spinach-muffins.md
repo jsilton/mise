@@ -8,13 +8,16 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - kid-friendly
 flavorProfile:
   - sweet
   - rich
 cuisines:
   - American
-role: main
+advancePrep:
+  - freeze-ahead
+role: side
 vibe: quick
 prepTime: 10 min
 cookTime: 20 min

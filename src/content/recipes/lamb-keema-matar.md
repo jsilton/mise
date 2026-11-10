@@ -18,6 +18,8 @@ flavorProfile:
   - rich
 cuisines:
   - Indian
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: quick
 prepTime: 10 min

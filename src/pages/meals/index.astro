@@ -41,7 +41,7 @@ const PICKS = [
     key: 'family',
     label: 'Family dinner',
     test: (m: (typeof meals)[number]) =>
-      has(m.data.occasions, 'family', 'family-meal', 'kids-approved', 'sunday-dinner'),
+      has(m.data.occasions, 'family-meal', 'kid-friendly', 'sunday-dinner'),
   },
   {
     key: 'company',
@@ -59,7 +59,7 @@ const PICKS = [
   {
     key: 'comfort',
     label: 'Comfort',
-    test: (m: (typeof meals)[number]) => has(m.data.occasions, 'comfort-food', 'comfort'),
+    test: (m: (typeof meals)[number]) => has(m.data.occasions, 'comfort-food'),
   },
   {
     key: 'light',

@@ -13,7 +13,7 @@ totalTime: '50 min, plus 2 hr marinating'
 overallDifficulty: easy
 cuisines: [American]
 occasions: [weeknight, everyday, kid-friendly]
-seasons: [summer, year-round]
+seasons: [summer]
 nutritionalDensity: moderate
 servings: '5'
 review:

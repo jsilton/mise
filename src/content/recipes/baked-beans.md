@@ -40,6 +40,7 @@ leftovers: excellent
 advancePrep:
   - overnight-soak
   - make-ahead
+  - freeze-ahead
 equipment:
   - dutch-oven
 pairsWith:

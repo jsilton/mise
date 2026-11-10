@@ -9,7 +9,7 @@ dietary:
   - vegetarian
   - gluten-free
 occasions:
-  - weeknight
+  - breakfast
   - weekend-brunch
   - quick-lunch
 flavorProfile:

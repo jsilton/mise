@@ -19,7 +19,7 @@ flavorProfile:
   - acidic
   - fresh
 cuisines:
-  - Mediterranean-inspired
+  - Mediterranean
 role: side
 vibe: quick
 seasons:

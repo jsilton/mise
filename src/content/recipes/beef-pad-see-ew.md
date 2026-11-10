@@ -2,7 +2,7 @@
 miseId: ce45f7eb-1de2-4a74-8d73-47abe5de6632
 title: Beef Pad See Ew
 role: main
-vibe: technical
+vibe: quick
 difficulty: easy
 prepTime: 20 min
 cookTime: 15 min
@@ -40,6 +40,12 @@ pairingNotes:
   thai-mango-salad: 'A bright, sour salad against the sweet, dark noodles.'
 cuisines:
   - Thai
+flavorProfile:
+  - savory
+  - sweet
+  - umami
+occasions:
+  - weeknight
 formula:
   version: 1
   yield:

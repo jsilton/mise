@@ -45,6 +45,7 @@ nutritionalDensity: moderate
 leftovers: excellent
 advancePrep:
   - chill-to-set
+  - freeze-ahead
 source: Adapted from Miriam Szokovski
 sourceUrl: >-
   https://www.chabad.org/recipes/recipe_cdo/aid/2635033/jewish/Miriams-Melt-in-Your-Mouth-Rosh-Hashanah-Brisket.htm

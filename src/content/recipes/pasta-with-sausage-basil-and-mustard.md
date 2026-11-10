@@ -25,7 +25,6 @@ cookTime: 30 min
 totalTime: 40 min
 servings: '4'
 seasons:
-  - year-round
   - fall
   - winter
 nutritionalDensity: hearty
@@ -47,7 +46,7 @@ ingredients:
   - '1 cup fresh basil, thinly sliced'
   - 'kosher salt and black pepper, to taste'
   - 'Parmesan, for serving'
-origin: Italy
+origin: British home cooking
 source: Adapted from Nigel Slater in Food & Wine
 equipment:
   - large-pasta-pot

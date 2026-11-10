@@ -19,7 +19,6 @@ occasions:
 flavorProfile:
   - sweet
   - rich
-  - acidic
 cuisines:
   - American
 role: dessert
@@ -35,6 +34,7 @@ leftovers: good
 advancePrep:
   - make-ahead
   - chill-to-set
+  - freeze-ahead
 equipment:
   - 9-inch-springform-pan
   - rimmed-baking-sheet

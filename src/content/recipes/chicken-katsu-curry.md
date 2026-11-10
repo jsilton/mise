@@ -25,6 +25,7 @@ nutritionalDensity: hearty
 leftovers: good
 advancePrep:
   - make-ahead-sauce
+  - freeze-ahead
 equipment:
   - 12-inch-deep-skillet
   - saucepan

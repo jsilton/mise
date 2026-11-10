@@ -5,6 +5,7 @@ difficulty: easy
 cookingMethods:
   - grill
   - no-cook
+  - marinate
 occasions:
   - weeknight
   - meal-prep
@@ -18,8 +19,7 @@ vibe: nutritious
 prepTime: 20 min
 cookTime: 15 min
 totalTime: 50 min
-advancePrep:
-  - marinate
+advancePrep: []
 servings: 4 portions
 pairsWith:
   - tzatziki-sauce

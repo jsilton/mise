@@ -7,6 +7,7 @@ cookingMethods:
   - no-cook
 dietary:
   - nut-free
+  - vegetarian
 occasions:
   - light-and-fresh
   - quick-lunch

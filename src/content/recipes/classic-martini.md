@@ -25,6 +25,9 @@ flavorProfile:
   - clean
 cuisines:
   - American
+dietary:
+  - vegan
+  - gluten-free
 role: drink
 vibe: technical
 prepTime: 5 min

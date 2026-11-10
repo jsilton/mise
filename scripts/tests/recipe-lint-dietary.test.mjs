@@ -73,3 +73,29 @@ test('gluten-free lint allows naturally gluten-free and labeled gluten-free flou
     fs.rmSync(dir, { recursive: true, force: true });
   }
 });
+
+test('dietary lint does not read butternut as butter or pepitas as pita', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'mise-lint-words-'));
+  try {
+    for (const [ingredient, flagged] of [
+      ['2 cups butternut squash, cubed', false],
+      ['1/4 cup toasted pepitas', false],
+      ['2 tbsp butter', true],
+      ['4 pita breads', true],
+      ['2 cups butternut squash, roasted in 2 tbsp butter', true],
+      ['1/4 cup pepitas, with warm pita for serving', true],
+    ]) {
+      const file = path.join(dir, 'salad.md');
+      fs.writeFileSync(
+        file,
+        `---\ntitle: Salad\ndietary: [vegan, gluten-free]\ningredients:\n  - "${ingredient}"\n---\n\n## Chef's Note\n\nRoast the squash until the edges brown and the centers are tender.\n\n## Directions\n\n1. Roast the squash.\n2. Toss and serve.\n`
+      );
+      const result = spawnSync(process.execPath, ['scripts/lint-recipe.mjs', file], {
+        encoding: 'utf8',
+      });
+      assert.equal(result.status, flagged ? 1 : 0, ingredient + result.stdout + result.stderr);
+    }
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+});

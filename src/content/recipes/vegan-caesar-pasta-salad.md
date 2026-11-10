@@ -16,6 +16,10 @@ occasions:
   - potluck
 cuisines:
   - Italian
+flavorProfile:
+  - tangy
+  - savory
+  - umami
 role: side
 vibe: nutritious
 prepTime: 20 min
@@ -25,7 +29,6 @@ servings: '4'
 seasons:
   - spring
   - summer
-  - year-round
 nutritionalDensity: light
 leftovers: good
 equipment:

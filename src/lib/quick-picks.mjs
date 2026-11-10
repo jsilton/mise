@@ -1,6 +1,7 @@
 // Quick picks: the everyday questions a cook asks ("something quick", "the kids will eat it").
 // They combine, so "Weeknight" plus "Vegetarian" narrows to both.
 import { timeBand } from './time-band.mjs';
+import { cuisineGroups, cuisineGroupLabel, dietaryFilterKeys } from './tag-vocabulary.mjs';
 
 const has = (list, ...keys) => keys.some((k) => (list || []).includes(k));
 
@@ -11,13 +12,23 @@ export const QUICK_PICKS = [
   {
     key: 'veg',
     label: 'Vegetarian',
-    test: (d) => d.role !== 'drink' && has(d.dietary, 'vegetarian', 'vegan'),
+    test: (d) => d.role !== 'drink' && dietaryFilterKeys(d.dietary).includes('vegetarian'),
+  },
+  {
+    key: 'breakfast',
+    label: 'Breakfast',
+    test: (d) => has(d.occasions, 'breakfast', 'weekend-brunch'),
   },
   { key: 'kids', label: 'Kid friendly', test: (d) => has(d.occasions, 'kid-friendly') },
   {
     key: 'ahead',
     label: 'Make ahead',
     test: (d) => has(d.occasions, 'meal-prep', 'make-ahead'),
+  },
+  {
+    key: 'freezer',
+    label: 'Freezer friendly',
+    test: (d) => d.role !== 'drink' && has(d.advancePrep, 'freeze-ahead'),
   },
   {
     key: 'comfort',
@@ -60,10 +71,12 @@ export function countPicks(recipes) {
   for (const { data } of recipes) {
     for (const k of quickPicksFor(data)) picks[k]++;
     if (data.role in courses) courses[data.role]++;
-    for (const c of data.cuisines || []) cuisines[c] = (cuisines[c] || 0) + 1;
+    for (const c of cuisineGroups(data.cuisines)) cuisines[c] = (cuisines[c] || 0) + 1;
   }
+  // Each entry is [filter value, count, label]. Cuisines are counted by filter group.
   const topCuisines = Object.entries(cuisines)
     .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-    .slice(0, 16);
+    .slice(0, 16)
+    .map(([key, n]) => [key, n, cuisineGroupLabel(key)]);
   return { picks, courses, topCuisines };
 }

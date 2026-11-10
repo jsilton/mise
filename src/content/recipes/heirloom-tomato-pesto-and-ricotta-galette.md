@@ -5,7 +5,7 @@ difficulty: intermediate
 cookingMethods:
   - bake
 dietary:
-  - vegetarian
+  - vegetarian-option
 occasions:
   - entertaining
   - weekend-project

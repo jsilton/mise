@@ -19,8 +19,7 @@ vibe: comfort
 prepTime: 30 min
 cookTime: 40 min
 totalTime: '1 hr 10 min, plus 2 hr cooling'
-advancePrep:
-  - cool-completely
+advancePrep: [freeze-ahead]
 servings: 48 pieces
 ingredients:
   - '--- Brownies ---'

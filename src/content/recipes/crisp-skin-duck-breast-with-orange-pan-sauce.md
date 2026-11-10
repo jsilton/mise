@@ -19,6 +19,8 @@ pairingNotes:
 cookingMethods:
   - pan-fry
   - simmer
+cuisines:
+  - French
 dietary:
   - egg-free
   - nut-free

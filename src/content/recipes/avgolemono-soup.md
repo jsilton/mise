@@ -22,9 +22,8 @@ cookTime: 25 min
 totalTime: 35 min
 servings: '4'
 seasons:
-  - year-round
-  - winter
   - spring
+  - winter
 nutritionalDensity: moderate
 leftovers: good
 pairsWith:

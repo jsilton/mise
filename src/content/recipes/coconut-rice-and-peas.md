@@ -37,6 +37,7 @@ leftovers: good
 advancePrep:
   - overnight-soak
   - cook-ahead
+  - freeze-ahead
 equipment:
   - large-heavy-pot
   - 3-to-4-quart-heavy-pot-with-lid

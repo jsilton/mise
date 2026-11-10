@@ -25,7 +25,7 @@ totalTime: 4 hr 55 min
 overallDifficulty: easy
 cuisines: [Mexican]
 occasions: [weekend-project, meal-prep, comfort-food]
-seasons: [spring, summer, fall, winter]
+seasons: [year-round]
 nutritionalDensity: hearty
 servings: '6'
 review:

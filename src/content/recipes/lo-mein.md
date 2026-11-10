@@ -10,8 +10,9 @@ cookTime: 35 min
 totalTime: 1 hr 5 min
 servings: '5'
 cuisines:
-  - Chinese-American
-  - Cantonese-inspired
+  - Chinese
+  - American
+  - Cantonese
 cookingMethods:
   - stir-fry
   - boil

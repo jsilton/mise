@@ -26,8 +26,7 @@ vibe: quick
 prepTime: 10 min
 cookTime: 5 min
 totalTime: '15 min, plus 30 min cooling'
-advancePrep:
-  - cool-completely
+advancePrep: []
 servings: 12 pieces
 ingredients:
   - 'butter or cooking spray, for the pan and spatula'

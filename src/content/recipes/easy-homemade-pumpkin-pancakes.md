@@ -7,13 +7,16 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - comfort-food
 flavorProfile:
   - sweet
-  - savory
+  - warm
   - rich
 cuisines:
   - American
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 10 min
@@ -41,7 +44,8 @@ ingredients:
   - 'salted butter and maple syrup, for serving'
 origin: United States
 seasons:
-  - year-round
+  - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: good
 source: Adapted from Inspired Taste

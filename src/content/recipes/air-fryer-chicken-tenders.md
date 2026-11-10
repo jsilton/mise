@@ -34,6 +34,13 @@ ingredients:
 sourceUrl: 'https://www.delish.com/cooking/recipe-ideas/a32936658/air-fryer-chicken-tenders-recipe/'
 cuisines:
   - American
+flavorProfile:
+  - crispy
+  - savory
+occasions:
+  - weeknight
+  - kid-friendly
+  - family-meal
 equipment:
   - air-fryer
   - shallow-dishes

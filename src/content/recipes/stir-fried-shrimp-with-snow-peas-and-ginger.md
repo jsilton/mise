@@ -23,7 +23,6 @@ totalTime: 35 min
 seasons:
   - spring
   - summer
-  - year-round
 nutritionalDensity: light
 leftovers: good
 equipment:

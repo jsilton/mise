@@ -8,12 +8,11 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
-  - weeknight
+  - breakfast
   - comfort-food
 seasons:
   - fall
   - winter
-  - year-round
 nutritionalDensity: moderate
 leftovers: good
 equipment:
@@ -21,7 +20,6 @@ equipment:
   - wooden-spoon
 flavorProfile:
   - sweet
-  - acidic
   - rich
 cuisines:
   - American

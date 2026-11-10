@@ -35,6 +35,11 @@ pairingNotes:
   steamed-bok-choy-with-oyster-sauce: More greens for a fuller Chinese supper.
 cuisines:
   - Chinese
+flavorProfile:
+  - savory
+  - umami
+occasions:
+  - weeknight
 learning:
   techniques:
     - stir-frying

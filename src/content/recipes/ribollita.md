@@ -5,6 +5,10 @@ vibe: comfort
 difficulty: intermediate
 cuisines:
   - Italian
+flavorProfile:
+  - savory
+  - earthy
+  - herbaceous
 categories:
   - Italian
   - Main Course
@@ -66,6 +70,7 @@ leftovers: excellent
 advancePrep:
   - overnight-soak
   - cook-ahead
+  - freeze-ahead
 equipment:
   - large-heavy-soup-pot
   - bean-pot

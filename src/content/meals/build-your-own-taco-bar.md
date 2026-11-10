@@ -9,10 +9,10 @@ totalCookTime: 35 min
 totalActiveTime: 45 min
 overallDifficulty: easy
 cuisines:
-  - Mexican-inspired
+  - Mexican
 occasions:
   - weeknight
-  - family
+  - family-meal
   - entertaining
 seasons:
   - year-round

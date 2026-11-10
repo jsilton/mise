@@ -12,7 +12,8 @@ flavorProfile:
   - acidic
   - rich
 cuisines:
-  - Tex-Mex
+  - Mexican
+  - American
 role: main
 vibe: comfort
 prepTime: 20 min

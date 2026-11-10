@@ -17,6 +17,8 @@ flavorProfile:
   - herbaceous
 cuisines:
   - Italian
+dietary:
+  - vegetarian-option
 role: main
 vibe: nutritious
 prepTime: 10 min
@@ -26,7 +28,6 @@ servings: '4'
 seasons:
   - spring
   - summer
-  - year-round
 nutritionalDensity: light
 leftovers: poor
 equipment:

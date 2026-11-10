@@ -9,8 +9,6 @@ occasions:
   - weekend-project
   - entertaining
 flavorProfile:
-  - spicy
-  - sweet
   - savory
   - umami
 cuisines:

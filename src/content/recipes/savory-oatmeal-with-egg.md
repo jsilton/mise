@@ -6,7 +6,7 @@ cookingMethods:
   - simmer
   - fry
 occasions:
-  - weeknight
+  - breakfast
   - comfort-food
 flavorProfile:
   - savory
@@ -19,7 +19,6 @@ vibe: nutritious
 seasons:
   - fall
   - winter
-  - year-round
 nutritionalDensity: hearty
 leftovers: poor
 equipment:

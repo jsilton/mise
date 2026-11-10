@@ -12,11 +12,12 @@ occasions:
 flavorProfile:
   - sweet
   - savory
-  - acidic
   - umami
   - rich
 cuisines:
   - American
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 20 min

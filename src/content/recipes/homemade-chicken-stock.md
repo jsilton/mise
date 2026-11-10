@@ -19,6 +19,8 @@ flavorProfile:
 cuisines:
   - French
   - American
+advancePrep:
+  - freeze-ahead
 role: base
 vibe: comfort
 prepTime: 15 min
@@ -26,7 +28,6 @@ cookTime: 4 hr 30 min
 totalTime: '4 hr 45 min, plus overnight chilling'
 servings: 12 cups
 seasons:
-  - year-round
   - fall
   - winter
 nutritionalDensity: moderate

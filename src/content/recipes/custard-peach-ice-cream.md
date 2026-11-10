@@ -21,7 +21,6 @@ advancePrep:
   - freeze-ahead
 flavorProfile:
   - sweet
-  - acidic
   - rich
 cuisines:
   - American

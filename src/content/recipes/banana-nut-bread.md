@@ -7,12 +7,15 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - comfort-food
 flavorProfile:
   - sweet
   - rich
 cuisines:
   - American
+advancePrep:
+  - freeze-ahead
 role: side
 vibe: comfort
 prepTime: 15 min

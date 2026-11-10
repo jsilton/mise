@@ -6,6 +6,7 @@ cookingMethods:
   - bake
   - no-cook
 occasions:
+  - breakfast
   - meal-prep
   - quick-lunch
   - snack
@@ -17,6 +18,7 @@ equipment:
   - muffin-tin
 advancePrep:
   - make-ahead
+  - freeze-ahead
 flavorProfile:
   - savory
 cuisines:

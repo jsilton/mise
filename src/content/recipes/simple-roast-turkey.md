@@ -38,7 +38,7 @@ origin: United States
 seasons: [fall, winter]
 nutritionalDensity: hearty
 leftovers: good
-advancePrep: [brine-overnight]
+advancePrep: [brine-overnight, freeze-ahead]
 scaling:
   mode: fixed
   reason: >-

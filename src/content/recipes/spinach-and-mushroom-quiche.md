@@ -5,8 +5,9 @@ cookingMethods:
   - bake
   - saute
 dietary:
-  - vegetarian
+  - vegetarian-option
 occasions:
+  - breakfast
   - comfort-food
   - weekend-brunch
   - make-ahead
@@ -17,6 +18,8 @@ flavorProfile:
   - creamy
 cuisines:
   - French
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 25 min

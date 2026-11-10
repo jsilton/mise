@@ -15,7 +15,8 @@ flavorProfile:
   - acidic
   - umami
 cuisines:
-  - Chinese-American
+  - Chinese
+  - American
 role: main
 vibe: quick
 prepTime: 15 min

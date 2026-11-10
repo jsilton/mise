@@ -9,11 +9,11 @@ totalCookTime: 25 min
 totalActiveTime: 40 min
 overallDifficulty: easy
 cuisines:
-  - Tex-Mex
+  - Mexican
   - American
 occasions:
   - weeknight
-  - family
+  - family-meal
 seasons:
   - year-round
 nutritionalDensity: moderate

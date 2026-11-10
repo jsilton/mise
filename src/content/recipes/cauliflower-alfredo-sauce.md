@@ -9,6 +9,7 @@ cookingMethods:
   - blend
 dietary:
   - dairy-free-option
+  - vegetarian-option
 occasions:
   - weeknight
   - quick-lunch

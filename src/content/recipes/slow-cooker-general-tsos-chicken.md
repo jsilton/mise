@@ -15,7 +15,10 @@ flavorProfile:
   - acidic
   - umami
 cuisines:
-  - Chinese-American
+  - Chinese
+  - American
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 15 min

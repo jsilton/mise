@@ -3,10 +3,9 @@ miseId: af681778-f292-44b2-8a87-70f356b3e22d
 title: Beef Tenderloin Dogs with Corn Relish
 difficulty: easy
 cookingMethods:
-  - bake
-  - roast
+  - sear
   - grill
-  - no-cook
+  - char
 occasions:
   - entertaining
   - weekend-project
@@ -23,7 +22,7 @@ flavorProfile:
 cuisines:
   - American
 role: main
-vibe: technical
+vibe: quick
 prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min

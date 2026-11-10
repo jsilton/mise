@@ -9,7 +9,7 @@ totalCookTime: 45 min
 totalActiveTime: 1 hr
 totalTime: 1 hr 20 min
 overallDifficulty: intermediate
-cuisines: [Italian-American]
+cuisines: [Italian, American]
 occasions: [weeknight, date-night, entertaining]
 seasons: [year-round]
 nutritionalDensity: hearty

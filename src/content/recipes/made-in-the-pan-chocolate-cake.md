@@ -19,12 +19,11 @@ equipment:
   - baking-dish
 flavorProfile:
   - sweet
-  - acidic
   - rich
 cuisines:
   - American
 role: dessert
-vibe: technical
+vibe: comfort
 prepTime: 10 min
 cookTime: 30 min
 totalTime: '40 min, plus cooling'

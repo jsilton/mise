@@ -27,7 +27,6 @@ servings: 4 portions
 seasons:
   - spring
   - summer
-  - year-round
 nutritionalDensity: moderate
 leftovers: good
 pairsWith:
@@ -49,7 +48,7 @@ ingredients:
   - 3 cups baby spinach
   - '1/2 cup Parmesan, freshly grated'
   - 1/2 cup pasta cooking water
-origin: Italy
+origin: Italian-American home cooking
 source: Adapted from Two Peas & Their Pod
 equipment:
   - rimmed-half-sheet-pan

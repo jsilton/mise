@@ -17,7 +17,6 @@ cookingMethods:
   - toss
 dietary:
   - nut-free
-  - egg-free-option
 occasions:
   - weeknight
   - everyday
@@ -33,7 +32,6 @@ flavorProfile:
 seasons:
   - spring
   - summer
-  - year-round
 nutritionalDensity: moderate
 leftovers: good
 equipment:

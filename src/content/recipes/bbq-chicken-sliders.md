@@ -12,6 +12,7 @@ occasions:
   - weeknight
 cookingMethods:
   - broil
+  - marinate
 flavorProfile:
   - savory
   - sweet
@@ -19,8 +20,7 @@ flavorProfile:
 prepTime: 20 min
 cookTime: 25 min
 totalTime: '45 min, plus 30 min marinating'
-advancePrep:
-  - marinate
+advancePrep: []
 servings: 12 pieces
 pairsWith:
   - coleslaw

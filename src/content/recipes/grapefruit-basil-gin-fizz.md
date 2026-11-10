@@ -133,7 +133,7 @@ formula:
       text: 'Pour in {{ingredients}} and stir twice.'
     - id: finish
       title: Top with tonic
-      text: 'Top with {{ingredients}} and don''t stir again, so the drink keeps its fizz.'
+      text: "Top with {{ingredients}} and don't stir again, so the drink keeps its fizz."
     - id: bitters
       title: Add the bitters
       text: 'Shake {{ingredients}} onto the surface.'

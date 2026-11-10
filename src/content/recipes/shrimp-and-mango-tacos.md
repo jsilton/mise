@@ -39,7 +39,7 @@ ingredients:
   - 'kosher salt, to taste'
   - '--- Tortillas ---'
   - 8 corn tortillas
-origin: Mexico
+origin: Mexican-inspired home cooking
 seasons:
   - year-round
 nutritionalDensity: moderate

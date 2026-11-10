@@ -20,9 +20,6 @@ cuisines:
 role: side
 vibe: quick
 seasons:
-  - fall
-  - winter
-  - spring
   - year-round
 nutritionalDensity: light
 leftovers: good

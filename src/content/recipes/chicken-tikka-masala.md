@@ -16,7 +16,7 @@ flavorProfile: [aromatic, savory, tangy, rich]
 seasons: [year-round]
 nutritionalDensity: hearty
 leftovers: good
-advancePrep: [marinate-overnight, make-ahead-sauce]
+advancePrep: [marinate-overnight, make-ahead-sauce, freeze-ahead]
 equipment:
   - 5-to-6-quart-heavy-pot
   - 2-metal-rimmed-half-sheet-pans

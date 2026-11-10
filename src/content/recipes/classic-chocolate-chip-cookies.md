@@ -19,6 +19,7 @@ leftovers: excellent
 advancePrep:
   - make-ahead
   - chill-dough
+  - freeze-ahead
 flavorProfile:
   - sweet
   - rich

@@ -26,6 +26,15 @@ sourceUrl: >-
   https://www.foodnetwork.com/recipes/guy-fieri/falafel-in-pita-with-yogurt-sauce-recipe-1952260
 cuisines:
   - Mediterranean
+flavorProfile:
+  - tangy
+  - fresh
+  - herbaceous
+occasions:
+  - everyday
+dietary:
+  - vegetarian
+  - gluten-free
 pairsWith:
   - falafel
   - chicken-shawarma

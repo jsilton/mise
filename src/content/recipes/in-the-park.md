@@ -24,6 +24,13 @@ ingredients:
 rating: 5
 cuisines:
   - American
+flavorProfile:
+  - herbaceous
+  - bright
+  - bitter
+occasions:
+  - entertaining
+  - light-and-fresh
 learning:
   techniques:
     - temperature

@@ -12,6 +12,8 @@ flavorProfile:
   - acidic
 cuisines:
   - Jewish
+advancePrep:
+  - freeze-ahead
 role: base
 vibe: nutritious
 prepTime: 30 min

@@ -35,6 +35,7 @@ leftovers: good
 advancePrep:
   - make-ahead-sauce
   - components-ahead
+  - freeze-ahead
 equipment:
   - large-heavy-stockpot
   - noodle-pot

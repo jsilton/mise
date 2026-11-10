@@ -24,7 +24,6 @@ servings: '4'
 seasons:
   - fall
   - winter
-  - year-round
 nutritionalDensity: moderate
 leftovers: good
 pairsWith:

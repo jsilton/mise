@@ -27,7 +27,6 @@ vibe: nutritious
 seasons:
   - spring
   - summer
-  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
 advancePrep:

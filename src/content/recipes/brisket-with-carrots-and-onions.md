@@ -15,6 +15,8 @@ flavorProfile:
   - rich
 cuisines:
   - Jewish
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: holiday
 prepTime: 20 min

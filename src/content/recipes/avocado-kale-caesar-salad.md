@@ -26,6 +26,8 @@ flavorProfile:
   - rich
 cuisines:
   - American
+dietary:
+  - vegetarian-option
 role: side
 vibe: nutritious
 prepTime: 20 min

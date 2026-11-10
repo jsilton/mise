@@ -14,7 +14,6 @@ occasions:
   - light-and-fresh
 seasons:
   - fall
-  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
 equipment:
@@ -30,6 +29,9 @@ flavorProfile:
   - herbaceous
 cuisines:
   - American
+dietary:
+  - vegan
+  - gluten-free
 role: side
 vibe: nutritious
 prepTime: 20 min

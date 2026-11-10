@@ -6,12 +6,13 @@ difficulty: intermediate
 cookingMethods:
   - stir-fry
   - sear
+  - marinate
 occasions:
   - weeknight
   - comfort-food
 flavorProfile:
   - savory
-  - toasted
+  - smoky
   - umami
 cuisines:
   - Chinese
@@ -21,8 +22,7 @@ vibe: comfort
 prepTime: 30 min
 cookTime: 15 min
 totalTime: 45 min
-advancePrep:
-  - marinate
+advancePrep: []
 servings: '4'
 seasons:
   - year-round

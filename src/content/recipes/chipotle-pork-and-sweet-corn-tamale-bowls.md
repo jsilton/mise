@@ -15,6 +15,8 @@ flavorProfile:
   - smoky
 cuisines:
   - Mexican
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 15 min

@@ -16,7 +16,9 @@ equipment:
   - meat-mallet
   - instant-read-thermometer
 flavorProfile:
-  - acidic
+  - savory
+  - sweet
+  - herbaceous
   - rich
 cuisines:
   - American

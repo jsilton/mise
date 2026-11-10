@@ -6,7 +6,7 @@ cookingMethods:
   - boil
   - blend
 dietary:
-  - vegetarian
+  - vegetarian-option
 occasions:
   - weeknight
   - quick-lunch
@@ -22,6 +22,8 @@ flavorProfile:
   - herbaceous
 cuisines:
   - Italian
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: quick
 prepTime: 20 min

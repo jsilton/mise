@@ -8,11 +8,11 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - weekend-project
   - entertaining
 flavorProfile:
   - sweet
-  - acidic
   - rich
 cuisines:
   - German

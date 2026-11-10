@@ -10,10 +10,10 @@ occasions:
   - light-and-fresh
 flavorProfile:
   - savory
-  - toasted
+  - smoky
   - acidic
 cuisines:
-  - International
+  - American
 role: side
 vibe: quick
 leftovers: poor

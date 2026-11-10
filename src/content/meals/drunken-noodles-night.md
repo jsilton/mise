@@ -14,10 +14,7 @@ cuisines:
 occasions:
   - weeknight
 seasons:
-  - spring
-  - summer
-  - fall
-  - winter
+  - year-round
 nutritionalDensity: hearty
 servings: '4'
 totalTime: 60–65 min

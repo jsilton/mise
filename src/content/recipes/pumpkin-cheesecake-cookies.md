@@ -22,6 +22,7 @@ equipment:
   - cooling-rack
 advancePrep:
   - make-ahead
+  - freeze-ahead
 flavorProfile:
   - sweet
   - rich

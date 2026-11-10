@@ -15,6 +15,9 @@ flavorProfile:
   - acidic
 cuisines:
   - Indian
+dietary:
+  - vegan
+  - gluten-free
 role: main
 vibe: nutritious
 prepTime: 15 min

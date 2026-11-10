@@ -36,6 +36,12 @@ ingredients:
 sourceUrl: 'https://thewoksoflife.com/coconut-curry-shrimp/'
 cuisines:
   - Thai
+flavorProfile:
+  - spicy
+  - rich
+  - aromatic
+occasions:
+  - weeknight
 origin: Thailand
 learning:
   techniques:

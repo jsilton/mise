@@ -22,8 +22,11 @@ flavorProfile:
   - rich
 cuisines:
   - American
+dietary:
+  - vegetarian-option
+  - gluten-free
 role: side
-vibe: nutritious
+vibe: comfort
 prepTime: 10 min
 cookTime: 30 min
 totalTime: 40 min

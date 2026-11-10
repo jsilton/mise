@@ -24,7 +24,7 @@ totalActiveTime: 1 hr 30 min
 totalTime: 2 hr 30 min
 overallDifficulty: intermediate
 cuisines: [Italian, American]
-occasions: [weekend-project, comfort-food, kids-approved]
+occasions: [weekend-project, comfort-food, kid-friendly]
 seasons: [fall, winter]
 nutritionalDensity: hearty
 servings: '4'

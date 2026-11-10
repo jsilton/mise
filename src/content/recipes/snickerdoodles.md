@@ -22,6 +22,7 @@ cookTime: 8 min per sheet
 totalTime: '45 min, plus 30 min chilling'
 advancePrep:
   - chill-dough
+  - freeze-ahead
 servings: 70 pieces
 ingredients:
   - '--- Dough ---'

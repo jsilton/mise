@@ -27,7 +27,6 @@ cookTime: 10 min
 totalTime: 25 min
 servings: '4'
 seasons:
-  - year-round
   - fall
   - winter
 nutritionalDensity: light

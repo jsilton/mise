@@ -18,9 +18,9 @@ nutritionalDensity: hearty
 leftovers: excellent
 advancePrep:
   - make-ahead
+  - freeze-ahead
 flavorProfile:
   - sweet
-  - acidic
   - rich
 cuisines:
   - American

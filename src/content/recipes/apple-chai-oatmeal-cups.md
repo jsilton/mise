@@ -7,6 +7,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - meal-prep
   - kid-friendly
   - snack
@@ -17,6 +18,7 @@ nutritionalDensity: moderate
 leftovers: excellent
 advancePrep:
   - make-ahead
+  - freeze-ahead
 equipment:
   - muffin-tin
   - mixing-bowl

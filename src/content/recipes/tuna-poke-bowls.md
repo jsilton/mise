@@ -14,8 +14,8 @@ flavorProfile:
   - acidic
   - umami
 cuisines:
-  - Hawaiian-inspired
-  - Korean-inspired
+  - Hawaiian
+  - Korean
 role: main
 vibe: comfort
 prepTime: 30 min

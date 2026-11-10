@@ -13,7 +13,6 @@ occasions:
   - light-and-fresh
 seasons:
   - summer
-  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
 equipment:

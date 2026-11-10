@@ -22,14 +22,12 @@ cuisines:
 role: main
 vibe: comfort
 seasons:
-  - spring
-  - summer
-  - fall
-  - winter
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
 advancePrep:
   - season-ahead
+  - freeze-ahead
 equipment:
   - 6-quart-slow-cooker
   - instant-read-thermometer

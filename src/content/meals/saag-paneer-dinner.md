@@ -10,7 +10,7 @@ totalTime: 1 hr 35 min
 totalActiveTime: 1 hr 15 min
 overallDifficulty: intermediate
 cuisines: [Indian]
-occasions: [weekend-dinner, family-meal, comfort-food, vegetarian]
+occasions: [weekend-dinner, family-meal, comfort-food]
 seasons: [year-round]
 nutritionalDensity: hearty
 servings: '4'

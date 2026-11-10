@@ -22,6 +22,7 @@ equipment:
   - mixing-bowl
 advancePrep:
   - make-ahead
+  - freeze-ahead
 flavorProfile:
   - sweet
   - rich

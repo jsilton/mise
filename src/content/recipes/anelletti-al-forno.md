@@ -26,13 +26,13 @@ cookTime: 3 hr 15 min
 totalTime: 4 hr
 servings: 8 portions
 seasons:
-  - year-round
   - fall
   - winter
 nutritionalDensity: hearty
 leftovers: excellent
 advancePrep:
   - make-ahead
+  - freeze-ahead
 pairsWith:
   - everyday-arugula-salad
   - roasted-broccolini-with-lemon
@@ -370,7 +370,7 @@ learning:
       effect: Ditalini or small shells hold the ragù the same way as the little rings.
     - ingredient: primosale
       alternative: Mild provolone
-      effect: 'Melts the same way, with a little more tang than the fresh Sicilian sheep''s milk cheese.'
+      effect: "Melts the same way, with a little more tang than the fresh Sicilian sheep's milk cheese."
     - ingredient: caciocavallo
       alternative: Pecorino Romano
       effect: 'Sharper and saltier, so taste the ragù before adding more salt.'

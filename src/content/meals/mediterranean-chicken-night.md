@@ -7,8 +7,8 @@ totalCookTime: 35 min
 totalActiveTime: 1 hr 5 min
 overallDifficulty: easy
 cuisines:
-  - Greek-inspired
-  - Mediterranean-inspired
+  - Greek
+  - Mediterranean
 occasions:
   - weeknight
   - entertaining

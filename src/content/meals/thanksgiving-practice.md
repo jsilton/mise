@@ -11,7 +11,7 @@ totalCookTime: 3 hr 15 min
 totalActiveTime: 2 hr 30 min
 totalTime: 30 hr
 overallDifficulty: intermediate
-cuisines: [American, Italian-American]
+cuisines: [American, Italian]
 occasions: [holiday, entertaining]
 seasons: [fall, winter]
 nutritionalDensity: hearty

@@ -41,6 +41,16 @@ ingredients:
 sourceUrl: 'https://www.bakerita.com/miso-sesame-dense-bean-salad/'
 cuisines:
   - Asian
+flavorProfile:
+  - umami
+  - nutty
+  - tangy
+occasions:
+  - meal-prep
+  - quick-lunch
+  - light-and-fresh
+dietary:
+  - vegetarian
 learning:
   techniques:
     - seasoning

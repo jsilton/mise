@@ -26,6 +26,7 @@ nutritionalDensity: hearty
 leftovers: excellent
 advancePrep:
   - make-ahead
+  - freeze-ahead
 equipment:
   - medium-saucepan
   - cutting-board

@@ -17,6 +17,7 @@ flavorProfile:
 cuisines:
   - Korean
   - Mexican
+vibe: comfort
 role: main
 prepTime: 15 min
 cookTime: 10 min

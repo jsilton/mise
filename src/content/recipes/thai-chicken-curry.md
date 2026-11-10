@@ -39,7 +39,7 @@ ingredients:
   - '1 green bell pepper, cut into long strips'
   - '1 large yellow onion, cut into long strips'
   - '1/3 cup fresh Thai basil, chopped'
-origin: Thailand
+origin: Thai-inspired family recipe
 seasons:
   - year-round
 nutritionalDensity: moderate

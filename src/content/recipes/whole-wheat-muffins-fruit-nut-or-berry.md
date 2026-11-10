@@ -7,6 +7,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - meal-prep
   - kid-friendly
   - snack
@@ -22,7 +23,6 @@ advancePrep:
   - freeze-ahead
 flavorProfile:
   - sweet
-  - acidic
   - rich
 cuisines:
   - American

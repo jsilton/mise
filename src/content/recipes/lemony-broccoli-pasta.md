@@ -24,7 +24,6 @@ servings: '6'
 seasons:
   - spring
   - summer
-  - year-round
 nutritionalDensity: light
 leftovers: good
 pairsWith:

@@ -7,12 +7,11 @@ cookingMethods:
   - saute
   - no-cook
 occasions:
+  - breakfast
   - comfort-food
 flavorProfile:
-  - sweet
-  - acidic
+  - savory
   - rich
-  - herbaceous
 cuisines:
   - French
 role: main

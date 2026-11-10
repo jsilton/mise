@@ -21,7 +21,7 @@ totalTime: 50 min
 overallDifficulty: easy
 cuisines: [Italian, American]
 occasions: [weeknight, entertaining, light-and-fresh]
-seasons: [spring, summer, fall, winter]
+seasons: [year-round]
 nutritionalDensity: moderate
 servings: '4'
 review:

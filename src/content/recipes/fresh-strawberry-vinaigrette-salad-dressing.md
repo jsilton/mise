@@ -13,13 +13,16 @@ pairingNotes:
   arugula-feta-salad: Peppery arugula, berries and feta, dressed with this.
 flavorProfile: [sweet, acidic]
 cuisines: [American]
+dietary:
+  - vegetarian
+  - gluten-free
 role: condiment
 vibe: nutritious
 prepTime: 10 min
 cookTime: 0 min
 totalTime: '10 min, plus 30 min resting'
 servings: '4'
-advancePrep: [macerate]
+advancePrep: []
 ingredients:
   - '1 cup fresh strawberries, hulled and sliced'
   - 3 tbsp extra-virgin olive oil

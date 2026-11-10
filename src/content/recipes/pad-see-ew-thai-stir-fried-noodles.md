@@ -24,7 +24,7 @@ occasions:
 flavorProfile:
   - savory
   - sweet
-  - toasted
+  - caramelized
   - umami
 seasons:
   - year-round

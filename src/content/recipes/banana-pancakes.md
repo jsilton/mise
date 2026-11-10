@@ -8,6 +8,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - weekend-brunch
   - comfort-food
   - kid-friendly

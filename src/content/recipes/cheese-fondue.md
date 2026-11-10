@@ -5,7 +5,7 @@ difficulty: easy
 cookingMethods:
   - simmer
 dietary:
-  - vegetarian
+  - vegetarian-option
 occasions:
   - entertaining
   - weekend-project

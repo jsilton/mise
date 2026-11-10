@@ -32,6 +32,15 @@ ingredients:
 sourceUrl: 'https://allthehealthythings.com/sausage-breakfast-casserole/'
 cuisines:
   - American
+flavorProfile:
+  - savory
+  - sweet
+advancePrep:
+  - freeze-ahead
+occasions:
+  - breakfast
+  - weekend-brunch
+  - meal-prep
 learning:
   techniques:
     - temperature

@@ -18,7 +18,7 @@ servings: '4'
 seasons: [year-round]
 nutritionalDensity: hearty
 leftovers: good
-advancePrep: [cook-rice-ahead]
+advancePrep: [components-ahead]
 equipment: [2-quart-saucepan-with-lid, small-saucepan, 12-inch-skillet]
 pairsWith: [miso-soup]
 pairingNotes:

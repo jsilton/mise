@@ -8,7 +8,7 @@ difficulty: intermediate
 cookingMethods: [marinate, grill]
 occasions: [entertaining, family-meal, meal-prep]
 flavorProfile: [tangy, savory, aromatic]
-cuisines: [Middle Eastern-inspired]
+cuisines: [Middle Eastern]
 role: main
 vibe: nutritious
 prepTime: 35 min

@@ -1,7 +1,7 @@
 ---
 miseId: fbc3737d-86d5-4e38-bdeb-8bce09fd4c98
 title: Cast-Iron Buttermilk Biscuits
-role: base
+role: side
 vibe: comfort
 difficulty: easy
 prepTime: 20 min
@@ -29,6 +29,16 @@ ingredients:
 sourceUrl: 'https://butfirstwebrunch.com/cast-iron-biscuits/'
 cuisines:
   - American
+flavorProfile:
+  - buttery
+  - savory
+dietary:
+  - vegetarian
+advancePrep:
+  - freeze-ahead
+occasions:
+  - breakfast
+  - comfort-food
 learning:
   techniques:
     - leavening

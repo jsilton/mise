@@ -15,6 +15,8 @@ flavorProfile:
   - acidic
 cuisines:
   - Mexican
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: quick
 prepTime: 15 min

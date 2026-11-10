@@ -7,7 +7,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
-  - weeknight
+  - breakfast
   - light-and-fresh
   - quick-lunch
 flavorProfile:
@@ -21,7 +21,6 @@ vibe: nutritious
 seasons:
   - spring
   - summer
-  - year-round
 nutritionalDensity: moderate
 leftovers: poor
 prepTime: 5 min

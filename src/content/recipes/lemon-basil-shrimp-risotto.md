@@ -25,7 +25,6 @@ servings: 6 portions
 seasons:
   - spring
   - summer
-  - year-round
 nutritionalDensity: hearty
 leftovers: poor
 pairsWith:

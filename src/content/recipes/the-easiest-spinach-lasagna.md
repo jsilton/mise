@@ -5,7 +5,7 @@ difficulty: easy
 cookingMethods:
   - bake
 dietary:
-  - vegetarian
+  - vegetarian-option
 occasions:
   - weekend-project
   - entertaining
@@ -17,12 +17,13 @@ nutritionalDensity: hearty
 leftovers: excellent
 advancePrep:
   - make-ahead
+  - freeze-ahead
 flavorProfile:
   - umami
 cuisines:
   - Italian
 role: main
-vibe: technical
+vibe: comfort
 prepTime: 15 min
 cookTime: 55 min
 totalTime: 1 hr 20 min

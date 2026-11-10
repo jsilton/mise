@@ -16,18 +16,18 @@ flavorProfile:
   - rich
 cuisines:
   - Italian
+dietary:
+  - vegetarian-option
 role: side
 vibe: nutritious
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 30 min
-advancePrep:
-  - rest
+advancePrep: []
 servings: '4'
 seasons:
   - fall
   - winter
-  - year-round
 nutritionalDensity: light
 leftovers: poor
 pairsWith:

@@ -29,6 +29,16 @@ ingredients:
 rating: 5
 cuisines:
   - Italian
+flavorProfile:
+  - bright
+  - acidic
+  - fresh
+occasions:
+  - weeknight
+  - light-and-fresh
+dietary:
+  - vegan
+  - gluten-free
 equipment:
   - pot-with-steamer
   - mixing-bowl

@@ -7,7 +7,7 @@ cookingMethods:
   - boil
   - simmer
 dietary:
-  - vegetarian
+  - vegetarian-option
   - nut-free
 occasions:
   - date-night

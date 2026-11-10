@@ -8,15 +8,17 @@ cookingMethods:
   - simmer
   - boil
 dietary:
-  - vegetarian
+  - vegetarian-option
 occasions:
   - comfort-food
 flavorProfile:
-  - spicy
-  - umami
   - rich
+  - creamy
+  - savory
 cuisines:
   - American
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 15 min
@@ -50,7 +52,8 @@ ingredients:
   - '1/4 cup Parmesan, grated'
   - 'butter, for the dish'
 seasons:
-  - year-round
+  - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: good
 source: Adapted from Feedfeed

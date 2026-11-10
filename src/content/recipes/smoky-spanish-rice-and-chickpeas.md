@@ -16,6 +16,10 @@ flavorProfile:
   - smoky
 cuisines:
   - Spanish
+dietary:
+  - vegan
+advancePrep:
+  - freeze-ahead
 role: base
 vibe: nutritious
 prepTime: 10 min

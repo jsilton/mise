@@ -17,7 +17,8 @@ flavorProfile:
   - acidic
   - umami
 cuisines:
-  - Sichuan-inspired
+  - Sichuan
+  - Chinese
 role: side
 vibe: nutritious
 prepTime: 15 min
@@ -27,7 +28,6 @@ servings: '4'
 seasons:
   - summer
   - fall
-  - year-round
 nutritionalDensity: moderate
 leftovers: good
 equipment:

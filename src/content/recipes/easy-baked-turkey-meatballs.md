@@ -20,6 +20,8 @@ equipment:
   - sheet-pan
 cuisines:
   - American
+flavorProfile:
+  - savory
 role: main
 vibe: quick
 prepTime: 15 min

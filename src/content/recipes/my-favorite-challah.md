@@ -12,6 +12,10 @@ flavorProfile:
   - rich
 cuisines:
   - Jewish
+dietary:
+  - vegetarian
+  - dairy-free
+  - nut-free
 role: base
 vibe: technical
 prepTime: '30 min, plus 2 hr 30 min rising'

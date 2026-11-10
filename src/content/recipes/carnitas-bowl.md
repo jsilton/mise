@@ -16,6 +16,10 @@ flavorProfile:
   - rich
 cuisines:
   - Mexican
+dietary:
+  - gluten-free
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: technical
 prepTime: 40 min

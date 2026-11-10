@@ -5,6 +5,7 @@ difficulty: easy
 cookingMethods:
   - bake
 occasions:
+  - breakfast
   - meal-prep
   - snack
   - weekend-project
@@ -14,6 +15,7 @@ nutritionalDensity: moderate
 leftovers: excellent
 advancePrep:
   - make-ahead
+  - freeze-ahead
 flavorProfile:
   - rich
 cuisines:

@@ -10,8 +10,8 @@ cookTime: 25 min
 totalTime: 1 hr 25 min
 servings: '3'
 cuisines:
-  - Hawaiian-inspired
-  - Japanese-inspired
+  - Hawaiian
+  - Japanese
 cookingMethods:
   - no-cook
   - assemble

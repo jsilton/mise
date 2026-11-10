@@ -28,7 +28,6 @@ vibe: quick
 seasons:
   - spring
   - summer
-  - year-round
 nutritionalDensity: light
 leftovers: good
 advancePrep:

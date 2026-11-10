@@ -18,7 +18,7 @@ flavorProfile:
   - rich
   - herbaceous
 cuisines:
-  - Mediterranean-inspired
+  - Mediterranean
 role: condiment
 vibe: quick
 prepTime: 10 min

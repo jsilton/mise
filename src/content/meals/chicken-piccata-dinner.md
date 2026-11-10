@@ -15,10 +15,7 @@ occasions:
   - weeknight
   - date-night
 seasons:
-  - spring
-  - summer
-  - fall
-  - winter
+  - year-round
 nutritionalDensity: moderate
 servings: '4'
 review:

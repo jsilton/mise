@@ -27,7 +27,6 @@ servings: '4'
 seasons:
   - spring
   - summer
-  - year-round
 nutritionalDensity: moderate
 leftovers: good
 equipment:

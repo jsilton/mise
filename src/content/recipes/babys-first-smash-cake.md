@@ -22,8 +22,7 @@ prepTime: 20 min
 cookTime: 20 min
 totalTime: '40 min, plus 1 hr cooling'
 servings: 4 mini cakes plus 6 to 8 muffins
-advancePrep:
-  - cool-completely
+advancePrep: [freeze-ahead]
 ingredients:
   - '--- Cake ---'
   - 4 very ripe bananas

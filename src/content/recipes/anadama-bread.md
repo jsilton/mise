@@ -23,6 +23,8 @@ flavorProfile:
   - rich
 cuisines:
   - American
+dietary:
+  - vegetarian
 role: base
 vibe: technical
 prepTime: 30 min

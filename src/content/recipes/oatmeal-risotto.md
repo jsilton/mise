@@ -6,6 +6,7 @@ cookingMethods:
   - simmer
   - boil
 occasions:
+  - breakfast
   - weekend-project
   - entertaining
 flavorProfile:
@@ -25,7 +26,6 @@ servings: 4 portions
 seasons:
   - fall
   - winter
-  - year-round
 nutritionalDensity: hearty
 leftovers: good
 advancePrep:

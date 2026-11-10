@@ -6,6 +6,7 @@ difficulty: easy
 cookingMethods:
   - grill
   - pan-fry
+  - marinate
 occasions:
   - light-and-fresh
 flavorProfile:
@@ -13,7 +14,7 @@ flavorProfile:
   - sweet
   - acidic
 cuisines:
-  - Vietnamese-inspired
+  - Vietnamese
 role: main
 vibe: nutritious
 prepTime: 20 min
@@ -42,8 +43,7 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-advancePrep:
-  - marinate
+advancePrep: []
 description: >-
   Chicken thighs marinated in lemongrass, fish sauce, ginger and lime, then
   grilled until charred at the edges.

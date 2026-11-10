@@ -14,6 +14,7 @@ occasions:
   - comfort-food
 advancePrep:
   - make-ahead
+  - freeze-ahead
 flavorProfile:
   - savory
   - rich

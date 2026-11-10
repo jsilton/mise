@@ -14,7 +14,6 @@ occasions:
 seasons:
   - fall
   - winter
-  - year-round
 nutritionalDensity: hearty
 leftovers: good
 flavorProfile:

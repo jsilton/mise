@@ -42,6 +42,13 @@ ingredients:
 sourceUrl: 'https://damndelicious.net/2016/12/09/slow-cooker-chicken-wild-rice-soup/'
 cuisines:
   - American
+flavorProfile:
+  - creamy
+  - savory
+  - rich
+occasions:
+  - comfort-food
+  - family-meal
 equipment:
   - 6-quart-slow-cooker
   - large-deep-skillet

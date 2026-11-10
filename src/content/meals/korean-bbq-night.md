@@ -26,7 +26,7 @@ totalActiveTime: 2 hr
 totalTime: '3 hr, plus 8 hr marinating'
 overallDifficulty: intermediate
 cuisines: [Korean]
-occasions: [entertaining, weekend-project, summer]
+occasions: [entertaining, weekend-project]
 seasons: [spring, summer]
 nutritionalDensity: hearty
 servings: '6'

@@ -8,8 +8,8 @@ dietary:
   - vegetarian
   - gluten-free-option
 occasions:
+  - breakfast
   - meal-prep
-  - weeknight
 flavorProfile:
   - sweet
 cuisines:

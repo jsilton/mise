@@ -130,10 +130,10 @@ const lessonLinks = techniques.map((t) => ({
     <h2 class="sec-h" id="cuisine-title">Around the world</h2>
     <ul class="cuisines" role="list" aria-label="Cuisine">
       {
-        topCuisines.map(([name, n]) => (
+        topCuisines.map(([name, n, label]) => (
           <li>
             <button type="button" data-cuisine={name} aria-pressed="false">
-              <span class="lbl">{name}</span>
+              <span class="lbl">{label}</span>
               <span class="n">{n}</span>
             </button>
           </li>
@@ -186,6 +186,7 @@ const lessonLinks = techniques.map((t) => ({
     queryTokens,
     searchRecipes,
   } from '../lib/recipe-search.mjs';
+  import { currentFilterValue } from '../lib/tag-vocabulary.mjs';
 
   const PAGE = 12;
   // Built on the first search, not while the page loads.
@@ -492,7 +493,8 @@ const lessonLinks = techniques.map((t) => ({
       .forEach((p) => p && $(`[data-pick="${p}"]`) && picks.add(p));
     Object.entries(SELECTS).forEach(([k, s]) => {
       const v = params.get(s.param) || (k === 'cookingMethod' ? params.get('cookingMethod') : null);
-      if (v) setSelect(k, v);
+      // Links saved before the tags were tidied still use the old values.
+      if (v) setSelect(k, currentFilterValue(k, v));
     });
     const sort = params.get('sort') || params.get('sortMode');
     const legacy: Record<string, string> = { prepTime: 'time' };

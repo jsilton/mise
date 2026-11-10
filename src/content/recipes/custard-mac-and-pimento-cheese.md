@@ -37,6 +37,8 @@ flavorProfile:
   - smoky
 cuisines:
   - American
+dietary:
+  - vegetarian
 role: main
 vibe: comfort
 seasons:

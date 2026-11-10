@@ -40,7 +40,8 @@ ingredients:
   - 1/4 tsp ground nutmeg
   - '2 tbsp fresh parsley, chopped'
 seasons:
-  - year-round
+  - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: good
 equipment:

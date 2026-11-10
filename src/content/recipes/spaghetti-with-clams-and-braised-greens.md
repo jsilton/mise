@@ -26,7 +26,6 @@ cookTime: 30 min
 totalTime: 45 min
 servings: 4 portions
 seasons:
-  - year-round
   - summer
   - fall
 nutritionalDensity: moderate

@@ -8,6 +8,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - weekend-brunch
   - light-and-fresh
   - entertaining
@@ -23,7 +24,6 @@ vibe: quick
 seasons:
   - spring
   - summer
-  - year-round
 nutritionalDensity: moderate
 leftovers: poor
 equipment:

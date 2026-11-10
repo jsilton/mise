@@ -33,6 +33,7 @@ leftovers: excellent
 advancePrep:
   - season-ahead
   - components-ahead
+  - freeze-ahead
 equipment:
   - sheet-pan
   - instant-read-thermometer

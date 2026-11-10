@@ -23,6 +23,14 @@ ingredients:
 sourceUrl: 'https://www.allrecipes.com/recipe/16383/basic-crepes/'
 cuisines:
   - French
+flavorProfile:
+  - buttery
+  - mild
+dietary:
+  - vegetarian
+occasions:
+  - breakfast
+  - weekend-brunch
 learning:
   techniques:
     - temperature

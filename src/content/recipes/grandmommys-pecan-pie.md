@@ -35,6 +35,7 @@ nutritionalDensity: moderate
 leftovers: good
 advancePrep:
   - make-ahead
+  - freeze-ahead
 pairsWith:
   - old-fashioned-vanilla-ice-cream
   - hot-mulled-apple-cider

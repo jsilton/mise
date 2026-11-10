@@ -13,8 +13,10 @@ flavorProfile:
   - sweet
 cuisines:
   - American
+advancePrep:
+  - freeze-ahead
 role: drink
-vibe: technical
+vibe: nutritious
 prepTime: 5 min
 cookTime: 45 min
 totalTime: '1 hr 15 min, including cooling'

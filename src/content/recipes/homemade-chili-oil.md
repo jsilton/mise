@@ -19,6 +19,8 @@ flavorProfile:
 cuisines:
   - Chinese
   - Sichuan
+advancePrep:
+  - freeze-ahead
 role: condiment
 vibe: quick
 prepTime: 5 min

@@ -30,6 +30,8 @@ flavorProfile:
   - herbaceous
 cuisines:
   - American
+dietary:
+  - vegetarian
 role: side
 vibe: nutritious
 prepTime: 20 min

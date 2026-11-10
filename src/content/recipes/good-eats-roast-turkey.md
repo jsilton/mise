@@ -19,9 +19,8 @@ prepTime: '45 min, plus 18 hr brining and drying'
 cookTime: 3 hr
 totalTime: '3 hr 45 min, plus 18 hr brining and drying'
 advancePrep:
-  - refrigerator-thaw
-  - brine
-  - air-dry
+  - brine-overnight
+  - freeze-ahead
 servings: '12'
 pairsWith:
   - grandmommys-turkey-dressing

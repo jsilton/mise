@@ -36,6 +36,7 @@ equipment:
   - slotted-spoon
 advancePrep:
   - make-ahead-sauce
+  - freeze-ahead
 dietary:
   - vegan
   - vegetarian

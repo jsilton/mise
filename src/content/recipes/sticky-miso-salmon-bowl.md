@@ -7,7 +7,7 @@ description: Grapefruit-miso salmon over buttered scallion rice, with cool cucum
 difficulty: easy
 cookingMethods: [boil, simmer, steam, broil]
 occasions: [weeknight, family-meal]
-flavorProfile: [sweet, savory, umami, citrusy]
+flavorProfile: [sweet, savory, umami, zesty]
 cuisines: [Japanese, American]
 role: main
 vibe: comfort
@@ -18,7 +18,7 @@ servings: '4'
 seasons: [year-round]
 nutritionalDensity: hearty
 leftovers: good
-advancePrep: [cook-rice-ahead]
+advancePrep: [components-ahead]
 equipment: [3-quart-saucepan-with-lid, rimmed-metal-half-sheet-pan, broiler]
 pairsWith: [steamed-edamame, miso-soup]
 pairingNotes:

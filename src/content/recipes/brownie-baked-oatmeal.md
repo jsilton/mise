@@ -9,10 +9,10 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - comfort-food
 flavorProfile:
   - sweet
-  - acidic
   - rich
 cuisines:
   - American

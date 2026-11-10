@@ -25,7 +25,7 @@ flavorProfile:
 cuisines:
   - American
 role: drink
-vibe: technical
+vibe: quick
 prepTime: '5 min, plus 10 min chilling the glass'
 cookTime: 0 min
 totalTime: 15 min

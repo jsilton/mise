@@ -14,12 +14,15 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - kid-friendly
 flavorProfile:
   - rich
   - herbaceous
 cuisines:
   - American
+advancePrep:
+  - freeze-ahead
 role: side
 vibe: nutritious
 prepTime: 15 min

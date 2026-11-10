@@ -5,7 +5,7 @@ difficulty: easy
 cookingMethods: [simmer, boil]
 dietary: [vegan, gluten-free]
 occasions: [holiday, make-ahead]
-flavorProfile: [sweet, tart, bright]
+flavorProfile: [sweet, tangy, bright]
 cuisines: [American]
 role: condiment
 vibe: holiday
@@ -27,7 +27,7 @@ origin: United States
 seasons: [fall, winter]
 nutritionalDensity: light
 leftovers: good
-advancePrep: [make-ahead]
+advancePrep: [make-ahead, freeze-ahead]
 description: >-
   A spoonable cranberry sauce with some tender berry pieces, a light orange
   fragrance and an optional fuller orange variation.

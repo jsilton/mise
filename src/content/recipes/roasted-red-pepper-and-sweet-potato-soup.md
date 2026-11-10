@@ -35,6 +35,15 @@ pairingNotes:
 sourceUrl: 'https://paleopot.com/2012/11/paleo-roasted-red-pepper-sweet-potato-soup/'
 cuisines:
   - American
+flavorProfile:
+  - sweet
+  - savory
+  - creamy
+occasions:
+  - comfort-food
+  - meal-prep
+advancePrep:
+  - freeze-ahead
 equipment:
   - slow-cooker
   - immersion-blender

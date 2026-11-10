@@ -17,7 +17,7 @@ servings: '4'
 seasons: [year-round]
 nutritionalDensity: hearty
 leftovers: good
-advancePrep: [cook-rice-ahead]
+advancePrep: [components-ahead]
 equipment: [rice-cooker, large-skillet-or-wok, broiling-rack, foil-lined-pan, oven]
 pairsWith: [smashed-cucumber-salad]
 pairingNotes:

@@ -15,7 +15,6 @@ occasions:
 seasons:
   - spring
   - summer
-  - year-round
 nutritionalDensity: moderate
 servings: '3'
 totalTime: 40 min

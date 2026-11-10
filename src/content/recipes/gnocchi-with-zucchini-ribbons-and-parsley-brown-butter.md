@@ -6,7 +6,7 @@ cookingMethods:
   - saute
   - boil
 dietary:
-  - vegetarian
+  - vegetarian-option
 occasions:
   - weeknight
   - quick-lunch
@@ -26,7 +26,6 @@ servings: '4'
 seasons:
   - spring
   - summer
-  - year-round
 nutritionalDensity: moderate
 leftovers: good
 pairsWith:

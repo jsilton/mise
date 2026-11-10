@@ -26,10 +26,7 @@ cuisines:
 role: side
 vibe: comfort
 seasons:
-  - spring
-  - summer
-  - fall
-  - winter
+  - year-round
 nutritionalDensity: moderate
 leftovers: poor
 advancePrep:

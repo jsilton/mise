@@ -8,6 +8,7 @@ cookingMethods:
   - blend
 dietary:
   - nut-free
+  - vegetarian-option
 occasions:
   - holiday
   - entertaining
@@ -20,6 +21,7 @@ leftovers: excellent
 advancePrep:
   - make-ahead
   - chill-to-set
+  - freeze-ahead
 flavorProfile:
   - sweet
   - savory

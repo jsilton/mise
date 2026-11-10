@@ -37,6 +37,7 @@ advancePrep:
   - marinate-overnight
   - cook-ahead
   - meal-prep-friendly
+  - freeze-ahead
 equipment:
   - blender
   - heavy-dutch-oven-with-lid

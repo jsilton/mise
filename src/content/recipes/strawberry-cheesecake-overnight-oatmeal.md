@@ -7,6 +7,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
+  - breakfast
   - meal-prep
   - snack
   - comfort-food
@@ -27,7 +28,7 @@ flavorProfile:
 cuisines:
   - American
 role: main
-vibe: technical
+vibe: nutritious
 prepTime: 10 min
 cookTime: 0 min
 totalTime: '10 min, plus 4 hr chilling'

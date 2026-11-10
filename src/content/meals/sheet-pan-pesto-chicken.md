@@ -20,8 +20,8 @@ totalActiveTime: 40 min
 totalTime: 1 hr 5 min
 overallDifficulty: easy
 cuisines: [Italian, American]
-occasions: [weeknight, meal-prep, post-workout]
-seasons: [spring, summer, fall, winter]
+occasions: [weeknight, meal-prep]
+seasons: [year-round]
 nutritionalDensity: moderate
 servings: '4'
 review:

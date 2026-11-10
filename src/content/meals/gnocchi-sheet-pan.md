@@ -16,7 +16,7 @@ totalActiveTime: 20 min
 totalTime: 40 min
 overallDifficulty: easy
 cuisines: [Italian]
-occasions: [weeknight, kids-approved]
+occasions: [weeknight, kid-friendly]
 seasons: [fall, winter]
 nutritionalDensity: hearty
 servings: '4'

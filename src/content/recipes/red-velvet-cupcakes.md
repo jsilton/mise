@@ -13,20 +13,15 @@ occasions:
   - kid-friendly
 flavorProfile:
   - sweet
-  - acidic
   - rich
 cuisines:
   - Southern
+advancePrep:
+  - make-ahead
+  - freeze-ahead
 role: dessert
-vibe: technical
-season:
-  - spring
-  - summer
-  - fall
-  - winter
+vibe: comfort
 leftovers: excellent
-healthiness: hearty
-makeAhead: true
 prepTime: 25 min
 cookTime: 20 min
 totalTime: '45 min, plus 1 hr cooling'

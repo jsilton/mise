@@ -1,21 +1,55 @@
 import { defineCollection, z } from 'astro:content';
 import { createFormulaSchema, formulaIngredients, formulaYield } from '../lib/recipe-formula.mjs';
 import { techniques } from '../data/techniques';
+import {
+  ADVANCE_PREP,
+  COOKING_METHODS,
+  CUISINES,
+  DIETARY,
+  DIFFICULTIES,
+  FLAVOR_PROFILES,
+  LEFTOVERS,
+  MEAL_TEMPLATES,
+  NUTRITIONAL_DENSITY,
+  OCCASIONS,
+  ROLES,
+  SEASONS,
+  VIBES,
+  seasonsIssue,
+} from '../lib/tag-vocabulary.mjs';
+
+// Canonical tag values live in src/lib/tag-vocabulary.mjs. A value outside those lists,
+// or a frontmatter key this schema does not name, fails the build.
+const oneOf = (values: string[]) => z.enum(values as [string, ...string[]]);
+const tagList = (values: string[]) => z.array(oneOf(values)).optional();
+const seasonList = () =>
+  tagList(SEASONS).superRefine((value, ctx) => {
+    const issue = seasonsIssue(value);
+    if (issue) ctx.addIssue({ code: 'custom', message: issue });
+  });
 
 const recipesCollection = defineCollection({
   type: 'content',
   schema: z
     .object({
-      // Internal miseId and Paprika bindings are deliberately excluded from public content.
+      // Internal fields. They are named here so the strict schema accepts them, and the
+      // transform below drops them so they never reach public content.
+      miseId: z.string().optional(),
+      kb: z
+        .object({ disable: z.array(z.string()).nullish(), disableReason: z.string().optional() })
+        .strict()
+        .optional(), // validator rule opt-outs
+      audience: z.union([z.string(), z.array(z.string())]).optional(), // validator hint
+      aliases: z.array(z.string()).optional(), // old titles and slugs that link here
       title: z.string(),
       origin: z.string().optional(), // Source/attribution
 
       // What is this dish?
-      role: z.enum(['main', 'side', 'base', 'dessert', 'drink', 'condiment']).optional(),
+      role: oneOf(ROLES).optional(),
 
       // When should I cook it?
-      vibe: z.enum(['quick', 'nutritious', 'comfort', 'technical', 'holiday']).optional(),
-      difficulty: z.enum(['easy', 'intermediate', 'medium', 'hard']).optional(),
+      vibe: oneOf(VIBES).optional(),
+      difficulty: oneOf(DIFFICULTIES).optional(),
 
       // Time constraints
       prepTime: z.string().optional(),
@@ -30,29 +64,23 @@ const recipesCollection = defineCollection({
         .optional(),
 
       // Classification arrays
-      // Canonical cookingMethods: assemble, bake, blend, boil, braise, broil, char, fry, griddle, grill, infuse, marinate, mix, no-cook, pan-fry, poach, raw, roast, saute, sear, shape, simmer, slow-cook, smoke, steam, stir-fry, toast, toss
-      cookingMethods: z.array(z.string()).optional(),
+      cookingMethods: tagList(COOKING_METHODS),
 
-      // Canonical dietary: dairy-free, dairy-free-option, egg-free, gluten-free, gluten-free-option, keto, low-carb, nut-free, pescatarian, vegan, vegan-option, vegetarian, vegetarian-option
-      dietary: z.array(z.string()).optional(),
+      dietary: tagList(DIETARY),
 
-      // Canonical occasions: appetizer, bbq, breakfast, comfort-food, date-night, entertaining, everyday, family-meal, game-day, grilling, holiday, kid-friendly, light-and-fresh, lunch, make-ahead, meal-prep, picnic, potluck, quick-lunch, snack, special-occasion, sunday-dinner, weekend-brunch, weekend-dinner, weekend-project, weeknight
-      occasions: z.array(z.string()).optional(),
+      occasions: tagList(OCCASIONS),
 
-      // Canonical flavorProfile: acidic, aromatic, bitter, bright, briny, buttery, caramelized, clean, complex, creamy, crispy, earthy, fresh, herbaceous, mild, neutral, nutty, peppery, rich, salty, savory, smoky, spicy, sweet, tangy, umami, warm, zesty
-      flavorProfile: z.array(z.string()).optional(),
+      flavorProfile: tagList(FLAVOR_PROFILES),
 
-      // Canonical cuisines: American, Argentine, Asian, Belgian, Cantonese, Caribbean, Chinese, Eastern European, Ethiopian, French, German, Greek, Hawaiian, Indian, Israeli, Italian, Japanese, Jewish, Korean, Lebanese, Mediterranean, Mexican, Middle Eastern, Scandinavian, Sichuan, South American, Southeast Asian, Southern, Spanish, Swiss, Thai, Vietnamese
-      cuisines: z.array(z.string()).optional(),
+      cuisines: tagList(CUISINES),
 
-      // Planning metadata
-      // Canonical seasons: fall, spring, summer, winter, year-round
-      seasons: z.array(z.string()).optional(),
-      nutritionalDensity: z.enum(['light', 'moderate', 'hearty']).optional(), // meal weight
-      leftovers: z.enum(['poor', 'good', 'excellent']).optional(), // reheating quality
+      // Planning metadata. No page reads seasons, leftovers, rating, isVariationOf, usesBase or
+      // extractedFrom yet. They are kept for planning and exports.
+      seasons: seasonList(),
+      nutritionalDensity: oneOf(NUTRITIONAL_DENSITY).optional(), // meal weight
+      leftovers: oneOf(LEFTOVERS).optional(), // reheating quality
 
-      // Canonical advancePrep: brine-overnight, chill-dough, chill-to-set, components-ahead, cook-ahead, dressing-ahead, freeze-ahead, make-ahead, make-ahead-sauce, marinate-overnight, meal-prep-friendly, overnight-soak, prep-vegetables, rest-dough, rise-dough, season-ahead, use-day-old-rice
-      advancePrep: z.array(z.string()).optional(),
+      advancePrep: tagList(ADVANCE_PREP), // freeze-ahead drives the Freezer friendly quick pick
 
       equipment: z.array(z.string()).optional(), // Free-text array (kebab-case format) — grill, slow-cooker, instant-pot, stand-mixer, etc.
 
@@ -145,6 +173,7 @@ const recipesCollection = defineCollection({
       formula: createFormulaSchema(z).optional(),
       ingredients: z.array(z.string()).optional(),
     })
+    .strict()
     .superRefine((data, ctx) => {
       if (!data.formula) return;
       if (
@@ -155,7 +184,9 @@ const recipesCollection = defineCollection({
           code: 'custom',
           message: 'Generated formula fields are stale. Run npm run recipe:compile -- <slug>.',
         });
-    }),
+    })
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    .transform(({ miseId, kb, audience, ...publicData }) => publicData),
 });
 
 // Composed meals - curated combinations of recipes
@@ -166,9 +197,8 @@ const mealsCollection = defineCollection({
       title: z.string(),
 
       // Meal template type
-      template: z
-        .enum(['plate', 'bowl', 'pasta-night', 'soup-and-side', 'one-pot', 'grazing'])
-        .optional(),
+      template: oneOf(MEAL_TEMPLATES).optional(),
+      aliases: z.array(z.string()).optional(), // old slugs that redirect here
 
       // Component recipes (slugs)
       main: z.string().optional(), // Main dish recipe slug
@@ -177,7 +207,7 @@ const mealsCollection = defineCollection({
       salad: z.string().optional(), // Salad recipe slug
       sauce: z.string().optional(), // Sauce/condiment recipe slug
       dessert: z.string().optional(), // Optional dessert
-      // Note: drink pairings planned for future expansion
+      drink: z.string().optional(), // Drink recipe slug. No page shows it yet.
 
       componentPreparation: z
         .record(
@@ -202,15 +232,16 @@ const mealsCollection = defineCollection({
           date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
         })
         .optional(),
-      overallDifficulty: z.enum(['easy', 'intermediate', 'medium', 'hard']).optional(),
+      overallDifficulty: oneOf(DIFFICULTIES).optional(),
 
       // Planning metadata
-      cuisines: z.array(z.string()).optional(), // Primary cuisine(s)
-      occasions: z.array(z.string()).optional(), // weeknight, entertaining, etc.
-      seasons: z.array(z.string()).optional(),
-      nutritionalDensity: z.enum(['light', 'moderate', 'hearty']).optional(),
+      cuisines: tagList(CUISINES), // Primary cuisine(s)
+      occasions: tagList(OCCASIONS), // weeknight, entertaining, etc.
+      seasons: seasonList(),
+      nutritionalDensity: oneOf(NUTRITIONAL_DENSITY).optional(),
       servings: z.string().optional(),
     })
+    .strict()
     .superRefine((data, ctx) => {
       if (!data.componentPreparation) return;
       const refs = [

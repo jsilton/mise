@@ -14,6 +14,8 @@ flavorProfile:
   - rich
 cuisines:
   - American
+advancePrep:
+  - freeze-ahead
 role: dessert
 vibe: comfort
 prepTime: 15 min
@@ -29,7 +31,7 @@ ingredients:
   - 2 1/2 cups all-purpose flour
   - 1 tsp baking soda
   - 1 tsp sea salt
-  - '1 1/2 cups M&M''s milk chocolate candies, divided'
+  - "1 1/2 cups M&M's milk chocolate candies, divided"
 seasons:
   - year-round
 nutritionalDensity: moderate

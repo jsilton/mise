@@ -28,6 +28,17 @@ ingredients:
 sourceUrl: 'https://www.allrecipes.com/recipe/140877/easy-eggless-strawberry-ice-cream/'
 cuisines:
   - American
+flavorProfile:
+  - sweet
+  - creamy
+  - fresh
+occasions:
+  - entertaining
+  - kid-friendly
+dietary:
+  - vegetarian
+  - gluten-free
+  - egg-free
 learning:
   techniques:
     - temperature

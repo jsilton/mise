@@ -7,6 +7,7 @@ import TagBadge from './TagBadge.astro';
 import { getTechniquesForRecipe } from '../data/techniques';
 import { timeBand } from '../lib/time-band.mjs';
 import { quickPicksFor } from '../lib/quick-picks.mjs';
+import { cuisineGroups, dietaryFilterKeys } from '../lib/tag-vocabulary.mjs';
 
 interface Recipe {
   slug: string;
@@ -53,8 +54,8 @@ const primaryDietaryTag =
   data-difficulty={recipe.data.difficulty}
   data-role={recipe.data.role}
   data-vibe={recipe.data.vibe}
-  data-cuisines={recipe.data.cuisines?.join(',')}
-  data-dietary={recipe.data.dietary?.join(',')}
+  data-cuisines={cuisineGroups(recipe.data.cuisines).join(',') || undefined}
+  data-dietary={dietaryFilterKeys(recipe.data.dietary).join(',') || undefined}
   data-cooking-methods={recipe.data.cookingMethods?.join(',')}
   data-occasions={recipe.data.occasions?.join(',')}
   data-flavor-profile={recipe.data.flavorProfile?.join(',')}

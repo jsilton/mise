@@ -26,11 +26,10 @@ totalTime: '15 min, plus 1 hr draining and chilling'
 seasons:
   - spring
   - summer
-  - year-round
 nutritionalDensity: light
 leftovers: good
 advancePrep:
-  - drain-and-chill
+  - make-ahead
 pairsWith:
   - pulled-pork
   - turkey-burgers

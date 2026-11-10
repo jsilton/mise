@@ -23,7 +23,6 @@ vibe: quick
 seasons:
   - fall
   - winter
-  - year-round
 nutritionalDensity: light
 leftovers: good
 equipment:

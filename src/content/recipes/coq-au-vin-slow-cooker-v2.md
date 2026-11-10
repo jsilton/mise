@@ -12,6 +12,8 @@ flavorProfile:
   - savory
 cuisines:
   - French
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: comfort
 prepTime: 25 min

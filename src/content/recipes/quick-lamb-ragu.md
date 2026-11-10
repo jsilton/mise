@@ -20,6 +20,8 @@ flavorProfile:
   - herbaceous
 cuisines:
   - Italian
+advancePrep:
+  - freeze-ahead
 role: main
 vibe: nutritious
 prepTime: 10 min
@@ -29,7 +31,6 @@ servings: 4 portions
 seasons:
   - fall
   - winter
-  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
 pairsWith:

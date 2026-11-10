@@ -36,7 +36,6 @@ cuisines:
 role: main
 vibe: comfort
 seasons:
-  - year-round
   - fall
   - winter
 nutritionalDensity: moderate

@@ -7,6 +7,7 @@ cookingMethods:
   - bake
 dietary:
   - nut-free
+  - vegetarian
 occasions:
   - weeknight
   - entertaining
@@ -19,13 +20,12 @@ flavorProfile:
   - rich
 cuisines:
   - American
+advancePrep:
+  - freeze-ahead
 role: side
 vibe: comfort
 seasons:
-  - spring
-  - summer
-  - fall
-  - winter
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
 equipment:

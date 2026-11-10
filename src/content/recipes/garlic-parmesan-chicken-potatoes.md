@@ -24,7 +24,6 @@ cookTime: 45 min
 totalTime: 1 hr 5 min
 servings: 6 portions
 seasons:
-  - year-round
   - fall
   - winter
 nutritionalDensity: hearty

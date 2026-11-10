@@ -36,6 +36,7 @@ nutritionalDensity: moderate
 leftovers: good
 advancePrep:
   - chill-dough
+  - freeze-ahead
 source: Adapted from Martha Bakes
 sourceUrl: 'https://www.pbs.org/food/features/martha-bakes-north-american-cookies/'
 learning:
