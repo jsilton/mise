@@ -5,7 +5,8 @@ import { timeBand } from './time-band.mjs';
 const has = (list, ...keys) => keys.some((k) => (list || []).includes(k));
 
 export const QUICK_PICKS = [
-  { key: 'under30', label: 'Under 30 min', test: (d, m) => m > 0 && m <= 30 },
+  // Full elapsed time, waits included. A wait with no number ("plus cooling") can't be promised.
+  { key: 'under30', label: 'Under 30 min', test: (d, m, open) => m > 0 && m <= 30 && !open },
   { key: 'weeknight', label: 'Weeknight', test: (d) => has(d.occasions, 'weeknight') },
   {
     key: 'veg',
@@ -47,8 +48,8 @@ export const COURSES = [
 
 /** The quick-pick keys a recipe belongs to. */
 export function quickPicksFor(data) {
-  const minutes = timeBand(data.totalTime).minutes;
-  return QUICK_PICKS.filter((p) => p.test(data, minutes)).map((p) => p.key);
+  const { minutes, open } = timeBand(data.totalTime);
+  return QUICK_PICKS.filter((p) => p.test(data, minutes, open)).map((p) => p.key);
 }
 
 /** How many recipes fall under each quick pick, course and cuisine. */

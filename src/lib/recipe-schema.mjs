@@ -1,5 +1,5 @@
 import { parseRecipeContent, isIngredientDivider, recipeDescription } from './recipe-content.mjs';
-import { timeToISO } from './time.mjs';
+import { timeToISODuration } from './time-parse.mjs';
 
 const categories = {
   main: 'Main course',
@@ -31,7 +31,10 @@ export function buildRecipeSchema(data, body, url, parsed = parseRecipeContent(b
     recipeInstructions: parsed.instructions,
   };
   for (const key of ['prepTime', 'cookTime', 'totalTime']) {
-    const duration = timeToISO(data[key]);
+    // Full elapsed time, with any numbered or overnight wait. A total written as a range gives
+    // its upper bound. A prep or cook range stays out rather than inventing precision, and so
+    // does any time with an unnumbered wait ("plus cooling").
+    const duration = timeToISODuration(data[key], { ranges: key === 'totalTime' });
     if (duration) schema[key] = duration;
   }
   if (data.servings) schema.recipeYield = data.servings;

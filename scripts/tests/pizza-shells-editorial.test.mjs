@@ -198,7 +198,10 @@ test('shell method seasons up front, bakes in one layer to a bubbling cue and ke
   assert.match(step(data, 'bake'), /25 minutes/);
   assert.match(step(data, 'bake'), /15 to 20 minutes/);
   assert.match(step(data, 'bake'), /sauce bubbles at the edges/);
-  assert.match(data.learning.storage, /refrigerate covered and add 10 to 15 minutes to the covered bake/);
+  assert.match(
+    data.learning.storage,
+    /refrigerate covered and add 10 to 15 minutes to the covered bake/
+  );
   const spinach = data.learning.substitutions.find((s) => s.ingredient === 'Fresh baby spinach');
   assert.match(spinach.alternative, /10 oz spinach/);
   assert.equal(ingredient(data, 'greens', 'baby-spinach').quantity.amount, 5);
@@ -229,9 +232,9 @@ test('meal declares every starting condition and preserves six full component se
 test('revised recipe times and cooked-topping constraints survive JSON-LD', () => {
   for (const [slug, expected] of [
     ['pizza', ['PT20M', 'PT30M', 'PT50M']],
-    // "1 hr 45 min, plus 19 hr rising" is a conditional time, which timeToISO leaves out.
-    ['homemade-pizza-night', ['PT45M', 'PT60M', undefined]],
-    ['stuffed-shells-filled-with-spinach-and-ricotta', ['PT35M', 'PT45M', 'PT90M']],
+    // "1 hr 45 min, plus 19 hr rising" is the full elapsed time: 105 + 1140 minutes.
+    ['homemade-pizza-night', ['PT45M', 'PT1H', 'PT20H45M']],
+    ['stuffed-shells-filled-with-spinach-and-ricotta', ['PT35M', 'PT45M', 'PT1H30M']],
   ]) {
     const { data, content } = read(slug);
     const schema = buildRecipeSchema(
