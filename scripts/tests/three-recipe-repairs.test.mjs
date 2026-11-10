@@ -63,10 +63,11 @@ test('meatball bowl accounts for oil, keeps kale out of meatballs, and uses all 
     ['potato', 1, [{ step: 'potato', share: 1 }]],
     ['meat', 2, [{ step: 'cook', share: 1 }]],
     ['dressing', 1, [{ step: 'dressing', share: 1 }]],
+    ['bowl', 1, [{ step: 'kale', share: 1 }]],
   ]);
   assert.equal(
     oil.reduce((total, [, amount]) => total + amount, 0),
-    5
+    6
   );
   for (const name of [
     'Salt',
@@ -82,9 +83,10 @@ test('meatball bowl accounts for oil, keeps kale out of meatballs, and uses all 
   }
   const steps = data.formula.steps;
   const stepText = (id) => steps.find((s) => s.id === id).text;
-  // Kale goes only into the serving bowls.
+  // Kale goes only into the serving bowls, massaged with oil, lemon and salt first (Nov 10 fix R069).
   assert.doesNotMatch(stepText('mix'), /kale/i);
-  assert.match(content, /Divide fresh kale among four bowls/);
+  assert.match(content, /rub fresh kale, olive oil, fresh lemon juice, and salt together/);
+  assert.match(content, /Divide the kale among four bowls/);
   // The whole mixture is shaped, with no fixed count.
   assert.match(content, /Shape it into small logs about 2 inches long/);
   assert.doesNotMatch(content, /Form into 12/);
@@ -97,7 +99,7 @@ test('meatball bowl accounts for oil, keeps kale out of meatballs, and uses all 
   assert.deepEqual(
     data.formula.components.find((c) => c.id === 'bowl').ingredients.find((i) => i.id === 'kale')
       .uses,
-    [{ step: 'serve', share: 1 }]
+    [{ step: 'kale', share: 1 }]
   );
   // The dressing is still made before the raw chicken is handled (the explicit warning was
   // safety boilerplate the rewrite dropped, the order carries it).

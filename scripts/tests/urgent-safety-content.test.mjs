@@ -204,8 +204,8 @@ const cases = [
     // and offers pasteurized eggs. The sauce is tossed off the heat.
     ['4 large Eggs (2 whole, 2 yolks)', 'will finish cooking the eggs'],
     [
-      '2 large eggs',
-      '2 large egg yolks',
+      '3 large eggs',
+      '3 large egg yolks',
       'Pasteurized eggs',
       'only lightly cooks the eggs',
       'Take the skillet off the heat',
@@ -232,17 +232,19 @@ for (const [slug, forbidden, required] of cases) {
   });
 }
 
-test('carbonara retains its two whole eggs plus two yolks and existing richness', () => {
+// Nov 10 fix R103: the sauce was sized for 12 oz pasta. It now dresses the full pound with
+// three whole eggs, three yolks, 6 oz guanciale and 1 1/2 cups Pecorino.
+test('carbonara sauce is sized for a full pound of pasta', () => {
   const { data } = matter(read('real-spaghetti-carbonara'));
   assert.deepEqual(
     data.ingredients.filter(
       (ingredient) => !/^---.*---$/.test(ingredient) && /egg/i.test(ingredient)
     ),
-    ['2 large eggs', '2 large egg yolks']
+    ['3 large eggs', '3 large egg yolks']
   );
-  assert.ok(data.ingredients.includes('4 oz guanciale, thickly diced'));
+  assert.ok(data.ingredients.includes('6 oz guanciale, thickly diced'));
   assert.ok(
-    data.ingredients.includes('1 cup Pecorino Romano, finely grated, plus more for serving')
+    data.ingredients.includes('1 1/2 cups Pecorino Romano, finely grated, plus more for serving')
   );
   // Pancetta and Parmigiano moved from "or" lines to swaps at the same amounts.
   const swaps = data.learning.substitutions.map((swap) => swap.alternative);

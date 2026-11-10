@@ -12,7 +12,6 @@ cookingMethods:
   - simmer
   - saute
 categories: []
-source: Saved Paprika recipe
 pairsWith:
   - smashed-cucumber-salad
 pairingNotes:
@@ -29,17 +28,26 @@ ingredients:
   - 2 tbsp rice vinegar
   - 3 tbsp water
   - '1 1/2 tbsp fresh ginger, grated'
-  - '4 garlic cloves, minced'
+  - 4 minced garlic cloves
   - 1 tsp neutral oil
   - '3 carrots, peeled and sliced into coins'
   - '1 bunch of kale, stems removed, roughly chopped'
-  - '2 garlic cloves, thinly sliced'
+  - 2 thinly sliced garlic cloves
   - '1/2 lemon, juiced'
   - 'black pepper, to taste'
 rating: 5
 cuisines:
   - Chinese
-origin: Saved Paprika recipe
+origin: Chinese-American-inspired home cooking
+occasions:
+  - weeknight
+  - family-meal
+seasons:
+  - year-round
+flavorProfile:
+  - sweet
+  - savory
+  - tangy
 formula:
   version: 1
   yield:
@@ -156,15 +164,14 @@ formula:
               share: 1
         - id: meat-garlic
           key: meat-garlic
-          name: garlic clove
+          name: minced garlic clove
           quantity:
             amount: 4
             unit: count
-          preparation: minced
           uses:
             - step: aromatics
               share: 1
-          plural: garlic cloves
+          plural: minced garlic cloves
         - id: veg-oil
           key: veg-oil
           name: neutral oil
@@ -198,15 +205,14 @@ formula:
           plural: bunches of kale
         - id: veg-garlic
           key: veg-garlic
-          name: garlic clove
+          name: thinly sliced garlic clove
           quantity:
             amount: 2
             unit: count
-          preparation: thinly sliced
           uses:
             - step: kale
               share: 1
-          plural: garlic cloves
+          plural: thinly sliced garlic cloves
         - id: lemon
           key: lemon
           name: lemon
@@ -236,7 +242,9 @@ formula:
         then, until browned and hot in the center, 12 to 15 minutes.
     - id: aromatics
       title: Add the aromatics
-      text: 'Lower the heat to medium-low. Add {{ingredients}} and stir until fragrant, about 30 seconds.'
+      text: >-
+        Lower the heat to medium-low. Add the {{ingredients}} and stir until fragrant, about 30
+        seconds.
     - id: glaze
       title: Glaze the meatballs
       text: >-
@@ -250,7 +258,7 @@ formula:
     - id: kale
       title: Wilt the kale
       text: >-
-        Add {{ingredients}}. Cook, tossing, until the kale is tender and the carrots are cooked
+        Add the {{ingredients}}. Cook, tossing, until the kale is tender and the carrots are cooked
         through, 3 to 5 minutes. Add a splash of water if the pan gets dry.
     - id: finish
       title: Season the greens
@@ -287,9 +295,9 @@ A weeknight shortcut bowl. Frozen meatballs get a sticky glaze of hoisin and duc
 
 1. **Cook the coconut rice:** Put jasmine rice, coconut milk, water, and kosher salt in a rice cooker. Stir once and cook on the white rice setting.
 2. **Brown the meatballs:** Heat frozen fully cooked meatballs and oil in a large skillet over medium heat. Cover and cook, turning now and then, until browned and hot in the center, 12 to 15 minutes.
-3. **Add the aromatics:** Lower the heat to medium-low. Add fresh ginger and garlic cloves and stir until fragrant, about 30 seconds.
+3. **Add the aromatics:** Lower the heat to medium-low. Add the fresh ginger and minced garlic cloves and stir until fragrant, about 30 seconds.
 4. **Glaze the meatballs:** Stir in hoisin sauce, Peking duck sauce, rice vinegar, and water. Simmer, stirring, until the glaze thickens and clings to the meatballs, about 5 minutes. Add a splash of water if it gets too thick.
 5. **Cook the carrots:** While the glaze simmers, heat neutral oil and carrots in another skillet over medium-high heat and cook, stirring, until the carrots start to soften, about 2 minutes.
-6. **Wilt the kale:** Add bunch of kale, garlic cloves, and black pepper. Cook, tossing, until the kale is tender and the carrots are cooked through, 3 to 5 minutes. Add a splash of water if the pan gets dry.
+6. **Wilt the kale:** Add the bunch of kale, thinly sliced garlic cloves, and black pepper. Cook, tossing, until the kale is tender and the carrots are cooked through, 3 to 5 minutes. Add a splash of water if the pan gets dry.
 7. **Season the greens:** Take the pan off the heat and stir in the juice of the lemon.
 8. **Build the bowls:** Fluff the rice and divide it among bowls. Top with the glazed meatballs and the greens.

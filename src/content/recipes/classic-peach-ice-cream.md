@@ -26,7 +26,7 @@ flavorProfile:
 cuisines:
   - American
 role: dessert
-vibe: nutritious
+vibe: comfort
 prepTime: 20 min
 cookTime: 15 min
 totalTime: '1 hr, plus 6 hr chilling and freezing'
@@ -65,5 +65,6 @@ This old-fashioned Southern peach ice cream from Saveur starts with a cooked cus
 3. **Temper the eggs:** In a bowl, whisk the eggs, yolks, sugar for the custard and salt until smooth. Slowly whisk in about a third of the hot milk, then pour the mixture back into the double boiler.
 4. **Cook the custard:** Cook, stirring constantly with a wooden spoon, until the custard is thick enough to coat the spoon and hold a line drawn through it, 12 to 15 minutes. Don't let it boil.
 5. **Chill the base:** Pour the custard into a clean bowl and whisk in the cream. Cover and refrigerate until very cold, at least 4 hours or overnight.
-6. **Churn:** Drain the peaches and stir their syrup into the cold custard. Churn in an ice cream maker according to its instructions. Add the peaches in the last minute of churning.
-7. **Freeze:** Scrape the ice cream into a container, cover and freeze until firm enough to scoop, about 2 hours.
+6. **Mash the peaches:** Drain the peaches and save the syrup. Mash half the peaches into the syrup with a fork and stir the mixture into the cold custard. Cut the rest of the peaches into 1/4-inch dice.
+7. **Churn:** Churn in an ice cream maker according to its instructions. Add the diced peaches in the last minute of churning.
+8. **Freeze:** Scrape the ice cream into a container, cover and freeze until firm enough to scoop, about 2 hours.

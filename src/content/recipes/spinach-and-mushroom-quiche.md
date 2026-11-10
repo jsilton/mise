@@ -8,10 +8,13 @@ dietary:
   - vegetarian
 occasions:
   - comfort-food
+  - weekend-brunch
+  - make-ahead
 flavorProfile:
-  - sweet
-  - acidic
+  - savory
   - rich
+  - earthy
+  - creamy
 cuisines:
   - French
 role: main

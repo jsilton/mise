@@ -38,8 +38,8 @@ pairingNotes:
   everyday-arugula-salad: Peppery greens against the sweet roots.
 ingredients:
   - '4 bone-in, skin-on chicken thighs (about 2 1/4 lb)'
-  - '1 1/4 lb beets (about 4 medium), peeled and cut into 1/4-inch half-moons'
-  - '2/3 lb carrots (about 4), peeled and cut into 1/2-inch pieces'
+  - '1 1/4 lb beets (about 4 medium), peeled and cut into 3/4-inch wedges'
+  - '2/3 lb carrots (about 4), peeled and cut into 1-inch pieces'
   - '1 large fennel bulb, trimmed and cut into 1/2-inch wedges'
   - '3 tbsp olive oil, divided'
   - '2 tsp fine salt, divided'

@@ -65,8 +65,8 @@ This EatingWell dinner swaps pasta for pillowy potato gnocchi. Butter cooked unt
 ## Directions
 
 1. **Heat the water:** Bring a large pot of salted water to a boil.
-2. **Brown the butter:** While the water heats, melt the butter in a large skillet over medium-high heat. Cook, swirling, until the milk solids turn golden brown and smell nutty, about 3 minutes.
-3. **Cook the zucchini:** Add the shallots and zucchini. Cook, stirring often, until softened, 2 to 3 minutes.
-4. **Boil the gnocchi:** Add the gnocchi to the boiling water and cook until they float, 3 to 5 minutes. Scoop out a mug of the cooking water, then drain.
-5. **Add the tomatoes:** While the gnocchi cook, add the tomatoes, salt, nutmeg and pepper to the skillet. Cook until the tomatoes start to release their juices, 1 to 2 minutes.
-6. **Toss and serve:** Add the gnocchi, Parmesan and parsley and toss gently until coated and the cheese melts. Add a splash of the cooking water if the cheese clumps. Taste for salt and serve right away.
+2. **Brown the butter:** Once the water boils, melt the butter in a large skillet over medium-high heat. Cook, swirling, until the milk solids turn golden brown and smell nutty, about 3 minutes.
+3. **Start the zucchini and gnocchi:** Add the shallots and zucchini to the skillet and drop the gnocchi into the boiling water at the same time. Cook the zucchini, stirring often, until it starts to soften, about 2 minutes.
+4. **Add the tomatoes:** Add the tomatoes, salt, nutmeg and pepper to the skillet. Cook until the tomatoes start to release their juices, 1 to 2 minutes.
+5. **Move the gnocchi:** When the gnocchi float, 3 to 5 minutes after they go in, lift them straight into the skillet with a slotted spoon. Scoop out a mug of the cooking water.
+6. **Toss and serve:** Add the Parmesan and parsley and toss gently until coated and the cheese melts. Add a splash of the cooking water if the cheese clumps. Taste for salt and serve right away.

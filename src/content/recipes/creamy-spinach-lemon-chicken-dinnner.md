@@ -17,8 +17,8 @@ cuisines:
 role: main
 vibe: comfort
 prepTime: 15 min
-cookTime: 20 min
-totalTime: 35 min
+cookTime: 25 min
+totalTime: 40 min
 servings: 4 portions
 pairsWith:
   - lemon-herb-couscous
@@ -170,6 +170,11 @@ formula:
       text: >-
         Nestle the cutlets and their juices into the spinach. Cover and simmer gently, turning once,
         until the chicken reaches 165°F, 2 to 4 minutes. Move the chicken to a platter.
+    - id: reduce
+      title: Reduce the sauce
+      text: >-
+        Turn the heat to medium-high. Boil the pan uncovered until the liquid is reduced by about
+        half, 3 to 4 minutes.
     - id: yogurt
       title: Temper the yogurt
       text: >-
@@ -202,5 +207,6 @@ Thin chicken cutlets get a quick golden sear, then finish in a garlicky oregano 
 3. **Bloom the garlic:** Lower the heat to medium. Add the remaining olive oil, garlic cloves, and dried oregano to the pan. Stir until fragrant, 30 to 45 seconds, without letting the garlic brown.
 4. **Wilt the spinach:** Add low-sodium chicken broth and baby spinach and scrape up the browned bits. Stir as the spinach wilts down, about 2 minutes, then bring to a gentle simmer.
 5. **Finish the chicken:** Nestle the cutlets and their juices into the spinach. Cover and simmer gently, turning once, until the chicken reaches 165°F, 2 to 4 minutes. Move the chicken to a platter.
-6. **Temper the yogurt:** Take the pan off the heat and let it stop bubbling. Put whole-milk Greek yogurt in a small bowl and whisk in a few spoonfuls of the hot broth, then stir it back into the pan.
-7. **Finish and serve:** Stir in lemon zest and juice. Taste for salt and pepper. Spoon the spinach and sauce over the chicken and serve.
+6. **Reduce the sauce:** Turn the heat to medium-high. Boil the pan uncovered until the liquid is reduced by about half, 3 to 4 minutes.
+7. **Temper the yogurt:** Take the pan off the heat and let it stop bubbling. Put whole-milk Greek yogurt in a small bowl and whisk in a few spoonfuls of the hot broth, then stir it back into the pan.
+8. **Finish and serve:** Stir in lemon zest and juice. Taste for salt and pepper. Spoon the spinach and sauce over the chicken and serve.

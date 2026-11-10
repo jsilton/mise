@@ -28,14 +28,14 @@ vibe: nutritious
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
-servings: '2'
+servings: 4 kid-size bowls
 pairsWith:
   - fluffy-scrambled-eggs
 pairingNotes:
   fluffy-scrambled-eggs: Soft eggs add protein to a sweet bowl.
 ingredients:
   - 1 cup rolled oats
-  - 1 1/2 cups water or milk
+  - 2 cups water or milk
   - '6 Medjool dates, pitted and finely chopped'
   - 2 tbsp frozen riced cauliflower
   - 2 tbsp coconut oil

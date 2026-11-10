@@ -12,7 +12,7 @@ flavorProfile:
   - acidic
   - rich
 cuisines:
-  - Greek-inspired
+  - Greek
 role: main
 vibe: quick
 prepTime: 25 min
@@ -50,7 +50,7 @@ ingredients:
   - '1 large ripe tomato, diced'
   - '1/4 English cucumber, diced'
   - '1/4 red onion, thinly sliced'
-origin: Greek-inspired home cooking; meatballs rather than spit-roasted gyro meat
+origin: Greek-inspired home cooking
 seasons:
   - year-round
 nutritionalDensity: moderate

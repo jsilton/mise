@@ -5,7 +5,6 @@ origin: China
 difficulty: intermediate
 cookingMethods:
   - roast
-  - boil
   - broil
 occasions:
   - weekend-project
@@ -94,9 +93,9 @@ Char siu is Cantonese barbecue pork, the glossy red strips that hang in the wind
 
 ## Directions
 
-1. **Marinate the pork:** Whisk the hoisin, honey, both soy sauces, Shaoxing wine, bean curd and its liquid, brown sugar, five-spice, garlic, white pepper and beet juice. Spoon a little into a small bowl, cover and refrigerate it for the glaze. Coat the pork with the rest, cover and refrigerate at least 8 hours or overnight.
+1. **Marinate the pork:** Whisk the hoisin, honey, both soy sauces, Shaoxing wine, bean curd and its liquid, brown sugar, five-spice, garlic, white pepper and beet juice. Spoon a fifth of it into a small bowl, cover and refrigerate it for the glaze. Coat the pork with the rest, cover and refrigerate at least 8 hours or overnight.
 2. **Set up the pan:** Heat the oven to 425°F. Line a rimmed roasting pan with foil, set a wire rack inside and pour the water into the pan. Lay the pork on the rack with space between the strips and discard the marinade left in the bowl.
 3. **Roast the pork:** Roast for 15 minutes. Turn the strips, lower the oven to 375°F and roast 20 minutes more. Add a little hot water to the pan if it starts to dry out.
-4. **Glaze the pork:** Stir the warm maltose into the reserved marinade and brush it over the pork. Roast, turning and glazing once more, until the glaze is sticky and dark red and the thickest strip reads at least 145°F, 10 to 20 minutes.
+4. **Glaze the pork:** Stir the warm maltose into the reserved marinade and brush it over the pork. Roast, turning and glazing once more, until the glaze is sticky and dark red and the thickest strip reads 160 to 165°F, 10 to 20 minutes.
 5. **Char the edges:** Turn on the broiler. Broil, turning once and watching closely, until the edges char in spots, 1 to 3 minutes.
 6. **Rest and slice:** Rest the pork for 10 minutes. Slice thinly across the grain.

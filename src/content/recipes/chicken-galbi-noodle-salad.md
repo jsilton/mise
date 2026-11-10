@@ -28,7 +28,7 @@ pairingNotes:
   seasoned-bean-sprouts: A crunchy Korean banchan beside the noodles.
   garlic-sesame-spinach: Garlicky greens to round out the bowl.
 ingredients:
-  - 4 tbsp soy sauce, divided
+  - '4 tbsp soy sauce, divided, plus more to taste'
   - 2 tbsp unseasoned rice vinegar
   - 2 tbsp brown sugar, divided
   - 1 tbsp toasted sesame oil
@@ -41,7 +41,7 @@ ingredients:
   - '1 bell pepper, thinly sliced'
   - '1/2 cup fresh cilantro leaves, roughly chopped'
   - 1 tbsp toasted sesame seeds
-  - 1/2 cup oi muchim (Korean cucumber salad), for topping (optional)
+  - '1/2 cup [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), for topping (optional)'
 origin: Korean-inspired
 seasons:
   - year-round
@@ -91,4 +91,4 @@ This NYT Cooking noodle salad borrows the sweet, garlicky soy flavors of Korean 
 2. **Cook the noodles:** Boil the noodles until chewy with no hard center, following the package, usually 6 to 8 minutes. Drain, rinse under cool water and drain well. Snip them into shorter lengths with kitchen shears and toss right away with the dressing.
 3. **Brown the chicken:** Heat the neutral oil in a wide skillet over medium-high heat. Add the chicken and break it into small pieces. Cook, stirring now and then, until the liquid cooks off and some edges are golden, 5 to 7 minutes.
 4. **Glaze the chicken:** Lower the heat to medium. Stir in the garlic and ginger for 30 seconds. Add the soy and water mixture and simmer, stirring, until the chicken is lightly glazed and reaches 165°F, 2 to 3 minutes.
-5. **Toss and serve:** Add the chicken to the noodles and fold in the pepper, cilantro and sesame seeds. Loosen with a splash of water if the noodles stick. Serve warm or at room temperature, topped with the oi muchim.
+5. **Toss and serve:** Add the chicken to the noodles and fold in the pepper, cilantro and sesame seeds. Loosen with a splash of water if the noodles stick. Taste and add a splash more soy sauce and vinegar until the noodles taste seasoned. Serve warm or at room temperature, topped with the pickled cucumbers.

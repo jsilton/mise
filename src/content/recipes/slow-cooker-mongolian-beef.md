@@ -5,8 +5,8 @@ role: main
 vibe: comfort
 difficulty: easy
 prepTime: 15 min
-cookTime: 1 hr 30 min to 2 hr
-totalTime: 1 hr 45 min to 2 hr 15 min
+cookTime: 2 hr
+totalTime: 2 hr 15 min
 servings: '5'
 cookingMethods:
   - slow-cook

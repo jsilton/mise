@@ -107,8 +107,9 @@ Yakisoba is Japan's fried noodle dish, made with wheat noodles despite the name.
 
 1. **Mix the sauce:** In a small bowl, whisk the Worcestershire, oyster sauce, ketchup, soy sauce and mirin.
 2. **Loosen the noodles:** Warm the noodles as the package directs, in the microwave or under hot running water. Drain well and gently pull the bundles apart.
-3. **Sear the chicken:** Heat a 14-inch wok or deep 12-inch skillet over medium-high heat. Add a little of the oil and spread the chicken in one layer. Cook, turning once, until browned and cooked through to 165°F, 3 to 4 minutes. Move it to a plate.
-4. **Stir-fry the vegetables:** Add the rest of the oil, the onion and carrot and stir-fry for 2 minutes. Add the mushrooms and cabbage and stir-fry until the cabbage starts to soften but still has bite, 3 to 4 minutes. Add the garlic, ginger and scallions and stir until fragrant, about 30 seconds.
-5. **Brown the noodles:** Push the vegetables to the side of the pan. Add the noodles and pepper, spread them over the bottom of the pan and leave them alone for 1 minute so some edges brown. In a 12-inch skillet, move half the vegetables to a plate and brown and toss the noodles in two batches, with half the chicken and sauce each time.
-6. **Toss with the sauce:** Return the chicken, pour in the sauce and toss over high heat until the noodles are evenly coated and no sauce pools in the pan, 1 to 2 minutes.
-7. **Serve:** Pile onto plates. Drizzle with the mayonnaise and scatter the aonori, beni shoga and bonito flakes on top.
+3. **Sear the chicken:** Heat a 14-inch wok or deep 12-inch skillet over medium-high heat. Add a third of the oil and spread the chicken in one layer. Cook, turning once, until browned and cooked through to 165°F, 3 to 4 minutes. Move it to a plate.
+4. **Brown the noodles:** Add another third of the oil and spread the noodles over the bottom of the hot pan, in two batches in a 12-inch skillet. Leave them alone for 1 minute so some edges brown, then toss and move them to the plate.
+5. **Stir-fry the vegetables:** Add the rest of the oil, the onion and carrot and stir-fry for 2 minutes. Add the mushrooms and cabbage and stir-fry until the cabbage starts to soften but still has bite, 3 to 4 minutes. Add the garlic, ginger and scallions and stir until fragrant, about 30 seconds.
+6. **Return the noodles:** Return the noodles to the vegetables, add the pepper and toss to mix.
+7. **Toss with the sauce:** Return the chicken, pour in the sauce and toss over high heat until the noodles are evenly coated and no sauce pools in the pan, 1 to 2 minutes.
+8. **Serve:** Pile onto plates. Drizzle with the mayonnaise and scatter the aonori, beni shoga and bonito flakes on top.

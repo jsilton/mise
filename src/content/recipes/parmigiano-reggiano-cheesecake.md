@@ -37,13 +37,13 @@ servings: '12'
 ingredients:
   - '--- Crust ---'
   - 'butter, for the pan'
-  - '18 graham crackers, broken up'
+  - '18 full graham cracker sheets (about 270 g), broken up'
   - 1/2 cup toasted sunflower seeds
   - 1 tsp lemon zest
   - 1/2 tsp ground cinnamon
   - 1/4 cup granulated sugar
   - '3/4 cup Parmigiano-Reggiano, finely grated'
-  - '4 tbsp unsalted butter, melted'
+  - '8 tbsp unsalted butter, melted'
   - '--- Filling ---'
   - '40 oz cream cheese (five 8-oz packages), at room temperature'
   - 1 1/3 cups granulated sugar
@@ -75,7 +75,7 @@ This cheesecake folds finely grated Parmigiano-Reggiano into a classic sweet cre
 ## Directions
 
 1. **Prepare the pan:** Heat the oven to 350°F. Line the bottom of a 10-inch springform pan with parchment and butter the sides.
-2. **Make the crust:** Pulse the graham crackers and sunflower seeds to fine crumbs in a food processor. Add the lemon zest, cinnamon, sugar and Parmigiano and pulse to combine. Pulse in the melted butter until a squeezed handful holds together. Add a little more melted butter if it still crumbles.
+2. **Make the crust:** Pulse the graham crackers and sunflower seeds to fine crumbs in a food processor. Add the lemon zest, cinnamon, sugar and Parmigiano and pulse to combine. Pulse in the melted butter until a squeezed handful holds together.
 3. **Bake the crust:** Press the crumbs over the bottom and up the sides of the pan, about 1/2 inch thick, stopping 1/2 inch below the rim. Bake until lightly golden, 15 to 18 minutes, then let it cool. Lower the oven to 325°F.
 4. **Beat the filling:** Beat the cream cheese with an electric mixer until smooth. On low speed, mix in the sugar, then the sour cream, vanilla and Parmigiano.
 5. **Add the eggs:** Add the eggs one at a time on low speed, mixing only until each disappears. Scrape the bowl as you go.

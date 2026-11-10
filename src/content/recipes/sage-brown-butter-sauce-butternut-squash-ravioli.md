@@ -72,6 +72,7 @@ Brown butter and sage is the classic northern Italian sauce for filled pasta. Co
 1. **Boil the water:** Bring a large pot of well-salted water to a boil.
 2. **Brown the butter:** Melt the butter in a wide, light-colored skillet over medium heat. If using the whole sage leaves, fry them in the foaming butter until crisp, 1 to 2 minutes, then lift them onto a paper towel. Keep swirling the butter until the milk solids turn golden and smell nutty, about 5 minutes in all.
 3. **Add the sage:** Stir in the minced sage and cook until fragrant, about 30 seconds. Take the pan off the heat and let it cool for 2 minutes.
-4. **Make the sauce:** Slowly whisk in the broth, then the cream, standing back from the splatter. Stir in the Parmigiano and lemon juice and season with salt and pepper. The sauce will be thin.
-5. **Cook the ravioli:** Cook the ravioli in the boiling water according to the package directions. Lift them out with a slotted spoon.
-6. **Toss and serve:** Set the skillet over low heat, add the ravioli and turn them gently until coated and hot, about 1 minute. Serve with the crisp sage leaves, more Parmigiano and black pepper.
+4. **Reduce the sauce:** Slowly whisk in the broth, then the cream, standing back from the splatter. Return the pan to medium heat and simmer until the sauce is reduced by about a third and lightly coats a spoon, 3 to 4 minutes.
+5. **Finish the sauce:** Take the pan off the heat. Stir in the Parmigiano and lemon juice and season with salt and pepper.
+6. **Cook the ravioli:** Cook the ravioli in the boiling water according to the package directions. Lift them out with a slotted spoon.
+7. **Toss and serve:** Set the skillet over low heat, add the ravioli and turn them gently until coated and hot, about 1 minute. Serve with the crisp sage leaves, more Parmigiano and black pepper.

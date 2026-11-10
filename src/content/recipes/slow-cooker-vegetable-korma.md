@@ -7,8 +7,8 @@ role: main
 vibe: comfort
 difficulty: easy
 prepTime: 25 min
-cookTime: 4 to 5 hr on high
-totalTime: 4 hr 30 min to 5 hr 30 min
+cookTime: 5 hr
+totalTime: 5 hr 30 min
 servings: '6'
 cuisines:
   - Indian

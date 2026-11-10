@@ -16,9 +16,9 @@ cuisines:
 role: base
 vibe: quick
 prepTime: 5 min
-cookTime: 10 min
-totalTime: 15 min
-servings: '4'
+cookTime: 20 min
+totalTime: 25 min
+servings: 4 servings
 seasons:
   - year-round
 nutritionalDensity: hearty
@@ -28,8 +28,9 @@ advancePrep:
 pairsWith:
   - fresh-egg-pasta
 pairingNotes:
-  fresh-egg-pasta: Toss it with fresh fettuccine.
+  fresh-egg-pasta: Use a batch in place of the dried fettuccine.
 ingredients:
+  - 1 lb fettuccine
   - 1 stick (8 tbsp) unsalted butter
   - 1 cup heavy cream
   - '1 clove garlic, grated, or 1/2 tsp garlic powder'
@@ -42,6 +43,9 @@ learning:
     - emulsions
     - starch
   substitutions:
+    - ingredient: Fettuccine
+      alternative: Fresh Egg Pasta
+      effect: Use one batch in place of the dried fettuccine. It cooks in 2 to 3 minutes.
     - ingredient: Parmigiano-Reggiano
       alternative: Domestic Parmesan
       effect: >-
@@ -61,8 +65,9 @@ This is the American cream version of Alfredo, richer than the Roman original of
 
 ## Directions
 
-1. **Melt the butter:** In a large skillet over medium heat, melt the butter.
-2. **Simmer the cream:** Add the cream and garlic and simmer gently until slightly thickened, about 2 minutes.
-3. **Melt the cheese:** Turn the heat to low. Whisk in the Parmigiano a handful at a time until smooth. Don't let it boil.
-4. **Loosen:** Whisk in the pasta water a little at a time until the sauce flows and lightly coats a spoon.
-5. **Season and serve:** Season with salt, pepper and the nutmeg, if using. Toss right away with hot pasta.
+1. **Boil the fettuccine:** Bring a large pot of well-salted water to a boil. Cook the fettuccine until al dente, 8 to 10 minutes.
+2. **Melt the butter:** While the fettuccine cooks, melt the butter in a large skillet over medium heat.
+3. **Simmer the cream:** Add the cream and garlic and simmer gently until slightly thickened, about 2 minutes.
+4. **Melt the cheese:** Turn the heat to low. Whisk in the Parmigiano a handful at a time until smooth. Don't let it boil.
+5. **Loosen:** Scoop out a mug of the cooking water, then drain the fettuccine. Whisk the pasta water into the sauce a little at a time until the sauce flows and lightly coats a spoon.
+6. **Season and serve:** Season with salt, pepper and the nutmeg, if using. Toss right away with the hot fettuccine.

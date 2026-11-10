@@ -6,8 +6,8 @@ role: main
 vibe: comfort
 difficulty: easy
 prepTime: 20 min
-cookTime: 50 min
-totalTime: 1 hr 10 min
+cookTime: 40 min
+totalTime: 1 hr
 servings: '4'
 cuisines: [Indian]
 cookingMethods: [saute, simmer]
@@ -76,7 +76,7 @@ Aloo gobi is the potato and cauliflower dish cooked in Indian homes on any weekn
 1. **Toast the whole spices:** Heat the oil in a deep 12-inch sauté pan with a lid over medium heat. Add the cumin and coriander seeds and stir until they sizzle and smell toasty, 20 to 30 seconds.
 2. **Cook the onion and aromatics:** Add the onion and cook, stirring, until soft and pale gold, 6 to 8 minutes. Add the garlic, ginger and serranos and stir until fragrant, about 1 minute.
 3. **Cook the tomato masala:** Lower the heat to medium-low. Stir in the turmeric and ground coriander for 20 seconds, then add the tomato and its juices. Cook, stirring, until the tomato breaks down and the mixture is thick, 5 to 7 minutes.
-4. **Start the potatoes:** Add the potatoes and salt and stir to coat. Pour in half the water and bring to a simmer. Cover and cook over medium-low, turning once or twice, until the outsides are tender but the centers still resist a knife, 12 to 18 minutes.
-5. **Add the cauliflower:** Fold in the cauliflower and the rest of the water. Cover and simmer, turning gently every 5 minutes, until a knife slides easily into both a potato and a cauliflower stem, 15 to 20 minutes. Add a splash of water if the pan dries out.
+4. **Start the potatoes:** Add the potatoes and salt and stir to coat. Pour in half the water and bring to a simmer. Cover and cook over medium-low, turning once or twice, until the outsides are tender but the centers still resist a knife, 8 to 10 minutes.
+5. **Add the cauliflower:** Fold in the cauliflower and the rest of the water. Cover and simmer, turning gently every 5 minutes, until a knife slides easily into both a potato and a cauliflower stem, 12 to 15 minutes. Add a splash of water if the pan dries out.
 6. **Dry the coating:** Uncover and cook over medium heat, folding gently, until no liquid pools in the pan, 3 to 5 minutes. Stir in the garam masala and cayenne (if using) and cook 30 seconds.
 7. **Finish:** Take the pan off the heat and fold in the lemon juice and cilantro. Taste and add more salt if needed. Serve hot.

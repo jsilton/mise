@@ -1,9 +1,10 @@
 ---
 miseId: 9831789d-b00f-4c4b-a28f-75a4be34978c
 title: Lemon Basil Shrimp Risotto
-difficulty: easy
+difficulty: intermediate
 cookingMethods:
   - saute
+  - simmer
 occasions:
   - date-night
   - entertaining
@@ -20,7 +21,7 @@ vibe: technical
 prepTime: 10 min
 cookTime: 40 min
 totalTime: 50 min
-servings: 4 portions
+servings: 6 portions
 seasons:
   - spring
   - summer
@@ -34,7 +35,7 @@ pairingNotes:
   everyday-arugula-salad: Peppery greens to cut the creamy rice.
   roasted-asparagus: A spring green that loves lemon and shrimp.
 ingredients:
-  - '3 tbsp unsalted butter, cold'
+  - '2 tbsp unsalted butter, for the shrimp'
   - '1 1/2 lb jumbo U10 shrimp, peeled and deveined'
   - 'kosher salt, a pinch, for the shrimp'
   - 2 tbsp olive oil
@@ -42,7 +43,8 @@ ingredients:
   - '4 garlic cloves, minced'
   - 2 cups Arborio rice
   - 1 cup dry white wine
-  - '5–6 cups chicken or vegetable broth, kept hot'
+  - '7 cups chicken or vegetable broth, kept hot'
+  - '1 tbsp cold unsalted butter, for finishing'
   - 2 tbsp heavy cream
   - '1/2 cup Parmesan, freshly grated'
   - '1 lemon, zested and juiced'
@@ -56,7 +58,7 @@ sourceUrl: 'https://www.thepioneerwoman.com/food-cooking/recipes/a11773/lemon-ba
 formula:
   version: 1
   yield:
-    amount: 4
+    amount: 6
     unit: portion
   components:
     - id: main
@@ -66,14 +68,12 @@ formula:
           key: butter
           name: unsalted butter
           quantity:
-            amount: 3
+            amount: 2
             unit: tbsp
-          preparation: cold
+          preparation: for the shrimp
           uses:
-            - step: shrimp
-              share: 2/3
-            - step: finish
-              share: 1/3
+            - step: melt
+              share: 1
         - id: shrimp
           key: shrimp
           name: jumbo U10 shrimp
@@ -144,12 +144,21 @@ formula:
           key: broth
           name: chicken or vegetable broth
           quantity:
-            amount: 5
-            max: 6
+            amount: 7
             unit: cup
           preparation: kept hot
           uses:
             - step: broth
+              share: 1
+        - id: finish-butter
+          key: butter
+          name: cold unsalted butter
+          quantity:
+            amount: 1
+            unit: tbsp
+          preparation: for finishing
+          uses:
+            - step: finish
               share: 1
         - id: cream
           key: cream
@@ -178,7 +187,7 @@ formula:
             unit: count
           preparation: zested and juiced
           uses:
-            - step: finish
+            - step: lemon
               share: 1
           plural: lemons
         - id: salt
@@ -216,12 +225,14 @@ formula:
           optional: true
           role: garnish
   steps:
+    - id: melt
+      title: Melt the butter
+      text: 'Melt {{ingredients}} in a large, wide skillet over medium-high heat.'
     - id: shrimp
       title: Sear the shrimp
       text: >-
-        Heat a large, wide skillet over medium-high heat. Add {{ingredients}}, melting the butter
-        first and then laying the shrimp in a single layer. Sear until opaque through the center, 2
-        to 3 minutes per side, then move them to a plate.
+        Add {{ingredients}} to the pan, laying the shrimp in a single layer. Sear until opaque
+        through the center, 2 to 3 minutes per side, then move them to a plate.
     - id: onion
       title: Soften the onion
       text: >-
@@ -247,6 +258,9 @@ formula:
       text: >-
         Take the pan off the heat and stir in {{ingredients}} until creamy. Add a splash of broth or
         hot water if it has turned stiff.
+    - id: lemon
+      title: Add the lemon
+      text: 'Stir in {{ingredients}} zest and juice.'
     - id: combine
       title: Fold in the shrimp
       text: >-
@@ -257,7 +271,6 @@ formula:
       text: 'Serve right away, topped with {{ingredients}}.'
 equipment:
   - large-skillet
-  - food-thermometer
 learning:
   techniques:
     - temperature
@@ -277,11 +290,13 @@ Risotto comes from northern Italy, where hot broth goes in a ladle at a time so 
 
 ## Directions
 
-1. **Sear the shrimp:** Heat a large, wide skillet over medium-high heat. Add 2/3 of the unsalted butter, jumbo U10 shrimp, and kosher salt, melting the butter first and then laying the shrimp in a single layer. Sear until opaque through the center, 2 to 3 minutes per side, then move them to a plate.
-2. **Soften the onion:** Lower the heat to medium and add olive oil and large onion to the same pan. Cook, stirring often, until the onion is soft and translucent but not browned, 5 to 7 minutes.
-3. **Toast the rice:** Add garlic cloves and Arborio rice. Stir until the garlic is fragrant and the edges of the rice turn translucent, about 2 minutes.
-4. **Add the wine:** Pour in dry white wine and stir until it is absorbed.
-5. **Add the broth:** Lower the heat to keep a gentle simmer. Add chicken or vegetable broth a ladle at a time, stirring often and letting each ladle mostly absorb before adding the next. Cook until the rice is tender with a slight bite and flows loosely, 18 to 22 minutes. If the broth runs out first, use hot water.
-6. **Finish the risotto:** Take the pan off the heat and stir in 1/3 of the unsalted butter, heavy cream, Parmesan, lemon, kosher salt, and black pepper until creamy. Add a splash of broth or hot water if it has turned stiff.
-7. **Fold in the shrimp:** Fold in the shrimp, their juices and fresh basil leaves. Stir until the shrimp are warm, about 1 minute.
-8. **Serve:** Serve right away, topped with fresh basil (if using).
+1. **Melt the butter:** Melt unsalted butter in a large, wide skillet over medium-high heat.
+2. **Sear the shrimp:** Add jumbo U10 shrimp and kosher salt to the pan, laying the shrimp in a single layer. Sear until opaque through the center, 2 to 3 minutes per side, then move them to a plate.
+3. **Soften the onion:** Lower the heat to medium and add olive oil and large onion to the same pan. Cook, stirring often, until the onion is soft and translucent but not browned, 5 to 7 minutes.
+4. **Toast the rice:** Add garlic cloves and Arborio rice. Stir until the garlic is fragrant and the edges of the rice turn translucent, about 2 minutes.
+5. **Add the wine:** Pour in dry white wine and stir until it is absorbed.
+6. **Add the broth:** Lower the heat to keep a gentle simmer. Add chicken or vegetable broth a ladle at a time, stirring often and letting each ladle mostly absorb before adding the next. Cook until the rice is tender with a slight bite and flows loosely, 18 to 22 minutes. If the broth runs out first, use hot water.
+7. **Finish the risotto:** Take the pan off the heat and stir in cold unsalted butter, heavy cream, Parmesan, kosher salt, and black pepper until creamy. Add a splash of broth or hot water if it has turned stiff.
+8. **Add the lemon:** Stir in lemon zest and juice.
+9. **Fold in the shrimp:** Fold in the shrimp, their juices and fresh basil leaves. Stir until the shrimp are warm, about 1 minute.
+10. **Serve:** Serve right away, topped with fresh basil (if using).

@@ -35,10 +35,10 @@ ingredients:
   - 1 lb spaghetti or rigatoni
   - 'kosher salt, for the pasta water'
   - '--- Sauce ---'
-  - '4 oz guanciale, thickly diced'
-  - 2 large eggs
-  - 2 large egg yolks
-  - '1 cup Pecorino Romano, finely grated, plus more for serving'
+  - '6 oz guanciale, thickly diced'
+  - 3 large eggs
+  - 3 large egg yolks
+  - '1 1/2 cups Pecorino Romano, finely grated, plus more for serving'
   - '1 tsp black pepper, freshly cracked, plus more for serving'
 formula:
   version: 1
@@ -72,7 +72,7 @@ formula:
           key: guanciale-or-pancetta
           name: guanciale
           quantity:
-            amount: 4
+            amount: 6
             unit: oz
           uses:
             - step: render
@@ -82,7 +82,7 @@ formula:
           key: pasteurized-egg
           name: large egg
           quantity:
-            amount: 2
+            amount: 3
             unit: count
           uses:
             - step: warm
@@ -92,7 +92,7 @@ formula:
           key: pasteurized-egg-yolk
           name: large egg yolk
           quantity:
-            amount: 2
+            amount: 3
             unit: count
           uses:
             - step: warm
@@ -102,7 +102,7 @@ formula:
           key: pecorino-or-parmesan
           name: Pecorino Romano
           quantity:
-            amount: 1
+            amount: 1 1/2
             unit: cup
           uses:
             - step: warm

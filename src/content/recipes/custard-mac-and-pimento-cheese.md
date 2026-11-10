@@ -4,8 +4,8 @@ title: Custard Macaroni and Pimento Cheese
 aliases:
   - baked-macaroni-and-pimento-cheese-the-comfort-classic
 prepTime: 15 min
-cookTime: 40 min
-totalTime: 1 hr
+cookTime: 45 min
+totalTime: 1 hr 5 min
 servings: '6'
 pairsWith:
   - garlic-sauteed-green-beans
@@ -16,8 +16,8 @@ pairingNotes:
 ingredients:
   - 1 lb elbow macaroni or cavatappi
   - '4 tbsp unsalted butter, melted, plus more for the dish'
-  - 3 large eggs
-  - 2 cups whole milk
+  - 4 large eggs
+  - 3 1/2 cups whole milk
   - '12 oz sharp white cheddar, shredded'
   - '4 oz sharp yellow cheddar, shredded'
   - '1 jar (4 oz) diced pimentos, drained'
@@ -66,5 +66,5 @@ Custard mac and cheese is the old Southern way: eggs and milk set around the pas
 3. **Butter the pasta:** Return the pasta to the pot and toss it with the melted butter. Let it stand until it stops steaming, about 5 minutes, so it won't scramble the eggs.
 4. **Make the custard:** In a bowl, whisk the eggs, milk, salt, pepper, garlic powder, dry mustard and smoked paprika until smooth.
 5. **Combine:** Stir three-quarters of both cheddars and all the pimentos into the pasta. Pour in the custard and stir gently until evenly mixed.
-6. **Bake:** Spread the mixture in the dish and scatter the rest of the cheese over the top. Bake until the top is golden, the edges bubble and the center is set, 25 to 30 minutes. For a crisper top, broil for the last minute.
+6. **Bake:** Spread the mixture in the dish and scatter the rest of the cheese over the top. Bake until the top is golden, the edges bubble and the center is just set, 30 to 35 minutes. For a crisper top, broil for the last minute.
 7. **Rest and serve:** Let the mac and cheese stand 5 minutes so the custard firms up, then serve.

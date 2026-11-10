@@ -16,8 +16,8 @@ cuisines:
 role: main
 vibe: holiday
 prepTime: '45 min, plus 18 hr brining and drying'
-cookTime: 2 hr 45 min
-totalTime: '3 hr 30 min, plus 18 hr brining and drying'
+cookTime: 3 hr
+totalTime: '3 hr 45 min, plus 18 hr brining and drying'
 advancePrep:
   - refrigerator-thaw
   - brine
@@ -103,5 +103,5 @@ Alton Brown's Good Eats turkey taught a generation to brine. A sweet, spiced bri
 4. **Steam the aromatics:** Heat the oven to 500°F with a rack in the lowest position. Put the apple, onion, cinnamon stick and water in a microwave-safe bowl and microwave on high for 5 minutes.
 5. **Stuff and oil the bird:** Set the turkey breast side up on the rack in a roasting pan. Drain the aromatics and put them in the cavity with the rosemary and sage. Tuck the wing tips under the bird and rub the skin all over with the oil.
 6. **Roast at 500°F:** Roast on the lowest rack until the skin is golden, 30 minutes. While it roasts, fold a double layer of heavy foil into a triangle that will cover the breast.
-7. **Finish at 350°F:** Lay the foil triangle over the breast and push a probe thermometer into the thickest part of the breast. Turn the oven to 350°F and roast until the breast reads 161°F, 1 1/2 to 2 hours more.
-8. **Rest and carve:** Move the turkey to a carving board, tent it loosely with foil and rest 15 minutes, as the breast climbs to 165°F. Discard the aromatics and carve.
+7. **Finish at 350°F:** Lay the foil triangle over the breast and push a probe thermometer into the thickest part of the breast. Turn the oven to 350°F and roast until the breast reads 161°F, 1 1/2 to 2 hours more. Check that the thickest part of the thigh, away from the bone, reads at least 170°F. If it reads lower, keep roasting until it does.
+8. **Rest and carve:** Move the turkey to a carving board, tent it loosely with foil and rest 30 minutes, as the breast climbs to 165°F. Discard the aromatics and carve.

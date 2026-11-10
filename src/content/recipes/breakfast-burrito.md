@@ -6,6 +6,7 @@ cookingMethods:
   - saute
   - toast
 occasions:
+  - breakfast
   - weeknight
   - meal-prep
   - quick-lunch
@@ -56,7 +57,8 @@ learning:
       effect: Use 1/2 cup crumbled sausage in place of the bacon.
   storage: >-
     Wrap cooled burritos in foil, without the wet toppings, and freeze for up to 1 month. Reheat
-    from frozen in a 375°F oven until hot in the center, about 20 minutes.
+    from frozen in a 375°F oven until hot in the center, 35 to 45 minutes, or thaw overnight in the
+    fridge and reheat for 15 to 20 minutes.
   review:
     status: editorial-review
     date: '2026-11-09'

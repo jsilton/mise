@@ -5,7 +5,7 @@ difficulty: easy
 cookingMethods:
   - bake
   - roast
-  - no-cook
+  - pan-fry
   - blend
 occasions:
   - weeknight
@@ -66,6 +66,9 @@ ingredients:
   - 'black pepper, to taste'
   - '--- For the bowls ---'
   - '4 cups fresh kale, stems removed, chopped'
+  - 1 tbsp olive oil
+  - 2 tsp fresh lemon juice
+  - 'salt, a pinch'
 seasons:
   - year-round
 nutritionalDensity: moderate
@@ -422,9 +425,34 @@ formula:
             amount: 4
             unit: cup
           uses:
-            - step: serve
+            - step: kale
               share: 1
           preparation: 'stems removed, chopped'
+        - id: kale-oil
+          key: oil
+          name: olive oil
+          quantity:
+            amount: 1
+            unit: tbsp
+          uses:
+            - step: kale
+              share: 1
+        - id: kale-lemon
+          key: lemon
+          name: fresh lemon juice
+          quantity:
+            amount: 2
+            unit: tsp
+          uses:
+            - step: kale
+              share: 1
+        - id: kale-salt
+          key: salt
+          name: salt
+          allowance: a pinch
+          uses:
+            - step: kale
+              share: 1
   steps:
     - id: chickpeas
       title: Roast the chickpeas
@@ -452,11 +480,16 @@ formula:
         Heat {{ingredients}} in a large skillet over medium-high heat. Cook the logs in batches
         without crowding until golden on all sides and 165°F in the center, 3 to 4 minutes per side.
         Let them set before turning so they hold together.
+    - id: kale
+      title: Massage the kale
+      text: >-
+        In a large bowl, rub {{ingredients}} together with your hands until the kale is dark and
+        tender, about 1 minute.
     - id: serve
       title: Build the bowls
       text: >-
-        Divide {{ingredients}} among four bowls. Top with the chickpeas, sweet potato and meatballs,
-        and spoon the dressing over.
+        Divide the kale among four bowls. Top with the chickpeas, sweet potato and meatballs, and
+        spoon the dressing over.
 learning:
   techniques:
     - gentle-proteins
@@ -479,5 +512,5 @@ Soft chicken and ricotta meatballs full of cilantro, dill and lemon zest, served
 3. **Make the dressing:** While the pans roast, blend Greek yogurt, fresh basil leaves, fresh dill, jalapeño, honey, fresh lemon juice, olive oil, garlic cloves, salt, and black pepper in a blender or food processor until smooth. Taste for salt and refrigerate until serving.
 4. **Shape the meatballs:** In a large bowl, gently mix ground chicken, whole-milk ricotta, large egg, panko breadcrumbs, shallot, green onions, fresh cilantro, fresh dill, lemon zest, salt, and black pepper just until combined. The mixture will be soft. Shape it into small logs about 2 inches long.
 5. **Cook the meatballs:** Heat olive oil in a large skillet over medium-high heat. Cook the logs in batches without crowding until golden on all sides and 165°F in the center, 3 to 4 minutes per side. Let them set before turning so they hold together.
-6. **Build the bowls:** Divide fresh kale among four bowls. Top with the chickpeas, sweet potato and meatballs, and spoon the dressing over.
-
+6. **Massage the kale:** In a large bowl, rub fresh kale, olive oil, fresh lemon juice, and salt together with your hands until the kale is dark and tender, about 1 minute.
+7. **Build the bowls:** Divide the kale among four bowls. Top with the chickpeas, sweet potato and meatballs, and spoon the dressing over.

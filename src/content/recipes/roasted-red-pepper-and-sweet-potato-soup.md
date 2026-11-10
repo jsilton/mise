@@ -19,7 +19,7 @@ ingredients:
   - '2 large sweet potatoes (about 6 cups cubed), peeled and cut into 1-inch cubes'
   - '1 jar (14 oz) roasted red peppers, drained'
   - 1 can (14 oz) coconut milk
-  - 1 cup chicken stock
+  - '2 cups chicken stock, plus more for thinning'
   - '1 small yellow onion, cut into large dice'
   - '2 garlic cloves, peeled'
   - '1 1/2 tsp kosher salt, plus more to taste'
@@ -37,7 +37,10 @@ cuisines:
   - American
 equipment:
   - slow-cooker
-  - blender
+  - immersion-blender
+dietary:
+  - dairy-free
+  - gluten-free
 learning:
   techniques:
     - temperature
@@ -63,6 +66,6 @@ A silky slow-cooker soup of sweet potato, roasted red peppers and coconut milk. 
 
 1. **Load the cooker:** Put the sweet potatoes, roasted peppers, coconut milk, stock, onion, garlic, salt and black pepper in the slow cooker and stir.
 2. **Slow-cook:** Cover and cook on LOW until the sweet potatoes are very tender, 4 to 6 hours.
-3. **Blend the soup:** Turn off the cooker and purée the soup with an immersion blender until smooth, or leave a few soft pieces.
+3. **Blend the soup:** Turn off the cooker and purée the soup with an immersion blender until smooth, or leave a few soft pieces. Thin with hot stock until it pours from a spoon.
 4. **Season with lime:** Stir in half the lime juice and taste. Add more salt and lime until the soup tastes bright.
 5. **Serve:** Ladle into bowls and sprinkle with red pepper flakes.

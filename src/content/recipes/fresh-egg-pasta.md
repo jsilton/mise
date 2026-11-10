@@ -40,7 +40,7 @@ pairsWith:
   - quick-lamb-ragu
 pairingNotes:
   pressure-cooker-bolognase: Tagliatelle with ragù, the classic of Bologna.
-  real-alfredo-sauce: Butter and Parmigiano cling to fresh fettuccine.
+  real-alfredo-sauce: Use a batch in place of the sauce's dried fettuccine.
   quick-lamb-ragu: A hearty meat sauce for wide ribbons.
 ingredients:
   - '290 g 00 flour, plus a little for dusting'

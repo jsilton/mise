@@ -6,7 +6,7 @@ cookingMethods:
   - no-cook
 dietary:
   - vegetarian
-  - gluten-free
+  - gluten-free-option
 occasions:
   - meal-prep
   - weeknight
@@ -147,6 +147,9 @@ learning:
     - ingredient: Old-fashioned rolled oats
       alternative: Quick oats
       effect: Softer and less chewy. Steel-cut oats won't soften this way.
+    - ingredient: Old-fashioned rolled oats and granola
+      alternative: Certified gluten-free oats and granola
+      effect: Makes it gluten-free with no change in texture.
   storage: Keeps 4 days in the fridge. Add the toppings just before eating.
   review:
     status: editorial-review

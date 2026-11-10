@@ -45,7 +45,7 @@ ingredients:
   - '1/2 cup Parmigiano-Reggiano, freshly grated'
   - 1 tsp garlic powder
   - 1/2 tsp dried Italian seasoning
-  - '2 tbsp olive oil, for brushing'
+  - '2 tbsp olive oil, for the panko'
   - 'marinara sauce, ranch dressing or lemon wedges, for serving (optional)'
 learning:
   techniques:
@@ -66,8 +66,7 @@ Zucchini fries look like the real thing, which wins over kids who skip anything 
 ## Directions
 
 1. **Salt the zucchini:** Heat the oven to 400°F and line two baking sheets with parchment. Toss the zucchini sticks with the salt for the zucchini and spread them on a clean towel for 10 minutes. Pat them completely dry.
-2. **Set up the breading:** Set out three shallow bowls. Mix the flour, the salt for the flour and the pepper in the first. Put the eggs in the second. Mix the panko, Parmigiano, garlic powder and Italian seasoning in the third.
+2. **Set up the breading:** Set out three shallow bowls. Mix the flour, the salt for the flour and the pepper in the first. Put the eggs in the second. Mix the panko, Parmigiano, garlic powder and Italian seasoning in the third. Rub the olive oil into the panko mixture with your fingertips until the crumbs are evenly moistened.
 3. **Bread the sticks:** Working a few at a time, coat the sticks in flour and shake off the excess, dip them in egg, then press them into the panko. Lay them on the baking sheets in a single layer, not touching.
-4. **Oil the sticks:** Brush the olive oil over the sticks, turning them so both sides are coated.
-5. **Bake:** Bake, turning the sticks and switching the sheets between racks halfway through, until the coating is deep golden and crisp and the zucchini is tender, 18 to 22 minutes.
-6. **Serve:** Serve hot with marinara, ranch or a squeeze of lemon.
+4. **Bake:** Bake, turning the sticks and switching the sheets between racks halfway through, until the coating is deep golden and crisp and the zucchini is tender, 18 to 22 minutes.
+5. **Serve:** Serve hot with marinara, ranch or a squeeze of lemon.

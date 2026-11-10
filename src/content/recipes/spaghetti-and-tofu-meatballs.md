@@ -16,11 +16,13 @@ flavorProfile:
   - herbaceous
 cuisines:
   - Italian
+dietary:
+  - vegetarian
 role: main
 vibe: nutritious
 prepTime: 30 min
-cookTime: 35 min
-totalTime: 1 hr 5 min
+cookTime: 40 min
+totalTime: 1 hr 10 min
 servings: 6 portions
 seasons:
   - year-round
@@ -40,7 +42,7 @@ pairingNotes:
   garlic-bread: For mopping up the extra sauce.
   avocado-kale-caesar-salad: 'A creamy, crunchy green salad beside the pasta.'
 ingredients:
-  - '--- Tofu meatballs ---'
+  - '--- Tofu balls ---'
   - 3 tbsp olive oil
   - '1 large onion, chopped'
   - '1 large carrot, grated'
@@ -71,7 +73,7 @@ formula:
     unit: portion
   components:
     - id: main
-      name: Tofu meatballs
+      name: Tofu balls
       ingredients:
         - id: olive
           key: olive
@@ -269,7 +271,7 @@ formula:
     - id: saute
       title: Soften the vegetables
       text: >-
-        Heat the oven to 350°F. Warm {{ingredients}} in a large skillet over medium heat. Cook,
+        Heat the oven to 400°F. Warm {{ingredients}} in a large skillet over medium heat. Cook,
         stirring, until soft and golden, about 10 minutes. Spread on a plate to cool slightly.
     - id: mix
       title: Mix
@@ -284,7 +286,7 @@ formula:
         space them out on the sheets.
     - id: bake
       title: Bake
-      text: 'Bake until browned and firm, 20 to 30 minutes, turning the balls once halfway through.'
+      text: 'Bake until browned and firm, 25 to 30 minutes, turning the balls once halfway through.'
     - id: pasta
       title: Boil the pasta
       text: >-
@@ -293,8 +295,11 @@ formula:
     - id: serve
       title: Sauce and serve
       text: >-
-        Warm {{ingredients}} in a wide pan over medium heat. Add the baked balls and simmer gently
-        until hot, about 5 minutes. Serve over the spaghetti.
+        Warm {{ingredients}} in a wide pan over medium heat. Add half the baked balls and simmer
+        gently until hot, about 5 minutes. Serve over the spaghetti.
+    - id: freeze
+      title: Freeze the rest
+      text: Cool the other half of the baked balls and freeze them for a second dinner.
 learning:
   techniques:
     - gentle-proteins
@@ -307,13 +312,14 @@ learning:
 
 ## Chef's Note
 
-Vegetarian meatballs made from crumbled tofu, ground walnuts and breadcrumbs, seasoned with soy, Dijon and Italian herbs. Cooking the vegetables first keeps them from leaking water into the mix. Press the tofu well, since drier tofu bakes into a firmer, meatier ball that holds together in the sauce.
+Vegetarian meatballs made from crumbled tofu, ground walnuts and breadcrumbs, seasoned with soy, Dijon and Italian herbs. Cooking the vegetables first keeps them from leaking water into the mix. Press the tofu well, since drier tofu bakes into a firmer, meatier ball that holds together in the sauce. The full batch makes about 60 balls, enough for two dinners.
 
 ## Directions
 
-1. **Soften the vegetables:** Heat the oven to 350°F. Warm olive oil, large onion, large carrot, green bell pepper, and garlic cloves in a large skillet over medium heat. Cook, stirring, until soft and golden, about 10 minutes. Spread on a plate to cool slightly.
+1. **Soften the vegetables:** Heat the oven to 400°F. Warm olive oil, large onion, large carrot, green bell pepper, and garlic cloves in a large skillet over medium heat. Cook, stirring, until soft and golden, about 10 minutes. Spread on a plate to cool slightly.
 2. **Mix:** Put extra-firm tofu, large eggs, ground walnuts, whole-wheat breadcrumbs, Dijon mustard, toasted sesame oil, soy sauce, dried basil, dried oregano, fresh parsley, kosher salt, and black pepper in a large bowl, crumbling the tofu as it goes in. Add the cooled vegetables and mix with your hands until the tofu looks like ground meat and the mixture holds together when squeezed.
 3. **Shape:** Grease two baking sheets with olive oil. Roll the mixture into 1 1/2-inch balls and space them out on the sheets.
-4. **Bake:** Bake until browned and firm, 20 to 30 minutes, turning the balls once halfway through.
+4. **Bake:** Bake until browned and firm, 25 to 30 minutes, turning the balls once halfway through.
 5. **Boil the pasta:** While the balls bake, cook spaghetti in a large pot of salted boiling water until al dente, then drain.
-6. **Sauce and serve:** Warm marinara sauce in a wide pan over medium heat. Add the baked balls and simmer gently until hot, about 5 minutes. Serve over the spaghetti.
+6. **Sauce and serve:** Warm marinara sauce in a wide pan over medium heat. Add half the baked balls and simmer gently until hot, about 5 minutes. Serve over the spaghetti.
+7. **Freeze the rest:** Cool the other half of the baked balls and freeze them for a second dinner.
