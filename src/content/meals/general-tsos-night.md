@@ -30,17 +30,17 @@ review:
 
 Use one full batch each of Slow-Cooker General Tso-Style Chicken, Plain Short-Grain White Rice and Sigeumchi Namul for four. That supplies 680 g raw chicken, 300 g dry rice and 450 g raw spinach. The spinach shrinks into four small side portions. The chicken's tangy ginger-chile sauce is the main seasoning, with plain rice and a lightly dressed cool vegetable alongside.
 
-This is a Chinese-American-inspired chicken dinner with a Korean spinach banchan and plain short-grain rice. The chicken is tender and saucy, with no fried crust. Allow about 4 hours 40 minutes elapsed using a four-hour LOW cook, or about 3 hours 40 minutes if the HIGH cycle needs three hours. Plan roughly 50 minutes active work and two stovetop burners for the finishing period. Actual chicken readiness controls service time.
+This is a Chinese-American-inspired chicken dinner with a Korean spinach banchan and plain short-grain rice. The chicken is tender and saucy, with no fried crust. Allow about 4 hours 40 minutes elapsed with a four-hour LOW cook. A three-hour HIGH cook takes about 3 hours 40 minutes. Active work is about 50 minutes, and the finish uses two stovetop burners.
 
 ## Cooking Strategy
 
-1. **Start chicken:** Follow the main's complete sauce quantities, whole thawed thighs and small-cooker guidance. Reserve the specified finishing vinegar, sugar, slurry and scallions. Begin the covered LOW or HIGH cook immediately.
-2. **Start rice 75 minutes before the planned meal:** Rinse and drain the rice, then soak it for the full 30 minutes in its measured 400 ml cooking water. This is a plain rice preparation. Do not add vinegar or a second sauce.
-3. **Prepare spinach during the soak:** Heat its blanching water. Blanch in two batches, cool promptly, press gently and dress with the sesame oil, seeds and staged garlic/salt as directed. Refrigerate until serving. This side is not sautéed, and its raw weight is not its final bowl volume.
-4. **Cook and rest rice:** After soaking, heat the rice, cover and cook at its gentle simmer for 12–15 minutes, checking its water and grain endpoint. Give it the full ten-minute off-heat rest. Keep the chicken's temperature check separate from this clock. If it needs longer, finish the rice close to the revised service time.
-5. **Finish chicken sauce:** Once several thick thighs reach 165°F / 74°C and are tender, remove them and finish the sauce in a saucepan on the second burner. Set liquid volume first, add only enough re-stirred slurry for a light coating, then adjust vinegar and sugar. Cut or pull the chicken coarsely and return it briefly to the sauce.
-6. **Serve:** Fluff and divide rice among four bowls. Add chicken and its measured sauce, finish with the main's scallions, and serve spinach beside it in small dishes so its sesame dressing stays distinct. No additional sesame, dried chiles or garnish quantities are required beyond the component lists.
+1. **Start chicken:** Mix the sauce and add it to the cooker with the whole thawed thighs. Set aside the finishing vinegar, sugar, slurry and scallions. Cover and start the LOW cook right away.
+2. **Start rice 75 minutes before the meal:** Rinse and drain the rice, then soak it for 30 minutes in its 400 ml cooking water.
+3. **Prepare spinach during the soak:** Heat the blanching water. Blanch the spinach in two batches, cool it in cold water and press it gently. Dress it with the sesame oil, seeds, garlic and salt. Refrigerate until serving.
+4. **Cook and rest rice:** After soaking, heat the rice, cover and cook at a gentle simmer until the water is absorbed, 12 to 15 minutes. Rest it off the heat for ten minutes.
+5. **Finish chicken sauce:** Once the thickest thighs reach 165°F / 74°C and are tender, lift them out and pour the sauce into a saucepan on the second burner. Simmer it, stir in enough re-stirred slurry for a light coating, then season with the vinegar and sugar. Cut the chicken coarsely and return it briefly to the sauce.
+6. **Serve:** Fluff the rice and divide it among four bowls. Add the chicken and its sauce and top with the scallions. Serve the spinach beside it in small dishes so its sesame dressing stays distinct.
 
 ## Notes
 
-Use the main's lower pepper-flake option if a milder meal is wanted. The chicken stays tender in the slow cooker. Finish the sauce separately on the stove for a glossy coating. Store the components separately and follow their individual chilling guidance. Reheat chicken and rice thoroughly on the stove or in the microwave. Serve properly stored spinach chilled rather than automatically heating it in the chicken sauce.
+Store the components separately. Reheat the chicken and rice on the stove, and serve the spinach chilled.

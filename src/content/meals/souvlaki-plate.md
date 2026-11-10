@@ -27,18 +27,18 @@ totalTime: 75–90 min
 
 ## Meal Overview
 
-Lemon-oregano chicken, rice pilaf, tomato-cucumber salad, and a small spoonful of tzatziki make a dinner for four. Plan one batch each of chicken, pilaf, and salad. Set aside about **1/2 cup prepared tzatziki** for the table. A quarter batch of its recipe should provide this with a little extra.
+Lemon-oregano chicken, rice pilaf, tomato-cucumber salad, and a small spoonful of tzatziki make a dinner for four. Make one batch each of chicken, pilaf, and salad. Set aside about **1/2 cup prepared tzatziki** for the table. A quarter batch of its recipe makes this with a little extra.
 
-Allow about **75–90 minutes**, including chicken marination, vegetable preparation, and the pilaf's covered rest. The time spent marinating overlaps other preparation. It is not an overnight requirement.
+Allow about **75 to 90 minutes**, including chicken marination, vegetable preparation, and the pilaf's covered rest. The chicken marinates while the rest is prepared.
 
 ## Cooking Strategy
 
-1. **Marinate chicken:** Follow the souvlaki recipe for a refrigerated 30-minute to 4-hour marinade. Do not extend this small-piece lemon marinade overnight.
-2. **Prepare sauce and vegetables:** Make tzatziki early enough for its draining and chilling steps. Cut the salad vegetables and keep them undressed while other components cook.
-3. **Start pilaf:** Allow time for toasting, bringing liquid to a simmer, cooking, and the full 10-minute off-heat rest. Allow roughly 35–40 minutes for the complete pilaf process.
-4. **Grill chicken:** Preheat the grill while the rice cooks. Thread and grill chicken following the souvlaki recipe, using a thermometer to confirm 165°F / 74°C. Allow its five-minute rest.
-5. **Finish the plate:** Fluff rice, dress the salad, and divide chicken among four plates. Offer about two tablespoons tzatziki per person, with extra lemon wedges from the chicken recipe.
+1. **Marinate chicken:** Marinate the chicken in the refrigerator for 30 minutes to 4 hours.
+2. **Prepare sauce and vegetables:** Make the tzatziki first so it has time to drain and chill. Cut the salad vegetables and keep them undressed.
+3. **Start pilaf:** Toast the rice, add the liquid and simmer it covered, then rest it off the heat for 10 minutes. The pilaf takes about 35 to 40 minutes.
+4. **Grill chicken:** Preheat the grill while the rice cooks. Thread the chicken and grill it to 165°F / 74°C. Rest it for five minutes.
+5. **Finish the plate:** Fluff the rice, dress the salad, and divide the chicken among four plates. Serve about two tablespoons tzatziki per person, with lemon wedges.
 
 ## Notes
 
-Rice pilaf already supplies the starch, so extra pita is optional for a larger meal. Keep tzatziki and salad refrigerated until needed.
+Keep the tzatziki and salad refrigerated until needed.

@@ -29,16 +29,16 @@ review:
 
 Thai red chicken curry, a modest serving of coconut jasmine rice, and a Chinese-style smashed cucumber salad make four bowls. The curry supplies chicken, pepper, and bamboo shoots. Cucumber adds vinegar and crunch alongside the coconut sauce.
 
-Use **one batch of curry**, **half a batch of coconut jasmine rice**, and **one batch of cucumber salad**. The half rice batch uses **180 g dry rice, 200 ml coconut milk, and 120 ml water** and is divided into four modest portions. Omit its optional sugar for this meal. Plain jasmine rice is also a good choice for a less rich dinner. Prepare four modest portions following its package instructions. Allow about **50–55 minutes**.
+Use **one batch of curry**, **half a batch of coconut jasmine rice**, and **one batch of cucumber salad**. The half rice batch uses **180 g dry rice, 200 ml coconut milk, and 120 ml water** and is divided into four modest portions. Leave the sugar out of the rice. Allow about **50 to 55 minutes**.
 
 ## Cooking Strategy
 
-1. **Start rice and cucumber:** Rinse and drain the half batch of rice. Use a smaller heavy saucepan with a snug lid and follow its full cooking and resting cues. Salt the smashed cucumber and let it drain for 15 minutes while you prepare its dressing separately.
-2. **Prepare the curry:** Slice vegetables before handling raw chicken, then clean the board and utensils. Set out the coconut milk, stock, red paste, fish sauce, sugar, and basil. Two burners allow rice and curry to cook together.
-3. **Cook the curry:** Follow its measured-oil method for frying red paste, then add liquid, chicken, and bamboo shoots. Pepper goes in later. Verify 165°F / 74°C in several thick chicken slices before seasoning and adding basil.
-4. **Finish near serving:** Give rice its full covered rest, then fluff. Drain cucumber thoroughly and dress it just before serving. Taste curry before adding all the fish sauce or sugar because paste brands vary.
+1. **Start rice and cucumber:** Rinse and drain the half batch of rice. Cook it in a small heavy saucepan with a snug lid. Salt the smashed cucumber and let it drain for 15 minutes while you mix its dressing.
+2. **Prepare the curry:** Slice the vegetables, then the chicken. Set out the coconut milk, stock, red paste, fish sauce, sugar, and basil.
+3. **Cook the curry:** Fry the red paste in the oil, then add the liquid, chicken, and bamboo shoots. Add the pepper later. Simmer until the thickest chicken slices reach 165°F / 74°C, then season and add the basil.
+4. **Finish near serving:** Give the rice its full covered rest, then fluff it. Drain the cucumber thoroughly and dress it just before serving. Season the curry with the fish sauce and sugar a little at a time, because paste brands vary.
 5. **Serve four bowls:** Divide rice and curry among four bowls, with cucumber alongside so its vinegar dressing does not dilute the curry.
 
 ## Notes
 
-Use the linked red curry for this schedule. Other paste types need their own seasoning decisions. The curry and rice are best reheated separately, and the cucumber is best freshly dressed. Follow each component's prompt chilling and reheating guidance.
+Reheat leftover curry and rice separately. The cucumber is best freshly dressed.

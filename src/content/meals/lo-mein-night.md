@@ -26,19 +26,19 @@ review:
 
 ## Meal Overview
 
-Make one full five-serving Chicken Lo Mein with Shiitake and Bok Choy and one batch of Smashed Cucumber Salad. Divide the 600 g cucumber batch among five smaller side portions. Its standalone recipe normally serves four. The noodles already include chicken, mushrooms, bok choy and cooked sprouts, so an additional edamame course is optional elsewhere rather than part of this schedule.
+Make one full five-serving Chicken Lo Mein with Shiitake and Bok Choy and one batch of Smashed Cucumber Salad. Divide the 600 g cucumber batch among five small sides.
 
-Allow about 1 hour 15 minutes elapsed and 65 minutes active for one cook. Have **3 tbsp (45 ml) strained [Scallion-Shallot Oil](/mise/recipes/scallion-shallot-oil)** already prepared and stored as directed for the main. Strained shallot oil also works. The same amount of neutral oil is the shortcut. Making the condiment from scratch adds its separate 50 minutes.
+Allow about 1 hour 15 minutes elapsed and 65 minutes active for one cook. Have **3 tbsp (45 ml) strained [Scallion-Shallot Oil](/mise/recipes/scallion-shallot-oil)** already made. Making it from scratch adds 50 minutes.
 
 ## Cooking Strategy
 
-1. **Prepare cucumber and chicken separately:** Crack and cut cucumbers and start their fifteen-minute salt-and-drain period, preferably chilled. Mix their dressing separately. Then coat the main recipe's chicken with its measured starch, oil, soy and pepper and refrigerate while finishing preparation. Clean utensils and work surfaces after raw chicken handling.
-2. **Finish all cutting before cooking:** Wash and thoroughly dry bok choy. Slice mushroom caps and separate stems, leaves, sprouts and scallion parts as the noodle recipe directs. Measure the sauce and divide all final-round ingredients in half. After the cucumber has drained, blot it and keep it chilled, undressed, until serving.
-3. **Cook the correct noodles:** Bring the noodle water to a boil while preparing vegetables. Cook the specified 450 g fresh raw lo mein noodles until cooked through and springy, rinse briefly, drain well and coat with their allocated teaspoon oil. Divide into two loose portions and proceed directly to the pan work.
-4. **Cook chicken in two batches:** Use the main's separate 2 tsp oil per batch and check the thickest chicken pieces reach 165°F / 74°C. Transfer to a clean plate, keeping track of half for each finishing round. The shrimp variation follows its own complete-cooking cue. Neither relies on an off-heat final toss for doneness.
-5. **Finish noodles in two rounds:** Follow mushrooms, aromatics, wine, bok choy stems, then leaves/sprouts/scallion greens for the first half. Cook sprouts thoroughly over heat. Add half the noodles and sauce, then half the cooked chicken. Finish with half the sesame oil and optional vinegar. Transfer to a warm platter and cover loosely while repeating the sequence with the remaining ingredients.
-6. **Dress cucumber at the end:** Once the second noodle batch is ready, toss the drained cucumber with its dressing, scallion and sesame as directed. Divide the noodles among five bowls and cucumber among five small sides. Add the main's optional 15 g crisp fried alliums from the oil recipe or prepared fried shallots, and serve promptly.
+1. **Prepare cucumber and chicken separately:** Crack and cut the cucumbers and salt them to drain for fifteen minutes in the refrigerator. Mix their dressing separately. Coat the chicken with its starch, oil, soy and pepper and refrigerate it.
+2. **Finish all cutting before cooking:** Wash and thoroughly dry the bok choy. Slice the mushroom caps and separate the bok choy stems and leaves, the sprouts and the scallion whites and greens. Measure the sauce and divide all the final-round ingredients in half. Blot the drained cucumber and keep it chilled, undressed, until serving.
+3. **Cook the noodles:** Bring the noodle water to a boil while preparing the vegetables. Cook the 450 g fresh lo mein noodles until cooked through and springy, rinse briefly, drain well and coat with their teaspoon of oil. Divide into two loose portions.
+4. **Cook chicken in two batches:** Use 2 tsp oil per batch and cook until the thickest pieces reach 165°F / 74°C. Transfer to a plate, keeping half for each finishing round.
+5. **Finish noodles in two rounds:** For the first half, cook the mushrooms, then the aromatics, wine and bok choy stems, then the leaves, sprouts and scallion greens. Cook the sprouts through. Add half the noodles and sauce, then half the chicken. Finish with half the sesame oil. Transfer to a warm platter and cover loosely. Repeat with the remaining ingredients.
+6. **Dress cucumber at the end:** Once the second noodle batch is ready, toss the drained cucumber with its dressing, scallion and sesame. Divide the noodles among five bowls and the cucumber among five small sides. Top the noodles with the 15 g crisp fried alliums from the oil recipe.
 
 ## Notes
 
-The cucumber's fifteen minutes are for draining before dressing, not a long marinade. Keep it cold while the noodle work proceeds. Full ingredient quantities are preserved across the main's two rounds. The two portions are pan batches, not half a dinner. If a smaller batch fits your pan better, use the recipe scaler and reduce the number of cooking rounds while retaining food-specific doneness cues. Chill leftovers promptly and reheat with a little water using either a skillet or microwave, checking several portions reach 165°F / 74°C.
+Keep the cucumber cold while the noodles cook. Refrigerate leftovers and reheat them with a little water in a skillet until steaming hot.

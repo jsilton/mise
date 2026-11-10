@@ -29,27 +29,27 @@ review:
 
 ## Meal Overview
 
-For six people, make one full Chicken with Apricots, Chickpeas and Almonds, one full Garlic Butter Pearl Couscous and one full Carrot Salad with Orange and Mint. The couscous recipe normally makes four side portions. Divide its 225 g dry pasta batch into six smaller sides here. Serve one chicken thigh per person with the chickpeas and sauce.
+For six people, make one full Chicken with Apricots, Chickpeas and Almonds, one full Garlic Butter Pearl Couscous and one full Carrot Salad with Orange and Mint. Divide the 225 g dry couscous batch into six small sides. Serve one chicken thigh per person with the chickpeas and sauce.
 
-The braise brings warm spices, soft fruit and savory chicken. The couscous takes up a little sauce. The chilled raw carrot salad supplies citrus and a firmer texture. Omit the carrot salad's optional sugar and raisins to keep the plate from becoming too sweet. Begin the main without optional honey and add it only after tasting. Choose optional orange-blossom water in the salad sparingly.
+The braise brings warm spices, soft fruit and savory chicken. The couscous takes up a little sauce. The chilled raw carrot salad supplies citrus and a firmer texture. Leave the sugar and raisins out of the carrot salad so the plate is not too sweet. Leave the honey out of the braise for the same reason. Add the orange-blossom water to the salad sparingly.
 
-Plan about 2 hours 15 minutes elapsed and 90 minutes active for one cook making all three components from raw ingredients. The Dutch oven stays on the stove, with a small saucepan for couscous and a skillet for almonds. Pearl couscous is a practical accompaniment here, not the traditional fine couscous preparation.
+Allow about 2 hours 15 minutes elapsed and 90 minutes active for one cook making all three components from raw ingredients. The Dutch oven stays on the stove, with a small saucepan for couscous and a skillet for almonds.
 
 ## Cooking Strategy
 
-1. **Prepare the braise first:** Weigh and slice the main's onion, apricots and preserved-lemon rind. Measure spices, stock, herbs and almonds. Pat chicken dry and season as directed. Sear six thighs in two batches, then remove excess fat before cooking onions and briefly blooming spices in the base.
-2. **Start gentle covered cooking:** Add the main's stock, apricots, cinnamon and optional saffron. Return chicken and cover at a gentle simmer. Keep chickpeas and preserved rind ready for their later addition. The skin will soften under the lid. Toasted almonds supply the final crunch.
-3. **Make the carrot salad during the braise:** Grate the 680 g carrots and mix their measured citrus dressing. Use neither optional sugar nor raisins initially. Toss, cover and chill for at least twenty minutes. Keep mint and parsley separate until serving. A food-processor shredding disc can shorten this preparation.
-4. **Prepare couscous near the finish:** About thirty minutes before the expected serving time, toast the 225 g pearl couscous in its first tablespoon butter, add garlic and the appropriate measured broth, then simmer to a tender slight chew. Give it its full five-minute rest. If chicken needs longer, keep couscous covered for a short wait and loosen with a little hot water at the finish.
-5. **Check the main and toast almonds:** Add chickpeas and preserved rind after the initial thirty-minute braise, then continue until thick thighs reach 165°F / 74°C and yield readily to a fork. Toast the 40 g almonds in a dry skillet and transfer to a cool plate. If sauce needs reducing, remove finished chicken first, then return it once the consistency is right.
-6. **Finish and serve:** Taste the braise before its remaining salt, optional honey and fresh lemon. Add its herbs in the stated portions. Finish couscous with its remaining butter, parsley and optional zest. Fold fresh mint/parsley into the chilled carrot salad. Divide chicken, couscous and salad among six plates, adding almonds at the table.
+1. **Prepare the braise first:** Weigh and slice the onion, apricots and preserved-lemon rind. Measure the spices, stock, herbs and almonds. Pat the chicken dry and season it. Sear six thighs in two batches, then pour off the excess fat. Cook the onions and briefly bloom the spices in the pot.
+2. **Start gentle covered cooking:** Add the stock, apricots, cinnamon and saffron. Return the chicken and cover at a gentle simmer. Keep the chickpeas and preserved rind ready for later.
+3. **Make the carrot salad during the braise:** Grate the 680 g carrots and mix their citrus dressing. Toss, cover and chill for at least twenty minutes. Keep the mint and parsley separate until serving.
+4. **Prepare couscous near the finish:** About thirty minutes before serving, toast the 225 g pearl couscous in its first tablespoon of butter, add the garlic and broth, then simmer until tender with a slight chew. Rest it for five minutes. Loosen it with a little hot water if it waits for the chicken.
+5. **Check the main and toast almonds:** Add the chickpeas and preserved rind after the first thirty minutes of braising, then continue until the thickest thighs reach 165°F / 74°C and yield to a fork. Toast the 40 g almonds in a dry skillet and tip them onto a cool plate. If the sauce is thin, lift out the chicken, reduce the sauce and return the chicken.
+6. **Finish and serve:** Season the braise with its remaining salt and the fresh lemon, and add its herbs. Finish the couscous with its remaining butter, parsley and zest. Fold the mint and parsley into the chilled carrot salad. Divide the chicken, couscous and salad among six plates and scatter the almonds on top.
 
 ## Make-ahead option
 
-Cook the braise ahead if useful, but count that work separately. Divide it into shallow containers and refrigerate promptly. Do not wait for the whole covered pot to become cold. Use within 3–4 days or freeze suitable portions. Keep almonds and fresh herbs separate.
+The braise keeps well made ahead. Refrigerate it in portions and use it within 3 to 4 days, or freeze it. Keep the almonds and fresh herbs separate.
 
-On serving day, reheat the braise gently with a little stock or water, covered, until several portions reach 165°F / 74°C. Allow about 45–60 minutes for a meal reheated from shallow refrigerated portions while making the two sides fresh. Larger or deeper portions can take longer. Cook couscous using its thirty-minute method and give the salad its thirty-five-minute preparation/chill window. Check the center of the chicken and sauce with a thermometer before serving.
+On serving day, reheat the braise gently with a little stock, covered, until steaming hot through. Allow about 45 to 60 minutes to reheat it while making the two sides fresh. The couscous takes thirty minutes and the salad thirty-five minutes with its chill.
 
 ## Notes
 
-Follow each recipe’s measured butter/oil, herb, salt and citrus allocations. For a preserved-lemon substitute, use the main’s lemon-zest variation and adjust salt after tasting. Covered reheating softens the chicken skin, so keep toasted almonds separate to add crunch at serving. Chill leftovers promptly and keep fresh garnish separate.
+Covered reheating softens the chicken skin, so add the toasted almonds at serving for crunch.

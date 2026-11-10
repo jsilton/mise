@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 // Checks recipe copy against docs/RECIPE_PAGE_STYLE.md.
-// Usage: node scripts/check-recipe-copy.mjs [slug ...]   (no slugs checks every recipe)
-// Exit code 1 when any recipe has an error. Warnings never fail the run.
+// Usage: node scripts/check-recipe-copy.mjs [slug ...]   (no slugs checks every recipe and every meal)
+//        node scripts/check-recipe-copy.mjs --meals      (checks only the meal bodies)
+// Exit code 1 when any recipe or meal has an error. Warnings never fail the run.
 import { readFileSync, readdirSync } from 'node:fs';
 import matter from 'gray-matter';
 
@@ -204,6 +205,49 @@ function check(slug) {
   return { errors, warnings };
 }
 
+// Meal bodies follow the same voice rules as recipe copy. Meals keep their own
+// section names and their batch quantities, so only the wording is checked.
+const MEAL_DIR = new URL('../src/content/meals/', import.meta.url);
+const mealSlugs = readdirSync(MEAL_DIR)
+  .filter((f) => f.endsWith('.md'))
+  .map((f) => f.replace(/\.md$/, ''));
+const MEAL_HEDGES = [
+  /\boptional(ly)?\b/i,
+  /\broughly\b/i,
+  /\bapproximate(ly)?\b/i,
+  /\bif using\b/i,
+  /\bif (you like|you prefer|desired|wanted|preferred)\b/i,
+  /\bcan be (offered|omitted|added)\b/i,
+  /\bcan add time\b/i,
+  /\bis convenient\b/i,
+  /\bdepending on\b/i,
+  /\b(if|as) (needed|necessary)\b/i,
+  /\bas (directed|instructed|written)\b/i,
+];
+
+function checkMeal(slug) {
+  const errors = [];
+  const raw = readFileSync(new URL(`${slug}.md`, MEAL_DIR), 'utf8');
+  const { content } = matter(raw);
+  content.split('\n').forEach((line, i) => {
+    // Link targets are addresses, not copy.
+    const text = line.replace(/\]\([^)]*\)/g, ']');
+    if (!text.trim()) return;
+    const where = `body line ${i + 1}`;
+    if (text.includes(';')) errors.push(`semicolon in ${where}: "${excerpt(text, ';')}"`);
+    if (text.includes('—')) errors.push(`em dash in ${where}: "${excerpt(text, '—')}"`);
+    if (text.includes('–'))
+      errors.push(`en dash in ${where}, write ranges with "to": "${excerpt(text, '–')}"`);
+    for (const re of [...BANNED, ...MEAL_HEDGES]) {
+      const m = text.match(re);
+      if (m) errors.push(`hedging in ${where}: "${excerpt(text, m[0])}"`);
+    }
+    const b = text.match(BRITISH);
+    if (b) errors.push(`British spelling in ${where}: "${b[0]}"`);
+  });
+  return errors;
+}
+
 function excerpt(text, needle) {
   const i = text.indexOf(needle);
   return text.slice(Math.max(0, i - 30), i + needle.length + 30).replace(/\s+/g, ' ');
@@ -211,9 +255,12 @@ function excerpt(text, needle) {
 
 const args = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 const quiet = process.argv.includes('--quiet');
-const slugs = args.length
-  ? args.map((a) => a.replace(/^.*\//, '').replace(/\.md$/, ''))
-  : [...allSlugs];
+const mealsOnly = process.argv.includes('--meals');
+const slugs = mealsOnly
+  ? []
+  : args.length
+    ? args.map((a) => a.replace(/^.*\//, '').replace(/\.md$/, ''))
+    : [...allSlugs];
 let failed = 0;
 let warned = 0;
 for (const slug of slugs) {
@@ -231,5 +278,18 @@ for (const slug of slugs) {
     if (!quiet) for (const w of warnings) console.log(`  warn:  ${w}`);
   }
 }
-console.log(`\n${slugs.length} checked, ${failed} with errors, ${warned} with warnings.`);
-process.exit(failed ? 1 : 0);
+if (!mealsOnly)
+  console.log(`\n${slugs.length} checked, ${failed} with errors, ${warned} with warnings.`);
+
+let mealsFailed = 0;
+if (mealsOnly || !args.length) {
+  for (const slug of mealSlugs) {
+    const errors = checkMeal(slug);
+    if (!errors.length) continue;
+    mealsFailed++;
+    console.log(`\nmeals/${slug}`);
+    for (const e of errors) console.log(`  error: ${e}`);
+  }
+  console.log(`\n${mealSlugs.length} meals checked, ${mealsFailed} with errors.`);
+}
+process.exit(failed || mealsFailed ? 1 : 0);

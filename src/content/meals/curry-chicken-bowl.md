@@ -25,18 +25,18 @@ review:
 
 ## Meal Overview
 
-An Indian-inspired slow-cooker chicken curry with vegetables, brown rice, mango, and cilantro makes four complete bowls. The main recipe already includes the rice and garnishes. Add about **1/2 cup prepared cucumber raita** for the table, roughly two tablespoons per person, for a cool yogurt contrast.
+An Indian-inspired slow-cooker chicken curry with vegetables, brown rice, mango, and cilantro makes four complete bowls. The main recipe already includes the rice and garnishes. Add about **1/2 cup prepared cucumber raita** for the table, about two tablespoons per person, for a cool yogurt contrast.
 
-Use **one whole batch of the main recipe**, including its four cups cooked brown rice, and **a quarter batch of raita**. The quarter raita batch starts with **120 g plain yogurt and 75 g cucumber** and should provide the half-cup serving amount with a little extra. Allow about **4 hours 30 minutes on HIGH** including preparation. LOW can require **5–6 hours cooking plus preparation**.
+Use **one whole batch of the main recipe**, including its four cups cooked brown rice, and **a quarter batch of raita**. The quarter raita batch starts with **120 g plain yogurt and 75 g cucumber** and makes the half cup with a little extra. Allow about **4 hours 30 minutes on HIGH** including preparation. LOW takes **5 to 6 hours cooking plus preparation**.
 
 ## Cooking Strategy
 
-1. **Load the cooker:** Follow the main recipe's small carrot dice and fully thawed chicken guidance. Add its coconut-milk and curry-powder mixture, cover, and start cooking immediately.
-2. **Plan the brown rice:** Four cups in the main ingredient list means cooked rice. Use its package yield and cooking time to prepare enough, starting early enough to finish near the curry. The cooker period gives ample time for this separate preparation.
-3. **Prepare a small raita batch:** About 25 minutes before serving, toast and cool the cumin, grate and gently drain cucumber, then mix with cold yogurt, herbs, and seasoning. Keep it refrigerated and set aside about half a cup for this meal.
-4. **Check and finish curry:** Verify 165°F / 74°C in several large chicken pieces and tender carrots. Stir in finishing garam masala as directed. Reduce excess sauce liquid separately if needed.
-5. **Serve:** Divide cooked rice and curry among four bowls. Add mango and cilantro from the main recipe, offer its lime wedges, and serve raita cold alongside.
+1. **Load the cooker:** Cut the carrots into small dice and use fully thawed chicken. Add the coconut-milk and curry-powder mixture, cover, and start cooking right away.
+2. **Cook the brown rice:** Cook enough brown rice to make four cups cooked, timed to finish with the curry.
+3. **Prepare a small raita batch:** About 25 minutes before serving, toast and cool the cumin, grate and gently drain cucumber, then mix with cold yogurt, herbs, and seasoning. Refrigerate it and set aside half a cup for this meal.
+4. **Check and finish curry:** Cook until the largest chicken pieces reach 165°F / 74°C and the carrots are tender. Stir in the finishing garam masala.
+5. **Serve:** Divide cooked rice and curry among four bowls. Add the mango, cilantro and lime wedges, and serve the raita cold alongside.
 
 ## Notes
 
-The main already supplies rice, peppers, carrots, mango, and lime. Raita is a small complementary serving. Store it separately from curry and rice and use it within a day for quality. Follow the main's chilling and reheating instructions for the cooked components.
+Store the raita separately from the curry and rice and use it within a day.

@@ -26,18 +26,18 @@ review:
 
 ## Meal Overview
 
-Make one full batch of Weeknight Ground-Turkey Tacos: twelve small tacos for four people. Add half a batch of Skillet Esquites, using 300 g corn, and divide it into four small sides. The corn recipe's half batch is normally three side portions. Here each person gets a smaller portion alongside three tacos.
+Make one full batch of Weeknight Ground-Turkey Tacos: twelve small tacos for four people. Add half a batch of Skillet Esquites, using 300 g corn, and divide it into four small sides. Each person gets a small portion of corn alongside three tacos.
 
-The tortillas supply the starch. The filling and measured cheese supply the savory center. Lettuce and tomato provide fresh crunch. Corn is a small sweet, tangy accompaniment. This plan takes about 45 minutes elapsed and 40 minutes active for one cook. It does not require separate rice, beans or another set of taco toppings.
+The tortillas supply the starch. The filling and cheese supply the savory center. Lettuce and tomato provide fresh crunch. Corn is a small sweet, tangy accompaniment. This plan takes about 45 minutes elapsed and 40 minutes active for one cook.
 
 ## Cooking Strategy
 
-1. **Prepare both component lists:** Use the full taco quantities and half of every corn-salad ingredient. Drain and dry the 300 g corn. Prepare the taco lettuce, tomato, cheese and lime. Mix the half-batch corn dressing and set aside its herbs and cheese. Keep dairy chilled until needed and leave avocado for the end.
-2. **Brown the corn first:** Heat the corn's half-batch oil, 1 tbsp, in a 12-inch skillet over medium-high. The 300 g corn fits the same pan load as one batch in the full recipe. Cook in one layer for about 5–7 minutes until tender with browned patches, following its sensory cues. Transfer to a wide plate. Let vigorous steaming stop, then dress with the half-batch finishing ingredients and taste. Hold briefly while making tacos.
-3. **Cook the taco filling:** Use the same skillet after removing any burned residue, adding the taco recipe's separate tablespoon of oil. Brown turkey, briefly cook spices, then add measured broth and staged salt. Check several substantial clumps reach 165°F / 74°C and stop reducing when the coating clings without a puddle. The ground-beef variation follows its own oil and 160°F / 71°C instructions.
-4. **Warm shells near serving:** Preheat for hard shells early enough to follow their package instructions. Warm soft tortillas in a second dry skillet or in the taco recipe's damp-paper-towel microwave batches while the finished filling rests briefly, covered off heat. Use twelve shells total across the chosen types.
-5. **Finish and divide:** Slice the avocado, bring out chilled toppings and divide the corn into four small sides. Serve three tacos per person, letting each diner choose modest amounts of the measured toppings. Add lime only after tasting. The corn already has its own dressing.
+1. **Prepare both components:** Measure the full taco quantities and half of every corn-salad ingredient. Drain and dry the 300 g corn. Prepare the taco lettuce, tomato, cheese and lime. Mix the half-batch corn dressing and set aside its herbs and cheese. Refrigerate the dairy and leave the avocado for the end.
+2. **Brown the corn first:** Heat the corn's 1 tbsp oil in a 12-inch skillet over medium-high. Cook the corn in one layer until tender with browned patches, about 5 to 7 minutes. Transfer it to a wide plate and let the steam die down. Dress it with the half-batch finishing ingredients.
+3. **Cook the taco filling:** Wipe out the skillet and add the taco recipe's tablespoon of oil. Brown the turkey, briefly cook the spices, then add the broth and salt. Simmer until the turkey reaches 165°F / 74°C and the sauce clings without a puddle.
+4. **Warm tortillas near serving:** Cover the filling off the heat. Warm the twelve soft tortillas one at a time in a second dry skillet.
+5. **Finish and divide:** Slice the avocado, bring out the chilled toppings and divide the corn into four small sides. Serve three tacos per person with the toppings and lime.
 
 ## Notes
 
-The corn step is part of the schedule, not an unscheduled salad link. Corn and turkey have separate measured oil allocations. Store corn and meat separately and chill promptly as their recipes direct. Do not pack assembled tacos for later crispness. A single-skillet workflow is practical with microwave warming for soft tortillas.
+Store leftover corn and meat separately. Assembled tacos do not keep.

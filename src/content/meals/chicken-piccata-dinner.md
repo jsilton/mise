@@ -26,18 +26,18 @@ totalTime: 2–2 1/4 hr from scratch
 
 ## Meal Overview
 
-Lemon-caper chicken, egg pasta, and freshly dressed arugula make a complete dinner for four. Use one batch of each linked recipe. The piccata is unfloured and its sauce is intended for the chicken. It is not a large batch of pasta sauce.
+Lemon-caper chicken, egg pasta, and freshly dressed arugula make a complete dinner for four. Use one batch of each linked recipe. The piccata is unfloured, and its sauce is for the chicken.
 
-Allow about **2–2 1/4 hours from scratch**, including the pasta dough's rest and rolling. With shaped fresh pasta already prepared, allow about **35–45 minutes**. The active-time estimate above is for making the pasta from scratch.
+Allow about **2 to 2 1/4 hours from scratch**, including the pasta dough's rest and rolling. With shaped fresh pasta already prepared, allow about **35 to 45 minutes**.
 
 ## Cooking Strategy
 
-1. **Make and rest the dough:** Begin the egg pasta first and allow its full resting period. During the rest, prepare the chicken cutlets, measure the pan-sauce ingredients, and wash and dry the arugula. Keep raw chicken refrigerated until cooking.
-2. **Roll before searing:** Roll and cut the pasta before starting the chicken so you are not operating a pasta machine while managing hot pans. Bring pasta water to a boil.
-3. **Cook the chicken in batches:** Follow the piccata recipe without adding a flour dredge. Keep the cooked pieces aside while beginning the broth-and-caper sauce.
-4. **Coordinate the finish:** Boil the fresh pasta close to serving. Check the chicken reaches 165°F / 74°C before finishing its sauce with lemon and butter off heat. Reserve a little pasta water before draining.
-5. **Plate promptly:** Divide pasta among four plates, using a spoonful of reserved pasta water if needed to separate the ribbons. Add chicken and spoon the measured pan sauce over it. Toss the arugula salad only now and serve alongside.
+1. **Make and rest the dough:** Begin the egg pasta first and rest it for its full time. During the rest, prepare the chicken cutlets, measure the pan-sauce ingredients, and wash and dry the arugula.
+2. **Roll before searing:** Roll and cut the pasta before starting the chicken. Bring the pasta water to a boil.
+3. **Cook the chicken in batches:** Sear the cutlets without a flour dredge. Set the cooked pieces aside and start the broth and caper sauce.
+4. **Coordinate the finish:** Boil the fresh pasta close to serving and save a little pasta water before draining. Simmer the chicken in the sauce until it reaches 165°F / 74°C, then finish the sauce with lemon and butter off the heat.
+5. **Plate:** Divide the pasta among four plates and loosen the ribbons with a spoonful of pasta water. Add the chicken and spoon the pan sauce over it. Toss the arugula salad now and serve it alongside.
 
 ## Notes
 
-The linked pasta and salad have their own ingredient lists. Keep the piccata sauce as written: broth, capers, lemon, and butter. Its small quantity supplies a bright coating for the chicken rather than a heavy sauce for all the pasta.
+The piccata sauce is broth, capers, lemon and butter. Its small quantity gives the chicken a bright coating.

@@ -21,27 +21,26 @@ review:
 
 ## Meal Overview
 
-Jerk-seasoned pork shoulder, coconut rice and peas, and mango cabbage slaw. The braise provides warm spice and a rich sauce. The slaw brings cool crunch and acidity. For eight diners, make one full batch of each component: the fixed four-pound pork shoulder, rice and peas starting with 360 g dry rice, and the full mango slaw. Share the slaw as eight smaller sides than its six-portion recipe. The rice recipe already allows six to eight sides. No additional starch is needed.
+Jerk-seasoned pork shoulder, coconut rice and peas, and mango cabbage slaw. The braise provides warm spice and a rich sauce. The slaw brings cool crunch and acidity. For eight diners, make one full batch of each component: the four-pound pork shoulder, rice and peas starting with 360 g dry rice, and the full mango slaw. Share the slaw as eight small sides.
 
-Allow about 13 hours 30 minutes elapsed with the minimum eight-hour marinade, and about 1 hour 45 minutes hands-on across both days. A 24-hour marinade adds sixteen hours. These are planning allowances. Pork thickness and older dried beans can extend cooking. Use a Dutch oven, a bean pot and a separate lidded rice pot, plus a blender and a clean vegetable board.
+Allow about 13 hours 30 minutes elapsed with the minimum eight-hour marinade, and about 1 hour 45 minutes hands-on across both days. A 24-hour marinade adds sixteen hours. Use a Dutch oven, a bean pot and a separate lidded rice pot, plus a blender.
 
 ## Cooking Strategy
 
-1. **The evening before:** Blend the pork marinade. Set aside the clean finishing portion before any raw pork contact, cover and refrigerate it separately. Marinate the shoulder in the refrigerator for 8–24 hours. If using dried kidney beans, soak them separately in the refrigerator as directed in the rice recipe.
-2. **Start the main:** Follow the pork recipe's searing and covered braising method. Allow up to 4 hours for these stages, plus a 20-minute rest. Continue cooking if it is not yet fork-tender.
-3. **Cook the beans while the pork braises:** Follow the rice recipe's full boiling stage before simmering dried kidney beans to tenderness. Canned beans skip this stage. Reserve and measure the specified bean liquid for the rice.
-4. **Coordinate the sides:** Start the rice stage about 55 minutes before the pork is expected to finish. Prepare the slaw on a clean board while the rice simmers, allowing its refrigerated dressing rest. Share both sides among the eight diners.
-5. **Handle a late braise:** Start the rice when the pork is approaching tenderness, not simply when a timer predicts it will finish. If cooked rice must wait, keep it hot at 140°F / 60°C or above. A long hold softens it. Keep slaw refrigerated during a delay.
-6. **Finish together:** Rest and shred the pork, reduce the sauce and add only the clean reserved marinade. Fluff the rested rice and toss the slaw again before serving.
+1. **The evening before:** Blend the pork marinade. Set aside the finishing portion before the pork goes in, cover it and refrigerate it. Marinate the shoulder in the refrigerator for 8 to 24 hours. Soak the dried kidney beans in the refrigerator.
+2. **Start the main:** Sear the pork, then braise it covered until fork-tender, up to 4 hours. Rest it for 20 minutes.
+3. **Cook the beans while the pork braises:** Boil the soaked kidney beans hard for 30 minutes, then simmer them until tender. Save the bean liquid for the rice.
+4. **Coordinate the sides:** Start the rice about 55 minutes before the pork finishes, once the pork is close to tender. Make the slaw while the rice simmers and refrigerate it in its dressing.
+5. **Hold the sides:** Keep the cooked rice covered in its pot and the slaw in the refrigerator until the pork is ready.
+6. **Finish together:** Rest and shred the pork, reduce the sauce and stir in the reserved marinade. Fluff the rice and toss the slaw again before serving.
 
 ## Make-Ahead Notes
 
-- Portion cooked pork and rice into shallow containers and refrigerate promptly, within 2 hours (1 hour above 90°F / 32°C). Do not wait for a large pot to reach room temperature.
-- Keep refrigerated at 40°F / 4°C or colder and use within 3–4 days. For a Saturday-to-Thursday plan, freeze the portions intended for Thursday promptly after cooling. Thaw in the refrigerator before reheating.
-- Reheat pork with its sauce, covered, and rice with a small sprinkle of water until each reaches 165°F / 74°C throughout. Oven times depend on portion depth and starting temperature. Allow extra time and check the center.
+- Refrigerate cooked pork and rice in portions and use them within 3 to 4 days. For a Saturday-to-Thursday plan, freeze Thursday's portions and thaw them in the refrigerator.
+- Reheat the pork covered with its sauce, and the rice with a small sprinkle of water, until steaming hot.
 - Make the slaw on the serving day for crisper cabbage and fresher mango.
 
 ## Milder Portions
 
-- Omit the hot chile for a reliably mild version. Removing seeds or leaving a pepper intact does not guarantee an absence of heat.
-- Serve slaw components separately if preferred, with dressing at the table.
+- A marinade blended without the hot chile is mild enough for children.
+- Serve the slaw undressed with its dressing at the table.

@@ -26,19 +26,19 @@ review:
 
 ## Meal Overview
 
-Use one full batch of Pad See Ew for five main portions and one batch of Smashed Cucumber Salad shared five ways. The 600 g cucumber batch normally makes four sides. Here each diner gets a smaller side of about 120 g cucumber before draining. The main already includes noodles, chicken, Chinese broccoli and eggs.
+Use one full batch of Pad See Ew for five main portions and one batch of Smashed Cucumber Salad shared five ways. Each diner gets a side of about 120 g cucumber before draining.
 
-The Chinese cucumber salad brings vinegar, garlic and cool crunch alongside the Thai soy-seasoned noodles. This is a mixed-cuisine pairing. Allow about 75–80 minutes for one cook, including five final noodle batches. Plates are best served as each batch finishes. This is a substantial family dinner rather than a 40-minute one-pan dump-and-toss meal.
+The Chinese cucumber salad brings vinegar, garlic and cool crunch alongside the Thai soy-seasoned noodles. Allow about 75 to 80 minutes for one cook, including five final noodle batches. Serve each plate as its batch finishes.
 
 ## Cooking Strategy
 
-1. **Prepare noodles and sauce:** Follow the main's fresh-noodle instructions or its package-specific dried alternative. Divide into five portions and mix the sauce. Some dried noodles add soaking time beyond this schedule.
-2. **Prepare cucumber and greens:** Smash and salt the cucumber, leaving it to drain for the salad's full 15 minutes. Mix dressing separately. Slice gai lan stems, cut leaves and chop garlic before handling raw chicken.
-3. **Prepare chicken:** Slice and marinate as directed, refrigerating during preparation. Clean the raw-chicken work surface. Drain and blot cucumber, then refrigerate it separately from the dressing.
-4. **Cook the main's components:** Cook chicken in two batches to 165°F / 74°C. Cook broccoli stems and leaves, then the eggs, following the main's separate stages. Divide the cooked ingredients and sauce into five portions.
-5. **Finish in portions:** Cook one noodle serving at a time with its measured sauce, chicken, broccoli and egg. Taste the first batch before repeating. Gentle lifting and brief pan contact preserve noodles better than vigorous tossing of the whole meal.
-6. **Serve promptly:** Toss each diner's cucumber portion with its share of dressing and garnishes as the noodle plate is ready. Repeat for all five servings. Offer the main's optional vinegar sparingly because the side already supplies acidity.
+1. **Prepare noodles and sauce:** Separate the fresh noodles and divide them into five portions. Mix the sauce.
+2. **Prepare cucumber and greens:** Smash and salt the cucumber, leaving it to drain for the salad's full 15 minutes. Mix the dressing separately. Slice the gai lan stems, cut the leaves and chop the garlic.
+3. **Prepare chicken:** Slice and marinate the chicken and refrigerate it. Drain and blot the cucumber, then refrigerate it separately from the dressing.
+4. **Cook the main's components:** Cook the chicken in two batches to 165°F / 74°C. Cook the broccoli stems, then the leaves, then the eggs. Divide the cooked ingredients and sauce into five portions.
+5. **Finish in portions:** Cook one noodle serving at a time with its sauce, chicken, broccoli and egg. Lift the noodles gently and keep their time in the pan short so they stay whole.
+6. **Serve:** Toss each diner's cucumber portion with its share of dressing and garnishes as the noodle plate is ready. Repeat for all five servings.
 
 ## Notes
 
-There is no extra rice, egg dish or protein side. If simultaneous service is essential, this five-batch main involves a quality compromise: earlier noodles cool and soften while later portions cook. Store components separately and follow their own chilling instructions. Noodles and dressed cucumber are best fresh.
+Store leftover components separately. Noodles and dressed cucumber are best fresh.

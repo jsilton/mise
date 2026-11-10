@@ -217,9 +217,9 @@ test('meal declares every starting condition and preserves six full component se
   assert.match(data.componentPreparation['garlic-bread'].note, /400 g.*softened butter/);
   assert.match(data.componentPreparation['arugula-feta-salad'].note, /already toasted/);
   assert.match(content, /twelve pieces/);
-  assert.match(content, /95–110 minutes/);
+  assert.match(content, /95 to 110 minutes/);
   assert.match(content, /Raise the oven to 400°F/);
-  assert.match(content, /minimum ten-minute rest overlaps/);
+  assert.match(content, /rest for at least ten minutes/);
   assert.match(content, /165°F \/ 74°C/);
   assert(35 + 40 + 5 + 12 >= 90);
   assert(35 + 45 + 10 + 15 <= 110);

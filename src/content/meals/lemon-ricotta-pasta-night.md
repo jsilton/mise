@@ -27,17 +27,17 @@ review:
 
 Lemon-ricotta pasta with basil, alongside arugula, strawberries, feta and sunflower seeds in a strawberry vinaigrette. Make one full batch of each recipe and divide among four diners: the pasta is generous and the salad's six smaller side portions become four larger sides. The salad supplies fruit and greens beside the rich cheese-and-olive-oil pasta.
 
-Allow about 40 minutes with a large pasta pot, a large mixing bowl, a separate salad bowl and a small blender or immersion blender. Use already toasted seeds. Toasting and cooling raw seeds adds time. Allow about thirty minutes hands-on, including washing and drying produce while the pasta water heats. Keep the pasta's measured oil allowance separate from the salad dressing.
+Allow about 40 minutes with a large pasta pot, a large mixing bowl, a separate salad bowl and a small blender. Use already toasted seeds. Allow about thirty minutes hands-on, including washing and drying produce while the pasta water heats.
 
 ## Cooking Strategy
 
-1. **Heat pasta water and prepare salad:** Put water on first. Wash and dry salad produce, slice the salad strawberries and keep the four dressing strawberries separate. Blend the salad dressing and prepare feta and seeds. Keep greens undressed and refrigerated until service.
-2. **Mix the pasta sauce:** Measure ricotta, oil, Pecorino, lemon and flakes as the main recipe directs. If reserving an oil drizzle, take it from the measured amount. Do not add an unlisted second pour at the table.
-3. **Cook pasta fully:** Follow package timing and taste for a tender center before draining. The bowl finish does not supply an extra minute of boiling. Reserve the full amount of cooking water, then drain without rinsing.
-4. **Finish close together:** Dress and assemble the prepared salad near the end of pasta cooking, allowing time to check the pasta before draining. Toss hot pasta with the prepared ricotta sauce and water as needed. Add basil, pepper and final lemon to taste. Serve both immediately. Do not rest the pasta while making salad dressing from scratch.
+1. **Heat pasta water and prepare salad:** Put water on first. Wash and dry salad produce, slice the salad strawberries and keep the four dressing strawberries separate. Blend the salad dressing and prepare feta and seeds. Keep greens undressed and refrigerated until serving.
+2. **Mix the pasta sauce:** Stir together the ricotta, oil, Pecorino, lemon and pepper flakes in the large bowl.
+3. **Cook pasta:** Boil the pasta until tender at the center. Save the cooking water, then drain without rinsing.
+4. **Finish close together:** Dress and assemble the salad near the end of the pasta cooking. Toss the hot pasta with the ricotta sauce, loosening it with the cooking water. Add the basil, pepper and remaining lemon. Serve both right away.
 
 ## Notes
 
-- Pasta-water salt, Pecorino and salad feta all contribute seasoning. Taste each completed component before adding finishing salt.
-- For vegetarian diners choose suitable cheeses. The salad contains honey, so this is not a vegan meal.
-- Refrigerate leftovers promptly in shallow containers within two hours, or one hour above 90°F /32°C, at 40°F /4°C or below. Keep pasta and salad separate. Use the next day for texture and reheat pasta to 165°F /74°C.
+- Pasta-water salt, Pecorino and salad feta all add salt. Taste each dish before adding more.
+- The salad contains honey, so this is not a vegan meal.
+- Refrigerate leftover pasta and salad separately and eat them the next day.

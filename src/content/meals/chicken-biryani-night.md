@@ -29,25 +29,25 @@ review:
 
 ## Meal Overview
 
-Layered chicken biryani, cucumber raita, and a fresh kachumber salad make six generous dinners. Use **one batch of biryani**, **half a batch of raita**, and **one batch of kachumber**. The biryani already includes rice. Half the raita recipe makes about **1 1/4–1 1/2 cups**, allowing roughly three to four tablespoons per person.
+Layered chicken biryani, cucumber raita, and a fresh kachumber salad make six generous dinners. Use **one batch of biryani**, **half a batch of raita**, and **one batch of kachumber**. The biryani already includes rice. Half the raita recipe makes about **1 1/4 to 1 1/2 cups**, allowing about three to four tablespoons per person.
 
-Allow about **6 hours 45 minutes with the minimum four-hour marinade**. Marinating overnight extends elapsed time and moves that work to the previous day. On cooking day, plan roughly two and a half hours, with sides prepared during the biryani work. Pot, burner, and rice differences can extend the final cook.
+Allow about **6 hours 45 minutes with the minimum four-hour marinade**. Cooking day takes about two and a half hours, with the sides made during the biryani work.
 
 ## Cooking Strategy
 
-1. **Marinate within the recipe's window:** Refrigerate the chicken in its marinade for 4–24 hours. Longer is not automatically better. Keep it cold until layering.
-2. **Coordinate onions and rice:** Fry onions in the specified two batches until golden brown and lift them out before they turn dark. During this work, soak rice and steep saffron as directed. Par-cook the rice by tasting for a soft exterior and firm core, rather than using an exact minute count alone.
-3. **Layer and steam:** Layer promptly using the main recipe's reserved onion oil, chicken and marinade, partly cooked rice, saffron milk, ghee, and herbs. Maintain a gentle simmer under the snug lid rather than assuming the lowest burner setting is sufficient.
-4. **Prepare sides during cooking:** Make half the raita recipe and refrigerate. Toast cumin and chop the kachumber vegetables, keeping the lemon dressing separate until serving. Wash and prepare salad ingredients away from raw-chicken tools.
-5. **Verify before resting:** Check several chicken pieces and several rice locations for 165°F / 74°C, and taste rice for tenderness. Continue cooking if needed before starting the full 15-minute off-heat rest. Do not use resting to finish an unverified raw-chicken center.
-6. **Serve:** Dress kachumber near the end of the rest. Lift biryani portions from the bottom so each includes chicken and rice. Remove visible whole spices and tell diners some may remain. Offer cold raita and small portions of salad alongside.
+1. **Marinate the chicken:** Refrigerate the chicken in its marinade for 4 to 24 hours.
+2. **Coordinate onions and rice:** Fry the onions in two batches until golden brown and lift them out before they turn dark. Soak the rice and steep the saffron while the onions fry. Par-cook the rice until the outside is soft and the core is still firm.
+3. **Layer and steam:** Layer the reserved onion oil, the chicken and its marinade, the partly cooked rice, the saffron milk, the ghee and the herbs. Cover with a snug lid and keep the pot at a gentle simmer.
+4. **Prepare sides during cooking:** Make half the raita recipe and refrigerate. Toast cumin and chop the kachumber vegetables, keeping the lemon dressing separate until serving.
+5. **Check and rest:** Cook until the chicken reaches 165°F / 74°C and the rice is tender. Rest the pot off the heat for 15 minutes.
+6. **Serve:** Dress kachumber near the end of the rest. Lift biryani portions from the bottom so each includes chicken and rice. Pick out the whole spices you can see. Serve the cold raita and the salad alongside.
 
 ## Making dinner ahead
 
-Portion cooked biryani promptly into shallow containers and refrigerate within two hours, or one hour above 90°F / 32°C. Do not leave the full pot out until completely cool. Use refrigerated biryani within 3–4 days or freeze portions for later. Reheat portions covered with a small splash of water, checking that both chicken and rice reach 165°F / 74°C. A fixed oven time cannot guarantee this.
+Refrigerate leftover biryani in portions and use it within 3 to 4 days, or freeze the portions. Reheat each portion covered with a small splash of water until steaming hot.
 
-Make raita and kachumber close to the meal when practical. Use raita within one day for quality, and dress kachumber immediately before serving. The side recipes do not promise better texture after several days.
+Make the raita and kachumber close to the meal. Raita keeps for one day. Dress the kachumber just before serving.
 
 ## Heat and serving notes
 
-Kashmiri chile powder can still have heat. Use the main recipe's substitution guidance and adjust chile to your diners. Omit optional serrano from the salad for a milder side. Keep raita alongside for individual portions. Extra naan is unnecessary for the planned six-portion meal.
+Kashmiri chile powder still has some heat. Leave the serrano out of the salad and keep the raita on the table.

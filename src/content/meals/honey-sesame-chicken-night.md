@@ -27,19 +27,19 @@ review:
 
 ## Meal Overview
 
-Use one full batch each of Honey Sesame Chicken, Plain Short-Grain White Rice, and Charred Broccoli with Garlic for four diners. That gives about 170 g raw chicken, 75 g dry rice and 112 g broccoli per person before cooking. Rice is the sole starch. The broccoli's lightly savory lemon finish balances the honey glaze without adding another sweet sauce.
+Use one full batch each of Honey Sesame Chicken, Plain Short-Grain White Rice, and Charred Broccoli with Garlic for four diners. That gives about 170 g raw chicken, 75 g dry rice and 112 g broccoli per person before cooking. The broccoli's lightly savory lemon finish balances the honey glaze without adding another sweet sauce.
 
-Allow about 75–80 minutes for one cook using two burners and two skillets. The rice includes a 30-minute soak and 10-minute rest. Chicken is pan-seared and glazed, with a soft coating after saucing. It is not a crunchy deep-fried takeout dish.
+Allow about 75 to 80 minutes for one cook using two burners and two skillets. The rice includes a 30-minute soak and 10-minute rest. The chicken is pan-seared and glazed, with a soft coating after saucing.
 
 ## Cooking Strategy
 
-1. **Start the rice:** Rinse and begin its full 30-minute soak in the measured water. Use the recipe's short-grain method and quantities. Do not assume a 20-minute jasmine-rice shortcut.
-2. **Prepare vegetables and sauce:** During soaking, cut and dry broccoli, slice its garlic, prepare chicken aromatics and garnishes, and mix the honey sauce. Cut and coat chicken last, then clean the raw-chicken work area. Keep it refrigerated until cooking.
-3. **Cook rice and chicken:** After the soak, bring rice to a boil, cover and reduce heat. Once the rice is gently cooking, begin the chicken's two searing batches in the first skillet. Check each batch at 165°F / 74°C and transfer to a clean bowl. Leave glazing until near serving.
-4. **Free a burner for broccoli:** Check rice at its stated endpoint and move it off the burner for its covered rest. Use that burner and the second skillet for the broccoli's two browning-and-steaming batches. Let the cooked chicken wait briefly while the broccoli finishes. Keep its sauce ingredients ready in the first skillet's work area.
-5. **Finish close together:** Lower the broccoli pan's heat for garlic and its light soy/lemon finish. Then make the honey glaze in the first skillet and return the chicken and juices, warming through as directed. Add sesame and scallions off heat. This keeps the glaze from reducing throughout the broccoli's full cooking time.
-6. **Serve:** Fluff rice and divide it among four bowls or plates. Add honey chicken and broccoli alongside. Taste the broccoli before using all its lemon juice so it complements the main's vinegar and sweetness.
+1. **Start the rice:** Rinse the rice and soak it for 30 minutes in its cooking water.
+2. **Prepare vegetables and sauce:** During soaking, cut and dry broccoli, slice its garlic, prepare chicken aromatics and garnishes, and mix the honey sauce. Cut and coat the chicken last and refrigerate it until cooking.
+3. **Cook rice and chicken:** After the soak, bring rice to a boil, cover and reduce heat. Once the rice is gently cooking, begin the chicken's two searing batches in the first skillet. Cook each batch to 165°F / 74°C and transfer it to a bowl. Leave the glazing until near serving.
+4. **Free a burner for broccoli:** When the rice has absorbed its water, move it off the burner for its covered rest. Use that burner and the second skillet for the broccoli's two browning-and-steaming batches.
+5. **Finish close together:** Lower the broccoli pan's heat and add the garlic, soy and lemon. Then make the honey glaze in the first skillet and return the chicken and its juices to warm through. Add the sesame and scallions off the heat.
+6. **Serve:** Fluff the rice and divide it among four bowls. Add the honey chicken and the broccoli alongside.
 
 ## Notes
 
-A small rice-cooker batch can simplify burner management, but its cycle and rest time follow the appliance. The schedule above uses the stovetop rice method. Store rice, chicken and broccoli separately, cool promptly, and follow each recipe's reheating instructions.
+Store the rice, chicken and broccoli separately.
