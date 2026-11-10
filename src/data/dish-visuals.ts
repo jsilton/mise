@@ -102,7 +102,7 @@ export const dishVisuals: Record<
   'baja-fish-tacos': {
     file: 'baja-fish-tacos.webp',
     title: 'Baja Fish Tacos',
-    alt: 'Three soft corn tortillas folded around strips of crisp golden beer-battered fish, topped with white lime crema, shredded cabbage and cilantro, with a lime wedge on the plate.',
+    alt: 'Three soft tortillas folded around strips of crisp golden beer-battered fish, topped with white lime crema, shredded cabbage and cilantro, with a lime wedge on the plate.',
   },
   'baked-beans': {
     file: 'baked-beans.webp',
@@ -1832,12 +1832,12 @@ export const dishVisuals: Record<
   'meat-lasagna': {
     file: 'meat-lasagna.webp',
     title: 'Meat Lasagna with Beef and Pork Ragù',
-    alt: 'A tall square slice of lasagna showing layers of pasta, meat ragù, ricotta and melted mozzarella, with browned cheese on top.',
+    alt: 'A tall slice of lasagna showing layers of pasta, meat ragù, ricotta and melted mozzarella, with browned cheese on top.',
   },
   'meatballs-in-san-marzano-sauce': {
     file: 'meatballs-in-san-marzano-sauce.webp',
     title: 'Beef and Pork Meatballs in San Marzano Sauce',
-    alt: 'Five browned meatballs in a bright red, slightly chunky tomato sauce with slices of soft garlic and a dusting of grated Parmigiano.',
+    alt: 'Five browned meatballs in a bright red, slightly chunky tomato sauce with golden slices of garlic and a dusting of grated Parmigiano.',
   },
   'mediterranean-chicken-bowls': {
     file: 'mediterranean-chicken-bowls.webp',
