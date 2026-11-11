@@ -2094,10 +2094,20 @@ export const dishVisuals: Record<
     title: 'Pan Fried Noodles with Shrimp',
     alt: 'A round, crisp golden cake of thin egg noodles topped with plump pink shrimp in a glossy, translucent gravy, with bright green yu choy arranged around the edge.',
   },
+  'pan-seared-cod-with-brown-butter': {
+    file: 'pan-seared-cod-with-brown-butter.webp',
+    title: 'Pan-Seared Cod with Brown Butter and Lemon',
+    alt: 'A golden-seared cod fillet with flaky white flesh in brown butter with tiny capers and chopped parsley, beside a lemon wedge on a white plate.',
+  },
   'pan-seared-duck-breasts-with-cherry-and-port-sauce': {
     file: 'pan-seared-duck-breasts-with-cherry-and-port-sauce.webp',
     title: 'Pan-Seared Duck Breasts with Cherry and Port Sauce',
     alt: 'One duck breast sliced on the bias into six slices, fanned out to show rosy pink meat under a thin layer of crisp golden skin, spooned with a glossy, deep red sauce of halved cherries.',
+  },
+  'pan-seared-steak': {
+    file: 'pan-seared-steak.webp',
+    title: 'Pan-Seared Steak with Butter Baste',
+    alt: 'Eight rosy-centered steak slices in a neat row on a white platter with butter juices, two smashed golden garlic cloves and two thyme sprigs.',
   },
   'panang-curry-with-chicken': {
     file: 'panang-curry-with-chicken.webp',
@@ -2243,6 +2253,11 @@ export const dishVisuals: Record<
     file: 'pot-roast.webp',
     title: 'Sunday Pot Roast',
     alt: 'Three thick slices of braised beef over chunks of carrot and Yukon Gold potato, with glossy brown gravy and chopped parsley.',
+  },
+  'potato-latkes': {
+    file: 'potato-latkes.webp',
+    title: 'Classic Potato Latkes',
+    alt: 'Four compact golden potato latkes overlapping on a white plate beside a spoonful of applesauce and a dollop of sour cream.',
   },
   'potato-salad': {
     file: 'potato-salad.webp',
@@ -2808,6 +2823,11 @@ export const dishVisuals: Record<
     file: 'soft-batch-chocolate-chip-cookies.webp',
     title: 'Soft Batch Chocolate Chip Cookies',
     alt: 'Five thick, soft chocolate chip cookies arranged in a loose stack, one broken in half to show a soft, gooey center with melting chocolate chips.',
+  },
+  'soft-dinner-rolls': {
+    file: 'soft-dinner-rolls.webp',
+    title: 'Soft Dinner Rolls',
+    alt: 'Six glossy golden dinner rolls in two rows of three, sprinkled with flaky salt, with one corner roll gently pulled apart to show fluffy white crumb.',
   },
   'soy-ginger-dipping-sauce': {
     file: 'soy-ginger-dipping-sauce.webp',
