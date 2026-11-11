@@ -1,0 +1,300 @@
+{
+  "scope": "Seven review images only. No mapping, recipe changes, merge or deployment.",
+  "technical": {
+    "expected_count": 7,
+    "actual_count": 7,
+    "missing": [],
+    "unexpected": [],
+    "all_dimensions_pass": true,
+    "images": [
+      {
+        "filename": "pan-seared-cod-with-brown-butter.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "valid_1536x1024_png": true,
+        "sha256": "ae55ca593b1815e96b3531a870419d5199ff3d0b9942cd7979e0cb135abef5ac",
+        "bytes": 1429969,
+        "background_edge_rgb": [
+          206.14,
+          231.71,
+          242.46
+        ],
+        "background_edge_patch_spread_rgb": [
+          1.21,
+          0.73,
+          0.55
+        ]
+      },
+      {
+        "filename": "pan-seared-steak.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "valid_1536x1024_png": true,
+        "sha256": "9789902162bd880f1cefb7c2aac1ea149c2490e6f6f63d8c833206ccbcc99018",
+        "bytes": 1698493,
+        "background_edge_rgb": [
+          250.57,
+          172.5,
+          131.86
+        ],
+        "background_edge_patch_spread_rgb": [
+          0.72,
+          0.59,
+          1.25
+        ]
+      },
+      {
+        "filename": "potato-latkes.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "valid_1536x1024_png": true,
+        "sha256": "e234c10d44a81f010d7591b746b82dacefbd1eeb05b3dde84476906f8a1d990a",
+        "bytes": 1437160,
+        "background_edge_rgb": [
+          252.02,
+          209.26,
+          122.07
+        ],
+        "background_edge_patch_spread_rgb": [
+          0.37,
+          0.47,
+          1.67
+        ]
+      },
+      {
+        "filename": "soft-dinner-rolls.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "valid_1536x1024_png": true,
+        "sha256": "f3627566c03f567f148b9a90a5f761fe6e9e2ec63a529c2d63cb306507472930",
+        "bytes": 1456175,
+        "background_edge_rgb": [
+          252.0,
+          168.33,
+          120.25
+        ],
+        "background_edge_patch_spread_rgb": [
+          0.3,
+          1.23,
+          1.28
+        ]
+      },
+      {
+        "filename": "bbq-sauce.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "valid_1536x1024_png": true,
+        "sha256": "bbc166ce14581fe27fab27180a410133aa9be686c56211dc6ceb6ad8c0321de9",
+        "bytes": 1436379,
+        "background_edge_rgb": [
+          249.73,
+          209.21,
+          122.22
+        ],
+        "background_edge_patch_spread_rgb": [
+          0.39,
+          0.58,
+          1.24
+        ]
+      },
+      {
+        "filename": "meatballs-in-san-marzano-sauce.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "valid_1536x1024_png": true,
+        "sha256": "649f955f9cfef5906e5d1bcc26ff6426f49c93492912ca6b05b1e3967ea591b2",
+        "bytes": 1516639,
+        "background_edge_rgb": [
+          251.82,
+          171.01,
+          122.89
+        ],
+        "background_edge_patch_spread_rgb": [
+          0.47,
+          1.25,
+          1.65
+        ]
+      },
+      {
+        "filename": "pumpkin-pie.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "valid_1536x1024_png": true,
+        "sha256": "a6bb6bbf068f55c6013727b5dea2e2dd9452bf078c4e18c76c500b0985392634",
+        "bytes": 1450147,
+        "background_edge_rgb": [
+          252.35,
+          169.93,
+          119.58
+        ],
+        "background_edge_patch_spread_rgb": [
+          0.36,
+          1.9,
+          2.39
+        ]
+      }
+    ]
+  },
+  "visual_review": {
+    "review_status": "complete: all seven pass visual QA; steak garlic correction independently re-reviewed",
+    "method": "Independently read the exact specification, viewed all seven originals at full 1536x1024 resolution, viewed the margarita reference, and compared BBQ, meatballs and pie against their previously accepted originals. No photo editing. Diagnostic enlargement of steak garnish was also inspected; original files were not modified. Reopened the final revised steak at full resolution and rechecked its count, garnish, framing and background.",
+    "global": {
+      "dimensions": "All seven files are 1536x1024 landscape 3:2.",
+      "style": "Bright, sharp, true-to-life food on white vessels with thin slate-blue rims. No text, props, hands, steam, horizon lines or extra objects observed.",
+      "background": "Visually flat and even, with short local contact shadows. Corner patch means differ by less than approximately 1.5 RGB levels within each image, supporting absence of a corner vignette. Small departures from literal target hex values are recorded below, but visually correct hue families.",
+      "framing": "All seven vessels are wholly inside x=384..1152, the central half-width crop. Approximate manual visual bounds include the vessel but exclude its shadow.",
+      "limitations": "Photographs cannot prove ingredient identity, exact physical sizes, lens focal length, tablespoon quantity or doneness temperature. Counts and appearance are judged visually."
+    },
+    "images": [
+      {
+        "file": "pan-seared-cod-with-brown-butter.png",
+        "status": "pass",
+        "food": "One thick golden-seared cod fillet with moist flaky white edge, pooled light-brown butter, small chopped parsley and exactly one lemon wedge. Capers are tiny, sparse, dark olive and irregular; they do not read as green peas. No vegetables or other excluded food.",
+        "fix": "Pass: tiny capers, irregular scattering and no pea-like large uniform green spheres.",
+        "vessel": "White dinner plate with thin slate-blue rim.",
+        "approximate_bounds": [
+          402,
+          277,
+          1109,
+          764
+        ],
+        "frame_width_fraction": 0.46,
+        "center": "About (756,521), close to frame center (768,512).",
+        "background": "Even pale sky blue. Corner means approximately (206,232,242), versus target (212,233,242).",
+        "concerns": []
+      },
+      {
+        "file": "bbq-sauce.png",
+        "status": "pass",
+        "food": "One bowl of glossy thick brick-red sauce with a soft swirl and a few visible translucent onion bits; no utensil, meat or garnish.",
+        "fix": "Pass: accepted bowl, sauce, framing and swirl appearance retained on butter yellow.",
+        "vessel": "Small white bowl with thin slate-blue rim.",
+        "approximate_bounds": [
+          399,
+          243,
+          1120,
+          803
+        ],
+        "frame_width_fraction": 0.469,
+        "center": "About (760,523), close to frame center.",
+        "background": "Even butter yellow. Corner means approximately (250,209,122), versus target (249,210,126).",
+        "concerns": [
+          "A few onion pieces are more visible than tiny flecks, but this appearance is retained from the explicitly accepted prior image and is not a new defect."
+        ]
+      },
+      {
+        "file": "meatballs-in-san-marzano-sauce.png",
+        "status": "pass",
+        "food": "Exactly five browned round meatballs in bright chunky red tomato sauce, fine grated cheese and several thin golden garlic pieces. No pasta, basil, parsley or bread.",
+        "fix": "Pass: accepted arrangement retained, apricot backdrop substituted, and the previously ringlike garlic changed into irregular solid slices.",
+        "vessel": "Wide shallow white bowl with thin slate-blue rim.",
+        "approximate_bounds": [
+          420,
+          305,
+          1102,
+          759
+        ],
+        "frame_width_fraction": 0.444,
+        "center": "About (761,532), modestly below exact center but visually centered.",
+        "background": "Even apricot. Corner means approximately (252,171,123), versus target (255,176,126).",
+        "concerns": []
+      },
+      {
+        "file": "pumpkin-pie.png",
+        "status": "pass",
+        "food": "Exactly one upright deep-dish wedge, point toward camera, smooth orange-brown custard without cracks, tall golden crimped rear crust and one white whipped-cream dollop. No cinnamon dust, nuts or leaves.",
+        "fix": "Pass: accepted pie appearance and composition retained on apricot.",
+        "vessel": "Small round white plate with thin slate-blue rim.",
+        "approximate_bounds": [
+          424,
+          243,
+          1094,
+          784
+        ],
+        "frame_width_fraction": 0.436,
+        "center": "About (759,514), close to exact center.",
+        "background": "Even apricot. Corner means approximately (252,170,119), versus target (255,176,126).",
+        "concerns": []
+      },
+      {
+        "file": "pan-seared-steak.png",
+        "status": "pass",
+        "food": "Eight countable whole steak slices in a single tidy domino row, with brown crusts and pink centers; butter and juices, sea-salt flakes, exactly two straight single thyme sprigs and two small flattened golden garlic cloves with loose papery skin. No vegetables, potatoes or board.",
+        "fix": "Pass after correction: eight separate whole slices remain in a clean row; two garlic pieces now read as small smashed individual cloves, with no circular bulb root plates or long bulb necks.",
+        "vessel": "White oval platter with thin slate-blue rim.",
+        "approximate_bounds": [
+          427,
+          315,
+          1105,
+          709
+        ],
+        "frame_width_fraction": 0.441,
+        "center": "About (766,512), exactly centered for practical purposes.",
+        "background": "Even apricot with no visible edge-to-edge gradient, stains or colored shadow. Final corner means approximately (251,172,132), versus target (255,176,126), visually in the requested hue family.",
+        "concerns": [],
+        "revision_history": "Initial image failed the individual-clove detail because garlic resembled miniature bulbs. Final saved revision was reopened and passes: substantially smaller flattened cloves, cracked golden flesh, loose papery skin, no bulb root discs. Eight slices, two straight single thyme stems, centered oval platter and crop safety retained."
+      },
+      {
+        "file": "potato-latkes.png",
+        "status": "pass",
+        "food": "Exactly four round compact golden-brown potato pancakes overlapping in one loose row, fine surface shreds, short crisp slightly ragged edges, one spoonful of pale applesauce and one sour-cream dollop. No herbs, salmon or ramekin.",
+        "fix": "Pass: edges stay close to their circular outlines; no long wormlike projecting strands.",
+        "vessel": "Small round white plate with thin slate-blue rim.",
+        "approximate_bounds": [
+          450,
+          292,
+          1075,
+          731
+        ],
+        "frame_width_fraction": 0.407,
+        "center": "About (763,512), centered.",
+        "background": "Even butter yellow. Corner means approximately (252,209,122), versus target (249,210,126).",
+        "concerns": [
+          "Plate occupies about 41% of frame width, a little smaller than the approximately half-width request but fully crop-safe and consistent with the airy framing. Not judged a must-fix."
+        ]
+      },
+      {
+        "file": "soft-dinner-rolls.png",
+        "status": "pass",
+        "food": "Exactly six deep-golden butter-glossed rolls in two rows of three, lightly scattered sea-salt flakes, pale bread sides. Front-right corner roll is slightly pulled away at one small fluffy seam. No filling, cheese strands, herbs, butter pat or seeds.",
+        "fix": "Pass: all six rolls are fully on the plate, seam reads as bread crumb rather than melted cheese, front is intact rather than ripped open.",
+        "vessel": "Large enough round white plate with thin slate-blue rim.",
+        "approximate_bounds": [
+          431,
+          272,
+          1082,
+          764
+        ],
+        "frame_width_fraction": 0.424,
+        "center": "About (757,518), close to frame center.",
+        "background": "Even apricot. Corner means approximately (252,168,120), versus target (255,176,126).",
+        "concerns": [
+          "Some natural fine bread fibers at the small torn seam, but none form long stretchy cheese-like bridges."
+        ]
+      }
+    ]
+  },
+  "checks": {
+    "image_integrity": "passed",
+    "exact_filename_set": "passed",
+    "image_dimensions": "passed",
+    "individual_visual_review": "passed",
+    "central_half_crop": "passed",
+    "recipe_or_application_changes": false,
+    "application_tests": "Not run: image-only review branch, no source changes."
+  }
+}
