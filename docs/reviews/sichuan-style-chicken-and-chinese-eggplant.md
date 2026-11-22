@@ -8,16 +8,16 @@ Adapted from Jordan’s supplied recipe and subsequent ingredient clarification.
 
 The clarified primary version uses spicy Pixian-style doubanjiang, Chinkiang black vinegar and scallions, retaining all six garlic cloves. “Sichuan-style” describes the culinary direction, not a recovered measured original or certified authenticity. The full liked pantry paste/vinegar combination remains as independent or combined measured alternatives. Worcestershire commonly contains fish; that caveat accompanies its optional substitution.
 
-Evidence: [Woks of Life eggplant technique](https://thewoksoflife.com/chinese-eggplant-garlic-sauce/) supports covered water-assisted tenderizing; [Omnivore’s Cookbook garlic-sauce eggplant](https://omnivorescookbook.com/chinese-eggplant-with-garlic-sauce/) supports salting/drying context. [Omnivore’s Sichuan Eggplant](https://omnivorescookbook.com/sichuan-eggplant/) and [Woks of Life Fish-Fragrant Eggplant](https://thewoksoflife.com/fish-fragrant-eggplant-yuxiang-qiezi/) support fermented chili-bean paste, black vinegar, garlic/scallions and brief paste blooming. None establishes a physical test of this complete adaptation.
+Evidence: [Omnivore’s Cookbook garlic-sauce eggplant](https://omnivorescookbook.com/chinese-eggplant-with-garlic-sauce/) supports salting/drying context. [Omnivore’s Sichuan Eggplant](https://omnivorescookbook.com/sichuan-eggplant/) and [Woks of Life Fish-Fragrant Eggplant](https://thewoksoflife.com/fish-fragrant-eggplant-yuxiang-qiezi/) support fermented chili-bean paste, black vinegar, garlic/scallions and brief paste blooming. Omnivore’s Sichuan Eggplant also supports the light cornstarch coat and single-layer shallow-fry. None establishes a physical test of this complete adaptation.
 
 [USDA poultry endpoint](https://ask.fsis.usda.gov/article/What-is-a-safe-internal-temperature-for-cooking-meat-and-poultry), [CDC raw-chicken separation](https://www.cdc.gov/food-safety/foods/chicken.html) and [USDA leftovers guidance](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety) support the safety instructions.
 
 ## Consequential decisions and ingredient destinations
 
-- One complete eggplant load, then one complete chicken load, in the same pan. No oven or split-batch instruction.
-- Eggplant: 1.5 lb / approximately 680 g; salting salt explicitly 3 g, followed by rinse and drying. The salt weight is editorial specification rather than a recovered source measurement.
-- The original 2½ tbsp eggplant cornstarch coating is deliberately removed for covered cooking. Marinade starch (1½ tbsp) and sauce starch (1½ tsp) remain. Tender eggplant with browned patches is the goal; crispness is not promised.
-- Oil totals 5 tbsp: 3 for eggplant, 1 for chicken, 1 for paste/aromatics. Three tablespoons water support covered eggplant cooking, with distinct additional-water allowances by use.
+- The eggplant fries in two batches, then the chicken cooks in one load, in the same pan. No oven.
+- Eggplant: 1.5 lb / approximately 680 g; salting salt explicitly 3 g, then patted dry with no rinse. The salt weight is editorial specification rather than a recovered source measurement.
+- The eggplant is salted, patted dry, tossed with 1½ tbsp cornstarch and shallow-fried in two batches so it turns golden outside and creamy inside and holds the glaze. Jordan's supplied 2½ tbsp is cut back because the marinade (1½ tbsp) and sauce (1½ tsp) already carry starch.
+- Oil totals 6 tbsp: 4 for the eggplant (2 per batch), 1 for chicken, 1 for paste/aromatics. There is no covered steaming stage and no water for the eggplant.
 - Chicken: 1.6 lb / approximately 725 g. The original marinade is unchanged. The entire load reaches 165°F / 74°C before transfer to a clean plate; no partially cooked waiting stage.
 - Three medium scallions are separated into white/light-green portions and dark-green tops. The final oil blooms 1½ tbsp doubanjiang for 20–30 seconds, then scallion whites/light-greens, six garlic cloves, original ginger and optional flakes cook for 20–30 seconds. Dark-green tops finish off heat. Scallion count is an editorial recommendation.
 - Base sauce: 2 tbsp Chinkiang vinegar, 1 tbsp light soy, and original dark soy, sugar, broth and starch. Separate optional allowances of up to 1½ tsp each soy and black vinegar are used only after tasting. These are calibrated starting amounts, not measured substitution equivalents.
@@ -28,13 +28,13 @@ Evidence: [Woks of Life eggplant technique](https://thewoksoflife.com/chinese-eg
 
 ## Practicality, timing and scaling
 
-Plan 50–60 minutes total: about 25 minutes prep with overlapping 15-minute salting/marination, then 25–35 minutes cooking. This replaces the original 12–15-minute cook label. Cut dimensions, safe temperature and sensory endpoints take precedence over estimates.
+Plan about 1 hour total: about 25 minutes prep with overlapping 15-minute salting/marination, then about 35 minutes cooking. This replaces the original 12–15-minute cook label. Cut dimensions, safe temperature and sensory endpoints take precedence over estimates.
 
-The one-load method is fixed to the listed four-portion formula and a roomy 14-inch wok or wide 12–14-inch deep skillet with lid. Fixed scaling prevents doubled amounts from inheriting an unsuitable single-pan promise. Formula validation checks ingredient destinations and generated fields. Rice and cucumber pairings exist; no composed meal is created or relabeled.
+The two-batch eggplant and one-load chicken method is fixed to the listed four-portion formula and a 14-inch wok or 12-inch skillet. Fixed scaling prevents doubled amounts from inheriting an unsuitable single-pan promise. Formula validation checks ingredient destinations and generated fields. Rice and cucumber pairings exist; no composed meal is created or relabeled.
 
 ## Verification and remaining kitchen questions
 
-Independent culinary review accepted the primary ingredients, pantry branches, retained garlic, oil allocation and one-load method. Actual pan capacity, evaporation, browning, finished yield, heat level and sauce thickness still require cooking observations. This method prioritizes the requested workflow over a crisp crust.
+Independent culinary review accepted the primary ingredients, pantry branches, retained garlic, oil allocation and the coated, two-batch eggplant method. Actual pan capacity, evaporation, browning, finished yield, heat level and sauce thickness still require cooking observations. Batch time and glaze thickness are the two things to watch the first time it is cooked.
 
 The initial source tree passed its recipe regression, both public export validations, editorial audit (zero integrity errors/priority reviews), production build (770 pages), all 30 automated QA checks and the privacy scan. The revised Chinese-base source also passes its dedicated regression, recipe lint and all 30 QA checks. Two stale explanatory references were corrected after independent review, with final source/build checks repeated.
 

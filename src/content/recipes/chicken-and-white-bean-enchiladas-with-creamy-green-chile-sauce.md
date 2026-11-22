@@ -1,6 +1,6 @@
 ---
 miseId: 321e7346-599d-49ec-9211-15bdeafd5522
-title: Chicken and White Bean Enchiladas
+title: Green Chile Chicken and White Bean Enchiladas
 description: 'Flour tortillas rolled around chicken and white beans, baked in a creamy tomatillo and green chile sauce with melted cheese.'
 difficulty: easy
 cookingMethods:

@@ -1,6 +1,6 @@
 ---
 miseId: 3ba18236-f504-402a-8059-f531c856162a
-title: Herb Pork Tenderloin
+title: Herb-Marinated Pork Tenderloin
 description: 'Pork tenderloins marinated in lemon, garlic, rosemary, thyme and Dijon mustard, then seared and roasted until faintly pink.'
 difficulty: intermediate
 cookingMethods:

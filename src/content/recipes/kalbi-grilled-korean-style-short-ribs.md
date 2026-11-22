@@ -1,6 +1,6 @@
 ---
 miseId: 07619a95-eef8-498e-842a-1c0fbcbc84fe
-title: Kalbi
+title: Kalbi (Grilled Korean-Style Short Ribs)
 description: 'Flanken-style beef short ribs marinated in soy sauce, Asian pear, garlic, scallions and sesame oil, then grilled.'
 difficulty: intermediate
 cookingMethods:

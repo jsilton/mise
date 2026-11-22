@@ -1,6 +1,6 @@
 ---
 miseId: 8e893d26-fc2d-4c26-b51d-390ac8d00837
-title: Chipotle Pork Bowls
+title: 'Chipotle Pork and Sweet Corn "Tamale" Bowls'
 description: 'Smoky chipotle ground pork over creamy cotija polenta with sweet corn, avocado, shredded cabbage and toasted pepitas.'
 difficulty: easy
 cookingMethods:

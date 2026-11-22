@@ -180,7 +180,7 @@ test('"chicken spinach" finds the recipes that use both', () => {
   const hits = new Set(slugs('chicken spinach', index));
   for (const r of both) assert.ok(hits.has(r.slug), `${r.slug} has both and was not found`);
   assert.ok(
-    searchRecipes('chicken spinach', index).some((r) => r.title === 'Spinach Lemon Chicken')
+    searchRecipes('chicken spinach', index).some((r) => r.title === 'Creamy Spinach Lemon Chicken')
   );
   assert.ok(hits.size <= both.length + 10, `chicken spinach returned ${hits.size}`);
   assert.deepEqual(slugs('what can I make with chicken and spinach', index), [...hits]);

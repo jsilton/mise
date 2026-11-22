@@ -1,6 +1,6 @@
 ---
 miseId: 095d11e3-8a2f-48d3-905d-aebe2c0f3ff2
-title: Toum
+title: Toum (Lebanese Garlic Sauce)
 description: 'Lebanese garlic sauce emulsified from peeled garlic cloves, grapeseed or canola oil, lemon juice and cold water.'
 difficulty: easy
 cookingMethods:

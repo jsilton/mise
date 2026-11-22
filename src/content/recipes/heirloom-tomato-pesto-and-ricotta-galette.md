@@ -1,6 +1,6 @@
 ---
 miseId: 7bd05ba9-4834-45c1-9e78-4c1dbefc58d4
-title: Heirloom Tomato & Pesto Galette
+title: 'Heirloom Tomato, Pesto & Ricotta Galette'
 description: 'Flaky butter crust folded around basil pesto, whole-milk ricotta and sliced heirloom tomatoes, baked into a rustic galette.'
 difficulty: intermediate
 cookingMethods:

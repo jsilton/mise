@@ -1,6 +1,6 @@
 ---
 miseId: d73a1b6d-dadf-4798-8bde-14a779dec90f
-title: Spinach Muffins
+title: Sweet Spinach Muffins
 description: 'Whole-wheat muffins with blended baby spinach, ripe banana, honey and cinnamon.'
 difficulty: easy
 cookingMethods:

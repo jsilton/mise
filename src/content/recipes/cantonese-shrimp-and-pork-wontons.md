@@ -80,7 +80,7 @@ learning:
 
 ## Chef's Note
 
-Cantonese wontons have a bouncy pork filling studded with sweet pieces of shrimp and crunchy water chestnut. Stir the seasoned meat hard in one direction until it turns sticky, then fold in the chunky ingredients so they keep their bite. Serve them in clear broth or with chili oil.
+These wontons grew out of YinYin's wontons, Marie Hoy's family recipe of pork, shrimp, mushrooms, water chestnut and green onion with garlic salt, sherry and soy. They keep her shrimp, water chestnut and green onion and borrow from Cantonese wonton shops: fattier pork, chunks of shrimp, Shaoxing wine for the sherry and fresh garlic for the garlic salt. Stirring the meat hard in one direction keeps the filling bouncy.
 
 ## Directions
 

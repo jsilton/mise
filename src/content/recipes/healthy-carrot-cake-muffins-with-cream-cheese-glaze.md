@@ -1,6 +1,6 @@
 ---
 miseId: 0de6648c-d09d-4e8a-84ce-dfaa555f7c32
-title: Carrot Cake Muffins
+title: Carrot Cake Muffins with Cream Cheese Glaze
 description: 'Whole wheat pastry flour muffins with shredded carrots, maple syrup and applesauce, topped with a cream cheese glaze.'
 difficulty: intermediate
 cookingMethods:

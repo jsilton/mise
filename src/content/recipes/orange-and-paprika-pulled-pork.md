@@ -1,6 +1,6 @@
 ---
 miseId: 6e076c07-d9c7-413c-a34c-8eabb3bc8db6
-title: Orange and Paprika Pulled Pork
+title: Slow-Cooker Orange and Paprika Pulled Pork
 description: 'Pork shoulder rubbed with paprika, oregano and cumin, cooked with onion, garlic and orange juice until shreddable.'
 role: main
 vibe: comfort

@@ -1,6 +1,6 @@
 ---
 miseId: fb3586e7-9bcc-4cbe-be87-7cdc6218fb08
-title: Cauliflower Alfredo
+title: Cauliflower Alfredo Sauce
 description: 'Creamy pasta sauce of blended cauliflower, milk, butter, garlic and Parmesan with a pinch of nutmeg.'
 difficulty: intermediate
 cookingMethods:

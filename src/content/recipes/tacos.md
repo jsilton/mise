@@ -20,17 +20,15 @@ cuisines:
 advancePrep:
   - freeze-ahead
 role: main
-vibe: quick
+vibe: comfort
 prepTime: 15 min
-cookTime: 15 min
-totalTime: 30 min
+cookTime: 35 min
+totalTime: 50 min
 servings: '4'
 pairsWith:
   - mexican-street-corn-salad
-  - quick-seasoned-black-beans
 pairingNotes:
   mexican-street-corn-salad: Sweet, tangy corn rounds out the taco spread.
-  quick-seasoned-black-beans: Beans on the side make it a full plate.
 ingredients:
   - '--- Filling ---'
   - 1 tbsp neutral oil
@@ -49,6 +47,9 @@ ingredients:
   - '3/4 cup sharp Cheddar, grated'
   - '1 large avocado, sliced'
   - '2 Roma tomatoes, diced'
+  - '1/2 English cucumber, diced'
+  - '1 (15 oz) can black beans, rinsed and drained'
+  - '1 batch [Spanish rice](/mise/recipes/mexican-red-rice/), warm'
   - '1/4 head iceberg lettuce, finely shredded'
   - 1/4 cup sour cream
   - '1 lime, cut into wedges'
@@ -92,12 +93,14 @@ learning:
 
 ## Chef's Note
 
-These are Tex-Mex weeknight tacos, on the table in half an hour, with everyone building their own. Toasting the spices and tomato paste with the turkey gives lean meat real depth, and a splash of broth turns the filling saucy instead of dry and crumbly.
+These are Tex-Mex weeknight tacos, set out with Spanish rice and black beans so everyone builds their own. Toasting the spices and tomato paste with the turkey gives lean meat real depth, and a splash of broth turns the filling saucy instead of dry and crumbly.
 
 ## Directions
 
-1. **Brown the turkey:** If you are using hard shells, heat the oven to 350°F. Heat the oil in a 12-inch skillet over medium-high heat. Add the turkey, press it into a flat layer and leave it until the underside browns, about 2 minutes. Break it into crumbles and cook until no pink remains, 4 to 5 minutes more.
-2. **Toast the spices:** Lower the heat to medium. Stir in the chili powder, cumin, paprika, garlic powder, onion powder, oregano, tomato paste and salt. Cook, stirring, until the paste darkens and coats the meat, about 1 minute.
-3. **Simmer the filling:** Pour in the broth and scrape up the browned bits. Simmer, stirring, until the sauce clings to the meat with no watery pool and the turkey reaches 165°F, 3 to 5 minutes. Taste for salt, then cover and keep warm off the heat.
-4. **Warm the shells:** Warm hard shells on a baking sheet in the oven until crisp, 5 to 6 minutes. Warm flour tortillas in a dry skillet over medium-high heat until hot and flexible, about 20 seconds per side, and wrap them in a towel.
-5. **Build the tacos:** Set out the filling, shells, cheese, avocado, tomatoes, lettuce and sour cream, and let everyone build their own. Pass the lime wedges and hot sauce at the table.
+1. **Start the rice:** Make the Spanish rice first and keep it covered off the heat while you cook the tacos.
+2. **Brown the turkey:** If you are using hard shells, heat the oven to 350°F. Heat the oil in a 12-inch skillet over medium-high heat. Add the turkey, press it into a flat layer and leave it until the underside browns, about 2 minutes. Break it into crumbles and cook until no pink remains, 4 to 5 minutes more.
+3. **Toast the spices:** Lower the heat to medium. Stir in the chili powder, cumin, paprika, garlic powder, onion powder, oregano, tomato paste and salt. Cook, stirring, until the paste darkens and coats the meat, about 1 minute.
+4. **Simmer the filling:** Pour in the broth and scrape up the browned bits. Simmer, stirring, until the sauce clings to the meat with no watery pool and the turkey reaches 165°F, 3 to 5 minutes. Taste for salt, then cover and keep warm off the heat.
+5. **Warm the beans:** Warm the black beans in a small saucepan over medium-low heat, stirring now and then, until hot, about 5 minutes.
+6. **Warm the shells:** Warm hard shells on a baking sheet in the oven until crisp, 5 to 6 minutes. Warm flour tortillas in a dry skillet over medium-high heat until hot and flexible, about 20 seconds per side, and wrap them in a towel.
+7. **Build the tacos:** Set out the filling, shells, Spanish rice, black beans, cheese, avocado, tomatoes, cucumber, lettuce and sour cream, and let everyone build their own. Pass the lime wedges and hot sauce at the table.

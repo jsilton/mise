@@ -1,6 +1,6 @@
 ---
 miseId: 0ca5092d-d240-4d6f-a34a-f1cfe68f0ffc
-title: Mussels with Chorizo Broth
+title: Steamed Mussels with Tomato-Chorizo Broth
 description: 'Mussels steamed in white wine with crisp dried chorizo, cherry tomatoes, garlic, fennel seed and tarragon, served with country bread.'
 difficulty: easy
 cookingMethods:

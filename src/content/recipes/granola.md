@@ -66,7 +66,7 @@ This is the Gwock family's granola, made of oats, nuts, seeds and wheat germ toa
 1. **Heat the oven:** Heat the oven to 350°F.
 2. **Mix the dry ingredients:** Put the oats, the nuts and seeds and the wheat germ in a large bowl.
 3. **Coat the oats:** In another bowl, mix the maple syrup, oil, cinnamon and vanilla. Pour it over the oats and stir until everything is coated.
-4. **Bake:** Spread the granola in a single layer on a rimmed baking sheet. Bake, stirring a couple of times, until golden, about 20 minutes.
+4. **Bake until golden:** Spread the granola in a single layer on a rimmed baking sheet. Bake, stirring a couple of times, until golden, 18 to 20 minutes.
 5. **Add the fruit:** Let the granola cool completely on the sheet, then stir in the dried fruit.
 
 ## Suggested Tweak

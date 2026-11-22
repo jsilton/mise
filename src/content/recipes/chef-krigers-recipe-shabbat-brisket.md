@@ -1,5 +1,5 @@
 ---
-title: Chef Kriger’s Recipe Shabbat Brisket
+title: 'Chef Kriger’s Shabbat Brisket'
 description: 'Beef brisket braised with onions and baby carrots in a sweet and tangy sauce of ketchup, Worcestershire, Dijon and grape jelly.'
 difficulty: intermediate
 cookingMethods:

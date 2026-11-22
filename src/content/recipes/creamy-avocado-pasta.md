@@ -1,6 +1,6 @@
 ---
 miseId: 2e46fdf8-9e22-4c8f-89aa-f8d3cfe21be5
-title: Avocado Pasta
+title: Creamy Avocado Pasta
 description: 'Spaghetti or fettuccine tossed in a no-cook sauce of avocado, basil, spinach, garlic and lemon juice.'
 difficulty: easy
 cookingMethods:

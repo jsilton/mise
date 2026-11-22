@@ -1,7 +1,9 @@
 ---
 miseId: f427f879-b609-4e24-b28c-4edb695cffc2
 title: Grandmommy’s Pound Cake
-description: 'Old-fashioned pound cake made with butter, margarine, sugar and six eggs, flavored with lemon, almond and vanilla extracts.'
+description: >-
+  Old-fashioned pound cake made with butter, margarine, sugar and six eggs, flavored with lemon,
+  almond and vanilla extracts.
 difficulty: intermediate
 cookingMethods:
   - bake
@@ -33,7 +35,7 @@ ingredients:
   - '1 stick margarine, softened'
   - 2 cups sugar
   - '6 eggs, at room temperature'
-  - '3 cups all-purpose flour, sifted before measuring'
+  - 3 cups pre-sifted all-purpose flour
   - 1 tsp lemon extract
   - 1 tsp almond extract
   - 1 tsp vanilla extract
@@ -108,11 +110,10 @@ formula:
               share: 1
         - id: flour
           key: flour
-          name: all-purpose flour
+          name: pre-sifted all-purpose flour
           quantity:
             amount: 3
             unit: cup
-          preparation: sifted before measuring
           uses:
             - step: alternate
               share: 1
@@ -199,7 +200,7 @@ This is Grandmommy's pound cake. It has no baking powder, so it rises on the air
 
 1. **Prepare the pan:** Heat the oven to 275°F. Grease and flour a 10-inch tube or Bundt pan with butter and flour, then tap out the extra flour.
 2. **Cream the butter:** Beat butter, margarine, and sugar with a mixer on medium speed until pale and fluffy, about 5 minutes.
-3. **Add the eggs and flour:** On low speed, add eggs and all-purpose flour a little at a time, alternating between them and beating after each addition until just blended.
+3. **Add the eggs and flour:** On low speed, add eggs and pre-sifted all-purpose flour a little at a time, alternating between them and beating after each addition until just blended.
 4. **Add the flavorings:** Beat in lemon extract, almond extract, and vanilla extract last, just until mixed.
 5. **Bake:** Scrape the batter into the pan and smooth the top. Bake until golden and a long skewer in the thickest part comes out clean, 1 1/2 hours.
 6. **Cool:** Cool the cake in the pan on a rack for 20 minutes, then turn it out and let it cool completely before slicing.

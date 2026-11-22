@@ -1,6 +1,6 @@
 ---
 miseId: 22fce42f-e97f-4355-98c7-2eb8d11c6bbc
-title: Green Smoothie
+title: Hidden-Veggie Green Smoothie
 description: 'A thick green smoothie of banana, frozen mango, avocado, baby spinach and rolled oats blended with almond milk and vanilla.'
 difficulty: easy
 cookingMethods:

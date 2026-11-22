@@ -1,6 +1,6 @@
 ---
 miseId: ab8caf11-2436-4acb-9911-4ebc8b966483
-title: Slow Cooker Lentil Tortilla Soup
+title: Slow-Cooker Lentil Tortilla Soup
 description: 'Hearty soup of red lentils, black and pinto beans, corn, salsa verde and chili powder simmered in the slow cooker.'
 difficulty: easy
 cookingMethods:

@@ -1,6 +1,6 @@
 ---
 miseId: a8bd378a-c545-4ded-af3d-ef50e9ed124a
-title: Ragù alla Bolognese
+title: Pressure-Cooker Bolognese
 description: 'Pressure-cooker meat sauce of pork belly, beef chuck, soffritto, wine, tomato passata and milk, served over tagliatelle.'
 difficulty: intermediate
 cookingMethods:

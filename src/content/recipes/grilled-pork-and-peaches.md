@@ -1,6 +1,6 @@
 ---
 miseId: aa497c4f-8bbf-4c51-b13e-cfae7d00d412
-title: Pork and Peaches
+title: Grilled Pork and Peaches
 description: 'Thin pork shoulder grilled alongside butter-browned peach halves and spooned with garlic and rosemary olive oil.'
 difficulty: easy
 cookingMethods:

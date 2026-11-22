@@ -1,6 +1,6 @@
 ---
 miseId: 008c2596-4e40-4f6d-b7b3-a35c40a401f6
-title: Spinach Lemon Chicken
+title: Creamy Spinach Lemon Chicken
 description: 'Seared chicken cutlets finished in a garlicky oregano broth with baby spinach, Greek yogurt and lemon for a creamy sauce.'
 difficulty: intermediate
 cookingMethods:

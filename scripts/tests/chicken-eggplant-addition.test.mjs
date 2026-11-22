@@ -13,7 +13,7 @@ const raw = fs.readFileSync(
   'utf8'
 );
 const { data, content } = matter(raw);
-test('chicken and eggplant preserves Chinese base, pantry options and one-load cooking', () => {
+test('chicken and eggplant preserves Chinese base, pantry options and the coated, two-batch eggplant', () => {
   const formula = createFormulaSchema(z).parse(data.formula);
   assert.deepEqual(data.ingredients, formulaIngredients(formula));
   assert.ok(content.includes(formulaDirections(formula)));
@@ -43,13 +43,11 @@ test('chicken and eggplant preserves Chinese base, pantry options and one-load c
     'Keep the garlic',
   ])
     assert.ok(substitutions.includes(exact));
-  assert.equal(
-    component('eggplant').ingredients.some((i) => i.id === 'cornstarch'),
-    false
-  );
+  assert.equal(quantity('eggplant', 'cornstarch'), '1 1/2');
   const directions = formulaDirections(formula);
-  // Jordan's original cooks each in one load: the eggplant is dried, then added all at once.
-  assert.match(directions, /pat it very dry\. .*Add all the eggplant/);
+  // The starch coat only fries golden when the eggplant is dry and the pan isn't crowded.
+  assert.match(directions, /Pat the eggplant very dry.*Sprinkle 1 1\/2 tbsp of the cornstarch/);
+  assert.match(directions, /Add half the eggplant in a single layer/);
   assert.match(directions, /then all the chicken/);
   assert.match(directions, /165°F in the thickest strips/);
   assert.equal(data.scaling.mode, 'fixed');

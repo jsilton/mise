@@ -196,7 +196,7 @@ export const dishVisuals: Record<
   },
   'beef-tenderloin-dogs-with-corn-relish': {
     file: 'beef-tenderloin-dogs-with-corn-relish.webp',
-    title: 'Beef Hot Dogs with Corn Relish',
+    title: 'Beef Tenderloin Dogs with Corn Relish',
     alt: 'Two split brioche buns each holding a seared strip of beef tenderloin, topped with a colorful relish of charred corn, red pepper, red onion and herbs.',
   },
   'beef-with-snow-peas': {
@@ -241,7 +241,7 @@ export const dishVisuals: Record<
   },
   'blueberry-baked-oatmeal': {
     file: 'blueberry-baked-oatmeal.webp',
-    title: 'Blueberry Oatmeal',
+    title: 'Blueberry Baked Oatmeal',
     alt: 'A neat square portion of golden baked oatmeal dotted with burst blueberries and toasted seeds, with a spoonful of white yogurt beside it.',
   },
   'blueberry-banana-pancake-muffins': {
@@ -341,7 +341,7 @@ export const dishVisuals: Record<
   },
   'brownie-baked-oatmeal': {
     file: 'brownie-baked-oatmeal.webp',
-    title: 'Brownie Oatmeal',
+    title: 'Brownie Baked Oatmeal',
     alt: 'A small oval baking dish of dark, fudgy chocolate baked oatmeal with melted dark chocolate chips on top and a few flakes of sea salt.',
   },
   'brownie-protein-balls': {
@@ -386,7 +386,7 @@ export const dishVisuals: Record<
   },
   'cantonese-shumai-siu-mai': {
     file: 'cantonese-shumai-siu-mai.webp',
-    title: 'Shumai',
+    title: 'Cantonese Shumai',
     alt: 'Six open-topped, cylindrical shumai dumplings in thin yellow wrappers pleated around a pink pork and shrimp filling, each topped with a dot of bright orange carrot.',
   },
   'cantonese-wonton-broth': {
@@ -416,7 +416,7 @@ export const dishVisuals: Record<
   },
   'cauliflower-alfredo-sauce': {
     file: 'cauliflower-alfredo-sauce.webp',
-    title: 'Cauliflower Alfredo',
+    title: 'Cauliflower Alfredo Sauce',
     alt: 'A twirled nest of fettuccine coated in a smooth, creamy white cauliflower Alfredo sauce.',
   },
   'cauliflower-rice': {
@@ -466,7 +466,7 @@ export const dishVisuals: Record<
   },
   'chef-krigers-recipe-shabbat-brisket': {
     file: 'chef-krigers-recipe-shabbat-brisket.webp',
-    title: 'Chef Kriger’s Recipe Shabbat Brisket',
+    title: 'Chef Kriger’s Shabbat Brisket',
     alt: 'Thick slices of tender braised brisket, cut across the grain and overlapping on a platter, glazed with a glossy dark red-brown sweet-savory sauce, with soft baby carrots and onion.',
   },
   'chewy-chocolate-meringues': {
@@ -481,7 +481,7 @@ export const dishVisuals: Record<
   },
   'chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce': {
     file: 'chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce.webp',
-    title: 'Chicken and White Bean Enchiladas',
+    title: 'Green Chile Chicken and White Bean Enchiladas',
     alt: 'Two rolled chicken and white bean enchiladas covered in creamy pale green chile sauce, bubbling golden-spotted cheese and a little chopped cilantro.',
   },
   'chicken-and-wild-rice-soup': {
@@ -516,7 +516,7 @@ export const dishVisuals: Record<
   },
   'chicken-galbi-noodle-salad': {
     file: 'chicken-galbi-noodle-salad.webp',
-    title: 'Korean-inspired Chicken Glass-Noodle Salad',
+    title: 'Chicken Galbi Noodle Salad',
     alt: 'A tangle of glossy, translucent sweet-potato glass noodles tossed with savory ground chicken, thin strips of crisp bell pepper and scallions.',
   },
   'chicken-katsu-curry': {
@@ -616,7 +616,7 @@ export const dishVisuals: Record<
   },
   'chinese-chicken': {
     file: 'chinese-chicken.webp',
-    title: 'Chicken & Broccoli with Lap Cheong Rice',
+    title: 'Chinese Chicken',
     alt: 'A mound of jasmine rice studded with glossy slices of red Chinese sausage, topped with savory chicken pieces, broccoli florets and onion in a glossy brown sauce.',
   },
   'chinese-chicken-broccoli': {
@@ -641,7 +641,7 @@ export const dishVisuals: Record<
   },
   'chinese-steamed-fish': {
     file: 'chinese-steamed-fish.webp',
-    title: 'Steamed Fish',
+    title: 'Cantonese Steamed Fish',
     alt: 'A whole snapper on an oval platter, its skin glistening, topped with a neat pile of fine ginger and scallion threads and cilantro, sitting in a shallow pool of light soy sauce.',
   },
   'chinese-style-snapper': {
@@ -651,7 +651,7 @@ export const dishVisuals: Record<
   },
   'chipotle-pork-and-sweet-corn-tamale-bowls': {
     file: 'chipotle-pork-and-sweet-corn-tamale-bowls.webp',
-    title: 'Chipotle Pork Bowls',
+    title: 'Chipotle Pork and Sweet Corn "Tamale" Bowls',
     alt: 'A bowl of creamy golden polenta topped with a rich red chipotle ground-pork sauce with diced red pepper, a scoop of charred sweet corn and crumbled cotija.',
   },
   'chocolate-blended-oats-with-raspberry-chia-jam': {
@@ -721,7 +721,7 @@ export const dishVisuals: Record<
   },
   'cinnamon-sweet-potatoes': {
     file: 'cinnamon-sweet-potatoes.webp',
-    title: 'Sweet Potatoes with Cinnamon',
+    title: 'Cinnamon Sweet Potatoes',
     alt: 'A single layer of overlapping orange sweet potato rounds with caramelized browned edges, glossy with a honey-cinnamon glaze.',
   },
   'classic-beef-stew': {
@@ -831,7 +831,7 @@ export const dishVisuals: Record<
   },
   'cranberry-crunch': {
     file: 'cranberry-crunch.webp',
-    title: 'Cranberry Apple Crunch',
+    title: 'Cranberry Crunch',
     alt: 'A generous scoop of baked apple and cranberry fruit with a crumbly golden oat and pecan topping, the jammy ruby fruit bubbling up at the edges.',
   },
   'cream-of-mushroom-soup': {
@@ -841,12 +841,12 @@ export const dishVisuals: Record<
   },
   'creamy-avocado-pasta': {
     file: 'creamy-avocado-pasta.webp',
-    title: 'Avocado Pasta',
+    title: 'Creamy Avocado Pasta',
     alt: 'A twirled nest of spaghetti coated in a smooth, bright green avocado-basil sauce, topped with halved cherry tomatoes and Parmesan shavings.',
   },
   'creamy-garlicky-shrimp-skillet': {
     file: 'creamy-garlicky-shrimp-skillet.webp',
-    title: 'Garlicky Shrimp Fettuccine',
+    title: 'Creamy Garlicky Shrimp Fettuccine',
     alt: 'A twirled nest of fettuccine in a rich, creamy Parmesan sauce tinted pale orange with paprika, with plump pink shrimp and strips of roasted red pepper.',
   },
   'creamy-polenta': {
@@ -861,7 +861,7 @@ export const dishVisuals: Record<
   },
   'creamy-spinach-lemon-chicken-dinnner': {
     file: 'creamy-spinach-lemon-chicken-dinnner.webp',
-    title: 'Spinach Lemon Chicken',
+    title: 'Creamy Spinach Lemon Chicken',
     alt: 'Two golden-seared chicken cutlets on a plate in a light, creamy yogurt-lemon sauce with wilted spinach, flecked with oregano.',
   },
   'creamy-whole-wheat-mac-and-cheese': {
@@ -911,7 +911,7 @@ export const dishVisuals: Record<
   },
   'crispy-sheet-pan-gnocchi-and-veggies': {
     file: 'crispy-sheet-pan-gnocchi-and-veggies.webp',
-    title: 'Sheet Pan Gnocchi & Veggies',
+    title: 'Crispy Sheet Pan Gnocchi & Veggies',
     alt: 'A platter of golden, crisp-edged potato gnocchi roasted with blistered cherry tomatoes, chunks of mini bell pepper and red onion, finished with Parmesan and basil.',
   },
   'crispy-smashed-potatoes': {
@@ -921,7 +921,7 @@ export const dishVisuals: Record<
   },
   'crock-pot-hot-chocolate': {
     file: 'crock-pot-hot-chocolate.webp',
-    title: 'Hot Chocolate',
+    title: 'Slow-Cooker Hot Chocolate',
     alt: 'A mug filled to the top with rich, thick dark drinking chocolate, topped with a few marshmallows and shaved chocolate.',
   },
   'crockpot-mac-and-cheese': {
@@ -981,7 +981,7 @@ export const dishVisuals: Record<
   },
   'dashi-japanese-sea-stock': {
     file: 'dashi-japanese-sea-stock.webp',
-    title: 'Dashi',
+    title: 'Dashi (Japanese Sea Stock)',
     alt: 'A bowl of clear, pale golden dashi broth with a few thin slices of scallion floating on the surface.',
   },
   'doc-cheys-chicken-lo-mein': {
@@ -1116,7 +1116,7 @@ export const dishVisuals: Record<
   },
   falafel: {
     file: 'falafel.webp',
-    title: 'Falafel',
+    title: 'Green Falafel',
     alt: 'Six small round falafel with a deep golden-brown crust piled on a plate, one broken open to show a bright green herb-flecked center.',
   },
   'farfel-muffins': {
@@ -1261,7 +1261,7 @@ export const dishVisuals: Record<
   },
   'garlic-paste-toum-the-washington-post': {
     file: 'garlic-paste-toum-the-washington-post.webp',
-    title: 'Toum',
+    title: 'Toum (Lebanese Garlic Sauce)',
     alt: 'A generous swirl of fluffy, bright white whipped garlic sauce spread on a plate, with a few triangles of warm pita bread tucked alongside.',
   },
   'garlic-roasted-potatoes': {
@@ -1386,7 +1386,7 @@ export const dishVisuals: Record<
   },
   'green-smoothie-for-kids-with-2-hidden-veggies': {
     file: 'green-smoothie-for-kids-with-2-hidden-veggies.webp',
-    title: 'Green Smoothie',
+    title: 'Hidden-Veggie Green Smoothie',
     alt: 'A tall glass filled with a thick, smooth, bright green banana-mango-spinach smoothie.',
   },
   'grilled-cheese-and-tomato-soup': {
@@ -1396,7 +1396,7 @@ export const dishVisuals: Record<
   },
   'grilled-chicken-with-herbed-corn-salsa': {
     file: 'grilled-chicken-with-herbed-corn-salsa.webp',
-    title: 'Chicken with Herbed Corn Salsa',
+    title: 'Grilled Chicken with Herbed Corn Salsa',
     alt: 'Two bone-in chicken thighs with crisp golden skin, topped with bright green basil-mint sauce and golden corn kernels.',
   },
   'grilled-corn-salad-with-feta': {
@@ -1406,12 +1406,12 @@ export const dishVisuals: Record<
   },
   'grilled-pork-and-peaches': {
     file: 'grilled-pork-and-peaches.webp',
-    title: 'Pork and Peaches',
+    title: 'Grilled Pork and Peaches',
     alt: 'Several slices of grilled pork shoulder with a golden garlic-rosemary crust fanned out beside three caramelized, buttery peach halves.',
   },
   'grilled-pork-banh-mi': {
     file: 'grilled-pork-banh-mi.webp',
-    title: 'Banh Mi',
+    title: 'Grilled Pork Banh Mi',
     alt: 'Two crusty baguette sandwiches stuffed with caramelized lemongrass pork, pickled carrot and daikon, cucumber spears, sliced chilies and fresh cilantro.',
   },
   'grilled-zucchini-with-mint': {
@@ -1446,7 +1446,7 @@ export const dishVisuals: Record<
   },
   'harvest-sheet-pan-gnocchi-with-crispy-kale': {
     file: 'harvest-sheet-pan-gnocchi-with-crispy-kale.webp',
-    title: 'Harvest Sheet Pan Gnocchi with Kale',
+    title: 'Harvest Sheet Pan Gnocchi with Crispy Kale',
     alt: 'Golden roasted cauliflower gnocchi tossed with browned apple chicken sausage rounds, caramelized butternut squash cubes and crisp kale, sprinkled with Parmesan.',
   },
   'healthy-apple-muffins': {
@@ -1461,17 +1461,17 @@ export const dishVisuals: Record<
   },
   'healthy-carrot-cake-muffins-with-cream-cheese-glaze': {
     file: 'healthy-carrot-cake-muffins-with-cream-cheese-glaze.webp',
-    title: 'Carrot Cake Muffins',
+    title: 'Carrot Cake Muffins with Cream Cheese Glaze',
     alt: 'Four spiced carrot cake muffins flecked with orange carrot, each drizzled with a thin white cream cheese glaze.',
   },
   'heirloom-tomato-pesto-and-ricotta-galette': {
     file: 'heirloom-tomato-pesto-and-ricotta-galette.webp',
-    title: 'Heirloom Tomato & Pesto Galette',
+    title: 'Heirloom Tomato, Pesto & Ricotta Galette',
     alt: 'A round, rustic free-form galette with a golden pleated butter crust folded over the edges, filled with overlapping slices of red, yellow and orange heirloom tomatoes over pesto and ricotta.',
   },
   'herb-marinated-pork-tenderloins': {
     file: 'herb-marinated-pork-tenderloins.webp',
-    title: 'Herb Pork Tenderloin',
+    title: 'Herb-Marinated Pork Tenderloin',
     alt: 'Six slices of pork tenderloin with a browned herb crust and juicy, faintly pink centers, fanned out on a platter.',
   },
   'herby-chicken-meatball-bowl': {
@@ -1506,7 +1506,7 @@ export const dishVisuals: Record<
   },
   'homemade-sugar-free-ketchup': {
     file: 'homemade-sugar-free-ketchup.webp',
-    title: 'Ketchup',
+    title: 'Sugar-Free Ketchup',
     alt: 'A pile of golden oven fries with a generous pool of thick, glossy deep red homemade ketchup on the same plate.',
   },
   'honey-chipotle-lime-chicken-bowls': {
@@ -1641,7 +1641,7 @@ export const dishVisuals: Record<
   },
   'kalbi-grilled-korean-style-short-ribs': {
     file: 'kalbi-grilled-korean-style-short-ribs.webp',
-    title: 'Kalbi',
+    title: 'Kalbi (Grilled Korean-Style Short Ribs)',
     alt: 'Five thin flanken-cut short ribs, each a strip of meat with three small cross-cut bones, glossy with caramelized soy glaze and grill marks, overlapping on a platter.',
   },
   'kale-caesar-with-crispy-chickpeas': {
@@ -1686,7 +1686,7 @@ export const dishVisuals: Record<
   },
   'korean-mung-bean-sprouts-salad': {
     file: 'korean-mung-bean-sprouts-salad.webp',
-    title: 'Sukju Namul',
+    title: 'Sukju Namul (Korean Mung Bean Sprouts)',
     alt: 'A neat mound of tender mung bean sprouts glistening with sesame oil, sprinkled with sesame seeds and a little chopped scallion.',
   },
   'korean-pickled-cucumbers': {
@@ -1696,7 +1696,7 @@ export const dishVisuals: Record<
   },
   'korean-style-tacos-with-kogi-bbq-sauce': {
     file: 'korean-style-tacos-with-kogi-bbq-sauce.webp',
-    title: 'Korean Style Tacos',
+    title: 'Korean-Style Tacos with Kogi BBQ Sauce',
     alt: 'Three small corn tortillas filled with pulled pork in red gochujang kogi sauce, topped with thin cucumber pickle and sliced scallion.',
   },
   'lamb-keema-matar': {
@@ -1936,12 +1936,12 @@ export const dishVisuals: Record<
   },
   'mommas-healthy-meatloaf': {
     file: 'mommas-healthy-meatloaf.webp',
-    title: 'Momma’s Turkey and Vegetable Meatloaf',
+    title: 'Momma’s Healthy Meatloaf',
     alt: 'Three thick slices of turkey meatloaf with flecks of carrot, zucchini and pepper inside and a thin glossy ketchup glaze on top, overlapping on a plate.',
   },
   'moms-famous-chocolate-cake': {
     file: 'moms-famous-chocolate-cake.webp',
-    title: 'Chocolate Cake',
+    title: 'Mom’s Famous Chocolate Cake',
     alt: 'A neat square slice of moist dark chocolate cake with a thin, glossy layer of fudgy chocolate frosting set on top.',
   },
   'mongolian-beef': {
@@ -2041,12 +2041,12 @@ export const dishVisuals: Record<
   },
   'one-pot-chicken-quinoa-mushrooms-and-spinach': {
     file: 'one-pot-chicken-quinoa-mushrooms-and-spinach.webp',
-    title: 'One-Pot Chicken, Quinoa & Mushrooms',
+    title: 'One-Pot Chicken, Quinoa, Mushrooms & Spinach',
     alt: 'A golden browned chicken thigh on a bed of fluffy quinoa with browned sliced cremini mushrooms and wilted spinach.',
   },
   'one-pot-spicy-thai-noodles': {
     file: 'one-pot-spicy-thai-noodles.webp',
-    title: 'Spicy Thai Noodles',
+    title: 'One-Pot Spicy Thai Noodles',
     alt: 'A pile of wide, flat rice noodles tossed in a glossy soy-ginger sauce with zucchini half-moons, mushrooms, shredded carrot and egg, topped with crushed peanuts, cilantro and green onion.',
   },
   'onigiri-japanese-rice-balls': {
@@ -2056,7 +2056,7 @@ export const dishVisuals: Record<
   },
   'orange-and-paprika-pulled-pork': {
     file: 'orange-and-paprika-pulled-pork.webp',
-    title: 'Orange and Paprika Pulled Pork',
+    title: 'Slow-Cooker Orange and Paprika Pulled Pork',
     alt: 'A generous pile of tender shredded pork with paprika-red caramelized edges, glistening with orange-tinted juices.',
   },
   'oreo-chocolate-cream-cheesecake': {
@@ -2071,7 +2071,7 @@ export const dishVisuals: Record<
   },
   'pad-see-ew-thai-stir-fried-noodles': {
     file: 'pad-see-ew-thai-stir-fried-noodles.webp',
-    title: 'Pad See Ew',
+    title: 'Chicken Pad See Ew',
     alt: 'A pile of wide, flat rice noodles with dark caramelized soy edges, tossed with sliced chicken, scrambled egg and green Chinese broccoli.',
   },
   'pad-thai': {
@@ -2266,7 +2266,7 @@ export const dishVisuals: Record<
   },
   'pressure-cooker-bolognase': {
     file: 'pressure-cooker-bolognase.webp',
-    title: 'Ragù alla Bolognese',
+    title: 'Pressure-Cooker Bolognese',
     alt: 'A twirled nest of golden egg tagliatelle coated in a thick, rich, finely textured meat ragù.',
   },
   'prohibition-style-gin-lemon-fizz': {
@@ -2436,7 +2436,7 @@ export const dishVisuals: Record<
   },
   'roasted-corn-chowder-with-lime-cured-shrimp': {
     file: 'roasted-corn-chowder-with-lime-cured-shrimp.webp',
-    title: 'Corn Chowder with Lime Shrimp',
+    title: 'Roasted Corn Chowder with Lime-Cured Shrimp',
     alt: 'A bowl of creamy corn chowder with diced red-skinned potatoes and roasted corn, topped with lime-cured pink shrimp and crisp bacon bits.',
   },
   'roasted-fall-harvest-salad': {
@@ -2461,7 +2461,7 @@ export const dishVisuals: Record<
   },
   'roasted-sunchokes-with-brown-butter-cider-vinaigrette': {
     file: 'roasted-sunchokes-with-brown-butter-cider-vinaigrette.webp',
-    title: 'Sunchokes with Brown Butter Vinaigrette',
+    title: 'Roasted Sunchokes with Brown Butter-Cider Vinaigrette',
     alt: 'Golden, crisp-edged roasted sunchoke pieces with roasted garlic cloves and thyme, spooned with a glossy, nutty brown butter cider vinaigrette.',
   },
   'roasted-sweet-potatoes': {
@@ -2476,7 +2476,7 @@ export const dishVisuals: Record<
   },
   'rosemary-pork-tenderloin': {
     file: 'rosemary-pork-tenderloin.webp',
-    title: 'Pork Tenderloin',
+    title: 'Rosemary Pork Tenderloin',
     alt: 'Pork tenderloin medallions with faintly pink centers and a golden mustard and rosemary crust, with crisp bacon pieces and rosemary sprigs alongside.',
   },
   'royal-icing': {
@@ -2496,7 +2496,7 @@ export const dishVisuals: Record<
   },
   'sage-brown-butter-sauce-butternut-squash-ravioli': {
     file: 'sage-brown-butter-sauce-butternut-squash-ravioli.webp',
-    title: 'Sage Brown Butter Ravioli',
+    title: 'Butternut Squash Ravioli with Sage Brown Butter',
     alt: 'Six plump butternut squash ravioli in a silky golden brown butter cream sauce, topped with crisp fried sage leaves and grated Parmesan.',
   },
   'salsa-verde-chicken-casserole': {
@@ -2716,7 +2716,7 @@ export const dishVisuals: Record<
   },
   'silky-zucchini-soup': {
     file: 'silky-zucchini-soup.webp',
-    title: 'Zucchini Soup',
+    title: 'Silky Zucchini Soup',
     alt: 'A bowl of smooth, pale green blended zucchini soup topped with a small nest of fine raw zucchini matchsticks and a thin drizzle of olive oil.',
   },
   'simple-roast-turkey': {
@@ -2786,7 +2786,7 @@ export const dishVisuals: Record<
   },
   'slow-cooker-vegetarian-lentil-tortilla-soup': {
     file: 'slow-cooker-vegetarian-lentil-tortilla-soup.webp',
-    title: 'Slow Cooker Lentil Tortilla Soup',
+    title: 'Slow-Cooker Lentil Tortilla Soup',
     alt: 'A bowl of thick brick-red tomato and lentil soup with black and pinto beans, topped with a pile of crisp tortilla strips, diced avocado and cilantro.',
   },
   'smash-burgers': {
@@ -2806,7 +2806,7 @@ export const dishVisuals: Record<
   },
   'smoky-spanish-rice-and-chickpeas': {
     file: 'smoky-spanish-rice-and-chickpeas.webp',
-    title: 'Spanish Rice and Chickpeas',
+    title: 'Smoky Spanish Rice and Chickpeas',
     alt: 'A bowl of tender red-orange paprika and tomato rice studded with golden chickpeas and soft diced tomato, topped with chopped parsley.',
   },
   snickerdoodles: {
@@ -2816,7 +2816,7 @@ export const dishVisuals: Record<
   },
   'soba-noodles-with-shiitakes-broccoli-and-tofu': {
     file: 'soba-noodles-with-shiitakes-broccoli-and-tofu.webp',
-    title: 'Soba Noodles with Shiitakes & Tofu',
+    title: 'Soba Noodles with Shiitakes, Broccoli & Tofu',
     alt: 'A tangle of gray-brown buckwheat soba noodles in a light ginger-soy sauce, topped with golden cubes of tofu, sliced shiitake mushrooms and bright green baby broccoli.',
   },
   'soft-batch-chocolate-chip-cookies': {
@@ -2866,12 +2866,12 @@ export const dishVisuals: Record<
   },
   'spatchcocked-roast-chicken': {
     file: 'spatchcocked-roast-chicken.webp',
-    title: 'Spatchcocked Roast Chicken (The Best Method)',
+    title: 'Spatchcocked Roast Chicken',
     alt: 'A whole flattened roast chicken lying breast side up, legs splayed, with crisp deep golden, herb-flecked skin.',
   },
   'spiced-butternut-squash-puree': {
     file: 'spiced-butternut-squash-puree.webp',
-    title: 'Butternut Squash Purée',
+    title: 'Spiced Butternut Squash Purée',
     alt: 'A generous swirled mound of smooth, bright orange butternut squash purée with a small pool of melting butter in the center and a dusting of grated nutmeg.',
   },
   'spiced-coconut-chicken-rice': {
@@ -2926,7 +2926,7 @@ export const dishVisuals: Record<
   },
   'steamed-mussels-chorizo': {
     file: 'steamed-mussels-chorizo.webp',
-    title: 'Mussels with Chorizo Broth',
+    title: 'Steamed Mussels with Tomato-Chorizo Broth',
     alt: 'A wide bowl piled with open black-shelled mussels in a golden wine broth with soft halved cherry tomatoes and slices of red chorizo, with a slice of toasted country bread tucked at the edge.',
   },
   'steamed-noodles-with-green-beans': {
@@ -3036,7 +3036,7 @@ export const dishVisuals: Record<
   },
   'sweet-and-spicy-spareribs-with-korean-barbecue-sauce': {
     file: 'sweet-and-spicy-spareribs-with-korean-barbecue-sauce.webp',
-    title: 'Sweet and Spicy Spareribs',
+    title: 'Sweet and Spicy Korean Barbecue Spareribs',
     alt: 'A stack of five individual pork spareribs lacquered in a sticky, glossy deep red gochujang-honey glaze, with lime wedges at the side.',
   },
   'sweet-and-white-potato-gratin': {
@@ -3056,7 +3056,7 @@ export const dishVisuals: Record<
   },
   'sweet-potato-latkes': {
     file: 'sweet-potato-latkes.webp',
-    title: 'Potato Latkes',
+    title: 'Sweet Potato Latkes',
     alt: 'Four crisp golden-orange sweet potato pancakes fanned in an overlapping row, lacy edges visible, with a spoonful of applesauce at the side.',
   },
   'sweet-potato-sausage-breakfast-casserole': {
@@ -3066,12 +3066,12 @@ export const dishVisuals: Record<
   },
   'sweet-spinach-muffins': {
     file: 'sweet-spinach-muffins.webp',
-    title: 'Spinach Muffins',
+    title: 'Sweet Spinach Muffins',
     alt: 'Four domed, bright green spinach and banana muffins, one broken open to show a soft, moist green crumb.',
   },
   'szechuan-eggplant-and-tofu': {
     file: 'szechuan-eggplant-and-tofu.webp',
-    title: 'Chili-Garlic Eggplant and Tofu',
+    title: 'Sichuan-Style Eggplant and Tofu',
     alt: 'Cubes of roasted eggplant and golden crisp-edged tofu in a glossy, red-brown sweet-sour chili-garlic sauce, scattered with sesame seeds and fresh herbs.',
   },
   tacos: {
@@ -3116,7 +3116,7 @@ export const dishVisuals: Record<
   },
   'thai-chicken-curry': {
     file: 'thai-chicken-curry.webp',
-    title: 'Thai Red Chicken Curry',
+    title: 'Thai Chicken Curry',
     alt: 'A shallow bowl of creamy orange-red coconut curry with tender sliced chicken thigh, strips of red bell pepper and pale bamboo shoots, a sheen of red oil on the surface.',
   },
   'thai-inspired-chicken-meatball-soup': {
@@ -3236,12 +3236,12 @@ export const dishVisuals: Record<
   },
   'vegetable-muffin': {
     file: 'vegetable-muffin.webp',
-    title: 'Vegetable Green Muffins',
+    title: 'Chocolate Vegetable Muffins',
     alt: 'Four domed, dark cocoa-brown muffins without liners, one broken in half to show a moist crumb flecked with green spinach and orange carrot.',
   },
   'vietnamese-grilled-chicken': {
     file: 'vietnamese-grilled-chicken.webp',
-    title: 'Vietnamese-Inspired Lemongrass Chicken',
+    title: 'Vietnamese Grilled Lemongrass Chicken',
     alt: 'Two flattened grilled chicken thighs, one sliced into strips, with glossy caramelized char marks, scattered with chopped herbs, a lime wedge on the side.',
   },
   'vietnamese-spring-rolls': {
@@ -3316,12 +3316,12 @@ export const dishVisuals: Record<
   },
   'zucchini-herb-fritters-with-garlic-yogurt': {
     file: 'zucchini-herb-fritters-with-garlic-yogurt.webp',
-    title: 'Zucchini Herb Fritters',
+    title: 'Zucchini Herb Fritters with Garlic Yogurt',
     alt: 'Four golden, crisp-edged zucchini and potato fritters stacked slightly overlapping, with a spoonful of mint garlic yogurt on top.',
   },
   'zucchini-noodles-with-avocado-pesto-and-shrimp': {
     file: 'zucchini-noodles-with-avocado-pesto-and-shrimp.webp',
-    title: 'Zucchini Noodles with Avocado & Shrimp',
+    title: 'Zucchini Noodles with Avocado Pesto & Shrimp',
     alt: 'A twirled nest of bright green zucchini noodles coated in creamy pale green avocado pesto, topped with six seared pink shrimp and a few chopped pistachios.',
   },
   'zuppa-toscana': {
