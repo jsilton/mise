@@ -1,6 +1,7 @@
 ---
 miseId: 1ef39fcb-b870-4cc4-818a-5cf22bc5b984
 title: Candy-Coated Chocolate Cookies
+description: 'Shortening-based sugar cookies with brown sugar and vanilla, studded with milk chocolate candy-coated chocolates.'
 difficulty: easy
 cookingMethods:
   - bake

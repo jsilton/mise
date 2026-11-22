@@ -1,6 +1,7 @@
 ---
 miseId: 104be817-c462-4c19-933a-d8e8f1b9e614
 title: Key Lime Pie Ice Cream
+description: 'Churned ice cream from sweetened condensed milk, Key lime juice and zest, swirled with crushed graham crackers.'
 difficulty: easy
 cookingMethods:
   - mix

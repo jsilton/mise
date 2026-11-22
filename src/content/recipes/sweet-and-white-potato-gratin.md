@@ -1,9 +1,10 @@
 ---
 miseId: 3f793da4-8027-4ebb-97b3-30bdf0eee5cf
 title: Sweet and White Potato Gratin
+description: 'Thin layers of sweet and white potatoes baked in garlic and herb cream under a generous topping of Gruyère and Parmigiano-Reggiano.'
 aliases:
   - sweet-and-white-potato-gratin-the-thanksgiving-splurge
-difficulty: easy
+difficulty: intermediate
 cookingMethods:
   - bake
 dietary:
@@ -69,7 +70,7 @@ Kaitlin Gwock's Thanksgiving splurge: layers of sweet potatoes and white potatoe
 2. **Season the cream:** In a large bowl, whisk the cream, salt, pepper, garlic, chopped thyme, sage, rosemary, nutmeg and cayenne.
 3. **Mix the cheeses:** In a separate bowl, toss the Gruyère and Parmigiano together.
 4. **Slice the potatoes:** Carefully slice the peeled potatoes into thin rounds on a handheld mandoline, keeping the sweet and white potatoes apart.
-5. **Lay the first layer:** Pour a sixth of the cream into the bottom of a 9x13-inch casserole dish. Lay in a layer of sweet potatoes, overlapping them slightly. Drizzle with a quarter of the cream and sprinkle with a fifth of the cheese.
+5. **Lay the first layer:** Pour a sixth of the cream into the bottom of a 9x13-inch casserole dish. Lay in a layer of sweet potatoes, overlapping them slightly. Drizzle with a quarter of the cream and sprinkle with a scant quarter of the cheese.
 6. **Repeat the layers:** Add a layer of white potatoes with the same amount of cream and cheese, then another layer of sweet potatoes with cream and cheese.
 7. **Top the gratin:** Lay the rest of both potatoes on top in alternating colors. Sprinkle with all the remaining cheese and garnish with chopped thyme.
 8. **Bake covered:** Cover with foil and bake until the cheese is bubbly, 15 minutes.
@@ -77,6 +78,8 @@ Kaitlin Gwock's Thanksgiving splurge: layers of sweet potatoes and white potatoe
 10. **Cool and serve:** Let the gratin cool a little before serving.
 
 ## Suggested Tweak
+
+This is a family recipe, so it stays as written. If you want to try it:
 
 - Use Yukon Gold potatoes for the white potatoes. They hold their shape and taste buttery.
 - Slice the potatoes 1/8 inch thick so every layer cooks through at the same time.

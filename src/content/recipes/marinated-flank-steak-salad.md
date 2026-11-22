@@ -1,6 +1,7 @@
 ---
 miseId: 0393c18d-711f-4a3d-8d8d-fec1ebea75f0
 title: Marinated Flank Steak Salad
+description: 'Flank steak marinated in olive oil, soy sauce, Dijon and garlic, sliced over romaine and butter lettuce with toppings.'
 difficulty: easy
 role: main
 vibe: nutritious

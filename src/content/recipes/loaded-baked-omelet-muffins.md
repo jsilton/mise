@@ -1,6 +1,7 @@
 ---
 miseId: 0843c86f-49dc-45fc-b26d-16e2ab0b31d5
 title: Omelet Muffins
+description: 'Muffin-tin omelets of eggs with bacon, sharp cheddar, spinach, tomato, onion and bell pepper.'
 difficulty: easy
 cookingMethods:
   - bake

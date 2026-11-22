@@ -1,6 +1,7 @@
 ---
 miseId: 6ee862d8-1fac-4617-a5ab-03149eaf3a1f
 title: Queso Fundido with Chorizo
+description: 'Melted Oaxaca and pepper Jack cheeses with Mexican chorizo and poblano peppers, served with warm flour tortillas.'
 difficulty: easy
 cookingMethods:
   - bake

@@ -1,6 +1,7 @@
 ---
 miseId: 126829e7-d8bf-4226-a0fa-d75f80aa29df
 title: Super Lemony Olive Oil Cake
+description: 'Moist cake made with extra-virgin olive oil, milk, and the zest and juice of two lemons, dusted with powdered sugar.'
 difficulty: easy
 cookingMethods:
   - bake

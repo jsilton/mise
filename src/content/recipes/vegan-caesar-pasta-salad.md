@@ -1,6 +1,7 @@
 ---
 miseId: 771f0e36-af74-41c0-9dc6-53193334456f
 title: Vegan Caesar Pasta Salad
+description: 'Pasta salad in a tahini, lemon and nutritional yeast Caesar dressing with capers and crispy chickpeas.'
 difficulty: easy
 cookingMethods:
   - roast

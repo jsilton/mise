@@ -1,6 +1,7 @@
 ---
 miseId: e67b64af-dec4-445c-89b6-0584306582ff
 title: Thai Basil-Ginger Spritzer
+description: 'Sparkling drink of Prosecco and a chilled ginger, Thai basil and makrut lime leaf syrup, garnished with basil and lime.'
 difficulty: easy
 cookingMethods:
   - boil

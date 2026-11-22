@@ -1,6 +1,7 @@
 ---
 miseId: 13b1c33d-e6dd-492a-ab73-8eac6c1b3281
 title: Spaghetti Carbonara
+description: 'Spaghetti or rigatoni coated in a sauce of crisp guanciale, whole eggs, egg yolks, Pecorino Romano and black pepper.'
 difficulty: intermediate
 cookingMethods:
   - saute

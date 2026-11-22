@@ -1,6 +1,7 @@
 ---
 miseId: 2b53dc31-ab3f-4ddb-8d87-2cee5d27df25
 title: Sugar Cookies
+description: 'Classic cutout sugar cookies made with butter, sugar, eggs and vanilla, with crisp edges and a tender middle.'
 difficulty: easy
 cookingMethods:
   - bake

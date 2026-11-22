@@ -1,6 +1,7 @@
 ---
 miseId: 69b3ea96-eff6-40a6-9718-8c7bf01768ec
 title: Spinach Gnocchi
+description: 'Whole-wheat gnocchi made from ricotta, Parmesan, egg and thawed frozen spinach, served with marinara.'
 difficulty: easy
 cookingMethods:
   - boil

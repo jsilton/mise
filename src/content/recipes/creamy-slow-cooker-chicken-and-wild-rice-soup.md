@@ -1,6 +1,7 @@
 ---
 miseId: 705cbe0e-3b7a-4368-854c-b5d4ec48cfbe
 title: Creamy Slow-Cooker Chicken and Wild Rice Soup
+description: 'Slow-cooked chicken breasts, wild rice, carrots, celery and onion in a creamy broth seasoned with thyme, rosemary and bay.'
 role: main
 vibe: comfort
 difficulty: easy

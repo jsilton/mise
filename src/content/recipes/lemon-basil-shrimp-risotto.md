@@ -1,6 +1,7 @@
 ---
 miseId: 9831789d-b00f-4c4b-a28f-75a4be34978c
 title: Lemon Basil Shrimp Risotto
+description: 'Arborio rice risotto with white wine and hot broth, topped with butter-seared jumbo shrimp, lemon and fresh basil.'
 difficulty: intermediate
 cookingMethods:
   - saute

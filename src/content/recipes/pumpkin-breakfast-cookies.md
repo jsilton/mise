@@ -1,6 +1,7 @@
 ---
 miseId: 1f121085-db85-4c90-8d39-767ba2992650
 title: Pumpkin Breakfast Cookies
+description: 'Oat cookies made with pumpkin puree, honey, coconut oil, flaxseed, dried cranberries and pepitas.'
 difficulty: easy
 cookingMethods:
   - bake

@@ -1,6 +1,7 @@
 ---
 miseId: 6893f2bd-2dd7-4b51-a6ee-c903794fb763
 title: New England Express
+description: 'Punch of unfiltered apple cider, dark rum, lime juice and Angostura bitters with thyme syrup, topped with club soda.'
 difficulty: easy
 cookingMethods:
   - boil

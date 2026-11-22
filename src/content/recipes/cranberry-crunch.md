@@ -1,6 +1,7 @@
 ---
 miseId: 1af972bb-1bbb-4ae2-9689-2f89d95d54f2
 title: Cranberry Crunch
+description: 'Sliced apples and cranberries baked under a buttery oat, brown sugar and pecan topping.'
 difficulty: easy
 cookingMethods:
   - bake

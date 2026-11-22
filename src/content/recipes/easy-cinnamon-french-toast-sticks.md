@@ -1,6 +1,7 @@
 ---
 miseId: d5472908-6fe9-4c76-925c-ee0a2a42e2a7
 title: Cinnamon French Toast Sticks
+description: 'Thick slices of Texas toast cut into sticks, soaked in a cinnamon and vanilla custard and pan-fried in butter.'
 difficulty: easy
 cookingMethods:
   - pan-fry

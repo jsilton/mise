@@ -1,6 +1,9 @@
 ---
 miseId: bf7b532e-40c2-4925-882e-8ac82dc4b906
 title: Noodle Pudding
+description: >-
+  Baked sweet kugel of egg noodles, sour cream, cream cheese, cottage cheese, eggs, cinnamon and
+  golden raisins with a crisp topping.
 difficulty: easy
 cookingMethods:
   - bake
@@ -23,7 +26,7 @@ servings: 12 portions
 ingredients:
   - '--- Noodle pudding ---'
   - 'water, for boiling'
-  - 16 oz medium-width egg noodles
+  - "16 oz medium-width egg noodles, such as Goodman's or Mueller's"
   - 12 oz (3 sticks) butter
   - 16 oz sour cream
   - '8 oz block cream cheese, at room temperature'
@@ -73,6 +76,7 @@ formula:
           quantity:
             amount: 16
             unit: oz
+          preparation: such as Goodman's or Mueller's
           uses:
             - step: noodles
               share: 1
@@ -192,7 +196,7 @@ formula:
         pan with a little of it.
     - id: topping
       title: Make the topping
-      text: 'In a separate bowl, crush {{ingredients}} together.'
+      text: 'In a separate bowl, mix {{ingredients}}, crushing the corn flakes with your hands as you go.'
     - id: fill
       title: Fill the pan
       text: Spread the noodle mixture in the buttered pan.
@@ -216,16 +220,19 @@ Mary Later's noodle pudding is a sweet kugel. Egg noodles bake in a rich custard
 4. **Melt the butter:** Melt the butter in a small pan over low heat.
 5. **Mix the pudding:** Put the noodles in a large bowl. Add 1/2 of the butter, sour cream, block cream cheese, large-curd cottage cheese, large eggs, sugar, cinnamon, and golden raisins and mix very well.
 6. **Butter the pan:** Set aside 1/2 of the butter for the pan and topping. Brush the bottom and sides of a 9×12-inch pan with a little of it.
-7. **Make the topping:** In a separate bowl, crush corn flakes and brown sugar together.
+7. **Make the topping:** In a separate bowl, mix corn flakes and brown sugar, crushing the corn flakes with your hands as you go.
 8. **Fill the pan:** Spread the noodle mixture in the buttered pan.
 9. **Add the topping:** Cover with the corn flake mixture and drizzle the rest of the butter over the top.
 10. **Bake:** Bake for 1 hour, until golden on top.
 
 ## Suggested Tweak
 
+This is a family recipe, so it stays as written. If you want to try it:
+
 - Add 1/2 tsp kosher salt and 2 tsp vanilla extract to the custard so the sugar and dairy taste fuller.
 - Use 8 oz butter instead of 12 oz, with three quarters in the custard and the rest on the topping.
 - Measure the rest: 1 1/2 tsp ground cinnamon, 2 cups coarsely crushed corn flakes, 1/2 cup packed light brown sugar and 1/4 cup golden raisins.
+- For a half-raisin, half-plain pudding, fold the raisins into half the noodle mixture only and spoon the two halves side by side in the pan.
 - Salt the noodle water, cook the noodles just to al dente and let them cool until warm, not steaming, so they don't set the eggs.
 - Beat the soft cream cheese with a little of the sour cream until smooth before adding everything else, so there are no lumps.
 - Bake at 325°F for 65 to 80 minutes, until the edges are set and the center has only a slight wobble. Tent with foil if the top browns early, then rest 15 minutes before cutting.

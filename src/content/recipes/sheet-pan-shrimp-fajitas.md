@@ -1,6 +1,7 @@
 ---
 miseId: 288e4ef0-8001-4864-9c9b-8c89003ee9a3
 title: Sheet Pan Shrimp Fajitas
+description: 'Jumbo shrimp roasted with bell peppers and red onion in chili, cumin and smoked paprika, served in corn tortillas with lime.'
 role: main
 vibe: quick
 difficulty: easy

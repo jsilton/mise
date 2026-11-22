@@ -1,6 +1,7 @@
 ---
 miseId: e3775884-d938-4d38-ac88-835deac9e44e
 title: Elderberry Syrup
+description: 'A dark, tart syrup of dried black elderberries simmered with ginger, cinnamon and cloves, then sweetened with raw honey.'
 difficulty: easy
 cookingMethods:
   - boil

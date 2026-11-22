@@ -1,6 +1,7 @@
 ---
 miseId: 669c23da-b5f4-466e-8369-a6ccc0bd2590
 title: Garlicky Lemon Kale with Carrots
+description: 'Thin carrot coins and kale cooked in garlic and olive oil, steamed until tender and finished with lemon juice.'
 difficulty: easy
 cookingMethods:
   - saute

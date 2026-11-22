@@ -1,6 +1,9 @@
 ---
 miseId: 6539198c-856f-40d3-b1e9-99eb0df02f55
 title: Snickerdoodles
+description: >-
+  Family cookie of butter or margarine dough with cream of tartar, rolled in cinnamon sugar before
+  baking.
 aliases:
   - snickerdoodles-the-tangy-classic
 difficulty: easy
@@ -29,7 +32,7 @@ ingredients:
   - '1 cup (2 sticks) margarine or butter, softened'
   - 1 1/2 cups sugar
   - 2 large eggs
-  - 2 3/4 cups all-purpose flour
+  - 2 3/4 cups pre-sifted all-purpose flour
   - 2 tsp cream of tartar
   - 1 tsp baking soda
   - 1/2 tsp salt
@@ -91,7 +94,7 @@ formula:
           plural: large eggs
         - id: flour
           key: flour
-          name: all-purpose flour
+          name: pre-sifted all-purpose flour
           quantity:
             amount: 2 3/4
             unit: cup
@@ -190,7 +193,7 @@ Mimi's snickerdoodles are the classic cinnamon-sugar cookie, with the gentle tan
 ## Directions
 
 1. **Mix the dough:** Beat margarine or butter, sugar, and large eggs in a large bowl until smooth and light.
-2. **Add the flour:** Add all-purpose flour, cream of tartar, baking soda, and salt and stir just until no dry flour remains.
+2. **Add the flour:** Add pre-sifted all-purpose flour, cream of tartar, baking soda, and salt and stir just until no dry flour remains.
 3. **Chill:** Cover the bowl and refrigerate until the dough is firm enough to roll, about 30 minutes.
 4. **Make the topping:** Heat the oven to 400°F. Mix sugar and ground cinnamon in a shallow bowl.
 5. **Shape the cookies:** Roll the dough into walnut-size balls and roll each ball in the cinnamon sugar. Set them 2 inches apart on baking sheets to leave room for spreading.

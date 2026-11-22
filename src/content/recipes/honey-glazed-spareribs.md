@@ -1,6 +1,7 @@
 ---
 miseId: 7b25fafe-42e3-465c-9be4-468b909ed162
 title: Honey-Glazed Spareribs
+description: 'Pork spareribs glazed with hoisin, soy sauce, molasses, fresh ginger, garlic, sambal oelek and honey.'
 aliases:
   - honey-glazed-spareribs-the-bbq-shortcut
 difficulty: easy

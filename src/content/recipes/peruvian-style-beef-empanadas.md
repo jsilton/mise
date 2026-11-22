@@ -293,13 +293,15 @@ formula:
     - id: oven
       title: Heat the oven
       text: >-
-        While the filling chills, heat the oven to 400°F with a rack in the middle. Line a large
+        While the filling chills, heat the oven to 400°F with a rack in the middle. If the disc
+        package gives a different temperature or baking time, follow the package. Line a large
         rimmed baking sheet with parchment.
     - id: fill
       title: Fill the discs
       text: >-
-        Lay out {{ingredients}} and divide the cooled filling evenly among them, leaving a clean
-        1/2-inch border.
+        Lay out {{ingredients}}. Spoon 1 1/2 tablespoons of the cooled filling onto each disc,
+        adding a little more, up to 2 tablespoons, only if the disc still closes easily. Leave a
+        clean 1/2-inch border. Refrigerate any extra filling.
     - id: seal
       title: Seal the empanadas
       text: >-
@@ -378,13 +380,15 @@ These baked beef empanadas are a family recipe, a mild take on the savory pastri
 4. **Cook the tomato paste:** Stir in tomato paste and cook until it darkens slightly and coats the vegetables, about 1 minute.
 5. **Finish the filling:** Return the beef to the pan and add unsalted beef broth, fine salt, and ground black pepper, starting with the smaller amount of broth. Turn the heat to medium, scrape up the browned bits and stir for 1 to 2 minutes. Add the rest of the broth only if it looks dry. The filling is ready when it is moist and holds together with no liquid pooling in the pan.
 6. **Season and chill:** Taste and add more fine salt if it needs it. Spread the filling in a thin layer in a shallow dish and refrigerate until cool, 20 to 30 minutes.
-7. **Heat the oven:** While the filling chills, heat the oven to 400°F with a rack in the middle. Line a large rimmed baking sheet with parchment.
-8. **Fill the discs:** Lay out 5-inch empanada discs for baking and divide the cooled filling evenly among them, leaving a clean 1/2-inch border.
+7. **Heat the oven:** While the filling chills, heat the oven to 400°F with a rack in the middle. If the disc package gives a different temperature or baking time, follow the package. Line a large rimmed baking sheet with parchment.
+8. **Fill the discs:** Lay out 5-inch empanada discs for baking. Spoon 1 1/2 tablespoons of the cooled filling onto each disc, adding a little more, up to 2 tablespoons, only if the disc still closes easily. Leave a clean 1/2-inch border. Refrigerate any extra filling.
 9. **Seal the empanadas:** Brush the border with water. Fold each disc over the filling, press out the air and crimp the edge firmly with a fork. Set them 1 inch apart on the sheet. If the pastry gets soft, chill the tray for 10 minutes.
 10. **Glaze and vent:** For a shiny crust, beat large egg (if using) and water (if using) together and brush a thin layer over the tops. Cut a small slit in the top of each empanada.
 11. **Bake:** Bake until the pastry is golden on top and underneath, 20 to 25 minutes, turning the tray halfway through.
 12. **Rest and serve:** Let the empanadas rest on a wire rack for 10 minutes. Serve with lime and powdered sugar (if using). Squeeze lime over each bite and dust lightly with sugar.
 
 ## Suggested Tweak
+
+This is a family recipe, so it stays as written. If you want to try it:
 
 For a more Peruvian filling, stir in 1 tbsp ají panca paste with the tomato paste. Ancho chile powder works in its place. Traditional fillings also tuck a piece of hard-boiled egg, a black botija olive (or a kalamata) and a raisin into each empanada.

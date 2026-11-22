@@ -1,6 +1,7 @@
 ---
 miseId: 9ef76adc-07ea-4811-9c49-60d2dd38651a
 title: Strawberry Rhubarb Yogurt Pops
+description: 'Frozen pops of minced strawberries and rhubarb simmered in orange juice, swirled with Greek yogurt and orange blossom honey.'
 difficulty: easy
 cookingMethods:
   - simmer

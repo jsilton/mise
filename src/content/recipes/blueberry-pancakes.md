@@ -1,6 +1,7 @@
 ---
 miseId: 6d38311f-fb44-4d7b-88c5-b52153cb0440
 title: Blueberry Pancakes
+description: 'Pancakes made with milk, honey and vanilla, folded with fresh blueberries and served with butter and maple syrup.'
 difficulty: easy
 cookingMethods:
   - griddle

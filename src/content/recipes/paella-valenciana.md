@@ -1,6 +1,7 @@
 ---
 miseId: 0ac68da4-5c8b-48cd-9262-e199c6a51424
 title: Paella Valenciana
+description: 'A traditional Valencian paella of browned chicken and rabbit, flat green beans, garrofó beans and tomato, with saffron rice.'
 origin: 'Valencia, Spain'
 role: main
 vibe: technical

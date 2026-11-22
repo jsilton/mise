@@ -1,6 +1,7 @@
 ---
 miseId: 52d9a5db-f9f7-47fa-aa98-6088b02f4ef2
 title: Broccoli all'Agro
+description: 'Tender broccoli florets dressed with olive oil, lemon zest and juice, and a little grated garlic in the Italian style.'
 role: side
 vibe: quick
 difficulty: easy

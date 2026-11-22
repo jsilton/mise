@@ -1,6 +1,7 @@
 ---
 miseId: 0dba902f-9765-48fc-8a1b-d3d66fea7bce
 title: Shumai
+description: 'Open-topped Cantonese dumplings of juicy ground pork, shrimp, water chestnuts and shiitake mushrooms in thin wrappers, with chili oil for serving.'
 origin: China
 difficulty: intermediate
 cookingMethods:

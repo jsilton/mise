@@ -1,6 +1,7 @@
 ---
 miseId: c9ce5817-578e-405d-aec1-73c477b384ea
 title: Banana Pancakes
+description: 'Buttermilk pancakes with mashed ripe banana folded into the batter, flavored with cinnamon and vanilla.'
 origin: United States
 difficulty: easy
 cookingMethods:

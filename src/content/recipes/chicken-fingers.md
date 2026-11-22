@@ -30,14 +30,14 @@ pairsWith:
   - stovetop-macaroni-and-cheese
   - steamed-broccoli
 pairingNotes:
-  stovetop-macaroni-and-cheese: The kids' favorite plate.
+  stovetop-macaroni-and-cheese: A classic kid-friendly plate.
   steamed-broccoli: A plain green vegetable alongside.
 ingredients:
   - '2 tsp butter, melted'
   - 'Ritz crackers, crushed'
   - 1–1 1/2 chicken strips
 origin: United States
-source: Adapted from Lisa Gwock
+source: From Lisa Gwock
 equipment:
   - rimmed-sheet-pan
   - instant-read-thermometer
@@ -109,7 +109,7 @@ learning:
 
 ## Chef's Note
 
-These are Lisa Gwock's chicken fingers, a quick family dinner the kids love. The strips get a coat of melted butter and a shake in a bag of crushed Ritz crackers, so they bake up golden, buttery and a little salty with almost no cleanup.
+These are Lisa Gwock's chicken fingers. The strips get a coat of melted butter and a shake in a bag of crushed Ritz crackers, so they bake up golden, buttery and a little salty.
 
 ## Directions
 
@@ -119,4 +119,7 @@ These are Lisa Gwock's chicken fingers, a quick family dinner the kids love. The
 
 ## Suggested Tweak
 
-This is a family recipe, so it stays as written. For a crisper, lighter crust, try the panko version. For 1 lb of chicken strips, set out three shallow dishes: 1/2 cup flour seasoned with 3/4 tsp kosher salt and black pepper, 2 large eggs beaten with 1 tbsp water, and 1 1/2 cups panko mixed with 1/2 cup grated Parmesan, 1 tsp garlic powder and 1 tsp dried oregano. Toast the panko in 2 tbsp olive oil or melted butter in a skillet until light golden before you mix in the Parmesan. Dip each strip in flour, egg and then crumbs, lay them on an oiled wire rack set on a sheet pan and spray the tops with cooking spray. Bake at 425°F until golden and 165°F in the center, 12 to 15 minutes, with no need to flip. Serve with lemon wedges or a dipping sauce. With the Ritz version, thin strips can be done sooner, so turn them at 8 minutes and start checking for 165°F at 15 minutes.
+This is a family recipe, so it stays as written. If you want to try it:
+
+- With thin strips, turn them at 8 minutes and start checking for 165°F at 15 minutes.
+- For a crisper, lighter crust, make a panko version. For 1 lb of chicken strips, set out three shallow dishes: 1/2 cup flour seasoned with 3/4 tsp kosher salt and black pepper, 2 large eggs beaten with 1 tbsp water, and 1 1/2 cups panko mixed with 1/2 cup grated Parmesan, 1 tsp garlic powder and 1 tsp dried oregano. Toast the panko in 2 tbsp olive oil or melted butter in a skillet until light golden before you mix in the Parmesan. Dip each strip in flour, egg and then crumbs. Lay them on an oiled wire rack set on a sheet pan and spray the tops with cooking spray. Bake at 425°F until golden and 165°F in the center, 12 to 15 minutes, with no need to flip. Serve them with lemon wedges or a dipping sauce.

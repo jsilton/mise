@@ -1,6 +1,7 @@
 ---
 miseId: 288bd72f-73f5-48aa-9dc0-f8ce054dfc92
 title: Shakshuka
+description: 'Eggs poached in a spiced tomato sauce of onion, red bell pepper, garlic, cumin, smoked paprika and cayenne.'
 difficulty: easy
 cookingMethods:
   - saute

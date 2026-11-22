@@ -1,6 +1,7 @@
 ---
 miseId: 8805d651-6a0d-4131-b224-cc5653a95616
 title: Classic Wonton Soup
+description: 'Pork and ginger wontons simmered in Cantonese wonton broth with baby bok choy and a drizzle of sesame oil.'
 difficulty: easy
 cookingMethods:
   - boil

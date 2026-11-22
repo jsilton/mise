@@ -1,6 +1,7 @@
 ---
 miseId: 3aa1eb07-6f15-4f3b-b648-5a32c2155f62
 title: Soft Batch Chocolate Chip Cookies
+description: 'Thick, soft bakery-style cookies made with plenty of brown sugar and loaded with semisweet chocolate chips.'
 difficulty: intermediate
 cookingMethods:
   - bake

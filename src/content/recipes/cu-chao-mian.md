@@ -1,6 +1,7 @@
 ---
 miseId: 61213c23-52f5-43c8-8efe-8c34d03e2dd5
 title: Cu Chao Mian (Shanghai Fried Noodles)
+description: 'Shanghai-style thick wheat noodles stir-fried with marinated pork, shiitake mushrooms and baby bok choy in dark and light soy sauce.'
 origin: China
 difficulty: easy
 cookingMethods:

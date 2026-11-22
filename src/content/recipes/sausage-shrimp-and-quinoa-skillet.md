@@ -1,6 +1,7 @@
 ---
 miseId: 3a71959a-2aab-4b2a-8500-7dac5c2e4981
 title: 'Sausage, Shrimp & Quinoa Skillet'
+description: 'Skillet of spicy chicken sausage, shrimp and quinoa with onion, bell pepper and celery, seasoned with Creole spices and lemon.'
 difficulty: easy
 cookingMethods:
   - fry

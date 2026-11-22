@@ -1,6 +1,7 @@
 ---
 miseId: 21134b02-d4df-4bcf-9a61-f20cd0bf7514
 title: Cream of Mushroom Soup
+description: 'A velvety soup of browned cremini and shiitake mushrooms, shallot, garlic and thyme in stock and heavy cream, finished with dry sherry.'
 difficulty: easy
 cookingMethods:
   - saute

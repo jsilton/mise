@@ -1,6 +1,7 @@
 ---
 miseId: 307a9571-62cc-4347-a52f-ec7619daaf14
 title: Strawberry Cheesecake Overnight Oats
+description: 'Overnight oats with Greek yogurt, cream cheese, chopped strawberries, chia seeds, lemon and maple syrup.'
 difficulty: easy
 cookingMethods:
   - no-cook

@@ -1,6 +1,7 @@
 ---
 miseId: fbc3737d-86d5-4e38-bdeb-8bce09fd4c98
 title: Cast-Iron Buttermilk Biscuits
+description: 'Tall, flaky buttermilk biscuits made with cold butter and baked snugly together in a cast-iron skillet.'
 role: side
 vibe: comfort
 difficulty: easy

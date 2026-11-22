@@ -1,6 +1,7 @@
 ---
 miseId: 1e732dec-2ad3-4a1b-bff8-32a40e1034c7
 title: Shrimp with Black Bean Sauce
+description: 'Stir-fried shrimp and ground pork in a savory sauce of fermented black beans, garlic, ginger, green bell pepper and Shaoxing wine.'
 difficulty: easy
 cookingMethods:
   - fry

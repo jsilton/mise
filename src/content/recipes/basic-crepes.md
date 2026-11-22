@@ -1,6 +1,7 @@
 ---
 miseId: 51d1702e-3fb8-41ee-a8cd-735884511cc5
 title: Basic Crêpes
+description: 'Thin French pancakes made from a rested batter of eggs, milk, flour and melted butter, for sweet or savory fillings.'
 role: base
 vibe: technical
 difficulty: easy

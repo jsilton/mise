@@ -1,6 +1,7 @@
 ---
 miseId: 34acc8b6-9d54-40a1-ab5a-10b6bc6f2509
 title: Chinese Sausage Fried Rice
+description: 'Day-old jasmine rice stir-fried with sliced lap cheong, scrambled egg, peas, green onions and a soy and oyster sauce.'
 difficulty: easy
 cookingMethods:
   - fry

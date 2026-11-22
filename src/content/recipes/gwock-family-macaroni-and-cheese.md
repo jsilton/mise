@@ -1,6 +1,7 @@
 ---
 miseId: a299d6dd-aec8-47b6-b07c-1a3bf8020c7e
 title: Gwock Family Macaroni and Cheese
+description: 'Family macaroni and cheese baked in a dish with chunks of cheese, eggs and milk into a soft, custardy bake.'
 role: main
 vibe: comfort
 difficulty: easy
@@ -56,10 +57,15 @@ This is the Gwock family's macaroni and cheese. There is no flour sauce. Chunks 
 1. **Heat the oven:** Heat the oven to 475°F.
 2. **Boil the macaroni:** Boil the macaroni in salted water for 10 minutes, then drain.
 3. **Add the cheese and margarine:** Put the macaroni in a 9-inch square baking dish. Scatter the cheese and margarine over it.
-4. **Add the eggs:** Beat the eggs with the salt and pour them over the macaroni. Stir gently to mix.
+4. **Add the eggs:** Beat the eggs with the salt and pour them over the macaroni.
 5. **Add the milk:** Pour in milk until the macaroni is almost completely covered.
 6. **Bake:** Bake until the top is browned and the center is set, 20 to 25 minutes. Let it stand 5 minutes before serving.
 
 ## Suggested Tweak
 
-Let the drained macaroni cool for a few minutes before the eggs go in, so they mix in smoothly instead of setting on the hot pasta. A medium Cheddar is a good choice for the cheese, and unsalted butter in place of the margarine gives a richer flavor.
+This is a family recipe, so it stays as written. If you want to try it:
+
+- Let the drained macaroni cool for a few minutes before the eggs go in, so they don't set on the hot pasta.
+- Stir gently once the eggs are in, so they coat the macaroni evenly.
+- Use a medium Cheddar for the cheese.
+- Use unsalted butter in place of the margarine for a richer flavor.

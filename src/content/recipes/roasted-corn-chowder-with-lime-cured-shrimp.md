@@ -1,6 +1,7 @@
 ---
 miseId: 0e6b2821-d078-4aa1-acd0-347f87bbf98b
 title: Corn Chowder with Lime Shrimp
+description: 'Smoky chowder of roasted corn, bacon, red onion, Red Bliss potatoes and chicken stock, topped with lime-cured shrimp.'
 difficulty: easy
 cookingMethods:
   - roast

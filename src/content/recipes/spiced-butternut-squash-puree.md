@@ -1,6 +1,9 @@
 ---
 miseId: bc32eaf6-bf01-425b-9c1f-55a9f9ce247f
 title: Spiced Butternut Squash Purée
+description: >-
+  Butternut squash boiled and coarsely mashed with butter, maple syrup, a little sugar and freshly
+  grated nutmeg.
 prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
@@ -157,7 +160,7 @@ formula:
 
 ## Chef's Note
 
-This is the Silton family's Thanksgiving squash, boiled, mashed by hand and left a little coarse. Butter, maple syrup and a little sugar make it sweet and rich, and nutmeg and black pepper keep it from tasting like pie.
+This is the Silton family's Thanksgiving squash, boiled, mashed by hand and left a little coarse. Butter, maple syrup and a little sugar make it sweet and rich, and nutmeg and black pepper keep it from tasting like pie. It doubles and triples easily for a crowd.
 
 ## Directions
 
@@ -168,4 +171,6 @@ This is the Silton family's Thanksgiving squash, boiled, mashed by hand and left
 
 ## Suggested Tweak
 
-This is a family recipe, so it stays as written. For deeper flavor, roast the squash instead of boiling it. Cut it into 1-inch cubes, toss with 2 tbsp olive oil and a pinch of salt, and roast in a single layer at 400°F until tender with golden edges, 30 to 40 minutes. Then mash and season as above.
+This is a family recipe, so it stays as written. If you want to try it:
+
+- Roast the squash instead of boiling it for deeper flavor. Cut it into 1-inch cubes, toss with 2 tbsp olive oil and a pinch of salt, and roast in a single layer at 400°F until tender with golden edges, 30 to 40 minutes. Then mash and season as above.

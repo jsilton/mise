@@ -1,6 +1,7 @@
 ---
 miseId: e7786c03-2452-4088-b09f-c46653e259cc
 title: Banh Mi
+description: 'Grilled lemongrass and fish sauce pork piled into baguettes with mayonnaise, pickled carrots and daikon, cucumber, cilantro and jalapeño.'
 origin: Vietnam
 difficulty: easy
 cookingMethods:

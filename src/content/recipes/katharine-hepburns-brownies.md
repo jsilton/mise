@@ -1,6 +1,7 @@
 ---
 miseId: 35c86775-a3ac-4a76-ac55-1c4cdd70e48a
 title: Katharine Hepburn’s Brownies
+description: 'Dense, fudgy cocoa brownies made with melted butter and only a little flour, with chopped walnuts or pecans.'
 difficulty: easy
 cookingMethods:
   - bake

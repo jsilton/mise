@@ -1,6 +1,7 @@
 ---
 miseId: ce45f7eb-1de2-4a74-8d73-47abe5de6632
 title: Beef Pad See Ew
+description: 'Wok-fried wide rice noodles with marinated flank steak, Chinese broccoli, egg and a dark soy and oyster sauce.'
 role: main
 vibe: quick
 difficulty: easy

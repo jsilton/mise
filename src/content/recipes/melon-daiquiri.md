@@ -1,6 +1,7 @@
 ---
 miseId: 26dc5320-626c-4ebc-9c49-326164621656
 title: Melon Daiquiri
+description: 'Blended frozen cocktail of honeydew melon, light rum, lime juice and Midori, garnished with cantaloupe on sugar cane skewers.'
 difficulty: easy
 cookingMethods:
   - blend

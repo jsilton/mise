@@ -1,6 +1,7 @@
 ---
 miseId: 66821e8f-7f0c-434e-9d03-dc3b0818a59c
 title: Flourless Chocolate Cake
+description: 'A dense, fudgy gluten-free chocolate cake made with melted chocolate, butter, cocoa and espresso powder under a shiny chocolate cream glaze.'
 difficulty: easy
 cookingMethods:
   - bake

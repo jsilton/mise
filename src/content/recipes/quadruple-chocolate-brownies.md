@@ -1,6 +1,7 @@
 ---
 miseId: 870bc49b-be6c-42be-a897-1aec62afed75
 title: Quadruple Chocolate Brownies
+description: 'Party-size brownies made with unsweetened chocolate and chunks of bittersweet, white and milk chocolate, topped with a marbled chocolate swirl.'
 difficulty: easy
 cookingMethods:
   - bake

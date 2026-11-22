@@ -1,6 +1,7 @@
 ---
 miseId: ffe89210-054b-4593-b839-d06eaf01d626
 title: Buttermilk Waffles
+description: 'Crisp, fluffy waffles with a gentle tang from buttermilk, served with salted butter, maple syrup and fresh berries.'
 difficulty: intermediate
 cookingMethods:
   - griddle

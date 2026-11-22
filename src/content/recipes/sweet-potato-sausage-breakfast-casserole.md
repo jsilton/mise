@@ -1,6 +1,7 @@
 ---
 miseId: 1a361410-3294-46b2-a406-e68a5e123dad
 title: Sweet Potato Sausage Breakfast Casserole
+description: 'Baked egg casserole with roasted sweet potatoes, breakfast sausage, peppers, spinach and sharp white cheddar.'
 role: main
 vibe: comfort
 difficulty: easy

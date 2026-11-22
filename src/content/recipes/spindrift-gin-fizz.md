@@ -1,6 +1,7 @@
 ---
 miseId: f8e879e0-58c4-4314-b892-df8dd056130d
 title: Grapefruit Gin Fizz
+description: "Shaken cocktail of Hendrick's gin, lime juice and agave, topped with grapefruit sparkling water and grapefruit bitters."
 difficulty: easy
 cookingMethods:
   - no-cook

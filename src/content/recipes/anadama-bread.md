@@ -1,6 +1,7 @@
 ---
 miseId: 74dc1af9-509d-4722-9108-a6361b6c1f75
 title: Anadama Bread
+description: 'Yeast bread made with a cornmeal porridge and molasses, baked as a single loaf with a dense, slightly sweet crumb.'
 aliases:
   - anadama-bread-the-new-england-classic
 difficulty: easy

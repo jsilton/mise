@@ -1,6 +1,7 @@
 ---
 miseId: 720d4e60-35fe-4599-97e8-b6adad4bce14
 title: Charred Guacamole with Pomegranate
+description: 'Guacamole built on charred jalapeños and tomatoes with toasted cumin, avocado, lime, cilantro and pomegranate seeds.'
 difficulty: easy
 cookingMethods:
   - no-cook

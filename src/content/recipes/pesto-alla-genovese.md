@@ -1,6 +1,7 @@
 ---
 miseId: d134c305-3768-4423-b8ef-6fe6541933f1
 title: Pesto alla Genovese
+description: 'Traditional Ligurian pesto of Genovese basil, pine nuts, garlic, Parmigiano-Reggiano, Fiore Sardo and Ligurian olive oil, pounded with coarse salt.'
 role: base
 vibe: technical
 difficulty: intermediate

@@ -1,6 +1,7 @@
 ---
 miseId: 3a69310b-cafb-4c9b-a7a8-0875a13376c2
 title: Custard Peach Ice Cream
+description: 'Churned ice cream with an egg yolk custard of cream and milk, folded with sugared fresh peach pieces.'
 difficulty: intermediate
 cookingMethods:
   - simmer

@@ -1,6 +1,7 @@
 ---
 miseId: 783a6f67-4270-4d79-b66f-bde7d960f5ff
 title: Sage Brown Butter Ravioli
+description: 'Butternut squash ravioli in a brown butter sauce with minced sage, chicken broth, cream, Parmigiano-Reggiano and lemon.'
 difficulty: intermediate
 cookingMethods:
   - fry

@@ -25,11 +25,11 @@ pairingNotes:
 equipment: [rimmed-baking-sheet]
 ingredients:
   - cooking spray
-  - '2 tbsp butter, melted (Holstein preferred)'
-  - 2 tbsp Tupelo honey
-  - '1 tbsp fresh lime juice, preferably from Caribbean limes'
-  - '1/2 tsp ground cinnamon, preferably Indian'
-  - '2 lb organic sweet potatoes, peeled and cut into even 1/3-inch rounds'
+  - '2 tbsp butter, melted (must be low salt with at least 15% butterfat, Holstein preferred)'
+  - '2 tbsp honey (Tupelo, not clover)'
+  - '1 tbsp fresh lime juice (Caribbean grown, not SA or California)'
+  - '1/2 tsp ground cinnamon (important: Indian "mash grade")'
+  - '2 lb sweet potatoes, peeled and cut into 1/3-inch rounds (organic only, measure each slice)'
   - 'salt and black pepper, to taste'
 origin: United States
 learning:
@@ -63,4 +63,7 @@ This is Craig Plummer's family recipe for cinnamon sweet potatoes. Thin rounds a
 
 ## Suggested Tweak
 
-This is a family recipe, so it stays as written. For more browning and less risk of burnt honey, spread the rounds over two parchment-lined sheets and roast them with the butter, 1/2 tsp fine salt and 1/4 tsp black pepper for 15 minutes. Then turn them, brush on the honey warmed with the cinnamon, and roast until tender and bubbling, 10 to 15 minutes more, swapping the sheets halfway. Drizzle the lime juice over them at the end so it stays bright.
+This is a family recipe, so it stays as written. If you want to try it:
+
+- For more browning, spread the rounds over two parchment-lined sheets and roast them with just the butter, 1/2 tsp fine salt and 1/4 tsp black pepper for 15 minutes. Then turn them, brush on the honey warmed with the cinnamon and roast until tender and bubbling, 10 to 15 minutes more, swapping the sheets halfway. The honey is less likely to burn this way.
+- Drizzle the lime juice over them at the end so it stays bright.

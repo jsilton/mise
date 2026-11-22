@@ -1,6 +1,7 @@
 ---
 miseId: 42876662-e86b-4669-9f95-e734921c11a7
 title: One-Pot Chicken Meatballs with Greens
+description: 'Ground chicken meatballs with Greek yogurt, panko and oregano, simmered with Swiss chard and lemon in one pot.'
 difficulty: intermediate
 cookingMethods:
   - saute

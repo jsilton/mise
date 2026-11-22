@@ -1,6 +1,7 @@
 ---
 miseId: 33e3b443-b820-4ca4-ab2b-0bfd9f7a2bb5
 title: Puffy Muffin Chicken Salad
+description: 'Gently poached chicken tenders mixed with celery, red grapes, red onion, mayonnaise and lemon juice in the Southern style.'
 difficulty: easy
 cookingMethods:
   - boil

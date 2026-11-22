@@ -1,6 +1,7 @@
 ---
 miseId: f5271823-438b-4010-9444-1f38082962f2
 title: Asparagus
+description: 'Asparagus roasted with olive oil, salt and pepper, finished with a squeeze of lemon and optional Parmesan.'
 difficulty: easy
 cookingMethods:
   - bake

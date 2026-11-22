@@ -1,6 +1,7 @@
 ---
 miseId: 5871adde-f487-4fae-a999-b893501092b9
 title: Pasta with Abruzzi-Style Lamb Sauce
+description: 'Rigatoni or penne in a slow-cooked sauce of diced lamb shoulder, pancetta, rosemary, white wine and whole tomatoes.'
 difficulty: easy
 cookingMethods:
   - simmer

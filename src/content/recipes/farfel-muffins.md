@@ -1,6 +1,7 @@
 ---
 miseId: 4c7fb889-f0a7-4cc6-a584-553747afce90
 title: Farfel Muffins
+description: 'Savory muffins made from matzo farfel softened in boiling water, bound with eggs and melted butter.'
 difficulty: easy
 cookingMethods:
   - bake
@@ -54,7 +55,7 @@ learning:
 
 ## Chef's Note
 
-Jodi Silton's farfel muffins, a savory side from the family's holiday table. Matzo farfel, little broken pieces of matzo, softens in boiling water and bakes with butter and eggs into golden muffins that taste like a crisp-edged matzo kugel. The recipe doubles well.
+These farfel muffins from Jodi Silton are a savory side. Matzo farfel, little broken pieces of matzo, softens in boiling water and bakes with butter and eggs into golden muffins that taste like a crisp-edged matzo kugel. The recipe doubles well.
 
 ## Directions
 
@@ -65,4 +66,7 @@ Jodi Silton's farfel muffins, a savory side from the family's holiday table. Mat
 
 ## Suggested Tweak
 
-Measure the salt instead of seasoning to taste, since you can't taste a raw egg batter: 1 tsp kosher salt is right for this batch. If your muffin cups run large, fill each about three-quarters full and expect fewer than eight.
+This is a family recipe, so it stays as written. If you want to try it:
+
+- Measure the salt instead of seasoning to taste, since you can't taste a raw egg batter. 1 tsp kosher salt is right for this batch.
+- If your muffin cups run large, fill each about three-quarters full and expect fewer than eight.

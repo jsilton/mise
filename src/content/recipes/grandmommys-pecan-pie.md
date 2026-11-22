@@ -1,6 +1,7 @@
 ---
 miseId: 509c77ef-d2d3-4d54-a51a-976f6da8f688
 title: Grandmommy’s Pecan Pie
+description: 'Family pecan pie made with eggs, light corn syrup, margarine, vanilla and whole pecans in unbaked pie shells.'
 difficulty: easy
 cookingMethods:
   - bake

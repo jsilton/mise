@@ -1,6 +1,7 @@
 ---
 miseId: 6497b291-ece7-4c94-b53c-f09a45dc22b2
 title: Whole-Wheat Mac and Cheese
+description: 'Whole-wheat elbow macaroni in a quick sauce of sharp cheddar, Parmesan, butter and heavy cream with nutmeg.'
 difficulty: easy
 cookingMethods:
   - boil

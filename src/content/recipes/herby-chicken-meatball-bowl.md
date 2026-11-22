@@ -1,6 +1,7 @@
 ---
 miseId: fdd2ff76-9d91-4094-ad8b-2331040f9216
 title: Herby Chicken Meatball Bowl
+description: 'Ground chicken and ricotta meatballs with roasted chickpeas and cinnamon-cumin sweet potatoes, served in a bowl with fresh herbs.'
 difficulty: easy
 cookingMethods:
   - bake

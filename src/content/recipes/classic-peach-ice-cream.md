@@ -1,6 +1,7 @@
 ---
 miseId: 45f73070-d62e-4e29-94a5-7ef59739b36a
 title: Classic Peach Ice Cream
+description: 'Old-fashioned Southern ice cream made from a cooked egg custard and cream with sugared fresh peaches and a squeeze of lemon.'
 difficulty: intermediate
 cookingMethods:
   - simmer

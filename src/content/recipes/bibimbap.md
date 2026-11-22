@@ -1,6 +1,7 @@
 ---
 miseId: b47a2e5e-507c-44d9-8fbf-d65c5b40c607
 title: Bibimbap
+description: 'Hot short-grain rice topped with marinated ribeye, seasoned vegetables and a fried egg, mixed together with a sweet and spicy gochujang sauce.'
 difficulty: intermediate
 cookingMethods:
   - fry

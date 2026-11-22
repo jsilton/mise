@@ -1,6 +1,7 @@
 ---
 miseId: 5614cb07-5393-48fd-9087-618b63bd7dc1
 title: Pumpkin Oatmeal Muffins
+description: 'Muffins of rolled oats, pumpkin puree, maple syrup and pumpkin pie spice with optional dark chocolate chips.'
 difficulty: easy
 cookingMethods:
   - bake

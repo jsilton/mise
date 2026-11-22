@@ -1,6 +1,7 @@
 ---
 miseId: 04ef7ee8-12c9-4c85-ae70-9cdce341456d
 title: Sheet Pan Pancakes
+description: 'Pancake batter baked in one sheet pan, topped with seedless strawberry jam and other toppings and cut into squares.'
 role: main
 vibe: comfort
 difficulty: easy

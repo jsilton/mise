@@ -1,6 +1,7 @@
 ---
 miseId: c18ff2ef-f461-48ad-b205-162ca3918be5
 title: Balsamic Peach Pork Chops
+description: 'Seared bone-in pork chops with sliced peaches and a thyme balsamic glaze, topped with feta and torn basil.'
 difficulty: easy
 cookingMethods:
   - sear

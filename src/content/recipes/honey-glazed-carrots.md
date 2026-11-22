@@ -1,6 +1,7 @@
 ---
 miseId: b2e21027-33fe-4e03-bfe4-e1a841fe541c
 title: Honey-Glazed Carrots
+description: 'Oven-roasted carrot batons brushed at the end with honey butter and fresh thyme and finished with flaky sea salt.'
 difficulty: easy
 cookingMethods:
   - roast

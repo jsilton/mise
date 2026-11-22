@@ -1,6 +1,7 @@
 ---
 miseId: 43fc7510-bccf-4b25-ba92-5bdef1f8ac50
 title: General Tso's Cauliflower
+description: "Battered and fried cauliflower florets tossed in a sweet, tangy and spicy General Tso's sauce with soy and rice vinegar."
 difficulty: easy
 cookingMethods:
   - fry

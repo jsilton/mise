@@ -1,6 +1,7 @@
 ---
 miseId: 8c631d6f-1328-4f56-aaf2-9f91d114116a
 title: Misir Wot (Ethiopian Red Lentil Stew)
+description: 'An Ethiopian red lentil stew made with berbere, spiced clarified butter, slowly cooked red onions, tomato paste and ginger, finished with lemon.'
 origin: Ethiopia
 difficulty: easy
 cookingMethods:

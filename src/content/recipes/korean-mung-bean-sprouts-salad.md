@@ -1,6 +1,7 @@
 ---
 miseId: dff9d19f-ef7e-475f-9e21-46f30b39f75a
 title: Sukju Namul
+description: 'Blanched mung bean sprouts seasoned with scallion, garlic, toasted sesame oil, sesame seeds and salt in the Korean namul style.'
 origin: Korea
 difficulty: intermediate
 cookingMethods:

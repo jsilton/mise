@@ -1,6 +1,7 @@
 ---
 miseId: ac18c5e6-2507-42ad-9a11-cb086efb7adb
 title: Lemon-Garlic Broccolini
+description: 'Seared and steamed broccolini with sliced garlic, red pepper flakes and lemon zest and juice.'
 difficulty: easy
 cookingMethods:
   - saute

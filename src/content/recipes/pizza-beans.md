@@ -1,6 +1,7 @@
 ---
 miseId: 0ea82f97-8835-412e-b891-9a4df030042f
 title: Pizza Beans
+description: 'Gigante beans and lacinato kale simmered in crushed tomatoes with oregano, then baked under melted mozzarella and Parmesan.'
 difficulty: easy
 cookingMethods:
   - saute

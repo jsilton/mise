@@ -1,6 +1,7 @@
 ---
 miseId: d31ea0d6-9fda-4f33-8f5e-70d89aa1b0d2
 title: Blistered Shishito Peppers
+description: 'Shishito peppers blistered in a hot pan with oil, finished with flaky sea salt, toasted sesame seeds and lemon.'
 difficulty: easy
 cookingMethods:
   - sear

@@ -1,6 +1,7 @@
 ---
 miseId: 2370b99a-14bb-46f3-b9e3-17a51ba6f386
 title: Spatchcocked Roast Chicken
+description: 'Whole flattened chicken seasoned with garlic, rosemary or thyme and smoked paprika, roasted until the skin is crisp.'
 difficulty: intermediate
 cookingMethods:
   - roast

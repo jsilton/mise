@@ -1,6 +1,7 @@
 ---
 miseId: e5ab8212-1695-40bc-82c6-4ba7ff01c232
 title: Mom’s Famous Chocolate Cake
+description: 'Family chocolate sheet cake made with margarine, cocoa and buttermilk, topped with a cooked cocoa frosting.'
 difficulty: easy
 cookingMethods:
   - bake

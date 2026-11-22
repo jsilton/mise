@@ -1,6 +1,7 @@
 ---
 miseId: 31d161a5-846a-425e-a388-0a36d25feeb0
 title: Brownie Protein Balls
+description: 'No-bake bites of almond butter, chocolate protein powder, cocoa and maple syrup with mini chocolate chips.'
 difficulty: easy
 cookingMethods:
   - no-cook

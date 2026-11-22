@@ -1,6 +1,7 @@
 ---
 miseId: 45a224f4-b2e1-4155-bdda-c6f8d197326c
 title: Grapefruit-Basil Gin Fizz
+description: 'Gin cocktail with muddled basil, fresh pink grapefruit juice and tonic water, finished with Angostura bitters.'
 difficulty: easy
 cookingMethods:
   - mix

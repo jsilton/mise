@@ -1,6 +1,7 @@
 ---
 miseId: b883875f-e816-4582-9247-3319ad75a7b7
 title: Classic Chocolate Chip Cookies
+description: 'Brown butter chocolate chip cookies with roasted sunflower seeds in place of nuts, finished with a sprinkle of flaky sea salt.'
 difficulty: intermediate
 cookingMethods:
   - bake

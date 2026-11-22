@@ -1,6 +1,7 @@
 ---
 miseId: a8b55098-197a-4825-a95f-bd788eb30d2d
 title: Made-In-The-Pan Chocolate Cake
+description: 'An eggless, butterless chocolate cake mixed directly in the baking pan with oil and vinegar, topped with chocolate chips.'
 difficulty: easy
 cookingMethods:
   - bake

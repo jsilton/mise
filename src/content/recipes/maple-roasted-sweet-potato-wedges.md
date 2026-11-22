@@ -1,6 +1,7 @@
 ---
 miseId: f696000d-a762-4a02-b9b9-39034fa6d41a
 title: Maple-Roasted Sweet Potato Wedges
+description: 'Sweet potato wedges roasted until browned, then brushed with maple syrup and finished with smoked paprika and flaky salt.'
 difficulty: easy
 cookingMethods:
   - roast

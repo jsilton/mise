@@ -1,6 +1,7 @@
 ---
 miseId: 1ba6978e-2e20-4dac-99f8-877408952d22
 title: Braised French Lentils
+description: 'French green lentils simmered with onion, carrot, celery, garlic, thyme and bay in broth, finished with Dijon mustard.'
 difficulty: easy
 cookingMethods:
   - braise

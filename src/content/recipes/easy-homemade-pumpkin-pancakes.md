@@ -1,6 +1,7 @@
 ---
 miseId: cd0040d2-8cc0-461c-9b7f-6ce8be96ce72
 title: Pumpkin Pancakes
+description: 'Fluffy pancakes made with pumpkin puree, brown sugar and pumpkin pie spice, served with salted butter and maple syrup.'
 difficulty: easy
 cookingMethods:
   - griddle

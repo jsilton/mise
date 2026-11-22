@@ -1,6 +1,7 @@
 ---
 miseId: ff3adf9a-f5aa-424f-8dcf-0226215154a7
 title: Ricotta Toast with Honey
+description: 'Thick toasted sourdough spread with whipped whole-milk ricotta and olive oil, topped with runny honey, chopped pistachios and flaky salt.'
 difficulty: easy
 cookingMethods:
   - toast

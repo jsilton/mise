@@ -1,6 +1,7 @@
 ---
 miseId: 066158c9-b1d6-4e91-844b-6b239b663cb1
 title: Cantonese Wonton Broth
+description: 'Clear chicken broth simmered with dried shrimp, ginger and green onions, seasoned with soy sauce and white pepper.'
 difficulty: easy
 cookingMethods:
   - simmer

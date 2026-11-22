@@ -1,6 +1,7 @@
 ---
 miseId: c435dc84-ef74-4c51-ab6e-1a5ee50d07a7
 title: Breakfast Egg Cups
+description: 'Baked egg cups in a muffin tin with red bell pepper, spinach and sharp cheddar.'
 difficulty: easy
 cookingMethods:
   - bake

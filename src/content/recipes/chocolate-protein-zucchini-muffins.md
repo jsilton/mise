@@ -1,6 +1,7 @@
 ---
 miseId: cff263a0-2457-4817-ac2d-24fab696dea3
 title: Chocolate Protein Zucchini Muffins
+description: 'Whole-wheat chocolate muffins with grated zucchini, cocoa, chocolate protein powder and maple syrup.'
 role: side
 vibe: comfort
 difficulty: easy

@@ -1,6 +1,7 @@
 ---
 miseId: 231a607c-94fb-46a4-93d1-b4af822f4ad3
 title: Banana Nut Bread
+description: 'A cakey loaf made with creamed butter and sugar, very ripe mashed bananas and optional chopped nuts.'
 difficulty: intermediate
 cookingMethods:
   - bake

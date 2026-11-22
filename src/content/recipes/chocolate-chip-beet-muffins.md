@@ -1,6 +1,7 @@
 ---
 miseId: 3dee0020-1ce4-45e3-b53d-10b512e45432
 title: Chocolate Chip Beet Muffins
+description: 'Whole-wheat chocolate muffins with beet puree, cocoa, honey and chocolate chips for a moist, deeply colored crumb.'
 difficulty: easy
 cookingMethods:
   - bake

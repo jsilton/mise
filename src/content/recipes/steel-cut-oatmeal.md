@@ -1,6 +1,7 @@
 ---
 miseId: 98d96f1a-b6ce-4dc1-adc0-467b8e072cfe
 title: Steel-Cut Oatmeal
+description: 'Steel-cut oats toasted in butter and simmered with milk and buttermilk, brown sugar and cinnamon, served with berries.'
 difficulty: intermediate
 cookingMethods:
   - toast

@@ -1,6 +1,7 @@
 ---
 miseId: 57d7d816-4183-4f96-b71a-8eaf79220ccc
 title: Fried Sweet Plantains (Maduros)
+description: 'Very ripe plantain slices pan-fried in oil until caramelized and golden, finished with a pinch of salt and cinnamon.'
 difficulty: easy
 role: side
 vibe: quick

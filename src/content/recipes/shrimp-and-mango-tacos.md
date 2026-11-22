@@ -1,6 +1,7 @@
 ---
 miseId: 73c1b175-ee98-459f-9484-99d15c38eb85
 title: Shrimp & Mango Tacos
+description: 'Quickly cooked shrimp with cumin, serrano chilies and fresh mango and lime, served in warm corn tortillas.'
 difficulty: easy
 cookingMethods:
   - fry

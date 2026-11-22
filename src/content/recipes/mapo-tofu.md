@@ -1,6 +1,7 @@
 ---
 miseId: 0da0fc32-0487-44d7-ae5e-eed4e0587d8d
 title: Mapo Tofu
+description: 'Soft tofu and ground pork in a spicy Sichuan sauce of doubanjiang, fermented black beans and numbing Sichuan peppercorns.'
 origin: China
 difficulty: intermediate
 cookingMethods:

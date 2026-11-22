@@ -1,6 +1,7 @@
 ---
 miseId: 709d0324-9dcd-4a7f-8140-ea273b5745d7
 title: Sweet and Spicy Spareribs
+description: 'Pork spareribs glazed with a sweet and spicy barbecue sauce of gochujang, hoisin, honey, soy sauce and sake.'
 difficulty: easy
 cookingMethods:
   - bake

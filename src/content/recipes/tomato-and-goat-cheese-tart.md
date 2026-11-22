@@ -1,6 +1,7 @@
 ---
 miseId: 9cb4044c-2c0e-4627-984a-9decafcb3e35
 title: Heirloom Tomato & Goat Cheese Tart
+description: 'Thyme and goat cheese pastry filled with a ricotta and goat cheese layer and topped with sliced heirloom tomatoes.'
 difficulty: easy
 cookingMethods:
   - bake

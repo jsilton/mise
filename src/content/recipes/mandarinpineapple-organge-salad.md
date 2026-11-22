@@ -1,5 +1,6 @@
 ---
 title: Mandarin/Pineapple Orange Salad
+description: 'Chilled orange gelatin salad with sour cream, crushed pineapple and mandarin oranges.'
 difficulty: easy
 cookingMethods:
   - boil

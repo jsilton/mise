@@ -1,6 +1,7 @@
 ---
 miseId: d0e22cef-0575-4beb-8ed2-93e6fcb48203
 title: Mediterranean Chicken Bowls
+description: 'Lemon and oregano marinated chicken thighs over rice or quinoa with hummus, cucumber, cherry tomatoes, feta and pickled red onions.'
 difficulty: easy
 cookingMethods:
   - grill

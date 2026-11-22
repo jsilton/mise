@@ -1,6 +1,7 @@
 ---
 miseId: 5a615e3a-fb3a-461f-b081-62fe1f683dcb
 title: Miso Sesame Dense Bean Salad
+description: 'Chickpea and edamame salad with cabbage, carrots and green onions, tossed in a white miso and sesame dressing.'
 role: main
 vibe: nutritious
 difficulty: easy

@@ -1,6 +1,7 @@
 ---
 miseId: cad3934a-f460-4f38-a24c-227514bf0c9e
 title: Key Lime Pie
+description: 'A graham cracker crust filled with a sweet-tart custard of condensed milk, egg yolks and Key lime juice, topped with whipped cream.'
 difficulty: intermediate
 cookingMethods:
   - bake

@@ -1,6 +1,7 @@
 ---
 miseId: 7cef49d7-d5ea-4746-b5d1-f961b6198070
 title: Chocolate Crinkle Cookies
+description: 'Fudgy chocolate cookies rolled in granulated and powdered sugar so the tops crack into a snowy crinkled pattern as they bake.'
 difficulty: easy
 cookingMethods:
   - bake

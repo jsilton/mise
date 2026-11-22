@@ -1,6 +1,7 @@
 ---
 miseId: 15dfeb31-345b-445c-9af2-36e80ccbfa49
 title: Strawberry Rhubarb Shortcake
+description: 'Buttermilk shortcakes with pink peppercorn, split and filled with roasted strawberries and rhubarb and whipped mascarpone.'
 difficulty: easy
 cookingMethods:
   - bake

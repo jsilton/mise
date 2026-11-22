@@ -1,6 +1,7 @@
 ---
 miseId: de76f4c4-a5cf-4260-8a45-98690957ed91
 title: Apple Cider Cream Pie
+description: 'A flaky crust filled with a custard of apple cider boiled down to a tart syrup, set with eggs and sour cream.'
 difficulty: easy
 cookingMethods:
   - bake

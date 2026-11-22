@@ -1,6 +1,7 @@
 ---
 miseId: 2459d6be-72cd-46ce-9bc5-9e714309113a
 title: Thai Red Curry Shrimp
+description: 'Shrimp simmered in coconut milk and Thai red curry paste with onion, red bell pepper, makrut lime leaves and Thai basil.'
 role: main
 vibe: quick
 difficulty: easy

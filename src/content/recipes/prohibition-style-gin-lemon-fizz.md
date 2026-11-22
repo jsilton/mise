@@ -1,6 +1,7 @@
 ---
 miseId: 3ce8b0c7-c4f4-460d-ba92-9ab203952b88
 title: Prohibition-Style Gin Lemon Fizz
+description: 'Batch cocktail of gin, mezcal, cognac, lemon juice, agave and orange bitters, topped with lemon sparkling water.'
 difficulty: easy
 cookingMethods:
   - no-cook

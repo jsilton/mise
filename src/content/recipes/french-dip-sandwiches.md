@@ -1,6 +1,7 @@
 ---
 miseId: 1cfe2d25-88fb-4101-8242-40fac5bc7091
 title: Slow Cooker French Dip Sandwiches
+description: 'Slow-cooked beef chuck roast in a soy and beef stock jus, piled on hoagie rolls with provolone.'
 difficulty: easy
 cookingMethods:
   - slow-cook

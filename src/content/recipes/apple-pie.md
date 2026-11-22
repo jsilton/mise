@@ -1,6 +1,7 @@
 ---
 miseId: 674d01af-cde6-40ca-a80a-70fbeefb3d9f
 title: Apple Pie
+description: 'Double-crust pie with a vodka dough, filled with Granny Smith apples, cinnamon and nutmeg and brushed with egg wash.'
 difficulty: intermediate
 cookingMethods:
   - bake

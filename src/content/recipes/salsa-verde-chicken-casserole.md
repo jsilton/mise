@@ -1,6 +1,7 @@
 ---
 miseId: 669ec587-310b-4901-84ec-963e867567dd
 title: Salsa Verde Chicken Casserole
+description: 'Shredded rotisserie chicken layered with halved corn tortillas, salsa verde, sour cream and Monterey Jack cheese, topped with tomato, avocado and cilantro.'
 difficulty: easy
 cookingMethods:
   - bake

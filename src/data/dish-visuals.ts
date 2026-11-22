@@ -941,7 +941,7 @@ export const dishVisuals: Record<
   },
   'crustless-spinach-quiche': {
     file: 'crustless-spinach-quiche.webp',
-    title: 'Crustless Spinach & Gruyère Quiche',
+    title: 'Crustless Spinach Quiche',
     alt: 'One thick wedge of crustless quiche on a plate, golden and lightly puffed on top, its cut side showing tender pale custard layered with dark green spinach and soft onion.',
   },
   'cu-chao-mian': {
@@ -1346,7 +1346,7 @@ export const dishVisuals: Record<
   },
   granola: {
     file: 'granola.webp',
-    title: 'Executive Granola',
+    title: 'Granola',
     alt: 'A generous mound of golden clustered granola with oats, chopped nuts, seeds and dried cranberries and raisins.',
   },
   'grapefruit-basil-gin-fizz': {

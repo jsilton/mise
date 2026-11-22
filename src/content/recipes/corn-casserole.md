@@ -1,6 +1,7 @@
 ---
 miseId: 5ea41fc4-22ab-4b0b-be1e-23060630494c
 title: Corn Casserole
+description: 'Baked corn casserole made with cream-style and whole kernel corn, sour cream, eggs, butter and Jiffy corn muffin mix.'
 difficulty: easy
 cookingMethods:
   - bake
@@ -49,7 +50,7 @@ learning:
 
 ## Chef's Note
 
-Glenna Johnson's corn casserole is the one that goes to every holiday table and potluck. Cream-style corn keeps it soft and pudding-like, whole kernels give it bite, and the muffin mix holds it together with a sweet, golden top.
+This is Glenna Johnson's corn casserole. Cream-style corn keeps it soft and pudding-like, whole kernels give it bite, and the muffin mix holds it together with a sweet, golden top.
 
 ## Directions
 
@@ -59,4 +60,8 @@ Glenna Johnson's corn casserole is the one that goes to every holiday table and 
 
 ## Suggested Tweak
 
-This is a family recipe, so it stays as written. For a bigger, richer pan: use a full 14.75 oz can of cream-style corn and a 15.25 oz can of drained whole kernels, bake in a 9-by-13-inch dish, and add 1/2 cup shredded sharp cheddar on top and a 4 oz can of diced green chiles if you like a little heat.
+This is a family recipe, so it stays as written. If you want to try it:
+
+- For a bigger, richer pan, use a full 14.75 oz can of cream-style corn and a 15.25 oz can of whole kernels, drained, and bake it in a 9-by-13-inch dish.
+- Scatter 1/2 cup shredded sharp cheddar over the top.
+- Stir in a 4 oz can of diced green chiles for a little heat.

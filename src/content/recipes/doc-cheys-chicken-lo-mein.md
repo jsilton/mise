@@ -1,6 +1,7 @@
 ---
 miseId: aa569908-24d4-473f-9c3e-655114a948ae
 title: Doc Chey’s Chicken Lo Mein
+description: 'Chicken strips stir-fried with bok choy, carrot, edamame and fresh egg noodles in a glossy soy, oyster sauce and Shaoxing wine glaze.'
 role: main
 vibe: comfort
 difficulty: easy

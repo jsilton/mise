@@ -1,6 +1,7 @@
 ---
 miseId: 54c04db9-baa3-438f-86b1-9c71d33180a9
 title: Korean Style Tacos
+description: 'Corn tortillas filled with pulled pork seared in a sweet and spicy gochujang kogi sauce, topped with quick cucumber pickle and scallions.'
 difficulty: easy
 cookingMethods:
   - no-cook

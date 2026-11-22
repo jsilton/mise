@@ -1,6 +1,7 @@
 ---
 miseId: b406f3d6-09bc-408b-ba85-48300144efa4
 title: Breakfast Protein Biscuits
+description: 'Savory drop biscuits made with Greek yogurt and eggs instead of butter, packed with ham, spinach, chives and sharp cheddar.'
 difficulty: easy
 cookingMethods:
   - bake

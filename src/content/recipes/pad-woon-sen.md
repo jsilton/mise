@@ -1,6 +1,7 @@
 ---
 miseId: f5ee21df-572f-4980-a25f-3716f5eca1fa
 title: Pad Woon Sen
+description: 'Stir-fried mung bean glass noodles with eggs, napa cabbage, bell pepper and onion in an oyster, fish and soy sauce.'
 difficulty: intermediate
 cookingMethods:
   - saute

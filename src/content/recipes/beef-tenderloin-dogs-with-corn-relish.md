@@ -1,6 +1,7 @@
 ---
 miseId: af681778-f292-44b2-8a87-70f356b3e22d
 title: Beef Tenderloin Dogs with Corn Relish
+description: 'Seared strips of paprika-rubbed beef tenderloin in brioche buns, topped with a bright corn and red pepper relish.'
 difficulty: easy
 cookingMethods:
   - sear

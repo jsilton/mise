@@ -1,6 +1,7 @@
 ---
 miseId: a32510dc-1c4b-4c43-b0d9-99b996418390
 title: Garlic Mashed Red Potatoes
+description: 'Red potatoes boiled with garlic cloves and mashed with butter, warm milk and Parmesan.'
 difficulty: easy
 cookingMethods:
   - simmer

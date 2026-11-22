@@ -1,6 +1,7 @@
 ---
 miseId: af981508-cf6a-4204-9e90-ee273ac6b811
 title: Miriam’s Melt-In-Your-Mouth Rosh Hashanah Brisket
+description: 'First-cut brisket rubbed with paprika and garlic, braised over thick Spanish onions in a sauce of balsamic vinegar and honey.'
 difficulty: intermediate
 cookingMethods:
   - bake

@@ -1,6 +1,7 @@
 ---
 miseId: 283732dd-4937-4d4a-814e-f89904cede36
 title: Avgolemono
+description: 'Greek chicken soup with rice or orzo and shredded chicken, thickened with eggs and brightened with fresh lemon juice.'
 origin: Greece
 difficulty: intermediate
 cookingMethods:

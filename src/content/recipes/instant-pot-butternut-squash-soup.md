@@ -1,6 +1,7 @@
 ---
 miseId: 8a8a9de8-b7f1-43fd-9e68-16123f0a2364
 title: Pressure-Cooker Butternut Squash Soup
+description: 'A smooth pressure-cooker soup of butternut squash, carrots, celery and Granny Smith apple with sage, topped with crisp bacon, cream and chives.'
 difficulty: easy
 cookingMethods:
   - saute

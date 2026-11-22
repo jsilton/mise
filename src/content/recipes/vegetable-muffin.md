@@ -1,6 +1,7 @@
 ---
 miseId: c2b20d80-ea05-4785-8c3f-a29985e56b50
 title: Vegetable Green Muffins
+description: 'Chocolate muffins made with whole-wheat flour, banana, maple syrup and dark chocolate chips that hide blended spinach and grated carrots.'
 difficulty: easy
 cookingMethods:
   - bake

@@ -1,6 +1,7 @@
 ---
 miseId: 6ad5078d-aca3-4f91-aa2f-2195bb8be5e5
 title: Classic Carrot Cake
+description: 'Spiced layer carrot cake with cinnamon, allspice, cloves and nutmeg, made with grated carrots and finished with frosting.'
 aliases:
   - mercer-street-carrot-cake-the-brown-butter-upgrade
 difficulty: intermediate

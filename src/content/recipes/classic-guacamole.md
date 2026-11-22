@@ -1,6 +1,7 @@
 ---
 miseId: d413bba4-05c8-4be3-a424-9d357d872fe0
 title: Classic Guacamole
+description: 'Mashed ripe avocado with white onion, jalapeño, cilantro, lime juice and salt, served with corn chips.'
 role: side
 vibe: quick
 difficulty: easy

@@ -1,6 +1,7 @@
 ---
 miseId: 024dad2e-4f51-484d-a6e4-ec77751a895a
 title: Lemon-Miso Tofu with Broccoli
+description: 'Crisp cornstarch-coated tofu and broccoli in a glossy sauce of white miso, lemon juice and maple syrup.'
 difficulty: easy
 cookingMethods:
   - fry

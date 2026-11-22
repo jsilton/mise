@@ -1,6 +1,9 @@
 ---
 miseId: c31dc69a-600b-4575-9e12-117bef76bfbc
 title: Crisp Rice Marshmallow Treats
+description: >-
+  The classic cereal-box treat of Rice Krispies cereal pressed with melted marshmallows and butter,
+  with a pinch of sea salt and vanilla.
 difficulty: easy
 cookingMethods:
   - mix
@@ -49,7 +52,7 @@ formula:
         - id: grease
           key: grease
           name: butter or cooking spray
-          stepName: fat for the pan
+          stepName: butter or cooking spray
           allowance: for the pan and spatula
           uses:
             - step: prep
@@ -155,7 +158,7 @@ These are the original Rice Krispies treats from the back of the cereal box, wit
 
 ## Directions
 
-1. **Grease the pan:** Grease a 9-by-13-inch pan and a spatula with the fat for the pan.
+1. **Grease the pan:** Grease a 9-by-13-inch pan and a spatula with the butter or cooking spray.
 2. **Melt the marshmallows:** Melt the butter and marshmallows in a large pot over low heat, stirring constantly with the greased spatula, until smooth, about 5 minutes. Take the pot off the heat right away.
 3. **Add the flavorings:** Stir in the salt and vanilla.
 4. **Coat the cereal:** Add the Rice Krispies cereal and fold gently until every piece is coated.

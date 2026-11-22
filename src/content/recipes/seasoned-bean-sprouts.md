@@ -1,6 +1,7 @@
 ---
 miseId: e8d84dec-9e42-4df2-a764-b44251b23b20
 title: Seasoned Bean Sprouts (Kongnamul Namul)
+description: 'Korean side dish of soybean sprouts dressed with sesame oil, garlic, green onion and toasted sesame seeds.'
 difficulty: easy
 cookingMethods:
   - steam

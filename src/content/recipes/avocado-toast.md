@@ -1,6 +1,7 @@
 ---
 miseId: 394d0877-61df-4dd8-9f48-5a287645ba58
 title: Avocado Toast
+description: 'Thick toasted sourdough topped with roughly mashed avocado, citrus juice, flaky salt, red pepper flakes and a drizzle of olive oil.'
 difficulty: easy
 cookingMethods:
   - toast

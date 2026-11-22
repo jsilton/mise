@@ -1,6 +1,7 @@
 ---
 miseId: 4e5a14ac-f89e-417d-864b-cfcbe9dc7ae9
 title: Ham & Cheese Green Bean Casserole
+description: 'Green beans in a creamy mushroom sauce with diced ham and cheddar, baked and topped with crispy fried onions.'
 difficulty: easy
 cookingMethods:
   - boil

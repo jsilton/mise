@@ -1,6 +1,7 @@
 ---
 miseId: d8f58059-4bdb-4db0-b079-caf290a50410
 title: Sun-Dried Tomato Cream Spaghetti
+description: 'Whole-wheat spaghetti with baby spinach, oil-packed sun-dried tomatoes, red onion and garlic in a creamy sauce.'
 difficulty: intermediate
 cookingMethods:
   - saute

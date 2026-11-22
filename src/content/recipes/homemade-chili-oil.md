@@ -1,6 +1,7 @@
 ---
 miseId: cb933d4c-be48-4c1e-8288-c83a7beb52ae
 title: Homemade Chili Oil
+description: 'A Sichuan chili oil of hot oil infused with star anise, cinnamon and Sichuan peppercorns, poured over chili flakes, garlic and sesame.'
 difficulty: easy
 cookingMethods:
   - fry

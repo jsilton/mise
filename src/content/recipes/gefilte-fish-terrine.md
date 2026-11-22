@@ -1,6 +1,7 @@
 ---
 miseId: 2eef022e-1dd8-4ca7-a8b5-14ecf3c0a6e1
 title: Gefilte Fish Terrine
+description: 'Baked terrine of ground carp or pike and salmon with carrot, dill and lemon, served with an arugula and horseradish salad.'
 difficulty: easy
 cookingMethods:
   - bake

@@ -1,6 +1,7 @@
 ---
 miseId: 76141cd8-9a70-43c4-9c5f-582086072c4f
 title: Green Bean Fries
+description: 'Whole green beans roasted with olive oil, garlic powder and salt until crisp, with Parmesan or panko.'
 difficulty: easy
 cookingMethods:
   - roast

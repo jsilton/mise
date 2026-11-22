@@ -1,6 +1,7 @@
 ---
 miseId: e02dc46b-a5c1-4f36-8121-88018d271469
 title: Corn-Shrimp Dumplings
+description: 'Gyoza or siu mai wrappers filled with chopped shrimp, ginger, scallions and fresh corn kernels, served with soy sauce and chili oil.'
 difficulty: intermediate
 cookingMethods:
   - boil

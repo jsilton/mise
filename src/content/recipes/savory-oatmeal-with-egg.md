@@ -1,6 +1,7 @@
 ---
 miseId: 8502d037-a926-43d9-9186-5fea03da2e4c
 title: Savory Oatmeal with Egg
+description: 'Rolled oats cooked in chicken broth and topped with a fried egg, scallions, soy sauce, sesame oil and red pepper flakes.'
 difficulty: easy
 cookingMethods:
   - simmer

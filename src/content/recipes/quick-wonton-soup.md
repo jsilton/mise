@@ -1,6 +1,7 @@
 ---
 miseId: 22572a40-3480-4a7d-8e4e-2e4cfd2de8da
 title: Quick Wonton Soup
+description: 'Frozen mini wontons simmered in ginger and garlic chicken broth with baby bok choy, shiitake mushrooms and scallion greens.'
 difficulty: easy
 cookingMethods:
   - simmer

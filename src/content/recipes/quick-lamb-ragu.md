@@ -1,6 +1,7 @@
 ---
 miseId: 126f8d98-efc8-411f-869b-e83780dd9764
 title: Lamb Ragù
+description: 'Ground lamb browned with onion, garlic, anchovy and tomato paste, simmered in crushed tomatoes, finished with balsamic vinegar and tossed with pasta.'
 difficulty: intermediate
 cookingMethods:
   - fry

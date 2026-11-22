@@ -1,6 +1,7 @@
 ---
 miseId: f751a0bf-156e-4e39-9043-2e4c5862209d
 title: Cinnamon Rolls
+description: 'Soft tangzhong bread dough rolled with brown sugar and cinnamon butter, baked and topped with cream cheese frosting.'
 difficulty: intermediate
 cookingMethods:
   - bake

@@ -1,6 +1,7 @@
 ---
 miseId: 2109eabf-c87a-45e5-b1fc-b5d9b38d015e
 title: Warm Roasted Veggie Salad with Maple-Dijon Vinaigrette
+description: 'Roasted sweet potato, Brussels sprouts and red onion over kale with Parmesan, dried cranberries and a maple Dijon vinaigrette.'
 difficulty: easy
 cookingMethods:
   - bake

@@ -1,6 +1,7 @@
 ---
 miseId: 51f0b603-6c06-47c0-b0a8-252d4403f507
 title: Chocolate Sandwich Cookie Truffles
+description: 'No-bake truffles of crushed chocolate sandwich cookies mixed with cream cheese and dipped in melted semisweet chocolate.'
 difficulty: easy
 cookingMethods:
   - simmer

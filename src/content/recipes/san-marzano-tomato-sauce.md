@@ -1,6 +1,7 @@
 ---
 miseId: 41042504-4b4c-4ef7-b973-c728bfeade89
 title: San Marzano Tomato Sauce
+description: 'Simple sauce of whole peeled San Marzano tomatoes simmered with olive oil, smashed garlic and fresh basil.'
 difficulty: easy
 cookingMethods:
   - simmer

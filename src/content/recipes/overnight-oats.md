@@ -1,6 +1,7 @@
 ---
 miseId: 9565808d-82d1-42dd-bb91-ec29114dc82d
 title: Overnight Oats
+description: 'Rolled oats soaked overnight in milk and Greek yogurt with chia seeds and maple syrup, topped with fruit, nut butter or granola.'
 difficulty: easy
 cookingMethods:
   - no-cook

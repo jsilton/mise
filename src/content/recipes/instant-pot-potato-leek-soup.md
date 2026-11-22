@@ -1,6 +1,7 @@
 ---
 miseId: 8e479c20-5846-498f-af64-91d1361297bb
 title: Pressure-Cooker Potato Leek Soup
+description: 'Creamy pressure-cooker soup of leeks, Yukon Gold potatoes and broth, finished with half-and-half and topped with sour cream and chives.'
 difficulty: easy
 cookingMethods:
   - saute

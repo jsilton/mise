@@ -1,6 +1,7 @@
 ---
 miseId: a6603753-eaaf-463a-9f48-b1f21d83bcc3
 title: Sausage Breakfast Casserole
+description: 'A make-ahead casserole of breakfast sausage, red bell pepper, hash browns and sharp Cheddar baked in an egg and cream custard.'
 difficulty: easy
 cookingMethods:
   - bake

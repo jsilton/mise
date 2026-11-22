@@ -1,6 +1,7 @@
 ---
 miseId: 80b1ddd1-81cb-43c1-81da-c54570b88d5b
 title: Chewy Chocolate Meringues
+description: 'Meringue cookies with a crackly shell and a soft, marshmallowy center, studded with dark chocolate chips.'
 difficulty: intermediate
 cookingMethods:
   - bake

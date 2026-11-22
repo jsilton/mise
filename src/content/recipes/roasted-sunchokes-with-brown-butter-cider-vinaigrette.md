@@ -1,6 +1,7 @@
 ---
 miseId: b482ec5f-cd9f-45e4-bed3-0c4269d2a0cf
 title: Sunchokes with Brown Butter Vinaigrette
+description: 'Roasted sunchokes with thyme and garlic, tossed with baby spinach and a brown butter and apple cider vinaigrette.'
 difficulty: easy
 cookingMethods:
   - bake

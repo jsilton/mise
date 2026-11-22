@@ -1,6 +1,7 @@
 ---
 miseId: c4d5b610-f1f1-41b3-8032-5841232e8c55
 title: Chocolate Pie
+description: 'Baked pie crust filled with a cooked bittersweet chocolate custard and topped with whipped cream and shaved dark chocolate.'
 difficulty: intermediate
 cookingMethods:
   - simmer

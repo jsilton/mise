@@ -1,6 +1,7 @@
 ---
 miseId: 8293ab95-140d-489e-a83f-2f7d78c4714f
 title: Egg in a Hole
+description: 'A fried egg cooked in a hole cut from a thick slice of buttered sourdough or white bread.'
 difficulty: easy
 cookingMethods:
   - fry

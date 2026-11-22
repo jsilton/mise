@@ -1,6 +1,7 @@
 ---
 miseId: 73e8a81e-9a4a-44e0-a96d-b87e7b86d5ed
 title: Garlic Butter Green Beans
+description: 'Trimmed green beans cooked in butter with sliced garlic and toasted sliced almonds, finished with flaky sea salt.'
 difficulty: easy
 cookingMethods:
   - saute

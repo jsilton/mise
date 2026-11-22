@@ -1,6 +1,7 @@
 ---
 miseId: 527a354a-db9b-4af1-a7df-60b6a636da86
 title: Slow Cooker Korean Beef
+description: 'Bone-in beef short ribs slow-cooked in a pear and gochujang sauce with grated onion, garlic, ginger and dried shiitake mushrooms.'
 difficulty: easy
 cookingMethods:
   - sear

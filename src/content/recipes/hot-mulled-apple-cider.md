@@ -1,6 +1,7 @@
 ---
 miseId: 5e95798d-f114-496a-833e-e02d20492886
 title: Hot Mulled Apple Cider
+description: 'Unfiltered apple cider simmered with cinnamon sticks, allspice, cloves, nutmeg, brown sugar and orange wedges studded with cloves.'
 difficulty: easy
 cookingMethods:
   - boil

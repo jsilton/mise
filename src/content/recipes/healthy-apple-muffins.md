@@ -1,6 +1,7 @@
 ---
 miseId: b0f36af9-78f3-45f4-bce8-0a10c8af2f9e
 title: Apple Muffins
+description: 'Whole-wheat muffins with grated and diced apple, olive oil, maple syrup, Greek yogurt and cinnamon.'
 difficulty: easy
 cookingMethods:
   - bake

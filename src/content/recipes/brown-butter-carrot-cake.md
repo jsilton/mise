@@ -1,6 +1,7 @@
 ---
 miseId: cabc339b-de4b-4fbe-b5ea-2f4953e2ab1b
 title: Brown Butter Carrot Cake
+description: 'Layered carrot cake made with brown butter, grated carrots, buttermilk and warm spices, finished with frosting.'
 aliases:
   - bas-best-carrot-cake-the-brown-butter-upgrade
 difficulty: intermediate

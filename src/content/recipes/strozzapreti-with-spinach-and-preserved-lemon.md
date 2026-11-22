@@ -1,6 +1,7 @@
 ---
 miseId: 71021dca-48b1-457c-beae-fe7ff8585e1c
 title: Strozzapreti with Preserved Lemon & Spinach
+description: 'Strozzapreti or cavatappi pasta tossed with butter, wilted spinach and preserved lemon, topped with toasted lemony panko breadcrumbs.'
 difficulty: easy
 cookingMethods:
   - fry

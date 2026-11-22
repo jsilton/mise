@@ -1,6 +1,7 @@
 ---
 miseId: 003626a1-10df-4732-a4d8-11be0ad9e846
 title: Spaghetti with Clams & Braised Greens
+description: 'Spaghetti with littleneck clams steamed in white wine and garlic, tossed with braised Swiss chard, roasted red peppers and lemon.'
 difficulty: intermediate
 cookingMethods:
   - saute

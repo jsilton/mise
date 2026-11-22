@@ -1,6 +1,7 @@
 ---
 miseId: 72b506ef-d140-4b25-922a-49a505766d74
 title: Nana’s Biscuits
+description: 'Small hand-shaped biscuits made from self-rising flour, Crisco shortening and buttermilk, flattened by hand with no rolling pin or cutter.'
 difficulty: easy
 cookingMethods:
   - bake

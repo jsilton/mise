@@ -1,6 +1,7 @@
 ---
 miseId: fc8718e0-7916-4b87-a25f-67d6c6771ee0
 title: Eggless Strawberry Ice Cream
+description: 'Custard-free ice cream churned from whole milk, heavy cream, sugar and pureed fresh strawberries with a little lemon juice.'
 role: dessert
 vibe: comfort
 difficulty: easy

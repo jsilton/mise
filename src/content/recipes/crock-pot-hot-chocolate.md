@@ -1,6 +1,7 @@
 ---
 miseId: f42df1fa-9aef-4822-8342-d231575ccd18
 title: Hot Chocolate
+description: 'Rich drinking chocolate made in a slow cooker with cocoa, bittersweet chocolate, whole milk and cream, topped with marshmallows and shaved chocolate.'
 difficulty: easy
 cookingMethods:
   - slow-cook

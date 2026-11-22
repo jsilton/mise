@@ -1,6 +1,7 @@
 ---
 miseId: 78c0f789-5489-43fa-91cd-b5e0d1f9f527
 title: Easy Chopped Pesto Salad with Cannellini Beans
+description: 'Chopped salad of cherry tomatoes, cucumber, fresh mozzarella and cannellini beans tossed with basil pesto and red wine vinegar.'
 role: side
 vibe: quick
 difficulty: easy

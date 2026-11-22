@@ -1,6 +1,7 @@
 ---
 miseId: 699b3cc7-51f9-46ed-bfbd-e8f8cc9362f2
-title: Executive Granola
+title: Granola
+description: 'Rolled oats, mixed nuts, seeds and wheat germ toasted with maple syrup and cinnamon, mixed with dried fruit after cooling.'
 difficulty: easy
 cookingMethods:
   - bake
@@ -38,7 +39,7 @@ totalTime: '30 min, plus cooling'
 servings: 3 cups
 ingredients:
   - 2 cups old-fashioned rolled oats
-  - '1/2 cup mixed nuts and seeds, such as almonds, walnuts, pecans, sunflower and sesame'
+  - '1/2 cup mixed nuts and seeds, such as almonds, walnuts, pecans, unsalted sunflower seeds and sesame seeds'
   - 'wheat germ, to taste'
   - a generous 1/3 cup pure maple syrup
   - 1/2 cup canola oil

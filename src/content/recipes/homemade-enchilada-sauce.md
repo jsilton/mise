@@ -1,6 +1,7 @@
 ---
 miseId: 6bdc7d7d-ef90-4c73-96e9-30a6474f9563
 title: Enchilada Sauce
+description: 'Red sauce built from a flour and oil roux, ancho or guajillo chile powder, cumin, tomato paste and broth.'
 difficulty: intermediate
 cookingMethods:
   - simmer

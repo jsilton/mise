@@ -1,5 +1,6 @@
 ---
 title: Nana Ruth’s Applesauce
+description: 'Chunky applesauce cooked from peeled McIntosh apples with lemon, honey, a little sugar, cinnamon and nutmeg.'
 difficulty: easy
 cookingMethods:
   - simmer

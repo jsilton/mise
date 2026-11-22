@@ -1,6 +1,7 @@
 ---
 miseId: 700176aa-cd24-488c-86fe-ed3776f69774
 title: Starbucks Egg Bites
+description: 'Steamed egg bites blended from eggs, cottage cheese and Gruyère with chopped bacon, cooked in a muffin tin over a water bath.'
 difficulty: intermediate
 cookingMethods:
   - bake

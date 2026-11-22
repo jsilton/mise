@@ -1,6 +1,7 @@
 ---
 miseId: 550eac86-7cef-463d-a90a-a1b36f569846
 title: Royal Icing
+description: "Smooth white icing of pasteurized egg whites, confectioners' sugar and vanilla for decorating and flooding cookies."
 difficulty: intermediate
 cookingMethods:
   - no-cook

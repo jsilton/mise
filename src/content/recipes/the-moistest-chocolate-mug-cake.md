@@ -1,6 +1,7 @@
 ---
 miseId: fcad1fcc-708a-4147-b911-347f409d634f
 title: Chocolate Mug Cake
+description: 'Microwave chocolate mug cake of flour, cocoa, milk and oil with a spoonful of chocolate-hazelnut spread melting in the center.'
 difficulty: easy
 cookingMethods:
   - mix

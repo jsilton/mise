@@ -1,6 +1,7 @@
 ---
 miseId: 0a38bf98-8a1b-4a58-8a72-6fa8a0a9a705
 title: Chinese-Style Snapper
+description: 'A whole snapper baked under foil with soy sauce, Shaoxing wine and ginger, topped with scallions, cilantro and sizzling peanut oil.'
 difficulty: intermediate
 cookingMethods:
   - bake

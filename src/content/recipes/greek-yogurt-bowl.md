@@ -1,6 +1,7 @@
 ---
 miseId: 27392fea-d78b-4b81-9984-efed0324d0f6
 title: Greek Yogurt Bowl
+description: 'Plain Greek yogurt topped with fresh berries, banana, granola, nuts, chia seeds and a drizzle of honey.'
 difficulty: easy
 cookingMethods:
   - no-cook

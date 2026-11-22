@@ -1,6 +1,7 @@
 ---
 miseId: 52fd30fd-0e10-48ff-8087-b7bf27b9b350
 title: Chicken with Herbed Corn Salsa
+description: 'Grilled bone-in chicken thighs served with a corn salsa of fresh basil, mint, Parmesan, garlic and lemon juice.'
 difficulty: easy
 cookingMethods:
   - grill

@@ -1,6 +1,7 @@
 ---
 miseId: 7c352822-802b-4f16-a796-8d2b6a8e4571
 title: Baby’s First Smash Cake
+description: 'Naturally sweetened banana cake with whole wheat and oat flours, topped with a cream cheese and apple juice frosting.'
 difficulty: easy
 cookingMethods:
   - bake

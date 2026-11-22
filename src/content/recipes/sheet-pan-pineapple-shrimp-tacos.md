@@ -1,6 +1,7 @@
 ---
 miseId: 7ec54050-a521-4d7e-97b4-3824da4a06c3
 title: Sheet Pan Pineapple Shrimp Tacos
+description: 'Chili and cumin shrimp roasted with pineapple and red onion, served in corn tortillas with cabbage slaw, avocado and sour cream.'
 difficulty: easy
 cookingMethods:
   - bake

@@ -1,6 +1,7 @@
 ---
 miseId: 14e94759-8214-48e5-8189-52a7347a9e13
 title: Skinny Broccoli Mac & Cheese
+description: 'Baked mac and cheese of elbow pasta and broccoli in a skim milk and broth cheddar sauce under a Parmesan breadcrumb topping.'
 difficulty: intermediate
 cookingMethods:
   - bake

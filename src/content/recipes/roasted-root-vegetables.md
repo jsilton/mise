@@ -1,6 +1,7 @@
 ---
 miseId: 0c90203b-827a-4bc1-8674-17c751e3a074
 title: Root Vegetables
+description: 'Carrots, parsnips, sweet potatoes and beets roasted with rosemary or thyme and garlic, then glazed with maple syrup and balsamic vinegar.'
 difficulty: easy
 cookingMethods:
   - bake

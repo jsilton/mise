@@ -1,6 +1,7 @@
 ---
 miseId: fa3aebd5-09cd-4f84-a078-2c23d61c0128
 title: Shrimp Fettuccine Alfredo
+description: 'Seared jumbo shrimp and fettuccine tossed in a creamy Parmigiano Alfredo sauce, finished with fresh parsley.'
 difficulty: easy
 cookingMethods:
   - boil

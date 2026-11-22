@@ -1,6 +1,9 @@
 ---
 miseId: 7d37498f-1888-4ae9-8385-4e17315fe794
 title: Yellow Cake with Chocolate Frosting
+description: >-
+  Buttermilk yellow layer cake made with butter and oil, covered in a rich cocoa and confectioners'
+  sugar frosting.
 difficulty: intermediate
 cookingMethods:
   - bake
@@ -73,7 +76,7 @@ formula:
         - id: pan-fat
           key: butter-or-neutral-oil
           name: butter or neutral oil
-          stepName: fat for the pans
+          stepName: butter or neutral oil
           allowance: for the pans
           uses:
             - step: prepare
@@ -308,7 +311,7 @@ Lauren Allen's yellow cake is the classic birthday layer cake with chocolate fro
 
 ## Directions
 
-1. **Prepare the pans:** Heat the oven to 350°F. Grease two 9-inch round cake pans with the fat for the pans, line the bottoms with parchment and grease the parchment.
+1. **Prepare the pans:** Heat the oven to 350°F. Grease two 9-inch round cake pans with the butter or neutral oil, line the bottoms with parchment and grease the parchment.
 2. **Mix the dry ingredients:** In a medium bowl, whisk the flour, baking powder, and salt together.
 3. **Cream the butter:** In a stand mixer on medium speed, beat the granulated sugar and 3/4 cup of the butter until pale and fluffy, about 3 minutes. Scrape the bowl.
 4. **Add the eggs:** Beat in the oil, eggs, egg yolks, and 1 tbsp of the vanilla, adding the eggs and yolks one at a time and scraping the bowl now and then.

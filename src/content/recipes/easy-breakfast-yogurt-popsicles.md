@@ -1,6 +1,7 @@
 ---
 miseId: 7f997d54-9862-47c4-aaf0-c19cbdac3d75
 title: Yogurt Popsicles
+description: 'Frozen popsicles of Greek yogurt, milk and honey layered with fresh berries and crunchy granola.'
 difficulty: easy
 cookingMethods:
   - no-cook

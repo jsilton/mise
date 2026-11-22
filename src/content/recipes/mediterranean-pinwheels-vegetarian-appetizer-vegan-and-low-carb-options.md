@@ -1,6 +1,7 @@
 ---
 miseId: f27cf509-e64c-45d0-b7a6-e937d258df3d
 title: Mediterranean Pinwheels
+description: 'Large tortillas spread with cream cheese, sun-dried tomatoes, spinach, feta, Parmesan and basil, rolled up and sliced into party pinwheels.'
 difficulty: easy
 cookingMethods:
   - assemble

@@ -1,6 +1,7 @@
 ---
 miseId: 56daf24b-e553-4ab8-b2fb-189cac3b128e
 title: Sheet Pan Italian Sausage Dinner
+description: 'Italian sausage links and baby potatoes roasted together on one pan with garlic powder and Italian seasoning.'
 role: main
 vibe: comfort
 difficulty: easy

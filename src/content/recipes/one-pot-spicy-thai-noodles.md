@@ -1,6 +1,7 @@
 ---
 miseId: 54b05b30-4a38-432e-ae1d-94aafba4c27d
 title: Spicy Thai Noodles
+description: 'Rice noodles cooked in one pot with zucchini, mushrooms, carrots and egg in soy and sriracha sauce, with lime and peanuts.'
 difficulty: intermediate
 cookingMethods:
   - saute

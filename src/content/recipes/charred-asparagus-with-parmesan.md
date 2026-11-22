@@ -1,6 +1,7 @@
 ---
 miseId: e2dfbc1d-c503-47a8-98d6-f9d80322779f
 title: Charred Asparagus with Parmesan
+description: 'Broiled asparagus charred at the tips, tossed with grated garlic and lemon juice, then finished with Parmesan, lemon zest and flaky salt.'
 difficulty: easy
 cookingMethods:
   - broil

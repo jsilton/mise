@@ -1,6 +1,7 @@
 ---
 miseId: b84df9df-4867-4e57-bb16-4830dc6b4424
 title: Apple Banana and Carrot Muffins
+description: 'Tender muffins made with grated apple and carrot, mashed banana, cinnamon and melted butter.'
 audience: kids
 kb:
   disable:
@@ -73,7 +74,7 @@ formula:
         - id: pan-fat
           key: pan-fat
           name: butter or neutral oil
-          stepName: fat for the pan
+          stepName: butter or neutral oil
           allowance: for the muffin tin
           uses:
             - step: prepare
@@ -232,7 +233,7 @@ These ABC muffins from My Kids Lick the Bowl get all their sweetness from apple,
 
 ## Directions
 
-1. **Heat the oven:** Heat the oven to 350°F. Grease a 12-cup muffin tin with the fat for the pan.
+1. **Heat the oven:** Heat the oven to 350°F. Grease a 12-cup muffin tin with the butter or neutral oil.
 2. **Squeeze the fruit:** Squeeze the grated apple and carrot in your hands over the sink to press out the free juice. The shreds should be damp but not dripping.
 3. **Mix the wet ingredients:** Whisk the banana, eggs, butter, and vanilla in a large bowl until smooth. Stir in the apple and carrot.
 4. **Mix the dry ingredients:** Whisk the flour, baking powder, cinnamon, and salt in another bowl.

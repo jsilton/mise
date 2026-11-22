@@ -1,6 +1,9 @@
 ---
 miseId: 8a533b83-2ecf-4255-a52d-bd3bd1b5a671
 title: Banana Bread
+description: >-
+  A whole wheat banana loaf made with olive oil and honey or maple syrup, with optional dark
+  chocolate chips or walnuts.
 difficulty: intermediate
 cookingMethods:
   - bake
@@ -69,7 +72,7 @@ formula:
         - id: pan-fat
           key: pan-fat
           name: butter or neutral oil
-          stepName: fat for the pan
+          stepName: butter or neutral oil
           allowance: for the pan
           uses:
             - step: prepare
@@ -235,7 +238,7 @@ A whole wheat banana bread made with olive oil and sweetened with honey or maple
 
 ## Directions
 
-1. **Heat the oven:** Heat the oven to 325°F. Grease a 9x5-inch loaf pan with the fat for the pan.
+1. **Heat the oven:** Heat the oven to 325°F. Grease a 9x5-inch loaf pan with the butter or neutral oil.
 2. **Mix the wet ingredients:** In a large bowl, whisk the olive oil, honey, eggs, banana, milk, baking soda, vanilla, salt, and 1/2 tsp of the cinnamon until smooth, breaking up any lumps of baking soda. Small lumps of banana are fine.
 3. **Fold in the flour:** With a spatula, fold in the white whole wheat flour and mix-ins (if using) just until no dry flour remains.
 4. **Fill the pan:** Scrape the batter into the pan and smooth the top. Sprinkle with the cinnamon (if using) and swirl it in with the tip of a knife.

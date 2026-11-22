@@ -1,6 +1,7 @@
 ---
 miseId: 56e364c9-dc5e-489c-86b7-fd4dd904c8cc
 title: Yaki Udon
+description: 'Chewy udon noodles stir-fried with ground pork, mushrooms, carrot, bok choy and scallions in a sweet soy and oyster sauce glaze.'
 difficulty: easy
 cookingMethods:
   - saute

@@ -1,6 +1,7 @@
 ---
 miseId: 40012e06-96a2-4ceb-906e-7c8d1c569cf1
 title: Pad Thai
+description: 'Thai rice noodles stir-fried with tamarind, palm sugar and fish sauce, shrimp, tofu, egg, bean sprouts and Chinese chives, topped with peanuts.'
 difficulty: intermediate
 cookingMethods:
   - fry

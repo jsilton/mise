@@ -1,6 +1,7 @@
 ---
 miseId: 9ec9cba5-00db-47ad-966e-86c821e9f16b
 title: Chocolate Chip Cookie Cake
+description: 'One giant chocolate chip cookie baked in a pan with semisweet chocolate discs and topped with candy-coated chocolate candies.'
 difficulty: easy
 cookingMethods:
   - bake

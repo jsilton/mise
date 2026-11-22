@@ -1,6 +1,7 @@
 ---
 miseId: dfe31b31-d236-48a7-a223-8774d5a7208a
 title: Dutch Baby Pancake
+description: 'A German-style oven pancake of blended egg batter baked in sizzling butter until it puffs, served with powdered sugar and lemon wedges.'
 difficulty: intermediate
 cookingMethods:
   - bake

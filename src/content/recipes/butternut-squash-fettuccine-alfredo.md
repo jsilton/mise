@@ -1,6 +1,7 @@
 ---
 miseId: 4934f46c-6040-4e33-8eb2-6df566df8086
 title: Butternut Squash Fettuccine Alfredo
+description: 'Fettuccine tossed in a creamy sauce of roasted butternut squash, garlic, Parmesan and nutmeg, finished with parsley.'
 difficulty: easy
 cookingMethods:
   - bake

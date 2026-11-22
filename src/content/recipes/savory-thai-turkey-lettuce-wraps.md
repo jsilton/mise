@@ -1,6 +1,7 @@
 ---
 miseId: f9db54b4-211d-4b9d-b100-0add72fee8dd
 title: Savory Thai Turkey Lettuce Wraps
+description: 'Ground turkey stir-fried with bell peppers, garlic and fish sauce, tossed with mint, cilantro and lime and spooned into butter lettuce.'
 role: main
 vibe: quick
 difficulty: easy

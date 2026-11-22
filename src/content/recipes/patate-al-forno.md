@@ -1,6 +1,7 @@
 ---
 miseId: 9a528033-9071-40fd-8400-a027836ea943
 title: Patate al Forno
+description: 'Yukon Gold potatoes roasted in olive oil with rosemary and whole garlic cloves until crisp outside and tender inside.'
 difficulty: easy
 cookingMethods:
   - bake

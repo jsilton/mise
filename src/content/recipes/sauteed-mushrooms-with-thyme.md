@@ -1,6 +1,7 @@
 ---
 miseId: 623b900f-c8f4-472c-865e-1155f2ed0e78
 title: Sauteed Mushrooms with Thyme
+description: 'Mixed mushrooms sauteed in olive oil and butter with sliced garlic, fresh thyme and a splash of dry sherry.'
 difficulty: easy
 cookingMethods:
   - saute

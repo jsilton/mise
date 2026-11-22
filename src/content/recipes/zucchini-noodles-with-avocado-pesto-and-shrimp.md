@@ -1,6 +1,7 @@
 ---
 miseId: 499115c9-27cf-4856-8c3e-08d8d52bfb5f
 title: Zucchini Noodles with Avocado & Shrimp
+description: 'Spiralized zucchini with an avocado, basil and pistachio pesto, topped with garlic shrimp seasoned with Old Bay.'
 difficulty: easy
 cookingMethods:
   - saute

@@ -1,6 +1,7 @@
 ---
 miseId: 04958251-d4b0-4dec-b0a5-9be4ae26b972
 title: Miso Soup
+description: 'A light Japanese soup of dashi broth with white miso, silken tofu cubes, dried wakame and sliced green onions.'
 difficulty: easy
 cookingMethods:
   - simmer

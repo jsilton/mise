@@ -1,6 +1,7 @@
 ---
 miseId: aa0e618a-21b6-413b-91ab-ecae0174f0aa
 title: Dashi
+description: 'Japanese stock made by steeping kombu in water and finishing with katsuobushi bonito flakes.'
 origin: Japan
 difficulty: easy
 cookingMethods:

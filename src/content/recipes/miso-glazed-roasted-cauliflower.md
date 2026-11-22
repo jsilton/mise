@@ -1,6 +1,7 @@
 ---
 miseId: 556848e0-0326-4eec-9421-ddd8bdbd9784
 title: Miso-Glazed Roasted Cauliflower
+description: 'Roasted cauliflower florets brushed with a glaze of white miso, mirin, soy sauce and sesame oil, topped with sesame seeds and scallions.'
 difficulty: easy
 cookingMethods:
   - roast

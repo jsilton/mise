@@ -1,6 +1,7 @@
 ---
 miseId: 5f562436-29a6-41ed-80b2-dd1d43a5a6cc
 title: 'Fresh Cabbage, Cucumber and Radish Kimchi'
+description: 'A fresh Korean kimchi of salted napa cabbage, cucumber, daikon and radishes tossed in a garlicky ginger and gochugaru dressing.'
 difficulty: intermediate
 cookingMethods:
   - blend

@@ -1,6 +1,7 @@
 ---
 miseId: 41d4bcdf-2710-4998-a5a7-670a47788d39
 title: Gluten-Free Lemon Cupcakes
+description: 'Gluten-free cupcakes made with 1-to-1 baking flour, lemon zest and juice, topped with lemon buttercream.'
 difficulty: easy
 cookingMethods:
   - bake

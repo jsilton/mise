@@ -1,6 +1,7 @@
 ---
 miseId: 9cb8e1a6-5b5a-459f-8f80-cdf879bae929
 title: Old-Fashioned Strawberry Ice Cream
+description: 'Churned ice cream with a vanilla bean egg yolk custard base, folded with sugared fresh strawberries.'
 difficulty: intermediate
 cookingMethods:
   - simmer

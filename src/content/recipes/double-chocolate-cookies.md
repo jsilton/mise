@@ -1,6 +1,7 @@
 ---
 miseId: 557ecb4a-366f-4687-8cd7-8a317dcea3bf
 title: Double Chocolate Cookies
+description: 'Cookies made with Dutch-process cocoa, brown sugar and butter, loaded with semisweet or bittersweet chocolate chunks.'
 difficulty: easy
 cookingMethods:
   - bake

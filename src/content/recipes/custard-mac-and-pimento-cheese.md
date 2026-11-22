@@ -1,6 +1,7 @@
 ---
 miseId: 08ff1203-84b3-443b-8f2f-653a9560a65e
 title: Custard Macaroni and Pimento Cheese
+description: 'Elbow macaroni baked in an egg and milk custard with two sharp cheddars, diced pimentos and smoked paprika, in the Southern style.'
 aliases:
   - baked-macaroni-and-pimento-cheese-the-comfort-classic
 prepTime: 15 min

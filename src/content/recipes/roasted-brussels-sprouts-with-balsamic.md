@@ -1,6 +1,7 @@
 ---
 miseId: 0de39e6d-5d22-4956-9e99-adc1b4f4f95e
 title: Roasted Brussels Sprouts with Balsamic
+description: 'Brussels sprouts roasted hot until their cut sides turn dark brown and sweet, finished with a balsamic and honey glaze.'
 difficulty: easy
 cookingMethods:
   - roast

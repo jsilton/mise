@@ -1,6 +1,7 @@
 ---
 miseId: e368bcb0-60bb-4d1e-9fbd-8ac531f4360d
 title: Skillet Biscuits with Berries
+description: 'Brown sugar biscuit dough steamed in a covered skillet over raspberries and blackberries simmered with orange zest and cinnamon, then broiled.'
 difficulty: easy
 cookingMethods:
   - simmer

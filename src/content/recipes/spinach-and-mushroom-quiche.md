@@ -1,5 +1,6 @@
 ---
 title: Spinach & Mushroom Quiche
+description: 'A prebaked crust filled with browned mushrooms, sweet onion, spinach and nutty Gruyère in a silky Dijon-seasoned egg custard.'
 difficulty: easy
 cookingMethods:
   - bake

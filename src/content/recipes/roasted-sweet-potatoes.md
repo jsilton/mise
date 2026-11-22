@@ -1,6 +1,7 @@
 ---
 miseId: fd02fd04-6988-4c87-9300-b2941764f5a2
 title: Cumin-Chili Roasted Sweet Potatoes
+description: 'Cubed sweet potatoes roasted with olive oil, cumin, chili powder and smoked paprika, served with cilantro and lime wedges.'
 difficulty: easy
 cookingMethods:
   - roast

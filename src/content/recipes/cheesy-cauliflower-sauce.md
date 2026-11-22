@@ -1,6 +1,7 @@
 ---
 miseId: 75fe9e95-6078-4ee8-9b2b-776f86c88a1b
 title: Cheesy Cauliflower Sauce
+description: 'Smooth sauce of cauliflower, Greek yogurt, cheddar and Parmesan tossed with linguine or fettuccine.'
 role: base
 vibe: quick
 difficulty: easy

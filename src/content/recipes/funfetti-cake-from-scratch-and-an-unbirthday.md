@@ -1,6 +1,7 @@
 ---
 miseId: bc2d9565-0769-45ed-aad9-c4601be75b7e
 title: Funfetti Cake
+description: 'A tall, snowy white layer cake made with whipped egg whites and jimmies, covered in vanilla buttercream.'
 difficulty: intermediate
 cookingMethods:
   - bake

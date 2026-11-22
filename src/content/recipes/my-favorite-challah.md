@@ -1,6 +1,7 @@
 ---
 miseId: 53bda8d1-8df0-45ac-b7ea-294453bb2bff
 title: Challah
+description: 'Braided egg bread made with yeast, oil, sugar and plenty of flour, brushed with egg and sprinkled with poppy or sesame seeds.'
 difficulty: intermediate
 cookingMethods:
   - bake

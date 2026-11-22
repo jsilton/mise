@@ -1,6 +1,7 @@
 ---
 miseId: cd23397b-53b5-45fc-a1d6-e810bb615437
 title: Chocolate Soufflé
+description: 'A French soufflé of melted bittersweet chocolate lightened with whipped egg whites, baked in a sugared dish and dusted with powdered sugar.'
 difficulty: intermediate
 cookingMethods:
   - bake

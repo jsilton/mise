@@ -1,6 +1,7 @@
 ---
 miseId: fe9be654-6be5-4969-aa88-a22e9ec6964b
 title: Strawberry Quinoa Breakfast Bars
+description: 'Baked bars of cooked quinoa, rolled oats, fresh strawberries, mashed bananas and raisins bound with eggs.'
 difficulty: easy
 cookingMethods:
   - bake

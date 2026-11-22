@@ -1,6 +1,7 @@
 ---
 miseId: bf065cff-4373-43fe-9af4-26cf2d7264e7
 title: Enchiladas Suizas
+description: 'Corn tortillas filled with shredded chicken, baked under a charred tomatillo cream sauce and melted Chihuahua cheese, with pickled red onions.'
 difficulty: easy
 cookingMethods:
   - bake

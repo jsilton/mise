@@ -1,6 +1,7 @@
 ---
 miseId: 73aad016-2125-46ae-b751-e74b64c4384e
 title: Beef with Snow Peas
+description: 'Thinly sliced flank steak and crisp snow peas stir-fried in a glossy soy, sherry and ginger sauce, served over jasmine rice.'
 role: main
 vibe: comfort
 difficulty: easy

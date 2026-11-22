@@ -1,6 +1,7 @@
 ---
 miseId: 0853d648-d070-46e8-8ae7-176b42ac2508
 title: Zucchini Herb Fritters
+description: 'Crisp shallow-fried fritters of grated zucchini, potato and onion with parsley and mint, served with a lemony garlic yogurt sauce.'
 difficulty: easy
 cookingMethods:
   - fry

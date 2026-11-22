@@ -1,6 +1,7 @@
 ---
 miseId: 443eea9d-969b-441a-8ac1-aaa4c7ae25b6
 title: Caponata
+description: 'Sicilian sweet and sour eggplant stew with fried eggplant and celery in a tomato base, served at room temperature.'
 role: side
 vibe: comfort
 difficulty: intermediate

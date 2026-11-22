@@ -1,6 +1,7 @@
 ---
 miseId: b6ffb701-eb0f-4c2d-b94a-749d2b051fd1
 title: Drop Biscuits
+description: 'Tender drop biscuits made with cold butter and whole milk, served with salted butter and honey.'
 difficulty: easy
 cookingMethods:
   - bake

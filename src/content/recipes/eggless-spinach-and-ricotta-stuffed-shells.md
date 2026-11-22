@@ -1,6 +1,7 @@
 ---
 miseId: 6fd18197-9804-40f0-bbba-db039bd9f2e0
 title: Eggless Spinach and Ricotta Stuffed Shells
+description: 'Jumbo pasta shells stuffed with spinach, whole-milk ricotta, Pecorino and lemon zest, baked in marinara sauce.'
 role: main
 vibe: comfort
 difficulty: easy

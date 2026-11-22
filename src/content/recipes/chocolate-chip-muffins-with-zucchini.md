@@ -1,6 +1,7 @@
 ---
 miseId: 78b04030-e737-47e5-b78e-e46f24af9287
 title: Chocolate Chip Zucchini Muffins
+description: 'Buckwheat flour muffins with shredded zucchini, maple syrup, cinnamon and chocolate chips.'
 difficulty: intermediate
 cookingMethods:
   - bake

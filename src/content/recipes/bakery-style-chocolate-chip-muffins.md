@@ -1,6 +1,9 @@
 ---
 miseId: fbd75ae9-9c6a-4c70-b67a-63cc92aee299
 title: Bakery Style Chocolate Chip Muffins
+description: >-
+  Tall buttermilk muffins studded with semisweet chocolate chips and finished with a sugary, crackly
+  top like the ones in a bakery case.
 difficulty: intermediate
 cookingMethods:
   - bake
@@ -66,7 +69,7 @@ formula:
         - id: pan-fat
           key: butter-or-neutral-oil
           name: butter or neutral oil
-          stepName: fat for the pan
+          stepName: butter or neutral oil
           allowance: for the pan
           uses:
             - step: prepare
@@ -228,7 +231,7 @@ These muffins bake up like the ones in a bakery case, tall with wide, sugary top
 
 ## Directions
 
-1. **Heat the oven:** Heat the oven to 425°F. Grease a 12-cup muffin pan, rims included, with the fat for the pan.
+1. **Heat the oven:** Heat the oven to 425°F. Grease a 12-cup muffin pan, rims included, with the butter or neutral oil.
 2. **Mix the dry ingredients:** Whisk the flour, baking powder, baking soda, salt, and semisweet chocolate chips in a large bowl so the chips are coated in flour.
 3. **Mix the wet ingredients:** In another bowl, whisk the butter, sugar, buttermilk, eggs, and vanilla until smooth.
 4. **Fold the batter:** Pour the wet mixture into the dry and fold with a spatula until no dry flour remains. Small lumps are fine.

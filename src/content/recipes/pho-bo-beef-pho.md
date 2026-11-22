@@ -1,6 +1,7 @@
 ---
 miseId: 35709b6b-c399-4edf-8eee-48b08b4f64f0
 title: Pho Bo (Beef Pho)
+description: 'Vietnamese beef noodle soup in a clear broth of charred onion, ginger and toasted spices, with rice noodles and raw beef.'
 difficulty: intermediate
 cookingMethods:
   - simmer

@@ -1,6 +1,7 @@
 ---
 miseId: 6e2ecfb8-43f5-41cd-b588-e1babbe14f5a
 title: Whole-Wheat Fruit Muffins
+description: 'White whole-wheat muffins sweetened with honey and made with juice, coconut oil and eggs, filled with blueberries or other fruit.'
 difficulty: easy
 cookingMethods:
   - bake

@@ -1,6 +1,7 @@
 ---
 miseId: 21d3a21b-ef83-499a-85cc-bb098a3cb13a
 title: Har Gow (Shrimp Dumplings)
+description: 'Cantonese dim sum dumplings of shrimp and bamboo shoots in pleated, translucent wheat starch wrappers, served with chili oil and soy sauce.'
 difficulty: intermediate
 cookingMethods:
   - boil

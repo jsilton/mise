@@ -1,6 +1,7 @@
 ---
 miseId: 64f3dd7c-8158-421f-b952-d1e416f62833
 title: Spaghetti with Clams
+description: 'Spaghetti with littleneck clams steamed in dry vermouth, garlic, red pepper flakes, parsley and lemon juice.'
 difficulty: intermediate
 cookingMethods:
   - saute

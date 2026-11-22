@@ -1,6 +1,7 @@
 ---
 miseId: 73d5ba82-4741-4807-8107-23376fce10ab
 title: Tuscan Spaghetti Squash
+description: 'Roasted spaghetti squash strands tossed in a skillet of bacon, cherry tomatoes, garlic and cream, with spinach, Parmigiano-Reggiano and basil.'
 difficulty: intermediate
 cookingMethods:
   - roast

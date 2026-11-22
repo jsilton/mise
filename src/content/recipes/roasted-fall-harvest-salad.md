@@ -1,6 +1,7 @@
 ---
 miseId: 61ec74d9-a0d2-45df-a55c-9c93f42be878
 title: Fall Harvest Salad
+description: 'Spiced roasted squash and crisp chickpeas over quinoa and massaged kale, with toasted pepitas and a tahini, apple cider and lemon dressing.'
 difficulty: easy
 cookingMethods:
   - bake

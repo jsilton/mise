@@ -1,6 +1,7 @@
 ---
 miseId: 7f255ab3-c519-4624-8b0d-37a4093fd558
 title: Spinach Lasagna
+description: 'A lasagna of no-boil whole-wheat sheets layered with ricotta, mozzarella, Parmesan and squeezed-dry spinach in marinara sauce.'
 difficulty: easy
 cookingMethods:
   - bake

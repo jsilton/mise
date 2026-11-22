@@ -1,6 +1,7 @@
 ---
 miseId: 20aae88a-1c3d-4e4b-882a-112e3f2a0273
 title: One-Pan Lemon Herb Chicken Thighs
+description: 'Bone-in chicken thighs roasted with garlic, fresh oregano and thyme and lemon zest and juice, with optional potatoes.'
 difficulty: easy
 cookingMethods:
   - roast

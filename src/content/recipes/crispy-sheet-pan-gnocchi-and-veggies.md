@@ -1,6 +1,7 @@
 ---
 miseId: 35d6d0bd-b23c-4b98-b4a4-04514e38133c
 title: Sheet Pan Gnocchi & Veggies
+description: 'Potato gnocchi roasted until crisp with mini bell peppers, cherry tomatoes, red onion and rosemary, finished with basil and Parmigiano.'
 difficulty: easy
 cookingMethods:
   - bake

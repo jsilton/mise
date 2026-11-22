@@ -8,6 +8,7 @@ kb:
     stage. No low-temperature poultry process is prescribed.
 miseId: 4275bc37-db6c-4ca9-9a54-cf514c1869f0
 title: Seafood-Chorizo Tacos
+description: 'Tacos filled with Mexican chorizo, shrimp and squid cooked with red onion, garlic and cumin.'
 difficulty: easy
 cookingMethods:
   - fry

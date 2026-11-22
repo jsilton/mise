@@ -1,6 +1,7 @@
 ---
 miseId: ddae4dbd-54a6-49bb-b1aa-560dfb68fa27
 title: Hot and Sour Soup
+description: 'Chicken stock soup with wood ear mushrooms, bamboo shoots and char siu pork, seasoned with soy sauce, ginger and sambal oelek.'
 origin: China
 difficulty: easy
 cookingMethods:

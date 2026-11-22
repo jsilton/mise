@@ -1,6 +1,7 @@
 ---
 miseId: 694a717e-4a48-4353-aa36-d6d0eac3dc15
 title: Cantonese Shrimp and Pork Wontons
+description: 'Wontons filled with ground pork and shrimp seasoned with ginger, garlic, Shaoxing wine, soy sauce and white pepper.'
 difficulty: intermediate
 cookingMethods:
   - boil

@@ -1,6 +1,7 @@
 ---
 miseId: f427f879-b609-4e24-b28c-4edb695cffc2
 title: Grandmommy’s Pound Cake
+description: 'Old-fashioned pound cake made with butter, margarine, sugar and six eggs, flavored with lemon, almond and vanilla extracts.'
 difficulty: intermediate
 cookingMethods:
   - bake

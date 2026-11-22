@@ -1,6 +1,7 @@
 ---
 miseId: 667a3310-ef0a-4e8c-af0c-a9538686672e
 title: Turkey Meatballs
+description: 'Oven-baked ground turkey meatballs with breadcrumbs, Parmesan, finely minced carrot and onion, and Italian seasoning.'
 difficulty: easy
 cookingMethods:
   - bake

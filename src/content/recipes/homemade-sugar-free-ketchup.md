@@ -1,6 +1,7 @@
 ---
 miseId: 4bdebd4b-d156-4cad-abb4-67cb5e1cb129
 title: Ketchup
+description: 'Sugar-free ketchup cooked from tomato passata, red wine vinegar, allulose, garlic, onion powder and warm spices.'
 difficulty: easy
 cookingMethods:
   - simmer

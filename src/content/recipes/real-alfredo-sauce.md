@@ -1,6 +1,7 @@
 ---
 miseId: e362105b-a7ee-4ede-890b-f6eff6705df8
 title: Alfredo Sauce
+description: 'A rich American-style Alfredo of butter, heavy cream, garlic and finely grated Parmigiano-Reggiano, tossed with fettuccine and a little pasta water.'
 difficulty: intermediate
 cookingMethods:
   - simmer

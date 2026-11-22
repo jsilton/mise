@@ -1,6 +1,7 @@
 ---
 miseId: da57a109-9e08-481c-a558-4122696c9712
 title: Frittata
+description: 'Whisked eggs, cream and Gruyère or cheddar cooked with mixed vegetables and fresh herbs into a frittata, on the stove or baked.'
 origin: Italy
 difficulty: intermediate
 cookingMethods:

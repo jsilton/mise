@@ -1,6 +1,7 @@
 ---
 miseId: 40dfb4b8-5a00-4da4-8db4-4fc8a5f9c2fd
 title: Thai Basil Noodles
+description: 'Rice noodles stir-fried with ground pork or chicken, Thai chiles and bell pepper in oyster and dark soy sauce, with Thai basil.'
 aliases:
   - thai-basil-noodles-the-15-minute-wok
 difficulty: easy

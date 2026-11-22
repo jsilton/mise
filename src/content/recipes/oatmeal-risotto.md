@@ -1,6 +1,7 @@
 ---
 miseId: 4dbd52a8-d86d-4a34-9f70-9a640d4c66f5
 title: Oatmeal Risotto
+description: 'Steel-cut oats cooked like risotto in broth until creamy and chewy, with mashed banana, sherry-soaked golden raisins and shaved Parmesan.'
 difficulty: intermediate
 cookingMethods:
   - simmer

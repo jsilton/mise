@@ -1,6 +1,7 @@
 ---
 miseId: 0cbdd281-4b86-4eaf-80da-faeaa511535f
 title: Sweet Potato Fries
+description: 'Sweet potato sticks tossed with olive oil, garlic powder and smoked paprika and baked until crisp at the edges.'
 difficulty: easy
 cookingMethods:
   - roast

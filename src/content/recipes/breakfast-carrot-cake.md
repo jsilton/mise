@@ -1,6 +1,7 @@
 ---
 miseId: 824d5e90-817f-4b39-801e-a5dc35906a4f
 title: Breakfast Carrot Cake
+description: 'Whole wheat carrot cake sweetened with brown sugar and Greek yogurt, with grated carrots and optional walnuts or pecans.'
 difficulty: easy
 cookingMethods:
   - bake

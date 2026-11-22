@@ -1,6 +1,7 @@
 ---
 miseId: 3bc48805-b6cf-44e2-a929-2ca5d271fcdf
 title: Almond Zucchini Bread
+description: 'Gluten-free quick bread made with almond flour, grated zucchini, ripe banana, maple syrup and cinnamon.'
 difficulty: easy
 cookingMethods:
   - bake

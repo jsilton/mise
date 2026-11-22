@@ -1,6 +1,7 @@
 ---
 miseId: cec918ff-95f3-4501-a9e9-fdc5a2098f68
 title: Chana Begoon
+description: 'An Indian curry of roasted Chinese eggplant and chickpeas in a spiced tomato gravy, brightened with garam masala, lemon juice and cilantro.'
 difficulty: easy
 cookingMethods:
   - bake

@@ -1,6 +1,7 @@
 ---
 miseId: f91c11d6-e9df-4a36-be37-f73b43ed23c6
 title: Pasta alla Norma
+description: 'Spaghetti with fresh plum tomato sauce and fried eggplant, topped with grated ricotta salata and basil.'
 role: main
 vibe: comfort
 difficulty: intermediate

@@ -1,6 +1,7 @@
 ---
 miseId: 69b27066-77b4-48d9-9e36-abc44b7dcfb5
 title: Curried Carrot and Apple Soup
+description: 'Pureed soup of carrots, celery root, apple, leek and fennel, warmed with Madras curry powder and ginger.'
 difficulty: easy
 cookingMethods:
   - saute

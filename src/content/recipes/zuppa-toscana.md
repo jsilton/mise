@@ -1,6 +1,7 @@
 ---
 miseId: 39be23cb-27ba-4f31-b6e5-9f9c324a27cb
 title: Zuppa Toscana
+description: 'Italian sausage soup with russet potatoes, onion, garlic and red pepper flakes in chicken bone broth, finished with heavy cream and kale.'
 difficulty: intermediate
 cookingMethods:
   - saute

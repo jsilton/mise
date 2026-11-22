@@ -1,6 +1,7 @@
 ---
 miseId: 9af3ba80-7eb0-4e4e-a1bd-3a64d4ba5c68
 title: Pumpkin Cheesecake Cookies
+description: 'Soft spiced pumpkin cookies with a baked cream cheese cheesecake filling.'
 difficulty: intermediate
 cookingMethods:
   - bake

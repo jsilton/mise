@@ -1,6 +1,7 @@
 ---
 miseId: 2f403de0-c10f-4fc7-a4b9-d7f9b41730e6
 title: Chocolate Vanilla Swirl Layer Cake
+description: 'Butter cake batter divided and swirled into vanilla and chocolate halves, layered and covered in bittersweet chocolate ganache.'
 difficulty: intermediate
 cookingMethods:
   - bake

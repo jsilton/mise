@@ -1,6 +1,7 @@
 ---
 miseId: 39e2ccbe-bf8d-43b8-81eb-994a231c70fc
 title: Cauliflower Rice
+description: 'Riced cauliflower sauteed in olive or avocado oil with garlic, salt and pepper, finished with fresh herbs.'
 difficulty: easy
 cookingMethods:
   - saute

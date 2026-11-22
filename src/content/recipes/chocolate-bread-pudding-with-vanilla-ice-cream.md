@@ -1,5 +1,6 @@
 ---
 title: Chocolate Bread Pudding
+description: 'Brioche cubes soaked in a cocoa custard with bittersweet and white chocolate, baked and served with vanilla bean ice cream.'
 difficulty: easy
 cookingMethods:
   - bake

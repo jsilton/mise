@@ -1,6 +1,7 @@
 ---
 miseId: 1f4015ec-d6ad-44d1-9bed-a6fd41c59d00
 title: Seared Scallops with Corn & Avocado Relish
+description: 'Golden seared sea scallops over a warm relish of fresh corn, bacon, red bell pepper, avocado and parsley, with lemon.'
 difficulty: easy
 cookingMethods:
   - saute

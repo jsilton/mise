@@ -1,6 +1,7 @@
 ---
 miseId: 0b2656d1-a655-4472-951c-6214337e2aa7
 title: Slow Cooker Cheesy Mushroom Quinoa
+description: 'Quinoa cooked in broth with mushrooms, red bell pepper, cream cheese and shredded Italian cheese blend.'
 difficulty: intermediate
 cookingMethods:
   - slow-cook

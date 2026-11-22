@@ -1,6 +1,7 @@
 ---
 miseId: 3bde7cd7-5ff0-4074-b042-7cbdb1914528
 title: Pan Fried Noodles with Shrimp
+description: 'Crisp Hong Kong-style egg noodle cake topped with shrimp, vegetables and a savory oyster sauce gravy.'
 difficulty: easy
 cookingMethods:
   - fry

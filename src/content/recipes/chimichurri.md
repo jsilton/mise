@@ -1,6 +1,7 @@
 ---
 miseId: ef21b4ae-ed86-4d17-bbda-085caccfd50e
 title: Chimichurri
+description: 'An Argentine sauce of chopped parsley, oregano and garlic in red wine vinegar and olive oil, with red pepper flakes.'
 origin: Argentina
 difficulty: easy
 cookingMethods:

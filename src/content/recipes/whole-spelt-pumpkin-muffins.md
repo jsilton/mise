@@ -1,6 +1,7 @@
 ---
 miseId: 6bdef10f-c5c8-45d1-8243-d151496b7300
 title: Whole Spelt Pumpkin Muffins
+description: 'Honey-sweetened muffins made with whole spelt flour, pumpkin puree, melted butter and pumpkin pie spice.'
 difficulty: easy
 cookingMethods:
   - bake

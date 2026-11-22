@@ -1,6 +1,7 @@
 ---
 miseId: 444c8dc0-71dd-4073-b299-5fa1aa7c3dda
 title: Tamagoyaki (Japanese Rolled Omelet)
+description: 'A Japanese rolled omelet of eggs whisked with dashi, mirin, soy sauce and sugar, cooked in thin layers and rolled up.'
 difficulty: intermediate
 cookingMethods:
   - pan-fry

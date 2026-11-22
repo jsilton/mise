@@ -1,6 +1,7 @@
 ---
 miseId: 327867c0-122d-4576-babe-980b173d44cc
 title: Mongolian Chicken
+description: 'Thin chicken slices coated in cornstarch and shallow-fried until crisp, then tossed in a sweet soy sauce with ginger, garlic and scallions.'
 role: main
 vibe: quick
 difficulty: easy

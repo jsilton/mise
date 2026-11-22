@@ -1,6 +1,7 @@
 ---
 miseId: 469feb54-1112-494d-a269-2f6e80588913
 title: Strawberry Summer Cake
+description: 'Buttery vanilla cake topped with halved fresh strawberries and a sprinkle of sugar, baked until golden.'
 difficulty: easy
 cookingMethods:
   - bake

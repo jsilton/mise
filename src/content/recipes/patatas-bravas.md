@@ -1,6 +1,7 @@
 ---
 miseId: 55302139-20ba-4e78-8157-ebed095b755a
 title: Patatas Bravas
+description: 'Twice-cooked fried potato chunks under a smoky, spicy tomato sauce made with pimentón, served with garlicky alioli.'
 difficulty: intermediate
 cookingMethods:
   - fry

@@ -1,6 +1,7 @@
 ---
 miseId: 0f5844ea-417b-493f-b36c-62a4c611fe19
 title: Sweet Potato Latkes
+description: 'Crisp, lacy pan-fried pancakes of coarsely grated sweet potato and scallions bound with egg and a little flour.'
 difficulty: easy
 cookingMethods:
   - fry

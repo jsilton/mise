@@ -1,6 +1,7 @@
 ---
 miseId: fe500d2a-eea3-4e09-b840-412d3de4e9a8
 title: Banana Egg Oat Pancakes
+description: 'Flourless pancakes blended from ripe banana, eggs, rolled oats and almond butter, flavored with cinnamon and cooked in butter.'
 difficulty: easy
 cookingMethods:
   - griddle

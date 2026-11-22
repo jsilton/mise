@@ -1,6 +1,7 @@
 ---
 miseId: 93f0e9d8-9f1c-456d-a8e4-897fae1a509d
 title: Belgian Waffles
+description: 'Light Belgian waffles with whipped egg whites folded into a vanilla batter, served with maple syrup.'
 origin: Belgium
 difficulty: easy
 cookingMethods:

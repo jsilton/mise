@@ -1,6 +1,7 @@
 ---
 miseId: 8c67a4d0-3d11-4d92-98c6-b06e9c185791
 title: Banana Oat Greek Yogurt Muffins
+description: 'Muffins of rolled oats, Greek yogurt and ripe bananas studded with dark chocolate chips.'
 difficulty: easy
 cookingMethods:
   - bake

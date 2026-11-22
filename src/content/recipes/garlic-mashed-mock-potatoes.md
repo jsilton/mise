@@ -1,6 +1,7 @@
 ---
 miseId: 08512f6b-46b3-4431-af63-e8a3ce4dfa5d
 title: Garlic Mashed "Mock" Potatoes
+description: 'Steamed cauliflower mashed with garlic butter, cream cheese and Parmesan as a low-carb stand-in for mashed potatoes, topped with chives.'
 difficulty: easy
 cookingMethods:
   - boil

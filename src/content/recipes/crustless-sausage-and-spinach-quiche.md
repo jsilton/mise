@@ -1,6 +1,7 @@
 ---
 miseId: aff772a7-595f-41ba-a7f3-0599912dedb8
 title: Crustless Sausage & Spinach Quiche
+description: 'Crustless egg quiche with Italian chicken sausage, baby spinach, sharp cheddar and Parmesan, seasoned with a pinch of nutmeg.'
 difficulty: easy
 cookingMethods:
   - bake

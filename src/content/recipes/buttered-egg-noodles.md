@@ -1,6 +1,7 @@
 ---
 miseId: 330875cd-7a5a-4b9a-b26d-8bef17585e90
 title: Buttered Egg Noodles
+description: 'Wide egg noodles tossed with butter, salt, pepper and a little starchy pasta water, with optional parsley.'
 difficulty: easy
 cookingMethods:
   - boil

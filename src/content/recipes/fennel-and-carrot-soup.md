@@ -1,6 +1,7 @@
 ---
 miseId: bdc0f942-c446-4b38-b30c-6c950968ee79
 title: Fennel and Carrot Soup
+description: 'Pureed vegetable soup of fennel, carrots, onion and Yukon Gold potato simmered in vegetable broth with thyme, bay and butter.'
 difficulty: easy
 cookingMethods:
   - saute

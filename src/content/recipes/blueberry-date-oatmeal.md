@@ -1,6 +1,7 @@
 ---
 miseId: 685fe961-432a-408f-91b9-f716e1c41f84
 title: Blueberry Date Oatmeal
+description: 'Creamy stovetop oatmeal sweetened with chopped Medjool dates and frozen blueberries, enriched with coconut oil and cinnamon.'
 difficulty: easy
 cookingMethods:
   - simmer

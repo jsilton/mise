@@ -1,6 +1,7 @@
 ---
 miseId: 0cc75a11-ca1c-45b0-aac8-8c6fe890cb7c
 title: Apple Chai Oatmeal Cups
+description: 'Baked oatmeal cups made with rolled oats, minced apple, banana and eggs, spiced with cinnamon, cardamom, ginger, nutmeg and allspice.'
 difficulty: easy
 cookingMethods:
   - bake

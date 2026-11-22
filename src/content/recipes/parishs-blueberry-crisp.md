@@ -1,6 +1,7 @@
 ---
 miseId: 366ec8c8-59ad-4952-9027-c3b60797f6dd
 title: Parish’s Blueberry Crisp
+description: 'Fresh blueberries with lemon and cornstarch baked under a brown butter crumble of flour and two kinds of sugar.'
 difficulty: easy
 cookingMethods:
   - bake

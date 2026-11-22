@@ -1,6 +1,7 @@
 ---
 miseId: 6e5b6349-ed55-40c3-a14d-98686f48c662
 title: Soba Noodles with Shiitakes & Tofu
+description: 'Soba noodles stir-fried with shiitake mushrooms, baby broccoli and tofu in a ginger, garlic, soy and Shaoxing wine sauce.'
 difficulty: intermediate
 cookingMethods:
   - fry

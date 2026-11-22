@@ -1,6 +1,7 @@
 ---
 miseId: 311f9e6a-e1be-49ae-a444-35c7e5185bf7
 title: Old-Fashioned Vanilla Ice Cream
+description: 'A classic custard ice cream of milk, egg yolks, sugar and cold heavy cream, flavored with vanilla bean paste.'
 difficulty: intermediate
 cookingMethods:
   - simmer

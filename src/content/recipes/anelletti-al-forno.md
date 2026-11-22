@@ -1,6 +1,7 @@
 ---
 miseId: ba52ad98-8b00-4376-8b3c-24392c10b83b
 title: Anelletti Al Forno
+description: 'A Sicilian baked pasta of little rings layered with cinnamon-scented beef and pork ragù, fried eggplant, ham, eggs and two cheeses.'
 aliases:
   - anelletti-al-forno-the-sicilian-pasta-bake
 difficulty: intermediate

@@ -1,6 +1,7 @@
 ---
 miseId: bf56ec43-823c-4895-a0cf-24b36be5819b
 title: Onigiri (Japanese Rice Balls)
+description: 'Hand-shaped balls of Japanese short-grain rice filled with tuna and mayonnaise and wrapped in strips of nori.'
 origin: Japan
 difficulty: easy
 cookingMethods:

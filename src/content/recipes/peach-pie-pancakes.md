@@ -1,6 +1,7 @@
 ---
 miseId: 4432c9c1-159d-4500-b2f0-076ed9671edb
 title: Peach Pie Pancakes
+description: 'Whole wheat silver dollar pancakes made with Greek yogurt, cinnamon, vanilla and diced fresh peaches, served with maple syrup.'
 difficulty: easy
 cookingMethods:
   - griddle

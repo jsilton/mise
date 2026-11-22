@@ -1,6 +1,7 @@
 ---
 miseId: 29606f52-0a79-4fa6-9e01-7ed519d5048b
 title: Brownies
+description: 'Fudgy chocolate brownies made with olive oil, cocoa powder and dark chocolate chips, finished with sea salt.'
 difficulty: easy
 cookingMethods:
   - bake

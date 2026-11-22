@@ -1,6 +1,7 @@
 ---
 miseId: 3c05eaf5-db8e-415d-8f57-a078d33279e4
 title: Breakfast Quesadilla
+description: 'Flour tortillas filled with scrambled eggs and melted cheese, served with pico de gallo and sour cream.'
 difficulty: easy
 cookingMethods:
   - saute

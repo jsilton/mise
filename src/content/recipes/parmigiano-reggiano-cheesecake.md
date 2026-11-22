@@ -1,6 +1,7 @@
 ---
 miseId: 54ea46a9-b1ba-4d00-9bad-cb18de16b210
 title: Parmigiano Reggiano Cheesecake
+description: 'A cream cheese and sour cream cheesecake with grated Parmigiano-Reggiano in the filling and in a graham cracker and sunflower seed crust.'
 difficulty: intermediate
 cookingMethods:
   - bake

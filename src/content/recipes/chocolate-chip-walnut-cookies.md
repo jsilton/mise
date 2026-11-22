@@ -1,6 +1,7 @@
 ---
 miseId: ab497c3e-b2c4-4984-b5bf-24c527a5184e
 title: Chocolate Chip Walnut Cookies
+description: 'Classic butter cookies with white and brown sugar, semisweet chocolate chips and chopped walnuts.'
 role: dessert
 vibe: comfort
 difficulty: easy

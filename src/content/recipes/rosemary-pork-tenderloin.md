@@ -1,6 +1,7 @@
 ---
 miseId: a8da34ee-c113-4725-87db-7e897a536805
 title: Pork Tenderloin
+description: 'Pork tenderloins coated in Dijon mustard, garlic and rosemary, then roasted on rosemary sprigs under strips of maple bacon.'
 difficulty: easy
 cookingMethods:
   - bake

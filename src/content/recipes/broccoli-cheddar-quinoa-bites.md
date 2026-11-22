@@ -1,6 +1,7 @@
 ---
 miseId: f1981876-29d2-459c-a489-d2622bc53c64
 title: Broccoli Cheddar Quinoa Bites
+description: 'Baked bites of cooked quinoa, finely chopped broccoli and sharp cheddar, bound with egg and seasoned with garlic powder and green onions.'
 difficulty: easy
 cookingMethods:
   - bake

@@ -1,6 +1,7 @@
 ---
 miseId: 0f72ea29-7fcd-487b-a44d-99841aaaf100
 title: General Tso's Tofu
+description: "Crisp honey and sesame coated tofu and broccoli in a sweet, sour and spicy General Tso's sauce with ginger and dried chilies."
 difficulty: easy
 cookingMethods:
   - fry

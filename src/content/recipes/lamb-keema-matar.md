@@ -1,6 +1,7 @@
 ---
 miseId: 5a1ad320-79ad-47a2-b445-9109aba89765
 title: Lamb Keema Matar
+description: 'Ground lamb simmered with onion, ginger, garlic, turmeric, Kashmiri chili and tomato paste, with green peas and garam masala.'
 difficulty: easy
 cookingMethods:
   - sear

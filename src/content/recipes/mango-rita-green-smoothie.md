@@ -1,6 +1,7 @@
 ---
 miseId: 6c31d6b4-7906-4a88-85ce-b7e936fe3750
 title: Mango-Rita Green Smoothie
+description: 'Blended smoothie of baby spinach, frozen mango and pineapple, coconut water, orange and lime with a pinch of salt.'
 difficulty: easy
 cookingMethods:
   - blend

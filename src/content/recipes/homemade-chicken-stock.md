@@ -1,6 +1,7 @@
 ---
 miseId: 74d392f8-f2a3-47ab-9dcb-564b89ea186e
 title: Homemade Chicken Stock
+description: 'Unsalted stock of chicken bones gently simmered with unpeeled onion, carrot, celery, garlic, parsley stems, thyme and bay.'
 difficulty: easy
 cookingMethods:
   - simmer

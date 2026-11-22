@@ -1,6 +1,7 @@
 ---
 miseId: b81b2727-0ae6-41c8-8122-d96bc2ed2d65
 title: Kimchi Jjigae (Kimchi Stew)
+description: 'Korean stew of fermented kimchi, pork belly, tofu and mushrooms simmered in a gochugaru and gochujang broth.'
 difficulty: easy
 cookingMethods:
   - simmer

@@ -1,6 +1,7 @@
 ---
 miseId: 5628d460-b1fc-468d-a2ce-82284b7ecac4
 title: Red Zone Margarita
+description: 'A deep red batch margarita of reposado tequila, Campari, Cointreau and lime juice with spiced cranberry syrup and cranberry and blueberry ice.'
 aliases:
   - foxboro-red-margarita
 difficulty: intermediate

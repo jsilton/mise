@@ -1,6 +1,7 @@
 ---
 miseId: b4bf1532-a0f4-451c-bd39-d1df78076663
 title: Crispy Oven Zucchini Fries
+description: 'Zucchini sticks coated in flour, egg and a panko and Parmigiano-Reggiano crumb, baked until crisp.'
 difficulty: easy
 cookingMethods:
   - bake

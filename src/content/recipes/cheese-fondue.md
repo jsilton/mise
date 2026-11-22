@@ -1,6 +1,7 @@
 ---
 miseId: 5365f60d-d5bf-4679-91c6-ada792b00051
 title: Cheese Fondue
+description: 'A classic Swiss fondue of Gruyère and Emmentaler melted into dry white wine with kirsch, served with bread, apples and broccoli.'
 difficulty: easy
 cookingMethods:
   - simmer

@@ -1,6 +1,7 @@
 ---
 miseId: 92ee1f97-842b-4618-a8f6-6bef0f1f76c1
 title: Ratatouille
+description: 'Roasted eggplant, bell pepper, zucchini and yellow squash folded into a garlicky fresh tomato and onion sauce with basil.'
 difficulty: intermediate
 cookingMethods:
   - bake

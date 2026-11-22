@@ -1,6 +1,7 @@
 ---
 miseId: 62d807bf-73d2-4863-9f96-50c7842d0ed6
 title: Restaurant-Style Chicken Lo Mein
+description: 'Fresh egg noodles stir-fried with marinated chicken, cabbage, carrots, bean sprouts and scallions in a soy and Shaoxing wine sauce.'
 role: main
 vibe: quick
 difficulty: easy

@@ -1,6 +1,7 @@
 ---
 miseId: 9b064b28-542b-4574-809e-c0d106aa50f1
 title: Roasted Red Pepper and Sweet Potato Soup
+description: 'Pureed soup of sweet potatoes, jarred roasted red peppers, onion and garlic simmered in chicken stock and coconut milk.'
 role: main
 vibe: comfort
 difficulty: easy

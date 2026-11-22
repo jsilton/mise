@@ -1,6 +1,7 @@
 ---
 miseId: cc442e15-d7ca-4092-bfc0-fbbb294c25e4
 title: Spanish Rice and Chickpeas
+description: 'A one-pan meatless rice dish of toasted long-grain rice, chickpeas and diced tomatoes seasoned with smoked paprika and oregano.'
 difficulty: easy
 cookingMethods:
   - fry

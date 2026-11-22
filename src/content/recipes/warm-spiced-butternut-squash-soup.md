@@ -1,6 +1,7 @@
 ---
 miseId: 11876c48-96ef-455b-9e87-3c263687a26f
 title: Spiced Butternut Squash Soup
+description: 'Butternut squash and onion simmered in a broth steeped from the squash peels with allspice, cloves, cinnamon and star anise, then pureed.'
 difficulty: easy
 cookingMethods:
   - saute

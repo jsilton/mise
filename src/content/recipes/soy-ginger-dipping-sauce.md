@@ -1,6 +1,7 @@
 ---
 miseId: 8765f671-c1e8-4c3d-860f-02cb5857a825
 title: Soy Ginger Dipping Sauce
+description: 'Quick dipping sauce of soy sauce, rice vinegar, sesame oil, fresh ginger, garlic and green onion.'
 difficulty: easy
 cookingMethods:
   - raw

@@ -1,6 +1,7 @@
 ---
 miseId: 34427094-303f-464b-b01d-28f4be8c58cc
 title: Classic French Toast
+description: 'Thick slices of challah or brioche soaked in a vanilla, cinnamon and nutmeg custard and griddled in butter.'
 difficulty: easy
 cookingMethods:
   - saute

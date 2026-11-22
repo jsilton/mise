@@ -1,6 +1,7 @@
 ---
 miseId: bd8d9759-cf1d-480b-8c5c-bf8ddd146207
 title: Ham & Cheese Quiche
+description: 'Deep-dish quiche with ham, onion, spinach and cheddar and mozzarella, baked in a pie crust with an egg and half-and-half custard.'
 difficulty: easy
 cookingMethods:
   - bake

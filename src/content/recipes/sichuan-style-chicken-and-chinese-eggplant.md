@@ -302,7 +302,7 @@ formula:
           preparation: for finishing
           optional: true
           uses:
-            - step: finish
+            - step: season
               share: 1
         - id: extra-soy
           key: light-soy
@@ -313,7 +313,7 @@ formula:
           preparation: for finishing
           optional: true
           uses:
-            - step: finish
+            - step: season
               share: 1
         - id: rice
           key: rice
@@ -378,7 +378,12 @@ formula:
       text: >-
         Whisk the sauce again and pour it in. Simmer, stirring, until glossy, 30 to 60 seconds.
         Return the chicken and its juices, then gently fold in the eggplant and heat through, 1 to 2
-        minutes. Add a splash of water if the glaze is thick. Stir in {{ingredients}}.
+        minutes. Add a splash of water if the glaze is thick.
+    - id: season
+      title: Taste and adjust
+      text: >-
+        Taste, and if it needs more salt or brightness, stir in up to {{ingredients}}, a little at a
+        time.
     - id: serve
       title: Serve
       text: 'Turn off the heat and fold in the scallion greens. Serve right away with {{ingredients}}.'
@@ -466,5 +471,6 @@ This is Jordan's Sichuan-style chicken and eggplant: silky Chinese eggplant and 
 7. **Cook the chicken through:** Cook, stirring every minute or so, until browned in spots and 165°F in the thickest strips, 8 to 12 minutes. If the marinade catches, lower the heat and add a splash of water. Move the chicken and its juices to a second plate.
 8. **Fry the chili-bean paste:** Wipe out any scorched bits and lower the heat to medium. Add the Pixian doubanjiang and 1 tbsp of the neutral high-heat cooking oil and stir until fragrant and the oil turns red, 20 to 30 seconds.
 9. **Add the aromatics:** Add the scallions, garlic, ginger, and crushed red pepper flakes (if using), holding back the scallion greens for the end. Stir until fragrant, 20 to 30 seconds.
-10. **Glaze and finish:** Whisk the sauce again and pour it in. Simmer, stirring, until glossy, 30 to 60 seconds. Return the chicken and its juices, then gently fold in the eggplant and heat through, 1 to 2 minutes. Add a splash of water if the glaze is thick. Stir in 1 1/2 tsp of the Chinkiang black vinegar (if using) and 1 1/2 tsp of the light soy sauce (if using).
-11. **Serve:** Turn off the heat and fold in the scallion greens. Serve right away with the steamed rice.
+10. **Glaze and finish:** Whisk the sauce again and pour it in. Simmer, stirring, until glossy, 30 to 60 seconds. Return the chicken and its juices, then gently fold in the eggplant and heat through, 1 to 2 minutes. Add a splash of water if the glaze is thick.
+11. **Taste and adjust:** Taste, and if it needs more salt or brightness, stir in up to 1 1/2 tsp of the Chinkiang black vinegar (if using) and 1 1/2 tsp of the light soy sauce (if using), a little at a time.
+12. **Serve:** Turn off the heat and fold in the scallion greens. Serve right away with the steamed rice.

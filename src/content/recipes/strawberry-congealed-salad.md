@@ -1,5 +1,6 @@
 ---
 title: Strawberry Congealed Salad
+description: 'A Southern layered Jell-O salad of strawberries, crushed pineapple, banana and pecans with a cool layer of sour cream through the middle.'
 difficulty: easy
 cookingMethods:
   - boil

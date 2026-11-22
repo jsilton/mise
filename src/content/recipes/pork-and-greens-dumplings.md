@@ -1,6 +1,7 @@
 ---
 miseId: a2f00458-34db-4c2b-a4ee-a65c79ee7a72
 title: Pork and Greens Dumplings
+description: "Dumplings filled with fatty ground pork, blanched shepherd's purse, Shaoxing wine and sesame oil, served with black vinegar or chili oil."
 role: main
 vibe: technical
 difficulty: intermediate

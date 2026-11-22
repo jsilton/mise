@@ -1,6 +1,7 @@
 ---
 miseId: 3c5ef2fc-5c4f-4e98-a03a-385f070901d8
 title: Mediterranean Grain Salad
+description: 'Pearled farro salad with cucumber, tomato, red bell pepper, red onion, Kalamata olives and crumbled feta.'
 difficulty: easy
 cookingMethods:
   - boil

@@ -1,6 +1,7 @@
 ---
 miseId: 92bde61f-dfbe-4ec8-8a1d-7dc9772f2433
 title: Jeri's Lentil Soup
+description: 'A hearty soup of green or brown lentils, carrots and onion simmered with crushed tomatoes, Italian seasoning, broth and white wine.'
 difficulty: easy
 cookingMethods:
   - saute

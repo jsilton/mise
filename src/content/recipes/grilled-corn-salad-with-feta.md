@@ -1,6 +1,7 @@
 ---
 miseId: 77b787ed-e95d-4f72-9226-d153844fbe43
 title: Grilled Corn Salad with Feta
+description: 'Grilled ears of corn cut from the cob and tossed with red onion, lime, olive oil, crumbled feta and fresh herbs.'
 role: side
 vibe: quick
 difficulty: easy

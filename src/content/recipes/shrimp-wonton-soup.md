@@ -1,6 +1,7 @@
 ---
 miseId: 6df6ad76-fd90-4afb-9852-6b3ddd382c6a
 title: Shrimp Wonton Soup
+description: 'Cantonese wontons filled with ground pork and shrimp in a clear broth with baby bok choy, shredded nori, sesame oil and cilantro.'
 difficulty: intermediate
 cookingMethods:
   - boil

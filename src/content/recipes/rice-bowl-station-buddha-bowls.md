@@ -1,6 +1,7 @@
 ---
 miseId: 28001578-e155-44d2-9d62-fca2078e3b88
 title: Rice Bowl Station (Buddha Bowls)
+description: 'Bowls of cooked rice, quinoa or farro with a choice of proteins, fresh vegetables, crunchy toppings and a drizzled sauce.'
 difficulty: easy
 cookingMethods:
   - no-cook

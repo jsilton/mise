@@ -1,6 +1,7 @@
 ---
 miseId: 14a74f62-cc50-4ffd-bc20-631b6c9493d0
 title: Peach Pie Biscuit Bombs
+description: 'Refrigerated flaky biscuits filled with peaches, Brie, brown sugar, cinnamon and honey, then baked with butter.'
 difficulty: easy
 cookingMethods:
   - bake

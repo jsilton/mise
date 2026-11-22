@@ -1,6 +1,7 @@
 ---
 miseId: ff7c47ce-d855-495c-a558-653bd4921e39
 title: Shrimp with Lobster Sauce
+description: 'Shrimp in a savory sauce of ground pork, fermented black beans and garlic, thickened with cornstarch and finished with swirled egg.'
 difficulty: easy
 cookingMethods:
   - fry

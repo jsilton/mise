@@ -1,6 +1,7 @@
 ---
 miseId: a208e575-e455-470e-96c0-c11b914587e7
 title: Keto Egg Muffins
+description: 'Baked egg cups with chopped Spanish chorizo, scallions, basil pesto and sharp cheddar, made without flour.'
 difficulty: easy
 cookingMethods:
   - bake

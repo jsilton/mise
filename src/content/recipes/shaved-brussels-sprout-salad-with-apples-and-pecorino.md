@@ -1,6 +1,7 @@
 ---
 miseId: d86c674b-4145-4f24-9788-4ac273bee26f
 title: Shaved Brussels Sprout Salad
+description: 'Raw Brussels sprouts shaved paper-thin and tossed with Granny Smith apple and Pecorino Romano in a honey and apple cider vinegar dressing.'
 difficulty: easy
 cookingMethods:
   - no-cook

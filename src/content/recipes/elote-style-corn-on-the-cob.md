@@ -1,6 +1,7 @@
 ---
 miseId: 5290aec8-988b-4643-919c-709e6f4fa2d0
 title: Elote-Style Corn on the Cob
+description: 'Fresh corn on the cob coated in mayonnaise and crema, rolled in cotija, cilantro and chili powder, served with lime.'
 difficulty: easy
 cookingMethods:
   - grill

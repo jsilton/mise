@@ -1,6 +1,7 @@
 ---
 miseId: 82d93607-ee7e-4d69-a549-b97801acd004
 title: Brownie Oatmeal
+description: 'Rolled oats blended with ripe banana, egg, maple syrup and cocoa, topped with dark chocolate chips and baked like a fudgy brownie.'
 difficulty: easy
 origin: United States
 cookingMethods:

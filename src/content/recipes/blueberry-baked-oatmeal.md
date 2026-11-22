@@ -1,6 +1,7 @@
 ---
 miseId: 7f209cd6-922b-4845-a6ce-bb9227630ad1
 title: Blueberry Oatmeal
+description: 'Rolled oats baked with blueberries, maple syrup, cinnamon and toasted seeds into a jammy, sliceable breakfast, served with yogurt.'
 difficulty: easy
 cookingMethods:
   - bake

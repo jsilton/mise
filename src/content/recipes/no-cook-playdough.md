@@ -1,6 +1,7 @@
 ---
 miseId: d5e4fbca-24d1-48ed-ad76-e26f1efa4a58
 title: No-Cook Playdough
+description: 'Soft homemade modeling dough made from flour, salt, cream of tartar, boiling water and oil, tinted with food coloring.'
 difficulty: easy
 cookingMethods:
   - boil

@@ -1,6 +1,7 @@
 ---
 miseId: 4389f356-1039-47d1-9adc-ec9a92ca999b
 title: Sheet Pan Pesto Chicken Bowls
+description: 'Chicken breasts roasted in a basil pesto and Parmigiano mixture with mushrooms, broccoli, zucchini and cherry tomatoes, portioned into meal prep bowls.'
 difficulty: easy
 cookingMethods:
   - bake

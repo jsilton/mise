@@ -1,6 +1,7 @@
 ---
 miseId: b0641c55-7dab-46f6-983a-3402d3aa2e7b
 title: Peanut Noodles
+description: 'Chinese wheat noodles tossed in a sauce of peanut butter, soy sauce, rice vinegar, sesame oil, garlic and ginger.'
 difficulty: easy
 cookingMethods:
   - boil

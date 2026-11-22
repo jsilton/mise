@@ -1,6 +1,7 @@
 ---
 miseId: 8ab2ad8b-0998-4311-a54f-4a1514efa5e4
 title: Sausage and White Bean Skillet
+description: 'Italian pork sausage simmered with cannellini beans, onion, garlic, tomato paste and herbs in chicken stock.'
 difficulty: easy
 cookingMethods:
   - saute

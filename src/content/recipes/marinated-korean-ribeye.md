@@ -1,6 +1,7 @@
 ---
 miseId: c649bedc-30a2-4c58-8184-d9783671d1ea
 title: Bulgogi
+description: 'Paper-thin ribeye marinated in soy sauce, sesame oil, grated Asian pear, garlic and ginger, then seared quickly over high heat.'
 difficulty: easy
 cookingMethods:
   - marinate

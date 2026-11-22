@@ -1,6 +1,7 @@
 ---
 miseId: 89ab3f8b-ebd3-4423-8879-8d56111ffad1
 title: Slow Cooker Mongolian Beef
+description: 'Thin flank steak tossed in cornstarch and slow cooked in a glossy sauce of soy sauce, brown sugar, garlic and ginger.'
 role: main
 vibe: comfort
 difficulty: easy

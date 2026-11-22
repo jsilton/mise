@@ -1,6 +1,7 @@
 ---
 miseId: 4cc01e42-b3b8-4c0b-a773-c0e21d8d2c1c
 title: Cantonese Steamed Fish
+description: 'Whole snapper or sea bass steamed with ginger and scallions, then dressed with a Shaoxing wine and light soy sauce.'
 origin: China
 difficulty: easy
 cookingMethods:

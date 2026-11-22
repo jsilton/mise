@@ -1,6 +1,7 @@
 ---
 miseId: 12d62e2c-337c-400e-9341-fb7ba339fa63
 title: Roasted Broccolini with Lemon
+description: 'Broccolini roasted with olive oil, sliced garlic and red pepper flakes alongside lemon slices, finished with lemon juice and flaky salt.'
 difficulty: easy
 cookingMethods:
   - roast

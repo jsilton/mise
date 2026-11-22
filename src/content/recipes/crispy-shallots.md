@@ -1,6 +1,7 @@
 ---
 miseId: 59ef86c1-3e13-4e1b-a3b8-d6e9e7c81bef
 title: Crispy Shallots
+description: 'Thinly sliced shallots fried slowly in oil until golden and crunchy, then salted, for topping soups, salads and stir-fries.'
 difficulty: easy
 role: condiment
 vibe: quick

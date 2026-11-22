@@ -1,6 +1,7 @@
 ---
 miseId: b4a508e0-3b2b-45ae-bffd-5d27575964cf
 title: Smashed Potatoes
+description: 'Boiled baby potatoes smashed flat and roasted in olive oil with garlic powder and rosemary until crisp, finished with flaky salt.'
 difficulty: easy
 origin: United States
 cookingMethods:

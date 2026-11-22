@@ -38,11 +38,11 @@ pairingNotes:
   the-easiest-spinach-lasagna: The classic Italian-American dinner side.
   vegetable-minestrone: Crisp, buttery bread for dunking.
 ingredients:
-  - 400 g crusty Italian bread or baguette
-  - '6 tbsp (85 g) unsalted butter, softened'
+  - '1 (14 oz) loaf crusty Italian bread or baguette'
+  - '6 tbsp unsalted butter, softened'
   - '4 cloves garlic, finely grated'
   - '2 tbsp parsley, finely chopped'
-  - '25 g Parmesan, finely grated'
+  - '1/4 cup finely grated Parmesan (about 1 oz)'
   - 1/4 tsp fine salt
 origin: Italian-American home cooking
 description: >-

@@ -1,6 +1,7 @@
 ---
 miseId: 718d2c88-b943-4c3e-b774-2f6c347db96e
 title: Chia Pudding
+description: 'Chia seeds soaked overnight in milk with maple syrup and vanilla into a thick pudding, topped with berries, almond butter and granola.'
 difficulty: easy
 cookingMethods:
   - no-cook

@@ -1,6 +1,7 @@
 ---
 miseId: d3e5d989-9814-4c3f-a1c7-5bee277ef275
 title: Gnocchi with Zucchini Ribbons & Brown Butter
+description: 'Potato gnocchi tossed with zucchini ribbons, cherry tomatoes and shallots in brown butter, finished with nutmeg, Parmesan and parsley.'
 difficulty: intermediate
 cookingMethods:
   - saute

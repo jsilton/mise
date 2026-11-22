@@ -1,6 +1,7 @@
 ---
 miseId: 7cd3772f-683f-41c9-b707-7c30daf939b2
 title: Red Velvet Cupcakes
+description: 'Cocoa-tinged red velvet cupcakes made with buttermilk, oil, butter and cornstarch, topped with frosting.'
 difficulty: easy
 cookingMethods:
   - bake

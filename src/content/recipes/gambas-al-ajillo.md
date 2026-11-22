@@ -1,6 +1,7 @@
 ---
 miseId: 64645222-319c-4a21-856f-c21a169fb6ab
 title: Gambas al Ajillo
+description: 'Shrimp sizzled in olive oil with sliced garlic, guindilla peppers and smoked paprika, finished with sherry, lemon and parsley.'
 origin: Spain
 difficulty: easy
 cookingMethods:

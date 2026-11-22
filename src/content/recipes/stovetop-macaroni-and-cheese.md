@@ -1,6 +1,7 @@
 ---
 miseId: a46c2c81-a903-4614-839e-b4d46757baf8
 title: Stovetop Macaroni & Cheese
+description: 'Elbow macaroni in a stovetop sauce of milk, flour and sharp cheddar with dry mustard, with optional broiled breadcrumbs.'
 difficulty: easy
 cookingMethods:
   - boil

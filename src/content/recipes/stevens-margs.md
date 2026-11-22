@@ -1,6 +1,7 @@
 ---
 miseId: af4f865e-4c00-4c28-9681-93e3acdc9302
 title: Steven’s Margaritas
+description: 'Margarita shaken with reposado tequila, Cointreau, fresh lime juice and a squirt of agave, finished with smoked sea salt.'
 difficulty: easy
 cookingMethods:
   - mix
