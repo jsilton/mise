@@ -82,7 +82,7 @@ formula:
           key: cooking-oil
           name: cooking oil
           quantity:
-            amount: 1/2
+            amount: 1/3
             unit: cup
           uses:
             - step: roux
@@ -259,7 +259,7 @@ formula:
         Sprinkle {{ingredients}} over each bowl just before eating. Never let the gumbo boil once
         the filé is in.
 ingredients:
-  - 1/2 cup cooking oil
+  - 1/3 cup cooking oil
   - 1 1/4 cups all-purpose flour
   - 3 quarts water
   - 1 can (16 oz) tomatoes

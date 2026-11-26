@@ -8,4 +8,4 @@ From the card: 3 to 4 lb shrimp, a 16 oz can of tomatoes, 2 to 3 bay leaves, 1/2
 
 Additions needed to cook: 3 quarts water (the card gives no liquid amount), peeling and deveining, an 8-quart pot, a 12 oz okra package size, salt to taste, roux, onion and okra times, 4 green onions and 2 celery ribs as amounts, putting the tomatoes and bay leaves in the boiling water (the card does not say when), and discarding the bay leaves. The card lists 2 medium onions or 1 large, and says to use fewer onions with green onions, so both are a substitution. The card says to add filé before serving, read here as sprinkled on each bowl.
 
-Unsure reading: the oil amount is overwritten on the card. It reads as 1/2 cup here, but it may be 1/3 or 1/8. Ask the user to check before treating it as settled. The Suggested Tweak suggests oil equal to the flour either way.
+Oil amount: overwritten on the card. The user confirmed 1/3 cup on 2026-11-26. The Suggested Tweak still suggests oil equal to the flour for an easier roux.
