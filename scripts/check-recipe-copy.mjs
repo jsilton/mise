@@ -48,6 +48,13 @@ const FAMILY = new Set([
   'miso-salmon-with-bok-choy',
   'stevens-margs',
   'sichuan-style-chicken-and-chinese-eggplant',
+  'chicken-baked-in-cream-soup',
+  'yellow-squash-casserole',
+  'ground-beef-stroganoff',
+  'shrimp-gumbo',
+  'shrimp-craig',
+  'chicken-and-dumplings',
+  'cream-of-potato-and-bacon-soup',
 ]);
 const OLD_LEARNING = [
   'focus',

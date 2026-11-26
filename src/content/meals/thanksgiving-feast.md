@@ -3,14 +3,20 @@ title: Thanksgiving Feast
 template: plate
 main: good-eats-roast-turkey
 base: italian-kale-and-sausage-stuffing
-sides: [perfect-mashed-potatoes, perfect-cranberry-sauce, green-beans-with-shallots-and-lemon]
+sides:
+  [
+    perfect-mashed-potatoes,
+    perfect-cranberry-sauce,
+    green-beans-with-shallots-and-lemon,
+    spinach-madeleine,
+  ]
 sauce: turkey-pan-gravy
-totalPrepTime: 2 hr
+totalPrepTime: 2 hr 20 min
 totalCookTime: 4 hr 15 min
-totalActiveTime: 3 hr 30 min
+totalActiveTime: 4 hr
 totalTime: 26 hr
 overallDifficulty: hard
-cuisines: [American, Italian]
+cuisines: [American, Italian, Southern]
 occasions: [holiday, entertaining]
 seasons: [fall, winter]
 nutritionalDensity: hearty
@@ -22,9 +28,9 @@ review:
 
 ## Meal Overview
 
-For twelve diners, this menu uses a **14 to 16 lb aromatic wet-brined turkey**, a shallow sausage-kale stuffing, cream cheese mashed potatoes, whole-berry cranberry sauce with its orange variation, lemon-shallot green beans and a small portion of gravy. The stuffing and potatoes are modest holiday portions alongside each other.
+For twelve diners, this menu uses a **14 to 16 lb aromatic wet-brined turkey**, a shallow sausage-kale stuffing, cream cheese mashed potatoes, whole-berry cranberry sauce with its orange variation, lemon-shallot green beans, a baked Spinach Madeleine and a small portion of gravy. The stuffing and potatoes are modest holiday portions alongside each other.
 
-Allow about **twenty-six hours from a fully refrigerator-thawed bird**, with **three and a half hours hands-on across two days**. Thawing a frozen turkey takes additional refrigerator days. All quantities below are for twelve. Ask a helper to carve and carry hot dishes during the final half hour.
+Allow about **twenty-six hours from a fully refrigerator-thawed bird**, with **about four hours hands-on across two days**. Thawing a frozen turkey takes additional refrigerator days. All quantities below are for twelve. Ask a helper to carve and carry hot dishes during the final half hour.
 
 ## Amounts for twelve
 
@@ -33,6 +39,7 @@ Allow about **twenty-six hours from a fully refrigerator-thawed bird**, with **t
 - **Potatoes:** one and a half batches, starting with **2040 g peeled potatoes**, to supply about nine cups. The quantities are below.
 - **Cranberry sauce:** one full batch using **120 ml water, 60 ml orange juice and one teaspoon zest** in place of the water and peel strip, with the regular **150 g sugar**. About two cups gives twelve 2 to 3-tablespoon portions.
 - **Green beans:** three batches, **1350 g trimmed beans**, prepared and cooled a day ahead, then finished in three skillet rounds. Their quantities are below. Leave out the honey, because the cranberry and the turkey brine already bring sweetness.
+- **Spinach Madeleine:** two batches, baked in two 1 1/2-quart dishes. Each batch makes six portions of about two-thirds of a cup. Assemble both a day ahead and keep the crumb topping separate until baking.
 - **Gravy:** one and a half batches, about three cups, made with water in place of drippings before the turkey finishes. Use **45 g butter, 45 g flour, 675 ml good unsalted turkey stock, 45 ml water and about 3/16 tsp pepper**. Keep **3/8 tsp fine salt** for seasoning and **90 ml hot water** for loosening. The stock supplies the flavor.
 
 The gravy and creamy potatoes are rich. Portion gravy at about a quarter cup each. The green beans provide a full vegetable serving, while lemon and cranberry bring acidity in different forms.
@@ -62,23 +69,23 @@ For the final skillet work, soften all the shallots in the three tablespoons but
 
 ## Oven and refrigerator check
 
-The turkey and its brine container must fit inside the refrigerator along with the chilled sides. The turkey must be unenhanced and fully thawed in the refrigerator before its twelve-hour brine. Chill the brine before adding the bird.
+The turkey and its brine container must fit inside the refrigerator along with the chilled sides. The turkey must be unenhanced and fully thawed in the refrigerator before its twelve-hour brine. Chill the brine before adding the bird. The two covered Spinach Madeleine dishes also need refrigerator room overnight.
 
 The oven holds the turkey pan below the shallow 9-by-13-inch stuffing dish, with air space between and around them. Both use **325°F / 163°C** here. The stuffing takes forty to fifty-five minutes at that temperature. If both pans do not fit, use a second oven or the fully baked, refrigerated stuffing reheat described in [the smaller turkey dinner's oven plan](/mise/meals/thanksgiving-practice#equipment-and-oven-plan). That reheat lengthens the time between the turkey's rest and serving.
 
 ## Cooking Strategy
 
 1. **Plan backward from roasting:** The turkey needs twelve hours in a cold refrigerated brine, then four hours of uncovered drying in the refrigerator before roasting. Making and cooling the brine adds up to two hours before the soak. Count back from the oven start, with about four to five hours for roasting, checking, resting and carving.
-2. **During the overnight preparation:** Make and chill the orange cranberry sauce. Cook, cool and refrigerate the bean batches. Chop the stuffing vegetables and refrigerate them separately from the dry bread.
+2. **During the overnight preparation:** Make and chill the orange cranberry sauce. Cook, cool and refrigerate the bean batches. Make the two batches of Spinach Madeleine through filling the dishes, then cover and refrigerate them without the topping. Chop the stuffing vegetables and refrigerate them separately from the dry bread.
 3. **Drain and dry the bird:** Discard the brine, pat the bird dry without rinsing and give it its four-hour refrigerated drying stage. Preheat the oven and prepare the roasting pan near the end of that stage. Roast by the thermometer readings in the turkey recipe.
 4. **About ninety minutes before the turkey comes out:** Start the stuffing's bread hydration and stovetop preparation. Bake it right after combining, in its shallow dish above the turkey, until its center reaches **165°F / 74°C**.
 5. **About seventy-five minutes before serving:** Start the potatoes with the quantities above. While they simmer, make the one-and-a-half batch of gravy with water in place of drippings. Keep the gravy covered over the lowest heat and loosen it with hot water before serving.
-6. **As the turkey finishes:** Roast until both breasts, the inner thighs and the wing joints read **165°F / 74°C**, then rest the bird for thirty minutes. Cover the finished stuffing loosely and hold it in the oven at **200°F / 93°C**. Finish mashing the potatoes and cover the pot.
-7. **During the rest:** Finish the shallots and reheat the three bean batches in order, about twenty-five to thirty minutes. Hold the earlier batches in the warm oven, then finish all the beans with lemon. Carve after the final bean batch and keep the hot sides covered during those few minutes.
-8. **Serve twelve:** Portion turkey, stuffing, about three-quarters cup mash, a full share of beans, two to three tablespoons cranberry sauce and about a quarter cup gravy. Bring the cranberry sauce to the table chilled.
+6. **As the turkey finishes:** Roast until both breasts, the inner thighs and the wing joints read **165°F / 74°C**, then rest the bird for thirty minutes. Set the oven to **350°F / 177°C**. Cover the finished stuffing with foil and move it to the counter. Add the topping to the cold Spinach Madeleine dishes and bake them on the turkey's rack until the centers are steaming, 30 to 35 minutes. Return the covered stuffing to the oven for the last 10 minutes. Finish mashing the potatoes and cover the pot.
+7. **During the rest:** Finish the shallots and reheat the three bean batches in order, about twenty-five to thirty minutes. Hold the earlier batches covered in their warm serving dish, then finish all the beans with lemon. Carve after the final bean batch and keep the hot sides covered during those few minutes.
+8. **Serve twelve:** Portion turkey, stuffing, about three-quarters cup mash, a full share of beans, about two-thirds of a cup of Spinach Madeleine, two to three tablespoons cranberry sauce and about a quarter cup gravy. Bring the cranberry sauce to the table chilled.
 
 ## Delays and leftovers
 
-If dinner runs late, keep the hot dishes covered in the **200°F / 93°C** oven and the gravy over the lowest heat.
+If dinner runs late, turn the oven down to **200°F / 93°C** and keep the hot dishes covered there. Keep the gravy over the lowest heat.
 
 Carve the remaining turkey off the carcass and refrigerate the cooked components separately. Use them within three to four days. [FoodSafety.gov's handling advice](https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety) covers holiday leftovers.
