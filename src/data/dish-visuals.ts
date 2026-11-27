@@ -2702,7 +2702,7 @@ export const dishVisuals: Record<
   'shrimp-gumbo': {
     file: 'shrimp-gumbo.webp',
     title: 'Shrimp Gumbo',
-    alt: 'A bowl of dark brown roux gumbo with pink shrimp, rounds of okra, onion and tomato around a mound of white rice dusted with filé.',
+    alt: 'A bowl of rich brown roux gumbo with pink shrimp, rounds of okra, onion and tomato around a mound of white rice dusted with filé.',
   },
   'shrimp-linguine-with-fresh-tomato-and-basil': {
     file: 'shrimp-linguine-with-fresh-tomato-and-basil.webp',
@@ -3343,11 +3343,6 @@ export const dishVisuals: Record<
     file: 'yellow-cake-with-chocolate-frosting.webp',
     title: 'Yellow Cake with Chocolate Frosting',
     alt: 'One tall slice of two-layer yellow cake standing upright, showing a tender golden crumb with a thick layer of chocolate frosting between the layers and swirled over the top and side.',
-  },
-  'yellow-squash-casserole': {
-    file: 'yellow-squash-casserole.webp',
-    title: 'Yellow Squash Casserole',
-    alt: 'A baking dish of soft yellow squash casserole under a browned Parmesan top, with one square lifted out to show the custardy inside.',
   },
   'yogurt-dipping-sauce': {
     file: 'yogurt-dipping-sauce.webp',
