@@ -49,3 +49,6 @@ yarn-error.log*
 tmp/paprika-sync*/
 *.paprikarecipe
 *.paprikarecipes
+
+# Agent search index, written into the Worker before each deploy
+worker/agent-search/index.json

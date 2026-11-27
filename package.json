@@ -29,7 +29,9 @@
     "prebuild": "node scripts/compile-recipe-formulas.mjs --check",
     "export:text": "node scripts/export-text.mjs",
     "export:check": "node scripts/check-exports.mjs",
-    "check:copy": "node ./scripts/check-recipe-copy.mjs"
+    "check:copy": "node ./scripts/check-recipe-copy.mjs",
+    "agent-search:compare": "node scripts/agent-search-compare.mjs",
+    "agent-search:worker": "node scripts/build-agent-search-index.mjs worker/agent-search/index.json"
   },
   "dependencies": {
     "@astrojs/tailwind": "^6.0.2",

@@ -3,6 +3,7 @@ import tailwind from '@astrojs/tailwind';
 import { fileURLToPath } from 'node:url';
 import remarkDropChefsNote from './src/lib/remark-drop-chefs-note.mjs';
 import { exportText } from './scripts/export-text.mjs';
+import { exportAgentIndex } from './scripts/build-agent-search-index.mjs';
 
 // The all-recipes text file is written from the recipe sources on every build, so the
 // published copy always matches the pages. It is not kept in public/ or in git.
@@ -17,11 +18,24 @@ const combinedRecipeText = {
   },
 };
 
+// The agent search index is published beside the pages the same way, so the copy agents can
+// download always matches them.
+const agentSearchIndex = {
+  name: 'mise-agent-search-index',
+  hooks: {
+    'astro:build:done': async ({ dir, logger }) => {
+      const output = fileURLToPath(new URL('agent-search/index.json', dir));
+      const count = await exportAgentIndex(output);
+      logger.info(`Wrote ${count} recipes to agent-search/index.json`);
+    },
+  },
+};
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://jordansilton.com',
   base: '/mise/',
-  integrations: [tailwind(), combinedRecipeText],
+  integrations: [tailwind(), combinedRecipeText, agentSearchIndex],
   markdown: {
     remarkPlugins: [remarkDropChefsNote],
   },

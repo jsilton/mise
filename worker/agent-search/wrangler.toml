@@ -1,0 +1,7 @@
+# Free-plan Worker for Mise's agent search. With no route it answers on its workers.dev
+# address. A route such as jordansilton.com/.well-known/search* needs the jordansilton.com
+# zone on Cloudflare.
+name = "mise-agent-search"
+main = "worker.mjs"
+compatibility_date = "2026-11-01"
+workers_dev = true
