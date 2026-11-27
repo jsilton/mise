@@ -3344,6 +3344,11 @@ export const dishVisuals: Record<
     title: 'Yellow Cake with Chocolate Frosting',
     alt: 'One tall slice of two-layer yellow cake standing upright, showing a tender golden crumb with a thick layer of chocolate frosting between the layers and swirled over the top and side.',
   },
+  'yellow-squash-casserole': {
+    file: 'yellow-squash-casserole.webp',
+    title: 'Yellow Squash Casserole',
+    alt: 'A square white baking dish of yellow squash casserole with a puffed golden-brown top, one corner spooned out to show the soft pale filling flecked with onion.',
+  },
   'yogurt-dipping-sauce': {
     file: 'yogurt-dipping-sauce.webp',
     title: 'Yogurt Dipping Sauce',
