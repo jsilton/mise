@@ -1,7 +1,9 @@
 ---
 miseId: ff7c47ce-d855-495c-a558-653bd4921e39
 title: Shrimp with Lobster Sauce
-description: 'Shrimp in a savory sauce of ground pork, fermented black beans and garlic, thickened with cornstarch and finished with swirled egg.'
+description: >-
+  Shrimp in a savory sauce of ground pork, fermented black beans and garlic, thickened with
+  cornstarch and finished with swirled egg.
 difficulty: easy
 cookingMethods:
   - fry
@@ -230,7 +232,8 @@ formula:
       title: Stir-fry the shrimp
       text: >-
         Turn the heat to high. Add {{ingredients}}, pouring the wine around the hot edge of the wok.
-        Stir-fry until the shrimp turn pink on the outside, about 2 minutes.
+        Stir-fry until the shrimp turn pink on the outside, about 2 minutes. They finish cooking in
+        the sauce.
     - id: simmer
       title: Thicken the sauce
       text: >-
@@ -278,7 +281,7 @@ Shrimp with lobster sauce is a Chinese-American classic, named for the Cantonese
 1. **Mix the slurry:** Whisk the cornstarch and cold water in a small bowl until smooth.
 2. **Brown the pork:** Heat a wok over medium-high heat. Add the oil and ground pork and break the pork into small crumbles. Cook until browned and a little crisp, about 5 minutes.
 3. **Add the aromatics:** Add the garlic and fermented black beans and stir until fragrant, about 1 minute.
-4. **Stir-fry the shrimp:** Turn the heat to high. Add the shrimp and Shaoxing wine, pouring the wine around the hot edge of the wok. Stir-fry until the shrimp turn pink on the outside, about 2 minutes.
+4. **Stir-fry the shrimp:** Turn the heat to high. Add the shrimp and Shaoxing wine, pouring the wine around the hot edge of the wok. Stir-fry until the shrimp turn pink on the outside, about 2 minutes. They finish cooking in the sauce.
 5. **Thicken the sauce:** Pour in the chicken stock, soy sauce, dark soy sauce, sugar, and white pepper and bring to a boil. Stir the slurry again and stir it in. Simmer until the sauce turns glossy and coats a spoon, about 1 minute.
 6. **Make the egg ribbons:** Lower the heat so the sauce barely simmers. Drizzle the beaten egg in a thin stream over the surface and let the ribbons set for 30 seconds before folding them in gently. The shrimp should be opaque all the way through.
 7. **Serve:** Scatter the green onions over the top and serve right away.

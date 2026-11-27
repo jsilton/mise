@@ -127,6 +127,21 @@ const GROUP_NAMES = [
     /\b(cheese|cheddar|sour cream|cilantro|avocados?|scallions?|chips|jalapenos?|lime)\b/,
     /\btoppings?\b/,
   ],
+  // A stock, extract or other product made from a protein is its own ingredient, so a
+  // direction that says "the meat" or "the nuts" does not cover it, even when the line
+  // offers two proteins ("chicken or turkey stock").
+  [
+    /^(?!.*\b(stock|broth|sauce|paste|roe|skin)\b).*\b(snapper|sea bass|bass|branzino|cod|halibut|salmon|trout|tilapia|flounder|sole|haddock|grouper|mahi)\b/,
+    /\bfish\b(?! sauce)/,
+  ],
+  [
+    /^(?!.*\b(extract|butter|milk|flour|meal|oil|paste|liqueur)\b).*\b(walnuts?|pecans?|almonds?|cashews?|pistachios?|hazelnuts?|peanuts?|macadamias?)\b/,
+    /\bnuts?\b/,
+  ],
+  [
+    /^(?!.*\b(stock|broth|bouillon|base|marrow|fat|drippings|gelatin|skin|bones?|livers?|sausages?)\b).*\b(pork|chicken|beef|lamb|turkey|duck|brisket)\b/,
+    /\bmeat\b/,
+  ],
 ];
 
 // Directions that hand over a whole group of lines at once.
@@ -138,12 +153,16 @@ const SERVING_LINE =
   /\b(optional|if using|for serving|to serve|at serving|for garnish|garnish|as desired|for drizzling|for finishing|to finish)\b/;
 
 export function normalizeText(text) {
-  return String(text)
-    .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
-    .toLowerCase()
-    .replace(/\[\[([^\]|]+)(\|([^\]]+))?\]\]/g, (_, target, __, label) => label || target)
-    .replace(/[-_]/g, ' ');
+  return (
+    String(text)
+      .normalize('NFD')
+      .replace(/[̀-ͯ]/g, '')
+      .toLowerCase()
+      .replace(/\[\[([^\]|]+)(\|([^\]]+))?\]\]/g, (_, target, __, label) => label || target)
+      // A linked ingredient is matched by its words, not by the words in its link address.
+      .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+      .replace(/[-_]/g, ' ')
+  );
 }
 
 export function stem(word) {

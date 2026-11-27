@@ -134,3 +134,38 @@ test('only long-simmered acids in reactive pans are flagged', () => {
     []
   );
 });
+
+test('brown sugar in a marinade is not read as browning the meat', () => {
+  const data = {
+    title: 'Grilled chicken',
+    cookingMethods: ['grill', 'marinate'],
+    ingredients: ['1 1/2 lb boneless chicken thighs', '2 tbsp light brown sugar'],
+  };
+  assert.deepEqual(
+    rules(
+      data,
+      '1. Whisk the brown sugar into the marinade and add the chicken.\n2. Grill the chicken.'
+    ),
+    []
+  );
+});
+
+test('a spice dusted on top as a garnish gets no blooming hint', () => {
+  const data = {
+    title: 'Potato salad',
+    cookingMethods: ['boil', 'mix'],
+    ingredients: ['3 lb potatoes', 'paprika, a pinch, for the top'],
+  };
+  assert.deepEqual(rules(data, '1. Boil the potatoes.\n2. Top with the paprika.'), []);
+});
+
+test('a spice split between the pot and the top still gets the blooming hint', () => {
+  const data = {
+    title: 'Paprika stew',
+    cookingMethods: ['simmer'],
+    ingredients: ['2 lb potatoes', '1 tbsp paprika, plus more for serving', '4 cups water'],
+  };
+  assert.deepEqual(rules(data, '1. Add the water, potatoes and paprika and simmer 20 minutes.'), [
+    'kb.spice-blooming-recommended',
+  ]);
+});

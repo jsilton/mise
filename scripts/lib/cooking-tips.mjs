@@ -109,9 +109,10 @@ function panCrowding(data, directions) {
   const browning = /\b(sear|brown|stir fry|pan fry|fry|saute)/;
   // Meat that finishes in liquid, or where the recipe says a crust isn't needed.
   const notBrowning = /\b(broth|simmer|in (the )?sauce|not required)\b/;
+  // "Brown sugar" in a marinade step says nothing about browning the meat.
   const meatBrowned = stepsOf(directions).some(
     (step) =>
-      browning.test(step) &&
+      browning.test(step.replace(/\bbrown sugar\b/g, '')) &&
       large.some((name) => new RegExp(`\\b${name}\\b`).test(step)) &&
       !notBrowning.test(step)
   );
@@ -175,8 +176,14 @@ function spiceBlooming(data, directions) {
     'paprika',
     'cayenne',
   ];
+  // A pinch dusted over the finished dish is a garnish, so there is nothing to bloom. A line
+  // that keeps some back for the top ("plus more for serving") still puts the rest in the pot.
+  const garnish =
+    /^(?!.*\b(plus|divided)\b).*\b(for the top|for garnish|to garnish|for serving|to serve|for sprinkling|for dusting)\b/;
   const used = spices.filter((spice) =>
-    ingredientLines(data).some((line) => line.includes(spice) && !/\bseeds?\b/.test(line))
+    ingredientLines(data).some(
+      (line) => line.includes(spice) && !/\bseeds?\b/.test(line) && !garnish.test(line)
+    )
   );
   if (!used.length) return null;
   const inFat =
