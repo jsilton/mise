@@ -29,11 +29,13 @@ per recipe, each linked to its canonical page on jordansilton.com/mise.
   higher. Results scoring under a quarter of the best are dropped. When no recipe uses any of
   the words, the answer says so and returns nothing.
 - **Serving.** GitHub Pages can only serve files, so a free-plan Cloudflare Worker
-  (`worker/agent-search`) answers the requests. The index is bundled into the Worker and
+  (`worker/agent-search`) answers the requests at `jordansilton.com/.well-known/search` and
+  `jordansilton.com/mise/.well-known/search`. The index is bundled into the Worker and
   prepared once at startup, because the free plan allows 10 ms of CPU per request but a full
-  second at startup. A recipe change reaches the Worker only when it is deployed again:
-  `pnpm run agent-search:worker` writes `worker/agent-search/index.json`, then
-  `npx wrangler deploy` from that folder publishes it.
+  second at startup. Cloudflare Workers Builds deploys it from this repository: it runs
+  `pnpm run agent-search:worker` to write `worker/agent-search/index.json`, then
+  `npx wrangler@4 deploy --config worker/agent-search/wrangler.toml`. A recipe change reaches
+  the Worker only when the branch that build watches receives a push.
 
 ## Request
 

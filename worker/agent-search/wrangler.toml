@@ -1,7 +1,14 @@
-# Free-plan Worker for Mise's agent search. With no route it answers on its workers.dev
-# address. A route such as jordansilton.com/.well-known/search* needs the jordansilton.com
-# zone on Cloudflare.
+# Free-plan Worker for Mise's agent search. Cloudflare Workers Builds runs
+# `pnpm run agent-search:worker` to write index.json, then deploys with this file.
+# The routes answer on jordansilton.com, whose zone is on Cloudflare in front of GitHub Pages,
+# so only the search paths reach the Worker and every other page still comes from Pages.
 name = "mise-agent-search"
 main = "worker.mjs"
 compatibility_date = "2026-11-01"
-workers_dev = true
+workers_dev = false
+routes = [
+  { pattern = "jordansilton.com/.well-known/search", zone_name = "jordansilton.com" },
+  { pattern = "jordansilton.com/.well-known/search/", zone_name = "jordansilton.com" },
+  { pattern = "jordansilton.com/mise/.well-known/search", zone_name = "jordansilton.com" },
+  { pattern = "jordansilton.com/mise/.well-known/search/", zone_name = "jordansilton.com" },
+]
