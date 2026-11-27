@@ -65,3 +65,30 @@ test('a doubled consonant before -ing still matches the plain verb', () => {
 1. Stud the orange wedges with the garnish cloves.`;
   assert.deepEqual(findUnmentionedIngredients(ingredients, directions), []);
 });
+
+test('fish, nuts and meat called by their group name count as used', () => {
+  const ingredients = [
+    '1 (1 1/2 lb) whole snapper or sea bass, scaled and gutted',
+    '1 cup walnuts or pecans, coarsely chopped',
+    '1 lb cooked [pulled pork](/mise/recipes/pulled-pork/) or shredded chicken',
+  ];
+  const directions = `## Directions
+1. Pat the fish dry.
+2. Stir in the flour and nuts.
+3. Toss the meat with the sauce.`;
+  assert.deepEqual(findUnmentionedIngredients(ingredients, directions), []);
+});
+
+test('a stock, extract or sauce made from a protein is not covered by its group name', () => {
+  const ingredients = [
+    '1 cup unsalted chicken stock',
+    '2 cups chicken or vegetable broth',
+    '1 tsp almond extract',
+    '2 tbsp peanut or vegetable oil',
+    '1 lb cod fillets',
+  ];
+  const directions = `## Directions
+1. Toss the meat with the nuts.
+2. Season with fish sauce.`;
+  assert.deepEqual(findUnmentionedIngredients(ingredients, directions), ingredients);
+});

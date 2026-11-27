@@ -1,7 +1,9 @@
 ---
 miseId: af681778-f292-44b2-8a87-70f356b3e22d
 title: Beef Tenderloin Dogs with Corn Relish
-description: 'Seared strips of paprika-rubbed beef tenderloin in brioche buns, topped with a bright corn and red pepper relish.'
+description: >-
+  Seared strips of paprika-rubbed beef tenderloin in brioche buns, topped with a bright corn and red
+  pepper relish.
 difficulty: easy
 cookingMethods:
   - sear
@@ -189,8 +191,9 @@ formula:
     - id: sear
       title: Sear the beef
       text: >-
-        Reheat the skillet over high heat, or heat a grill to high. Sear the strips, turning, until
-        browned all over and 125°F in the center for medium-rare, 6 to 8 minutes.
+        Reheat the skillet over high heat, or heat a grill to high. Sear the strips in a single
+        layer with space between them, turning, until browned all over and 125°F in the center for
+        medium-rare, 6 to 8 minutes.
     - id: rest
       title: Rest the beef
       text: Move the beef to a plate and let it rest for 5 minutes.
@@ -223,7 +226,7 @@ Food & Wine's luxe take on a hot dog swaps the frank for a strip of seared beef 
 2. **Mix the dressing:** In a small bowl, whisk the apple cider vinegar, sugar, and salt and pepper until the sugar dissolves.
 3. **Make the relish:** Pour the dressing over the corn, add the red bell pepper and red onion and toss well. Let the relish sit while you cook the beef.
 4. **Season the beef:** Toss the beef tenderloin, olive oil, garlic powder, paprika, and salt and pepper together until the beef is evenly coated.
-5. **Sear the beef:** Reheat the skillet over high heat, or heat a grill to high. Sear the strips, turning, until browned all over and 125°F in the center for medium-rare, 6 to 8 minutes.
+5. **Sear the beef:** Reheat the skillet over high heat, or heat a grill to high. Sear the strips in a single layer with space between them, turning, until browned all over and 125°F in the center for medium-rare, 6 to 8 minutes.
 6. **Rest the beef:** Move the beef to a plate and let it rest for 5 minutes.
 7. **Toast the buns:** Toast the buns cut side down in the skillet or on the grill until golden, about 1 minute.
 8. **Assemble:** Tuck a beef strip into each bun and spoon the relish over the top.
