@@ -1,4 +1,4 @@
-// Recipe photos made by Frederick in batches 1 to 17 (docs/image-prompts on images/approaches).
+// Recipe photos made by Frederick in batches 1 to 18 (docs/image-prompts on images/approaches).
 // Each file is 960 x 640 WebP in public/images/dishes, named for its recipe slug.
 export const dishVisuals: Record<
   string,
@@ -474,6 +474,11 @@ export const dishVisuals: Record<
     title: 'Chewy Chocolate Meringues',
     alt: 'Five large, crackly meringue cookies piled loosely, glossy and crisp on the outside with dark chocolate chips, one broken open to show a chewy, marshmallowy inside.',
   },
+  'chicken-and-dumplings': {
+    file: 'chicken-and-dumplings.webp',
+    title: 'Chicken and Dumplings',
+    alt: 'A white bowl of thick, creamy chicken broth filled with soft, flat rolled dumplings and pulled pieces of tender chicken.',
+  },
   'chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan': {
     file: 'chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.webp',
     title: 'Chicken & Spinach Pasta with Lemon',
@@ -493,6 +498,11 @@ export const dishVisuals: Record<
     file: 'chicken-apple-and-butternut-stew.webp',
     title: 'Chicken, Apple, and Butternut Stew',
     alt: 'A bowl of hearty stew with cubes of orange butternut squash, pieces of tender chicken thigh, parsnip and tart apple in a light golden cider broth.',
+  },
+  'chicken-baked-in-cream-soup': {
+    file: 'chicken-baked-in-cream-soup.webp',
+    title: 'Chicken Baked in Cream Soup',
+    alt: 'Four bone-in chicken pieces, a thigh, a drumstick and two breasts, baked skin side up in a creamy pale sauce, their tops browned in golden spots.',
   },
   'chicken-biryani': {
     file: 'chicken-biryani.webp',
@@ -838,6 +848,11 @@ export const dishVisuals: Record<
     file: 'cream-of-mushroom-soup.webp',
     title: 'Cream of Mushroom Soup',
     alt: 'A bowl of smooth, velvety light brown mushroom soup with a swirl of cream on top and a few golden sautéed mushroom slices.',
+  },
+  'cream-of-potato-and-bacon-soup': {
+    file: 'cream-of-potato-and-bacon-soup.webp',
+    title: 'Cream of Potato and Bacon Soup',
+    alt: 'A bowl of creamy potato soup with soft potato cubes, bits of carrot and celery, topped with a pile of crumbled crisp bacon.',
   },
   'creamy-avocado-pasta': {
     file: 'creamy-avocado-pasta.webp',
@@ -1418,6 +1433,11 @@ export const dishVisuals: Record<
     file: 'grilled-zucchini-with-mint.webp',
     title: 'Grilled Zucchini with Mint and Lemon',
     alt: 'Long planks of zucchini with golden grill marks laid overlapping on a platter, drizzled with olive oil and scattered with torn mint and lemon zest.',
+  },
+  'ground-beef-stroganoff': {
+    file: 'ground-beef-stroganoff.webp',
+    title: 'Ground Beef Stroganoff',
+    alt: 'Browned ground beef and sliced mushrooms in a creamy sour cream sauce spooned over a bowl of wide golden egg noodles.',
   },
   'gwock-family-macaroni-and-cheese': {
     file: 'gwock-family-macaroni-and-cheese.webp',
@@ -2669,10 +2689,20 @@ export const dishVisuals: Record<
     title: 'Shrimp & Sweet Potato Noodle Stir-Fry',
     alt: 'A pile of clear, glossy sweet potato glass noodles tossed with velvety pink shrimp, julienned carrot, snow peas and green onion in a savory soy glaze.',
   },
+  'shrimp-craig': {
+    file: 'shrimp-craig.webp',
+    title: 'Shrimp Craig',
+    alt: 'Twelve jumbo shrimp dusted with hot paprika, fanned over white rice and spooned with golden garlic butter flecked with parsley.',
+  },
   'shrimp-fettuccine-alfredo': {
     file: 'shrimp-fettuccine-alfredo.webp',
     title: 'Shrimp Fettuccine Alfredo',
     alt: 'A twirled nest of fettuccine coated in a smooth, creamy white Alfredo sauce, topped with five seared jumbo shrimp.',
+  },
+  'shrimp-gumbo': {
+    file: 'shrimp-gumbo.webp',
+    title: 'Shrimp Gumbo',
+    alt: 'A bowl of rich brown roux gumbo with pink shrimp, rounds of okra, onion and tomato around a mound of white rice dusted with filé.',
   },
   'shrimp-linguine-with-fresh-tomato-and-basil': {
     file: 'shrimp-linguine-with-fresh-tomato-and-basil.webp',
@@ -2898,6 +2928,11 @@ export const dishVisuals: Record<
     file: 'spinach-and-mushroom-quiche.webp',
     title: 'Spinach & Mushroom Quiche',
     alt: 'One tall wedge of quiche with a flaky golden pastry crust, its cut side showing a creamy set egg custard full of spinach, sliced mushrooms and soft onions, the top lightly browned.',
+  },
+  'spinach-madeleine': {
+    file: 'spinach-madeleine.webp',
+    title: 'Spinach Madeleine',
+    alt: 'A round baking dish of creamy, cheesy chopped spinach under a golden crust of crisp breadcrumbs, with one spoonful lifted out to show the green inside.',
   },
   'spindrift-gin-fizz': {
     file: 'spindrift-gin-fizz.webp',
