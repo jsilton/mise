@@ -5,6 +5,7 @@ Read `CLAUDE.md` for culinary philosophy, recipe review criteria and project
 conventions, and `README.md` for the current repository map. For recipe work,
 follow `docs/RECIPE_STANDARD.md`, `docs/RECIPE_REVIEW_PIPELINE.md` and the latest
 checkpoint in `docs/REVIEW_PROGRESS.md`; reconcile their dated instructions.
+Read `KNOWN-GAPS.md` for what is unreviewed, unverifiable, untested or stale.
 The coordination guidance below does not replace those culinary standards or
 change an active campaign's assignments, integration ownership or release scope.
 

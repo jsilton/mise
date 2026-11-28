@@ -272,6 +272,8 @@ Keep composed meals with ingredient portions, timing and preparation guidance. W
 
 ## Known Gaps
 
+`KNOWN-GAPS.md` lists unreviewed work, checks that don't run and stale docs. This section covers missing recipes.
+
 Areas where more recipes are needed, prioritized by family impact:
 
 - **Quick weeknight meals (under 25 min active time)**: The single most impactful gap. Need stir-fries, sheet-pan meals, pasta dishes, grain bowls, and taco/wrap builds that are genuinely fast
